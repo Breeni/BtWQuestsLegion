@@ -1,0 +1,11 @@
+## Interface: 60100
+## Title: BtWQuests
+## Version: 0.2
+## Notes: 
+## Author: Breen
+## SavedVariablesPerCharacter: BtWQuests_Settings
+
+Localization.enGB.lua
+Quests.lua
+BtWQuests.lua
+BtWQuests.xml
