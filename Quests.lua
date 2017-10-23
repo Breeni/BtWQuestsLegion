@@ -63,7 +63,7 @@ BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS = 41
 BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS = 42
 BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREAKER = 43
 BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD = 44
-BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDING_TELANOR = 45
+BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR = 45
 BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN = 46
 BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL = 47
 
@@ -202,7 +202,7 @@ BtWQuests_Categories = {
             BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS,
             BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREAKER,
             BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDING_TELANOR,
+            BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR,
             BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN,
             BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL,
         }
@@ -3902,7 +3902,7 @@ BtWQuests_Chains = {
             },
         }
     },
-    [BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDING_TELANOR] = {
+    [BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR] = {
         name = GetAchievementCriteriaInfo(11124, 9),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -3914,10 +3914,117 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 41494
+            id = 40321
         },
         range = {110},
         items = {
+            {
+                type = "dummy",
+                name = "Go to Thaedris Feathersong",
+                onClick = function ()
+                    if TomTom and TomTom.AddMFWaypoint then
+                        TomTom:AddMFWaypoint(1033, 0, 0.456, 0.408, {
+                            title = "Thaedris Feathersong",
+                        })
+                    end
+                end,
+                x = 3,
+                y = 0,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 40266,
+                x = 2,
+                y = 1,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 40744,
+                x = 4,
+                y = 1,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 40308,
+                optional = true,
+                x = 1,
+                y = 2,
+            },
+            {
+                type = "quest",
+                id = 40227,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40300,
+                x = 3,
+                y = 3,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 40306,
+                x = 2,
+                y = 4,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 40578,
+                x = 4,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40315,
+                x = 3,
+                y = 5,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43809,
+                x = 1,
+                y = 6,
+            },
+            {
+                type = "quest",
+                id = 40319,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40321,
+                x = 3,
+                y = 7,
+            },
         }
     },
     [BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN] = {
@@ -4117,10 +4224,180 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 41494
+            id = 40336
         },
         range = {110},
         items = {
+            {
+                type = "quest",
+                id = 40907,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40908,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 40332,
+                x = 1,
+                y = 2,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 40320,
+                x = 3,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 40331,
+                x = 5,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40334,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41034,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40927,
+                x = 3,
+                y = 7,
+                connections = {
+                    1, 4, 7, 9, 10
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 41425,
+                optional = true,
+                x = 1,
+                y = 7,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 41001,
+                optional = true,
+                x = 0,
+                y = 6,
+            },
+            {
+                type = "quest",
+                id = 41499,
+                optional = true,
+                x = 0,
+                y = 8,
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 41606,
+                optional = true,
+                x = 5,
+                y = 7,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 40364,
+                optional = true,
+                x = 6,
+                y = 6,
+            },
+            {
+                type = "quest",
+                id = 41618,
+                optional = true,
+                x = 6,
+                y = 8,
+            },
+            
+            
+            {
+                type = "quest",
+                id = 41410,
+                optional = true,
+                x = 2,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41409,
+                optional = true,
+                x = 1,
+                y = 5,
+            },
+            
+            
+            {
+                type = "quest",
+                id = 41426,
+                x = 2,
+                y = 8,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 41709,
+                x = 4,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40336,
+                x = 3,
+                y = 9,
+            },
         }
     },
     
@@ -6519,6 +6796,133 @@ BtWQuests_Quests = {
     
     [43808] = {
         name = "Moon Guard Teleporter Online!",
+        level = 110,
+    },
+    
+    
+    
+    [40266] = {
+        name = "The Lost Advisor",
+        level = 110,
+    },
+    [40744] = {
+        name = "An Ancient Recipe",
+        level = 110,
+    },
+    [40227] = {
+        name = "Bad Intentions",
+        level = 110,
+    },
+    [40300] = {
+        name = "Tools of the Trade",
+        level = 110,
+    },
+    [40306] = {
+        name = "The Last Chapter",
+        level = 110,
+    },
+    [40578] = {
+        name = "Paying Respects",
+        level = 110,
+    },
+    [40315] = {
+        name = "End of the Line",
+        level = 110,
+    },
+    [40319] = {
+        name = "The Final Ingredient",
+        level = 110,
+    },
+    [40321] = {
+        name = "Feathersong's Redemption",
+        level = 110,
+    },
+    [40308] = {
+        name = "Fragments of Memory",
+        level = 110,
+    },
+    
+    [43809] = {
+        name = "Tel'anor'eporter Online!",
+        level = 110,
+    },
+    
+    
+    
+    [40907] = {
+        name = "Removing Obstacles",
+        level = 110,
+    },
+    [40908] = {
+        name = "Jarl Come Back Now",
+        level = 110,
+    },
+    [40332] = {
+        name = "Beach Bonfire",
+        level = 110,
+    },
+    [40320] = {
+        name = "Band of Blood Brothers",
+        level = 110,
+    },
+    [40331] = {
+        name = "Bite of the Sashj'tar",
+        level = 110,
+    },
+    [40334] = {
+        name = "Fisherman's Tonic",
+        level = 110,
+    },
+    [41034] = {
+        name = "Testing the Waters",
+        level = 110,
+    },
+    [40927] = {
+        name = "Jandvik's Last Hope",
+        level = 110,
+    },
+    [41426] = {
+        name = "Against Their Will",
+        level = 110,
+    },
+    [41709] = {
+        name = "Breaking Down the Big Guns",
+        level = 110,
+    },
+    [41410] = {
+        name = "Dry Powder",
+        level = 110,
+    },
+    [41409] = {
+        name = "Timing Is Everything",
+        level = 110,
+    },
+    [41606] = {
+        name = "Finding Brytag",
+        level = 110,
+    },
+    [40364] = {
+        name = "Bubble Trouble",
+        level = 110,
+    },
+    [41618] = {
+        name = "The Seawarden",
+        level = 110,
+    },
+    [41425] = {
+        name = "Sunken Foes",
+        level = 110,
+    },
+    [41001] = {
+        name = "Shatter the Sashj'tar",
+        level = 110,
+    },
+    [41499] = {
+        name = "Squid Out of Water",
+        level = 110,
+    },
+    [40336] = {
+        name = "Turning the Tidemistress",
         level = 110,
     },
     
