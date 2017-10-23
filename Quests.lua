@@ -3610,6 +3610,12 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 7),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
+        requirements = {
+            {
+                type = "level",
+                level = 110,
+            },
+        },
         completed = {
             type = "quest",
             id = 40412,
