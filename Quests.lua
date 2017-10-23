@@ -270,7 +270,6 @@ BtWQuests_Chains = {
         buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-BalanceofPower",
         items = {
             {
-                name = "The Power Within",
                 type = "quest",
                 id = 43496,
                 x = 2.75,
@@ -280,67 +279,39 @@ BtWQuests_Chains = {
                 }, 
             },
             {
-                name = "The Heart of Zin-Azshari",
                 type = "quest",
                 id = 40668,
                 x = 3.25,
                 y = 1,
                 connections = {
-                    1,2,3
+                    1, 2, 3
                 }, 
             },
             
             
             {
-                name = "A Vainglorious Past",
                 type = "quest",
                 id = 43514,
                 x = 1,
                 y = 2,
-                connectorTop = 1,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 40668,
-                    }
-                },
                 connections = {
                     3
                 }, 
             },
             {
-                name = "Fallen Power",
                 type = "quest",
                 id = 43517,
                 x = 3,
                 y = 2,
-                connectorTop = 1,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 40668,
-                    }
-                },
                 connections = {
                     2
                 },
             },
             {
-                name = "Tempering Darkness",
                 type = "quest",
                 id = 43518,
                 x = 5,
                 y = 2,
-                connectorTop = 1,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 40668,
-                    }
-                },
                 connections = {
                     1
                 },
@@ -348,45 +319,20 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Lucid Stength",
                 type = "quest",
                 id = 43519,
                 x = 3,
                 y = 3,
-                connectorTop = 1,
-                connectorRight = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 43514,
-                    },
-                    {
-                        type = "quest",
-                        id = 43517,
-                    },
-                    {
-                        type = "quest",
-                        id = 43518,
-                    }
-                },
                 connections = {
                     1
                 },
             },
             {
-                name = "The Wisdom of Patience",
                 type = "quest",
                 id = 43581,
                 optional = true,
                 x = 3,
                 y = 4,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 43519,
-                    }
-                },
                 connections = {
                     1, 2
                 },
@@ -394,39 +340,21 @@ BtWQuests_Chains = {
             
             
             {
-                name = "In Nightmares",
                 type = "quest",
                 id = 43520,
                 x = 2,
                 y = 5,
                 atlas = "groupfinder-button-raids-legion",
-                connectorTop = 1,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 43519,
-                    }
-                },
                 connections = {
                     2
                 },
             },
             {
-                name = "Essence of Power",
                 type = "quest",
                 id = 43521,
                 x = 4,
                 y = 5,
                 atlas = "groupfinder-button-raids-legion",
-                connectorTop = 1,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 43519,
-                    }
-                },
                 connections = {
                     1
                 },
@@ -434,46 +362,24 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Essential Consumption",
                 type = "quest",
                 id = 43522,
                 x = 2.75,
                 y = 6,
-                connectorTop = 1,
-                connectorRight = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 43520,
-                    },
-                    {
-                        type = "quest",
-                        id = 43521,
-                    }
-                },
                 connections = {
                     1
                 },
             },
             {
-                name = "Repaid Debt",
                 type = "quest",
                 id = 43523,
                 x = 3,
                 y = 7,
-                connectorRight = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 43522,
-                    }
-                },
                 connections = {
                     2
                 },
             },
             {
-                name = "Revered with The Nightfallen",
                 type = "reputation",
                 id = 1859,
                 standing = 7,
@@ -484,18 +390,10 @@ BtWQuests_Chains = {
                 },
             },
             {
-                name = "Lost Knowledge",
                 type = "quest",
                 id = 40673,
                 x = 3.25,
                 y = 8,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 43523,
-                    }
-                },
                 connections = {
                     1, 2, 3
                 },
@@ -504,55 +402,28 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Borrowing Without Asking",
                 type = "quest",
                 id = 43525,
                 x = 1,
                 y = 9,
-                connectorTop = 1,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 40673,
-                    }
-                },
                 connections = {
                     3
                 },
             },
             {
-                name = "Rite of the Captain",
                 type = "quest",
                 id = 40675,
                 x = 3,
                 y = 9,
-                connectorTop = 1,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 40673,
-                    }
-                },
                 connections = {
                     2
                 },
             },
             {
-                name = "Literary Perfection",
                 type = "quest",
                 id = 43524,
                 x = 5,
                 y = 9,
-                connectorTop = 1,
-                connectorBottom = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 40673,
-                    }
-                },
                 connections = {
                     1
                 },
@@ -560,27 +431,10 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Twisted Power",
                 type = "quest",
                 id = 40678,
                 x = 3.25,
                 y = 10,
-                connectorTop = 1,
-                connectorRight = 1,
-                requirements = {
-                    {
-                        type = "quest",
-                        id = 43525,
-                    },
-                    {
-                        type = "quest",
-                        id = 40675,
-                    },
-                    {
-                        type = "quest",
-                        id = 43524,
-                    }
-                },
                 connections = {
                     1
                 },
@@ -588,7 +442,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "A True Test",
                 type = "quest",
                 id = 43526,
                 x = 3,
@@ -600,7 +453,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Seeking the Valkyra",
                 type = "quest",
                 id = 40603,
                 x = 2.75,
@@ -612,7 +464,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "The Mark",
                 type = "quest",
                 id = 40608,
                 x = 3.25,
@@ -624,7 +475,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Retrieving the Svalnguard",
                 type = "quest",
                 id = 40613,
                 x = 3,
@@ -636,7 +486,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "A Feast Fit for Odyn",
                 type = "quest",
                 id = 40614,
                 x = 2,
@@ -648,7 +497,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Presentation is Key",
                 type = "quest",
                 id = 40672,
                 x = 4,
@@ -660,7 +508,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Odyn's Blessing",
                 type = "quest",
                 id = 40615,
                 x = 2.75,
@@ -672,7 +519,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Planning the Assault",
                 type = "quest",
                 id = 43528,
                 x = 3.25,
@@ -684,7 +530,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Into the Nighthold",
                 type = "quest",
                 id = 43531,
                 x = 2,
@@ -696,7 +541,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "The Nighthold: Delusions of Grandeur",
                 type = "quest",
                 id = 43530,
                 x = 4,
@@ -708,7 +552,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "The Nighthold: Darkness Calls",
                 type = "quest",
                 id = 43532,
                 x = 3,
@@ -720,7 +563,6 @@ BtWQuests_Chains = {
             
             
             {
-                name = "Balance of Power",
                 type = "quest",
                 id = 43533,
                 x = 3,
@@ -739,7 +581,6 @@ BtWQuests_Chains = {
         },
         items = {
             {
-                name = "Into the Fray",
                 type = "quest",
                 id = 38834,
                 x = 3,
@@ -749,7 +590,6 @@ BtWQuests_Chains = {
                 }, 
             },
             {
-                name = "Reignite the Wards",
                 type = "quest",
                 id = 37658,
                 x = 2,
@@ -759,7 +599,6 @@ BtWQuests_Chains = {
                 }, 
             },
             {
-                name = "Demon Souls",
                 type = "quest",
                 id = 37653,
                 x = 4,
@@ -769,7 +608,6 @@ BtWQuests_Chains = {
                 }, 
             },
             {
-                name = "The Scythe of Souls",
                 type = "quest",
                 id = 37660,
                 x = 3,
@@ -779,7 +617,6 @@ BtWQuests_Chains = {
                 }, 
             },
             {
-                name = "From Within",
                 type = "quest",
                 id = 36920,
                 x = 3,
@@ -795,7 +632,6 @@ BtWQuests_Chains = {
                 y = 3.25,
             },
             {
-                name = "Saving Stellagosa",
                 type = "quest",
                 id = 37450,
                 x = 2,
@@ -805,7 +641,6 @@ BtWQuests_Chains = {
                 }, 
             },
             {
-                name = "Fel Machinations",
                 type = "quest",
                 id = 37656,
                 x = 4,
@@ -815,7 +650,6 @@ BtWQuests_Chains = {
                 }, 
             },
             {
-                name = "Dark Revelations",
                 type = "quest",
                 id = 37449,
                 x = 3,
@@ -834,7 +668,6 @@ BtWQuests_Chains = {
                 }, 
             },
             {
-                name = GetAchievementCriteriaInfo(10763, 2),
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
                 x = 3,
