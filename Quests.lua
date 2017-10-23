@@ -200,11 +200,11 @@ BtWQuests_Categories = {
             BTWQUESTS_CHAIN_LEGION_SURAMAR_STATECRAFT,
             BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS,
             BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS,
-            -- BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREAKER,
-            -- BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
-            -- BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDING_TELANOR,
-            -- BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN,
-            -- BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL,
+            BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREAKER,
+            BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
+            BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDING_TELANOR,
+            BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN,
+            BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL,
         }
     },
     [BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION] = {
@@ -3610,23 +3610,313 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 7),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 40412,
+        },
         range = {110},
         items = {
+            {
+                type = "quest",
+                id = 44489,
+                class = 12, -- Demon Hunter
+                x = 3,
+                y = 0,
+                connections = {
+                    2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 40297,
+                classes = {1,2,3,4,5,6,7,8,9,10,11}, -- Not Demon Hunter
+                x = 3,
+                y = 0,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 40307,
+                x = 2,
+                y = 1,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 40898,
+                x = 4,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44490,
+                x = 3,
+                y = 2,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 40328,
+                x = 2,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 40929,
+                x = 4,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 41575,
+                x = 0,
+                y = 4,
+            },
+            {
+                type = "quest",
+                id = 41097,
+                x = 2,
+                y = 4,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 41098,
+                x = 4,
+                y = 4,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43594,
+                x = 6,
+                y = 4,
+            },
+            {
+                type = "quest",
+                id = 40412,
+                x = 3,
+                y = 5,
+            },
         }
     },
     [BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD] = {
         name = GetAchievementCriteriaInfo(11124, 8),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        range = {98, 110},
+        requirements = {
+            {
+                type = "level",
+                level = 110,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 40972
+        },
+        range = {110},
         items = {
+            {
+                type = "dummy",
+                name = "Kill Nightborne",
+                optional = true,
+                x = 1,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41030,
+                optional = true,
+                x = 1,
+                y = 1,
+            },
+            {
+                type = "dummy",
+                name = "Go to Lyrea Windfeather",
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40883,
+                x = 3,
+                y = 1,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "dummy",
+                name = "Go to Ivanel Meadowsong",
+                x = 5,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40949,
+                x = 5,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40963,
+                x = 3,
+                y = 2,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 40964,
+                x = 3,
+                y = 5,
+                connections = {
+                    4, 5, 6
+                },
+            },
+            {
+                type = "quest",
+                id = 40968,
+                optional = true,
+                x = 5,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41109,
+                optional = true,
+                x = 5,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41108,
+                optional = true,
+                x = 5,
+                y = 5,
+            },
+            {
+                type = "quest",
+                id = 40967,
+                x = 1,
+                y = 6,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 41032,
+                x = 3,
+                y = 6,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 40965,
+                x = 5,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40969,
+                x = 3,
+                y = 7,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 40970,
+                x = 2,
+                y = 8,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 40971,
+                x = 4,
+                y = 8,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43808,
+                optional = true,
+                x = 1,
+                y = 9,
+            },
+            {
+                type = "quest",
+                id = 40972,
+                x = 3,
+                y = 9,
+            },
         }
     },
     [BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDING_TELANOR] = {
         name = GetAchievementCriteriaInfo(11124, 9),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        range = {98, 110},
+        requirements = {
+            {
+                type = "level",
+                level = 110,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 41494
+        },
+        range = {110},
         items = {
         }
     },
@@ -3634,15 +3924,202 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 10),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        range = {98, 110},
+        requirements = {
+            {
+                type = "level",
+                level = 110,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 41494
+        },
+        range = {110},
         items = {
+            {
+                type = "quest",
+                id = 41452,
+                x = 3,
+                y = 0,
+                connections = {
+                    3, 6
+                },
+            },
+            {
+                type = "dummy",
+                name = "Kill the Starving Ettin",
+                optional = true,
+                x = 1,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41462,
+                optional = true,
+                x = 1,
+                y = 2,
+            },
+            {
+                type = "quest",
+                id = 41453,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41197,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "dummy",
+                name = "Return to Irongrove Retreat",
+                x = 3,
+                y = 3,
+                connections = {
+                    4
+                },
+            },
+            {
+                type = "quest",
+                id = 41463,
+                optional = true,
+                x = 5,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41464,
+                optional = true,
+                x = 5,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41467,
+                optional = true,
+                x = 5,
+                y = 3,
+            },
+            {
+                type = "quest",
+                id = 41473,
+                x = 3,
+                y = 4,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 41474,
+                x = 2,
+                y = 5,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 41475,
+                x = 4,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41478,
+                x = 3,
+                y = 6,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 41479,
+                x = 1,
+                y = 7,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 41485,
+                x = 3,
+                y = 7,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 41480,
+                x = 5,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41469,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41494,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42223,
+                x = 3,
+                y = 10,
+            },
         }
     },
     [BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL] = {
         name = GetAchievementCriteriaInfo(11124, 11),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        range = {98, 110},
+        requirements = {
+            {
+                type = "level",
+                level = 110,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 41494
+        },
+        range = {110},
         items = {
         }
     },
@@ -5858,7 +6335,197 @@ BtWQuests_Quests = {
     
     
     
+    [44489] = {
+        name = "Lyana Darksorrow",
+        level = 110,
+    },
+    [40297] = {
+        name = "Lyana Darksorrow",
+        level = 110,
+    },
+    [40307] = {
+        name = "Glaive Circumstances",
+        level = 110,
+    },
+    [40898] = {
+        name = "Fresh Meat",
+        level = 110,
+    },
+    [44490] = {
+        name = "Grimwing the Devourer",
+        level = 110,
+    },
+    [40328] = {
+        name = "A Fate Worse Than Dying",
+        level = 110,
+    },
+    [40929] = {
+        name = "Symbols of Power",
+        level = 110,
+    },
+    [41097] = {
+        name = "Shard of Vorgos",
+        level = 110,
+    },
+    [41098] = {
+        name = "Shard of Kozak",
+        level = 110,
+    },
+    [40412] = {
+        name = "Azoran Must Die",
+        level = 110,
+    },
+    
+    [41575] = {
+        name = "Felsoul Teleporter Online!",
+        level = 110,
+    },
+    
+    [43594] = {
+        name = "Leyline Feed: Halls of the Eclipse",
+        level = 110,
+    },
+    
+    
+    
+    [41452] = {
+        name = "Feline Frantic",
+        level = 110,
+    },
+    [41453] = {
+        name = "Homeward Bounding",
+        level = 110,
+    },
+    [41462] = {
+        name = "Trouble Has Huge Feet",
+        level = 110,
+    },
+    [41197] = {
+        name = "You've Got to Be Kitten Me Right Meow",
+        level = 110,
+    },
+    [41463] = {
+        name = "Missing Along the Way",
+        level = 110,
+    },
+    [41464] = {
+        name = "Not Here, Not Now, Not Ever",
+        level = 110,
+    },
+    [41467] = {
+        name = "The Only Choice We Can Make",
+        level = 110,
+    },
+    [41473] = {
+        name = "Redhoof the Ancient",
+        level = 110,
+    },
+    [41474] = {
+        name = "Fertilizing the Future",
+        level = 110,
+    },
+    [41475] = {
+        name = "Prongs and Fangs",
+        level = 110,
+    },
+    [41478] = {
+        name = "The Final Blessing",
+        level = 110,
+    },
+    [41479] = {
+        name = "Natural Adversaries",
+        level = 110,
+    },
+    [41485] = {
+        name = "Moonwhisper Rescue",
+        level = 110,
+    },
+    [41480] = {
+        name = "Managazer",
+        level = 110,
+    },
+    [41469] = {
+        name = "Return to Irongrove Retreat",
+        level = 110,
+    },
+    [41494] = {
+        name = "Eminent Grow-main",
+        level = 110,
+    },
+    
+    
+    
+    [40883] = {
+        name = "Fate of the Guard",
+        level = 110,
+    },
+    [40949] = {
+        name = "Not Their Last Stand",
+        level = 110,
+    },
+    [41030] = {
+        name = "Sigil Reclamation",
+        level = 110,
+    },
+    [40963] = {
+        name = "Take Them in Claw",
+        level = 110,
+    },
+    [40968] = {
+        name = "Recovering Stolen Power",
+        level = 110,
+    },
+    [41109] = {
+        name = "Waiting for Revenge",
+        level = 110,
+    },
+    [41108] = {
+        name = "Rain Death Upon Them",
+        level = 110,
+    },
+    [40964] = {
+        name = "The Rift Between",
+        level = 110,
+    },
+    [40967] = {
+        name = "Precious Little Left",
+        level = 110,
+    },
+    [41032] = {
+        name = "Stop the Spell Seekers",
+        level = 110,
+    },
+    [40965] = {
+        name = "Lay Waste, Lay Mines",
+        level = 110,
+    },
+    [40969] = {
+        name = "Starweaver's Fate",
+        level = 110,
+    },
+    [40970] = {
+        name = "The Orchestrator of Our Demise",
+        level = 110,
+    },
+    [40971] = {
+        name = "Overwhelming Distraction",
+        level = 110,
+    },
+    [40972] = {
+        name = "Last Stand of the Moon Guard",
+        level = 110,
+    },
+    
+    
+    [43808] = {
+        name = "Moon Guard Teleporter Online!",
+        level = 110,
+    },
+    
+    
+    
     [40730] = {
         name = "Redistribution",
+        level = 110,
     },
 }
