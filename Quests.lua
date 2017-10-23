@@ -4207,8 +4207,79 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 42223,
+                optional = true,
                 x = 3,
                 y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40617,
+                x = 3,
+                y = 11,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 41230,
+                x = 2,
+                y = 12,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 41215,
+                x = 4,
+                y = 12,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "dummy",
+                name = "Go to Nighteyes",
+                onClick = function ()
+                    if TomTom and TomTom.AddMFWaypoint then
+                        TomTom:AddMFWaypoint(1033, 0, 0.506, 0.565, {
+                            title = "Nighteyes",
+                        })
+                    end
+                end,
+                x = 3,
+                y = 13,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41216,
+                x = 3,
+                y = 14,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41231,
+                x = 3,
+                y = 15,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43582,
+                x = 3,
+                y = 16,
             },
         }
     },
@@ -6923,6 +6994,33 @@ BtWQuests_Quests = {
     },
     [40336] = {
         name = "Turning the Tidemistress",
+        level = 110,
+    },
+    
+    
+    
+    [42223] = {
+        name = "Scouting the Crimson Thicket",
+        level = 110,
+    },
+    [40617] = {
+        name = "Turn Around, Nighteyes",
+        level = 110,
+    },
+    [41230] = {
+        name = "Trapping Evolved",
+        level = 110,
+    },
+    [41216] = {
+        name = "Survival of the Fittest",
+        level = 110,
+    },
+    [41231] = {
+        name = "Apex Predator",
+        level = 110,
+    },
+    [43582] = {
+        name = "Shalassic Park",
         level = 110,
     },
     
