@@ -92,9 +92,13 @@ function BtWQuests_SelectFromLink(link)
             if ( IsQuestComplete(id) and GetQuestLogIsAutoComplete(questLogIndex) ) then
                 AutoQuestPopupTracker_RemovePopUp(id);
                 ShowQuestComplete(questLogIndex);
+                
+                return true
             else
                 ShowQuestLog();
                 QuestMapFrame_ShowQuestDetails(id);
+                
+                return true
             end
         end
     elseif type == "btwquests" then
@@ -104,10 +108,16 @@ function BtWQuests_SelectFromLink(link)
         
         if subtype == "category" then
             BtWQuests_SelectCategory(id)
+            
+            return true
         elseif subtype == "chain" then
             BtWQuests_SelectChain(id)
+            
+            return true
         end
     end
+    
+    return false
 end
 
 function BtWQuests_GetCategoryByIndexForCategory(index, parentCategoryID)
@@ -333,7 +343,7 @@ function BtWQuests_GetChainDummyByIndex(index)
         local item = BtWQuests_Chains[chainID].items[index]
         
         if item then
-            return item.name
+            return item.name, item.onClick
         end
     end
 end
@@ -663,6 +673,7 @@ function BtWQuests_DisplayChain()
                 itemButton.showTooltip = true
                 itemButton.link = link;
                 itemButton.chainID = nil
+                itemButton.onClick = nil
             elseif type == "chain" then
                 local chainID, name, link, _, _, _, numRequirements, completed = BtWQuests_GetChainChainByIndex(index);
                 
@@ -693,6 +704,7 @@ function BtWQuests_DisplayChain()
                 itemButton.showTooltip = true
                 itemButton.link = link;
                 itemButton.chainID = chainID
+                itemButton.onClick = nil
             elseif type == "reputation" then
                 local factionID, name, standing, amount, completed = BtWQuests_GetChainReputationByIndex(index);
                 
@@ -710,8 +722,9 @@ function BtWQuests_DisplayChain()
                 itemButton.showTooltip = false
                 itemButton.link = nil;
                 itemButton.chainID = nil
+                itemButton.onClick = nil
             elseif type == "dummy" then
-                local name = BtWQuests_GetChainDummyByIndex(index);
+                local name, onClick = BtWQuests_GetChainDummyByIndex(index);
                 
                 itemButton.status = nil
                 if #connections > 0 then
@@ -740,6 +753,7 @@ function BtWQuests_DisplayChain()
                 itemButton.showTooltip = false
                 itemButton.link = nil;
                 itemButton.chainID = nil
+                itemButton.onClick = onClick
             else
                 itemButton.status = 'active'
                 
@@ -755,6 +769,7 @@ function BtWQuests_DisplayChain()
                 itemButton.showTooltip = false
                 itemButton.link = nil;
                 itemButton.chainID = nil
+                itemButton.onClick = nil
             end
             
             itemButton.optional = optional
