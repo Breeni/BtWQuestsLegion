@@ -1058,7 +1058,7 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 14,
                 connections = {
-                    1, 2
+                    1
                 }, 
             },
             {
