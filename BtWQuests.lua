@@ -248,9 +248,11 @@ function BtWQuests_GetQuestByID(questID)
         -- print("[BtWQuests] Missing quest " .. questID)
         --return nil
         --@TODO Remove temp
-        return questID, 'Unnamed', "|cffffff00|Hquest:"..questID..":-1|h[Unnamed]|h|r", nil, nul
+        -- return questID, 'Unnamed', "|cffffff00|Hquest:"..questID..":-1|h[Unnamed]|h|r", nil, nil
+        quest = {name = 'Unnamed'}
     end
-    return questID, quest.name, quest.link, quest.difficulty, quest.tagID
+    local link = format("\124cffffff00\124Hquest:%d:-1\124h[%s]\124h\124r", questID, quest.name)
+    return questID, quest.name, (quest.link or link), quest.difficulty, quest.tagID
 end
 
 function BtWQuests_GetChainQuestByIndex(index)
