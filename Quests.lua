@@ -77,9 +77,12 @@ BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT = 54
 BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL = 55
 BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD = 56
 
-BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS = 57
-BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS = 58
-BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW = 59
+BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB = 57
+BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED = 58
+
+BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS = 59
+BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS = 60
+BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW = 61
 
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
@@ -90,7 +93,7 @@ BtWQuests_Expansions = {
         -- BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
         -- BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
         BTWQUESTS_CATEGORY_LEGION_SURAMAR,
-        -- BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
+        BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
         BTWQUESTS_CATEGORY_LEGION_ARGUS,
     }
 }
@@ -232,6 +235,10 @@ BtWQuests_Categories = {
         name = GetMapNameByID(1021),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1616106,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED,
+        },
     },
     [BTWQUESTS_CATEGORY_LEGION_ARGUS] = {
         name = GetMapNameByID(1184),
@@ -5390,6 +5397,267 @@ BtWQuests_Chains = {
             },
         }
     },
+    [BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
+        name = select(2, GetAchievementInfo(11546)),
+        category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        requirements = {
+            {
+                type = "level",
+                level = 110,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 46246,
+        },
+        range = {110},
+        items = {
+            {
+                type = "quest",
+                id = 46730,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46734,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 4, 7
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 46832,
+                x = 1,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46845,
+                x = 1,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED,
+                optional = true,
+                x = 1,
+                y = 4,
+            },
+            
+            
+            {
+                type = "quest",
+                id = 46286,
+                x = 5,
+                y = 2,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 46245,
+                x = 5,
+                y = 3,
+            },
+            {
+                type = "quest",
+                id = 46247,
+                x = 5,
+                y = 1,
+            },
+            
+            
+            {
+                type = "quest",
+                id = 47137,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "dummy",
+                name = "Class Specific Quests",
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46251,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47139,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46248,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46252,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46769,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46250,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46249,
+                x = 3,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46246,
+                x = 3,
+                y = 11,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED] = {
+        name = "Treasure Master Iks'reeged",
+        category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        requirements = {
+            {
+                type = "quest",
+                id = 46845,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 46666,
+        },
+        range = {110},
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                optional = true,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46499,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46501,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46509,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46510,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46511,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46666,
+                x = 3,
+                y = 6,
+            },
+            {
+                type = "quest",
+                id = 45379,
+                optional = true,
+                x = 3,
+                y = 7,
+            },
+        },
+    },
     [BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS] = {
         name = GetAchievementCriteriaInfo(12066, 1),
         category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
@@ -5407,8 +5675,9 @@ BtWQuests_Chains = {
         range = {110},
         items = {
             {
-                type = "quest",
-                id = 46734,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                optional = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -8389,6 +8658,121 @@ BtWQuests_Quests = {
         level = 110,
     },
 
+    
+    
+    
+    [46730] = {
+        name = "Armies of Legionfall",
+        level = 110,
+    },
+    [46734] = {
+        name = "Assault on Broken Shore",
+        level = 110,
+    },
+    [47067] = {
+        name = "Seeking Lost Knowledge",
+        level = 110,
+    },
+    [46286] = {
+        name = "Legionfall Supplies",
+        level = 110,
+    },
+    [46832] = {
+        name = "Aalgen Point",
+        level = 110,
+    },
+    [46845] = {
+        name = "Vengeance Point",
+        level = 110,
+    },
+    [46499] = {
+        name = "Spiders, Huh?",
+        level = 110,
+    },
+    [46501] = {
+        name = "Grave Robbin'",
+        level = 110,
+    },
+    [46509] = {
+        name = "Tomb Raidering",
+        level = 110,
+    },
+    [46510] = {
+        name = "Ship Graveyard",
+        level = 110,
+    },
+    [46511] = {
+        name = "We're Treasure Hunters",
+        level = 110,
+    },
+    [46666] = {
+        name = "The Motherlode",
+        level = 110,
+    },
+    [46245] = {
+        name = "Begin Construction",
+        level = 110,
+    },
+    [46772] = {
+        name = "The Mage Tower",
+        level = 110,
+    },
+    [46773] = {
+        name = "The Command Center",
+        level = 110,
+    },
+    [46774] = {
+        name = "The Nether Disruptor",
+        level = 110,
+    },
+    [46244] = {
+        name = "Altar of the Aegis",
+        level = 110,
+    },
+    [46247] = {
+        name = "Defending Broken Isles",
+        level = 110,
+    },
+    [47137] = {
+        name = "Champions of Legionfall",
+        level = 110,
+    },
+    [46251] = {
+        name = "Shard Times",
+        level = 110,
+    },
+    [47139] = {
+        name = "Mark of the Sentinax",
+        level = 110,
+    },
+    [46248] = {
+        name = "Self-Fulfilling Prophecy",
+        level = 110,
+    },
+    [46252] = {
+        name = "Intolerable Infestation",
+        level = 110,
+    },
+    [46769] = {
+        name = "Relieved of Their Valuables",
+        level = 110,
+    },
+    [46250] = {
+        name = "Take Out the Head...",
+        level = 110,
+    },
+    [46249] = {
+        name = "Championing Our Cause",
+        level = 110,
+    },
+    [46246] = {
+        name = "Strike Them Down",
+        level = 110,
+    },
+    [45379] = {
+        name = "Treasure Master Iks'reeged",
+        level = 110,
+    },
     
     
     
