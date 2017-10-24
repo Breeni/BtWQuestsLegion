@@ -80,7 +80,10 @@ function BtWQuests_SelectChain(id)
 end
 
 function BtWQuests_SelectFromLink(link)
-    local _, _, color, type, text, name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]+):([^|]+)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
+    local _, _, color, type, text, name = string.find(link, "|cff(%x*)|H([^:]+):([^|]+)|h%[([^%[%]]*)%]|h|r")
+    if not color then
+        _, _, type, text = string.find(link, "([^:]+):(.+)")
+    end
     
     assert(type == "quest" or type == "btwquests")
     
