@@ -77,6 +77,10 @@ BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT = 54
 BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL = 55
 BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD = 56
 
+BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS = 57
+BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS = 58
+BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW = 59
+
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
         BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -87,7 +91,7 @@ BtWQuests_Expansions = {
         -- BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
         BTWQUESTS_CATEGORY_LEGION_SURAMAR,
         -- BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
-        -- BTWQUESTS_CATEGORY_LEGION_ARGUS,
+        BTWQUESTS_CATEGORY_LEGION_ARGUS,
     }
 }
 
@@ -233,6 +237,11 @@ BtWQuests_Categories = {
         name = GetMapNameByID(1184),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1718211,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS,
+            BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
+            BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+        },
     }
 }
 
@@ -5381,6 +5390,975 @@ BtWQuests_Chains = {
             },
         }
     },
+    [BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS] = {
+        name = GetAchievementCriteriaInfo(12066, 1),
+        category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        requirements = {
+            {
+                type = "quest",
+                id = 46734,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 48929,
+        },
+        range = {110},
+        items = {
+            {
+                type = "quest",
+                id = 46734,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46734,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 47221,
+                faction = "Alliance",
+                x = 3,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47835,
+                faction = "Horde",
+                x = 3,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47222,
+                faction = "Alliance",
+                x = 3,
+                y = 3,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47867,
+                faction = "Horde",
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47223,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47224,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 48440,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46938,
+                x = 3,
+                y = 7,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 47589,
+                x = 1,
+                y = 8,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 46297,
+                x = 3,
+                y = 8,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 48483,
+                x = 5,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47627,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47641,
+                x = 3,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46732,
+                x = 3,
+                y = 11,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46816,
+                x = 3,
+                y = 12,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46839,
+                x = 3,
+                y = 13,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 46840,
+                x = 2,
+                y = 14,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 46841,
+                x = 4,
+                y = 14,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46842,
+                x = 3,
+                y = 15,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46843,
+                x = 3,
+                y = 16,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 48500,
+                x = 3,
+                y = 17,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47431,
+                x = 3,
+                y = 18,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 46213,
+                x = 1,
+                y = 19,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 40238,
+                x = 3,
+                y = 19,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47541,
+                x = 5,
+                y = 19,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47508,
+                x = 3,
+                y = 20,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47771,
+                x = 3,
+                y = 21,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47526,
+                x = 3,
+                y = 22,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47754,
+                x = 3,
+                y = 23,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47653,
+                x = 3,
+                y = 24,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 47743,
+                x = 3,
+                y = 25,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 49143,
+                x = 3,
+                y = 26,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47287,
+                optional = true,
+                x = 5,
+                y = 26,
+            },
+            {
+                type = "quest",
+                id = 48559,
+                x = 3,
+                y = 27,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 48199,
+                x = 3,
+                y = 28,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 48200,
+                x = 3,
+                y = 29,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 48201,
+                optional = true,
+                x = 2,
+                y = 30,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 48202,
+                optional = true,
+                x = 4,
+                y = 30,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47473,
+                x = 2,
+                y = 31,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 48929,
+                x = 4,
+                y = 31,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
+                x = 3,
+                y = 32,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS] = {
+        name = GetAchievementCriteriaInfo(12066, 2),
+        category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        requirements = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 48107,
+        },
+        range = {110},
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47889,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47890,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47891,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47892,
+                x = 3,
+                y = 4,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 47986,
+                x = 1,
+                y = 5,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "quest",
+                id = 47987,
+                x = 3,
+                y = 5,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 47988,
+                x = 5,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47991,
+                x = 1,
+                y = 6,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 47990,
+                x = 3,
+                y = 6,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47989,
+                x = 5,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47992,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            
+            {
+                type = "quest",
+                id = 47993,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47994,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 48081,
+                x = 3,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46815,
+                x = 3,
+                y = 11,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            
+            
+            {
+                type = "quest",
+                id = 46818,
+                x = 2,
+                y = 12,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 46834,
+                x = 4,
+                y = 12,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 47066,
+                x = 3,
+                y = 13,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46941,
+                x = 3,
+                y = 14,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47686,
+                x = 3,
+                y = 15,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 47882,
+                x = 2,
+                y = 16,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47688,
+                x = 4,
+                y = 16,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 47883,
+                x = 3,
+                y = 17,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 47689,
+                x = 1,
+                y = 18,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 47685,
+                x = 3,
+                y = 18,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47687,
+                x = 5,
+                y = 18,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 47690,
+                x = 3,
+                y = 19,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 48107,
+                x = 3,
+                y = 20,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 48461,
+                x = 3,
+                y = 21,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+                x = 3,
+                y = 22,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW] = {
+        name = GetAchievementCriteriaInfo(12066, 3),
+        category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        requirements = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
+            },
+            {
+                type = "quest",
+                id = 48461,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 47220,
+        },
+        range = {110},
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 48461,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 48344,
+                x = 3,
+                y = 2,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 47691,
+                x = 1,
+                y = 3,
+                connections = {
+                    3, 4
+                },
+            },
+            {
+                type = "quest",
+                id = 47854,
+                x = 3,
+                y = 3,
+                connections = {
+                    2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 47995,
+                x = 5,
+                y = 3,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 47853,
+                x = 2,
+                y = 4,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 48345,
+                x = 4,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47855,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47856,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47416,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47238,
+                x = 3,
+                y = 8,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 40761,
+                x = 2,
+                y = 9,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 47101,
+                x = 4,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47180,
+                x = 2,
+                y = 10,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47100,
+                x = 4,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47183,
+                x = 3,
+                y = 11,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47184,
+                x = 3,
+                y = 12,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47203,
+                x = 3,
+                y = 13,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 47217,
+                x = 2,
+                y = 14,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 47218,
+                x = 4,
+                y = 14,
+                connections = {
+                    1
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 47219,
+                x = 3,
+                y = 15,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47220,
+                x = 3,
+                y = 16,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 48560,
+                x = 2,
+                y = 17,
+            },
+            {
+                type = "quest",
+                id = 47654,
+                x = 4,
+                y = 17,
+            },
+        },
+    },
 }
 
 BtWQuests_Quests = {
@@ -7029,6 +8007,388 @@ BtWQuests_Quests = {
         name = "Shalassic Park",
         level = 110,
     },
+    
+    
+    
+    [47221] = {
+        name = "The Hand of Fate",
+        level = 110,
+    },
+    [47835] = {
+        name = "The Hand of Fate",
+        level = 110,
+    },
+    [47222] = {
+        name = "Two If By Sea",
+        level = 110,
+    },
+    [47867] = {
+        name = "Two If By Sea",
+        level = 110,
+    },
+    [47223] = {
+        name = "Light's Exodus",
+        level = 110,
+    },
+    [47224] = {
+        name = "The Vindicaar",
+        level = 110,
+    },
+    [48440] = {
+        name = "Into the Night",
+        level = 110,
+    },
+    [46938] = {
+        name = "Alone in the Abyss",
+        level = 110,
+    },
+    [47589] = {
+        name = "Righteous Fury",
+        level = 110,
+    },
+    [46297] = {
+        name = "Overwhelming Power",
+        level = 110,
+    },
+    [48483] = {
+        name = "A Stranger's Plea",
+        level = 110,
+    },
+    [47627] = {
+        name = "Vengeance",
+        level = 110,
+    },
+    [47641] = {
+        name = "Sign of Resistance",
+        level = 110,
+    },
+    [46732] = {
+        name = "The Prophet's Gambit",
+        level = 110,
+    },
+    [46816] = {
+        name = "Rendezvous",
+        level = 110,
+    },
+    [46839] = {
+        name = "From Darkness",
+        level = 110,
+    },
+    [46840] = {
+        name = "Prisoners No More",
+        level = 110,
+    },
+    [46841] = {
+        name = "Threat Reduction",
+        level = 110,
+    },
+    [46842] = {
+        name = "A Strike at the Heart",
+        level = 110,
+    },
+    [46843] = {
+        name = "Return to the Vindicaar",
+        level = 110,
+    },
+    [48500] = {
+        name = "A Moment of Respite",
+        level = 110,
+    },
+    [47431] = {
+        name = "Gathering Light",
+        level = 110,
+    },
+    [46213] = {
+        name = "Crystals Not Included",
+        level = 110,
+    },
+    [40238] = {
+        name = "A Grim Equation",
+        level = 110,
+    },
+    [47541] = {
+        name = "The Best Prevention",
+        level = 110,
+    },
+    [47508] = {
+        name = "Fire at Will",
+        level = 110,
+    },
+    [47771] = {
+        name = "Locating the Longshot",
+        level = 110,
+    },
+    [47526] = {
+        name = "Bringing the Big Guns",
+        level = 110,
+    },
+    [47754] = {
+        name = "Lightly Roasted",
+        level = 110,
+    },
+    [47653] = {
+        name = "Light's Return",
+        level = 110,
+    },
+    [47743] = {
+        name = "The Child of Light and Shadow",
+        level = 110,
+    },
+    [49143] = {
+        name = "Essence of the Light Mother",
+        level = 110,
+    },
+    [47287] = {
+        name = "The Vindicaar Matrix Core",
+        level = 110,
+    },
+    [48559] = {
+        name = "An Offering of Light",
+        level = 110,
+    },
+    [48199] = {
+        name = "The Burning Heart",
+        level = 110,
+    },
+    [48200] = {
+        name = "Securing a Foothold",
+        level = 110,
+    },
+    [48201] = {
+        name = "Reinforce Light's Purchase",
+        level = 110,
+    },
+    [48202] = {
+        name = "Reinforce the Veiled Den",
+        level = 110,
+    },
+    [47473] = {
+        name = "Sizing Up The Opposition",
+        level = 110,
+    },
+    [48929] = {
+        name = "Sizing Up The Opposition",
+        level = 110,
+    },
+    
+    
+    [47889] = {
+        name = "The Speaker Calls",
+        level = 110,
+    },
+    [47890] = {
+        name = "Visions of Torment",
+        level = 110,
+    },
+    [47891] = {
+        name = "Dire News",
+        level = 110,
+    },
+    [47892] = {
+        name = "Storming the Citadel",
+        level = 110,
+    },
+    [47986] = {
+        name = "Scars of the Past",
+        level = 110,
+    },
+    [47987] = {
+        name = "Preventive Measures",
+        level = 110,
+    },
+    [47988] = {
+        name = "Chaos Theory",
+        level = 110,
+    },
+    [47991] = {
+        name = "Dark Machinations",
+        level = 110,
+    },
+    [47990] = {
+        name = "A Touch of Fel",
+        level = 110,
+    },
+    [47989] = {
+        name = "Heralds of Apocalypse",
+        level = 110,
+    },
+    [47992] = {
+        name = "Dawn of Justice",
+        level = 110,
+    },
+    [47993] = {
+        name = "Lord of the Spire",
+        level = 110,
+    },
+    [47994] = {
+        name = "Forming a Bond",
+        level = 110,
+    },
+    [48081] = {
+        name = "A Floating Ruin",
+        level = 110,
+    },
+    [46815] = {
+        name = "Mac'Aree, Jewel of Argus",
+        level = 110,
+    },
+    [46818] = {
+        name = "Defenseless and Afraid",
+        level = 110,
+    },
+    [46834] = {
+        name = "Khazaduum, First of His Name",
+        level = 110,
+    },
+    [47066] = {
+        name = "Consecrating Ground",
+        level = 110,
+    },
+    [46941] = {
+        name = "The Path Forward",
+        level = 110,
+    },
+    [47686] = {
+        name = "Not-So-Humble Beginnings",
+        level = 110,
+    },
+    [47882] = {
+        name = "Conservation of Magic",
+        level = 110,
+    },
+    [47688] = {
+        name = "Invasive Species",
+        level = 110,
+    },
+    [47883] = {
+        name = "The Longest Vigil",
+        level = 110,
+    },
+    [47689] = {
+        name = "Gatekeeper's Challenge: Tenacity",
+        level = 110,
+    },
+    [47685] = {
+        name = "Gatekeeper's Challenge: Cunning",
+        level = 110,
+    },
+    [47687] = {
+        name = "Gatekeeper's Challenge: Mastery",
+        level = 110,
+    },
+    [47690] = {
+        name = "The Defiler's Legacy",
+        level = 110,
+    },
+    [48107] = {
+        name = "The Sigil of Awakening",
+        level = 110,
+    },
+
+    
+    [48461] = {
+        name = "Where They Least Expect It",
+        level = 110,
+    },
+    [48344] = {
+        name = "We Have a Problem",
+        level = 110,
+    },
+    [47691] = {
+        name = "A Non-Prophet Organization",
+        level = 110,
+    },
+    [47854] = {
+        name = "Wrath of the Hight Exarch",
+        level = 110,
+    },
+    [47995] = {
+        name = "Overt Ops",
+        level = 110,
+    },
+    [47853] = {
+        name = "Flanking Maneuvers",
+        level = 110,
+    },
+    [48345] = {
+        name = "Talgath's Forces",
+        level = 110,
+    },
+    [47855] = {
+        name = "What Might Have Been",
+        level = 110,
+    },
+    [47856] = {
+        name = "Across the Universe",
+        level = 110,
+    },
+    [47416] = {
+        name = "Shadow of the Triumvirate",
+        level = 110,
+    },
+    [47238] = {
+        name = "The Seat of the Triumvirate",
+        level = 110,
+    },
+    [40761] = {
+        name = "Whispers from Oronaar",
+        level = 110,
+    },
+    [47101] = {
+        name = "Arkhaan's Prayers",
+        level = 110,
+    },
+    [47180] = {
+        name = "The Pulsing Madness",
+        level = 110,
+    },
+    [47100] = {
+        name = "Arkhaan's Pain",
+        level = 110,
+    },
+    [47183] = {
+        name = "Arkhaan's Plan",
+        level = 110,
+    },
+    [47184] = {
+        name = "Arkhaan's Peril",
+        level = 110,
+    },
+    [47203] = {
+        name = "Throwing Shade",
+        level = 110,
+    },
+    [47217] = {
+        name = "Sources of Darkness",
+        level = 110,
+    },
+    [47218] = {
+        name = "The Shadowguard Incursion",
+        level = 110,
+    },
+    [47219] = {
+        name = "A Vessel Made Ready",
+        level = 110,
+    },
+    [47220] = {
+        name = "A Beacon in the Dark",
+        level = 110,
+    },
+    [48560] = {
+        name = "An Offering of Shadow",
+        level = 110,
+    },
+    [47654] = {
+        name = "The Crest of Knowledge",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [49224] = {
+        name = "The Netherlight Crucible",
+        level = 110,
+    },
+
     
     
     
