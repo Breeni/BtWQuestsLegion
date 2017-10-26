@@ -1,5 +1,18 @@
 BTWQUESTS_EXPANSION_LEGION = 7
 
+BTWQUESTS_CLASS_ID_WARRIOR = 1
+BTWQUESTS_CLASS_ID_PALADIN = 2
+BTWQUESTS_CLASS_ID_HUNTER = 3
+BTWQUESTS_CLASS_ID_ROGUE = 4
+BTWQUESTS_CLASS_ID_PRIEST = 5
+BTWQUESTS_CLASS_ID_DEATHKNIGHT = 6
+BTWQUESTS_CLASS_ID_SHAMAN = 7
+BTWQUESTS_CLASS_ID_MAGE = 8
+BTWQUESTS_CLASS_ID_WARLOCK = 9
+BTWQUESTS_CLASS_ID_MONK = 10
+BTWQUESTS_CLASS_ID_DRUID = 11
+BTWQUESTS_CLASS_ID_DEMONHUNTER = 12
+
 BTWQUESTS_CATEGORY_LEGION_ARTIFACT = 1
 BTWQUESTS_CATEGORY_LEGION_ORDERHALL = 2
 BTWQUESTS_CATEGORY_LEGION_AZSUNA = 3
@@ -13,7 +26,21 @@ BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION = 10
 BTWQUESTS_CATEGORY_LEGION_BROKENSHORE = 11
 BTWQUESTS_CATEGORY_LEGION_ARGUS = 12
 
+BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT = 13
+BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER = 14
+BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID = 15
+BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER = 16
+BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE = 17
+BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK = 18
+BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN = 19
+BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST = 20
+BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE = 21
+BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN = 22
+BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK = 23
+BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR = 24
+
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER = 1
+
 BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES = 2
 BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE = 3
 BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA = 4
@@ -84,10 +111,18 @@ BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS = 59
 BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS = 60
 BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW = 61
 
+BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD = 62
+BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST = 63
+BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY = 64
+BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN = 65
+BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER = 66
+BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT = 67
+
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
         BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
-        BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
         BTWQUESTS_CATEGORY_LEGION_AZSUNA,
         BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         -- BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
@@ -111,6 +146,26 @@ BtWQuests_Categories = {
         name = BTWQUESTS_ORDERHALL,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1041999,
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["DEMONHUNTER"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+        -- buttonImage = 1041999,
     },
     [BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
         name = GetMapNameByID(1015),
@@ -257,7 +312,6 @@ BtWQuests_Chains = {
         name = "Balance of Power",
         category = 1,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        range = {110},
         requirements = {
             {
                 type = "level",
@@ -283,6 +337,7 @@ BtWQuests_Chains = {
             type = "quest",
             id = 43533,
         },
+        range = {110},
         buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-BalanceofPower",
         items = {
             {
@@ -6628,6 +6683,649 @@ BtWQuests_Chains = {
             },
         },
     },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD] = {
+        name = select(2, GetSpecializationInfoByID(250)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 40740,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 40740,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST] = {
+        name = select(2, GetSpecializationInfoByID(251)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 38990,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 38990,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY] = {
+        name = select(2, GetSpecializationInfoByID(252)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 40935,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 40930,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40931,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40932,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40933,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40934,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40935,
+                x = 3,
+                y = 5,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        requirements = {
+            {
+                type = "level",
+                level = 98,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 43686,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 40714,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40715,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
+                optional = true,
+                x = 1,
+                y = 2,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
+                optional = true,
+                x = 3,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+                optional = true,
+                x = 5,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39757,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 39761,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39832,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39799,
+                x = 3,
+                y = 6,
+                connections = {
+                    1, 2, 3, 4, 5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
+                name = GetMapNameByID(1015),
+                optional = true,
+                x = 1,
+                y = 5.5,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
+                name = GetMapNameByID(1018),
+                optional = true,
+                x = 1,
+                y = 6.5
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
+                name = GetMapNameByID(1024),
+                optional = true,
+                x = 5,
+                y = 5.5,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
+                name = GetMapNameByID(1017),
+                optional = true,
+                x = 5,
+                y = 6.5,
+            },
+            {
+                type = "quest",
+                id = 42449,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42484,
+                x = 3,
+                y = 8,
+                connections = {
+                    2
+                },
+            },
+            
+            
+            {
+                type = "level",
+                level = 101,
+                x = 5,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44550,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 44550,
+                x = 3,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43264,
+                x = 3,
+                y = 11,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 39818,
+                x = 1,
+                y = 12,
+            },
+            {
+                type = "quest",
+                id = 39816,
+                x = 5,
+                y = 12,
+            },
+            {
+                type = "quest",
+                id = 43265,
+                x = 3,
+                y = 12,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43266,
+                x = 3,
+                y = 13,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43267,
+                x = 3,
+                y = 14,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43539,
+                x = 3,
+                y = 15,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43268,
+                x = 3,
+                y = 16,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "level",
+                level = 103,
+                x = 5,
+                y = 16,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42533,
+                x = 3,
+                y = 17,
+                connections = {
+                    1
+                },
+            },
+
+
+            {
+                type = "quest",
+                id = 42534,
+                x = 3,
+                y = 18,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42535,
+                x = 3,
+                y = 19,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42536,
+                x = 3,
+                y = 20,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42537,
+                x = 3,
+                y = 21,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 44243,
+                x = 5,
+                y = 21,
+            },
+            {
+                type = "quest",
+                id = 42708,
+                x = 3,
+                y = 22,
+                connections = {
+                    1, 2, 3, 4
+                },
+            },
+            {
+                type = "quest",
+                id = 44244,
+                x = 1,
+                y = 22,
+            },
+            {
+                type = "quest",
+                id = 44082,
+                x = 5,
+                y = 22,
+            },
+            {
+                type = "quest",
+                id = 43899,
+                x = 2,
+                y = 23,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "quest",
+                id = 43571,
+                x = 4,
+                y = 23,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43572,
+                x = 4,
+                y = 24,
+                connections = {
+                    3
+                },
+            },
+            
+            
+            {
+                type = "level",
+                level = 110,
+                x = 6,
+                y = 24,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 44217,
+                optional = true,
+                x = 6,
+                y = 25,
+            },
+            
+            
+            {
+                type = "quest",
+                id = 42818,
+                x = 3,
+                y = 25,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 42882,
+                x = 2,
+                y = 26,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 42821,
+                x = 4,
+                y = 26,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42823,
+                x = 3,
+                y = 27,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42824,
+                x = 3,
+                y = 28,
+                connections = {
+                    1, 2, 3, 4
+                },
+            },
+            {
+                type = "quest",
+                id = 44245,
+                x = 5,
+                y = 28,
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43573,
+                x = 2,
+                y = 29,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "quest",
+                id = 43928,
+                x = 4,
+                y = 29,
+                connections = {
+                    3, 5
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 44286,
+                x = 1,
+                y = 28,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44246,
+                x = 0,
+                y = 29,
+            },
+            
+            
+            {
+                type = "quest",
+                id = 44282,
+                x = 6,
+                y = 29,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44247,
+                x = 6,
+                y = 30,
+            },
+            
+            {
+                type = "quest",
+                id = 44690,
+                x = 3,
+                y = 30,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43574,
+                x = 3,
+                y = 31,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43686,
+                x = 3,
+                y = 32,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 44248,
+                x = 2,
+                y = 33,
+            },
+            {
+                type = "quest",
+                id = 43407,
+                x = 4,
+                y = 33,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        range = {98, 110},
+        items = {
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        range = {98, 110},
+        items = {
+        },
+    },
 }
 
 BtWQuests_Quests = {
@@ -8773,6 +9471,236 @@ BtWQuests_Quests = {
         name = "Treasure Master Iks'reeged",
         level = 110,
     },
+    
+    
+        [40714] = {
+        name = "The Call To War",
+        level = -1,
+    },
+    [40715] = {
+        name = "A Pact of Necessity",
+        level = -1,
+    },
+    [40740] = {
+        name = "The Dead and the Damned",
+        level = -1,
+    },
+    [38990] = {
+        name = "The Call of Icecrown",
+        level = -1,
+    },
+    [40930] = {
+        name = "Apocalypse",
+        level = -1,
+    },
+    [40931] = {
+        name = "Following the Curse",
+        level = -1,
+    },
+    [40932] = {
+        name = "Disturbing the Past",
+        level = -1,
+    },
+    [40933] = {
+        name = "A Grisly Task",
+        level = -1,
+    },
+    [40934] = {
+        name = "The Dark Riders",
+        level = -1,
+    },
+    [40935] = {
+        name = "The Call of Vengeance",
+        level = -1,
+    },
+    [39757] = {
+        name = "Keeping Your Edge",
+        level = -1,
+    },
+    [39761] = {
+        name = "Advanced Runecarving",
+        level = -1,
+    },
+    [39832] = {
+        name = "Plans and Preparations",
+        level = -1,
+    },
+    [39799] = {
+        name = "Our Next Move",
+        level = -1,
+    },
+    [42449] = {
+        name = "Return of the Four Horsemen",
+        level = -1,
+    },
+    [42484] = {
+        name = "The Firstborn Rises",
+        level = -1,
+    },
+    [44550] = {
+        name = "Called to Acherus",
+        level = -1,
+    },
+    [43264] = {
+        name = "Rise, Champions",
+        level = -1,
+    },
+    [39818] = {
+        name = "Champion: Nazgrim",
+        level = -1,
+    },
+    [39816] = {
+        name = "Champion: Thassarian",
+        level = -1,
+    },
+    [43265] = {
+        name = "Spread the Word",
+        level = -1,
+    },
+    [43266] = {
+        name = "Recruiting the Troops",
+        level = -1,
+    },
+    [43267] = {
+        name = "Troops in the Field",
+        level = -1,
+    },
+    [43539] = {
+        name = "Salanar the Horseman",
+        level = -1,
+    },
+    [43268] = {
+        name = "Tech It Up A Notch",
+        level = -1,
+    },
+    [42533] = {
+        name = "The Ruined Kingdom",
+        level = -1,
+    },
+    [42534] = {
+        name = "Our Oldest Enemies",
+        level = -1,
+    },
+    [42535] = {
+        name = "Death... and Decay",
+        level = -1,
+    },
+    [42536] = {
+        name = "Regicide",
+        level = -1,
+    },
+    [42537] = {
+        name = "The King Rises",
+        level = -1,
+    },
+    [44243] = {
+        name = "Champion: Thoras Trollbane",
+        level = -1,
+    },
+    [42708] = {
+        name = "A Personal Request",
+        level = -1,
+    },
+    [44244] = {
+        name = "Champion: Koltira Deathweaver",
+        level = -1,
+    },
+    [43899] = {
+        name = "Steeds of the Damned",
+        level = -1,
+    },
+    [44082] = {
+        name = "Knights of the Ebon Blade",
+        level = -1,
+    },
+    [43571] = {
+        name = "Neltharion's Lair: Braid of the Underking",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [43572] = {
+        name = "Darkheart Thicket: The Nightmare Lash",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [44217] = {
+        name = "Armor Fit For A Deathlord",
+        level = -1,
+    },
+    [42818] = {
+        name = "The Scarlet Assault",
+        level = -1,
+    },
+    [42882] = {
+        name = "The Scarlet Massacre",
+        level = -1,
+    },
+    [42821] = {
+        name = "Raising an Army",
+        level = -1,
+    },
+    [42823] = {
+        name = "The Scarlet Commander",
+        level = -1,
+    },
+    [42824] = {
+        name = "The Zealot Rises",
+        level = -1,
+    },
+    [44245] = {
+        name = "Champion: High Inquisitor Whitemane",
+        level = -1,
+    },
+    [43573] = {
+        name = "Advancing the War Effort",
+        level = -1,
+    },
+    [43928] = {
+        name = "Aggregates of Anguish",
+        level = -1,
+    },
+    [44690] = {
+        name = "A Thirst For Blood",
+        level = -1,
+    },
+    [44286] = {
+        name = "Vault of the Wardens: A Masterpiece of Flesh",
+        level = -1,
+    },
+    [44246] = {
+        name = "Champion: Rottgut",
+        level = -1,
+    },
+    [44282] = {
+        name = "Eye of Azshara: The Frozen Soul",
+        level = -1,
+    },
+    [44247] = {
+        name = "Champion: Amal'thazad",
+        level = -1,
+    },
+    [43574] = {
+        name = "Maw of Souls: Maul of the Dead",
+        level = -1,
+    },
+    [43686] = {
+        name = "The Fourth Horseman",
+        level = -1,
+    },
+    [44248] = {
+        name = "Champion: Darion Mograine",
+        level = -1,
+    },
+    [43407] = {
+        name = "A Hero's Weapon",
+        level = -1,
+    },
+
+    
+    
+    
     
     
     
