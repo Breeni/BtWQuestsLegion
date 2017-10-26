@@ -9186,7 +9186,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION] = {
-        name = select(2, GetSpecializationInfoByID(259)) .. ": " .. select(1, GetItemInfo(128870)),
+        name = select(2, GetSpecializationInfoByID(259)),-- .. ": " .. select(1, GetItemInfo(128870)),
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_ROGUE,
@@ -9258,7 +9258,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW] = {
-        name = select(2, GetSpecializationInfoByID(260)) .. ": " .. select(1, GetItemInfo(134552)),
+        name = select(2, GetSpecializationInfoByID(260)),-- .. ": " .. select(1, GetItemInfo(134552)),
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_ROGUE,
@@ -9286,7 +9286,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY] = {
-        name = select(2, GetSpecializationInfoByID(261)) .. ": " .. select(1, GetItemInfo(128476)),
+        name = select(2, GetSpecializationInfoByID(261)),-- .. ": " .. select(1, GetItemInfo(128476)),
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_ROGUE,
