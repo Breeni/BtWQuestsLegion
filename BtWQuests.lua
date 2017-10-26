@@ -136,7 +136,7 @@ function BtWQuests_GetCategoryByIndexForExpansion(index, expansion)
     return BtWQuests_GetCategoryByID(BtWQuests_Expansions[expansion][index])
 end
 
--- id, name, expansion, parent, buttonImage, categoryCount, chainCount
+-- local categoryID, name, link, expansion, parent, buttonImage, numCategories, numChains, faction, classes
 function BtWQuests_GetCategoryByID(categoryID)
     if not categoryID then
         return nil
@@ -223,6 +223,7 @@ function BtWQuests_GetChainRequirementByID(chainID, index)
     return BtWQuests_RequirementDetails(requirement)
 end
 
+-- local chainID, name, link, expansion, category, buttonImage, numRequirements, completed, numItems, faction, classes
 function BtWQuests_GetChainByID(chainID)
     if not chainID then
         return nil
@@ -243,7 +244,7 @@ function BtWQuests_GetChainByID(chainID)
     end
     
     local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, chain.name)
-    return chainID, chain.name, link, chain.expansion, chain.category, chain.buttonImage, chain.requirements and #chain.requirements or 0, completed, chain.items and #chain.items or 0
+    return chainID, chain.name, link, chain.expansion, chain.category, chain.buttonImage, chain.requirements and #chain.requirements or 0, completed, chain.items and #chain.items or 0, chain.faction, chain.class and {chain.class} or chain.classes
 end
 
 function BtWQuests_GetChainByIndex(index)
@@ -584,38 +585,45 @@ function BtWQuests_ListCategories()
         categoryButton = scrollFrame["category"..index];
     end
     
-    index = 1;
-	local chainID, name, link, _, _, buttonImage = BtWQuests_GetChainByIndex(index);
+	i = 1;
+	index = 1;
+	local chainID, name, link, _, _, buttonImage, _, _, _, faction, classes = BtWQuests_GetChainByIndex(i);
 	while chainID do
-		local chainButton = scrollFrame["chain"..index];
-		if not chainButton then -- create button
-			chainButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."chain"..index, scrollFrame, "BtWQuestsChainButtonTemplate");
+        local skip = (faction ~= nil and faction ~= playerFaction) or (classes ~= nil and not ArrayContains(classes, playerClass))
 
-			scrollFrame["chain"..index] = chainButton;
-            if mod(index-1, EJ_NUM_INSTANCE_PER_ROW) == 0 then
-				chainButton:SetPoint("TOP", scrollFrame["chain"..(index-EJ_NUM_INSTANCE_PER_ROW)], "BOTTOM", 0, -15);
-			else
-				chainButton:SetPoint("LEFT", scrollFrame["chain"..(index-1)], "RIGHT", 15, 0);
-			end
-		end
-        
-        if index == 1 then
-            if lastLeftCategory then
-                chainButton:SetPoint("TOP", lastLeftCategory, "BOTTOM", 0, -15);
-            else
-                chainButton:SetPoint("TOP", 0, -10);
+        if not skip then
+            local chainButton = scrollFrame["chain"..index];
+            if not chainButton then -- create button
+                chainButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."chain"..index, scrollFrame, "BtWQuestsChainButtonTemplate");
+
+                scrollFrame["chain"..index] = chainButton;
+                if mod(index-1, EJ_NUM_INSTANCE_PER_ROW) == 0 then
+                    chainButton:SetPoint("TOP", scrollFrame["chain"..(index-EJ_NUM_INSTANCE_PER_ROW)], "BOTTOM", 0, -15);
+                else
+                    chainButton:SetPoint("LEFT", scrollFrame["chain"..(index-1)], "RIGHT", 15, 0);
+                end
             end
+            
+            if index == 1 then
+                if lastLeftCategory then
+                    chainButton:SetPoint("TOP", lastLeftCategory, "BOTTOM", 0, -15);
+                else
+                    chainButton:SetPoint("TOP", 0, -10);
+                end
+            end
+
+            chainButton.name:SetText(name);
+            chainButton.bgImage:SetTexture(buttonImage);
+            chainButton.chainID = chainID;
+            chainButton.nameText = name;
+            chainButton.link = link;
+            chainButton:Show();
+
+            index = index + 1;
         end
-
-		chainButton.name:SetText(name);
-		chainButton.bgImage:SetTexture(buttonImage);
-		chainButton.chainID = chainID;
-		chainButton.nameText = name;
-		chainButton.link = link;
-		chainButton:Show();
-
-		index = index + 1;
-		chainID, name, link, _, _, buttonImage = BtWQuests_GetChainByIndex(index);
+        
+		i = i + 1;
+		chainID, name, link, _, _, buttonImage, _, _, _, faction, classes = BtWQuests_GetChainByIndex(i);
 	end
     
     chainButton = scrollFrame["chain"..index];
