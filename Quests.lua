@@ -124,11 +124,92 @@ BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN = 70
 BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER = 71
 BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_MOUNT = 72
 
+BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE = 73
+BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL = 74
+BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN = 75
+BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION = 76
+BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN = 77
+BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER = 78
+BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT = 79
+
+BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY = 80
+BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP = 81
+BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL = 82
+BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN = 83
+BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER = 84
+BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT = 85
+
+BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE = 86
+BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE = 87
+BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST = 88
+BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN = 89
+BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER = 90
+BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT = 91
+
+BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER = 92
+BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER = 93
+BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER = 94
+BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN = 95
+BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER = 96
+BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT = 97
+
+BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY = 98
+BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION = 99
+BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION = 100
+BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN = 101
+BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER = 102
+BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT = 103
+
+BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE = 104
+BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY = 105
+BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW = 106
+BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN = 107
+BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER = 108
+BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT = 109
+
+BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION = 110
+BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW = 111
+BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY = 112
+BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN = 113
+BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER = 114
+BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT = 115
+
+BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL = 116
+BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT = 117
+BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION = 118
+BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN = 119
+BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER = 120
+BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT = 121
+
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION = 122
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY = 123
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION = 124
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN = 125
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER = 126
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT = 127
+
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS = 128
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY = 129
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION = 130
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN = 131
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER = 132
+BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT = 133
+
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
         BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
         BTWQUESTS_CATEGORY_LEGION_AZSUNA,
         BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         -- BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
@@ -175,9 +256,150 @@ BtWQuests_Categories = {
         chains = {
             BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
             BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_DRUID,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_HUNTER,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_MAGE,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_MONK,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_PALADIN,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_PRIEST,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_ROGUE,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_SHAMAN,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_WARLOCK,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT,
+        },
+    },
+    [BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR] = {
+        name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        class = BTWQUESTS_CLASS_ID_WARRIOR,
+        -- buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT,
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
@@ -7976,6 +8198,1350 @@ BtWQuests_Chains = {
             },
         },
     },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE] = {
+        name = select(2, GetSpecializationInfoByID(102)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 40838,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 40783,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40784,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40785,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40834,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40835,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40837,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40838,
+                x = 3,
+                y = 6,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL] = {
+        name = select(2, GetSpecializationInfoByID(103)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 42430,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 42428,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42438,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42439,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42440,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42430,
+                x = 3,
+                y = 4,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN] = {
+        name = select(2, GetSpecializationInfoByID(104)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 40647,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 41468,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41782,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41783,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41790,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41791,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41792,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40647,
+                x = 3,
+                y = 6,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION] = {
+        name = select(2, GetSpecializationInfoByID(105)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 41689,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 40649,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41422,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41449,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41436,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41690,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41689,
+                x = 3,
+                y = 5,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 40249,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 40247,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 40740,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 40740,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 40740,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 40740,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY] = {
+        name = select(2, GetSpecializationInfoByID(253)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP] = {
+        name = select(2, GetSpecializationInfoByID(254)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL] = {
+        name = select(2, GetSpecializationInfoByID(255)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE] = {
+        name = select(2, GetSpecializationInfoByID(62)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 42430,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 42428,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE] = {
+        name = select(2, GetSpecializationInfoByID(63)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST] = {
+        name = select(2, GetSpecializationInfoByID(64)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER] = {
+        name = select(2, GetSpecializationInfoByID(268)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 42430,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 42428,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER] = {
+        name = select(2, GetSpecializationInfoByID(269)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER] = {
+        name = select(2, GetSpecializationInfoByID(270)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY] = {
+        name = select(2, GetSpecializationInfoByID(65)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 42430,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 42428,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION] = {
+        name = select(2, GetSpecializationInfoByID(66)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION] = {
+        name = select(2, GetSpecializationInfoByID(70)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE] = {
+        name = select(2, GetSpecializationInfoByID(256)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 42430,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 42428,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY] = {
+        name = select(2, GetSpecializationInfoByID(257)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW] = {
+        name = select(2, GetSpecializationInfoByID(258)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION] = {
+        name = select(2, GetSpecializationInfoByID(259)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 42430,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 42428,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW] = {
+        name = select(2, GetSpecializationInfoByID(260)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY] = {
+        name = select(2, GetSpecializationInfoByID(261)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL] = {
+        name = select(2, GetSpecializationInfoByID(262)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 42430,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 42428,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT] = {
+        name = select(2, GetSpecializationInfoByID(263)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION] = {
+        name = select(2, GetSpecializationInfoByID(264)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION] = {
+        name = select(2, GetSpecializationInfoByID(265)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 42430,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 42428,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY] = {
+        name = select(2, GetSpecializationInfoByID(266)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION] = {
+        name = select(2, GetSpecializationInfoByID(267)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS] = {
+        name = select(2, GetSpecializationInfoByID(71)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 42430,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 42428,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY] = {
+        name = select(2, GetSpecializationInfoByID(72)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION] = {
+        name = select(2, GetSpecializationInfoByID(73)),
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN] = {
+        name = "Class Campaign",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
+        name = "Broken Shore Follower",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT] = {
+        name = "Class Mount",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 100,
+        },
+        range = {98, 110},
+        items = {
+            {
+                type = "quest",
+                id = 100,
+                x = 3,
+                y = 0,
+            },
+        },
+    },
 }
 
 BtWQuests_Quests = {
@@ -10585,6 +12151,611 @@ BtWQuests_Quests = {
         name = "A Hero's Weapon",
         level = -1,
     },
+    
+    
+        [40643] = {
+        name = "A Summons From Moonglade",
+        level = -1,
+    },
+    [41106] = {
+        name = "Call of the Wilds",
+        level = -1,
+    },
+    [40644] = {
+        name = "The Dreamway",
+        level = -1,
+    },
+    [40645] = {
+        name = "To The Dreamgrove",
+        level = -1,
+    },
+    [40646] = {
+        name = "Weapons of Legend",
+        level = -1,
+    },
+    [40783] = {
+        name = "The Scythe of Elune",
+        level = -1,
+    },
+    [40784] = {
+        name = "Its Rightful Place",
+        level = -1,
+    },
+    [40785] = {
+        name = "A Foe of the Dark",
+        level = -1,
+    },
+    [40834] = {
+        name = "Following the Curse",
+        level = -1,
+    },
+    [40835] = {
+        name = "Disturbing the Past",
+        level = -1,
+    },
+    [40837] = {
+        name = "The Deadwind Hunt",
+        level = -1,
+    },
+    [40838] = {
+        name = "The Dark Riders",
+        level = -1,
+    },
+    [42428] = {
+        name = "The Shrine of Ashamane",
+        level = -1,
+    },
+    [42438] = {
+        name = "Seeds of Renewal",
+        level = -1,
+    },
+    [42439] = {
+        name = "Aid for the Ashen",
+        level = -1,
+    },
+    [42440] = {
+        name = "The Shrine in Peril",
+        level = -1,
+    },
+    [42430] = {
+        name = "The Fangs of Ashamane",
+        level = -1,
+    },
+    [41468] = {
+        name = "Mistress of the Claw",
+        level = -1,
+    },
+    [41782] = {
+        name = "To The Hills",
+        level = -1,
+    },
+    [41783] = {
+        name = "Fallen Offerings",
+        level = -1,
+    },
+    [41790] = {
+        name = "The First Trial of Ursol",
+        level = -1,
+    },
+    [41791] = {
+        name = "The Second Trial of Ursol",
+        level = -1,
+    },
+    [41792] = {
+        name = "The Third Trial of Ursol",
+        level = -1,
+    },
+    [40647] = {
+        name = "When Dreams Become Nightmares",
+        level = -1,
+    },
+    [40649] = {
+        name = "Meet with Mylune",
+        level = -1,
+    },
+    [41422] = {
+        name = "Necessary Preparations",
+        level = -1,
+    },
+    [41449] = {
+        name = "Join the Dreamer",
+        level = -1,
+    },
+    [41436] = {
+        name = "In Deep Slumber",
+        level = -1,
+    },
+    [41690] = {
+        name = "Reconvene",
+        level = -1,
+    },
+    [41689] = {
+        name = "Cleansing the Mother Tree",
+        level = -1,
+    },
+    [41918] = {
+        name = "The Dreamer Returns",
+        level = -1,
+    },
+    [40651] = {
+        name = "The Seed of Ages",
+        level = -1,
+    },
+    [41332] = {
+        name = "Ascending The Circle",
+        level = -1,
+    },
+    [40652] = {
+        name = "Word on the Winds",
+        level = -1,
+    },
+    [40653] = {
+        name = "Making Trails",
+        level = -1,
+    },
+    [42516] = {
+        name = "Growing Power",
+        level = -1,
+    },
+    [42583] = {
+        name = "Rise, Champions",
+        level = -1,
+    },
+    [40650] = {
+        name = "Champion: Zen'tabra",
+        level = -1,
+    },
+    [42096] = {
+        name = "Champion: Naralex",
+        level = -1,
+    },
+    [42584] = {
+        name = "Sister Lilith",
+        level = -1,
+    },
+    [42585] = {
+        name = "Recruiting the Troops",
+        level = -1,
+    },
+    [42586] = {
+        name = "A Glade Defense",
+        level = -1,
+    },
+    [41413] = {
+        name = "What Could Go Wrong?",
+        level = -1,
+    },
+    [42588] = {
+        name = "Branching Out",
+        level = -1,
+    },
+    [42032] = {
+        name = "Sampling the Nightmare",
+        level = -1,
+    },
+    [42031] = {
+        name = "Dire Growth",
+        level = -1,
+    },
+    [42033] = {
+        name = "Malorne's Refuge",
+        level = -1,
+    },
+    [42034] = {
+        name = "Grip of Nightmare",
+        level = -1,
+    },
+    [42035] = {
+        name = "Tracking the Enemy",
+        level = -1,
+    },
+    [42036] = {
+        name = "Idol of the Wilds",
+        level = -1,
+    },
+    [42038] = {
+        name = "Champion: Broll Bearmantle",
+        level = -1,
+    },
+    [42039] = {
+        name = "Champion: Sylendra Gladesong",
+        level = -1,
+    },
+    [42037] = {
+        name = "Gathering the Dreamweavers",
+        level = -1,
+    },
+    [43991] = {
+        name = "The Protectors",
+        level = -1,
+    },
+    [40654] = {
+        name = "Druids of the Claw",
+        level = -1,
+    },
+    [44077] = {
+        name = "Eye of Azshara: Essence of Balance",
+        level = -1,
+    },
+    [44076] = {
+        name = "Darkheart Thicket: Essence of Regrowth",
+        level = -1,
+    },
+    [44075] = {
+        name = "Halls of Valor: Essence of Ferocity",
+        level = -1,
+    },
+    [44074] = {
+        name = "Neltharion's Lair: Essence of Tenacity",
+        level = -1,
+    },
+    [44232] = {
+        name = "The Grove Provides",
+        level = -1,
+    },
+    [42040] = {
+        name = "The Way to Nordrassil",
+        level = -1,
+    },
+    [42042] = {
+        name = "Teensy Weensies!",
+        level = -1,
+    },
+    [42043] = {
+        name = "Cleaning Up",
+        level = -1,
+    },
+    [42044] = {
+        name = "A Dying Dream",
+        level = -1,
+    },
+    [42045] = {
+        name = "Communing With Malorne",
+        level = -1,
+    },
+    [42046] = {
+        name = "A New Beginning",
+        level = -1,
+    },
+    [42048] = {
+        name = "Champion: Mylune",
+        level = -1,
+    },
+    [42047] = {
+        name = "Champion: Hamuul Runetotem",
+        level = -1,
+    },
+    [43365] = {
+        name = "The Cycle Continues",
+        level = -1,
+    },
+    [42719] = {
+        name = "Eye of Azshara: Cleansing the Dreamway",
+        level = -1,
+    },
+    [42129] = {
+        name = "The Pendant of Starlight",
+        level = -1,
+    },
+    [42049] = {
+        name = "Powering the Portal",
+        level = -1,
+    },
+    [42365] = {
+        name = "Focusing the Energies",
+        level = -1,
+    },
+    [42051] = {
+        name = "Enter Nightmare",
+        level = -1,
+    },
+    [43368] = {
+        name = "Champion: Brightwing",
+        level = -1,
+    },
+    [42050] = {
+        name = "Defenders of the Dream",
+        level = -1,
+    },
+    [42053] = {
+        name = "The War of the Ancients",
+        level = -1,
+    },
+    [42055] = {
+        name = "The Demi-God's Return",
+        level = -1,
+    },
+    [42056] = {
+        name = "Champion: Remulos",
+        level = -1,
+    },
+    [43409] = {
+        name = "A Hero's Weapon",
+        level = -1,
+    },
+
+    
+        [41047] = {
+        name = "Infused with Power",
+        level = -1,
+    },
+    [40958] = {
+        name = "Tactical Matters",
+        level = -1,
+    },
+    [40959] = {
+        name = "The Campaign Begins",
+        level = -1,
+    },
+    [42519] = {
+        name = "Rise, Champions",
+        level = -1,
+    },
+    [40957] = {
+        name = "A Strong Right Hand",
+        level = -1,
+    },
+    [42409] = {
+        name = "Champion: Loren Stormhoof",
+        level = -1,
+    },
+    [42523] = {
+        name = "Making Contact",
+        level = -1,
+    },
+    [42524] = {
+        name = "Recruiting The Troops",
+        level = -1,
+    },
+    [42525] = {
+        name = "Troops in the Field",
+        level = -1,
+    },
+    [42526] = {
+        name = "Tech It Up A Notch",
+        level = -1,
+    },
+    [42384] = {
+        name = "Scouting Reports",
+        level = -1,
+    },
+    [44009] = {
+        name = "A Falling Star",
+        level = -1,
+    },
+    [44004] = {
+        name = "Bringer of the Light",
+        level = -1,
+    },
+    [43705] = {
+        name = "Nobundo's Last Stand",
+        level = -1,
+    },
+    [43483] = {
+        name = "Fel Annihilation",
+        level = -1,
+    },
+    [44153] = {
+        name = "Light's Charge",
+        level = -1,
+    },
+    [44043] = {
+        name = "Continuing the Legend",
+        level = -1,
+    },
+    [42385] = {
+        name = "Lending a Hand",
+        level = -1,
+    },
+    [42386] = {
+        name = "Rising Troubles",
+        level = -1,
+    },
+    [42387] = {
+        name = "Assassin Entrapment",
+        level = -1,
+    },
+    [42388] = {
+        name = "Urgent Summons",
+        level = -1,
+    },
+    [42390] = {
+        name = "Recruiting Rexxar",
+        level = -1,
+    },
+    [42389] = {
+        name = "Calling Hilaire Home",
+        level = -1,
+    },
+    [42391] = {
+        name = "Bite of the Beast",
+        level = -1,
+    },
+    [42411] = {
+        name = "Champion: Beastmaster Hilaire",
+        level = -1,
+    },
+    [42393] = {
+        name = "Homecoming",
+        level = -1,
+    },
+    [42390] = {
+        name = "Recruiting Rexxar",
+        level = -1,
+    },
+    [42388] = {
+        name = "Urgent Summons",
+        level = -1,
+    },
+    [43335] = {
+        name = "Survival Skills",
+        level = -1,
+    },
+    [42392] = {
+        name = "Survive the Night",
+        level = -1,
+    },
+    [42410] = {
+        name = "Champion: Rexxar",
+        level = -1,
+    },
+    [42395] = {
+        name = "Signaling Trouble",
+        level = -1,
+    },
+    [42394] = {
+        name = "Unseen Protection",
+        level = -1,
+    },
+    [42134] = {
+        name = "Recruiting More Troops",
+        level = -1,
+    },
+    [42436] = {
+        name = "Aiding Our Allies",
+        level = -1,
+    },
+    [42928] = {
+        name = "Silkweave Bandages",
+        level = -1,
+    },
+    [42929] = {
+        name = "Highmountain Salmon",
+        level = -1,
+    },
+    [42930] = {
+        name = "Big Gamy Ribs",
+        level = -1,
+    },
+    [43880] = {
+        name = "Hitting the Books",
+        level = -1,
+    },
+    [44233] = {
+        name = "Walk This Way",
+        level = -1,
+    },
+    [42403] = {
+        name = "Highmountain Hunters",
+        level = -1,
+    },
+    [42397] = {
+        name = "Baron and the Huntsman",
+        level = -1,
+    },
+    [42413] = {
+        name = "Champion: Hemet Nesingwary",
+        level = -1,
+    },
+    [42414] = {
+        name = "Champion: Addie Fizzlebog",
+        level = -1,
+    },
+    [42397] = {
+        name = "Baron and the Huntsman",
+        level = -1,
+    },
+    [42403] = {
+        name = "Highmountain Hunters",
+        level = -1,
+    },
+    [42398] = {
+        name = "Awakening the Senses",
+        level = -1,
+    },
+    [42412] = {
+        name = "Champion: Huntsman Blake",
+        level = -1,
+    },
+    [42399] = {
+        name = "Ready to Work",
+        level = -1,
+    },
+    [42400] = {
+        name = "Missing Mages",
+        level = -1,
+    },
+    [42401] = {
+        name = "The Scent of Magic",
+        level = -1,
+    },
+    [42404] = {
+        name = "Assisting the Archmage",
+        level = -1,
+    },
+    [42689] = {
+        name = "Knowing Our Enemy",
+        level = -1,
+    },
+    [42691] = {
+        name = "Leyworm Lure",
+        level = -1,
+    },
+    [42406] = {
+        name = "To Tame the Beast",
+        level = -1,
+    },
+    [42407] = {
+        name = "The Nature of the Beast",
+        level = -1,
+    },
+    [42402] = {
+        name = "Requesting Reinforcements",
+        level = -1,
+    },
+    [42405] = {
+        name = "Informing Our Allies",
+        level = -1,
+    },
+    [42654] = {
+        name = "Darkheart Thicket: Nightmare Oak",
+        level = -1,
+    },
+    [42655] = {
+        name = "Ore Under the Sea",
+        level = -1,
+    },
+    [43182] = {
+        name = "The Missing Vessel",
+        level = -1,
+    },
+    [42408] = {
+        name = "Required Reagents",
+        level = -1,
+    },
+    [44680] = {
+        name = "Leading by Example",
+        level = -1,
+    },
+    [42656] = {
+        name = "Azure Weaponry",
+        level = -1,
+    },
+    [42657] = {
+        name = "Meeting in Moonclaw Vale",
+        level = -1,
+    },
+    [42658] = {
+        name = "Delicate Enchantments",
+        level = -1,
+    },
+    [42133] = {
+        name = "Same Day Delivery",
+        level = -1,
+    },
+    [42659] = {
+        name = "In Defense of Dalaran",
+        level = -1,
+    },
+    [42415] = {
+        name = "Champion: Halduron Brightwing",
+        level = -1,
+    },
+    [43423] = {
+        name = "A Hero's Weapon",
+        level = -1,
+    },
+
     
     
     
