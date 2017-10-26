@@ -1049,17 +1049,17 @@ function BtWQuests_UpdateChain(scroll)
                     local factionID, name, standing, amount, completed = BtWQuests_GetChainReputationByIndex(index);
                     
                     if completed then
-                        itemButton.status = "complete"
+                        itemButton.newStatus = "complete"
                     else
-                        itemButton.status = "active"
+                        itemButton.newStatus = "active"
                     end
                 elseif type == "level" then
                     local level, name, completed = BtWQuests_GetChainLevelByIndex(index);
                     
                     if completed then
-                        itemButton.status = "complete"
+                        itemButton.newStatus = "complete"
                     else
-                        itemButton.status = "active"
+                        itemButton.newStatus = "active"
                     end
                 elseif type == "dummy" then
                     itemButton.newStatus = nil
