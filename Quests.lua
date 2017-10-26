@@ -2450,10 +2450,19 @@ BtWQuests_Chains = {
                 },
             },
             {
+                type = "quest",
+                id = 40956,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
                 x = 3,
-                y = 6,
+                y = 7,
             },
         }
     },
