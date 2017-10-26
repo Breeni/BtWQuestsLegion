@@ -9095,18 +9095,68 @@ BtWQuests_Chains = {
         expansion = BTWQUESTS_EXPANSION_LEGION,
         completed = {
             type = "quest",
-            id = 42430,
+            id = 42504,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 42428,
+                id = 42501,
                 x = 3,
                 y = 0,
                 connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 42502,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42503,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42539,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42568,
+                x = 3,
+                y = 4,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 42504,
+                faction = "Alliance",
+                x = 3,
+                y = 5,
+            },
+            {
+                type = "quest",
+                id = 42627,
+                faction = "Horde",
+                x = 3,
+                y = 5,
             },
         },
     },
@@ -9116,15 +9166,24 @@ BtWQuests_Chains = {
         expansion = BTWQUESTS_EXPANSION_LEGION,
         completed = {
             type = "quest",
-            id = 100,
+            id = 40849,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 40847,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40849,
+                x = 3,
+                y = 1,
             },
         },
     },
@@ -9134,15 +9193,51 @@ BtWQuests_Chains = {
         expansion = BTWQUESTS_EXPANSION_LEGION,
         completed = {
             type = "quest",
-            id = 100,
+            id = 41924,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 41919,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41920,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41921,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41922,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41924,
+                x = 3,
+                y = 4,
             },
         },
     },
@@ -12752,6 +12847,268 @@ BtWQuests_Quests = {
         level = -1,
     },
     [43423] = {
+        name = "A Hero's Weapon",
+        level = -1,
+    },
+    
+    
+        [40832] = {
+        name = "Call of The Uncrowned",
+        level = -1,
+    },
+    [40839] = {
+        name = "The Final Shadow",
+        level = -1,
+    },
+    [40840] = {
+        name = "A Worthy Blade",
+        level = -1,
+    },
+    [42501] = {
+        name = "Finishing the Job",
+        level = -1,
+    },
+    [42502] = {
+        name = "No Sanctuary",
+        level = -1,
+    },
+    [42503] = {
+        name = "Codebreaker",
+        level = -1,
+    },
+    [42539] = {
+        name = "Cloak and Dagger",
+        level = -1,
+    },
+    [42568] = {
+        name = "Preparation",
+        level = -1,
+    },
+    [42504] = {
+        name = "The Unseen Blade",
+        level = -1,
+    },
+    [42627] = {
+        name = "The Unseen Blade",
+        level = -1,
+    },
+    [40847] = {
+        name = "A Friendly Accord",
+        level = -1,
+    },
+    [40849] = {
+        name = "The Dreadblades",
+        level = -1,
+    },
+    [41919] = {
+        name = "The Shadows Reveal",
+        level = -1,
+    },
+    [41920] = {
+        name = "A Matter of Finesse",
+        level = -1,
+    },
+    [41921] = {
+        name = "Closing In",
+        level = -1,
+    },
+    [41922] = {
+        name = "Traitor!",
+        level = -1,
+    },
+    [41924] = {
+        name = "Fangs of the Devourer",
+        level = -1,
+    },
+    [40950] = {
+        name = "Honoring Success",
+        level = -1,
+    },
+    [40994] = {
+        name = "Right Tools for the Job",
+        level = -1,
+    },
+    [40995] = {
+        name = "Injection of Power",
+        level = -1,
+    },
+    [43007] = {
+        name = "Return to the Chamber of Shadows",
+        level = -1,
+    },
+    [42139] = {
+        name = "Rise, Champions",
+        level = -1,
+    },
+    [42140] = {
+        name = "A More Wretched Hive of Scum and Villainy",
+        level = -1,
+    },
+    [43013] = {
+        name = "The School of Roguery",
+        level = -1,
+    },
+    [43014] = {
+        name = "The Big Bad Wolfe",
+        level = -1,
+    },
+    [43015] = {
+        name = "What Winstone Suggests",
+        level = -1,
+    },
+    [43958] = {
+        name = "A Body of Evidence",
+        level = -1,
+    },
+    [43829] = {
+        name = "Spy vs. Spy",
+        level = -1,
+    },
+    [44041] = {
+        name = "The Bloody Truth",
+        level = -1,
+    },
+    [44116] = {
+        name = "Mystery at Citrine Bay",
+        level = -1,
+    },
+    [44155] = {
+        name = "Searching For Clues",
+        level = -1,
+    },
+    [44117] = {
+        name = "Time Flies When Yer Havin' Rum!",
+        level = -1,
+    },
+    [44177] = {
+        name = "Dark Secrets and Shady Deals",
+        level = -1,
+    },
+    [44183] = {
+        name = "Champion: Lord Jorach Ravenholdt",
+        level = -1,
+    },
+    [43841] = {
+        name = "Convincin' Old Yancey",
+        level = -1,
+    },
+    [43852] = {
+        name = "Fancy Lads and Buccaneers",
+        level = -1,
+    },
+    [44181] = {
+        name = "Champion: Fleet Admiral Tethys",
+        level = -1,
+    },
+    [42684] = {
+        name = "Throwing SI:7 Off the Trail",
+        level = -1,
+    },
+    [43468] = {
+        name = "Blood for the Wolfe",
+        level = -1,
+    },
+    [43253] = {
+        name = "Maw of Souls: Ancient Vrykul Legends",
+        level = -1,
+    },
+    [43249] = {
+        name = "The Raven's Eye",
+        level = -1,
+    },
+    [43250] = {
+        name = "Off to Court",
+        level = -1,
+    },
+    [44252] = {
+        name = "A Sheath For Every Blade",
+        level = -1,
+    },
+    [42730] = {
+        name = "Noggenfogger's Reasonable Request",
+        level = -1,
+    },
+    [43885] = {
+        name = "Hitting the Books",
+        level = -1,
+    },
+    [44178] = {
+        name = "A Particularly Potent Potion",
+        level = -1,
+    },
+    [44180] = {
+        name = "Champion: Marin Noggenfogger",
+        level = -1,
+    },
+    [43251] = {
+        name = "In Search of the Eye",
+        level = -1,
+    },
+    [43252] = {
+        name = "Eternal Unrest",
+        level = -1,
+    },
+    [42678] = {
+        name = "Black Rook Hold: Into Black Rook Hold",
+        level = -1,
+    },
+    [42680] = {
+        name = "Deciphering the Letter",
+        level = -1,
+    },
+    [42800] = {
+        name = "Champion: Valeera Sanguinar",
+        level = -1,
+    },
+    [43469] = {
+        name = "Where In the World is Mathias?",
+        level = -1,
+    },
+    [43470] = {
+        name = "Pruning the Garden",
+        level = -1,
+    },
+    [43479] = {
+        name = "The World is Not Enough",
+        level = -1,
+    },
+    [43485] = {
+        name = "A Burning Distraction",
+        level = -1,
+    },
+    [43508] = {
+        name = "The Captive Spymaster",
+        level = -1,
+    },
+    [37666] = {
+        name = "Picking a Fight",
+        level = -1,
+    },
+    [37448] = {
+        name = "A Simple Plan",
+        level = -1,
+    },
+    [37494] = {
+        name = "Under Cover of Darkness",
+        level = -1,
+    },
+    [37689] = {
+        name = "The Imposter",
+        level = -1,
+    },
+    [43723] = {
+        name = "Champion: Taoshi",
+        level = -1,
+    },
+    [43724] = {
+        name = "Champion: Master Mathias Shaw",
+        level = -1,
+    },
+    [44215] = {
+        name = "One More Thing...",
+        level = -1,
+    },
+    [43422] = {
         name = "A Hero's Weapon",
         level = -1,
     },
