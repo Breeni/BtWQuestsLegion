@@ -8592,18 +8592,33 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_HUNTER,
         completed = {
             type = "quest",
-            id = 100,
+            id = 42158,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 41541,
                 x = 3,
                 y = 0,
                 connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 41574,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42158,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -8614,15 +8629,42 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_HUNTER,
         completed = {
             type = "quest",
-            id = 100,
+            id = 40419,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 42185,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41540,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40392,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40419,
+                x = 3,
+                y = 3,
             },
         },
     },
@@ -8633,15 +8675,33 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_HUNTER,
         completed = {
             type = "quest",
-            id = 100,
+            id = 40385,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 41542,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39427,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40385,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -13546,6 +13606,49 @@ BtWQuests_Quests = {
     },
     [43414] = {
         name = "A Hero's Weapon",
+        level = -1,
+    },
+    
+    
+    
+    [41541] = {
+        name = "A Beastly Expedition",
+        level = -1,
+    },
+    [41574] = {
+        name = "Stolen Thunder",
+        level = -1,
+    },
+    [42158] = {
+        name = "The Creator's Workshop",
+        level = -1,
+    },
+    [42185] = {
+        name = "Never Hunt Alone",
+        level = -1,
+    },
+    [41540] = {
+        name = "Rendezvous with the Courier",
+        level = -1,
+    },
+    [40392] = {
+        name = "Call of the Marksman",
+        level = -1,
+    },
+    [40419] = {
+        name = "Rescue Mission",
+        level = -1,
+    },
+    [41542] = {
+        name = "Preparation for the Hunt",
+        level = -1,
+    },
+    [39427] = {
+        name = "The Eagle Spirit's Blessing",
+        level = -1,
+    },
+    [40385] = {
+        name = "The Spear in the Shadow",
         level = -1,
     },
 
