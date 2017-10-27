@@ -8772,18 +8772,69 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_MAGE,
         completed = {
             type = "quest",
-            id = 42430,
+            id = 42011,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 42428,
+                id = 42001,
                 x = 3,
                 y = 0,
                 connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 42006,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42007,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42008,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42009,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42010,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42011,
+                x = 3,
+                y = 6,
             },
         },
     },
@@ -8794,15 +8845,33 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_MAGE,
         completed = {
             type = "quest",
-            id = 100,
+            id = 11997,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 40267,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40270,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 11997,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -8813,15 +8882,51 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_MAGE,
         completed = {
             type = "quest",
-            id = 100,
+            id = 42479,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 42452,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42455,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42476,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42477,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42479,
+                x = 3,
+                y = 4,
             },
         },
     },
@@ -14095,6 +14200,268 @@ BtWQuests_Quests = {
     [42765] = {
         name = "The Trial at the Temple",
         level = 110,
+    },
+    
+    
+        [41035] = {
+        name = "Felstorm's Plea",
+        level = -1,
+    },
+    [41036] = {
+        name = "The Dreadlord's Prize",
+        level = -1,
+    },
+    [41085] = {
+        name = "A Mage's Weapon",
+        level = -1,
+    },
+    [40267] = {
+        name = "An Unexpected Message",
+        level = -1,
+    },
+    [40270] = {
+        name = "The Path of Atonement",
+        level = -1,
+    },
+    [11997] = {
+        name = "The Frozen Flame",
+        level = -1,
+    },
+    [42001] = {
+        name = "Aluneth, Greatstaff of the Magna",
+        level = -1,
+    },
+    [42006] = {
+        name = "A New Threat",
+        level = -1,
+    },
+    [42007] = {
+        name = "A Forgotten Enemy",
+        level = -1,
+    },
+    [42008] = {
+        name = "Eyes of the Dragon",
+        level = -1,
+    },
+    [42009] = {
+        name = "Harnessing the Arcane",
+        level = -1,
+    },
+    [42010] = {
+        name = "Arcane Unleashed",
+        level = -1,
+    },
+    [42011] = {
+        name = "The Nexus Vault",
+        level = -1,
+    },
+    [42452] = {
+        name = "Finding Ebonchill",
+        level = -1,
+    },
+    [42455] = {
+        name = "Alodi's Gems",
+        level = -1,
+    },
+    [42476] = {
+        name = "The Deadwind Site",
+        level = -1,
+    },
+    [42477] = {
+        name = "Daio the Decrepit",
+        level = -1,
+    },
+    [42479] = {
+        name = "The Mage Hunter",
+        level = -1,
+    },
+    [41114] = {
+        name = "The Champion's Return",
+        level = -1,
+    },
+    [41125] = {
+        name = "Unlocked Potential",
+        level = -1,
+    },
+    [41112] = {
+        name = "The Great Akazamzarak",
+        level = -1,
+    },
+    [41113] = {
+        name = "The Only Way to Travel",
+        level = -1,
+    },
+    [41124] = {
+        name = "The Tirisgarde Reborn",
+        level = -1,
+    },
+    [41141] = {
+        name = "A Conjuror's Duty",
+        level = -1,
+    },
+    [42663] = {
+        name = "Rise, Champions",
+        level = -1,
+    },
+    [42685] = {
+        name = "Champion: Archmage Modera",
+        level = -1,
+    },
+    [42662] = {
+        name = "Champion: Archmage Kalec",
+        level = -1,
+    },
+    [42703] = {
+        name = "Technical Wizardry",
+        level = -1,
+    },
+    [42126] = {
+        name = "Archmage Omniara",
+        level = -1,
+    },
+    [42127] = {
+        name = "Building Our Troops",
+        level = -1,
+    },
+    [42696] = {
+        name = "Tech It Up A Notch",
+        level = -1,
+    },
+    [42433] = {
+        name = "Memories of Ebonchill",
+        level = -1,
+    },
+    [42418] = {
+        name = "An Unexpected Visitor",
+        level = -1,
+    },
+    [42434] = {
+        name = "A Covert Operation",
+        level = -1,
+    },
+    [42435] = {
+        name = "Prepare To Be Assimilated",
+        level = -1,
+    },
+    [42166] = {
+        name = "What Is Going On Here?",
+        level = -1,
+    },
+    [42206] = {
+        name = "The Next Level Has Arrived",
+        level = -1,
+    },
+    [42149] = {
+        name = "Some Knowledge Shouldn't Be Shared",
+        level = -1,
+    },
+    [42171] = {
+        name = "Final Exit",
+        level = -1,
+    },
+    [42222] = {
+        name = "Empyrean Society Report",
+        level = -1,
+    },
+    [42706] = {
+        name = "Champion: Esara Verrinde",
+        level = -1,
+    },
+    [42705] = {
+        name = "Champion: Ravandwyr",
+        level = -1,
+    },
+    [44098] = {
+        name = "Recruiting Apprentices",
+        level = -1,
+    },
+    [42416] = {
+        name = "Following In His Footsteps",
+        level = -1,
+    },
+    [42451] = {
+        name = "Kalec's Plan",
+        level = -1,
+    },
+    [44240] = {
+        name = "Cowl of Tirisgarde",
+        level = -1,
+    },
+    [43749] = {
+        name = "Hitting the Books",
+        level = -1,
+    },
+    [42954] = {
+        name = "A Small Favor",
+        level = -1,
+    },
+    [42955] = {
+        name = "The Proper Way of Things",
+        level = -1,
+    },
+    [42956] = {
+        name = "Ari's Package",
+        level = -1,
+    },
+    [42959] = {
+        name = "Three Is a Lucky Number",
+        level = -1,
+    },
+    [42704] = {
+        name = "Champion: Arcane Destroyer",
+        level = -1,
+    },
+    [44689] = {
+        name = "The Might of the Tirisgarde",
+        level = -1,
+    },
+    [42508] = {
+        name = "Not A Toothless Dragon",
+        level = -1,
+    },
+    [42521] = {
+        name = "The Enemy of My Enemy...",
+        level = -1,
+    },
+    [42494] = {
+        name = "More Than Just A Food Vendor",
+        level = -1,
+    },
+    [42702] = {
+        name = "Champion: Millhouse Manastorm",
+        level = -1,
+    },
+    [42493] = {
+        name = "Impending Dooooooom!",
+        level = -1,
+    },
+    [42520] = {
+        name = "A Terrible Loss",
+        level = -1,
+    },
+    [42707] = {
+        name = "Eye of Azshara: A Magical Affliction",
+        level = -1,
+    },
+    [42940] = {
+        name = "When There's a Will, There's a Way",
+        level = -1,
+    },
+    [42734] = {
+        name = "Into the Oculus",
+        level = -1,
+    },
+    [42917] = {
+        name = "Champion: Archmage Vargoth",
+        level = -1,
+    },
+    [42914] = {
+        name = "Champion: Meryl Felstorm",
+        level = -1,
+    },
+    [43415] = {
+        name = "A Hero's Weapon",
+        level = -1,
     },
     
     
