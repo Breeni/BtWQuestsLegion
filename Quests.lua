@@ -9815,18 +9815,33 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_SHAMAN,
         completed = {
             type = "quest",
-            id = 42430,
+            id = 39771,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 42428,
+                id = 43334,
                 x = 3,
                 y = 0,
                 connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 43338,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39771,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -9837,15 +9852,69 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_SHAMAN,
         completed = {
             type = "quest",
-            id = 100,
+            id = 40224,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 42931,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42932,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42933,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42935,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42936,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42937,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40224,
+                x = 3,
+                y = 6,
             },
         },
     },
@@ -9856,15 +9925,33 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_SHAMAN,
         completed = {
             type = "quest",
-            id = 100,
+            id = 40341,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 43644,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43645,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40341,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -14973,6 +15060,276 @@ BtWQuests_Quests = {
         level = -1,
     },
     [43425] = {
+        name = "A Hero's Weapon",
+        level = -1,
+    },
+    
+    
+        [39746] = {
+        name = "The Fist of Ra-den",
+        level = -1,
+    },
+    [43334] = {
+        name = "The Coming Storm",
+        level = -1,
+    },
+    [43338] = {
+        name = "The Codex of Ra",
+        level = -1,
+    },
+    [39771] = {
+        name = "The Voice of Thunder",
+        level = -1,
+    },
+    [43644] = {
+        name = "To the Deeps",
+        level = -1,
+    },
+    [43645] = {
+        name = "Wavespeaker's Trail",
+        level = -1,
+    },
+    [40341] = {
+        name = "Throne of the Tides: Azshara's Power",
+        level = -1,
+    },
+    [42931] = {
+        name = "Where the Hammer Falls",
+        level = -1,
+    },
+    [42932] = {
+        name = "What the Stonemother Knows",
+        level = -1,
+    },
+    [42933] = {
+        name = "The Troggs that Fel to Earth",
+        level = -1,
+    },
+    [42935] = {
+        name = "Stone Drake Rescue",
+        level = -1,
+    },
+    [42936] = {
+        name = "Clutch Play",
+        level = -1,
+    },
+    [42937] = {
+        name = "Needlerock Beatdown",
+        level = -1,
+    },
+    [40224] = {
+        name = "The Hammer in the Deep",
+        level = -1,
+    },
+    [40225] = {
+        name = "A Ring Reforged",
+        level = -1,
+    },
+    [40276] = {
+        name = "The Maelstrom Beckons",
+        level = -1,
+    },
+    [41510] = {
+        name = "Azeroth Needs You",
+        level = -1,
+    },
+    [44544] = {
+        name = "Call of the Earthen Ring",
+        level = -1,
+    },
+    [42188] = {
+        name = "Nobundo Awaits",
+        level = -1,
+    },
+    [42114] = {
+        name = "The Ritual of Tides",
+        level = -1,
+    },
+    [42383] = {
+        name = "Rise, Champions",
+        level = -1,
+    },
+    [42198] = {
+        name = "Champion: Stormcaller Mylra",
+        level = -1,
+    },
+    [42197] = {
+        name = "Champion: Duke Hydraxis",
+        level = -1,
+    },
+    [42141] = {
+        name = "Summoner Morn",
+        level = -1,
+    },
+    [42142] = {
+        name = "Recruiting The Troops",
+        level = -1,
+    },
+    [41741] = {
+        name = "Troops in the Field",
+        level = -1,
+    },
+    [41740] = {
+        name = "Tech It Up A Notch",
+        level = -1,
+    },
+    [42184] = {
+        name = "Mission: Elemental Diplomacy",
+        level = -1,
+    },
+    [44101] = {
+        name = "Armor Enhancement Token",
+        level = -1,
+    },
+    [42977] = {
+        name = "Servant of the Windseeker",
+        level = -1,
+    },
+    [43002] = {
+        name = "Blessed Blade of the Windseeker",
+        level = -1,
+    },
+    [41770] = {
+        name = "The Skies Above",
+        level = -1,
+    },
+    [41771] = {
+        name = "Recharging the Blade",
+        level = -1,
+    },
+    [41776] = {
+        name = "Return of the Windlord",
+        level = -1,
+    },
+    [41742] = {
+        name = "Champion: Celestos",
+        level = -1,
+    },
+    [41743] = {
+        name = "Champion: Nobundo",
+        level = -1,
+    },
+    [44465] = {
+        name = "Recruiting Earthcallers",
+        level = -1,
+    },
+    [42986] = {
+        name = "Enemies of Air",
+        level = -1,
+    },
+    [42996] = {
+        name = "The Maelstrom Pillar: Air",
+        level = -1,
+    },
+    [42983] = {
+        name = "Mistral Essence",
+        level = -1,
+    },
+    [42984] = {
+        name = "Eye of Azshara: The Scepter of Storms",
+        level = -1,
+    },
+    [44253] = {
+        name = "A Vision of Triumph",
+        level = -1,
+    },
+    [43886] = {
+        name = "Speaking to the Wind",
+        level = -1,
+    },
+    [41901] = {
+        name = "Oath of the Windlord",
+        level = -1,
+    },
+    [42200] = {
+        name = "Mission: Investigating Deepholm",
+        level = -1,
+    },
+    [41775] = {
+        name = "The Great Stonemother",
+        level = -1,
+    },
+    [42068] = {
+        name = "The Return of Twilight",
+        level = -1,
+    },
+    [41777] = {
+        name = "Destroying the Cult",
+        level = -1,
+    },
+    [41897] = {
+        name = "The Master's Plan",
+        level = -1,
+    },
+    [41898] = {
+        name = "Unleashing the Elements",
+        level = -1,
+    },
+    [41899] = {
+        name = "Held Captive!",
+        level = -1,
+    },
+    [42065] = {
+        name = "The Twilight Master",
+        level = -1,
+    },
+    [41900] = {
+        name = "A Promise of Earth",
+        level = -1,
+    },
+    [41746] = {
+        name = "Champion: Muln Earthfury",
+        level = -1,
+    },
+    [41747] = {
+        name = "Champion: Avalanchion",
+        level = -1,
+    },
+    [42208] = {
+        name = "Return to the Firelands",
+        level = -1,
+    },
+    [41772] = {
+        name = "Ascendant of Flames",
+        level = -1,
+    },
+    [42988] = {
+        name = "Worldmender",
+        level = -1,
+    },
+    [42995] = {
+        name = "A Taste For Blood",
+        level = -1,
+    },
+    [43003] = {
+        name = "Return to Janai",
+        level = -1,
+    },
+    [42990] = {
+        name = "Neltharion's Lair: The Earthen Amulet",
+        level = -1,
+    },
+    [41773] = {
+        name = "The Firelord's Command",
+        level = -1,
+    },
+    [41934] = {
+        name = "The Brand of Damnation",
+        level = -1,
+    },
+    [41888] = {
+        name = "Allegiance of Flame",
+        level = -1,
+    },
+    [41744] = {
+        name = "Champion: Rehgar Earthfury",
+        level = -1,
+    },
+    [41745] = {
+        name = "Champion: Scaldius",
+        level = -1,
+    },
+    [43418] = {
         name = "A Hero's Weapon",
         level = -1,
     },
