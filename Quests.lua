@@ -9384,18 +9384,78 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_PRIEST,
         completed = {
             type = "quest",
-            id = 42430,
+            id = 41632,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 42428,
+                id = 41625,
                 x = 3,
                 y = 0,
                 connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 41626,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41627,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41628,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41629,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41630,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41631,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41632,
+                x = 3,
+                y = 7,
             },
         },
     },
@@ -9406,15 +9466,51 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_PRIEST,
         completed = {
             type = "quest",
-            id = 100,
+            id = 42074,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 41957,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41966,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41967,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41993,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42074,
+                x = 3,
+                y = 4,
             },
         },
     },
@@ -9425,13 +9521,13 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_PRIEST,
         completed = {
             type = "quest",
-            id = 100,
+            id = 40710,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 40710,
                 x = 3,
                 y = 0,
             },
@@ -14460,6 +14556,268 @@ BtWQuests_Quests = {
         level = -1,
     },
     [43415] = {
+        name = "A Hero's Weapon",
+        level = -1,
+    },
+    
+    
+        [40705] = {
+        name = "Priestly Matters",
+        level = -1,
+    },
+    [40706] = {
+        name = "A Legend You Can Hold",
+        level = -1,
+    },
+    [40710] = {
+        name = "Blade in Twilight",
+        level = -1,
+    },
+    [41957] = {
+        name = "The Vindicator's Plea",
+        level = -1,
+    },
+    [41966] = {
+        name = "House Call",
+        level = -1,
+    },
+    [41967] = {
+        name = "Out of the Darkness",
+        level = -1,
+    },
+    [41993] = {
+        name = "Salvation From On High",
+        level = -1,
+    },
+    [42074] = {
+        name = "Return of the Light",
+        level = -1,
+    },
+    [41625] = {
+        name = "The Light's Wrath",
+        level = -1,
+    },
+    [41626] = {
+        name = "A New Threat",
+        level = -1,
+    },
+    [41627] = {
+        name = "A Forgotten Enemy",
+        level = -1,
+    },
+    [41628] = {
+        name = "Eyes of the Dragon",
+        level = -1,
+    },
+    [41629] = {
+        name = "Harnessing the Holy Fire",
+        level = -1,
+    },
+    [41630] = {
+        name = "The Nexus Vault",
+        level = -1,
+    },
+    [41632] = {
+        name = "A Gift of Time",
+        level = -1,
+    },
+    [40938] = {
+        name = "The Light and the Void",
+        level = -1,
+    },
+    [41015] = {
+        name = "Artifacts Need Artificers",
+        level = -1,
+    },
+    [41017] = {
+        name = "Empowering Your Artifact",
+        level = -1,
+    },
+    [41019] = {
+        name = "Actions on Azeroth",
+        level = -1,
+    },
+    [43270] = {
+        name = "Rise, Champions",
+        level = -1,
+    },
+    [43271] = {
+        name = "Champion: Calia Menethil",
+        level = -1,
+    },
+    [43272] = {
+        name = "Champion: High Priestess Ishanah",
+        level = -1,
+    },
+    [43265] = {
+        name = "Spread the Word",
+        level = -1,
+    },
+    [43275] = {
+        name = "Recruiting the Troops",
+        level = -1,
+    },
+    [43276] = {
+        name = "Troops in the Field",
+        level = -1,
+    },
+    [43277] = {
+        name = "Tech It Up A Notch",
+        level = -1,
+    },
+    [43371] = {
+        name = "Relieving the Front Lines",
+        level = -1,
+    },
+    [43372] = {
+        name = "Whispers in the Void",
+        level = -1,
+    },
+    [43373] = {
+        name = "The Best and Brightest",
+        level = -1,
+    },
+    [43374] = {
+        name = "Murloc Mind Control",
+        level = -1,
+    },
+    [43375] = {
+        name = "An Ample Supply",
+        level = -1,
+    },
+    [43376] = {
+        name = "Problem Salver",
+        level = -1,
+    },
+    [42137] = {
+        name = "Champion: Yalia Sagewhisper",
+        level = -1,
+    },
+    [42138] = {
+        name = "Champion: Zabra Hexx",
+        level = -1,
+    },
+    [43378] = {
+        name = "Eye of Azshara: Looking Through the Lens",
+        level = -1,
+    },
+    [43379] = {
+        name = "Velen's Vision",
+        level = -1,
+    },
+    [43851] = {
+        name = "Recruiting More Troops",
+        level = -1,
+    },
+    [43384] = {
+        name = "Demonic Runes",
+        level = -1,
+    },
+    [43377] = {
+        name = "Halls of Valor: The Light Within",
+        level = -1,
+    },
+    [43383] = {
+        name = "Awakening the Light",
+        level = -1,
+    },
+    [43380] = {
+        name = "Champion: Sol",
+        level = -1,
+    },
+    [43385] = {
+        name = "Infiltrating Our Enemies",
+        level = -1,
+    },
+    [44251] = {
+        name = "Power Word: Armor",
+        level = -1,
+    },
+    [43884] = {
+        name = "Hitting the Books",
+        level = -1,
+    },
+    [43386] = {
+        name = "Onslaught Envoy",
+        level = -1,
+    },
+    [43387] = {
+        name = "Scarlet Redemption",
+        level = -1,
+    },
+    [43388] = {
+        name = "Apostate Liberation",
+        level = -1,
+    },
+    [43389] = {
+        name = "Unexpected Guests",
+        level = -1,
+    },
+    [43381] = {
+        name = "Champion: Mariella Ward",
+        level = -1,
+    },
+    [43390] = {
+        name = "Forgotten Shadows",
+        level = -1,
+    },
+    [43391] = {
+        name = "Secrets of the Void",
+        level = -1,
+    },
+    [43392] = {
+        name = "Into the Void",
+        level = -1,
+    },
+    [43382] = {
+        name = "Champion: Natalie Seline",
+        level = -1,
+    },
+    [43394] = {
+        name = "Crossing Legion Lines",
+        level = -1,
+    },
+    [43396] = {
+        name = "The Mind of the Enemy",
+        level = -1,
+    },
+    [43395] = {
+        name = "Allies of the Light",
+        level = -1,
+    },
+    [43397] = {
+        name = "United As One",
+        level = -1,
+    },
+    [43797] = {
+        name = "Aiding the Conclave",
+        level = -1,
+    },
+    [43400] = {
+        name = "Lumenstone",
+        level = -1,
+    },
+    [43399] = {
+        name = "Fortifying the Temple",
+        level = -1,
+    },
+    [43832] = {
+        name = "Elixirs of Aid",
+        level = -1,
+    },
+    [43401] = {
+        name = "A Light in the Darkness",
+        level = -1,
+    },
+    [43398] = {
+        name = "Champion: Alonsus Faol",
+        level = -1,
+    },
+    [43402] = {
+        name = "High Priest of Netherlight",
+        level = -1,
+    },
+    [43420] = {
         name = "A Hero's Weapon",
         level = -1,
     },
