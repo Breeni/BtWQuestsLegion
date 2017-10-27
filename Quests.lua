@@ -9527,18 +9527,60 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_WARLOCK,
         completed = {
             type = "quest",
-            id = 42430,
+            id = 40623,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 42428,
+                id = 40495,
                 x = 3,
                 y = 0,
                 connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 40588,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40604,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40606,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40611,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40623,
+                x = 3,
+                y = 5,
             },
         },
     },
@@ -9549,15 +9591,33 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_WARLOCK,
         completed = {
             type = "quest",
-            id = 100,
+            id = 42125,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 42128,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42168,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42125,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -9568,15 +9628,33 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_WARLOCK,
         completed = {
             type = "quest",
-            id = 100,
+            id = 43254,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 43100,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43153,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43254,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -13229,6 +13307,244 @@ BtWQuests_Quests = {
         level = -1,
     },
     [43422] = {
+        name = "A Hero's Weapon",
+        level = -1,
+    },
+    
+    
+        [40716] = {
+        name = "The Sixth",
+        level = -1,
+    },
+    [40729] = {
+        name = "The New Blood",
+        level = -1,
+    },
+    [40684] = {
+        name = "The Tome of Blighted Implements",
+        level = -1,
+    },
+    [40495] = {
+        name = "Ulthalesh, the Deadwind Harvester",
+        level = -1,
+    },
+    [40588] = {
+        name = "Following the Curse",
+        level = -1,
+    },
+    [40604] = {
+        name = "Disturbing the Past",
+        level = -1,
+    },
+    [40606] = {
+        name = "To Point the Way",
+        level = -1,
+    },
+    [40611] = {
+        name = "The Fate of Deadwind",
+        level = -1,
+    },
+    [40623] = {
+        name = "The Dark Riders",
+        level = -1,
+    },
+    [42128] = {
+        name = "Ritual Reagents",
+        level = -1,
+    },
+    [42168] = {
+        name = "Looking into the Darkness",
+        level = -1,
+    },
+    [42125] = {
+        name = "Dark Whispers",
+        level = -1,
+    },
+    [43100] = {
+        name = "Finding the Scepter",
+        level = -1,
+    },
+    [43153] = {
+        name = "An Eye for a Scepter",
+        level = -1,
+    },
+    [43254] = {
+        name = "Ritual Ruination",
+        level = -1,
+    },
+    [40712] = {
+        name = "The Power Possessed",
+        level = -1,
+    },
+    [40731] = {
+        name = "The Heart of the Dreadscar",
+        level = -1,
+    },
+    [40823] = {
+        name = "Rebuilding the Council",
+        level = -1,
+    },
+    [40824] = {
+        name = "The Path of the Dreadscar",
+        level = -1,
+    },
+    [44099] = {
+        name = "A Mutual Friend",
+        level = -1,
+    },
+    [42608] = {
+        name = "Rise, Champions",
+        level = -1,
+    },
+    [42603] = {
+        name = "Information at Any Cost",
+        level = -1,
+    },
+    [41797] = {
+        name = "Recruiting The Troops",
+        level = -1,
+    },
+    [42602] = {
+        name = "Troops in the Field",
+        level = -1,
+    },
+    [42601] = {
+        name = "Tech It Up A Notch",
+        level = -1,
+    },
+    [42097] = {
+        name = "Searching the Archives",
+        level = -1,
+    },
+    [41759] = {
+        name = "An Unlikely Ally",
+        level = -1,
+    },
+    [39179] = {
+        name = "Bloodstone Bandit",
+        level = -1,
+    },
+    [39389] = {
+        name = "It Hungers for Blood",
+        level = -1,
+    },
+    [39142] = {
+        name = "Testing a Theory",
+        level = -1,
+    },
+    [40218] = {
+        name = "Debt Repaid",
+        level = -1,
+    },
+    [41767] = {
+        name = "A Daring Rescue",
+        level = -1,
+    },
+    [41798] = {
+        name = "Recruiting More Troops",
+        level = -1,
+    },
+    [41752] = {
+        name = "Champion: Zinnin Smythe",
+        level = -1,
+    },
+    [41753] = {
+        name = "Champion: Jubeka Shadowbreaker",
+        level = -1,
+    },
+    [42100] = {
+        name = "Empowering the Soul",
+        level = -1,
+    },
+    [43887] = {
+        name = "Hitting the Books",
+        level = -1,
+    },
+    [44254] = {
+        name = "Visage of the Black Harvest",
+        level = -1,
+    },
+    [42098] = {
+        name = "Black Rook Hold: An Unclaimed Soul",
+        level = -1,
+    },
+    [41768] = {
+        name = "Soul Beacon",
+        level = -1,
+    },
+    [41769] = {
+        name = "Mad Ernie the Alchemist",
+        level = -1,
+    },
+    [41781] = {
+        name = "Herding Goats",
+        level = -1,
+    },
+    [41780] = {
+        name = "Doom and Gloom",
+        level = -1,
+    },
+    [41784] = {
+        name = "Borrowed Time",
+        level = -1,
+    },
+    [41754] = {
+        name = "Champion: Shinfel Blightsworn",
+        level = -1,
+    },
+    [41751] = {
+        name = "Champion: Kira Iresoul",
+        level = -1,
+    },
+    [44682] = {
+        name = "Unparalleled Power",
+        level = -1,
+    },
+    [42660] = {
+        name = "Vault of the Wardens: Matters of the Heart",
+        level = -1,
+    },
+    [42103] = {
+        name = "Let it Feed",
+        level = -1,
+    },
+    [42102] = {
+        name = "One Who's Worthy",
+        level = -1,
+    },
+    [41785] = {
+        name = "Finding Fizzlebang",
+        level = -1,
+    },
+    [41788] = {
+        name = "Coercing a Confession",
+        level = -1,
+    },
+    [41787] = {
+        name = "Someone Else's Mess",
+        level = -1,
+    },
+    [41793] = {
+        name = "Lulubelle on Loan",
+        level = -1,
+    },
+    [41755] = {
+        name = "Champion: Lulubelle Fizzlebang",
+        level = -1,
+    },
+    [41795] = {
+        name = "Summoning the Sisters",
+        level = -1,
+    },
+    [41756] = {
+        name = "Champion: Eredar Twins",
+        level = -1,
+    },
+    [41796] = {
+        name = "Selecting a Sixth",
+        level = -1,
+    },
+    [43414] = {
         name = "A Hero's Weapon",
         level = -1,
     },
