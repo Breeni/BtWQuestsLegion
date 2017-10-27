@@ -10133,18 +10133,15 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_WARRIOR,
         completed = {
             type = "quest",
-            id = 42430,
+            id = 41105,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 42428,
+                id = 41105,
                 x = 3,
                 y = 0,
-                connections = {
-                    1
-                },
             },
         },
     },
@@ -10155,13 +10152,13 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_WARRIOR,
         completed = {
             type = "quest",
-            id = 100,
+            id = 40043,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 40043,
                 x = 3,
                 y = 0,
             },
@@ -10174,13 +10171,13 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_WARRIOR,
         completed = {
             type = "quest",
-            id = 100,
+            id = 39191,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 39191,
                 x = 3,
                 y = 0,
             },
@@ -14818,6 +14815,164 @@ BtWQuests_Quests = {
         level = -1,
     },
     [43420] = {
+        name = "A Hero's Weapon",
+        level = -1,
+    },
+    
+    
+        [42814] = {
+        name = "Odyn and the Valarjar",
+        level = -1,
+    },
+    [40579] = {
+        name = "Weapons of Legend",
+        level = -1,
+    },
+    [41105] = {
+        name = "The Sword of Kings",
+        level = -1,
+    },
+    [40043] = {
+        name = "The Hunter of Heroes",
+        level = -1,
+    },
+    [39191] = {
+        name = "Legacy of the Icebreaker",
+        level = -1,
+    },
+    [39530] = {
+        name = "The Forgening",
+        level = -1,
+    },
+    [39192] = {
+        name = "The Forge of Odyn",
+        level = -1,
+    },
+    [39214] = {
+        name = "The Eye of Odyn",
+        level = -1,
+    },
+    [40585] = {
+        name = "Thus Begins the War",
+        level = -1,
+    },
+    [42597] = {
+        name = "Odyn's Summons",
+        level = -1,
+    },
+    [42484] = {
+        name = "The Firstborn Rises",
+        level = -1,
+    },
+    [42598] = {
+        name = "Champions of Skyhold",
+        level = -1,
+    },
+    [42606] = {
+        name = "Champion: Finna Bjornsdottir",
+        level = -1,
+    },
+    [42605] = {
+        name = "Champion: Ragnvald Drakeborn",
+        level = -1,
+    },
+    [42607] = {
+        name = "Captain Stahlstrom",
+        level = -1,
+    },
+    [42609] = {
+        name = "Recruiting the Troops",
+        level = -1,
+    },
+    [42610] = {
+        name = "Troops in the Field",
+        level = -1,
+    },
+    [42611] = {
+        name = "Einar the Runecaster",
+        level = -1,
+    },
+    [42193] = {
+        name = "The Gjallarhorn",
+        level = -1,
+    },
+    [42650] = {
+        name = "Break the Bonds",
+        level = -1,
+    },
+    [42651] = {
+        name = "Svergan's Promise",
+        level = -1,
+    },
+    [42107] = {
+        name = "On the Trail of the Great Worm",
+        level = -1,
+    },
+    [42614] = {
+        name = "Champion: Svergan Stormcloak",
+        level = -1,
+    },
+    [42110] = {
+        name = "To the Summit!",
+        level = -1,
+    },
+    [42204] = {
+        name = "Jorhuttam",
+        level = -1,
+    },
+    [43585] = {
+        name = "Preparing For War",
+        level = -1,
+    },
+    [43975] = {
+        name = "Recruiting Shieldmaidens",
+        level = -1,
+    },
+    [44255] = {
+        name = "Axe and You Shall Receive",
+        level = -1,
+    },
+    [43888] = {
+        name = "Hitting the Books",
+        level = -1,
+    },
+    [43586] = {
+        name = "Maw of Souls: Message to Helya",
+        level = -1,
+    },
+    [44667] = {
+        name = "Will of the Valarjar",
+        level = -1,
+    },
+    [42918] = {
+        name = "Demonic Runes",
+        level = -1,
+    },
+    [42616] = {
+        name = "Champion: Dvalen Ironrune",
+        level = -1,
+    },
+    [42618] = {
+        name = "Champion: Thorim",
+        level = -1,
+    },
+    [43506] = {
+        name = "Black Rook Hold: Greater Power",
+        level = -1,
+    },
+    [43577] = {
+        name = "Capturing the Gateway",
+        level = -1,
+    },
+    [42974] = {
+        name = "The Fate of Hodir",
+        level = -1,
+    },
+    [42619] = {
+        name = "Champion: Hodir",
+        level = -1,
+    },
+    [43425] = {
         name = "A Hero's Weapon",
         level = -1,
     },
