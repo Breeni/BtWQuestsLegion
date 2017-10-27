@@ -9012,18 +9012,24 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_PALADIN,
         completed = {
             type = "quest",
-            id = 42430,
+            id = 42120,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 42428,
+                id = 42231,
                 x = 3,
                 y = 0,
                 connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 42120,
+                x = 3,
+                y = 1,
             },
         },
     },
@@ -9034,15 +9040,42 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_PALADIN,
         completed = {
             type = "quest",
-            id = 100,
+            id = 42017,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 42000,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42002,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42005,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42017,
+                x = 3,
+                y = 3,
             },
         },
     },
@@ -9053,15 +9086,60 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_PALADIN,
         completed = {
             type = "quest",
-            id = 100,
+            id = 38376,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 42770,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42772,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42771,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42773,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42774,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 38376,
+                x = 3,
+                y = 5,
             },
         },
     },
@@ -13651,10 +13729,257 @@ BtWQuests_Quests = {
         name = "The Spear in the Shadow",
         level = -1,
     },
-
     
     
     
+        [38710] = {
+        name = "An Urgent Gathering",
+        level = -1,
+    },
+    [40408] = {
+        name = "Weapons of Legend",
+        level = -1,
+    },
+    [42231] = {
+        name = "The Mysterious Paladin",
+        level = -1,
+    },
+    [42120] = {
+        name = "The Silver Hand",
+        level = -1,
+    },
+    [42000] = {
+        name = "Seeker of Truth",
+        level = -1,
+    },
+    [42002] = {
+        name = "To Northrend",
+        level = -1,
+    },
+    [42005] = {
+        name = "The End of the Saga",
+        level = -1,
+    },
+    [42017] = {
+        name = "Shrine of the Truthguard",
+        level = -1,
+    },
+    [42770] = {
+        name = "Seeking Guidance",
+        level = -1,
+    },
+    [42772] = {
+        name = "Sacred Ground",
+        level = -1,
+    },
+    [42771] = {
+        name = "Keeping the Peace",
+        level = -1,
+    },
+    [42773] = {
+        name = "The Light Reveals",
+        level = -1,
+    },
+    [42774] = {
+        name = "Hope Prevails",
+        level = -1,
+    },
+    [38376] = {
+        name = "The Search for the Highlord",
+        level = -1,
+    },
+    [38576] = {
+        name = "We Meet at Light's Hope",
+        level = -1,
+    },
+    [38566] = {
+        name = "A United Force",
+        level = -1,
+    },
+    [39722] = {
+        name = "Forging New Strength",
+        level = -1,
+    },
+    [38933] = {
+        name = "Logistical Matters",
+        level = -1,
+    },
+    [39756] = {
+        name = "A Sound Plan",
+        level = -1,
+    },
+    [39696] = {
+        name = "Rise, Champions",
+        level = -1,
+    },
+    [42846] = {
+        name = "The Blood Matriarch",
+        level = -1,
+    },
+    [42847] = {
+        name = "Dark Storms",
+        level = -1,
+    },
+    [42848] = {
+        name = "Recruiting the Troops",
+        level = -1,
+    },
+    [42849] = {
+        name = "Wrath and Justice",
+        level = -1,
+    },
+    [42866] = {
+        name = "A Sign From The Sky",
+        level = -1,
+    },
+    [42867] = {
+        name = "Meeting of the Silver Hand",
+        level = -1,
+    },
+    [42919] = {
+        name = "The Scion's Legacy",
+        level = -1,
+    },
+    [42968] = {
+        name = "The Highlord's Command",
+        level = -1,
+    },
+    [42967] = {
+        name = "The Highlord's Command",
+        level = -1,
+    },
+    [42885] = {
+        name = "The Highlord's Command",
+        level = -1,
+    },
+    [42886] = {
+        name = "To Faronaar",
+        level = -1,
+    },
+    [42887] = {
+        name = "This Is Retribution",
+        level = -1,
+    },
+    [43462] = {
+        name = "Mother Ozram",
+        level = -1,
+    },
+    [42888] = {
+        name = "Communication Orbs",
+        level = -1,
+    },
+    [42890] = {
+        name = "The Codex of Command",
+        level = -1,
+    },
+    [42852] = {
+        name = "Champion: Justicar Julia Celeste",
+        level = -1,
+    },
+    [42851] = {
+        name = "Champion: Vindicator Boros",
+        level = -1,
+    },
+    [43494] = {
+        name = "Silver Hand Knights",
+        level = -1,
+    },
+    [44250] = {
+        name = "Champion of the Light",
+        level = -1,
+    },
+    [44218] = {
+        name = "Champion Armaments",
+        level = -1,
+    },
+    [43486] = {
+        name = "Cracking the Codex",
+        level = -1,
+    },
+    [43487] = {
+        name = "Assault on Violet Hold: The Fel Lexicon",
+        level = -1,
+    },
+    [43883] = {
+        name = "Hitting the Books",
+        level = -1,
+    },
+    [43488] = {
+        name = "Blood of Our Enemy",
+        level = -1,
+    },
+    [43535] = {
+        name = "Translation: Danger!",
+        level = -1,
+    },
+    [43493] = {
+        name = "Black Rook Hold: Lord Ravencrest",
+        level = -1,
+    },
+    [43489] = {
+        name = "To Felblaze Ingress",
+        level = -1,
+    },
+    [43490] = {
+        name = "Aponi's Trail",
+        level = -1,
+    },
+    [43491] = {
+        name = "Allies of the Light",
+        level = -1,
+    },
+    [43540] = {
+        name = "The Mind of the Enemy",
+        level = -1,
+    },
+    [43541] = {
+        name = "United As One",
+        level = -1,
+    },
+    [43492] = {
+        name = "Champion: Aponi Brightmane",
+        level = -1,
+    },
+    [43934] = {
+        name = "A New Path",
+        level = -1,
+    },
+    [43933] = {
+        name = "Champion: Delas Moonfang",
+        level = -1,
+    },
+    [43699] = {
+        name = "Defenders of the World",
+        level = -1,
+    },
+    [43698] = {
+        name = "Lumenstone",
+        level = -1,
+    },
+    [43534] = {
+        name = "Blood of Sargeras",
+        level = -1,
+    },
+    [43700] = {
+        name = "A Light in the Darkness",
+        level = -1,
+    },
+    [43697] = {
+        name = "Warriors of Light",
+        level = -1,
+    },
+    [43424] = {
+        name = "A Hero's Weapon",
+        level = -1,
+    },
+    [43785] = {
+        name = "Champion: Arator the Redeemer",
+        level = -1,
+    },
+    [43701] = {
+        name = "Champion: Lothraxion",
+        level = -1,
+    },
     
     
     
