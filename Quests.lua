@@ -8892,18 +8892,60 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_MONK,
         completed = {
             type = "quest",
-            id = 42430,
+            id = 42765,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 42428,
+                id = 42762,
                 x = 3,
                 y = 0,
                 connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 42766,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42767,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42957,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42868,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42765,
+                x = 3,
+                y = 5,
             },
         },
     },
@@ -8914,15 +8956,42 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_MONK,
         completed = {
             type = "quest",
-            id = 100,
+            id = 40570,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 40569,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40633,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40634,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40570,
+                x = 3,
+                y = 3,
             },
         },
     },
@@ -8933,13 +9002,13 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_MONK,
         completed = {
             type = "quest",
-            id = 100,
+            id = 41003,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 41003,
                 x = 3,
                 y = 0,
             },
@@ -13979,6 +14048,53 @@ BtWQuests_Quests = {
     [43701] = {
         name = "Champion: Lothraxion",
         level = -1,
+    },
+    
+    
+    
+    [40569] = {
+        name = "The Legend of the Sands",
+        level = 110,
+    },
+    [40633] = {
+        name = "Off To Adventure!",
+        level = 110,
+    },
+    [40634] = {
+        name = "Thunder on the Sands",
+        level = 110,
+    },
+    [40570] = {
+        name = "Into The Heavens",
+        level = 110,
+    },
+    [41003] = {
+        name = "The Emperor's Gift",
+        level = 110,
+    },
+    [42762] = {
+        name = "The Wanderer's Companion",
+        level = 110,
+    },
+    [42766] = {
+        name = "The Riddle of the Barrel",
+        level = 110,
+    },
+    [42767] = {
+        name = "The Riddle of the Land",
+        level = 110,
+    },
+    [42957] = {
+        name = "Journey to the East",
+        level = 110,
+    },
+    [42868] = {
+        name = "The Monkey King's Challenge",
+        level = 110,
+    },
+    [42765] = {
+        name = "The Trial at the Temple",
+        level = 110,
     },
     
     
