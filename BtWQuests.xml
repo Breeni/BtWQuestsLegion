@@ -383,7 +383,7 @@
             </AnimationGroup>
         </Animations>
 		<Scripts>
-			<OnEnter>
+			<!--OnEnter>
                 if self.showTooltip then
                     BtWQuestsTooltip_AnchorTo(self)
                     BtWQuestsTooltip_SetHyperlink(self.link)
@@ -399,7 +399,7 @@
                 elseif self.onClick then
                     self.onClick()
                 end
-			</OnClick>
+			</OnClick-->
 		</Scripts>
 	</Button>
     

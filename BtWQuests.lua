@@ -136,7 +136,7 @@ function BtWQuests_GetCategoryByIndexForExpansion(index, expansion)
     return BtWQuests_GetCategoryByID(BtWQuests_Expansions[expansion][index])
 end
 
--- id, name, expansion, parent, buttonImage, categoryCount, chainCount
+-- local categoryID, name, link, expansion, parent, buttonImage, numCategories, numChains, faction, classes
 function BtWQuests_GetCategoryByID(categoryID)
     if not categoryID then
         return nil
@@ -148,7 +148,7 @@ function BtWQuests_GetCategoryByID(categoryID)
     end
     
     local link = format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", categoryID, category.name)
-    return categoryID, category.name, link, category.expansion, category.parent, category.buttonImage, category.categories and #category.categories or 0, category.chains and #category.chains or 0
+    return categoryID, category.name, link, category.expansion, category.parent, category.buttonImage, category.categories and #category.categories or 0, category.chains and #category.chains or 0, category.faction, category.class and {category.class} or category.classes
 end
 
 function BtWQuests_GetCategoryByIndex(index)
@@ -223,6 +223,7 @@ function BtWQuests_GetChainRequirementByID(chainID, index)
     return BtWQuests_RequirementDetails(requirement)
 end
 
+-- local chainID, name, link, expansion, category, buttonImage, numRequirements, completed, numItems, faction, classes
 function BtWQuests_GetChainByID(chainID)
     if not chainID then
         return nil
@@ -243,7 +244,7 @@ function BtWQuests_GetChainByID(chainID)
     end
     
     local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, chain.name)
-    return chainID, chain.name, link, chain.expansion, chain.category, chain.buttonImage, chain.requirements and #chain.requirements or 0, completed, chain.items and #chain.items or 0
+    return chainID, chain.name, link, chain.expansion, chain.category, chain.buttonImage, chain.requirements and #chain.requirements or 0, completed, chain.items and #chain.items or 0, chain.faction, chain.class and {chain.class} or chain.classes
 end
 
 function BtWQuests_GetChainByIndex(index)
@@ -336,6 +337,24 @@ function BtWQuests_GetChainReputationByIndex(index)
     end
 end
 
+function BtWQuests_GetChainLevelByIndex(index)
+    local chainID = BtWQuests_GetCurrentChain()
+    if chainID == nil then
+        return nil
+    end
+    
+    if BtWQuests_Chains[chainID].items then
+        local item = BtWQuests_Chains[chainID].items[index]
+        
+        if item then
+            local text = string.format(BTWQUESTS_LEVEL_TO, item.level)
+            local completed = UnitLevel("player") >= item.level
+        
+            return item.level, text, completed
+        end
+    end
+end
+
 function BtWQuests_GetChainDummyByIndex(index)
     local chainID = BtWQuests_GetCurrentChain()
     if chainID == nil then
@@ -346,11 +365,160 @@ function BtWQuests_GetChainDummyByIndex(index)
         local item = BtWQuests_Chains[chainID].items[index]
         
         if item then
-            return item.name, item.onClick
+            return item.onClick
         end
     end
 end
 
+function copy(obj, seen)
+    if type(obj) ~= 'table' then return obj end
+    if seen and seen[obj] then return seen[obj] end
+    local s = seen or {}
+    local res = setmetatable({}, getmetatable(obj))
+    s[obj] = res
+    for k, v in pairs(obj) do res[copy(k, s)] = copy(v, s) end
+    return res
+end
+
+-- name, x, y, atlas, breadcrumb, optional, faction, classes, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
+function BtWQuests_GetFullChainItemByIndex(index)
+    local chainID = BtWQuests_GetCurrentChain()
+    if chainID == nil then
+        return nil
+    end
+    
+    if BtWQuests_Chains[chainID].items then
+        local item = copy(BtWQuests_Chains[chainID].items[index])
+        
+        if not item then
+            return nil
+        end
+        
+        if item.type == "quest" then
+            local quest = BtWQuests_Quests[item.id]
+            
+            if not quest then
+                quest = {name = 'Unnamed'}
+            end
+            
+            item.name = item.name or quest.name
+            item.difficulty = item.difficulty or quest.difficulty
+            item.tagID = item.tagID or quest.tagID
+            
+            if GetQuestLogIndexByID(item.id) > 0 then -- User is on this quest
+                if IsQuestComplete(item.id) then -- User can complete this quest
+                    item.tagID = "COMPLETED"
+                    
+                    item.status = "iscompletable"
+                else
+                    item.status = "active"
+                end
+            else
+                if IsQuestFlaggedCompleted(item.id) then -- User has completed this quest
+                    item.status = "complete"
+                else
+                    item.status = nil
+                end
+            end
+            
+            item.onClick = item.onClick or function (self)
+                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link) then
+                    BtWQuestsTooltip:Hide();
+                end
+            end
+            item.onEnter = item.onEnter or function (self)
+                BtWQuestsTooltip_AnchorTo(self)
+                BtWQuestsTooltip_SetHyperlink(self.userdata.link)
+            end
+            item.onLeave = item.onLeave or function (self)
+                BtWQuestsTooltip:Hide();
+                GameTooltip:Hide()
+            end
+            
+            item.userdata = {
+                link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, quest.name)
+            }
+        elseif item.type == "chain" then
+            local chain = BtWQuests_Chains[item.id]
+            
+            item.name = item.name or chain.name
+            item.difficulty = item.difficulty or chain.difficulty
+            item.tagID = item.tagID or chain.tagID
+            
+            local active, completed = true, false
+            
+            if chain.completed then
+                if chain.completed[UnitFactionGroup("player")] ~= nil then
+                    _, completed = BtWQuests_RequirementDetails(chain.completed[UnitFactionGroup("player")])
+                else
+                    _, completed = BtWQuests_RequirementDetails(chain.completed)
+                end
+            end
+    
+            if not completed then
+                for i = 1, #chain.requirements do
+                    local name, requirementCompleted, class = BtWQuests_GetChainRequirementByID(item.id, i);
+                    if (class == nil or class == playerClass) and not requirementCompleted then
+                        active = false
+                        break
+                    end
+                end
+            end
+            
+            if completed then
+                item.status = "complete"
+            elseif active then
+                item.status = "active"
+            else
+                item.status = nil
+            end
+            
+            item.onClick = item.onClick or function (self)
+                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link) then
+                    BtWQuestsTooltip:Hide();
+                end
+            end
+            item.onEnter = item.onEnter or function (self)
+                BtWQuestsTooltip_AnchorTo(self)
+                BtWQuestsTooltip_SetHyperlink(self.userdata.link)
+            end
+            item.onLeave = item.onLeave or function (self)
+                BtWQuestsTooltip:Hide();
+                GameTooltip:Hide()
+            end
+            
+            item.userdata = {
+                link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, chain.name)
+            }
+        elseif item.type == "reputation" then
+            local name, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
+            local gender = UnitSex("player")
+            local standingText = getglobal("FACTION_STANDING_LABEL" .. item.standing .. (gender == 3 and "_FEMALE" or ""))
+            
+            local completed
+            if item.amount ~= nil then
+                completed = standing > item.standing or (standing == item.standing and value - barMin >= item.amount)
+                item.name = string.format(item.name or BTWQUESTS_REPUTATION_AMOUNT_STANDING, item.amount, standingText, name)
+            else
+                completed = standing >= item.standing
+                item.name = string.format(item.name or BTWQUESTS_REPUTATION_STANDING, standingText, name)
+            end
+            
+            item.status = completed and "completed" or "active"
+        elseif item.type == "level" then
+            item.name = string.format(item.name or BTWQUESTS_LEVEL_TO, item.level)
+            local completed = UnitLevel("player") >= item.level
+            
+            item.status = completed and "completed" or "active"
+        elseif item.type ~= nil then
+            print('test')
+        end
+        
+        return item.name, item.x, item.y, item.atlas, item.breadcrumb, item.optional, item.faction, item.class and {item.class} or item.classes, item.difficulty, item.tagID, item.status, item.onClick, item.onEnter, item.onLeave, item.userdata
+    end
+end
+
+-- type, name, x, y, atlas, optional, faction, classes
 function BtWQuests_GetChainItemByIndex(index)
     local chainID = BtWQuests_GetCurrentChain()
     if chainID == nil then
@@ -361,7 +529,7 @@ function BtWQuests_GetChainItemByIndex(index)
         local item = BtWQuests_Chains[chainID].items[index]
         
         if item then
-            return item.type, item.x, item.y, item.atlas, item.optional, item.faction, item.class and {item.class} or item.classes
+            return item.type, item.name, item.x, item.y, item.atlas, item.optional, item.faction, item.class and {item.class} or item.classes
         end
     end
 end
@@ -520,31 +688,40 @@ function BtWQuests_ListCategories()
 	BtWQuests.Chain:Hide();
 	questSelect:Show();
     
+    local playerFaction, playerClass = UnitFactionGroup("player"), select(3, UnitClass("player"))
+    
 	local scrollFrame = questSelect.scroll.child;
     
+	local i = 1;
 	local index = 1;
-	local categoryID, name, link, _, _, buttonImage = BtWQuests_GetCategoryByIndex(index);
+	local categoryID, name, link, _, _, buttonImage, _, _, faction, classes = BtWQuests_GetCategoryByIndex(i);
 	while categoryID do
-		local categoryButton = scrollFrame["category"..index];
-		if not categoryButton then -- create button
-			categoryButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."category"..index, scrollFrame, "BtWQuestsCategoryButtonTemplate");
-			scrollFrame["category"..index] = categoryButton;
-			if mod(index-1, EJ_NUM_INSTANCE_PER_ROW) == 0 then
-				categoryButton:SetPoint("TOP", scrollFrame["category"..(index-EJ_NUM_INSTANCE_PER_ROW)], "BOTTOM", 0, -15);
-			else
-				categoryButton:SetPoint("LEFT", scrollFrame["category"..(index-1)], "RIGHT", 15, 0);
-			end
-		end
+        local skip = (faction ~= nil and faction ~= playerFaction) or (classes ~= nil and not ArrayContains(classes, playerClass))
+        
+        if not skip then
+            local categoryButton = scrollFrame["category"..index];
+            if not categoryButton then -- create button
+                categoryButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."category"..index, scrollFrame, "BtWQuestsCategoryButtonTemplate");
+                scrollFrame["category"..index] = categoryButton;
+                if mod(index-1, EJ_NUM_INSTANCE_PER_ROW) == 0 then
+                    categoryButton:SetPoint("TOP", scrollFrame["category"..(index-EJ_NUM_INSTANCE_PER_ROW)], "BOTTOM", 0, -15);
+                else
+                    categoryButton:SetPoint("LEFT", scrollFrame["category"..(index-1)], "RIGHT", 15, 0);
+                end
+            end
 
-		categoryButton.name:SetText(name);
-		categoryButton.bgImage:SetTexture(buttonImage);
-		categoryButton.categoryID = categoryID;
-		categoryButton.nameText = name;
-		categoryButton.link = link;
-		categoryButton:Show();
+            categoryButton.name:SetText(name);
+            categoryButton.bgImage:SetTexture(buttonImage);
+            categoryButton.categoryID = categoryID;
+            categoryButton.nameText = name;
+            categoryButton.link = link;
+            categoryButton:Show();
 
-		index = index + 1;
-		categoryID, name, link, _, _, buttonImage = BtWQuests_GetCategoryByIndex(index);
+            index = index + 1;
+        end
+        
+		i = i + 1;
+		categoryID, name, link, _, _, buttonImage, _, _, faction, classes = BtWQuests_GetCategoryByIndex(i);
 	end
     
     local lastLeftCategory = index ~= 1 and scrollFrame["category"..((math.floor((index - 1) / EJ_NUM_INSTANCE_PER_ROW)*EJ_NUM_INSTANCE_PER_ROW)+1) ] or nil
@@ -557,38 +734,45 @@ function BtWQuests_ListCategories()
         categoryButton = scrollFrame["category"..index];
     end
     
-    index = 1;
-	local chainID, name, link, _, _, buttonImage = BtWQuests_GetChainByIndex(index);
+	i = 1;
+	index = 1;
+	local chainID, name, link, _, _, buttonImage, _, _, _, faction, classes = BtWQuests_GetChainByIndex(i);
 	while chainID do
-		local chainButton = scrollFrame["chain"..index];
-		if not chainButton then -- create button
-			chainButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."chain"..index, scrollFrame, "BtWQuestsChainButtonTemplate");
+        local skip = (faction ~= nil and faction ~= playerFaction) or (classes ~= nil and not ArrayContains(classes, playerClass))
 
-			scrollFrame["chain"..index] = chainButton;
-            if mod(index-1, EJ_NUM_INSTANCE_PER_ROW) == 0 then
-				chainButton:SetPoint("TOP", scrollFrame["chain"..(index-EJ_NUM_INSTANCE_PER_ROW)], "BOTTOM", 0, -15);
-			else
-				chainButton:SetPoint("LEFT", scrollFrame["chain"..(index-1)], "RIGHT", 15, 0);
-			end
-		end
-        
-        if index == 1 then
-            if lastLeftCategory then
-                chainButton:SetPoint("TOP", lastLeftCategory, "BOTTOM", 0, -15);
-            else
-                chainButton:SetPoint("TOP", 0, -10);
+        if not skip then
+            local chainButton = scrollFrame["chain"..index];
+            if not chainButton then -- create button
+                chainButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."chain"..index, scrollFrame, "BtWQuestsChainButtonTemplate");
+
+                scrollFrame["chain"..index] = chainButton;
+                if mod(index-1, EJ_NUM_INSTANCE_PER_ROW) == 0 then
+                    chainButton:SetPoint("TOP", scrollFrame["chain"..(index-EJ_NUM_INSTANCE_PER_ROW)], "BOTTOM", 0, -15);
+                else
+                    chainButton:SetPoint("LEFT", scrollFrame["chain"..(index-1)], "RIGHT", 15, 0);
+                end
             end
+            
+            if index == 1 then
+                if lastLeftCategory then
+                    chainButton:SetPoint("TOP", lastLeftCategory, "BOTTOM", 0, -15);
+                else
+                    chainButton:SetPoint("TOP", 0, -10);
+                end
+            end
+
+            chainButton.name:SetText(name);
+            chainButton.bgImage:SetTexture(buttonImage);
+            chainButton.chainID = chainID;
+            chainButton.nameText = name;
+            chainButton.link = link;
+            chainButton:Show();
+
+            index = index + 1;
         end
-
-		chainButton.name:SetText(name);
-		chainButton.bgImage:SetTexture(buttonImage);
-		chainButton.chainID = chainID;
-		chainButton.nameText = name;
-		chainButton.link = link;
-		chainButton:Show();
-
-		index = index + 1;
-		chainID, name, link, _, _, buttonImage = BtWQuests_GetChainByIndex(index);
+        
+		i = i + 1;
+		chainID, name, link, _, _, buttonImage, _, _, _, faction, classes = BtWQuests_GetChainByIndex(i);
 	end
     
     chainButton = scrollFrame["chain"..index];
@@ -606,14 +790,14 @@ function BtWQuests_DisplayChain()
 	BtWQuests.QuestSelect:Hide();
 	chain:Show();
     
-    local playerFaction, playerClass = UnitFactionGroup("player"), select(3, UnitClass("player"))
+    local playerFaction, playerClass, playerLevel = UnitFactionGroup("player"), select(3, UnitClass("player")), UnitLevel("player")
     
 	local scrollFrame = chain.scroll.child;
     local scrollToButton, scrollToButtonOptional--scrollFrame["item1"]
     
     local _, _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
     for index = numItems,1,-1 do
-        local type, x, y, atlas, optional, faction, classes = BtWQuests_GetChainItemByIndex(index)
+        local name, x, y, atlas, breadcrumb, optional, faction, classes, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = BtWQuests_GetFullChainItemByIndex(index)
         local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
         local itemButton = scrollFrame["item"..index];
@@ -624,7 +808,6 @@ function BtWQuests_DisplayChain()
         end
         
         local skip = (faction ~= nil and faction ~= playerFaction) or (classes ~= nil and not ArrayContains(classes, playerClass))
-            
         if skip then
             itemButton:Hide()
         
@@ -633,149 +816,37 @@ function BtWQuests_DisplayChain()
             end
         else
             itemButton.name:SetAlpha(1)
-            if type == "quest" then
-                local questID, name, link, difficulty, tagID = BtWQuests_GetChainQuestByIndex(index);
-                if GetQuestLogIndexByID(questID) > 0 then -- User is on this quest
-                    if IsQuestComplete(questID) then -- User can complete this quest
-                        tagID = "COMPLETED"
-                        
-                        itemButton.status = "iscompletable"
+            
+            if ( tagID ) then
+                local tagCoords = QUEST_TAG_TCOORDS[tagID];
+                if( tagCoords ) then
+                    itemButton.TagTexture:SetTexCoord( unpack(tagCoords) );
+                    itemButton.TagTexture:Show();
+            
+                    if difficulty then
+                        itemButton.TagTexture:SetPoint("BOTTOMRIGHT", -10, 6)
                     else
-                        itemButton.status = "active"
-                    end
-                else
-                    if IsQuestFlaggedCompleted(questID) then -- User has completed this quest
-                        itemButton.status = "complete"
-                    else
-                        itemButton.status = nil
-                    end
-                end
-                
-                if ( tagID ) then
-                    local tagCoords = QUEST_TAG_TCOORDS[tagID];
-                    if( tagCoords ) then
-                        itemButton.TagTexture:SetTexCoord( unpack(tagCoords) );
-                        itemButton.TagTexture:Show();
-                
-                        if difficulty then
-                            itemButton.TagTexture:SetPoint("BOTTOMRIGHT", -10, 6)
-                        else
-                            itemButton.TagTexture:SetPoint("BOTTOMRIGHT", -10, 16)
-                        end
-                    else
-                        itemButton.TagTexture:Hide();
+                        itemButton.TagTexture:SetPoint("BOTTOMRIGHT", -10, 16)
                     end
                 else
                     itemButton.TagTexture:Hide();
                 end
-                
-                itemButton.HeroicTexture:SetShown(difficulty == "heroic" or difficulty == "normal" or difficulty == "lfr")
-                itemButton.MythicTexture:SetShown(difficulty == "mythic")
-                
-                itemButton.name:SetText(name);
-                itemButton.showTooltip = true
-                itemButton.link = link;
-                itemButton.chainID = nil
-                itemButton.onClick = nil
-            elseif type == "chain" then
-                local chainID, name, link, _, _, _, numRequirements, completed = BtWQuests_GetChainChainByIndex(index);
-                
-                local active = true
-                if not completed then
-                    for i = 1, numRequirements do
-                        local name, requirementCompleted, class = BtWQuests_GetChainRequirementByID(chainID, i);
-                        if (class == nil or class == playerClass) and not requirementCompleted then
-                            active = false
-                            break
-                        end
-                    end
-                end
-                
-                if completed then
-                    itemButton.status = "complete"
-                elseif active then
-                    itemButton.status = "active"
-                else
-                    itemButton.status = nil
-                end
-                
-                itemButton.HeroicTexture:Hide();
-                itemButton.MythicTexture:Hide();
-                itemButton.TagTexture:Hide();
-                
-                itemButton.name:SetText(name);
-                itemButton.showTooltip = true
-                itemButton.link = link;
-                itemButton.chainID = chainID
-                itemButton.onClick = nil
-            elseif type == "reputation" then
-                local factionID, name, standing, amount, completed = BtWQuests_GetChainReputationByIndex(index);
-                
-                if completed then
-                    itemButton.status = "complete"
-                else
-                    itemButton.status = "active"
-                end
-                
-                itemButton.HeroicTexture:Hide();
-                itemButton.MythicTexture:Hide();
-                itemButton.TagTexture:Hide();
-                
-                itemButton.name:SetText(name);
-                itemButton.showTooltip = false
-                itemButton.link = nil;
-                itemButton.chainID = nil
-                itemButton.onClick = nil
-            elseif type == "dummy" then
-                local name, onClick = BtWQuests_GetChainDummyByIndex(index);
-                
-                itemButton.status = nil
-                if #connections > 0 then
-                    local isCompleted = false
-                    for j=1,#connections do
-                        local connection = index + connections[j]
-                        local connectionItem = scrollFrame["item"..connection]
-                        if connectionItem and connectionItem:IsShown() then
-                            if connectionItem.status ~= nil then
-                                isCompleted = true
-                                break
-                            end
-                        end
-                    end
-                    
-                    if isCompleted then
-                        itemButton.status = 'complete'
-                    end
-                end
-                
-                itemButton.HeroicTexture:Hide();
-                itemButton.MythicTexture:Hide();
-                itemButton.TagTexture:Hide();
-                
-                itemButton.name:SetText(name);
-                itemButton.showTooltip = false
-                itemButton.link = nil;
-                itemButton.chainID = nil
-                itemButton.onClick = onClick
             else
-                itemButton.status = 'active'
-                
-                itemButton.HeroicTexture:Hide();
-                itemButton.MythicTexture:Hide();
                 itemButton.TagTexture:Hide();
-                
-                itemButton.TagTexture:Hide();
-                itemButton.HeroicTexture:Hide();
-                itemButton.MythicTexture:Hide();
-                
-                itemButton.name:SetText('@TODO');
-                itemButton.showTooltip = false
-                itemButton.link = nil;
-                itemButton.chainID = nil
-                itemButton.onClick = nil
             end
             
+            itemButton.HeroicTexture:SetShown(difficulty == "heroic" or difficulty == "normal" or difficulty == "lfr")
+            itemButton.MythicTexture:SetShown(difficulty == "mythic")
+            
+            itemButton.name:SetText(name)
+            
+            itemButton.status = status
+            itemButton.userdata = userdata
+            itemButton:SetScript("OnClick", onClick)
+            itemButton:SetScript("OnEnter", onEnter)
+            itemButton:SetScript("OnLeave", onLeave)
             itemButton.optional = optional
+            itemButton.breadcrumb = breadcrumb
             
             if optional and #connections > 0 and itemButton.status ~= 'complete' then
                 local isCompleted = false
@@ -937,99 +1008,14 @@ function BtWQuests_UpdateChain(scroll)
         
         local _, _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
         for index = numItems,1,-1 do
-            local type, x, y, atlas, optional, faction, classes = BtWQuests_GetChainItemByIndex(index)
+            local _, _, _, _, breadcrumb, optional, faction, classes, _, _, status, _, _, _, _ = BtWQuests_GetFullChainItemByIndex(index)
             local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
 			local itemButton = scrollFrame["item"..index];
 
             local skip = (faction ~= nil and faction ~= playerFaction) or (classes ~= nil and not ArrayContains(classes, playerClass))
-
             if not skip then
-                if type == "quest" then
-                    local questID, name, link, difficulty, tagID = BtWQuests_GetChainQuestByIndex(index);
-                    
-                    if GetQuestLogIndexByID(questID) > 0 then -- User is on this quest
-                        if IsQuestComplete(questID) then -- User can complete this quest
-                            itemButton.newStatus = "iscompletable"
-                            
-                            tagID = "COMPLETED"
-                        else
-                            itemButton.newStatus = "active"
-                        end
-                    else
-                        if IsQuestFlaggedCompleted(questID) then -- User has completed this quest
-                            itemButton.newStatus = "complete"
-                        end
-                    end
-                
-                    if ( tagID ) then
-                        local tagCoords = QUEST_TAG_TCOORDS[tagID];
-                        if( tagCoords ) then
-                            itemButton.TagTexture:SetTexCoord( unpack(tagCoords) );
-                            itemButton.TagTexture:Show();
-                    
-                            if difficulty then
-                                itemButton.TagTexture:SetPoint("BOTTOMRIGHT", -10, 6)
-                            else
-                                itemButton.TagTexture:SetPoint("BOTTOMRIGHT", -10, 16)
-                            end
-                        else
-                            itemButton.TagTexture:Hide();
-                        end
-                    else
-                        itemButton.TagTexture:Hide();
-                    end
-                elseif type == "chain" then
-                    local chainID, name, link, _, _, _, numRequirements, completed = BtWQuests_GetChainChainByIndex(index);
-                    
-                    local active = true
-                    if not completed then
-                        for i = 1, numRequirements do
-                            local name, requirementCompleted, class = BtWQuests_GetChainRequirementByID(chainID, i);
-                            if (class == nil or class == playerClass) and not requirementCompleted then
-                                active = false
-                                break
-                            end
-                        end
-                    end
-                    
-                    if completed then
-                        itemButton.newStatus = "complete"
-                    elseif active then
-                        itemButton.newStatus = "active"
-                    else
-                        itemButton.newStatus = nil
-                    end
-                elseif type == "reputation" then
-                    local factionID, name, standing, amount, completed = BtWQuests_GetChainReputationByIndex(index);
-                    
-                    if completed then
-                        itemButton.status = "complete"
-                    else
-                        itemButton.status = "active"
-                    end
-                elseif type == "dummy" then
-                    itemButton.newStatus = nil
-                    if #connections > 0 then
-                        local isCompleted = false
-                        for j=1,#connections do
-                            local connection = index + connections[j]
-                            local connectionItem = scrollFrame["item"..connection]
-                            if connectionItem and connectionItem:IsShown() then
-                                if connectionItem.status ~= nil then
-                                    isCompleted = true
-                                    break
-                                end
-                            end
-                        end
-                        
-                        if isCompleted then
-                            itemButton.newStatus = 'complete'
-                        end
-                    end
-                else
-                    itemButton.newStatus = 'active'
-                end
+                itemButton.newStatus = status
             
                 if optional and #connections > 0 and itemButton.newStatus ~= 'complete' then
                     local isCompleted = false
@@ -1058,7 +1044,6 @@ function BtWQuests_UpdateChain(scroll)
                 end
             
                 local forget = itemButton.newStatus == "complete"-- or (itemButton.optional and #connections > 0)
-                
                 if forget then
                     for j=1,#connections do
                         local connection = index + connections[j]
