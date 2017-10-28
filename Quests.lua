@@ -419,7 +419,7 @@ BtWQuests_Categories = {
             BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT,
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK] = {
@@ -10000,15 +10000,24 @@ BtWQuests_Chains = {
         class = BTWQUESTS_CLASS_ID_SHAMAN,
         completed = {
             type = "quest",
-            id = 100,
+            id = 46792,
         },
         range = {98, 110},
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 46791,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46792,
+                x = 3,
+                y = 1,
             },
         },
     },
@@ -15332,6 +15341,17 @@ BtWQuests_Quests = {
     [43418] = {
         name = "A Hero's Weapon",
         level = -1,
+    },
+    
+    
+    
+    [46791] = {
+        name = "Carried On the Wind",
+        level = 110,
+    },
+    [46792] = {
+        name = "Gathering of the Storms",
+        level = 110,
     },
     
     
