@@ -300,11 +300,21 @@ BtWQuests_Chains = {
                 x = 3.25,
                 y = 1,
                 connections = {
-                    1, 2, 3
+                    2, 3, 4
                 }, 
             },
             
             
+            {
+                type = "reputation",
+                id = 1900,
+                standing = 6,
+                x = 0.5,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
             {
                 type = "quest",
                 id = 43514,
