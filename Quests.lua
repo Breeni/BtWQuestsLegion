@@ -119,7 +119,7 @@ BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER = 66
 BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT = 67
 
 BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC = 68
-BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE = 69
+BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE = 69
 BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN = 70
 BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER = 71
 BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_MOUNT = 72
@@ -133,7 +133,7 @@ BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER = 78
 BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT = 79
 
 BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY = 80
-BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP = 81
+BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP = 81
 BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL = 82
 BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN = 83
 BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER = 84
@@ -239,7 +239,7 @@ BtWQuests_Categories = {
             BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
             
             BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
             
             BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
             BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
@@ -247,7 +247,7 @@ BtWQuests_Categories = {
             BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
             
             BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
             BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
             
             BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
@@ -319,7 +319,7 @@ BtWQuests_Categories = {
         -- buttonImage = 1041999,
         chains = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_MOUNT,
@@ -347,7 +347,7 @@ BtWQuests_Categories = {
         -- buttonImage = 1041999,
         chains = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP,
+            -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
@@ -7098,7 +7098,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD] = {
-        name = select(2, GetSpecializationInfoByID(250)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(250)), "Maw of the Damned"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
@@ -7107,6 +7107,7 @@ BtWQuests_Chains = {
             id = 40740,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DeathKnight-Blood",
         items = {
             {
                 type = "quest",
@@ -7117,7 +7118,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST] = {
-        name = select(2, GetSpecializationInfoByID(251)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(251)), "Blades of the Fallen Prince"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
@@ -7126,6 +7127,7 @@ BtWQuests_Chains = {
             id = 38990,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DeathKnight-Frost",
         items = {
             {
                 type = "quest",
@@ -7136,7 +7138,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY] = {
-        name = select(2, GetSpecializationInfoByID(252)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(252)), "Apocalypse"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
@@ -7145,6 +7147,7 @@ BtWQuests_Chains = {
             id = 40935,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DeathKnight-Unholy",
         items = {
             {
                 type = "quest",
@@ -7747,7 +7750,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC] = {
-        name = select(2, GetSpecializationInfoByID(577)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(577)), "Twinblades of the Deceiver"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
@@ -7756,6 +7759,7 @@ BtWQuests_Chains = {
             id = 41119,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DemonHunter-Havoc",
         items = {
             {
                 type = "quest",
@@ -7783,8 +7787,8 @@ BtWQuests_Chains = {
             },
         },
     },
-    [BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE] = {
-        name = select(2, GetSpecializationInfoByID(581)),
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE] = {
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(581)), "Aldrachi Warblades"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
@@ -7793,6 +7797,7 @@ BtWQuests_Chains = {
             id = 40249,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DemonHunter-Vengeance",
         items = {
             {
                 type = "quest",
@@ -7880,7 +7885,7 @@ BtWQuests_Chains = {
             },
             {
                 type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE,
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
                 optional = true,
                 x = 4,
                 y = 2,
@@ -8389,7 +8394,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE] = {
-        name = select(2, GetSpecializationInfoByID(102)),
+        name = "Scythe of Elune",--select(2, GetSpecializationInfoByID(102)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DRUID,
@@ -8398,6 +8403,7 @@ BtWQuests_Chains = {
             id = 40838,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Druid-Balance",
         items = {
             {
                 type = "quest",
@@ -8462,7 +8468,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL] = {
-        name = select(2, GetSpecializationInfoByID(103)),
+        name = "Fangs of Ashamane",--select(2, GetSpecializationInfoByID(103)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DRUID,
@@ -8471,6 +8477,7 @@ BtWQuests_Chains = {
             id = 42430,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Druid-Feral",
         items = {
             {
                 type = "quest",
@@ -8517,7 +8524,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN] = {
-        name = select(2, GetSpecializationInfoByID(104)),
+        name = "Claws of Ursoc",--select(2, GetSpecializationInfoByID(104)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DRUID,
@@ -8526,6 +8533,7 @@ BtWQuests_Chains = {
             id = 40647,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Druid-Guardian",
         items = {
             {
                 type = "quest",
@@ -8590,7 +8598,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION] = {
-        name = select(2, GetSpecializationInfoByID(105)),
+        name = "G'Hanir, the Mother Tree",--select(2, GetSpecializationInfoByID(105)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DRUID,
@@ -8599,6 +8607,7 @@ BtWQuests_Chains = {
             id = 41689,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Druid-Restoration",
         items = {
             {
                 type = "quest",
@@ -8717,7 +8726,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY] = {
-        name = select(2, GetSpecializationInfoByID(253)),
+        name = "Titanstrike",--select(2, GetSpecializationInfoByID(253)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_HUNTER,
@@ -8726,6 +8735,7 @@ BtWQuests_Chains = {
             id = 42158,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Hunter-BeastMastery",
         items = {
             {
                 type = "quest",
@@ -8753,8 +8763,8 @@ BtWQuests_Chains = {
             },
         },
     },
-    [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP] = {
-        name = select(2, GetSpecializationInfoByID(254)),
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP] = {
+        name = "Thas'dorah, Legacy of the Windrunners",--select(2, GetSpecializationInfoByID(254)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_HUNTER,
@@ -8763,6 +8773,7 @@ BtWQuests_Chains = {
             id = 40419,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Hunter-Marksmanship",
         items = {
             {
                 type = "quest",
@@ -8800,7 +8811,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL] = {
-        name = select(2, GetSpecializationInfoByID(255)),
+        name = "Talonclaw",--select(2, GetSpecializationInfoByID(255)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_HUNTER,
@@ -8809,6 +8820,7 @@ BtWQuests_Chains = {
             id = 40385,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Hunter-Survival",
         items = {
             {
                 type = "quest",
@@ -8897,7 +8909,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE] = {
-        name = select(2, GetSpecializationInfoByID(62)),
+        name = "Aluneth",--select(2, GetSpecializationInfoByID(62)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_MAGE,
@@ -8906,6 +8918,7 @@ BtWQuests_Chains = {
             id = 42011,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Mage-Arcane",
         items = {
             {
                 type = "quest",
@@ -8970,7 +8983,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE] = {
-        name = select(2, GetSpecializationInfoByID(63)),
+        name = "Felo'melorn",--select(2, GetSpecializationInfoByID(63)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_MAGE,
@@ -8979,6 +8992,7 @@ BtWQuests_Chains = {
             id = 11997,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Mage-Fire",
         items = {
             {
                 type = "quest",
@@ -9007,7 +9021,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST] = {
-        name = select(2, GetSpecializationInfoByID(64)),
+        name = "Ebonchill",--select(2, GetSpecializationInfoByID(64)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_MAGE,
@@ -9016,6 +9030,7 @@ BtWQuests_Chains = {
             id = 42479,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Mage-Frost",
         items = {
             {
                 type = "quest",
@@ -9122,7 +9137,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER] = {
-        name = select(2, GetSpecializationInfoByID(268)),
+        name = "Fu Zan, the Wanderer's Companion",--select(2, GetSpecializationInfoByID(268)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_MONK,
@@ -9131,6 +9146,7 @@ BtWQuests_Chains = {
             id = 42765,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Monk-Brewmaster",
         items = {
             {
                 type = "quest",
@@ -9186,7 +9202,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER] = {
-        name = select(2, GetSpecializationInfoByID(269)),
+        name = "Fists of the Heavens",--select(2, GetSpecializationInfoByID(269)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_MONK,
@@ -9195,6 +9211,7 @@ BtWQuests_Chains = {
             id = 40570,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Monk-Windwalker",
         items = {
             {
                 type = "quest",
@@ -9232,7 +9249,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER] = {
-        name = select(2, GetSpecializationInfoByID(270)),
+        name = "Sheilun, Staff of the Mists",--select(2, GetSpecializationInfoByID(270)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_MONK,
@@ -9241,6 +9258,7 @@ BtWQuests_Chains = {
             id = 41003,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Monk-Mistweaver",
         items = {
             {
                 type = "quest",
@@ -9311,7 +9329,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY] = {
-        name = select(2, GetSpecializationInfoByID(65)),
+        name = "The Silver Hand",--select(2, GetSpecializationInfoByID(65)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_PALADIN,
@@ -9320,6 +9338,7 @@ BtWQuests_Chains = {
             id = 42120,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Paladin-Holy",
         items = {
             {
                 type = "quest",
@@ -9339,7 +9358,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION] = {
-        name = select(2, GetSpecializationInfoByID(66)),
+        name = "Truthguard",--select(2, GetSpecializationInfoByID(66)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_PALADIN,
@@ -9348,6 +9367,7 @@ BtWQuests_Chains = {
             id = 42017,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Paladin-Protection",
         items = {
             {
                 type = "quest",
@@ -9385,7 +9405,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION] = {
-        name = select(2, GetSpecializationInfoByID(70)),
+        name = "Ashbringer",--select(2, GetSpecializationInfoByID(70)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_PALADIN,
@@ -9394,6 +9414,7 @@ BtWQuests_Chains = {
             id = 38376,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Paladin-Retribution",
         items = {
             {
                 type = "quest",
@@ -9509,7 +9530,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE] = {
-        name = select(2, GetSpecializationInfoByID(256)),
+        name = "Light's Wrath",--select(2, GetSpecializationInfoByID(256)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_PRIEST,
@@ -9518,6 +9539,7 @@ BtWQuests_Chains = {
             id = 41632,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Priest-Discipline",
         items = {
             {
                 type = "quest",
@@ -9591,7 +9613,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY] = {
-        name = select(2, GetSpecializationInfoByID(257)),
+        name = "T'uure, Beacon of the Naaru",--select(2, GetSpecializationInfoByID(257)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_PRIEST,
@@ -9600,6 +9622,7 @@ BtWQuests_Chains = {
             id = 42074,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Priest-Holy",
         items = {
             {
                 type = "quest",
@@ -9646,7 +9669,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW] = {
-        name = select(2, GetSpecializationInfoByID(258)),
+        name = "Xal'atath, Blade of the Black Empire",--select(2, GetSpecializationInfoByID(258)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_PRIEST,
@@ -9655,6 +9678,7 @@ BtWQuests_Chains = {
             id = 40710,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Priest-Shadow",
         items = {
             {
                 type = "quest",
@@ -9725,7 +9749,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION] = {
-        name = select(2, GetSpecializationInfoByID(259)),-- .. ": " .. select(1, GetItemInfo(128870)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(259)), "The Kingslayers"), -- select(1, GetItemInfo(128870))
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_ROGUE,
@@ -9734,6 +9758,7 @@ BtWQuests_Chains = {
             id = 42504,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Rogue-Assassination",
         items = {
             {
                 type = "quest",
@@ -9797,7 +9822,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW] = {
-        name = select(2, GetSpecializationInfoByID(260)),-- .. ": " .. select(1, GetItemInfo(134552)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(260)), "The Dreadblades"), -- select(1, GetItemInfo(134552))
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_ROGUE,
@@ -9806,6 +9831,7 @@ BtWQuests_Chains = {
             id = 40849,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Rogue-Outlaw",
         items = {
             {
                 type = "quest",
@@ -9825,7 +9851,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY] = {
-        name = select(2, GetSpecializationInfoByID(261)),-- .. ": " .. select(1, GetItemInfo(128476)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(261)), "Fangs of the Devourer"), -- select(1, GetItemInfo(128476))
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_ROGUE,
@@ -9834,6 +9860,7 @@ BtWQuests_Chains = {
             id = 41924,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Rogue-Subtlety",
         items = {
             {
                 type = "quest",
@@ -10662,7 +10689,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT] = {
-        name = "Class Mount",
+        name = "Class Mount: Shadowblade's Murderous Omen",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_ROGUE,
@@ -10671,6 +10698,7 @@ BtWQuests_Chains = {
             id = 46089,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Rogue-Mount",
         items = {
             {
                 type = "chain",
@@ -10710,7 +10738,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL] = {
-        name = select(2, GetSpecializationInfoByID(262)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(262)), "The Fist of Ra-den"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_SHAMAN,
@@ -10719,6 +10747,7 @@ BtWQuests_Chains = {
             id = 39771,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Shaman-Elemental",
         items = {
             {
                 type = "quest",
@@ -10747,7 +10776,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT] = {
-        name = select(2, GetSpecializationInfoByID(263)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(263)), "Doomhammer"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_SHAMAN,
@@ -10756,6 +10785,7 @@ BtWQuests_Chains = {
             id = 40224,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Shaman-Enhancement",
         items = {
             {
                 type = "quest",
@@ -10820,7 +10850,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION] = {
-        name = select(2, GetSpecializationInfoByID(264)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(264)), "Sharas'dal, Scepter of Tides"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_SHAMAN,
@@ -10829,6 +10859,7 @@ BtWQuests_Chains = {
             id = 40341,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Shaman-Restoration",
         items = {
             {
                 type = "quest",
@@ -10926,7 +10957,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION] = {
-        name = select(2, GetSpecializationInfoByID(265)),
+        name = "Ulthalesh, the Deadwind Harvester",--select(2, GetSpecializationInfoByID(265)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_WARLOCK,
@@ -10935,6 +10966,7 @@ BtWQuests_Chains = {
             id = 40623,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Warlock-Afflication",
         items = {
             {
                 type = "quest",
@@ -10990,7 +11022,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY] = {
-        name = select(2, GetSpecializationInfoByID(266)),
+        name = "Skull of the Man'ari",--select(2, GetSpecializationInfoByID(266)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_WARLOCK,
@@ -10999,6 +11031,7 @@ BtWQuests_Chains = {
             id = 42125,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Warlock-Demonology",
         items = {
             {
                 type = "quest",
@@ -11027,7 +11060,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION] = {
-        name = select(2, GetSpecializationInfoByID(267)),
+        name = "Scepter of Sargeras",--select(2, GetSpecializationInfoByID(267)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_WARLOCK,
@@ -11036,6 +11069,7 @@ BtWQuests_Chains = {
             id = 43254,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Warlock-Destruction",
         items = {
             {
                 type = "quest",
@@ -11124,7 +11158,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS] = {
-        name = select(2, GetSpecializationInfoByID(71)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(71)), "Strom'kar, the Warbreaker"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_WARRIOR,
@@ -11133,6 +11167,7 @@ BtWQuests_Chains = {
             id = 41105,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Warrior-Arms",
         items = {
             {
                 type = "quest",
@@ -11143,7 +11178,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY] = {
-        name = select(2, GetSpecializationInfoByID(72)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(72)), "Warswords of the Valarjar"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_WARRIOR,
@@ -11152,6 +11187,7 @@ BtWQuests_Chains = {
             id = 40043,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Warrior-Fury",
         items = {
             {
                 type = "quest",
@@ -11162,7 +11198,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION] = {
-        name = select(2, GetSpecializationInfoByID(73)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(73)), "Scale of the Earth-Warder"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_WARRIOR,
@@ -11171,6 +11207,7 @@ BtWQuests_Chains = {
             id = 39191,
         },
         range = {98, 110},
+        buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Warrior-Protection",
         items = {
             {
                 type = "quest",
