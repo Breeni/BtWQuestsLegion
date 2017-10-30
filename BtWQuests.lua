@@ -846,37 +846,32 @@ function BtWQuests_DisplayChain()
                 if connectionItem and connectionItem:IsShown() then
                     local lineContainer = itemButton.backgroundLinePool:Acquire();
                     
-                    lineContainer.Default:SetVertexColor(0.96470373868942, 0, 0.99999779462814);
-                    lineContainer.Default:SetStartPoint("CENTER", itemButton);
-                    lineContainer.Default:SetEndPoint("CENTER", connectionItem);
+                    lineContainer.Background:SetStartPoint("CENTER", itemButton);
+                    lineContainer.Background:SetEndPoint("CENTER", connectionItem);
                     
-                    lineContainer.Incomplete:SetStartPoint("CENTER", itemButton);
-                    lineContainer.Incomplete:SetEndPoint("CENTER", connectionItem);
+                    lineContainer.Active:SetStartPoint("CENTER", itemButton);
+                    lineContainer.Active:SetEndPoint("CENTER", connectionItem);
                     
                     lineContainer.Complete:SetStartPoint("CENTER", itemButton);
                     lineContainer.Complete:SetEndPoint("CENTER", connectionItem);
                     
                     lineContainer:SetAlpha(1)
-                            
-                    if itemButton.status == "iscompletable" or itemButton.status == "complete" then
-                        if itemButton.status == "forgotten" then
-                            lineContainer:SetAlpha(0.5)
-                        end
-                        lineContainer.Incomplete:Hide()
-                        lineContainer.Complete:Show()
-                        lineContainer.Default:Hide()
-                    elseif itemButton.status == "incomplete" or itemButton.status == "active" then
-                        lineContainer.Incomplete:Show()
-                        lineContainer.Complete:Hide()
-                        lineContainer.Default:Hide()
-                    else
-                        if itemButton.status == "forgotten" then
-                            lineContainer:SetAlpha(0.5)
-                        end
+                    
+                    lineContainer.PulseAlpha:Stop()
                         
-                        lineContainer.Incomplete:Hide()
-                        lineContainer.Complete:Hide()
-                        lineContainer.Default:Show()
+                    lineContainer.Active:Hide()
+                    lineContainer.Complete:Hide()
+                    
+                    if itemButton.status == "forgotten" then
+                        lineContainer.Complete:Show()
+                        lineContainer:SetAlpha(0.5)
+                    elseif itemButton.status == "complete" then
+                        lineContainer.Complete:Show()
+                    elseif itemButton.status == "active" then
+                        lineContainer.Active:Show()
+                    elseif itemButton.status == "iscompletable" then
+                        lineContainer.Active:Show()
+                        lineContainer.PulseAlpha:Play()
                     end
                     
                     lineContainer:Show();
@@ -1004,9 +999,9 @@ function BtWQuests_UpdateChain(scroll)
                     local factionID, name, standing, amount, completed = BtWQuests_GetChainReputationByIndex(index);
                     
                     if completed then
-                        itemButton.status = "complete"
+                        itemButton.newStatus = "complete"
                     else
-                        itemButton.status = "active"
+                        itemButton.newStatus = "active"
                     end
                 elseif type == "dummy" then
                     itemButton.newStatus = nil
@@ -1080,12 +1075,47 @@ function BtWQuests_UpdateChain(scroll)
                 end
                 
                 if itemButton.newStatus ~= itemButton.status then
-                    if itemButton.newStatus == 'active' then
-                        itemButton.ActiveTexture:Show()
-                        
+                    if itemButton.status == 'iscompletable' then
                         for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                            frame:SetAlpha(1)
-                            frame.DefaultToIncompleteAnim:Play()
+                            frame.PulseAlpha:Stop()
+                        end
+                    end
+                    
+                    if itemButton.newStatus == 'forgotten' then
+                        if itemButton.status == 'active' or itemButton.status == 'iscompletable' then
+                            itemButton.ActiveTexture:Hide()
+                            
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(0.5)
+                                
+                                frame.ActiveToCompleteAnim:Play()
+                            end
+                        elseif itemButton.status == 'complete' then
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(0.5)
+                            end
+                        else
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(0.5)
+                                
+                                frame.DefaultToCompleteAnim:Play()
+                            end
+                        end
+                    elseif itemButton.newStatus == 'complete' then
+                        if itemButton.status == 'active' or itemButton.status == 'iscompletable' then
+                            itemButton.ActiveTexture:Hide()
+                            
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(1)
+                                
+                                frame.ActiveToCompleteAnim:Play()
+                            end
+                        else
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(1)
+                                
+                                frame.DefaultToCompleteAnim:Play()
+                            end
                         end
                     elseif itemButton.newStatus == 'iscompletable' then
                         itemButton.ActiveTexture:Show()
@@ -1093,49 +1123,21 @@ function BtWQuests_UpdateChain(scroll)
                         if itemButton.status == 'active' then
                             for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
                                 frame:SetAlpha(1)
-                                frame.IncompleteToCompleteAnim:Play()
+                                frame.PulseAlpha:Play()
                             end
                         else
                             for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
                                 frame:SetAlpha(1)
-                                frame.DefaultToCompleteAnim:Play()
+                                frame.DefaultToActiveAnim:Play()
+                                frame.PulseAlpha:Play()
                             end
                         end
-                    elseif itemButton.newStatus == 'complete' then
-                        if itemButton.status == 'active' then
-                            itemButton.ActiveTexture:Hide()
-                            
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(1)
-                                
-                                frame.IncompleteToCompleteAnim:Play()
-                            end
-                        elseif itemButton.status == 'iscompletable' then
-                            itemButton.ActiveTexture:Hide()
-                        else
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(1)
-                                
-                                frame.DefaultToCompleteAnim:Play()
-                            end
-                        end
-                    elseif itemButton.newStatus == 'forgotten' then
-                        if itemButton.status == 'active' then
-                            itemButton.ActiveTexture:Hide()
-                            
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(0.5)
-                                
-                                frame.IncompleteToDefaultAnim:Play()
-                            end
-                        elseif itemButton.status == 'iscompletable' or itemButton.status == 'complete' then
-                            itemButton.ActiveTexture:Hide()
-                            
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(0.5)
-                                
-                                frame.CompleteToDefaultAnim:Play()
-                            end
+                    elseif itemButton.newStatus == 'active' then
+                        itemButton.ActiveTexture:Show()
+                        
+                        for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                            frame:SetAlpha(1)
+                            frame.DefaultToActiveAnim:Play()
                         end
                     end
                 end
