@@ -67,7 +67,7 @@ function BtWQuests_SetCurrentChain(chainID)
     BtWQuests_CurrentCategory = select(5, BtWQuests_GetChainByID(BtWQuests_CurrentChain))
 end
 
-function BtWQuests_SelectChain(id)
+function BtWQuests_SelectChain(id, dontScroll)
     local id = tonumber(id)
     
     BtWQuests_SetCurrentChain(id)
@@ -76,10 +76,10 @@ function BtWQuests_SelectChain(id)
     BtWQuestsNav_AddChainButtonParents(id)
     
     BtWQuests:Show()
-    BtWQuests_DisplayChain()
+    BtWQuests_DisplayChain(dontScroll)
 end
 
-function BtWQuests_SelectFromLink(link)
+function BtWQuests_SelectFromLink(link, dontScroll)
     local _, _, color, type, text, name = string.find(link, "|cff(%x*)|H([^:]+):([^|]+)|h%[([^%[%]]*)%]|h|r")
     if not color then
         _, _, type, text = string.find(link, "([^:]+):(.+)")
@@ -114,7 +114,7 @@ function BtWQuests_SelectFromLink(link)
             
             return true
         elseif subtype == "chain" then
-            BtWQuests_SelectChain(id)
+            BtWQuests_SelectChain(id, dontScroll)
             
             return true
         end
@@ -380,7 +380,7 @@ function BtWQuests_GetChainItemByIndex(index)
         local item = BtWQuests_Chains[chainID].items[index]
         
         if item then
-            return item.type, item.name, item.x, item.y, item.atlas, item.optional, item.faction, item.class and {item.class} or item.classes
+            return item.type, item.name, item.x, item.y, item.atlas, item.optional, item.faction, item.class and {item.class} or item.classes, item.dontScroll
         end
     end
 end
@@ -635,7 +635,7 @@ function BtWQuests_ListCategories()
     end
 end
 
-function BtWQuests_DisplayChain()
+function BtWQuests_DisplayChain(dontScroll)
 	local chain = BtWQuests.Chain;
     
 	BtWQuests.QuestSelect:Hide();
@@ -648,7 +648,7 @@ function BtWQuests_DisplayChain()
     
     local _, _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
     for index = numItems,1,-1 do
-        local type, name, x, y, atlas, optional, faction, classes = BtWQuests_GetChainItemByIndex(index)
+        local type, name, x, y, atlas, optional, faction, classes, dontScrollChain = BtWQuests_GetChainItemByIndex(index)
         local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
         local itemButton = scrollFrame["item"..index];
@@ -713,7 +713,7 @@ function BtWQuests_DisplayChain()
                 itemButton.chainID = nil
                 itemButton.onClick = nil
             elseif type == "chain" then
-                local chainID, chainName, link, _, _, _, numRequirements, completed = BtWQuests_GetChainChainByIndex(index);
+                local chainID, chainName, link, _, _, _, numRequirements, completed, _, _, _ = BtWQuests_GetChainChainByIndex(index);
                 
                 local active = true
                 if not completed then
@@ -741,6 +741,7 @@ function BtWQuests_DisplayChain()
                 itemButton.name:SetText(name or chainName);
                 itemButton.showTooltip = true
                 itemButton.link = link;
+                itemButton.dontScroll = dontScrollChain
                 itemButton.chainID = chainID
                 itemButton.onClick = nil
             elseif type == "reputation" then
@@ -966,16 +967,18 @@ function BtWQuests_DisplayChain()
     
     scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     
-    if scrollToButton == nil then
-        scrollToButton = scrollToButtonOptional
+    if not dontScroll then
+        if scrollToButton == nil then
+            scrollToButton = scrollToButtonOptional
+        end
+        
+        if scrollToButton == nil then
+            scrollToButton = scrollFrame["item1"]
+        end
+        
+        chain.scroll:UpdateScrollChildRect()
+        chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
     end
-    
-    if scrollToButton == nil then
-        scrollToButton = scrollFrame["item1"]
-    end
-    
-    chain.scroll:UpdateScrollChildRect()
-    chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
 end
 
 

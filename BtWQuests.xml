@@ -394,7 +394,7 @@
                 GameTooltip:Hide()
             </OnLeave>
 			<OnClick>
-                if self.link and not ChatEdit_TryInsertChatLink(self.link) and not BtWQuests_SelectFromLink(self.link) then
+                if self.link and not ChatEdit_TryInsertChatLink(self.link) and not BtWQuests_SelectFromLink(self.link, self.dontScroll) then
                     BtWQuestsTooltip:Hide();
                 elseif self.onClick then
                     self.onClick()
