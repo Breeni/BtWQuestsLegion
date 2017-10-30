@@ -1642,7 +1642,7 @@ end
 
 local original_InsertLink = ChatEdit_InsertLink
 function ChatEdit_InsertLink(link)
-	if link:find("^|c[^|]+|Hbtwquests") then
+	if link and link:find("^|c[^|]+|Hbtwquests") then
         local color, text, name = link:match("^|c([^|]+)|H([^|]+)|h%[([^%]]+)%]|h|r");
         link = format("[%s:%s:%s]", text, color, name)
     end
