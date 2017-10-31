@@ -207,17 +207,17 @@ BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
         BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
         BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
         BTWQUESTS_CATEGORY_LEGION_AZSUNA,
         BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         -- BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
@@ -308,8 +308,8 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
             BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT,
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER] = {
@@ -5843,7 +5843,8 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+                    --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+                    3
                 },
             },
             
@@ -5854,120 +5855,120 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 x = 3,
                 y = 3,
-                connections = {
-                    12
-                },
+                -- connections = {
+                    -- 12
+                -- },
             },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
-                x = 3,
-                y = 3,
-                connections = {
-                    11
-                },
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                x = 3,
-                y = 3,
-                connections = {
-                    10
-                },
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_HUNTER,
-                x = 3,
-                y = 3,
-                connections = {
-                    9
-                },
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_MAGE,
-                x = 3,
-                y = 3,
-                connections = {
-                    8
-                },
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_MONK,
-                x = 3,
-                y = 3,
-                connections = {
-                    7
-                },
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_PALADIN,
-                x = 3,
-                y = 3,
-                connections = {
-                    6
-                },
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_PRIEST,
-                x = 3,
-                y = 3,
-                connections = {
-                    5
-                },
-            },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 11
+                -- },
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_DRUID,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 10
+                -- },
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_HUNTER,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 9
+                -- },
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_MAGE,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 8
+                -- },
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_MONK,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 7
+                -- },
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_PALADIN,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 6
+                -- },
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_PRIEST,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 5
+                -- },
+            -- },
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
                 class = BTWQUESTS_CLASS_ID_ROGUE,
                 x = 3,
                 y = 3,
-                connections = {
-                    4
-                },
+                -- connections = {
+                    -- 4
+                -- },
             },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
-                x = 3,
-                y = 3,
-                connections = {
-                    3
-                },
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
-                x = 3,
-                y = 3,
-                connections = {
-                    2
-                },
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
-                x = 3,
-                y = 3,
-                connections = {
-                    1
-                },
-            },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_SHAMAN,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 3
+                -- },
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_WARLOCK,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 2
+                -- },
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER,
+                -- class = BTWQUESTS_CLASS_ID_WARRIOR,
+                -- x = 3,
+                -- y = 3,
+                -- connections = {
+                    -- 1
+                -- },
+            -- },
             
             
             {
@@ -7303,41 +7304,41 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 6,
                 connections = {
-                    1, 2, 3, 4, 5
+                    1--, 2, 3, 4, 5
                 },
             },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
-                name = GetMapNameByID(1015),
-                optional = true,
-                x = 1,
-                y = 5.5,
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
-                name = GetMapNameByID(1018),
-                optional = true,
-                x = 1,
-                y = 6.5
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
-                name = GetMapNameByID(1024),
-                optional = true,
-                x = 5,
-                y = 5.5,
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
-                name = GetMapNameByID(1017),
-                optional = true,
-                x = 5,
-                y = 6.5,
-            },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
+                -- name = GetMapNameByID(1015),
+                -- optional = true,
+                -- x = 1,
+                -- y = 5.5,
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
+                -- name = GetMapNameByID(1018),
+                -- optional = true,
+                -- x = 1,
+                -- y = 6.5
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
+                -- name = GetMapNameByID(1024),
+                -- optional = true,
+                -- x = 5,
+                -- y = 5.5,
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
+                -- name = GetMapNameByID(1017),
+                -- optional = true,
+                -- x = 5,
+                -- y = 6.5,
+            -- },
             {
                 type = "quest",
                 id = 42449,
@@ -7732,21 +7733,204 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Minerva Ravensorrow",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-        range = {98, 110},
+        completed = {
+            type = "quest",
+            id = 46050,
+        },
+        range = {110},
         items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                optional = true,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45240,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 45399,
+                x = 2,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45398,
+                x = 4,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45331,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44775,
+                x = 3,
+                y = 4,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 44783,
+                x = 2,
+                y = 5,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 46305,
+                x = 4,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44787,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 45243,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 45103,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 46050,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                optional = true,
+                x = 3,
+                y = 10,
+            },
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT] = {
-        name = "Class Mount",
+        name = "Mount: Deathlord's Vilebrood Vanquisher",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-        range = {98, 110},
+        requirements = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 46720,
+        },
+        range = {110},
         items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46719,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46720,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46812,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46813,
+                x = 3,
+                y = 4,
+            },
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC] = {
@@ -10018,44 +10202,45 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 8,
                 connections = {
-                    1, 2, 3, 4, 6
+                    --1, 2, 3, 4, 6
+                    2
                 },
             },
             
             
             
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
-                name = GetMapNameByID(1015),
-                optional = true,
-                x = 1,
-                y = 7.5,
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
-                name = GetMapNameByID(1018),
-                optional = true,
-                x = 1,
-                y = 8.5
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
-                name = GetMapNameByID(1024),
-                optional = true,
-                x = 5,
-                y = 7.5,
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
-                name = GetMapNameByID(1017),
-                optional = true,
-                x = 5,
-                y = 8.5,
-            },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
+                -- name = GetMapNameByID(1015),
+                -- optional = true,
+                -- x = 1,
+                -- y = 7.5,
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
+                -- name = GetMapNameByID(1018),
+                -- optional = true,
+                -- x = 1,
+                -- y = 8.5
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
+                -- name = GetMapNameByID(1024),
+                -- optional = true,
+                -- x = 5,
+                -- y = 7.5,
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
+                -- name = GetMapNameByID(1017),
+                -- optional = true,
+                -- x = 5,
+                -- y = 8.5,
+            -- },
             
             
             
@@ -10492,7 +10677,7 @@ BtWQuests_Chains = {
             type = "quest",
             id = 46059,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
                 type = "chain",
@@ -10730,15 +10915,21 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT] = {
-        name = "Class Mount: Shadowblade's Murderous Omen",
+        name = "Mount: Shadowblade's Murderous Omen",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_ROGUE,
+        requirements = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
             id = 46089,
         },
-        range = {98, 110},
+        range = {110},
         buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Rogue-Mount",
         items = {
             {
@@ -18962,6 +19153,73 @@ BtWQuests_Quests = {
         name = "A Gift From the Six",
         level = 110,
     },
+    
+    
+
+	[46812] = {
+		["name"] = "Draconic Secrets",
+		["level"] = 110,
+	},
+	[46813] = {
+		["name"] = "The Lost Glacier",
+		["level"] = 110,
+	},
+	[46719] = {
+		["name"] = "Amal'thazad's Message",
+		["level"] = 110,
+	},
+	[46720] = {
+		["name"] = "Frozen Memories",
+		["level"] = 110,
+	},
+    
+    
+	[44775] = {
+		["name"] = "The Peak of Bones",
+		["level"] = 110,
+	},
+	[44783] = {
+		["name"] = "From Bones They Rise",
+		["level"] = 110,
+	},
+	[45331] = {
+		["name"] = "Return to Acherus",
+		["level"] = 110,
+	},
+	[45399] = {
+		["name"] = "Severing the Sveldrek",
+		["level"] = 110,
+	},
+	[45243] = {
+		["name"] = "On Daumyr's Wings",
+		["level"] = 110,
+	},
+	[46050] = {
+		["name"] = "Champion: Minerva Ravensorrow",
+		["level"] = 110,
+	},
+	[44787] = {
+		["name"] = "The Bonemother",
+		["level"] = 110,
+	},
+	[45240] = {
+		["name"] = "Making Preparations",
+		["level"] = 110,
+	},
+	[45103] = {
+		["name"] = "We Ride!",
+		["level"] = 110,
+	},
+	[45398] = {
+		["name"] = "Harnessing Power",
+		["level"] = 110,
+	},
+	[46305] = {
+		["name"] = "Thorim's Flame",
+		["level"] = 110,
+	},
+    
+    
     
     [40730] = {
         name = "Redistribution",
