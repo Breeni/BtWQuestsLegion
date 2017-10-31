@@ -242,9 +242,14 @@ function BtWQuests_GetChainByID(chainID)
             _, completed = BtWQuests_RequirementDetails(chain.completed)
         end
     end
+
+    name = chain.name
+    if type(name) == "function" then
+        name = name(chain, UnitFactionGroup("player"), select(3, UnitClass("player")), UnitLevel("player"))
+    end
     
-    local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, chain.name)
-    return chainID, chain.name, link, chain.expansion, chain.category, chain.buttonImage, chain.requirements and #chain.requirements or 0, completed, chain.items and #chain.items or 0, chain.faction, chain.class and {chain.class} or chain.classes
+    local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, name)
+    return chainID, name, link, chain.expansion, chain.category, chain.buttonImage, chain.requirements and #chain.requirements or 0, completed, chain.items and #chain.items or 0, chain.faction, chain.class and {chain.class} or chain.classes
 end
 
 function BtWQuests_GetChainByIndex(index)
@@ -539,7 +544,7 @@ function BtWQuests_ListCategories()
 	BtWQuests.Chain:Hide();
 	questSelect:Show();
     
-    local playerFaction, playerClass = UnitFactionGroup("player"), select(3, UnitClass("player"))
+    local playerFaction, playerClass, playerLevel = UnitFactionGroup("player"), select(3, UnitClass("player")), UnitLevel("player")
     
 	local scrollFrame = questSelect.scroll.child;
     
