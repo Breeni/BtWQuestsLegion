@@ -1,6 +1,6 @@
 ## Interface: 70300
 ## Title: BtWQuests
-## Version: 0.6
+## Version: 0.7
 ## Notes: 
 ## Author: Breen
 ## SavedVariablesPerCharacter: BtWQuests_Settings
