@@ -9919,7 +9919,7 @@ BtWQuests_Chains = {
         items = {
             {
                 type = "quest",
-                id =     40832,
+                id = 40832,
                 x = 3,
                 y = 0,
                 connections = {
@@ -9928,7 +9928,7 @@ BtWQuests_Chains = {
             },
             {
                 type = "quest",
-                id =     40839,
+                id = 40839,
                 x = 3,
                 y = 1,
                 connections = {
@@ -9937,7 +9937,7 @@ BtWQuests_Chains = {
             },
             {
                 type = "quest",
-                id =     40839,
+                id = 40840,
                 x = 3,
                 y = 2,
                 connections = {
@@ -10000,24 +10000,12 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 6,
                 connections = {
-                    2
-                },
-            },
-            
-            
-            
-            {
-                type = "level",
-                level = 101,
-                x = 5,
-                y = 6,
-                connections = {
                     1
                 },
             },
             {
                 type = "quest",
-                id = 43007,
+                id = 40996,
                 x = 3,
                 y = 7,
                 connections = {
@@ -10026,25 +10014,65 @@ BtWQuests_Chains = {
             },
             {
                 type = "quest",
-                id = 42139,
+                id = 40997,
                 x = 3,
                 y = 8,
                 connections = {
-                    1
+                    1, 2, 3, 4, 6
                 },
             },
+            
+            
+            
             {
-                type = "quest",
-                id = 42140,
-                x = 3,
-                y = 9,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
+                name = GetMapNameByID(1015),
+                optional = true,
+                x = 1,
+                y = 7.5,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
+                name = GetMapNameByID(1018),
+                optional = true,
+                x = 1,
+                y = 8.5
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
+                name = GetMapNameByID(1024),
+                optional = true,
+                x = 5,
+                y = 7.5,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
+                name = GetMapNameByID(1017),
+                optional = true,
+                x = 5,
+                y = 8.5,
+            },
+            
+            
+            
+            
+            
+            {
+                type = "level",
+                level = 101,
+                x = 5,
+                y = 9.5,
                 connections = {
                     1
                 },
             },
             {
                 type = "quest",
-                id = 43013,
+                id = 43007,
                 x = 3,
                 y = 10,
                 connections = {
@@ -10053,7 +10081,7 @@ BtWQuests_Chains = {
             },
             {
                 type = "quest",
-                id = 43014,
+                id = 42139,
                 x = 3,
                 y = 11,
                 connections = {
@@ -10062,7 +10090,7 @@ BtWQuests_Chains = {
             },
             {
                 type = "quest",
-                id = 43015,
+                id = 42140,
                 x = 3,
                 y = 12,
                 connections = {
@@ -10071,7 +10099,7 @@ BtWQuests_Chains = {
             },
             {
                 type = "quest",
-                id = 43958,
+                id = 43013,
                 x = 3,
                 y = 13,
                 connections = {
@@ -10080,9 +10108,36 @@ BtWQuests_Chains = {
             },
             {
                 type = "quest",
-                id = 43829,
+                id = 43014,
                 x = 3,
                 y = 14,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43015,
+                x = 3,
+                y = 15,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43958,
+                x = 3,
+                y = 16,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43829,
+                x = 3,
+                y = 17,
                 connections = {
                     2
                 },
@@ -10093,7 +10148,7 @@ BtWQuests_Chains = {
                 type = "level",
                 level = 103,
                 x = 5,
-                y = 14,
+                y = 17,
                 connections = {
                     1
                 },
@@ -10102,7 +10157,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44041,
                 x = 3,
-                y = 15,
+                y = 18,
                 connections = {
                     1
                 },
@@ -10111,7 +10166,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44116,
                 x = 3,
-                y = 16,
+                y = 19,
                 connections = {
                     1, 2
                 },
@@ -10120,7 +10175,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44155,
                 x = 2,
-                y = 17,
+                y = 20,
                 connections = {
                     2
                 },
@@ -10129,7 +10184,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44117,
                 x = 4,
-                y = 17,
+                y = 20,
                 connections = {
                     1
                 },
@@ -10138,7 +10193,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44177,
                 x = 3,
-                y = 18,
+                y = 21,
                 connections = {
                     1, 2
                 },
@@ -10147,13 +10202,13 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44183,
                 x = 5,
-                y = 19,
+                y = 22,
             },
             {
                 type = "quest",
                 id = 43841,
                 x = 3,
-                y = 19,
+                y = 22,
                 connections = {
                     1
                 },
@@ -10162,7 +10217,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43852,
                 x = 3,
-                y = 20,
+                y = 23,
                 connections = {
                     1, 2, 5, 6
                 },
@@ -10171,7 +10226,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44181,
                 x = 1,
-                y = 20,
+                y = 23,
             },
             
             
@@ -10179,7 +10234,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 42730,
                 x = 1,
-                y = 21,
+                y = 24,
                 connections = {
                     1
                 },
@@ -10188,7 +10243,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44178,
                 x = 1,
-                y = 22,
+                y = 25,
                 connections = {
                     1, 5
                 },
@@ -10197,7 +10252,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44180,
                 x = 0,
-                y = 23,
+                y = 26,
             },
             
             
@@ -10205,7 +10260,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43468,
                 x = 5,
-                y = 21,
+                y = 24,
                 connections = {
                     3
                 },
@@ -10214,7 +10269,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 42684,
                 x = 3,
-                y = 21,
+                y = 24,
                 connections = {
                     2
                 },
@@ -10226,7 +10281,7 @@ BtWQuests_Chains = {
                 type = "level",
                 level = 110,
                 x = 6,
-                y = 22,
+                y = 25,
                 connections = {
                     1, 2
                 },
@@ -10235,7 +10290,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43253,
                 x = 3,
-                y = 23,
+                y = 26,
                 connections = {
                     2
                 },
@@ -10244,47 +10299,11 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44252,
                 x = 6,
-                y = 23,
+                y = 26,
             },
             {
                 type = "quest",
                 id = 43249,
-                x = 3,
-                y = 24,
-                connections = {
-                    1
-                },
-            },
-            {
-                type = "quest",
-                id = 43250,
-                x = 3,
-                y = 25,
-                connections = {
-                    1, 2
-                },
-            },
-            {
-                type = "quest",
-                id = 43251,
-                x = 2,
-                y = 26,
-                connections = {
-                    2
-                },
-            },
-            {
-                type = "quest",
-                id = 43252,
-                x = 4,
-                y = 26,
-                connections = {
-                    1
-                },
-            },
-            {
-                type = "quest",
-                id = 42678,
                 x = 3,
                 y = 27,
                 connections = {
@@ -10293,9 +10312,45 @@ BtWQuests_Chains = {
             },
             {
                 type = "quest",
-                id = 42680,
+                id = 43250,
                 x = 3,
                 y = 28,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 43251,
+                x = 2,
+                y = 29,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43252,
+                x = 4,
+                y = 29,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42678,
+                x = 3,
+                y = 30,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42680,
+                x = 3,
+                y = 31,
                 connections = {
                     1, 2, 3
                 },
@@ -10304,13 +10359,13 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 42800,
                 x = 1,
-                y = 28,
+                y = 31,
             },
             {
                 type = "quest",
                 id = 43469,
                 x = 2,
-                y = 29,
+                y = 32,
                 connections = {
                     3
                 },
@@ -10319,7 +10374,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43470,
                 x = 4,
-                y = 29,
+                y = 32,
                 connections = {
                     1
                 },
@@ -10328,7 +10383,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43479,
                 x = 4,
-                y = 30,
+                y = 33,
                 connections = {
                     1
                 },
@@ -10337,7 +10392,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43485,
                 x = 3,
-                y = 31,
+                y = 34,
                 connections = {
                     1
                 },
@@ -10346,7 +10401,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43508,
                 x = 3,
-                y = 32,
+                y = 35,
                 connections = {
                     1
                 },
@@ -10355,7 +10410,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 37666,
                 x = 3,
-                y = 33,
+                y = 36,
                 connections = {
                     1
                 },
@@ -10364,7 +10419,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 37448,
                 x = 3,
-                y = 34,
+                y = 37,
                 connections = {
                     1
                 },
@@ -10373,7 +10428,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 37494,
                 x = 3,
-                y = 35,
+                y = 38,
                 connections = {
                     1
                 },
@@ -10382,7 +10437,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 37689,
                 x = 3,
-                y = 36,
+                y = 39,
                 connections = {
                     1, 2
                 },
@@ -10391,7 +10446,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43723,
                 x = 2,
-                y = 37,
+                y = 40,
                 connections = {
                     2
                 },
@@ -10400,7 +10455,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43724,
                 x = 4,
-                y = 37,
+                y = 40,
                 connections = {
                     1
                 },
@@ -10409,7 +10464,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 44215,
                 x = 3,
-                y = 38,
+                y = 41,
                 connections = {
                     1
                 },
@@ -10418,7 +10473,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43422,
                 x = 3,
-                y = 39,
+                y = 42,
             },
         },
     },
@@ -16753,6 +16808,14 @@ BtWQuests_Quests = {
         name = "Searching For Clues",
         level = -1,
     },
+	[40997] = {
+		name = "Lethal Efficiency",
+		level = -1,
+	},
+	[40996] = {
+		name = "Delegation",
+		level = -1,
+	},
     [44117] = {
         name = "Time Flies When Yer Havin' Rum!",
         level = -1,
