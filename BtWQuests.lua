@@ -672,6 +672,7 @@ function BtWQuests_DisplayChain(dontScroll)
                 itemButton.backgroundLinePool:ReleaseAll();
             end
         else
+            itemButton.ForgottenAnim:Stop()
             itemButton.name:SetAlpha(1)
             if type == "quest" then
                 local questID, questName, link, difficulty, tagID = BtWQuests_GetChainQuestByIndex(index);
