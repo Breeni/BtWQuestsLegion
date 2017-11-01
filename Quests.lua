@@ -9191,21 +9191,45 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT] = {
-        name = "Class Mount",
+        name = "Mount: Huntmaster's Loyal Wolfhawk",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_HUNTER,
+        requirements = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46337,
         },
         range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46336,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46337,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -19379,6 +19403,14 @@ BtWQuests_Quests = {
 	},
 	[46048] = {
 		["name"] = "Champion: Nighthuntress Syrenne",
+		["level"] = 110,
+	},
+	[46336] = {
+		["name"] = "A Golden Ticket",
+		["level"] = 110,
+	},
+	[46337] = {
+		["name"] = "Night of the Wilds",
 		["level"] = 110,
 	},
     
