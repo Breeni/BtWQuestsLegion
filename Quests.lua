@@ -209,7 +209,7 @@ BtWQuests_Expansions = {
         BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         -- BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
         -- BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
         -- BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
         -- BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
         -- BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
@@ -349,9 +349,9 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
+            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT,
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE] = {
@@ -5863,7 +5863,7 @@ BtWQuests_Chains = {
                 y = 2,
                 connections = {
                     --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    3
+                    4
                 },
             },
             
@@ -5898,16 +5898,16 @@ BtWQuests_Chains = {
                     -- 10
                 -- },
             -- },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_HUNTER,
-                -- x = 3,
-                -- y = 3,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
+                class = BTWQUESTS_CLASS_ID_HUNTER,
+                x = 3,
+                y = 3,
                 -- connections = {
                     -- 9
                 -- },
-            -- },
+            },
             -- {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
@@ -9071,21 +9071,122 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Nighthuntress Syrenne",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         class = BTWQUESTS_CLASS_ID_HUNTER,
         completed = {
             type = "quest",
-            id = 100,
+            id = 46048,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                optional = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45551,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45552,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45553,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45554,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45555,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45556,
+                x = 3,
+                y = 6,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 45557,
+                x = 2,
+                y = 7,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 46060,
+                x = 4,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46235,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46048,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                optional = true,
+                x = 3,
+                y = 10,
             },
         },
     },
@@ -9098,7 +9199,7 @@ BtWQuests_Chains = {
             type = "quest",
             id = 100,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
                 type = "quest",
@@ -19235,6 +19336,49 @@ BtWQuests_Quests = {
 	},
 	[46305] = {
 		["name"] = "Thorim's Flame",
+		["level"] = 110,
+	},
+    
+    
+
+	[45554] = {
+		["name"] = "Taking Control",
+		["level"] = 110,
+	},
+	[45555] = {
+		["name"] = "Felbound Beasts",
+		["level"] = 110,
+	},
+	[45556] = {
+		["name"] = "Ready to Strike",
+		["level"] = 110,
+	},
+	[45557] = {
+		["name"] = "Unnatural Consequences",
+		["level"] = 110,
+	},
+	[46060] = {
+		["name"] = "Salvation",
+		["level"] = 110,
+	},
+	[45551] = {
+		["name"] = "Devastating Effects",
+		["level"] = 110,
+	},
+	[45552] = {
+		["name"] = "Soothing Wounds",
+		["level"] = 110,
+	},
+	[46235] = {
+		["name"] = "Secured Surroundings",
+		["level"] = 110,
+	},
+	[45553] = {
+		["name"] = "The Nighthuntress Beckons",
+		["level"] = 110,
+	},
+	[46048] = {
+		["name"] = "Champion: Nighthuntress Syrenne",
 		["level"] = 110,
 	},
     
