@@ -194,6 +194,10 @@ function BtWQuests_RequirementDetails(requirement)
         completed = IsQuestFlaggedCompleted(requirement.id)
     elseif requirement.type == "achievement" then
         _, text, _, _, _, _, _, _, _, _, _, _, completed = GetAchievementInfo(requirement.id)
+        print(requirement.completed)
+        if requirement.completed == false then
+            completed = not completed
+        end
     else
         return nil
     end

@@ -203,6 +203,8 @@ BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM = 138
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER = 139
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS = 140
 
+BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART = 141
+
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
         BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -218,6 +220,7 @@ BtWQuests_Expansions = {
         -- BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
         -- BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
         -- BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
         BTWQUESTS_CATEGORY_LEGION_AZSUNA,
         BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         -- BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
@@ -297,6 +300,9 @@ BtWQuests_Categories = {
         name = BTWQUESTS_ORDERHALL,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1041999,
+        chains = {
+            BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
+        },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
         name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
@@ -13679,6 +13685,245 @@ BtWQuests_Chains = {
             },
         },
     },
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
+        name = "Light's Heart",
+        category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        requirements = {
+            {
+                type = "level",
+                level = 100,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 45866,
+        },
+        range = {100, 110},
+        items = {
+            {
+                type = "quest",
+                id = 44009,
+                x = 3,
+                y = 1,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44004,
+                x = 3,
+                y = 2,
+                connections = {
+                    2,
+                }
+            },
+            {
+                type = "quest",
+                id = 43705,
+                x = 1,
+                y = 2,
+            },
+            {
+                type = "quest",
+                id = 44153,
+                x = 3,
+                y = 3,
+                connections = {
+                    2,
+                }
+            },
+            
+            
+            {
+                type = "level",
+                level = 110,
+                x = 5,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44337,
+                x = 3,
+                y = 4,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44448,
+                x = 3,
+                y = 5,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "dummy",
+                name = "Return to your Order Hall",
+                optional = true,
+                x = 3,
+                y = 6,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44464,
+                x = 3,
+                y = 7,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44466,
+                x = 3,
+                y = 8,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44479,
+                x = 3,
+                y = 9,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44480,
+                x = 3,
+                y = 10,
+                connections = {
+                    1, 2, 3,
+                }
+            },
+            {
+                type = "quest",
+                id = 44481,
+                classes = {
+                    BTWQUESTS_CLASS_ID_WARRIOR,
+                    BTWQUESTS_CLASS_ID_PALADIN,
+                    BTWQUESTS_CLASS_ID_HUNTER,
+                    BTWQUESTS_CLASS_ID_ROGUE,
+                    BTWQUESTS_CLASS_ID_PRIEST,
+                    BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    BTWQUESTS_CLASS_ID_SHAMAN,
+                    BTWQUESTS_CLASS_ID_MAGE,
+                    BTWQUESTS_CLASS_ID_WARLOCK,
+                    BTWQUESTS_CLASS_ID_MONK,
+                    BTWQUESTS_CLASS_ID_DRUID,
+                },
+                requirements = {
+                    {
+                        type = "achievement",
+                        id = 697,
+                        completed = true,
+                    },
+                    {
+                        type = "quest",
+                        id = 44496,
+                        active = false,
+                    },
+                },
+                x = 1,
+                y = 11,
+                connections = {
+                    3,
+                }
+            },
+            {
+                type = "quest",
+                id = 44496,
+                classes = {
+                    BTWQUESTS_CLASS_ID_WARRIOR,
+                    BTWQUESTS_CLASS_ID_PALADIN,
+                    BTWQUESTS_CLASS_ID_HUNTER,
+                    BTWQUESTS_CLASS_ID_ROGUE,
+                    BTWQUESTS_CLASS_ID_PRIEST,
+                    BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    BTWQUESTS_CLASS_ID_SHAMAN,
+                    BTWQUESTS_CLASS_ID_MAGE,
+                    BTWQUESTS_CLASS_ID_WARLOCK,
+                    BTWQUESTS_CLASS_ID_MONK,
+                    BTWQUESTS_CLASS_ID_DRUID,
+                },
+                requirements = {
+                    {
+                        type = "achievement",
+                        id = 697,
+                        completed = false,
+                    },
+                    {
+                        type = "quest",
+                        id = 44481,
+                        active = false,
+                    },
+                },
+                x = 3,
+                y = 11,
+                connections = {
+                    2,
+                }
+            },
+            {
+                type = "quest",
+                id = 44497,
+                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                x = 5,
+                y = 11,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 45174,
+                x = 3,
+                y = 12,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 45175,
+                x = 3,
+                y = 13,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 45176,
+                x = 3,
+                y = 14,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 45177,
+                x = 3,
+                y = 15,
+            },
+        },
+    },
 }
 
 BtWQuests_Quests = {
@@ -19176,66 +19421,126 @@ BtWQuests_Quests = {
     
 
 	[46812] = {
-		["name"] = "Draconic Secrets",
-		["level"] = 110,
+		name = "Draconic Secrets",
+		level = 110,
 	},
 	[46813] = {
-		["name"] = "The Lost Glacier",
-		["level"] = 110,
+		name = "The Lost Glacier",
+		level = 110,
 	},
 	[46719] = {
-		["name"] = "Amal'thazad's Message",
-		["level"] = 110,
+		name = "Amal'thazad's Message",
+		level = 110,
 	},
 	[46720] = {
-		["name"] = "Frozen Memories",
-		["level"] = 110,
+		name = "Frozen Memories",
+		level = 110,
 	},
     
     
 	[44775] = {
-		["name"] = "The Peak of Bones",
-		["level"] = 110,
+		name = "The Peak of Bones",
+		level = 110,
 	},
 	[44783] = {
-		["name"] = "From Bones They Rise",
-		["level"] = 110,
+		name = "From Bones They Rise",
+		level = 110,
 	},
 	[45331] = {
-		["name"] = "Return to Acherus",
-		["level"] = 110,
+		name = "Return to Acherus",
+		level = 110,
 	},
 	[45399] = {
-		["name"] = "Severing the Sveldrek",
-		["level"] = 110,
+		name = "Severing the Sveldrek",
+		level = 110,
 	},
 	[45243] = {
-		["name"] = "On Daumyr's Wings",
-		["level"] = 110,
+		name = "On Daumyr's Wings",
+		level = 110,
 	},
 	[46050] = {
-		["name"] = "Champion: Minerva Ravensorrow",
-		["level"] = 110,
+		name = "Champion: Minerva Ravensorrow",
+		level = 110,
 	},
 	[44787] = {
-		["name"] = "The Bonemother",
-		["level"] = 110,
+		name = "The Bonemother",
+		level = 110,
 	},
 	[45240] = {
-		["name"] = "Making Preparations",
-		["level"] = 110,
+		name = "Making Preparations",
+		level = 110,
 	},
 	[45103] = {
-		["name"] = "We Ride!",
-		["level"] = 110,
+		name = "We Ride!",
+		level = 110,
 	},
 	[45398] = {
-		["name"] = "Harnessing Power",
-		["level"] = 110,
+		name = "Harnessing Power",
+		level = 110,
 	},
 	[46305] = {
-		["name"] = "Thorim's Flame",
-		["level"] = 110,
+		name = "Thorim's Flame",
+		level = 110,
+	},
+    
+    
+
+	[44337] = {
+		name = "Goddess Watch Over You",
+		level = 110,
+	},
+	[44479] = {
+		name = "Ravencrest's Legacy",
+		level = 110,
+	},
+	[44448] = {
+		name = "In the House of Light and Shadow",
+		level = 110,
+	},
+	[44464] = {
+		name = "Awakenings",
+		level = 110,
+	},
+	[44466] = {
+		name = "An Unclear Path",
+		level = 110,
+	},
+    
+	[45177] = {
+		name = "The Nighthold",
+		level = 110,
+	},
+	[44480] = {
+		name = "Destiny Unfulfilled",
+		level = 110,
+	},
+	[44481] = {
+		name = "Destiny Unfulfilled",
+		level = 110,
+	},
+	[44496] = {
+		name = "Destiny Unfulfilled",
+		level = 110,
+	},
+	[45176] = {
+		name = "Trial of Valor: The Once and Future Lord of Shadows",
+        difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
+		level = 110,
+	},
+	[44480] = {
+		name = "In My Father's House",
+		level = 110,
+	},
+	[45175] = {
+		name = "Soul Prism of the Illidari",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+		level = 110,
+	},
+	[45174] = {
+		name = "The Hunt for Illidan Stormrage",
+		level = 110,
 	},
     
     
