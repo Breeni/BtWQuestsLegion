@@ -67,7 +67,7 @@ function BtWQuests_SetCurrentChain(chainID)
     BtWQuests_CurrentCategory = select(5, BtWQuests_GetChainByID(BtWQuests_CurrentChain))
 end
 
-function BtWQuests_SelectChain(id)
+function BtWQuests_SelectChain(id, dontScroll)
     local id = tonumber(id)
     
     BtWQuests_SetCurrentChain(id)
@@ -76,10 +76,10 @@ function BtWQuests_SelectChain(id)
     BtWQuestsNav_AddChainButtonParents(id)
     
     BtWQuests:Show()
-    BtWQuests_DisplayChain()
+    BtWQuests_DisplayChain(dontScroll)
 end
 
-function BtWQuests_SelectFromLink(link)
+function BtWQuests_SelectFromLink(link, dontScroll)
     local _, _, color, type, text, name = string.find(link, "|cff(%x*)|H([^:]+):([^|]+)|h%[([^%[%]]*)%]|h|r")
     if not color then
         _, _, type, text = string.find(link, "([^:]+):(.+)")
@@ -114,7 +114,7 @@ function BtWQuests_SelectFromLink(link)
             
             return true
         elseif subtype == "chain" then
-            BtWQuests_SelectChain(id)
+            BtWQuests_SelectChain(id, dontScroll)
             
             return true
         end
@@ -204,17 +204,27 @@ local function BtWQuests_GetButtonItem(item)
         return nil
     end
     
+    assert(type(item) == "table", "item is of type " .. type(item) .. ", should be a table")
+    
     local hidden, name, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = item.hidden, item.link, item.category, item.expansion, item.buttomImage, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
-
+    if type(name) == "function" then
+        name = name(item)
+    end
+        
     if item.type == "chain" then
         local chain = BtWQuests_Chains[item.id]
-        assert(chain ~= nil)
+        assert(chain ~= nil, "Could not find chain with id " .. tostring(item.id))
+        
+        local chainName = chain.name
+        if type(chainName) == "function" then
+            chainName = chainName(chain)
+        end
         
         if hidden == nil and chain.restrictions and not BtWQuests_CheckRequirements(chain.restrictions) then
             hidden = true
         end
         
-        name = name or chain.name
+        name = name or chainName
         category = category or chain.category
         expansion = expansion or chain.expansion
         buttonImage = buttonImage or chain.buttonImage
@@ -238,7 +248,7 @@ local function BtWQuests_GetButtonItem(item)
         end
         
         userdata.name = userdata.name or name
-        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, chain.name)
+        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, chainName)
     elseif item.type == "category" then
         local chain = BtWQuests_Categories[item.id]
         assert(chain ~= nil)
@@ -414,9 +424,14 @@ function BtWQuests_GetChainByID(chainID)
             _, completed = BtWQuests_RequirementDetails(chain.completed)
         end
     end
+
+    name = chain.name
+    if type(name) == "function" then
+        name = name(chain, UnitFactionGroup("player"), select(3, UnitClass("player")), UnitLevel("player"))
+    end
     
-    local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, chain.name)
-    return chainID, chain.name, link, chain.expansion, chain.category, chain.buttonImage, chain.requirements and #chain.requirements or 0, completed, chain.items and #chain.items or 0, chain.faction, chain.class and {chain.class} or chain.classes
+    local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, name)
+    return chainID, name, link, chain.expansion, chain.category, chain.buttonImage, chain.requirements and #chain.requirements or 0, completed, chain.items and #chain.items or 0, chain.faction, chain.class and {chain.class} or chain.classes
 end
 
 function BtWQuests_GetChainByIndex(index)
@@ -573,13 +588,15 @@ function BtWQuests_GetFullChainItemByIndex(index)
     
         if item.type == "quest" then
             local quest = BtWQuests_Quests[item.id]
-        
-            if quest.restrictions and not BtWQuests_CheckRequirements(quest.restrictions) then
-                return nil
-            end
             
             if not quest then
                 quest = {name = 'Unnamed'}
+            end
+            
+            assert(type(quest) == "table", "Error finding quest with id " .. tostring(item.id))
+        
+            if quest.restrictions and not BtWQuests_CheckRequirements(quest.restrictions) then
+                return nil
             end
             
             name = name or quest.name
@@ -663,28 +680,28 @@ function BtWQuests_GetFullChainItemByIndex(index)
             end
             
             userdata.link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, chain.name)
-        -- elseif item.type == "reputation" then
-            -- local name, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
-            -- local gender = UnitSex("player")
-            -- local standingText = getglobal("FACTION_STANDING_LABEL" .. item.standing .. (gender == 3 and "_FEMALE" or ""))
+        elseif item.type == "reputation" then
+            local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
+            local gender = UnitSex("player")
+            local standingText = getglobal("FACTION_STANDING_LABEL" .. item.standing .. (gender == 3 and "_FEMALE" or ""))
             
-            -- local completed
-            -- if item.amount ~= nil then
-                -- completed = standing > item.standing or (standing == item.standing and value - barMin >= item.amount)
-                -- item.name = string.format(item.name or BTWQUESTS_REPUTATION_AMOUNT_STANDING, item.amount, standingText, name)
-            -- else
-                -- completed = standing >= item.standing
-                -- item.name = string.format(item.name or BTWQUESTS_REPUTATION_STANDING, standingText, name)
-            -- end
+            local completed
+            if item.amount ~= nil then
+                completed = standing > item.standing or (standing == item.standing and value - barMin >= item.amount)
+                name = string.format(name or BTWQUESTS_REPUTATION_AMOUNT_STANDING, item.amount, standingText, factionName)
+            else
+                completed = standing >= item.standing
+                name = string.format(name or BTWQUESTS_REPUTATION_STANDING, standingText, factionName)
+            end
             
-            -- item.status = completed and "completed" or "active"
-        -- elseif item.type == "level" then
-            -- item.name = string.format(item.name or BTWQUESTS_LEVEL_TO, item.level)
-            -- local completed = UnitLevel("player") >= item.level
+            status = completed and "complete" or "active"
+        elseif item.type == "level" then
+            name = string.format(name or BTWQUESTS_LEVEL_TO, item.level)
+            local completed = UnitLevel("player") >= item.level
             
-            -- item.status = completed and "completed" or "active"
+            status = completed and "complete" or "active"
         elseif item.type ~= nil then
-            assert(false, "Invalid item type: " .. item.type)
+            assert(false, "Invalid item type: " .. tostring(item.type))
         end
         
         return name, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
@@ -702,7 +719,7 @@ function BtWQuests_GetChainItemByIndex(index)
         local item = BtWQuests_Chains[chainID].items[index]
         
         if item then
-            return item.type, item.name, item.x, item.y, item.atlas, item.optional, item.faction, item.class and {item.class} or item.classes
+            return item.type, item.name, item.x, item.y, item.atlas, item.optional, item.faction, item.class and {item.class} or item.classes, item.dontScroll
         end
     end
 end
@@ -868,8 +885,6 @@ function BtWQuests_ListCategories()
 	BtWQuests.Chain:Hide();
 	questSelect:Show();
     
-    -- local playerFaction, playerClass = UnitFactionGroup("player"), select(3, UnitClass("player"))
-    
 	local scrollFrame = questSelect.scroll.child;
     
 	local i = 1;
@@ -890,6 +905,7 @@ function BtWQuests_ListCategories()
 
             categoryButton.name:SetText(name);
             categoryButton.bgImage:SetTexture(buttonImage);
+            
             categoryButton.id = id;
             categoryButton.userdata = userdata;
             categoryButton:SetScript("OnClick", onClick)
@@ -914,7 +930,7 @@ function BtWQuests_ListCategories()
     end
 end
 
-function BtWQuests_DisplayChain()
+function BtWQuests_DisplayChain(dontScroll)
 	local chain = BtWQuests.Chain;
     
 	BtWQuests.QuestSelect:Hide();
@@ -944,6 +960,7 @@ function BtWQuests_DisplayChain()
                 itemButton.backgroundLinePool:ReleaseAll();
             end
         else
+            itemButton.ForgottenAnim:Stop()
             itemButton.name:SetAlpha(1)
             
             if ( tagID ) then
@@ -1046,37 +1063,32 @@ function BtWQuests_DisplayChain()
                 if connectionItem and connectionItem:IsShown() then
                     local lineContainer = itemButton.backgroundLinePool:Acquire();
                     
-                    lineContainer.Default:SetVertexColor(0.96470373868942, 0, 0.99999779462814);
-                    lineContainer.Default:SetStartPoint("CENTER", itemButton);
-                    lineContainer.Default:SetEndPoint("CENTER", connectionItem);
+                    lineContainer.Background:SetStartPoint("CENTER", itemButton);
+                    lineContainer.Background:SetEndPoint("CENTER", connectionItem);
                     
-                    lineContainer.Incomplete:SetStartPoint("CENTER", itemButton);
-                    lineContainer.Incomplete:SetEndPoint("CENTER", connectionItem);
+                    lineContainer.Active:SetStartPoint("CENTER", itemButton);
+                    lineContainer.Active:SetEndPoint("CENTER", connectionItem);
                     
                     lineContainer.Complete:SetStartPoint("CENTER", itemButton);
                     lineContainer.Complete:SetEndPoint("CENTER", connectionItem);
                     
                     lineContainer:SetAlpha(1)
-                            
-                    if itemButton.status == "iscompletable" or itemButton.status == "complete" then
-                        if itemButton.status == "forgotten" then
-                            lineContainer:SetAlpha(0.5)
-                        end
-                        lineContainer.Incomplete:Hide()
-                        lineContainer.Complete:Show()
-                        lineContainer.Default:Hide()
-                    elseif itemButton.status == "incomplete" or itemButton.status == "active" then
-                        lineContainer.Incomplete:Show()
-                        lineContainer.Complete:Hide()
-                        lineContainer.Default:Hide()
-                    else
-                        if itemButton.status == "forgotten" then
-                            lineContainer:SetAlpha(0.5)
-                        end
+                    
+                    lineContainer.PulseAlpha:Stop()
                         
-                        lineContainer.Incomplete:Hide()
-                        lineContainer.Complete:Hide()
-                        lineContainer.Default:Show()
+                    lineContainer.Active:Hide()
+                    lineContainer.Complete:Hide()
+                    
+                    if itemButton.status == "forgotten" then
+                        lineContainer.Complete:Show()
+                        lineContainer:SetAlpha(0.5)
+                    elseif itemButton.status == "complete" then
+                        lineContainer.Complete:Show()
+                    elseif itemButton.status == "active" then
+                        lineContainer.Active:Show()
+                    elseif itemButton.status == "iscompletable" then
+                        lineContainer.Active:Show()
+                        lineContainer.PulseAlpha:Play()
                     end
                     
                     lineContainer:Show();
@@ -1113,16 +1125,18 @@ function BtWQuests_DisplayChain()
     
     scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     
-    if scrollToButton == nil then
-        scrollToButton = scrollToButtonOptional
+    if not dontScroll then
+        if scrollToButton == nil then
+            scrollToButton = scrollToButtonOptional
+        end
+        
+        if scrollToButton == nil then
+            scrollToButton = scrollFrame["item1"]
+        end
+        
+        chain.scroll:UpdateScrollChildRect()
+        chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
     end
-    
-    if scrollToButton == nil then
-        scrollToButton = scrollFrame["item1"]
-    end
-    
-    chain.scroll:UpdateScrollChildRect()
-    chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
 end
 
 
@@ -1138,6 +1152,7 @@ function BtWQuests_UpdateChain(scroll)
         local _, _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
         for index = numItems,1,-1 do
             local _, _, _, _, breadcrumb, optional, faction, classes, _, _, status, _, _, _, _ = BtWQuests_GetFullChainItemByIndex(index)
+
             local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
 			local itemButton = scrollFrame["item"..index];
@@ -1194,12 +1209,47 @@ function BtWQuests_UpdateChain(scroll)
                 end
                 
                 if itemButton.newStatus ~= itemButton.status then
-                    if itemButton.newStatus == 'active' then
-                        itemButton.ActiveTexture:Show()
-                        
+                    if itemButton.status == 'iscompletable' then
                         for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                            frame:SetAlpha(1)
-                            frame.DefaultToIncompleteAnim:Play()
+                            frame.PulseAlpha:Stop()
+                        end
+                    end
+                    
+                    if itemButton.newStatus == 'forgotten' then
+                        if itemButton.status == 'active' or itemButton.status == 'iscompletable' then
+                            itemButton.ActiveTexture:Hide()
+                            
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(0.5)
+                                
+                                frame.ActiveToCompleteAnim:Play()
+                            end
+                        elseif itemButton.status == 'complete' then
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(0.5)
+                            end
+                        else
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(0.5)
+                                
+                                frame.DefaultToCompleteAnim:Play()
+                            end
+                        end
+                    elseif itemButton.newStatus == 'complete' then
+                        if itemButton.status == 'active' or itemButton.status == 'iscompletable' then
+                            itemButton.ActiveTexture:Hide()
+                            
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(1)
+                                
+                                frame.ActiveToCompleteAnim:Play()
+                            end
+                        else
+                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                frame:SetAlpha(1)
+                                
+                                frame.DefaultToCompleteAnim:Play()
+                            end
                         end
                     elseif itemButton.newStatus == 'iscompletable' then
                         itemButton.ActiveTexture:Show()
@@ -1207,49 +1257,21 @@ function BtWQuests_UpdateChain(scroll)
                         if itemButton.status == 'active' then
                             for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
                                 frame:SetAlpha(1)
-                                frame.IncompleteToCompleteAnim:Play()
+                                frame.PulseAlpha:Play()
                             end
                         else
                             for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
                                 frame:SetAlpha(1)
-                                frame.DefaultToCompleteAnim:Play()
+                                frame.DefaultToActiveAnim:Play()
+                                frame.PulseAlpha:Play()
                             end
                         end
-                    elseif itemButton.newStatus == 'complete' then
-                        if itemButton.status == 'active' then
-                            itemButton.ActiveTexture:Hide()
-                            
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(1)
-                                
-                                frame.IncompleteToCompleteAnim:Play()
-                            end
-                        elseif itemButton.status == 'iscompletable' then
-                            itemButton.ActiveTexture:Hide()
-                        else
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(1)
-                                
-                                frame.DefaultToCompleteAnim:Play()
-                            end
-                        end
-                    elseif itemButton.newStatus == 'forgotten' then
-                        if itemButton.status == 'active' then
-                            itemButton.ActiveTexture:Hide()
-                            
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(0.5)
-                                
-                                frame.IncompleteToDefaultAnim:Play()
-                            end
-                        elseif itemButton.status == 'iscompletable' or itemButton.status == 'complete' then
-                            itemButton.ActiveTexture:Hide()
-                            
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(0.5)
-                                
-                                frame.CompleteToDefaultAnim:Play()
-                            end
+                    elseif itemButton.newStatus == 'active' then
+                        itemButton.ActiveTexture:Show()
+                        
+                        for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                            frame:SetAlpha(1)
+                            frame.DefaultToActiveAnim:Play()
                         end
                     end
                 end
@@ -1754,7 +1776,7 @@ end
 
 local original_InsertLink = ChatEdit_InsertLink
 function ChatEdit_InsertLink(link)
-	if link:find("^|c[^|]+|Hbtwquests") then
+	if link and link:find("^|c[^|]+|Hbtwquests") then
         local color, text, name = link:match("^|c([^|]+)|H([^|]+)|h%[([^%]]+)%]|h|r");
         link = format("[%s:%s:%s]", text, color, name)
     end
