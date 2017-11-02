@@ -1176,7 +1176,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43581,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 4,
                 connections = {
@@ -1624,7 +1624,7 @@ BtWQuests_Chains = {
                 id = 37858,
                 x = 3,
                 y = 6,
-                optional = true,
+                breadcrumb = true,
                 connections = {
                     2
                 }, 
@@ -1772,7 +1772,7 @@ BtWQuests_Chains = {
                 id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
                 x = 3,
                 y = 0,
-                optional = true,
+                breadcrumb = true,
                 connections = {
                     1
                 }, 
@@ -3441,7 +3441,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43811,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 3,
             },
@@ -3831,7 +3831,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41878,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 4,
                 connections = {
@@ -3841,14 +3841,14 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40727,
-                optional = true,
+                aside = true,
                 x = 2,
                 y = 5,
             },
             {
                 type = "quest",
                 id = 40730,
-                optional = true,
+                aside = true,
                 x = 0,
                 y = 5,
             },
@@ -3891,7 +3891,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44051,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 8,
             },
@@ -4204,7 +4204,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43813,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 5,
             },
@@ -4590,9 +4590,9 @@ BtWQuests_Chains = {
         range = {110},
         items = {
             {
-                type = "dummy",
                 name = "Kill Nightborne",
-                optional = true,
+                breadcrumb = true,
+                aside = true,
                 x = 1,
                 y = 0,
                 connections = {
@@ -4602,13 +4602,13 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41030,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 1,
             },
             {
-                type = "dummy",
                 name = "Go to Lyrea Windfeather",
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -4625,8 +4625,8 @@ BtWQuests_Chains = {
                 },
             },
             {
-                type = "dummy",
                 name = "Go to Ivanel Meadowsong",
+                breadcrumb = true,
                 x = 5,
                 y = 0,
                 connections = {
@@ -4663,7 +4663,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40968,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 3,
                 connections = {
@@ -4673,7 +4673,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41109,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 4,
                 connections = {
@@ -4683,7 +4683,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41108,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 5,
             },
@@ -4744,7 +4744,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43808,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 9,
             },
@@ -4773,8 +4773,8 @@ BtWQuests_Chains = {
         range = {110},
         items = {
             {
-                type = "dummy",
                 name = "Go to Thaedris Feathersong",
+                breadcrumb = true,
                 onClick = function ()
                     if TomTom and TomTom.AddMFWaypoint then
                         TomTom:AddMFWaypoint(1033, 0, 0.456, 0.408, {
@@ -4809,7 +4809,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40308,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 2,
             },
@@ -4861,6 +4861,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43809,
+                aside = true,
                 x = 1,
                 y = 6,
             },
@@ -4907,9 +4908,9 @@ BtWQuests_Chains = {
                 },
             },
             {
-                type = "dummy",
                 name = "Kill the Starving Ettin",
-                optional = true,
+                breadcrumb = true,
+                aside = true,
                 x = 1,
                 y = 1,
                 connections = {
@@ -4919,7 +4920,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41462,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 2,
             },
@@ -4942,8 +4943,8 @@ BtWQuests_Chains = {
                 },
             },
             {
-                type = "dummy",
                 name = "Return to Irongrove Retreat",
+                breadcrumb = true,
                 x = 3,
                 y = 3,
                 connections = {
@@ -4953,7 +4954,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41463,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 1,
                 connections = {
@@ -4963,7 +4964,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41464,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 2,
                 connections = {
@@ -4973,7 +4974,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41467,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 3,
             },
@@ -5061,7 +5062,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 42223,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 10,
                 connections = {
@@ -5096,8 +5097,8 @@ BtWQuests_Chains = {
                 },
             },
             {
-                type = "dummy",
                 name = "Go to Nighteyes",
+                breadcrumb = true,
                 onClick = function ()
                     if TomTom and TomTom.AddMFWaypoint then
                         TomTom:AddMFWaypoint(1033, 0, 0.506, 0.565, {
@@ -5230,7 +5231,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41425,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 7,
                 connections = {
@@ -5240,14 +5241,14 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41001,
-                optional = true,
+                aside = true,
                 x = 0,
                 y = 6,
             },
             {
                 type = "quest",
                 id = 41499,
-                optional = true,
+                aside = true,
                 x = 0,
                 y = 8,
             },
@@ -5257,7 +5258,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41606,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 7,
                 connections = {
@@ -5267,14 +5268,14 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40364,
-                optional = true,
+                aside = true,
                 x = 6,
                 y = 6,
             },
             {
                 type = "quest",
                 id = 41618,
-                optional = true,
+                aside = true,
                 x = 6,
                 y = 8,
             },
@@ -5283,7 +5284,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41410,
-                optional = true,
+                aside = true,
                 x = 2,
                 y = 6,
                 connections = {
@@ -5293,7 +5294,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41409,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 5,
             },
@@ -5737,7 +5738,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41916,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 4,
             },
@@ -5804,7 +5805,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44870,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 1.25,
             },
@@ -6213,7 +6214,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45417,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 4,
                 connections = {
@@ -6223,7 +6224,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45372,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 5,
             },
@@ -6286,7 +6287,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 4,
             },
@@ -6549,7 +6550,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -6610,7 +6611,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45379,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 7,
             },
@@ -6635,7 +6636,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -6966,7 +6967,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47287,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 26,
             },
@@ -7000,7 +7001,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 48201,
-                optional = true,
+                breadcrumb = true,
                 x = 2,
                 y = 30,
                 connections = {
@@ -7010,7 +7011,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 48202,
-                optional = true,
+                breadcrumb = true,
                 x = 4,
                 y = 30,
                 connections = {
@@ -7770,7 +7771,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-                optional = true,
+                breadcrumb = true,
                 x = 1,
                 y = 2,
                 connections = {
@@ -7780,7 +7781,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 2,
                 connections = {
@@ -7790,7 +7791,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-                optional = true,
+                breadcrumb = true,
                 x = 5,
                 y = 2,
                 connections = {
@@ -7839,7 +7840,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
                 -- name = GetMapNameByID(1015),
-                -- optional = true,
+                -- aside = true,
                 -- x = 1,
                 -- y = 5.5,
             -- },
@@ -7847,7 +7848,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
                 -- name = GetMapNameByID(1018),
-                -- optional = true,
+                -- aside = true,
                 -- x = 1,
                 -- y = 6.5
             -- },
@@ -7855,7 +7856,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
                 -- name = GetMapNameByID(1024),
-                -- optional = true,
+                -- aside = true,
                 -- x = 5,
                 -- y = 5.5,
             -- },
@@ -7863,7 +7864,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
                 -- name = GetMapNameByID(1017),
-                -- optional = true,
+                -- aside = true,
                 -- x = 5,
                 -- y = 6.5,
             -- },
@@ -8107,7 +8108,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44217,
-                optional = true,
+                aside = true,
                 x = 6,
                 y = 25,
             },
@@ -8279,7 +8280,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -8399,7 +8400,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 10,
             },
@@ -8613,7 +8614,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
-                optional = true,
+                breadcrumb = true,
                 x = 2,
                 y = 2,
                 connections = {
@@ -8623,7 +8624,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
-                optional = true,
+                breadcrumb = true,
                 x = 4,
                 y = 2,
                 connections = {
@@ -10898,7 +10899,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
-                optional = true,
+                breadcrumb = true,
                 x = 1,
                 y = 3,
                 connections = {
@@ -10908,7 +10909,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 3,
                 connections = {
@@ -10918,7 +10919,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
-                optional = true,
+                breadcrumb = true,
                 x = 5,
                 y = 3,
                 connections = {
@@ -10979,7 +10980,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
                 -- name = GetMapNameByID(1015),
-                -- optional = true,
+                -- aside = true,
                 -- x = 1,
                 -- y = 7.5,
             -- },
@@ -10987,7 +10988,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
                 -- name = GetMapNameByID(1018),
-                -- optional = true,
+                -- aside = true,
                 -- x = 1,
                 -- y = 8.5
             -- },
@@ -10995,7 +10996,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
                 -- name = GetMapNameByID(1024),
-                -- optional = true,
+                -- aside = true,
                 -- x = 5,
                 -- y = 7.5,
             -- },
@@ -11003,7 +11004,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
                 -- name = GetMapNameByID(1017),
-                -- optional = true,
+                -- aside = true,
                 -- x = 5,
                 -- y = 8.5,
             -- },
@@ -11453,7 +11454,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -11759,7 +11760,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 11,
             },
@@ -12489,7 +12490,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -12549,7 +12550,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12564,7 +12565,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12581,7 +12582,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 4,
                 y = 5,
@@ -12598,7 +12599,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_HUNTER,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12613,7 +12614,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_HUNTER,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12630,7 +12631,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_ROGUE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12645,7 +12646,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_ROGUE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12662,7 +12663,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARRIOR,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12677,7 +12678,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARRIOR,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12841,7 +12842,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -12901,7 +12902,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PALADIN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12916,7 +12917,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PALADIN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12933,7 +12934,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MAGE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12948,7 +12949,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MAGE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12965,7 +12966,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_SHAMAN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12980,7 +12981,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_SHAMAN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12997,7 +12998,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_ROGUE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13012,7 +13013,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_ROGUE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13029,7 +13030,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARLOCK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13044,7 +13045,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARLOCK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13227,7 +13228,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -13288,7 +13289,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13303,7 +13304,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13320,7 +13321,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 2,
                 y = 5,
@@ -13337,7 +13338,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 0,
                 y = 5,
@@ -13352,7 +13353,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 2,
                 y = 5,
@@ -13367,7 +13368,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 6,
                 y = 5,
@@ -13384,7 +13385,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PALADIN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13399,7 +13400,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PALADIN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13416,7 +13417,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MONK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13431,7 +13432,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MONK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13448,7 +13449,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARRIOR,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13463,7 +13464,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARRIOR,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13642,7 +13643,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -13702,7 +13703,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 0,
                 y = 5,
@@ -13717,7 +13718,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 2,
                 y = 5,
@@ -13732,7 +13733,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 4,
                 y = 5,
@@ -13749,7 +13750,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PALADIN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13764,7 +13765,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PALADIN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13781,7 +13782,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PRIEST,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13796,7 +13797,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PRIEST,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13813,7 +13814,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MONK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13828,7 +13829,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MONK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13845,7 +13846,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_SHAMAN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13860,7 +13861,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_SHAMAN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -14041,7 +14042,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -14100,7 +14101,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_HUNTER,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -14115,7 +14116,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_HUNTER,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -14132,7 +14133,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PRIEST,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -14147,7 +14148,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PRIEST,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -14164,7 +14165,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MONK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -14179,7 +14180,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MONK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -14196,7 +14197,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARLOCK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -14211,7 +14212,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARLOCK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -14379,7 +14380,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -14440,7 +14441,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -14455,7 +14456,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -14472,7 +14473,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 0,
                 y = 5,
@@ -14487,7 +14488,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 4,
                 y = 5,
@@ -14502,7 +14503,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 6,
                 y = 5,
@@ -14519,7 +14520,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_ROGUE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -14534,7 +14535,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_ROGUE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -14551,7 +14552,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_SHAMAN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -14566,7 +14567,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_SHAMAN,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -14583,7 +14584,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MAGE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -14598,7 +14599,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MAGE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -14615,7 +14616,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARRIOR,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -14630,7 +14631,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARRIOR,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -14827,7 +14828,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -14887,7 +14888,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 2,
                 y = 5,
@@ -14902,7 +14903,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 4,
                 y = 5,
@@ -14917,7 +14918,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_DRUID,
                     },
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 6,
                 y = 5,
@@ -14934,7 +14935,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_HUNTER,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -14949,7 +14950,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_HUNTER,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -14966,7 +14967,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PRIEST,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -14981,7 +14982,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PRIEST,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -14998,7 +14999,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MAGE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -15013,7 +15014,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_MAGE,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -15030,7 +15031,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARLOCK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -15045,7 +15046,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_WARLOCK,
                     }
                 },
-                optional = true,
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -16733,6 +16734,10 @@ BtWQuests_Quests = {
     
     
     
+	[41215] = {
+		["name"] = "They Become The Hunted",
+		["level"] = 110,
+	},
     [42223] = {
         name = "Scouting the Crimson Thicket",
         level = 110,

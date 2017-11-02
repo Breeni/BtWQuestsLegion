@@ -453,8 +453,8 @@ function BtWQuests_GetQuestByID(questID)
     local link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(questID), quest.level or -1, questName)
     return tonumber(questID), questName, (quest.link or link), quest.difficulty, quest.tagID
 end
-
--- hidden, name, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata
+-- side
+-- hidden, name, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata
 function BtWQuests_GetChainItemByIndex(index)
     local chainID = BtWQuests_GetCurrentChain()
     if chainID == nil then
@@ -470,7 +470,7 @@ function BtWQuests_GetChainItemByIndex(index)
         assert(item.class == nil, string.format("Item %d in chain %d has a class set", index, chainID))
         assert(item.faction == nil, string.format("Item %d in chain %d has a faction set", index, chainID))
         
-        local hidden, name, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata = item.hidden, item.name, item.x, item.y, item.atlas, item.breadcrumb, item.optional, item.difficulty, item.tagID, item.status, item.dontScroll, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
+        local hidden, name, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata = item.hidden, item.name, item.x, item.y, item.atlas, item.breadcrumb, item.aside, item.difficulty, item.tagID, item.status, item.dontScroll, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
     
         if hidden == nil and item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
             hidden = true
@@ -610,7 +610,7 @@ function BtWQuests_GetChainItemByIndex(index)
             assert(false, "Invalid item type: " .. tostring(item.type))
         end
         
-        return name, hidden, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata
+        return name, hidden, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata
     end
 end
 
@@ -816,11 +816,11 @@ function BtWQuests_DisplayChain(dontScroll)
 	chain:Show();
     
     local scrollFrame = chain.scroll.child;
-    local scrollToButton, scrollToButtonOptional
+    local scrollToButton, scrollToButtonAside
     
     local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
     for index = numItems, 1, -1 do
-        local name, hidden, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, itemDontScroll, onClick, onEnter, onLeave, userdata = BtWQuests_GetChainItemByIndex(index)
+        local name, hidden, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, itemDontScroll, onClick, onEnter, onLeave, userdata = BtWQuests_GetChainItemByIndex(index)
         local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
         local itemButton = scrollFrame["item"..index];
@@ -868,11 +868,11 @@ function BtWQuests_DisplayChain(dontScroll)
             itemButton:SetScript("OnClick", onClick)
             itemButton:SetScript("OnEnter", onEnter)
             itemButton:SetScript("OnLeave", onLeave)
-            itemButton.optional = optional
+            itemButton.aside = aside
             itemButton.breadcrumb = breadcrumb
             itemButton.dontScroll = itemDontScroll
             
-            if optional and #connections > 0 and itemButton.status ~= 'complete' then
+            if breadcrumb and #connections > 0 and itemButton.status ~= 'complete' then
                 local isCompleted = false
                 for j=1,#connections do
                     local connection = index + connections[j]
@@ -891,15 +891,14 @@ function BtWQuests_DisplayChain(dontScroll)
             end
             
             if itemButton.status ~= "complete" then
-                if optional then
-                    scrollToButtonOptional = itemButton
+                if aside then
+                    scrollToButtonAside = itemButton
                 else
                     scrollToButton = itemButton
                 end
             end
             
-            local forget = itemButton.status == "complete" -- or (optional and #connections > 0)
-            
+            local forget = itemButton.status == "complete"
             if forget then
                 for j=1,#connections do
                     local connection = index + connections[j]
@@ -1005,7 +1004,7 @@ function BtWQuests_DisplayChain(dontScroll)
     
     if not dontScroll then
         if scrollToButton == nil then
-            scrollToButton = scrollToButtonOptional
+            scrollToButton = scrollToButtonAside
         end
         
         if scrollToButton == nil then
@@ -1023,11 +1022,11 @@ function BtWQuests_UpdateChain(scroll)
     
     if chain:IsShown() then
         local scrollFrame = chain.scroll.child;
-        local scrollToButton, scrollToButtonOptional
+        local scrollToButton, scrollToButtonAside
         
         local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
         for index = numItems,1,-1 do
-            local _, hidden, _, _, _, breadcrumb, optional, _, _, status, _, _, _, _ = BtWQuests_GetChainItemByIndex(index)
+            local _, hidden, _, _, _, breadcrumb, aside, _, _, status, _, _, _, _ = BtWQuests_GetChainItemByIndex(index)
             local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
 			local itemButton = scrollFrame["item"..index];
@@ -1035,7 +1034,7 @@ function BtWQuests_UpdateChain(scroll)
             if not hidden then
                 itemButton.newStatus = status
             
-                if optional and #connections > 0 and itemButton.newStatus ~= 'complete' then
+                if breadcrumb and #connections > 0 and itemButton.newStatus ~= 'complete' then
                     local isCompleted = false
                     for j=1,#connections do
                         local connection = index + connections[j]
@@ -1054,14 +1053,14 @@ function BtWQuests_UpdateChain(scroll)
                 end
                 
                 if itemButton.newStatus ~= "complete" then
-                    if optional then
-                        scrollToButtonOptional = itemButton
+                    if aside then
+                        scrollToButtonAside = itemButton
                     else
                         scrollToButton = itemButton
                     end
                 end
             
-                local forget = itemButton.newStatus == "complete"-- or (itemButton.optional and #connections > 0)
+                local forget = itemButton.newStatus == "complete"
                 if forget then
                     for j=1,#connections do
                         local connection = index + connections[j]
@@ -1161,7 +1160,7 @@ function BtWQuests_UpdateChain(scroll)
         
         if scroll then
             if scrollToButton == nil then
-                scrollToButton = scrollToButtonOptional
+                scrollToButton = scrollToButtonAside
             end
             
             if scrollToButton == nil then
