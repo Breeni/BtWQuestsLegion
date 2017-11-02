@@ -15233,8 +15233,72 @@ BtWQuests_Chains = {
         range = {100, 110},
         items = {
             {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
+                breadcrumb = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                x = 3,
+                y = -1,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 42866,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44257,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                x = 3,
+                y = 1,
+                connections = {
+                    2,
+                }
+            },
+            {
                 type = "quest",
                 id = 44009,
+                restrictions = {
+                    {
+                        type = "classes",
+                        classes = {
+                            BTWQUESTS_CLASS_ID_WARRIOR,
+                            BTWQUESTS_CLASS_ID_HUNTER,
+                            BTWQUESTS_CLASS_ID_ROGUE,
+                            BTWQUESTS_CLASS_ID_PRIEST,
+                            BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                            BTWQUESTS_CLASS_ID_SHAMAN,
+                            BTWQUESTS_CLASS_ID_MAGE,
+                            BTWQUESTS_CLASS_ID_WARLOCK,
+                            BTWQUESTS_CLASS_ID_MONK,
+                            BTWQUESTS_CLASS_ID_DRUID,
+                            BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                        },
+                    },
+                },
                 x = 3,
                 y = 1,
                 connections = {
@@ -15263,8 +15327,21 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 3,
                 connections = {
-                    2,
+                    1, 3,
                 }
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
+                aside = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                x = 3,
+                y = 4,
             },
             
             
@@ -18351,6 +18428,10 @@ BtWQuests_Quests = {
     },
     [42384] = {
         name = "Scouting Reports",
+        level = -1,
+    },
+    [44257] = {
+        name = "A Falling Star",
         level = -1,
     },
     [44009] = {

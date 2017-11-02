@@ -1013,7 +1013,12 @@ function BtWQuests_DisplayChain(dontScroll)
         end
         
         if scrollToButton == nil then
-            scrollToButton = scrollFrame["item1"]
+            temp = 1
+            while scrollFrame["item"..temp] and not scrollFrame["item"..temp]:IsShown() do
+                temp = temp + 1
+            end
+            
+            scrollToButton = scrollFrame["item"..temp]
         end
         
         chain.scroll:UpdateScrollChildRect()
