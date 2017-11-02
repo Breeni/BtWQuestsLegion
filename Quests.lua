@@ -239,10 +239,10 @@ BtWQuests_Expansions = {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
         -- },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        },
         -- {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
@@ -648,9 +648,18 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST] = {
@@ -15340,7 +15349,7 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PALADIN,
                     },
                 },
-                x = 3,
+                x = 1,
                 y = 4,
             },
             
