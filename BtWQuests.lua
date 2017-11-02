@@ -134,12 +134,7 @@ local function BtWQuests_CheckRequirement(item)
         end
     elseif item.type == "chain" then
         if BtWQuests_Chains[item.id].completed[1] ~= nil then
-            local item = BtWQuests_FindValidItem(BtWQuests_Chains[item.id].completed)
-            if item == nil then
-                return false
-            end
-            
-            return BtWQuests_CheckRequirement(item)
+            return BtWQuests_CheckRequirements(BtWQuests_Chains[item.id].completed)
         else
             return BtWQuests_CheckRequirement(BtWQuests_Chains[item.id].completed)
         end
@@ -149,6 +144,10 @@ local function BtWQuests_CheckRequirement(item)
         return item.class == select(3, UnitClass("player"))
     elseif item.type == "classes" then
         return ArrayContains(item.classes, select(3, UnitClass("player")))
+    elseif item.type == "level" then
+        return UnitLevel("player") >= item.level
+    elseif item.type == "achievement" then
+        return select(13, GetAchievementInfo(item.id))
     else
         assert(false, "Invalid item type: " .. item.type)
     end
@@ -187,9 +186,36 @@ local function BtWQuests_GetItemName(item)
         return BtWQuests_GetItemName(BtWQuests_Quests[item.id])
     elseif item.type == "chain" then
         return BtWQuests_GetItemName(BtWQuests_Chains[item.id])
+    elseif item.type == "level" then
+        return string.format(BTWQUESTS_LEVEL_TO, item.level)
     else
         assert(false, "Invalid item type: " .. item.type)
     end
+end
+
+local function BtWQuests_GetItemHidden(item)
+    if item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
+        return true
+    end
+
+    if item.type == "quest" then
+        return BtWQuests_GetItemHidden(BtWQuests_Quests[item.id])
+    elseif item.type == "chain" then
+        return BtWQuests_GetItemHidden(BtWQuests_Chains[item.id])
+    else
+        return false
+    end
+end
+
+local BtWQuests_GetItemCompleted = BtWQuests_CheckRequirement
+
+--- Get the correct data for a Category or Chain Button
+-- @param item
+-- @return name
+-- @return hidden
+-- @return completed
+local function BtWQuests_GetItem(item)
+    return BtWQuests_GetItemName(item), BtWQuests_GetItemHidden(item), BtWQuests_GetItemCompleted(item)
 end
 
 --- Get the correct data for a Category or Chain Button
@@ -367,6 +393,20 @@ function BtWQuests_IsChainCompleted(questID)
     return completed
 end
 
+function BtWQuests_GetChainPrerequisiteByID(chainID, index)
+    if not chainID then
+        return nil
+    end
+    
+    local chain = BtWQuests_Chains[chainID]
+    assert(type(chain) == "table", "Error finding chain with id " .. tostring(chainID))
+    
+    local prerequisite = chain.prerequisites[index]
+    assert(type(prerequisite) == "table")
+    
+    return BtWQuests_GetItem(prerequisite)
+end
+
 -- local chainID, name, link, expansion, category, buttonImage, numPrerequisites, numItems
 function BtWQuests_GetChainByID(chainID)
     if not chainID then
@@ -414,7 +454,7 @@ function BtWQuests_GetQuestByID(questID)
     return tonumber(questID), questName, (quest.link or link), quest.difficulty, quest.tagID
 end
 
--- hidden, name, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
+-- hidden, name, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata
 function BtWQuests_GetChainItemByIndex(index)
     local chainID = BtWQuests_GetCurrentChain()
     if chainID == nil then
@@ -427,12 +467,19 @@ function BtWQuests_GetChainItemByIndex(index)
             return nil
         end
         
-        local hidden, name, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = item.hidden, item.name, item.x, item.y, item.atlas, item.breadcrumb, item.optional, item.difficulty, item.tagID, item.status, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
+        assert(item.class == nil, string.format("Item %d in chain %d has a class set", index, chainID))
+        assert(item.faction == nil, string.format("Item %d in chain %d has a faction set", index, chainID))
+        
+        local hidden, name, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata = item.hidden, item.name, item.x, item.y, item.atlas, item.breadcrumb, item.optional, item.difficulty, item.tagID, item.status, item.dontScroll, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
     
         if hidden == nil and item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
             hidden = true
         end
         
+        if type(name) == "function" then
+            name = name(item)
+        end
+            
         if item.type == "quest" then
             local quest = BtWQuests_Quests[item.id]
             
@@ -486,6 +533,8 @@ function BtWQuests_GetChainItemByIndex(index)
             userdata.link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, questName)
         elseif item.type == "chain" then
             local chain = BtWQuests_Chains[item.id]
+            
+            assert(type(chain) == "table", "Error finding chain with id " .. tostring(item.id))
         
             local chainName = chain.name
             if type(chainName) == "function" then
@@ -523,7 +572,7 @@ function BtWQuests_GetChainItemByIndex(index)
             end
             
             onClick = onClick or function (self)
-                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link) then
+                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link, self.dontScroll) then
                     BtWQuestsTooltip:Hide();
                 end
             end
@@ -561,7 +610,7 @@ function BtWQuests_GetChainItemByIndex(index)
             assert(false, "Invalid item type: " .. tostring(item.type))
         end
         
-        return name, hidden, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
+        return name, hidden, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata
     end
 end
 
@@ -771,7 +820,7 @@ function BtWQuests_DisplayChain(dontScroll)
     
     local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
     for index = numItems, 1, -1 do
-        local name, hidden, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = BtWQuests_GetChainItemByIndex(index)
+        local name, hidden, x, y, atlas, breadcrumb, optional, difficulty, tagID, status, itemDontScroll, onClick, onEnter, onLeave, userdata = BtWQuests_GetChainItemByIndex(index)
         local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
         local itemButton = scrollFrame["item"..index];
@@ -821,6 +870,7 @@ function BtWQuests_DisplayChain(dontScroll)
             itemButton:SetScript("OnLeave", onLeave)
             itemButton.optional = optional
             itemButton.breadcrumb = breadcrumb
+            itemButton.dontScroll = itemDontScroll
             
             if optional and #connections > 0 and itemButton.status ~= 'complete' then
                 local isCompleted = false
@@ -1301,43 +1351,42 @@ function BtWQuestsTooltip_SetChain(chainID)
         
     tooltip.Description:Hide();
     
-    local actualNumRequirements = 0-- numRequirements
-	-- for i = 1, numRequirements do
-		-- local name, completed, class = BtWQuests_GetChainRequirementByID(chainID, i);
-        
-        -- if class ~= nil and class ~= UnitClass("player") then
-            -- actualNumRequirements = actualNumRequirements - 1
-        -- else
-            -- if ( not tooltip.Lines[i] ) then
-                -- local fontString = tooltip:CreateFontString(nil, "ARTWORK", "GameFontHighlight");
-                -- fontString:SetPoint("TOP", tooltip.Lines[i-1], "BOTTOM", 0, -6);
-                -- tooltip.Lines[i] = fontString;
-            -- end
-            -- if ( completed ) then
-                -- tooltip.Lines[i]:SetText(GREEN_FONT_COLOR_CODE..name..FONT_COLOR_CODE_CLOSE);
-                -- tooltip.Lines[i]:SetPoint("LEFT", 30, 0);
-                -- if ( not tooltip.CheckMarks[i] ) then
-                    -- local texture = tooltip:CreateTexture(nil, "ARTWORK", "GreenCheckMarkTemplate");
-                    -- texture:ClearAllPoints();
-                    -- texture:SetPoint("RIGHT", tooltip.Lines[i], "LEFT", -4, -1);
-                    -- tooltip.CheckMarks[i] = texture;
-                -- end
-                -- tooltip.CheckMarks[i]:Show();
-                -- maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth() + 20);
-            -- else
-                -- tooltip.Lines[i]:SetText(name);
-                -- tooltip.Lines[i]:SetPoint("LEFT", 10, 0);
-                -- if ( tooltip.CheckMarks[i] ) then
-                    -- tooltip.CheckMarks[i]:Hide();
-                -- end
-                -- maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth());
-            -- end
-            -- tooltip.Lines[i]:Show();
-            -- totalHeight = totalHeight + tooltip.Lines[i]:GetHeight() + 6;
-        -- end
-	-- end
+    local actualNumPrerequisites = numPrerequisites
+	for i = 1, numPrerequisites do
+		local name, hidden, completed = BtWQuests_GetChainPrerequisiteByID(chainID, i);
+        if hidden then
+            actualNumPrerequisites = actualNumPrerequisites - 1
+        else
+            if ( not tooltip.Lines[i] ) then
+                local fontString = tooltip:CreateFontString(nil, "ARTWORK", "GameFontHighlight");
+                fontString:SetPoint("TOP", tooltip.Lines[i-1], "BOTTOM", 0, -6);
+                tooltip.Lines[i] = fontString;
+            end
+            if ( completed ) then
+                tooltip.Lines[i]:SetText(GREEN_FONT_COLOR_CODE..name..FONT_COLOR_CODE_CLOSE);
+                tooltip.Lines[i]:SetPoint("LEFT", 30, 0);
+                if ( not tooltip.CheckMarks[i] ) then
+                    local texture = tooltip:CreateTexture(nil, "ARTWORK", "GreenCheckMarkTemplate");
+                    texture:ClearAllPoints();
+                    texture:SetPoint("RIGHT", tooltip.Lines[i], "LEFT", -4, -1);
+                    tooltip.CheckMarks[i] = texture;
+                end
+                tooltip.CheckMarks[i]:Show();
+                maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth() + 20);
+            else
+                tooltip.Lines[i]:SetText(name);
+                tooltip.Lines[i]:SetPoint("LEFT", 10, 0);
+                if ( tooltip.CheckMarks[i] ) then
+                    tooltip.CheckMarks[i]:Hide();
+                end
+                maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth());
+            end
+            tooltip.Lines[i]:Show();
+            totalHeight = totalHeight + tooltip.Lines[i]:GetHeight() + 6;
+        end
+	end
     
-    if actualNumRequirements > 0 then
+    if actualNumPrerequisites > 0 then
         tooltip.ProgressLabel:Show()
         maxWidth = max(maxWidth, tooltip.ProgressLabel:GetWidth());
         totalHeight = totalHeight + tooltip.ProgressLabel:GetHeight() + 10;
