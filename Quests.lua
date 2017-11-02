@@ -1231,6 +1231,9 @@ BtWQuests_Chains = {
                 standing = 7,
                 x = 5.25,
                 y = 7.5,
+                onClick = function (self)
+                    BtWQuests_SelectCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR)
+                end,
                 connections = {
                     1
                 },
