@@ -197,26 +197,80 @@ BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT = 133
 
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
-        BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
-        BTWQUESTS_CATEGORY_LEGION_AZSUNA,
-        BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
+        },
         -- BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
         -- BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
-        BTWQUESTS_CATEGORY_LEGION_SURAMAR,
-        BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
-        BTWQUESTS_CATEGORY_LEGION_ARGUS,
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+        },
     }
 }
 
@@ -225,56 +279,155 @@ BtWQuests_Categories = {
         name = BTWQUESTS_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1411857,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
-            
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
-            
-            BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_ORDERHALL] = {
@@ -285,13 +438,30 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
         name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT,
         },
@@ -299,11 +469,22 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER] = {
         name = LOCALIZED_CLASS_NAMES_MALE["DEMONHUNTER"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGENCE,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_MOUNT,
@@ -312,13 +493,30 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID] = {
         name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DRUID,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DRUID,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT,
@@ -327,12 +525,26 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER] = {
         name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_HUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_HUNTER,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MASKSMANSHIP,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT,
@@ -341,12 +553,26 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE] = {
         name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MAGE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MAGE,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT,
@@ -355,12 +581,26 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK] = {
         name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MONK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MONK,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT,
@@ -369,12 +609,26 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
         name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PALADIN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PALADIN,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT,
@@ -383,12 +637,26 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST] = {
         name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PRIEST,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PRIEST,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT,
@@ -397,12 +665,26 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE] = {
         name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_ROGUE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_ROGUE,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT,
@@ -411,26 +693,57 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN] = {
         name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_SHAMAN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_SHAMAN,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK] = {
         name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARLOCK,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT,
@@ -439,12 +752,26 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR] = {
         name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARRIOR,
+            },
+        },
         -- buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+            },
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT,
@@ -454,69 +781,163 @@ BtWQuests_Categories = {
         name = GetMapNameByID(1015),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1498157,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA,
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS,
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_VALSHARAH] = {
         name = GetMapNameByID(1018),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1452687,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN] = {
         name = GetMapNameByID(1024),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1411854,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_STORMHEIM] = {
         name = GetMapNameByID(1017),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1537284,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_VALOR,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_TO_HELHEIM_AND_BACK,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_CHAMPION_OF_STORMHEIM,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_VALOR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_TO_HELHEIM_AND_BACK,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_CHAMPION_OF_STORMHEIM,
+            },
         }
     },
     [BTWQUESTS_CATEGORY_LEGION_SURAMAR] = {
         name = GetMapNameByID(1033),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1450575,
-        categories = {
-            BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
-            BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
-            BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
-        },
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN] = {
@@ -524,13 +945,31 @@ BtWQuests_Categories = {
         parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1450575,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW,
+            },
         }
     },
     [BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN] = {
@@ -538,18 +977,51 @@ BtWQuests_Categories = {
         parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1450575,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ANCIENT_GIFT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_WANING_CRESCENT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_BLOOD_AND_WINE,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_STATECRAFT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREAKER,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ANCIENT_GIFT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_WANING_CRESCENT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_BLOOD_AND_WINE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_STATECRAFT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREAKER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL,
+            },
         }
     },
     [BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION] = {
@@ -557,35 +1029,77 @@ BtWQuests_Categories = {
         parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1450575,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_LOCKDOWN,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_MISSING_PERSONS,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_WAXING_CRESCENT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ELVEN_PROBLEM,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_CRAFTING_WAR,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_MARCH_ON_SURAMAR,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_LOCKDOWN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MISSING_PERSONS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_WAXING_CRESCENT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ELVEN_PROBLEM,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CRAFTING_WAR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MARCH_ON_SURAMAR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD,
+            },
         }
     },
     [BTWQUESTS_CATEGORY_LEGION_BROKENSHORE] = {
         name = GetMapNameByID(1021),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1616106,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-            BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_ARGUS] = {
         name = GetMapNameByID(1184),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1718211,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS,
-            BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
-            BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+            },
         },
     }
 }
@@ -595,24 +1109,24 @@ BtWQuests_Chains = {
         name = "Balance of Power",
         category = 1,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
             },
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 1)),
+                name = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 1)),
                 id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
             },
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 2)),
+                name = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 2)),
                 id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
             },
             {
                 type = "achievement",
-                text = "Complete your Order Campaign",
+                name = "Complete your Order Campaign",
                 id = 10746,
             },
         },

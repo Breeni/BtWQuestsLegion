@@ -260,40 +260,40 @@
                     BtWQuests_ZoomOut()
                 end
 			</OnMouseUp>
-			<OnClick>
-                if not ChatEdit_TryInsertChatLink(self.link) then
-                    BtWQuestsNav_AddCategoryButton(self.categoryID, self.nameText)
+			<!-- <OnClick> -->
+                <!-- if not ChatEdit_TryInsertChatLink(self.link) then -->
+                    <!-- BtWQuestsNav_AddCategoryButton(self.categoryID, self.nameText) -->
                     
-                    BtWQuests_SetCurrentCategory(self.categoryID)
-                    BtWQuests_ListCategories()
+                    <!-- BtWQuests_SetCurrentCategory(self.categoryID) -->
+                    <!-- BtWQuests_ListCategories() -->
                     
-                    PlaySound(SOUNDKIT.IG_SPELLBOOK_OPEN);
-                end
-			</OnClick>
+                    <!-- PlaySound(SOUNDKIT.IG_SPELLBOOK_OPEN); -->
+                <!-- end -->
+			<!-- </OnClick> -->
 		</Scripts>
 	</Button>
     
-	<Button name="BtWQuestsChainButtonTemplate" inherits="BtWQuestsCategoryButtonTemplate" hidden="true" parentArray="ChainButtons" virtual="true">
-		<Scripts>
-			<OnClick>
-                if not ChatEdit_TryInsertChatLink(self.link) then
-                    BtWQuestsNav_AddChainButton(self.chainID, self.nameText)
+	<!-- <Button name="BtWQuestsChainButtonTemplate" inherits="BtWQuestsCategoryButtonTemplate" hidden="true" parentArray="ChainButtons" virtual="true"> -->
+		<!-- <Scripts> -->
+			<!-- <OnClick> -->
+                <!-- if not ChatEdit_TryInsertChatLink(self.link) then -->
+                    <!-- BtWQuestsNav_AddChainButton(self.chainID, self.nameText) -->
                     
-                    BtWQuests_SetCurrentChain(self.chainID)
-                    BtWQuests_DisplayChain()
+                    <!-- BtWQuests_SetCurrentChain(self.chainID) -->
+                    <!-- BtWQuests_DisplayChain() -->
                     
-                    PlaySound(SOUNDKIT.IG_SPELLBOOK_OPEN);
-                end
-			</OnClick>
-			<OnEnter>
-                BtWQuestsTooltip_AnchorTo(self)
-                BtWQuestsTooltip_SetChain(self.chainID)
-            </OnEnter>
-			<OnLeave>
-                BtWQuestsTooltip:Hide();
-            </OnLeave>
-		</Scripts>
-    </Button>
+                    <!-- PlaySound(SOUNDKIT.IG_SPELLBOOK_OPEN); -->
+                <!-- end -->
+			<!-- </OnClick> -->
+			<!-- <OnEnter> -->
+                <!-- BtWQuestsTooltip_AnchorTo(self) -->
+                <!-- BtWQuestsTooltip_SetChain(self.chainID) -->
+            <!-- </OnEnter> -->
+			<!-- <OnLeave> -->
+                <!-- BtWQuestsTooltip:Hide(); -->
+            <!-- </OnLeave> -->
+		<!-- </Scripts> -->
+    <!-- </Button> -->
     <!-- GreenCheckMarkTemplate -->
 	<Button name="BtWQuestsChainItemButtonTemplate" hidden="true" parentArray="QuestButtons" virtual="true">
 		<Size x="174" y="48"/>
@@ -587,12 +587,12 @@
 											<Anchor point="TOPLEFT" x="12" y="-10"/>
 										</Anchors>
 									</Button>
-									<Button name="$parentChain1" inherits="BtWQuestsChainButtonTemplate" parentKey="chain1">
-										<Anchors>
-											<Anchor point="TOP" x="12" y="-10"/>
-											<Anchor point="LEFT" x="12" y="-10"/>
-										</Anchors>
-									</Button>
+									<!-- <Button name="$parentChain1" inherits="BtWQuestsChainButtonTemplate" parentKey="chain1"> -->
+										<!-- <Anchors> -->
+											<!-- <Anchor point="TOP" x="12" y="-10"/> -->
+											<!-- <Anchor point="LEFT" x="12" y="-10"/> -->
+										<!-- </Anchors> -->
+									<!-- </Button> -->
 								</Frames>
 							</Frame>
 						</ScrollChild>
