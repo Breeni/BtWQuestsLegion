@@ -213,6 +213,10 @@ BtWQuests_Expansions = {
         },
         {
             type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
+        },
+        {
+            type = "category",
             id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         },
         -- {
@@ -491,8 +495,11 @@ BtWQuests_Categories = {
         name = BTWQUESTS_ORDERHALL,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1041999,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
@@ -15246,6 +15253,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43705,
+                aside = true,
                 x = 1,
                 y = 2,
             },
@@ -15288,9 +15296,8 @@ BtWQuests_Chains = {
                 }
             },
             {
-                type = "dummy",
                 name = "Return to your Order Hall",
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 6,
                 connections = {
@@ -15336,20 +15343,23 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44481,
-                classes = {
-                    BTWQUESTS_CLASS_ID_WARRIOR,
-                    BTWQUESTS_CLASS_ID_PALADIN,
-                    BTWQUESTS_CLASS_ID_HUNTER,
-                    BTWQUESTS_CLASS_ID_ROGUE,
-                    BTWQUESTS_CLASS_ID_PRIEST,
-                    BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-                    BTWQUESTS_CLASS_ID_SHAMAN,
-                    BTWQUESTS_CLASS_ID_MAGE,
-                    BTWQUESTS_CLASS_ID_WARLOCK,
-                    BTWQUESTS_CLASS_ID_MONK,
-                    BTWQUESTS_CLASS_ID_DRUID,
-                },
-                requirements = {
+                restrictions = {
+                    {
+                        type = "classes",
+                        classes = {
+                            BTWQUESTS_CLASS_ID_WARRIOR,
+                            BTWQUESTS_CLASS_ID_PALADIN,
+                            BTWQUESTS_CLASS_ID_HUNTER,
+                            BTWQUESTS_CLASS_ID_ROGUE,
+                            BTWQUESTS_CLASS_ID_PRIEST,
+                            BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                            BTWQUESTS_CLASS_ID_SHAMAN,
+                            BTWQUESTS_CLASS_ID_MAGE,
+                            BTWQUESTS_CLASS_ID_WARLOCK,
+                            BTWQUESTS_CLASS_ID_MONK,
+                            BTWQUESTS_CLASS_ID_DRUID,
+                        },
+                    },
                     {
                         type = "achievement",
                         id = 697,
@@ -15361,7 +15371,7 @@ BtWQuests_Chains = {
                         active = false,
                     },
                 },
-                x = 1,
+                x = 3,
                 y = 11,
                 connections = {
                     3,
@@ -15370,20 +15380,23 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44496,
-                classes = {
-                    BTWQUESTS_CLASS_ID_WARRIOR,
-                    BTWQUESTS_CLASS_ID_PALADIN,
-                    BTWQUESTS_CLASS_ID_HUNTER,
-                    BTWQUESTS_CLASS_ID_ROGUE,
-                    BTWQUESTS_CLASS_ID_PRIEST,
-                    BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-                    BTWQUESTS_CLASS_ID_SHAMAN,
-                    BTWQUESTS_CLASS_ID_MAGE,
-                    BTWQUESTS_CLASS_ID_WARLOCK,
-                    BTWQUESTS_CLASS_ID_MONK,
-                    BTWQUESTS_CLASS_ID_DRUID,
-                },
-                requirements = {
+                restrictions = {
+                    {
+                        type = "classes",
+                        classes = {
+                            BTWQUESTS_CLASS_ID_WARRIOR,
+                            BTWQUESTS_CLASS_ID_PALADIN,
+                            BTWQUESTS_CLASS_ID_HUNTER,
+                            BTWQUESTS_CLASS_ID_ROGUE,
+                            BTWQUESTS_CLASS_ID_PRIEST,
+                            BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                            BTWQUESTS_CLASS_ID_SHAMAN,
+                            BTWQUESTS_CLASS_ID_MAGE,
+                            BTWQUESTS_CLASS_ID_WARLOCK,
+                            BTWQUESTS_CLASS_ID_MONK,
+                            BTWQUESTS_CLASS_ID_DRUID,
+                        },
+                    },
                     {
                         type = "achievement",
                         id = 697,
@@ -15404,8 +15417,13 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44497,
-                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
-                x = 5,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    },
+                },
+                x = 3,
                 y = 11,
                 connections = {
                     1,
@@ -20980,7 +20998,7 @@ BtWQuests_Quests = {
 		name = "Destiny Unfulfilled",
 		level = 110,
 	},
-	[44496] = {
+	[44497] = {
 		name = "Destiny Unfulfilled",
 		level = 110,
 	},

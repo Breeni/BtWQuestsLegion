@@ -147,7 +147,11 @@ local function BtWQuests_CheckRequirement(item)
     elseif item.type == "level" then
         return UnitLevel("player") >= item.level
     elseif item.type == "achievement" then
-        return select(13, GetAchievementInfo(item.id))
+        if item.completed == false then
+            return not select(13, GetAchievementInfo(item.id))
+        else
+            return select(13, GetAchievementInfo(item.id))
+        end
     else
         assert(false, "Invalid item type: " .. item.type)
     end
@@ -469,6 +473,7 @@ function BtWQuests_GetChainItemByIndex(index)
         
         assert(item.class == nil, string.format("Item %d in chain %d has a class set", index, chainID))
         assert(item.faction == nil, string.format("Item %d in chain %d has a faction set", index, chainID))
+        assert(item.optional == nil, string.format("Item %d in chain %d has a optional set", index, chainID))
         
         local hidden, name, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata = item.hidden, item.name, item.x, item.y, item.atlas, item.breadcrumb, item.aside, item.difficulty, item.tagID, item.status, item.dontScroll, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
     
