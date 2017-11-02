@@ -3423,8 +3423,24 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 3,
                 connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
+                x = 1,
+                y = 2,
+                connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 43811,
+                optional = true,
+                x = 1,
+                y = 3,
             },
             {
                 type = "quest",
@@ -3449,22 +3465,6 @@ BtWQuests_Chains = {
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW,
                 x = 3,
                 y = 6,
-            },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
-                x = 1,
-                y = 2,
-                connections = {
-                    1
-                },
-            },
-            {
-                type = "quest",
-                id = 43811,
-                optional = true,
-                x = 1,
-                y = 3,
             },
         }
     },
@@ -12420,7 +12420,12 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Blood: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
                 optional = true,
                 dontScroll = true,
                 x = 1,
@@ -12430,7 +12435,12 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Unholy: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
                 optional = true,
                 dontScroll = true,
                 x = 5,
@@ -12442,7 +12452,12 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Vengeance: Seeking Kor'vas",
-                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    }
+                },
                 optional = true,
                 dontScroll = true,
                 x = 4,
@@ -12454,7 +12469,12 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
                 name = "Beast Mastery: Rumblings Near Feltotem",
-                class = BTWQUESTS_CLASS_ID_HUNTER,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
                 optional = true,
                 dontScroll = true,
                 x = 1,
@@ -12464,7 +12484,12 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Marksmanship: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_HUNTER,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
                 optional = true,
                 dontScroll = true,
                 x = 3,
@@ -12476,7 +12501,12 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Assassination: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_ROGUE,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
                 optional = true,
                 dontScroll = true,
                 x = 1,
@@ -12486,7 +12516,12 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Outlaw: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_ROGUE,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
                 optional = true,
                 dontScroll = true,
                 x = 3,
@@ -12498,7 +12533,12 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Fury: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
                 optional = true,
                 dontScroll = true,
                 x = 3,
@@ -12508,7 +12548,12 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Protection: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
                 optional = true,
                 dontScroll = true,
                 x = 5,
@@ -12519,7 +12564,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47046,
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -12529,7 +12579,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47043,
-                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    }
+                },
                 x = 2,
                 y = 5,
                 connections = {
@@ -12539,7 +12594,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47047,
-                class = BTWQUESTS_CLASS_ID_HUNTER,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -12549,7 +12609,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47048,
-                class = BTWQUESTS_CLASS_ID_ROGUE,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -12559,7 +12624,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44914,
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
+                restrictions = {
+                {
+                    type = "class",
+                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
