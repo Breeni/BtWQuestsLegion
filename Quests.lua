@@ -245,10 +245,10 @@ BtWQuests_Expansions = {
             type = "category",
             id = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        },
         -- {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
@@ -704,7 +704,18 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK] = {
@@ -6323,7 +6334,7 @@ BtWQuests_Chains = {
                 y = 2,
                 connections = {
                     --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    3
+                    4
                 },
             },
             
@@ -6428,16 +6439,21 @@ BtWQuests_Chains = {
                     -- 4
                 -- },
             },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_SHAMAN,
-                -- x = 3,
-                -- y = 3,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
+                x = 3,
+                y = 3,
                 -- connections = {
                     -- 3
                 -- },
-            -- },
+            },
             -- {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
@@ -12026,7 +12042,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Magatha Grimtotem",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -12042,10 +12058,158 @@ BtWQuests_Chains = {
         range = {98, 110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45652,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45706,
+                x = 3,
+                y = 2,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 45723,
+                x = 1,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 45725,
+                x = 3,
+                y = 3,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45724,
+                x = 5,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 44800,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45763,
+                x = 3,
+                y = 5,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 45971,
+                x = 1,
+                y = 6,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 45767,
+                x = 3,
+                y = 6,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45765,
+                x = 5,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 45883,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45769,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46258,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46057,
+                x = 3,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                aside = true,
+                x = 3,
+                y = 11,
             },
         },
     },
@@ -20698,6 +20862,65 @@ BtWQuests_Quests = {
 	},
 	[46305] = {
 		["name"] = "Thorim's Flame",
+		["level"] = 110,
+	},
+    
+    
+
+	[45652] = {
+		["name"] = "A \"Humble\" Request",
+		["level"] = 110,
+	},
+	[45765] = {
+		["name"] = "Brothers and Sisters",
+		["level"] = 110,
+	},
+	[45706] = {
+		["name"] = "The Power of Thousands",
+		["level"] = 110,
+	},
+	[45883] = {
+		["name"] = "The Firelord's Offense",
+		["level"] = 110,
+	},
+	[45767] = {
+		["name"] = "Elemental Cores",
+		["level"] = 110,
+	},
+	[44800] = {
+		["name"] = "Against Magatha's Will",
+		["level"] = 110,
+	},
+	[45723] = {
+		["name"] = "The Crone's Wrath",
+		["level"] = 110,
+	},
+	[45971] = {
+		["name"] = "Infernal Phenomena",
+		["level"] = 110,
+	},
+	[45724] = {
+		["name"] = "Snakes and Stones",
+		["level"] = 110,
+	},
+	[46057] = {
+		["name"] = "Champion: Magatha Grimtotem",
+		["level"] = 110,
+	},
+	[45725] = {
+		["name"] = "Breaking Chains",
+		["level"] = 110,
+	},
+	[45763] = {
+		["name"] = "Demonic Disruption",
+		["level"] = 110,
+	},
+	[46258] = {
+		["name"] = "The Calm After the Storm",
+		["level"] = 110,
+	},
+	[45769] = {
+		["name"] = "Conflagration",
 		["level"] = 110,
 	},
     
