@@ -579,9 +579,18 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE] = {
