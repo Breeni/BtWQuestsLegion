@@ -229,10 +229,10 @@ BtWQuests_Expansions = {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
         -- },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        },
         -- {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
@@ -617,9 +617,18 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
@@ -6323,7 +6332,7 @@ BtWQuests_Chains = {
                 y = 2,
                 connections = {
                     --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    3
+                    4
                 },
             },
             
@@ -6383,16 +6392,21 @@ BtWQuests_Chains = {
                     -- 8
                 -- },
             -- },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_MONK,
-                -- x = 3,
-                -- y = 3,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
+                x = 3,
+                y = 3,
                 -- connections = {
                     -- 7
                 -- },
-            -- },
+            },
             -- {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
@@ -10151,7 +10165,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Almai",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10162,15 +10176,119 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 45790,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45440,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45404,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45459,
+                x = 3,
+                y = 3,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 45574,
+                x = 1,
+                y = 4,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 45449,
+                x = 3,
+                y = 4,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45545,
+                x = 5,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46320,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45442,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45771,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45790,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                aside = true,
+                x = 3,
+                y = 9,
             },
         },
     },
@@ -20698,6 +20816,49 @@ BtWQuests_Quests = {
 	},
 	[46305] = {
 		["name"] = "Thorim's Flame",
+		["level"] = 110,
+	},
+    
+    
+
+	[45404] = {
+		["name"] = "Panic at the Brewery",
+		["level"] = 110,
+	},
+	[45442] = {
+		["name"] = "Not Felling Well",
+		["level"] = 110,
+	},
+	[46320] = {
+		["name"] = "Hope For a Cure",
+		["level"] = 110,
+	},
+	[45459] = {
+		["name"] = "Storming the Legion",
+		["level"] = 110,
+	},
+	[45790] = {
+		["name"] = "Champion: Almai",
+		["level"] = 110,
+	},
+	[45574] = {
+		["name"] = "Fel Ingredients",
+		["level"] = 110,
+	},
+	[45440] = {
+		["name"] = "A Brewing Situation",
+		["level"] = 110,
+	},
+	[45545] = {
+		["name"] = "Barrel Toss",
+		["level"] = 110,
+	},
+	[45771] = {
+		["name"] = "A Time for Everything",
+		["level"] = 110,
+	},
+	[45449] = {
+		["name"] = "Alchemist Korlya",
 		["level"] = 110,
 	},
     
