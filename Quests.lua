@@ -205,26 +205,86 @@ BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS = 140
 
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
-        BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
-        BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
-        -- BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
-        BTWQUESTS_CATEGORY_LEGION_AZSUNA,
-        BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
-        -- BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
-        -- BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
-        BTWQUESTS_CATEGORY_LEGION_SURAMAR,
-        BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
-        BTWQUESTS_CATEGORY_LEGION_ARGUS,
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+        },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
+        -- },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+        },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        -- },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+        -- },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        -- },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
+        },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+        -- },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        -- },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
+        },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+        -- },
+        -- {
+            -- type = "category",
+            -- id = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
+        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+        },
     }
 }
 
@@ -233,64 +293,196 @@ BtWQuests_Categories = {
         name = BTWQUESTS_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1411857,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
-            BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
+            },
             
-            BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_ORDERHALL] = {
@@ -301,23 +493,51 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
         name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT,
+        items = {
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
+            -- },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+            -- },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER] = {
         name = LOCALIZED_CLASS_NAMES_MALE["DEMONHUNTER"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN,
@@ -328,9 +548,14 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID] = {
         name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DRUID,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DRUID,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
@@ -343,9 +568,14 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER] = {
         name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_HUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_HUNTER,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
@@ -357,9 +587,14 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE] = {
         name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MAGE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MAGE,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
@@ -371,9 +606,14 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK] = {
         name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MONK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MONK,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
@@ -385,9 +625,14 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
         name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PALADIN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PALADIN,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
@@ -399,9 +644,14 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST] = {
         name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PRIEST,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PRIEST,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
@@ -413,23 +663,42 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE] = {
         name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_ROGUE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_ROGUE,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
-            BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN] = {
         name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_SHAMAN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_SHAMAN,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
@@ -441,9 +710,14 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK] = {
         name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARLOCK,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
@@ -455,9 +729,14 @@ BtWQuests_Categories = {
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR] = {
         name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARRIOR,
+            }
+        },
         -- buttonImage = 1041999,
-        chains = {
+        items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
@@ -470,69 +749,163 @@ BtWQuests_Categories = {
         name = GetMapNameByID(1015),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1498157,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA,
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS,
-            BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_VALSHARAH] = {
         name = GetMapNameByID(1018),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1452687,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK,
-            BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN] = {
         name = GetMapNameByID(1024),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1411854,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
-            BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_STORMHEIM] = {
         name = GetMapNameByID(1017),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1537284,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_VALOR,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_TO_HELHEIM_AND_BACK,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS,
-            BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_CHAMPION_OF_STORMHEIM,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_VALOR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_TO_HELHEIM_AND_BACK,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_CHAMPION_OF_STORMHEIM,
+            },
         }
     },
     [BTWQUESTS_CATEGORY_LEGION_SURAMAR] = {
         name = GetMapNameByID(1033),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1450575,
-        categories = {
-            BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
-            BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
-            BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
-        },
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING,
+        items = {
+            {
+                type = "category",
+                id = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
+            },
+            {
+                type = "category",
+                id = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
+            },
+            {
+                type = "category",
+                id = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN] = {
@@ -540,13 +913,31 @@ BtWQuests_Categories = {
         parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1450575,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW,
+            },
         }
     },
     [BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN] = {
@@ -554,18 +945,51 @@ BtWQuests_Categories = {
         parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1450575,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ANCIENT_GIFT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_WANING_CRESCENT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_BLOOD_AND_WINE,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_STATECRAFT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREAKER,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ANCIENT_GIFT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_WANING_CRESCENT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_BLOOD_AND_WINE,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_STATECRAFT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREAKER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL,
+            },
         }
     },
     [BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION] = {
@@ -573,35 +997,77 @@ BtWQuests_Categories = {
         parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1450575,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_LOCKDOWN,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_MISSING_PERSONS,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_WAXING_CRESCENT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ELVEN_PROBLEM,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_CRAFTING_WAR,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_MARCH_ON_SURAMAR,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL,
-            BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_LOCKDOWN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MISSING_PERSONS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_WAXING_CRESCENT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ELVEN_PROBLEM,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CRAFTING_WAR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MARCH_ON_SURAMAR,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD,
+            },
         }
     },
     [BTWQUESTS_CATEGORY_LEGION_BROKENSHORE] = {
         name = GetMapNameByID(1021),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1616106,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-            BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_ARGUS] = {
         name = GetMapNameByID(1184),
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1718211,
-        chains = {
-            BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS,
-            BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
-            BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+            },
         },
     }
 }
@@ -611,24 +1077,24 @@ BtWQuests_Chains = {
         name = "Balance of Power",
         category = 1,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
             },
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 1)),
+                name = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 1)),
                 id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
             },
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 2)),
+                name = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 2)),
                 id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
             },
             {
                 type = "achievement",
-                text = "Complete your Order Campaign",
+                name = "Complete your Order Campaign",
                 id = 10746,
             },
         },
@@ -710,7 +1176,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43581,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 4,
                 connections = {
@@ -765,6 +1231,9 @@ BtWQuests_Chains = {
                 standing = 7,
                 x = 5.25,
                 y = 7.5,
+                onClick = function (self)
+                    BtWQuests_SelectCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR)
+                end,
                 connections = {
                     1
                 },
@@ -1060,10 +1529,10 @@ BtWQuests_Chains = {
         category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 1)),
+                name = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 1)),
                 id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
             },
         },
@@ -1155,7 +1624,7 @@ BtWQuests_Chains = {
                 id = 37858,
                 x = 3,
                 y = 6,
-                optional = true,
+                breadcrumb = true,
                 connections = {
                     2
                 }, 
@@ -1287,7 +1756,7 @@ BtWQuests_Chains = {
         category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
-        requirements = {
+        prerequisites = {
             {
                 type = "quest",
                 id = 42271,
@@ -1303,7 +1772,7 @@ BtWQuests_Chains = {
                 id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
                 x = 3,
                 y = 0,
-                optional = true,
+                breadcrumb = true,
                 connections = {
                     1
                 }, 
@@ -1592,14 +2061,8 @@ BtWQuests_Chains = {
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
         completed = {
-            ["Alliance"] = {
-                type = "quest",
-                id = 40794,
-            },
-            ["Horde"] = {
-                type = "quest",
-                id = 42244,
-            }
+            type = "quest",
+            id = 40794,
         },
         items = {
             {
@@ -1641,14 +2104,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40794,
-                faction = "Alliance",
                 x = 3,
                 y = 4
             },
             {
                 type = "quest",
                 id = 42244,
-                faction = "Horde",
                 x = 3,
                 y = 4
             },
@@ -1725,10 +2186,10 @@ BtWQuests_Chains = {
         category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1018), BTWQUESTS_INTRODUCTION),
+                name = string.format("%s: %s", GetMapNameByID(1018), BTWQUESTS_INTRODUCTION),
                 id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
             },
         },
@@ -1795,10 +2256,10 @@ BtWQuests_Chains = {
         category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1018), BTWQUESTS_INTRODUCTION),
+                name = string.format("%s: %s", GetMapNameByID(1018), BTWQUESTS_INTRODUCTION),
                 id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
             },
         },
@@ -1910,10 +2371,10 @@ BtWQuests_Chains = {
         category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1018), BTWQUESTS_INTRODUCTION),
+                name = string.format("%s: %s", GetMapNameByID(1018), BTWQUESTS_INTRODUCTION),
                 id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
             },
         },
@@ -1971,20 +2432,20 @@ BtWQuests_Chains = {
         category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 1)),
+                name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 1)),
                 id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE,
             },
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 2)),
+                name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 2)),
                 id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW,
             },
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 3)),
+                name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 3)),
                 id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE,
             },
         },
@@ -2114,10 +2575,10 @@ BtWQuests_Chains = {
         category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 4)),
+                name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 4)),
                 id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG,
             },
         },
@@ -2256,10 +2717,10 @@ BtWQuests_Chains = {
         category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 4)),
+                name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 4)),
                 id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
             },
         },
@@ -2353,10 +2814,10 @@ BtWQuests_Chains = {
         category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         range = {98, 110},
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 6)),
+                name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 6)),
                 id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK,
             },
         },
@@ -2562,7 +3023,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(10617, 1),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
@@ -2661,10 +3122,10 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(10617, 2),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 1)),
+                name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 1)),
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
             },
         },
@@ -2746,10 +3207,10 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(10617, 3),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 1)),
+                name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 1)),
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
             },
         },
@@ -2834,10 +3295,10 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(10617, 4),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 3)),
+                name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 3)),
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
             },
         },
@@ -2919,10 +3380,10 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(10617, 5),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 2)),
+                name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 2)),
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH,
             },
         },
@@ -2965,8 +3426,24 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 3,
                 connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
+                x = 1,
+                y = 2,
+                connections = {
                     1
                 },
+            },
+            {
+                type = "quest",
+                id = 43811,
+                aside = true,
+                x = 1,
+                y = 3,
             },
             {
                 type = "quest",
@@ -2992,37 +3469,21 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 6,
             },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
-                x = 1,
-                y = 2,
-                connections = {
-                    1
-                },
-            },
-            {
-                type = "quest",
-                id = 43811,
-                optional = true,
-                x = 1,
-                y = 3,
-            },
         }
     },
     [BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW] = {
         name = GetAchievementCriteriaInfo(10617, 6),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 4)),
+                name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 4)),
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
             },
             {
                 type = "chain",
-                text = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 5)),
+                name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 5)),
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
             },
         },
@@ -3148,10 +3609,10 @@ BtWQuests_Chains = {
         name = "Withered Army Training",
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "achievement",
-                text = select(2, GetAchievementInfo(10617)),
+                name = select(2, GetAchievementInfo(10617)),
                 id = 10617,
             },
         },
@@ -3229,7 +3690,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 1),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
@@ -3319,7 +3780,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 2),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ANCIENT_GIFT,
@@ -3370,7 +3831,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41878,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 4,
                 connections = {
@@ -3380,14 +3841,14 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40727,
-                optional = true,
+                aside = true,
                 x = 2,
                 y = 5,
             },
             {
                 type = "quest",
                 id = 40730,
-                optional = true,
+                aside = true,
                 x = 0,
                 y = 5,
             },
@@ -3430,7 +3891,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44051,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 8,
             },
@@ -3470,7 +3931,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 3),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_WANING_CRESCENT,
@@ -3656,7 +4117,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 4),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_BLOOD_AND_WINE,
@@ -3743,7 +4204,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43813,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 5,
             },
@@ -3810,7 +4271,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 5),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_STATECRAFT,
@@ -3894,7 +4355,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 6),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS,
@@ -3999,7 +4460,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 7),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
@@ -4014,7 +4475,6 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44489,
-                class = 12, -- Demon Hunter
                 x = 3,
                 y = 0,
                 connections = {
@@ -4024,7 +4484,6 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40297,
-                classes = {1,2,3,4,5,6,7,8,9,10,11}, -- Not Demon Hunter
                 x = 3,
                 y = 0,
                 connections = {
@@ -4118,7 +4577,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 8),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
@@ -4131,9 +4590,9 @@ BtWQuests_Chains = {
         range = {110},
         items = {
             {
-                type = "dummy",
                 name = "Kill Nightborne",
-                optional = true,
+                breadcrumb = true,
+                aside = true,
                 x = 1,
                 y = 0,
                 connections = {
@@ -4143,13 +4602,13 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41030,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 1,
             },
             {
-                type = "dummy",
                 name = "Go to Lyrea Windfeather",
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -4166,8 +4625,8 @@ BtWQuests_Chains = {
                 },
             },
             {
-                type = "dummy",
                 name = "Go to Ivanel Meadowsong",
+                breadcrumb = true,
                 x = 5,
                 y = 0,
                 connections = {
@@ -4204,7 +4663,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40968,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 3,
                 connections = {
@@ -4214,7 +4673,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41109,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 4,
                 connections = {
@@ -4224,7 +4683,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41108,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 5,
             },
@@ -4285,7 +4744,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43808,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 9,
             },
@@ -4301,7 +4760,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 9),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
@@ -4314,8 +4773,8 @@ BtWQuests_Chains = {
         range = {110},
         items = {
             {
-                type = "dummy",
                 name = "Go to Thaedris Feathersong",
+                breadcrumb = true,
                 onClick = function ()
                     if TomTom and TomTom.AddMFWaypoint then
                         TomTom:AddMFWaypoint(1033, 0, 0.456, 0.408, {
@@ -4350,7 +4809,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40308,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 2,
             },
@@ -4402,6 +4861,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 43809,
+                aside = true,
                 x = 1,
                 y = 6,
             },
@@ -4426,7 +4886,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 10),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
@@ -4448,9 +4908,9 @@ BtWQuests_Chains = {
                 },
             },
             {
-                type = "dummy",
                 name = "Kill the Starving Ettin",
-                optional = true,
+                breadcrumb = true,
+                aside = true,
                 x = 1,
                 y = 1,
                 connections = {
@@ -4460,7 +4920,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41462,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 2,
             },
@@ -4483,8 +4943,8 @@ BtWQuests_Chains = {
                 },
             },
             {
-                type = "dummy",
                 name = "Return to Irongrove Retreat",
+                breadcrumb = true,
                 x = 3,
                 y = 3,
                 connections = {
@@ -4494,7 +4954,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41463,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 1,
                 connections = {
@@ -4504,7 +4964,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41464,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 2,
                 connections = {
@@ -4514,7 +4974,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41467,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 3,
             },
@@ -4602,7 +5062,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 42223,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 10,
                 connections = {
@@ -4637,8 +5097,8 @@ BtWQuests_Chains = {
                 },
             },
             {
-                type = "dummy",
                 name = "Go to Nighteyes",
+                breadcrumb = true,
                 onClick = function ()
                     if TomTom and TomTom.AddMFWaypoint then
                         TomTom:AddMFWaypoint(1033, 0, 0.506, 0.565, {
@@ -4682,7 +5142,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11124, 11),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
@@ -4771,7 +5231,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41425,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 7,
                 connections = {
@@ -4781,14 +5241,14 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41001,
-                optional = true,
+                aside = true,
                 x = 0,
                 y = 6,
             },
             {
                 type = "quest",
                 id = 41499,
-                optional = true,
+                aside = true,
                 x = 0,
                 y = 8,
             },
@@ -4798,7 +5258,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41606,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 7,
                 connections = {
@@ -4808,14 +5268,14 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40364,
-                optional = true,
+                aside = true,
                 x = 6,
                 y = 6,
             },
             {
                 type = "quest",
                 id = 41618,
-                optional = true,
+                aside = true,
                 x = 6,
                 y = 8,
             },
@@ -4824,7 +5284,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41410,
-                optional = true,
+                aside = true,
                 x = 2,
                 y = 6,
                 connections = {
@@ -4834,7 +5294,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41409,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 5,
             },
@@ -4872,7 +5332,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11340, 1),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS,
@@ -4990,7 +5450,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11340, 2),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_LOCKDOWN,
@@ -5095,7 +5555,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11340, 3),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MISSING_PERSONS,
@@ -5182,7 +5642,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11340, 4),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_WAXING_CRESCENT,
@@ -5278,7 +5738,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41916,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 4,
             },
@@ -5303,7 +5763,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11340, 5),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ELVEN_PROBLEM,
@@ -5345,7 +5805,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44870,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 1.25,
             },
@@ -5424,7 +5884,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11340, 6),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CRAFTING_WAR,
@@ -5493,7 +5953,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11340, 7),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MARCH_ON_SURAMAR,
@@ -5589,7 +6049,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11340, 8),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT,
@@ -5703,7 +6163,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(11340, 9),
         category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL,
@@ -5754,7 +6214,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45417,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 4,
                 connections = {
@@ -5764,7 +6224,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45372,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 5,
             },
@@ -5774,7 +6234,7 @@ BtWQuests_Chains = {
         name = select(2, GetAchievementInfo(11546)),
         category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
                 level = 110,
@@ -5827,7 +6287,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED,
-                optional = true,
+                aside = true,
                 x = 1,
                 y = 4,
             },
@@ -5871,7 +6331,12 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
                 x = 3,
                 y = 3,
                 -- connections = {
@@ -5951,7 +6416,12 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_ROGUE,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
                 x = 3,
                 y = 3,
                 -- connections = {
@@ -6065,7 +6535,7 @@ BtWQuests_Chains = {
         name = "Treasure Master Iks'reeged",
         category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "quest",
                 id = 46845,
@@ -6080,7 +6550,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -6141,7 +6611,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45379,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 7,
             },
@@ -6151,7 +6621,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(12066, 1),
         category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "quest",
                 id = 46734,
@@ -6166,7 +6636,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -6185,7 +6655,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47221,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 2,
                 connections = {
@@ -6195,7 +6670,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47835,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 2,
                 connections = {
@@ -6205,7 +6685,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47222,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 3,
                 connections = {
@@ -6215,7 +6700,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47867,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 3,
                 connections = {
@@ -6477,7 +6967,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47287,
-                optional = true,
+                aside = true,
                 x = 5,
                 y = 26,
             },
@@ -6511,7 +7001,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 48201,
-                optional = true,
+                breadcrumb = true,
                 x = 2,
                 y = 30,
                 connections = {
@@ -6521,7 +7011,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 48202,
-                optional = true,
+                breadcrumb = true,
                 x = 4,
                 y = 30,
                 connections = {
@@ -6558,7 +7048,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(12066, 2),
         category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS,
@@ -6876,7 +7366,7 @@ BtWQuests_Chains = {
         name = GetAchievementCriteriaInfo(12066, 3),
         category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
@@ -7121,7 +7611,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(250)), "Maw of the Damned"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            },
+        },
         completed = {
             type = "quest",
             id = 40740,
@@ -7141,7 +7636,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(251)), "Blades of the Fallen Prince"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            },
+        },
         completed = {
             type = "quest",
             id = 38990,
@@ -7161,7 +7661,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(252)), "Apocalypse"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            },
+        },
         completed = {
             type = "quest",
             id = 40935,
@@ -7226,8 +7731,13 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-        requirements = {
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            },
+        },
+        prerequisites = {
             {
                 type = "level",
                 level = 98,
@@ -7261,7 +7771,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-                optional = true,
+                breadcrumb = true,
                 x = 1,
                 y = 2,
                 connections = {
@@ -7271,7 +7781,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 2,
                 connections = {
@@ -7281,7 +7791,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-                optional = true,
+                breadcrumb = true,
                 x = 5,
                 y = 2,
                 connections = {
@@ -7330,7 +7840,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
                 -- name = GetMapNameByID(1015),
-                -- optional = true,
+                -- aside = true,
                 -- x = 1,
                 -- y = 5.5,
             -- },
@@ -7338,7 +7848,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
                 -- name = GetMapNameByID(1018),
-                -- optional = true,
+                -- aside = true,
                 -- x = 1,
                 -- y = 6.5
             -- },
@@ -7346,7 +7856,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
                 -- name = GetMapNameByID(1024),
-                -- optional = true,
+                -- aside = true,
                 -- x = 5,
                 -- y = 5.5,
             -- },
@@ -7354,7 +7864,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
                 -- name = GetMapNameByID(1017),
-                -- optional = true,
+                -- aside = true,
                 -- x = 5,
                 -- y = 6.5,
             -- },
@@ -7598,7 +8108,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44217,
-                optional = true,
+                aside = true,
                 x = 6,
                 y = 25,
             },
@@ -7755,7 +8265,12 @@ BtWQuests_Chains = {
         name = "Champion: Minerva Ravensorrow",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            },
+        },
         completed = {
             type = "quest",
             id = 46050,
@@ -7765,7 +8280,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -7885,7 +8400,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 10,
             },
@@ -7895,8 +8410,13 @@ BtWQuests_Chains = {
         name = "Mount: Deathlord's Vilebrood Vanquisher",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-        requirements = {
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            },
+        },
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
@@ -7956,7 +8476,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(577)), "Twinblades of the Deceiver"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 41119,
@@ -7994,7 +8519,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(581)), "Aldrachi Warblades"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 40249,
@@ -8050,7 +8580,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 40740,
@@ -8079,7 +8614,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
-                optional = true,
+                breadcrumb = true,
                 x = 2,
                 y = 2,
                 connections = {
@@ -8089,7 +8624,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
-                optional = true,
+                breadcrumb = true,
                 x = 4,
                 y = 2,
                 connections = {
@@ -8562,7 +9097,12 @@ BtWQuests_Chains = {
         name = "Broken Shore Follower",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 40740,
@@ -8581,7 +9121,12 @@ BtWQuests_Chains = {
         name = "Class Mount",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 40740,
@@ -8600,7 +9145,12 @@ BtWQuests_Chains = {
         name = "Scythe of Elune",--select(2, GetSpecializationInfoByID(102)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DRUID,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DRUID,
+            },
+        },
         completed = {
             type = "quest",
             id = 40838,
@@ -8674,7 +9224,12 @@ BtWQuests_Chains = {
         name = "Fangs of Ashamane",--select(2, GetSpecializationInfoByID(103)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DRUID,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DRUID,
+            },
+        },
         completed = {
             type = "quest",
             id = 42430,
@@ -8730,7 +9285,12 @@ BtWQuests_Chains = {
         name = "Claws of Ursoc",--select(2, GetSpecializationInfoByID(104)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DRUID,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DRUID,
+            },
+        },
         completed = {
             type = "quest",
             id = 40647,
@@ -8804,7 +9364,12 @@ BtWQuests_Chains = {
         name = "G'Hanir, the Mother Tree",--select(2, GetSpecializationInfoByID(105)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DRUID,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DRUID,
+            },
+        },
         completed = {
             type = "quest",
             id = 41689,
@@ -8869,7 +9434,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DRUID,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DRUID,
+            },
+        },
         completed = {
             type = "quest",
             id = 40249,
@@ -8891,7 +9461,12 @@ BtWQuests_Chains = {
         name = "Broken Shore Follower",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DRUID,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DRUID,
+            },
+        },
         completed = {
             type = "quest",
             id = 40740,
@@ -8910,7 +9485,12 @@ BtWQuests_Chains = {
         name = "Class Mount",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_DRUID,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_DRUID,
+            },
+        },
         completed = {
             type = "quest",
             id = 40740,
@@ -8932,7 +9512,12 @@ BtWQuests_Chains = {
         name = "Titanstrike",--select(2, GetSpecializationInfoByID(253)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_HUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_HUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 42158,
@@ -8970,7 +9555,12 @@ BtWQuests_Chains = {
         name = "Thas'dorah, Legacy of the Windrunners",--select(2, GetSpecializationInfoByID(254)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_HUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_HUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 40419,
@@ -9017,7 +9607,12 @@ BtWQuests_Chains = {
         name = "Talonclaw",--select(2, GetSpecializationInfoByID(255)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_HUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_HUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 40385,
@@ -9055,7 +9650,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_HUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_HUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9074,7 +9674,12 @@ BtWQuests_Chains = {
         name = "Champion: Nighthuntress Syrenne",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_HUNTER,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_HUNTER,
+            },
+        },
         completed = {
             type = "quest",
             id = 46048,
@@ -9194,11 +9799,16 @@ BtWQuests_Chains = {
         name = "Mount: Huntmaster's Loyal Wolfhawk",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_HUNTER,
-        requirements = {
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_HUNTER,
             },
         },
         completed = {
@@ -9240,7 +9850,12 @@ BtWQuests_Chains = {
         name = "Aluneth",--select(2, GetSpecializationInfoByID(62)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MAGE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MAGE,
+            },
+        },
         completed = {
             type = "quest",
             id = 42011,
@@ -9314,7 +9929,12 @@ BtWQuests_Chains = {
         name = "Felo'melorn",--select(2, GetSpecializationInfoByID(63)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MAGE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MAGE,
+            },
+        },
         completed = {
             type = "quest",
             id = 11997,
@@ -9352,7 +9972,12 @@ BtWQuests_Chains = {
         name = "Ebonchill",--select(2, GetSpecializationInfoByID(64)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MAGE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MAGE,
+            },
+        },
         completed = {
             type = "quest",
             id = 42479,
@@ -9408,7 +10033,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MAGE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MAGE,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9427,7 +10057,12 @@ BtWQuests_Chains = {
         name = "Broken Shore Follower",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MAGE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MAGE,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9446,7 +10081,12 @@ BtWQuests_Chains = {
         name = "Class Mount",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MAGE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MAGE,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9468,7 +10108,12 @@ BtWQuests_Chains = {
         name = "Fu Zan, the Wanderer's Companion",--select(2, GetSpecializationInfoByID(268)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MONK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MONK,
+            },
+        },
         completed = {
             type = "quest",
             id = 42765,
@@ -9533,7 +10178,12 @@ BtWQuests_Chains = {
         name = "Fists of the Heavens",--select(2, GetSpecializationInfoByID(269)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MONK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MONK,
+            },
+        },
         completed = {
             type = "quest",
             id = 40570,
@@ -9580,7 +10230,12 @@ BtWQuests_Chains = {
         name = "Sheilun, Staff of the Mists",--select(2, GetSpecializationInfoByID(270)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MONK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MONK,
+            },
+        },
         completed = {
             type = "quest",
             id = 41003,
@@ -9600,7 +10255,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MONK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MONK,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9619,7 +10279,12 @@ BtWQuests_Chains = {
         name = "Broken Shore Follower",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MONK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MONK,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9638,7 +10303,12 @@ BtWQuests_Chains = {
         name = "Class Mount",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_MONK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MONK,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9660,7 +10330,12 @@ BtWQuests_Chains = {
         name = "The Silver Hand",--select(2, GetSpecializationInfoByID(65)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PALADIN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PALADIN,
+            },
+        },
         completed = {
             type = "quest",
             id = 42120,
@@ -9689,7 +10364,12 @@ BtWQuests_Chains = {
         name = "Truthguard",--select(2, GetSpecializationInfoByID(66)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PALADIN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PALADIN,
+            },
+        },
         completed = {
             type = "quest",
             id = 42017,
@@ -9736,7 +10416,12 @@ BtWQuests_Chains = {
         name = "Ashbringer",--select(2, GetSpecializationInfoByID(70)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PALADIN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PALADIN,
+            },
+        },
         completed = {
             type = "quest",
             id = 38376,
@@ -9801,7 +10486,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PALADIN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PALADIN,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9820,7 +10510,12 @@ BtWQuests_Chains = {
         name = "Broken Shore Follower",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PALADIN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PALADIN,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9839,7 +10534,12 @@ BtWQuests_Chains = {
         name = "Class Mount",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PALADIN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PALADIN,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -9861,7 +10561,12 @@ BtWQuests_Chains = {
         name = "Light's Wrath",--select(2, GetSpecializationInfoByID(256)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PRIEST,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PRIEST,
+            },
+        },
         completed = {
             type = "quest",
             id = 41632,
@@ -9944,7 +10649,12 @@ BtWQuests_Chains = {
         name = "T'uure, Beacon of the Naaru",--select(2, GetSpecializationInfoByID(257)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PRIEST,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PRIEST,
+            },
+        },
         completed = {
             type = "quest",
             id = 42074,
@@ -10000,7 +10710,12 @@ BtWQuests_Chains = {
         name = "Xal'atath, Blade of the Black Empire",--select(2, GetSpecializationInfoByID(258)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PRIEST,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PRIEST,
+            },
+        },
         completed = {
             type = "quest",
             id = 40710,
@@ -10020,7 +10735,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PRIEST,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PRIEST,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -10039,7 +10759,12 @@ BtWQuests_Chains = {
         name = "Broken Shore Follower",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PRIEST,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PRIEST,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -10058,7 +10783,12 @@ BtWQuests_Chains = {
         name = "Class Mount",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_PRIEST,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_PRIEST,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -10080,7 +10810,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(259)), "The Kingslayers"), -- select(1, GetItemInfo(128870))
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_ROGUE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_ROGUE,
+            },
+        },
         completed = {
             type = "quest",
             id = 42504,
@@ -10136,14 +10871,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 42504,
-                faction = "Alliance",
                 x = 3,
                 y = 5,
             },
             {
                 type = "quest",
                 id = 42627,
-                faction = "Horde",
                 x = 3,
                 y = 5,
             },
@@ -10153,7 +10886,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(260)), "The Dreadblades"), -- select(1, GetItemInfo(134552))
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_ROGUE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_ROGUE,
+            },
+        },
         completed = {
             type = "quest",
             id = 40849,
@@ -10182,7 +10920,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(261)), "Fangs of the Devourer"), -- select(1, GetItemInfo(128476))
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_ROGUE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_ROGUE,
+            },
+        },
         completed = {
             type = "quest",
             id = 41924,
@@ -10238,7 +10981,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_ROGUE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_ROGUE,
+            },
+        },
         completed = {
             type = "quest",
             id = 37689,
@@ -10276,7 +11024,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
-                optional = true,
+                breadcrumb = true,
                 x = 1,
                 y = 3,
                 connections = {
@@ -10286,7 +11034,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 3,
                 connections = {
@@ -10296,7 +11044,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
-                optional = true,
+                breadcrumb = true,
                 x = 5,
                 y = 3,
                 connections = {
@@ -10357,7 +11105,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
                 -- name = GetMapNameByID(1015),
-                -- optional = true,
+                -- aside = true,
                 -- x = 1,
                 -- y = 7.5,
             -- },
@@ -10365,7 +11113,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
                 -- name = GetMapNameByID(1018),
-                -- optional = true,
+                -- aside = true,
                 -- x = 1,
                 -- y = 8.5
             -- },
@@ -10373,7 +11121,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
                 -- name = GetMapNameByID(1024),
-                -- optional = true,
+                -- aside = true,
                 -- x = 5,
                 -- y = 7.5,
             -- },
@@ -10381,7 +11129,7 @@ BtWQuests_Chains = {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
                 -- name = GetMapNameByID(1017),
-                -- optional = true,
+                -- aside = true,
                 -- x = 5,
                 -- y = 8.5,
             -- },
@@ -10807,16 +11555,21 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
-        name = function (self, playerFaction)
-            if playerFaction == "Alliance" then
+        name = function (self)
+            if UnitFactionGroup("player") == "Alliance" then
                 return "Champion: Tess Greymane"
-            elseif playerFaction == "Horde" then
+            elseif UnitFactionGroup("player") == "Horde" then
                 return "Champion: Lilian Voss"
             end
         end,
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_ROGUE,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_ROGUE,
+            },
+        },
         completed = {
             type = "quest",
             id = 46059,
@@ -10826,7 +11579,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -10847,7 +11600,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45833,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 2,
                 connections = {
@@ -10857,7 +11615,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46322,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 2,
                 connections = {
@@ -10870,7 +11633,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45835,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 1,
                 y = 3,
                 connections = {
@@ -10880,7 +11648,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46324,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 1,
                 y = 3,
                 connections = {
@@ -10891,7 +11664,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44758,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 3,
                 connections = {
@@ -10901,7 +11679,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46323,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 3,
                 connections = {
@@ -10934,7 +11717,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45836,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -10944,7 +11732,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46326,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -10969,7 +11762,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45573,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 7,
                 connections = {
@@ -10979,7 +11777,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45576,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 7,
                 connections = {
@@ -10990,7 +11793,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45628,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 8,
                 connections = {
@@ -11000,7 +11808,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45629,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 8,
                 connections = {
@@ -11011,7 +11824,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46260,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 9,
                 connections = {
@@ -11021,7 +11839,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46827,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 9,
                 connections = {
@@ -11032,7 +11855,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46059,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 10,
                 connections = {
@@ -11042,7 +11870,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46058,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 10,
                 connections = {
@@ -11052,7 +11885,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                aside = true,
                 x = 3,
                 y = 11,
             },
@@ -11062,8 +11895,13 @@ BtWQuests_Chains = {
         name = "Mount: Shadowblade's Murderous Omen",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_ROGUE,
-        requirements = {
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_ROGUE,
+            },
+        },
+        prerequisites = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
@@ -11097,14 +11935,24 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46089,
-                faction = "Alliance",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 2,
             },
             {
                 type = "quest",
                 id = 46178,
-                faction = "Horde",
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
                 x = 3,
                 y = 2,
             },
@@ -11117,7 +11965,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(262)), "The Fist of Ra-den"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_SHAMAN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_SHAMAN,
+            },
+        },
         completed = {
             type = "quest",
             id = 39771,
@@ -11155,7 +12008,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(263)), "Doomhammer"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_SHAMAN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_SHAMAN,
+            },
+        },
         completed = {
             type = "quest",
             id = 40224,
@@ -11229,7 +12087,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(264)), "Sharas'dal, Scepter of Tides"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_SHAMAN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_SHAMAN,
+            },
+        },
         completed = {
             type = "quest",
             id = 40341,
@@ -11267,7 +12130,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_SHAMAN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_SHAMAN,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -11286,7 +12154,12 @@ BtWQuests_Chains = {
         name = "Broken Shore Follower",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_SHAMAN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_SHAMAN,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -11305,7 +12178,12 @@ BtWQuests_Chains = {
         name = "Class Mount",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_SHAMAN,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_SHAMAN,
+            },
+        },
         completed = {
             type = "quest",
             id = 46792,
@@ -11336,7 +12214,12 @@ BtWQuests_Chains = {
         name = "Ulthalesh, the Deadwind Harvester",--select(2, GetSpecializationInfoByID(265)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARLOCK,
+            },
+        },
         completed = {
             type = "quest",
             id = 40623,
@@ -11401,7 +12284,12 @@ BtWQuests_Chains = {
         name = "Skull of the Man'ari",--select(2, GetSpecializationInfoByID(266)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARLOCK,
+            },
+        },
         completed = {
             type = "quest",
             id = 42125,
@@ -11439,7 +12327,12 @@ BtWQuests_Chains = {
         name = "Scepter of Sargeras",--select(2, GetSpecializationInfoByID(267)),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARLOCK,
+            },
+        },
         completed = {
             type = "quest",
             id = 43254,
@@ -11477,7 +12370,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARLOCK,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -11496,7 +12394,12 @@ BtWQuests_Chains = {
         name = "Broken Shore Follower",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARLOCK,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -11515,7 +12418,12 @@ BtWQuests_Chains = {
         name = "Class Mount",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARLOCK,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -11537,7 +12445,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(71)), "Strom'kar, the Warbreaker"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARRIOR,
+            },
+        },
         completed = {
             type = "quest",
             id = 41105,
@@ -11557,7 +12470,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(72)), "Warswords of the Valarjar"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARRIOR,
+            },
+        },
         completed = {
             type = "quest",
             id = 40043,
@@ -11577,7 +12495,12 @@ BtWQuests_Chains = {
         name = string.format("%s: %s", select(2, GetSpecializationInfoByID(73)), "Scale of the Earth-Warder"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARRIOR,
+            },
+        },
         completed = {
             type = "quest",
             id = 39191,
@@ -11597,7 +12520,12 @@ BtWQuests_Chains = {
         name = "Class Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARRIOR,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -11616,7 +12544,12 @@ BtWQuests_Chains = {
         name = "Broken Shore Follower",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARRIOR,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -11635,7 +12568,12 @@ BtWQuests_Chains = {
         name = "Class Mount",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        class = BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_WARRIOR,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
@@ -11656,12 +12594,17 @@ BtWQuests_Chains = {
         name = "The Thieving Apprentice",
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        classes = {
-            BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-            BTWQUESTS_CLASS_ID_DEMONHUNTER,
-            BTWQUESTS_CLASS_ID_HUNTER,
-            BTWQUESTS_CLASS_ID_ROGUE,
-            BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "classes",
+                classes = {
+                    BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    BTWQUESTS_CLASS_ID_HUNTER,
+                    BTWQUESTS_CLASS_ID_ROGUE,
+                    BTWQUESTS_CLASS_ID_WARRIOR,
+                },
+            },
         },
         completed = {
             type = "quest",
@@ -11672,7 +12615,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -11726,8 +12669,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Blood: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -11736,8 +12684,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Unholy: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -11748,8 +12701,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Vengeance: Seeking Kor'vas",
-                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 4,
                 y = 5,
@@ -11760,8 +12718,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
                 name = "Beast Mastery: Rumblings Near Feltotem",
-                class = BTWQUESTS_CLASS_ID_HUNTER,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -11770,8 +12733,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Marksmanship: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_HUNTER,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -11782,8 +12750,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Assassination: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_ROGUE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -11792,8 +12765,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Outlaw: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_ROGUE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -11804,8 +12782,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Fury: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -11814,8 +12797,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Protection: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -11825,7 +12813,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47046,
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -11835,7 +12828,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47043,
-                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    }
+                },
                 x = 2,
                 y = 5,
                 connections = {
@@ -11845,7 +12843,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47047,
-                class = BTWQUESTS_CLASS_ID_HUNTER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -11855,7 +12858,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47048,
-                class = BTWQUESTS_CLASS_ID_ROGUE,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -11865,7 +12873,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44914,
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -11933,12 +12946,17 @@ BtWQuests_Chains = {
         name = "Fate of the Tideskorn",
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        classes = {
-            BTWQUESTS_CLASS_ID_PALADIN,
-            BTWQUESTS_CLASS_ID_MAGE,
-            BTWQUESTS_CLASS_ID_ROGUE,
-            BTWQUESTS_CLASS_ID_SHAMAN,
-            BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "classes",
+                classes = {
+                    BTWQUESTS_CLASS_ID_PALADIN,
+                    BTWQUESTS_CLASS_ID_MAGE,
+                    BTWQUESTS_CLASS_ID_ROGUE,
+                    BTWQUESTS_CLASS_ID_SHAMAN,
+                    BTWQUESTS_CLASS_ID_WARLOCK,
+                },
+            },
         },
         completed = {
             type = "quest",
@@ -11949,7 +12967,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -12003,8 +13021,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Holy: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_PALADIN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12013,8 +13036,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Protection: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_PALADIN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12025,8 +13053,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Fire: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_MAGE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12035,8 +13068,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Frost: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_MAGE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12047,8 +13085,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Elemental: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12057,8 +13100,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Restoration: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12069,8 +13117,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Outlaw: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_ROGUE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12079,8 +13132,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
                 name = "Subtlety: The Thieving Apprentice",
-                class = BTWQUESTS_CLASS_ID_ROGUE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12091,8 +13149,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Affliction: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12101,8 +13164,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
                 name = "Destruction: Rumblings Near Feltotem",
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12112,7 +13180,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47052,
-                class = BTWQUESTS_CLASS_ID_PALADIN,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -12122,7 +13195,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45482,
-                class = BTWQUESTS_CLASS_ID_MAGE,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -12132,7 +13210,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47051,
-                class = BTWQUESTS_CLASS_ID_ROGUE,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -12142,7 +13225,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47050,
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -12152,7 +13240,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47049,
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -12238,24 +13331,29 @@ BtWQuests_Chains = {
         name = "Aid of the Illidari",
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        classes = {
-            BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-            BTWQUESTS_CLASS_ID_DEMONHUNTER,
-            BTWQUESTS_CLASS_ID_DRUID,
-            BTWQUESTS_CLASS_ID_MONK,
-            BTWQUESTS_CLASS_ID_PALADIN,
-            BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "classes",
+                classes = {
+                    BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    BTWQUESTS_CLASS_ID_DRUID,
+                    BTWQUESTS_CLASS_ID_MONK,
+                    BTWQUESTS_CLASS_ID_PALADIN,
+                    BTWQUESTS_CLASS_ID_WARRIOR,
+                },
+            },
         },
         completed = {
             type = "quest",
             id = 45863,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -12310,8 +13408,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
                 name = "Frost: The Thieving Apprentice",
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12320,8 +13423,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Outlaw: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12332,8 +13440,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
                 name = "Havoc: The Thieving Apprentice",
-                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 2,
                 y = 5,
@@ -12344,8 +13457,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Balance: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 0,
                 y = 5,
@@ -12354,8 +13472,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Feral: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 2,
                 y = 5,
@@ -12364,8 +13487,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Restoration: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 6,
                 y = 5,
@@ -12376,8 +13504,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Holy: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_PALADIN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12386,8 +13519,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Retribution: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_PALADIN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12398,8 +13536,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Mistweaver: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_MONK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12408,8 +13551,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
                 name = "Windwalker: Rumblings Near Feltotem",
-                class = BTWQUESTS_CLASS_ID_MONK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12420,8 +13568,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
                 name = "Arms: The Thieving Apprentice",
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12430,8 +13583,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Fury: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12441,7 +13599,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47025,
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -12451,7 +13614,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46314,
-                class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    }
+                },
                 x = 4,
                 y = 5,
                 connections = {
@@ -12461,7 +13629,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47023,
-                class = BTWQUESTS_CLASS_ID_DRUID,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
                 x = 4,
                 y = 5,
                 connections = {
@@ -12471,7 +13644,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47024,
-                class = BTWQUESTS_CLASS_ID_MONK,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -12481,7 +13659,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47022,
-                class = BTWQUESTS_CLASS_ID_PALADIN,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -12491,7 +13674,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45412,
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -12559,12 +13747,17 @@ BtWQuests_Chains = {
         name = "The Bradensbrook Investigation",
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        classes = {
-            BTWQUESTS_CLASS_ID_DRUID,
-            BTWQUESTS_CLASS_ID_PALADIN,
-            BTWQUESTS_CLASS_ID_PRIEST,
-            BTWQUESTS_CLASS_ID_MONK,
-            BTWQUESTS_CLASS_ID_SHAMAN,
+        restrictions = {
+            {
+                type = "classes",
+                classes = {
+                    BTWQUESTS_CLASS_ID_DRUID,
+                    BTWQUESTS_CLASS_ID_PALADIN,
+                    BTWQUESTS_CLASS_ID_PRIEST,
+                    BTWQUESTS_CLASS_ID_MONK,
+                    BTWQUESTS_CLASS_ID_SHAMAN,
+                },
+            },
         },
         completed = {
             type = "quest",
@@ -12575,7 +13768,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -12629,8 +13822,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Balance: The Twisted Twin",--select(2, BtWQuests_GetQuestByID(47037)),
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 0,
                 y = 5,
@@ -12639,8 +13837,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Feral: The Folly of Levia Laurence",--select(2, BtWQuests_GetQuestByID(47059)),
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 2,
                 y = 5,
@@ -12649,8 +13852,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Guardian: Aid of the Illidari",--select(2, BtWQuests_GetQuestByID(47023)),
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 4,
                 y = 5,
@@ -12661,8 +13869,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Protection: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_PALADIN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12671,8 +13884,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Retribution: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_PALADIN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12683,8 +13901,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
                 name = "Discipline: Rumblings Near Feltotem",
-                class = BTWQUESTS_CLASS_ID_PRIEST,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12693,8 +13916,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Shadow: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_PRIEST,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12705,8 +13933,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Brewmaster: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_MONK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12715,8 +13948,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
                 name = "Windwalker: Rumblings Near Feltotem",
-                class = BTWQUESTS_CLASS_ID_MONK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12727,8 +13965,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Elemental: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12737,8 +13980,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Enchantment: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12748,7 +13996,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47004,
-                class = BTWQUESTS_CLASS_ID_DRUID,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
                 x = 6,
                 y = 5,
                 connections = {
@@ -12758,7 +14011,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47006,
-                class = BTWQUESTS_CLASS_ID_PALADIN,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -12768,7 +14026,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46078,
-                class = BTWQUESTS_CLASS_ID_PRIEST,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -12778,7 +14041,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47005,
-                class = BTWQUESTS_CLASS_ID_MONK,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -12788,7 +14056,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47003,
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -12874,11 +14147,16 @@ BtWQuests_Chains = {
         name = "Rumblings Near Feltotem",
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        classes = {
-            BTWQUESTS_CLASS_ID_HUNTER,
-            BTWQUESTS_CLASS_ID_PRIEST,
-            BTWQUESTS_CLASS_ID_MONK,
-            BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "classes",
+                classes = {
+                    BTWQUESTS_CLASS_ID_HUNTER,
+                    BTWQUESTS_CLASS_ID_PRIEST,
+                    BTWQUESTS_CLASS_ID_MONK,
+                    BTWQUESTS_CLASS_ID_WARLOCK,
+                },
+            },
         },
         completed = {
             type = "quest",
@@ -12889,7 +14167,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -12942,8 +14220,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Marksmanship: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_HUNTER,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12952,8 +14235,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
                 name = "Survival: The Thieving Apprentice",
-                class = BTWQUESTS_CLASS_ID_HUNTER,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12964,8 +14252,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Holy: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_PRIEST,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -12974,8 +14267,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Shadow: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_PRIEST,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -12986,8 +14284,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Brewmaster: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_MONK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -12996,8 +14299,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Mistweaver: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_MONK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13008,8 +14316,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Affliction: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13018,8 +14331,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Demonology: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13029,7 +14347,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47018,
-                class = BTWQUESTS_CLASS_ID_HUNTER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -13039,7 +14362,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47020,
-                class = BTWQUESTS_CLASS_ID_PRIEST,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -13049,7 +14377,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47019,
-                class = BTWQUESTS_CLASS_ID_MONK,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MONK,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -13059,7 +14392,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45560,
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -13145,13 +14483,18 @@ BtWQuests_Chains = {
         name = "The Folly of Levia Laurence",
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        classes = {
-            BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-            BTWQUESTS_CLASS_ID_DRUID,
-            BTWQUESTS_CLASS_ID_MAGE,
-            BTWQUESTS_CLASS_ID_ROGUE,
-            BTWQUESTS_CLASS_ID_SHAMAN,
-            BTWQUESTS_CLASS_ID_WARRIOR,
+        restrictions = {
+            {
+                type = "classes",
+                classes = {
+                    BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    BTWQUESTS_CLASS_ID_DRUID,
+                    BTWQUESTS_CLASS_ID_MAGE,
+                    BTWQUESTS_CLASS_ID_ROGUE,
+                    BTWQUESTS_CLASS_ID_SHAMAN,
+                    BTWQUESTS_CLASS_ID_WARRIOR,
+                },
+            },
         },
         completed = {
             type = "quest",
@@ -13162,7 +14505,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -13217,8 +14560,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Blood: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13227,8 +14575,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
                 name = "Frost: The Thieving Apprentice",
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13239,8 +14592,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Balance: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 0,
                 y = 5,
@@ -13249,8 +14607,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Guardian: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 4,
                 y = 5,
@@ -13259,8 +14622,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Restoration: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 6,
                 y = 5,
@@ -13271,8 +14639,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Assassination: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_ROGUE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13281,8 +14654,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
                 name = "Subtlety: The Thieving Apprentice",
-                class = BTWQUESTS_CLASS_ID_ROGUE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13293,8 +14671,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Enchantment: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13303,8 +14686,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Restoration: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13315,8 +14703,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Arcane: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_MAGE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13325,8 +14718,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
                 name = "Frost: The Twisted Twin",
-                class = BTWQUESTS_CLASS_ID_MAGE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13337,8 +14735,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
                 name = "Arms: The Thieving Apprentice",
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13347,8 +14750,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Protection: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13358,7 +14766,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47050,
-                class = BTWQUESTS_CLASS_ID_SHAMAN,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -13368,7 +14781,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47059,
-                class = BTWQUESTS_CLASS_ID_DRUID,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
                 x = 2,
                 y = 5,
                 connections = {
@@ -13378,7 +14796,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47055,
-                class = BTWQUESTS_CLASS_ID_MAGE,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -13388,7 +14811,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47056,
-                class = BTWQUESTS_CLASS_ID_WARRIOR,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -13398,7 +14826,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47058,
-                class = BTWQUESTS_CLASS_ID_ROGUE,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_ROGUE,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -13408,7 +14841,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47057,
-                class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -13494,12 +14932,17 @@ BtWQuests_Chains = {
         name = "The Twisted Twin",
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        classes = {
-            BTWQUESTS_CLASS_ID_DRUID,
-            BTWQUESTS_CLASS_ID_HUNTER,
-            BTWQUESTS_CLASS_ID_PRIEST,
-            BTWQUESTS_CLASS_ID_MAGE,
-            BTWQUESTS_CLASS_ID_WARLOCK,
+        restrictions = {
+            {
+                type = "classes",
+                classes = {
+                    BTWQUESTS_CLASS_ID_DRUID,
+                    BTWQUESTS_CLASS_ID_HUNTER,
+                    BTWQUESTS_CLASS_ID_PRIEST,
+                    BTWQUESTS_CLASS_ID_MAGE,
+                    BTWQUESTS_CLASS_ID_WARLOCK,
+                },
+            },
         },
         completed = {
             type = "quest",
@@ -13510,7 +14953,7 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46744,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -13564,8 +15007,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Feral: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 2,
                 y = 5,
@@ -13574,8 +15022,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
                 name = "Guardian: Aid of the Illidari",
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 4,
                 y = 5,
@@ -13584,8 +15037,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Restoration: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_DRUID,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
+                aside = true,
                 dontScroll = true,
                 x = 6,
                 y = 5,
@@ -13596,8 +15054,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
                 name = "Beast Mastery: Rumblings Near Feltotem",
-                class = BTWQUESTS_CLASS_ID_HUNTER,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13606,8 +15069,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
                 name = "Survival: The Thieving Apprentice",
-                class = BTWQUESTS_CLASS_ID_HUNTER,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13618,8 +15086,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
                 name = "Discipline: Rumblings Near Feltotem",
-                class = BTWQUESTS_CLASS_ID_PRIEST,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13628,8 +15101,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
                 name = "Holy: The Bradensbrook Investigation",
-                class = BTWQUESTS_CLASS_ID_PRIEST,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13640,8 +15118,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Arcane: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_MAGE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 1,
                 y = 5,
@@ -13650,8 +15133,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
                 name = "Fire: The Folly of Levia Laurence",
-                class = BTWQUESTS_CLASS_ID_MAGE,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13662,8 +15150,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
                 name = "Demonology: Fate of the Tideskorn",
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 3,
                 y = 5,
@@ -13672,8 +15165,13 @@ BtWQuests_Chains = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
                 name = "Destruction: Rumblings Near Feltotem",
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
-                optional = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
+                aside = true,
                 dontScroll = true,
                 x = 5,
                 y = 5,
@@ -13683,7 +15181,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47041,
-                class = BTWQUESTS_CLASS_ID_WARLOCK,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
                 x = 1,
                 y = 5,
                 connections = {
@@ -13693,7 +15196,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47037,
-                class = BTWQUESTS_CLASS_ID_DRUID,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    },
+                },
                 x = 0,
                 y = 5,
                 connections = {
@@ -13703,7 +15211,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 45182,
-                class = BTWQUESTS_CLASS_ID_MAGE,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -13713,7 +15226,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47039,
-                class = BTWQUESTS_CLASS_ID_HUNTER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
                 x = 3,
                 y = 5,
                 connections = {
@@ -13723,7 +15241,12 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 47042,
-                class = BTWQUESTS_CLASS_ID_PRIEST,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
                 x = 5,
                 y = 5,
                 connections = {
@@ -13812,83 +15335,33 @@ BtWQuests_Quests = {
         source = {
             name = "Order Hall",
         },
-        requirements = {
-            {
-                type = "level",
-                amount = 110,
-            },
-        },
     },
     
     [40668] = {
         name = "The Heart of Zin-Azshari",
         difficulty = "mythic",
         tagID = QUEST_TAG_DUNGEON,
-        requirements = {
-            {
-                type = "quest",
-                id = 43496,
-            },
-        },
     },
     
     
     [43514] = {
         name = "A Vainglorious Past",
-        requirements = {
-            {
-                type = "quest",
-                id = 40668,
-            },
-        },
     },
     [43517] = {
         name = "Fallen Power",
         difficulty = "mythic",
         tagID = QUEST_TAG_DUNGEON,
-        requirements = {
-            {
-                type = "quest",
-                id = 40668,
-            },
-        },
     },
     [43518] = {
         name = "Tempering Darkness",
-        requirements = {
-            {
-                type = "quest",
-                id = 40668,
-            },
-        },
     },
     
     
     [43519] = {
         name = "Lucid Stength",
-        requirements = {
-            {
-                type = "quest",
-                id = 43514,
-            },
-            {
-                type = "quest",
-                id = 43517,
-            },
-            {
-                type = "quest",
-                id = 43518,
-            }
-        }
     },
     [43581] = {
         name = "The Wisdom of Patience",
-        requirements = {
-            {
-                type = "quest",
-                id = 43519,
-            },
-        },
     },
     
     
@@ -13896,56 +15369,22 @@ BtWQuests_Quests = {
         name = "In Nightmares",
         difficulty = "normal",
         tagID = QUEST_TAG_RAID,
-        requirements = {
-            {
-                type = "quest",
-                id = 43519,
-            },
-        },
     },
     [43521] = {
         name = "Essence of Power",
         difficulty = "normal",
         tagID = QUEST_TAG_RAID,
-        requirements = {
-            {
-                type = "quest",
-                id = 43519,
-            },
-        },
     },
     
     
     [43522] = {
         name = "Essential Consumption",
-        requirements = {
-            {
-                type = "quest",
-                id = 43520,
-            },
-            {
-                type = "quest",
-                id = 43521,
-            }
-        }
     },
     [43523] = {
         name = "Repaid Debt",
-        requirements = {
-            {
-                type = "quest",
-                id = 43522,
-            },
-        },
     },
     [40673] = {
         name = "Lost Knowledge",
-        requirements = {
-            {
-                type = "quest",
-                id = 43523,
-            },
-        },
     },
     
     
@@ -13954,54 +15393,22 @@ BtWQuests_Quests = {
         name = "Borrowing Without Asking",
         difficulty = "mythic",
         tagID = QUEST_TAG_DUNGEON,
-        requirements = {
-            {
-                type = "quest",
-                id = 40673,
-            },
-        },
     },
     [40675] = {
         name = "Rite of the Captain",
         difficulty = "mythic",
         tagID = QUEST_TAG_DUNGEON,
-        requirements = {
-            {
-                type = "quest",
-                id = 40673,
-            },
-        },
     },
     [43524] = {
         name = "Literary Perfection",
         difficulty = "mythic",
         tagID = QUEST_TAG_DUNGEON,
-        requirements = {
-            {
-                type = "quest",
-                id = 40673,
-            },
-        },
     },
     
     
     [40678] = {
         name = "Twisted Power",
         tagID = QUEST_TAG_GROUP,
-        requirements = {
-            {
-                type = "quest",
-                id = 43525,
-            },
-            {
-                type = "quest",
-                id = 40675,
-            },
-            {
-                type = "quest",
-                id = 43524,
-            }
-        }
     },
     
     
@@ -14334,9 +15741,21 @@ BtWQuests_Quests = {
     },
     [40794] = {
         name = "Fate of the Queen's Reprisal",
+        restrictions = {
+            {
+                type = "faction",
+                faction = "Alliance",
+            },
+        },
     },
     [42244] = {
         name = "Fate of the Queen's Reprisal",
+        restrictions = {
+            {
+                type = "faction",
+                faction = "Horde",
+            },
+        },
     },
     
     
@@ -15115,10 +16534,22 @@ BtWQuests_Quests = {
     [44489] = {
         name = "Lyana Darksorrow",
         level = 110,
+        restrictions = {
+            {
+                type = "class",
+                class = 12,
+            }
+        },
     },
     [40297] = {
         name = "Lyana Darksorrow",
         level = 110,
+        restrictions = {
+            {
+                type = "classes",
+                classes = {1,2,3,4,5,6,7,8,9,10,11},
+            }
+        },
     },
     [40307] = {
         name = "Glaive Circumstances",
@@ -15428,6 +16859,10 @@ BtWQuests_Quests = {
     
     
     
+	[41215] = {
+		["name"] = "They Become The Hunted",
+		["level"] = 110,
+	},
     [42223] = {
         name = "Scouting the Crimson Thicket",
         level = 110,
@@ -17054,10 +18489,22 @@ BtWQuests_Quests = {
     [42504] = {
         name = "The Unseen Blade",
         level = -1,
+        restrictions = {
+            {
+                type = "faction",
+                faction = "Alliance",
+            },
+        }
     },
     [42627] = {
         name = "The Unseen Blade",
         level = -1,
+        restrictions = {
+            {
+                type = "faction",
+                faction = "Horde",
+            },
+        }
     },
     [40847] = {
         name = "A Friendly Accord",
@@ -18840,6 +20287,10 @@ BtWQuests_Quests = {
         name = "Meld Into the Shadows",
         level = 110,
     },
+    [46827] = {
+        name = "Meld Into the Shadows",
+        level = 110,
+    },
     [45833] = {
         name = "The Pirate's Bay",
         level = 110,
@@ -18856,11 +20307,23 @@ BtWQuests_Quests = {
         name = "Rise Up",
         level = 110,
     },
+    [45576] = {
+        name = "Rise Up",
+        level = 110,
+    },
     [45836] = {
         name = "Jorach's Calling",
         level = 110,
     },
+    [46326] = {
+        name = "Jorach's Calling",
+        level = 110,
+    },
     [45628] = {
+        name = "This Time, Leave a Trail",
+        level = 110,
+    },
+    [45629] = {
         name = "This Time, Leave a Trail",
         level = 110,
     },
