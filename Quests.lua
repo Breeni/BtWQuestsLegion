@@ -12672,7 +12672,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT] = {
-        name = "Class Mount",
+        name = "Mount: Battlelord's Bloodthirsty War Wyrm",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -12681,17 +12681,41 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_WARRIOR,
             },
         },
+        prerequisites = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46207,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46208,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46207,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -21001,6 +21025,14 @@ BtWQuests_Quests = {
 	},
 	[45834] = {
 		["name"] = "Stolen Souls",
+		["level"] = 110,
+	},
+	[46207] = {
+		["name"] = "The Trial of Rage",
+		["level"] = 110,
+	},
+	[46208] = {
+		["name"] = "A Godly Invitation",
 		["level"] = 110,
 	},
     
