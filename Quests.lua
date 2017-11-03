@@ -237,10 +237,10 @@ BtWQuests_Expansions = {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
         -- },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        },
         {
             type = "category",
             id = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
@@ -655,9 +655,18 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE] = {
@@ -6323,7 +6332,7 @@ BtWQuests_Chains = {
                 y = 2,
                 connections = {
                     --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    3
+                    4
                 },
             },
             
@@ -6403,16 +6412,21 @@ BtWQuests_Chains = {
                     -- 6
                 -- },
             -- },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_PRIEST,
-                -- x = 3,
-                -- y = 3,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PRIEST,
+                    }
+                },
+                x = 3,
+                y = 3,
                 -- connections = {
                     -- 5
                 -- },
-            -- },
+            },
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
@@ -10631,7 +10645,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Aelthalyste",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10642,15 +10656,128 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46034,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45343,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 45344,
+                x = 1,
+                y = 2,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 45346,
+                x = 3,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45345,
+                x = 5,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45347,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45348,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45349,
+                x = 3,
+                y = 5,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 45350,
+                x = 2,
+                y = 6,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45342,
+                x = 4,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46145,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46034,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                aside = true,
+                x = 3,
+                y = 9,
             },
         },
     },
@@ -20698,6 +20825,53 @@ BtWQuests_Quests = {
 	},
 	[46305] = {
 		["name"] = "Thorim's Flame",
+		["level"] = 110,
+	},
+    
+    
+
+	[45344] = {
+		["name"] = "Sampling the Source",
+		["level"] = 110,
+	},
+	[45345] = {
+		["name"] = "Mischievous Sprites",
+		["level"] = 110,
+	},
+	[45346] = {
+		["name"] = "Shambling Specimens",
+		["level"] = 110,
+	},
+	[45347] = {
+		["name"] = "Crafting a Cure",
+		["level"] = 110,
+	},
+	[45348] = {
+		["name"] = "Safekeeping",
+		["level"] = 110,
+	},
+	[45349] = {
+		["name"] = "To the Broken Shore",
+		["level"] = 110,
+	},
+	[45342] = {
+		["name"] = "Administering Aid",
+		["level"] = 110,
+	},
+	[45350] = {
+		["name"] = "Countering the Contagion",
+		["level"] = 110,
+	},
+	[45343] = {
+		["name"] = "A Curious Contagion",
+		["level"] = 110,
+	},
+	[46034] = {
+		["name"] = "Champion: Aelthalyste",
+		["level"] = 110,
+	},
+	[46145] = {
+		["name"] = "Sterile Surroundings",
 		["level"] = 110,
 	},
     
