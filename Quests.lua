@@ -9262,17 +9262,32 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
             },
         },
+        prerequisites = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
-            id = 40740,
+            id = 46334,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 40740,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46334,
+                x = 3,
+                y = 1,
             },
         },
     },
@@ -20880,6 +20895,10 @@ BtWQuests_Quests = {
 	},
 	[45764] = {
 		["name"] = "Restoring Equilibrium",
+		["level"] = 110,
+	},
+	[46334] = {
+		["name"] = "To Fel and Back",
 		["level"] = 110,
 	},
     
