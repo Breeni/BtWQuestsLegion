@@ -217,10 +217,10 @@ BtWQuests_Expansions = {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
         -- },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+        },
         -- {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
@@ -560,9 +560,18 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER] = {
@@ -6323,7 +6332,7 @@ BtWQuests_Chains = {
                 y = 2,
                 connections = {
                     --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    3
+                    4
                 },
             },
             
@@ -6353,16 +6362,21 @@ BtWQuests_Chains = {
                     -- 11
                 -- },
             -- },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_DRUID,
-                -- x = 3,
-                -- y = 3,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DRUID,
+                    }
+                },
+                x = 3,
+                y = 3,
                 -- connections = {
                     -- 10
                 -- },
-            -- },
+            },
             -- {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
@@ -9458,7 +9472,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Thisalee Crow",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -9469,15 +9483,164 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 40740,
+            id = 46044,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 40740,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44869,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 44877,
+                x = 2,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45532,
+                x = 4,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44888,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44921,
+                x = 3,
+                y = 4,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 45498,
+                x = 2,
+                y = 5,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45528,
+                x = 4,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46924,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45426,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46674,
+                x = 3,
+                y = 8,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 46676,
+                x = 2,
+                y = 9,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 46675,
+                x = 4,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46677,
+                x = 3,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45425,
+                x = 3,
+                y = 11,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46044,
+                x = 3,
+                y = 12,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                aside = true,
+                x = 3,
+                y = 13,
             },
         },
     },
@@ -20698,6 +20861,69 @@ BtWQuests_Quests = {
 	},
 	[46305] = {
 		["name"] = "Thorim's Flame",
+		["level"] = 110,
+	},
+    
+    
+
+	[45532] = {
+		["name"] = "Mother's Orders",
+		["level"] = 110,
+	},
+	[44888] = {
+		["name"] = "Aviana's Grace",
+		["level"] = 110,
+	},
+	[46674] = {
+		["name"] = "The Preservation of Nature",
+		["level"] = 110,
+	},
+	[46044] = {
+		["name"] = "Champion: Thisalee Crow",
+		["level"] = 110,
+	},
+	[46675] = {
+		["name"] = "To Track a Demon",
+		["level"] = 110,
+	},
+	[45498] = {
+		["name"] = "Let Sleeping Dogs Lie",
+		["level"] = 110,
+	},
+	[44921] = {
+		["name"] = "Lone Wolf",
+		["level"] = 110,
+	},
+	[44869] = {
+		["name"] = "Talon Terror",
+		["level"] = 110,
+	},
+	[44877] = {
+		["name"] = "Attack on the Roost",
+		["level"] = 110,
+	},
+	[45425] = {
+		["name"] = "Grovebound",
+		["level"] = 110,
+	},
+	[46676] = {
+		["name"] = "Nature's Touch",
+		["level"] = 110,
+	},
+	[45426] = {
+		["name"] = "Nature's Advance",
+		["level"] = 110,
+	},
+	[45528] = {
+		["name"] = "The Befouled Barrows",
+		["level"] = 110,
+	},
+	[46924] = {
+		["name"] = "The Wolf's Tale",
+		["level"] = 110,
+	},
+	[46677] = {
+		["name"] = "Prick of a Thistle",
 		["level"] = 110,
 	},
     
