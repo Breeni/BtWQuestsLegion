@@ -203,6 +203,8 @@ BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM = 138
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER = 139
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS = 140
 
+BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ANNOYING_FOLLOWER = 141
+
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
         {
@@ -225,10 +227,10 @@ BtWQuests_Expansions = {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
         -- },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        },
         -- {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
@@ -601,6 +603,22 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ANNOYING_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK] = {
@@ -6323,7 +6341,7 @@ BtWQuests_Chains = {
                 y = 2,
                 connections = {
                     --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    3
+                    4
                 },
             },
             
@@ -6373,16 +6391,21 @@ BtWQuests_Chains = {
                     -- 9
                 -- },
             -- },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_MAGE,
-                -- x = 3,
-                -- y = 3,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_MAGE,
+                    }
+                },
+                x = 3,
+                y = 3,
                 -- connections = {
                     -- 8
                 -- },
-            -- },
+            },
             -- {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
@@ -9929,7 +9952,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Aethas Sunreaver",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -9942,13 +9965,247 @@ BtWQuests_Chains = {
             type = "quest",
             id = 100,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45437,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44766,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46335,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46338,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45207,
+                x = 3,
+                y = 5,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 46705,
+                x = 2,
+                y = 6,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 46339,
+                x = 4,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46345,
+                x = 3,
+                y = 7,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 44768,
+                x = 2,
+                y = 8,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 44770,
+                x = 4,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46351,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45251,
+                x = 3,
+                y = 10,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 45614,
+                x = 2,
+                y = 11,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45586,
+                x = 4,
+                y = 11,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46000,
+                x = 3,
+                y = 12,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46290,
+                x = 3,
+                y = 13,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46043,
+                x = 3,
+                y = 14,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                aside = true,
+                x = 3,
+                y = 15,
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ANNOYING_FOLLOWER] = {
+        name = "Champion: The Great Akazamzarak",
+        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        restrictions = {
+            {
+                type = "class",
+                class = BTWQUESTS_CLASS_ID_MAGE,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 46724,
+        },
+        range = {110},
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45615,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45630,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46722,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46723,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46724,
+                x = 3,
+                y = 5,
             },
         },
     },
@@ -20698,6 +20955,97 @@ BtWQuests_Quests = {
 	},
 	[46305] = {
 		["name"] = "Thorim's Flame",
+		["level"] = 110,
+	},
+    
+    
+
+	[46705] = {
+		["name"] = "Retaliation",
+		["level"] = 110,
+	},
+	[46335] = {
+		["name"] = "The Vault of the Tirisgarde",
+		["level"] = 110,
+	},
+	[45251] = {
+		["name"] = "Redundancy",
+		["level"] = 110,
+	},
+	[46338] = {
+		["name"] = "A Creative Solution",
+		["level"] = 110,
+	},
+	[46339] = {
+		["name"] = "Keymaster Orlis",
+		["level"] = 110,
+	},
+	[46000] = {
+		["name"] = "Arming Dalaran",
+		["level"] = 110,
+	},
+	[45630] = {
+		["name"] = "Servant to No One",
+		["level"] = 110,
+	},
+	[46345] = {
+		["name"] = "Into the Hornet's Nest",
+		["level"] = 110,
+	},
+	[44766] = {
+		["name"] = "Backup Plan",
+		["level"] = 110,
+	},
+	[44768] = {
+		["name"] = "Nyell's Workshop",
+		["level"] = 110,
+	},
+	[46722] = {
+		["name"] = "Nothing Up My Sleeve",
+		["level"] = 110,
+	},
+	[46351] = {
+		["name"] = "Keep it Secret, Keep it Safe",
+		["level"] = 110,
+	},
+	[46290] = {
+		["name"] = "Return of the Archmage",
+		["level"] = 110,
+	},
+	[46043] = {
+		["name"] = "Champion: Aethas Sunreaver",
+		["level"] = 110,
+	},
+	[45207] = {
+		["name"] = "The Nightborne Apprentice",
+		["level"] = 110,
+	},
+	[46724] = {
+		["name"] = "Champion: The Great Akazamzarak",
+		["level"] = 110,
+	},
+	[46723] = {
+		["name"] = "Down the Rabbit Hole",
+		["level"] = 110,
+	},
+	[45614] = {
+		["name"] = "Lady Remor'za",
+		["level"] = 110,
+	},
+	[45615] = {
+		["name"] = "Finders Keepers",
+		["level"] = 110,
+	},
+	[45437] = {
+		["name"] = "An Urgent Situation",
+		["level"] = 110,
+	},
+	[45586] = {
+		["name"] = "Shield Amplification",
+		["level"] = 110,
+	},
+	[44770] = {
+		["name"] = "Secrets of the Shal'dorei",
 		["level"] = 110,
 	},
     
