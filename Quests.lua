@@ -10782,7 +10782,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT] = {
-        name = "Class Mount",
+        name = "Mount: High Priest's Lightsworn Seeker",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10791,17 +10791,41 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_PRIEST,
             },
         },
+        prerequisites = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
-            id = 100,
+            id = 45789,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45788,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45789,
+                x = 3,
+                y = 2,
             },
         },
     },
@@ -20872,6 +20896,14 @@ BtWQuests_Quests = {
 	},
 	[46145] = {
 		["name"] = "Sterile Surroundings",
+		["level"] = 110,
+	},
+	[45788] = {
+		["name"] = "The Speaker Awaits",
+		["level"] = 110,
+	},
+	[45789] = {
+		["name"] = "The Sunken Vault",
 		["level"] = 110,
 	},
     
