@@ -6344,7 +6344,7 @@ BtWQuests_Chains = {
                 y = 2,
                 connections = {
                     --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    3
+                    4
                 },
             },
             
@@ -6414,16 +6414,21 @@ BtWQuests_Chains = {
                     -- 7
                 -- },
             -- },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_PALADIN,
-                -- x = 3,
-                -- y = 3,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
+                x = 3,
+                y = 3,
                 -- connections = {
                     -- 6
                 -- },
-            -- },
+            },
             -- {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
@@ -10403,7 +10408,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Nerus Moonfang",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10414,15 +10419,117 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46045,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47137,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45143,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45890,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46259,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45145,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45146,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45147,
+                x = 3,
+                y = 7,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 45148,
+                x = 2,
+                y = 8,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45149,
+                x = 4,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46045,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                aside = true,
+                x = 3,
+                y = 10,
             },
         },
     },
@@ -21111,6 +21218,46 @@ BtWQuests_Quests = {
 	[45174] = {
 		name = "The Hunt for Illidan Stormrage",
 		level = 110,
+	},
+    
+    
+    
+
+	[46259] = {
+		["name"] = "Darkbinder Dilemma",
+		["level"] = 110,
+	},
+	[45143] = {
+		["name"] = "Judgment Awaits",
+		["level"] = 110,
+	},
+	[45145] = {
+		["name"] = "Moonfang Family Relics",
+		["level"] = 110,
+	},
+	[45146] = {
+		["name"] = "Runic Reading",
+		["level"] = 110,
+	},
+	[45147] = {
+		["name"] = "Felstone Destruction",
+		["level"] = 110,
+	},
+	[45890] = {
+		["name"] = "Ancestors and Enemies",
+		["level"] = 110,
+	},
+	[45148] = {
+		["name"] = "Oath Breaker",
+		["level"] = 110,
+	},
+	[45149] = {
+		["name"] = "Ending the Crescent Curse",
+		["level"] = 110,
+	},
+	[46045] = {
+		["name"] = "Champion: Nerus Moonfang",
+		["level"] = 110,
 	},
     
     
