@@ -249,10 +249,10 @@ BtWQuests_Expansions = {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
         -- },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
+        },
         -- {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
@@ -721,9 +721,18 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR] = {
@@ -6323,7 +6332,7 @@ BtWQuests_Chains = {
                 y = 2,
                 connections = {
                     --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    3
+                    4
                 },
             },
             
@@ -6438,16 +6447,21 @@ BtWQuests_Chains = {
                     -- 3
                 -- },
             -- },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_WARLOCK,
-                -- x = 3,
-                -- y = 3,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    }
+                },
+                x = 3,
+                y = 3,
                 -- connections = {
                     -- 2
                 -- },
-            -- },
+            },
             -- {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER,
@@ -12266,7 +12280,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Kanrethad Ebonlocke",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -12277,15 +12291,110 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46047,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45021,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 45024,
+                x = 2,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45025,
+                x = 4,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45026,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45794,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45027,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45028,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46020,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46047,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                aside = true,
+                x = 3,
+                y = 9,
             },
         },
     },
@@ -20698,6 +20807,45 @@ BtWQuests_Quests = {
 	},
 	[46305] = {
 		["name"] = "Thorim's Flame",
+		["level"] = 110,
+	},
+    
+    
+
+	[45794] = {
+		["name"] = "Informing the Council",
+		["level"] = 110,
+	},
+	[46020] = {
+		["name"] = "Crystal Containment",
+		["level"] = 110,
+	},
+	[45024] = {
+		["name"] = "Cult Culling",
+		["level"] = 110,
+	},
+	[45025] = {
+		["name"] = "Stealing the Source of Power",
+		["level"] = 110,
+	},
+	[45026] = {
+		["name"] = "Expending Fel Energy",
+		["level"] = 110,
+	},
+	[45027] = {
+		["name"] = "To the Broken Shore",
+		["level"] = 110,
+	},
+	[45028] = {
+		["name"] = "The Fate of Kanrethad",
+		["level"] = 110,
+	},
+	[45021] = {
+		["name"] = "Answers Unknown",
+		["level"] = 110,
+	},
+	[46047] = {
+		["name"] = "Champion: Kanrethad Ebonlocke",
 		["level"] = 110,
 	},
     
