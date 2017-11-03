@@ -9645,7 +9645,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT] = {
-        name = "Class Mount",
+        name = "Mount: Archdruid's Lunarwing Form",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -9654,17 +9654,50 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_DRUID,
             },
         },
+        prerequisites = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
-            id = 40740,
+            id = 46319,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 40740,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46317,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46318,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46319,
+                x = 3,
+                y = 3,
             },
         },
     },
@@ -20924,6 +20957,18 @@ BtWQuests_Quests = {
 	},
 	[46677] = {
 		["name"] = "Prick of a Thistle",
+		["level"] = 110,
+	},
+	[46319] = {
+		["name"] = "You Can't Take the Sky from Me",
+		["level"] = 110,
+	},
+	[46318] = {
+		["name"] = "Defense of Aviana",
+		["level"] = 110,
+	},
+	[46317] = {
+		["name"] = "Talon's Call",
 		["level"] = 110,
 	},
     
