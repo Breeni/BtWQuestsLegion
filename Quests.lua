@@ -213,10 +213,10 @@ BtWQuests_Expansions = {
             type = "category",
             id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
+        },
         -- {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
@@ -540,9 +540,18 @@ BtWQuests_Categories = {
         items = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID] = {
@@ -6323,7 +6332,7 @@ BtWQuests_Chains = {
                 y = 2,
                 connections = {
                     --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    3
+                    4
                 },
             },
             
@@ -6343,16 +6352,21 @@ BtWQuests_Chains = {
                     -- 12
                 -- },
             },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
-                -- x = 3,
-                -- y = 3,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    }
+                },
+                x = 3,
+                y = 3,
                 -- connections = {
                     -- 11
                 -- },
-            -- },
+            },
             -- {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
@@ -9094,7 +9108,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Lady S'theno",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -9105,15 +9119,136 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 40740,
+            id = 45391,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 40740,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46159,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45301,
+                x = 3,
+                y = 2,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 45330,
+                x = 2,
+                y = 3,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45329,
+                x = 4,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 45339,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45385,
+                x = 3,
+                y = 5,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 45764,
+                x = 1,
+                y = 6,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 46725,
+                x = 3,
+                y = 6,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45798,
+                x = 5,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 46266,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45391,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                aside = true,
+                x = 3,
+                y = 9,
             },
         },
     },
@@ -20698,6 +20833,53 @@ BtWQuests_Quests = {
 	},
 	[46305] = {
 		["name"] = "Thorim's Flame",
+		["level"] = 110,
+	},
+    
+    
+
+	[45329] = {
+		["name"] = "Operation: Portals",
+		["level"] = 110,
+	},
+	[45330] = {
+		["name"] = "Scouting Party",
+		["level"] = 110,
+	},
+	[45301] = {
+		["name"] = "Taking Charge",
+		["level"] = 110,
+	},
+	[45339] = {
+		["name"] = "Defense of the Fel Hammer",
+		["level"] = 110,
+	},
+	[45385] = {
+		["name"] = "We Must be Prepared!",
+		["level"] = 110,
+	},
+	[45798] = {
+		["name"] = "War'zuul the Provoker",
+		["level"] = 110,
+	},
+	[46159] = {
+		["name"] = "An Urgent Message",
+		["level"] = 110,
+	},
+	[45391] = {
+		["name"] = "Champion: Lady S'theno",
+		["level"] = 110,
+	},
+	[46725] = {
+		["name"] = "Power Outage",
+		["level"] = 110,
+	},
+	[46266] = {
+		["name"] = "Return of the Slayer",
+		["level"] = 110,
+	},
+	[45764] = {
+		["name"] = "Restoring Equilibrium",
 		["level"] = 110,
 	},
     
