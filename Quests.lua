@@ -10210,7 +10210,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT] = {
-        name = "Class Mount",
+        name = "Mount: Archmage's Prismatic Disc",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10219,17 +10219,70 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_MAGE,
             },
         },
+        prerequisites = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
-            id = 100,
+            id = 45354,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45844,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 45845,
+                x = 1,
+                y = 2,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 45846,
+                x = 3,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45847,
+                x = 5,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 45354,
+                x = 3,
+                y = 3,
             },
         },
     },
@@ -21046,6 +21099,26 @@ BtWQuests_Quests = {
 	},
 	[44770] = {
 		["name"] = "Secrets of the Shal'dorei",
+		["level"] = 110,
+	},
+	[45354] = {
+		["name"] = "Dispersion of the Discs",
+		["level"] = 110,
+	},
+	[45846] = {
+		["name"] = "Chilled to the Core",
+		["level"] = 110,
+	},
+	[45845] = {
+		["name"] = "Burning Within",
+		["level"] = 110,
+	},
+	[45847] = {
+		["name"] = "Close to Home",
+		["level"] = 110,
+	},
+	[45844] = {
+		["name"] = "Avocation of Antonidas",
 		["level"] = 110,
 	},
     
