@@ -10543,17 +10543,86 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_PALADIN,
             },
         },
+        prerequisites = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46069,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46070,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46071,
+                x = 3,
+                y = 3,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
+                x = 1,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46083,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46074,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45770,
+                x = 3,
+                y = 6,
             },
         },
     },
@@ -21257,6 +21326,30 @@ BtWQuests_Quests = {
 	},
 	[46045] = {
 		["name"] = "Champion: Nerus Moonfang",
+		["level"] = 110,
+	},
+	[46070] = {
+		["name"] = "Preparations Underway",
+		["level"] = 110,
+	},
+	[45770] = {
+		["name"] = "Stirring in the Shadows",
+		["level"] = 110,
+	},
+	[46074] = {
+		["name"] = "Leather to Legendary",
+		["level"] = 110,
+	},
+	[46083] = {
+		["name"] = "A Few Things First",
+		["level"] = 110,
+	},
+	[46071] = {
+		["name"] = "The Hammer of Dalaran",
+		["level"] = 110,
+	},
+	[46069] = {
+		["name"] = "Worthy of the Title",
 		["level"] = 110,
 	},
     
