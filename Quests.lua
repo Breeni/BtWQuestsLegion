@@ -1085,18 +1085,18 @@ BtWQuests_Categories = {
         name = "Hidden",
         expansion = BTWQUESTS_EXPANSION_LEGION,
         items = {
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_HIDDEN_KOSUMOTH,
-            },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_HIDDEN_KOSUMOTH,
+            -- },
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM,
             },
-            {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_HIDDEN_SUNDARTER,
-            },
+            -- {
+                -- type = "chain",
+                -- id = BTWQUESTS_CHAIN_LEGION_HIDDEN_SUNDARTER,
+            -- },
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE,
@@ -15264,7 +15264,7 @@ BtWQuests_Chains = {
         expansion = BTWQUESTS_EXPANSION_LEGION,
         completed = {
             type = "quest",
-            id = 45866,
+            id = 47214,
         },
         range = {110},
         items = {
@@ -15330,10 +15330,10 @@ BtWQuests_Chains = {
                 name = "Page 845 found in the Siege of Orgrimmar",
                 onClick = function ()
                     if GetRealZoneText() ~= "Siege of Orgrimmar" then
-                        BtWQuests_ShowMapWithWaypoint(811, 0, 0.735, 0.417, "Step 5: Siege of Orgrimmar")
-                        BtWQuests_AddWaypoint(953, 3, 0.205, 0.822, "Step 5: Page 845")
+                        BtWQuests_ShowMapWithWaypoint(811, 0, 0.7393, 0.4221, "Step 5: Siege of Orgrimmar")
+                        BtWQuests_AddWaypoint(953, 3, 0.1991, 0.8232, "Step 5: Page 845")
                     else
-                        BtWQuests_ShowMapWithWaypoint(953, 3, 0.205, 0.822, "Step 5: Page 845")
+                        BtWQuests_ShowMapWithWaypoint(953, 3, 0.1991, 0.8232, "Step 5: Page 845")
                     end
                 end,
                 id = 47210,
@@ -15348,10 +15348,10 @@ BtWQuests_Chains = {
                 name = "Page 1127 found in the Well of Eternity",
                 onClick = function ()
                     if GetRealZoneText() ~= "Well of Eternity" then
-                        BtWQuests_ShowMapWithWaypoint(606, 0, 0.4777, 0.7784, "Step 6: Well of Eternity")
-                        BtWQuests_AddWaypoint(816, 0, 0.753, 0.653, "Step 6: Page 1127")
+                        BtWQuests_ShowMapWithWaypoint(161, 18, 0.2295, 0.6437, "Step 6: Well of Eternity")
+                        BtWQuests_AddWaypoint(816, 0, 0.753, 0.66, "Step 6: Page 1127")
                     else
-                        BtWQuests_ShowMapWithWaypoint(816, 0, 0.753, 0.653, "Step 6: Page 1127")
+                        BtWQuests_ShowMapWithWaypoint(816, 0, 0.753, 0.66, "Step 6: Page 1127")
                     end
                 end,
                 id = 47211,
@@ -15365,7 +15365,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 name = "Page 2351 found in Kun-Lai Summit",
                 onClick = function ()
-                    BtWQuests_ShowMapWithWaypoint(809, 0, 0.346, 0.509, "Step 7: Page 2351")
+                    BtWQuests_ShowMapWithWaypoint(809, 0, 0.3463, 0.5089, "Step 7: Page 2351")
                 end,
                 id = 47212,
                 x = 3,
@@ -15378,9 +15378,9 @@ BtWQuests_Chains = {
                 type = "quest",
                 name = "Page 5555 found in Uldum",
                 onClick = function ()
-                    BtWQuests_ShowMapWithWaypoint(720, 0, 0.764, 0.536, "Step 8: Page 5555")
+                    BtWQuests_ShowMapWithWaypoint(720, 0, 0.7644, 0.5358, "Step 8: Page 5555")
                 end,
-                id = 47212,
+                id = 47213,
                 x = 3,
                 y = 7,
                 connections = {
@@ -15388,9 +15388,11 @@ BtWQuests_Chains = {
                 }
             },
             {
+                type = "quest",
                 name = "Riddler's Mind-Worm in Westfall",
+                id = 47214,
                 onClick = function ()
-                    BtWQuests_ShowMapWithWaypoint(39, 0, 0.305, 0.28, "Step 9: Riddler's Mind-Worm")
+                    BtWQuests_ShowMapWithWaypoint(39, 0, 0.3051, 0.2755, "Step 9: Riddler's Mind-Worm")
                 end,
                 x = 3,
                 y = 8
