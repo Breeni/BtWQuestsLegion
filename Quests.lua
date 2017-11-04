@@ -15270,12 +15270,130 @@ BtWQuests_Chains = {
         items = {
             {
                 type = "quest",
-                id = 46744,
+                name = "Page 9 found in The Legerdemain Lounge",
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(1014, 10, 0.49, 0.42, "Step 1: Page 9")
+                end,
+                id = 45470,
                 x = 3,
                 y = 0,
                 connections = {
                     1,
                 }
+            },
+            {
+                type = "quest",
+                name = "Page 78 found in Duskwood",
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(34, 0, 0.49, 0.33, "Step 2: Page 78")
+                end,
+                id = 47207,
+                x = 3,
+                y = 1,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Page 161 found in Firelands",
+                onClick = function ()
+                    if GetRealZoneText() ~= "Firelands" then
+                        BtWQuests_ShowMapWithWaypoint(606, 0, 0.4777, 0.7784, "Step 3: Firelands")
+                        BtWQuests_AddWaypoint(800, 3, 0.47, 0.1658, "Step 3: Page 161")
+                    else
+                        BtWQuests_ShowMapWithWaypoint(800, 3, 0.47, 0.1658, "Step 3: Page 161")
+                    end
+                end,
+                id = 47208,
+                x = 3,
+                y = 2,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Page 655 found in Uldum",
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(720, 0, 0.7045, 0.7808, "Step 4: Page 655")
+                end,
+                id = 47209,
+                x = 3,
+                y = 3,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Page 845 found in the Siege of Orgrimmar",
+                onClick = function ()
+                    if GetRealZoneText() ~= "Siege of Orgrimmar" then
+                        BtWQuests_ShowMapWithWaypoint(811, 0, 0.735, 0.417, "Step 5: Siege of Orgrimmar")
+                        BtWQuests_AddWaypoint(953, 3, 0.205, 0.822, "Step 5: Page 845")
+                    else
+                        BtWQuests_ShowMapWithWaypoint(953, 3, 0.205, 0.822, "Step 5: Page 845")
+                    end
+                end,
+                id = 47210,
+                x = 3,
+                y = 4,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Page 1127 found in the Well of Eternity",
+                onClick = function ()
+                    if GetRealZoneText() ~= "Well of Eternity" then
+                        BtWQuests_ShowMapWithWaypoint(606, 0, 0.4777, 0.7784, "Step 6: Well of Eternity")
+                        BtWQuests_AddWaypoint(816, 0, 0.753, 0.653, "Step 6: Page 1127")
+                    else
+                        BtWQuests_ShowMapWithWaypoint(816, 0, 0.753, 0.653, "Step 6: Page 1127")
+                    end
+                end,
+                id = 47211,
+                x = 3,
+                y = 5,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Page 2351 found in Kun-Lai Summit",
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(809, 0, 0.346, 0.509, "Step 7: Page 2351")
+                end,
+                id = 47212,
+                x = 3,
+                y = 6,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Page 5555 found in Uldum",
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(720, 0, 0.764, 0.536, "Step 8: Page 5555")
+                end,
+                id = 47212,
+                x = 3,
+                y = 7,
+                connections = {
+                    1,
+                }
+            },
+            {
+                name = "Riddler's Mind-Worm in Westfall",
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(39, 0, 0.305, 0.28, "Step 9: Riddler's Mind-Worm")
+                end,
+                x = 3,
+                y = 8
             },
         },
     },
