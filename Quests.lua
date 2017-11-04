@@ -39,6 +39,8 @@ BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN = 22
 BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK = 23
 BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR = 24
 
+BTWQUESTS_CATEGORY_LEGION_HIDDEN = 25
+
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER = 1
 
 BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES = 2
@@ -203,6 +205,11 @@ BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM = 138
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER = 139
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS = 140
 
+BTWQUESTS_CHAIN_LEGION_HIDDEN_KOSUMOTH = 141
+BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM = 142
+BTWQUESTS_CHAIN_LEGION_HIDDEN_SUNDARTER = 143
+BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE = 144
+
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
         {
@@ -284,6 +291,10 @@ BtWQuests_Expansions = {
         {
             type = "category",
             id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
         },
     }
 }
@@ -1069,7 +1080,29 @@ BtWQuests_Categories = {
                 id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
             },
         },
-    }
+    },
+    [BTWQUESTS_CATEGORY_LEGION_HIDDEN] = {
+        name = "Hidden",
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIDDEN_KOSUMOTH,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIDDEN_SUNDARTER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE,
+            },
+        },
+    },
 }
 
 BtWQuests_Chains = {
@@ -15199,6 +15232,160 @@ BtWQuests_Chains = {
                 id = 46127,
                 x = 3,
                 y = 13,
+            },
+        },
+    },
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_HIDDEN_KOSUMOTH] = {
+        name = "Rare: Kosumoth the Hungering",
+        category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 45866,
+        },
+        range = {110},
+        items = {
+            {
+                type = "quest",
+                id = 46744,
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                }
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM] = {
+        name = "Mount: Riddler's Mind-Worm",
+        category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 45866,
+        },
+        range = {110},
+        items = {
+            {
+                type = "quest",
+                id = 46744,
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                }
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_HIDDEN_SUNDARTER] = {
+        name = "Pet: Sun Darter Hatchling",
+        category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 45866,
+        },
+        range = {110},
+        items = {
+            {
+                type = "quest",
+                id = 46744,
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                }
+            },
+        },
+    },
+    [BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE] = {
+        name = "Mount: Lucid Nightmare",
+        category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        completed = {
+            type = "quest",
+            id = 47885,
+        },
+        range = {110},
+        items = {
+            {
+                type = "quest",
+                name = "Inconspicuous Note in Curiosities & Moore",
+                id = 47826,
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Inconspicuous Note in Ulduar",
+                id = 47837,
+                x = 3,
+                y = 1,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Inconspicuous Note in the Temple of Ahn'Qiraj",
+                id = 47841,
+                x = 3,
+                y = 2,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Inconspicuous Note in Deepholm",
+                id = 47850,
+                x = 3,
+                y = 3,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Inconspicuous Note in Gnomeregan",
+                id = 47852,
+                x = 3,
+                y = 4,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Inconspicuous Note in Val'Sharah",
+                id = 47863,
+                x = 3,
+                y = 5,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Inconspicuous Note in the Endless Halls",
+                id = 47881,
+                x = 3,
+                y = 6,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                name = "Your Lucid Nightmare below Karazhan",
+                id = 47885,
+                x = 3,
+                y = 7,
             },
         },
     },
