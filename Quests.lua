@@ -10293,7 +10293,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT] = {
-        name = "Class Mount",
+        name = "Mount: Ban-Lu, Grandmaster's Companion",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10302,17 +10302,113 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_MONK,
             },
         },
+        prerequisites = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46350,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46353,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46341,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46342,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46343,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46344,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46346,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46347,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46348,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46349,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46350,
+                x = 3,
+                y = 10,
             },
         },
     },
@@ -20859,6 +20955,46 @@ BtWQuests_Quests = {
 	},
 	[45449] = {
 		["name"] = "Alchemist Korlya",
+		["level"] = 110,
+	},
+	[46349] = {
+		["name"] = "Lilies for Ryuli",
+		["level"] = 110,
+	},
+	[46342] = {
+		["name"] = "Return to the Broken Peak",
+		["level"] = 110,
+	},
+	[46350] = {
+		["name"] = "The Trial of Ban-Lu",
+		["level"] = 110,
+	},
+	[46343] = {
+		["name"] = "The Trail of Ban-Lu",
+		["level"] = 110,
+	},
+	[46344] = {
+		["name"] = "Smelly's Luckydo",
+		["level"] = 110,
+	},
+	[46353] = {
+		["name"] = "Master Who?",
+		["level"] = 110,
+	},
+	[46346] = {
+		["name"] = "The Shadow of Ban-Lu",
+		["level"] = 110,
+	},
+	[46347] = {
+		["name"] = "Clean-up on Aisle Sha",
+		["level"] = 110,
+	},
+	[46348] = {
+		["name"] = "The River to Ban-Lu",
+		["level"] = 110,
+	},
+	[46341] = {
+		["name"] = "The Tale of Ban-Lu",
 		["level"] = 110,
 	},
     
