@@ -12399,7 +12399,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT] = {
-        name = "Class Mount",
+        name = "Mount: Netherlord's Chaotic Wrathsteed",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -12408,17 +12408,88 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_WARLOCK,
             },
         },
+        prerequisites = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46243,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46237,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 46238,
+                x = 1,
+                y = 2,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 46239,
+                x = 3,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 46240,
+                x = 5,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 46241,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46242,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46243,
+                x = 3,
+                y = 5,
             },
         },
     },
@@ -20846,6 +20917,34 @@ BtWQuests_Quests = {
 	},
 	[46047] = {
 		["name"] = "Champion: Kanrethad Ebonlocke",
+		["level"] = 110,
+	},
+	[46241] = {
+		["name"] = "The Minions of Hel'nurath",
+		["level"] = 110,
+	},
+	[46243] = {
+		["name"] = "The Wrathsteed of Xoroth",
+		["level"] = 110,
+	},
+	[46238] = {
+		["name"] = "If You Build It",
+		["level"] = 110,
+	},
+	[46240] = {
+		["name"] = "Give Me Fuel, Give Me Fire",
+		["level"] = 110,
+	},
+	[46242] = {
+		["name"] = "The Dreadlord's Calling",
+		["level"] = 110,
+	},
+	[46237] = {
+		["name"] = "Bloodbringer's Missive",
+		["level"] = 110,
+	},
+	[46239] = {
+		["name"] = "Fel to the Core",
 		["level"] = 110,
 	},
     
