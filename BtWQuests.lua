@@ -193,15 +193,35 @@ local function BtWQuests_GetItemName(item)
     end
 end
 
-local function BtWQuests_GetItemHidden(item)
+local function BtWQuests_GetItemVisible(item)
+    if item.visible ~= nil then
+        if type(item.visible) == "table" then
+            return BtWQuests_CheckRequirements(item.visible)
+        elseif type(item.visible) == "function" then
+            return item:visible()
+        else
+            return item.visible
+        end
+    end
+
+    if item.type == "quest" then
+        return BtWQuests_GetItemVisible(BtWQuests_Quests[item.id])
+    elseif item.type == "chain" then
+        return BtWQuests_GetItemVisible(BtWQuests_Chains[item.id])
+    else
+        return true
+    end
+end
+
+local function BtWQuests_GetItemSkip(item)
     if item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
         return true
     end
 
     if item.type == "quest" then
-        return BtWQuests_GetItemHidden(BtWQuests_Quests[item.id])
+        return BtWQuests_GetItemSkip(BtWQuests_Quests[item.id])
     elseif item.type == "chain" then
-        return BtWQuests_GetItemHidden(BtWQuests_Chains[item.id])
+        return BtWQuests_GetItemSkip(BtWQuests_Chains[item.id])
     else
         return false
     end
@@ -215,7 +235,7 @@ local BtWQuests_GetItemCompleted = BtWQuests_CheckRequirement
 -- @return hidden
 -- @return completed
 local function BtWQuests_GetItem(item)
-    return BtWQuests_GetItemName(item), BtWQuests_GetItemHidden(item), BtWQuests_GetItemCompleted(item)
+    return BtWQuests_GetItemName(item), BtWQuests_GetItemVisible(item), BtWQuests_GetItemCompleted(item)
 end
 
 --- Get the correct data for a Category or Chain Button
@@ -453,8 +473,8 @@ function BtWQuests_GetQuestByID(questID)
     local link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(questID), quest.level or -1, questName)
     return tonumber(questID), questName, (quest.link or link), quest.difficulty, quest.tagID
 end
--- side
--- hidden, name, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata
+
+-- skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
 function BtWQuests_GetChainItemByIndex(index)
     local chainID = BtWQuests_GetCurrentChain()
     if chainID == nil then
@@ -470,14 +490,22 @@ function BtWQuests_GetChainItemByIndex(index)
         assert(item.class == nil, string.format("Item %d in chain %d has a class set", index, chainID))
         assert(item.faction == nil, string.format("Item %d in chain %d has a faction set", index, chainID))
         
-        local hidden, name, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata = item.hidden, item.name, item.x, item.y, item.atlas, item.breadcrumb, item.aside, item.difficulty, item.tagID, item.status, item.dontScroll, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
-    
-        if hidden == nil and item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
-            hidden = true
+        local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = nil, item.name, item.visible or true, item.x, item.y, item.atlas, item.breadcrumb, item.aside, item.difficulty, item.tagID, item.status, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
+
+        if skip == nil and item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
+            skip = true
+            
+            return true
         end
         
         if type(name) == "function" then
             name = name(item)
+        end
+        
+        if type(visible) == "table" then
+            visible = BtWQuests_CheckRequirements(visible)
+        elseif type(visible) == "function" then
+            visible = visible(item)
         end
             
         if item.type == "quest" then
@@ -489,13 +517,25 @@ function BtWQuests_GetChainItemByIndex(index)
             
             assert(type(quest) == "table", "Error finding quest with id " .. tostring(item.id))
         
-            if hidden == nil and quest.restrictions and not BtWQuests_CheckRequirements(quest.restrictions) then
-                hidden = true
+            if skip == nil and quest.restrictions and not BtWQuests_CheckRequirements(quest.restrictions) then
+                skip = true
+            
+                return true
             end
         
             local questName = quest.name
             if type(questName) == "function" then
                 questName = questName(quest)
+            end
+        
+            if visible == nil and quest.visible then
+                visible = quest.visible
+            end
+        
+            if type(visible) == "table" then
+                visible = BtWQuests_CheckRequirements(visible)
+            elseif type(visible) == "function" then
+                visible = visible(quest)
             end
             
             name = name or questName
@@ -536,13 +576,25 @@ function BtWQuests_GetChainItemByIndex(index)
             
             assert(type(chain) == "table", "Error finding chain with id " .. tostring(item.id))
         
+            if skip == nil and chain.restrictions and not BtWQuests_CheckRequirements(chain.restrictions) then
+                skip = true
+            
+                return true
+            end
+        
             local chainName = chain.name
             if type(chainName) == "function" then
                 chainName = chainName(chain)
             end
         
-            if hidden == nil and chain.restrictions and not BtWQuests_CheckRequirements(chain.restrictions) then
-                hidden = true
+            if visible == nil and chain.visible then
+                visible = chain.visible
+            end
+        
+            if type(visible) == "table" then
+                visible = BtWQuests_CheckRequirements(visible)
+            elseif type(visible) == "function" then
+                visible = visible(chain)
             end
             
             name = name or chainName
@@ -572,7 +624,7 @@ function BtWQuests_GetChainItemByIndex(index)
             end
             
             onClick = onClick or function (self)
-                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link, self.dontScroll) then
+                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link, self.userdata.dontScroll) then
                     BtWQuestsTooltip:Hide();
                 end
             end
@@ -610,7 +662,7 @@ function BtWQuests_GetChainItemByIndex(index)
             assert(false, "Invalid item type: " .. tostring(item.type))
         end
         
-        return name, hidden, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, dontScroll, onClick, onEnter, onLeave, userdata
+        return skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
     end
 end
 
@@ -820,7 +872,7 @@ function BtWQuests_DisplayChain(dontScroll)
     
     local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
     for index = numItems, 1, -1 do
-        local name, hidden, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, itemDontScroll, onClick, onEnter, onLeave, userdata = BtWQuests_GetChainItemByIndex(index)
+        local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = BtWQuests_GetChainItemByIndex(index)
         local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
         local itemButton = scrollFrame["item"..index];
@@ -830,7 +882,8 @@ function BtWQuests_DisplayChain(dontScroll)
             scrollFrame["item"..index] = itemButton;
         end
         
-        if hidden then
+        itemButton.skip = skip
+        if skip then
             itemButton:Hide()
         
             if itemButton.backgroundLinePool then
@@ -870,7 +923,6 @@ function BtWQuests_DisplayChain(dontScroll)
             itemButton:SetScript("OnLeave", onLeave)
             itemButton.aside = aside
             itemButton.breadcrumb = breadcrumb
-            itemButton.dontScroll = itemDontScroll
             
             if breadcrumb and #connections > 0 and itemButton.status ~= 'complete' then
                 local isCompleted = false
@@ -937,7 +989,7 @@ function BtWQuests_DisplayChain(dontScroll)
                 local connection = index + connections[j]
                 local connectionItem = scrollFrame["item"..connection]
                 
-                if connectionItem and connectionItem:IsShown() then
+                if connectionItem and not connectionItem.skip then
                     local lineContainer = itemButton.backgroundLinePool:Acquire();
                     
                     lineContainer.Background:SetStartPoint("CENTER", itemButton);
@@ -968,17 +1020,18 @@ function BtWQuests_DisplayChain(dontScroll)
                         lineContainer.PulseAlpha:Play()
                     end
                     
-                    lineContainer:Show();
+                    lineContainer.connection = connectionItem
+                    lineContainer:SetShown(visible and connectionItem:IsShown());
                 end
             end
-
-            itemButton:Show();
             
             if itemButton.status == "active" or itemButton.status == "iscompletable" then
                 itemButton.ActiveTexture:Show()
             else
                 itemButton.ActiveTexture:Hide()
             end
+
+            itemButton:SetShown(visible);
         end
     end
     
@@ -1026,12 +1079,11 @@ function BtWQuests_UpdateChain(scroll)
         
         local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
         for index = numItems,1,-1 do
-            local _, hidden, _, _, _, breadcrumb, aside, _, _, status, _, _, _, _ = BtWQuests_GetChainItemByIndex(index)
+            local skip, _, visible, _, _, _, breadcrumb, aside, _, _, status, _, _, _, _ = BtWQuests_GetChainItemByIndex(index)
             local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
 			local itemButton = scrollFrame["item"..index];
-
-            if not hidden then
+            if not skip then
                 itemButton.newStatus = status
             
                 if breadcrumb and #connections > 0 and itemButton.newStatus ~= 'complete' then
@@ -1155,6 +1207,12 @@ function BtWQuests_UpdateChain(scroll)
                 
                 itemButton.status = itemButton.newStatus
                 itemButton.newStatus = nil -- Dont want to confuse the code next time
+                
+                for lineContainer in itemButton.backgroundLinePool:EnumerateActive() do
+                    lineContainer:SetShown(visible and lineContainer.connection:IsShown());
+                end
+                
+                itemButton:SetShown(visible)
             end
         end
         
@@ -1352,8 +1410,8 @@ function BtWQuestsTooltip_SetChain(chainID)
     
     local actualNumPrerequisites = numPrerequisites
 	for i = 1, numPrerequisites do
-		local name, hidden, completed = BtWQuests_GetChainPrerequisiteByID(chainID, i);
-        if hidden then
+		local name, visible, completed = BtWQuests_GetChainPrerequisiteByID(chainID, i);
+        if not visible then
             actualNumPrerequisites = actualNumPrerequisites - 1
         else
             if ( not tooltip.Lines[i] ) then

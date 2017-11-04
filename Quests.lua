@@ -10892,15 +10892,64 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3, 4, 5, 6
                 },
             },
+            
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40842) or IsQuestFlaggedCompleted(40843) or IsQuestFlaggedCompleted(40844))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 3,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40842) or IsQuestFlaggedCompleted(40843) or IsQuestFlaggedCompleted(40844))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40842) or IsQuestFlaggedCompleted(40843) or IsQuestFlaggedCompleted(40844))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 3,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
+                visible = {
+                    {
+                        type = "quest",
+                        id = 40842
+                    }
+                },
+                x = 3,
                 y = 3,
                 connections = {
                     3
@@ -10909,7 +10958,12 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
-                breadcrumb = true,
+                visible = {
+                    {
+                        type = "quest",
+                        id = 40843
+                    }
+                },
                 x = 3,
                 y = 3,
                 connections = {
@@ -10919,13 +10973,20 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
-                breadcrumb = true,
-                x = 5,
+                visible = {
+                    {
+                        type = "quest",
+                        id = 40844
+                    }
+                },
+                x = 3,
                 y = 3,
                 connections = {
                     1
                 },
             },
+            
+            
             
             {
                 type = "quest",
@@ -12551,7 +12612,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -12566,7 +12627,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -12583,7 +12644,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 4,
                 y = 5,
             },
@@ -12600,7 +12661,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -12615,7 +12676,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -12632,7 +12693,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -12647,7 +12708,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -12664,7 +12725,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -12679,7 +12740,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -12903,7 +12964,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -12918,7 +12979,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -12935,7 +12996,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -12950,7 +13011,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -12967,7 +13028,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -12982,7 +13043,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -12999,7 +13060,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -13014,7 +13075,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -13031,7 +13092,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -13046,7 +13107,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -13290,7 +13351,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -13305,7 +13366,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -13322,7 +13383,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 2,
                 y = 5,
             },
@@ -13339,7 +13400,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 0,
                 y = 5,
             },
@@ -13354,7 +13415,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 2,
                 y = 5,
             },
@@ -13369,7 +13430,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 6,
                 y = 5,
             },
@@ -13386,7 +13447,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -13401,7 +13462,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -13418,7 +13479,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -13433,7 +13494,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -13450,7 +13511,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -13465,7 +13526,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -13704,7 +13765,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 0,
                 y = 5,
             },
@@ -13719,7 +13780,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 2,
                 y = 5,
             },
@@ -13734,7 +13795,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 4,
                 y = 5,
             },
@@ -13751,7 +13812,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -13766,7 +13827,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -13783,7 +13844,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -13798,7 +13859,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -13815,7 +13876,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -13830,7 +13891,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -13847,7 +13908,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -13862,7 +13923,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -14102,7 +14163,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -14117,7 +14178,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -14134,7 +14195,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -14149,7 +14210,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -14166,7 +14227,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -14181,7 +14242,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -14198,7 +14259,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -14213,7 +14274,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -14442,7 +14503,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -14457,7 +14518,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -14474,7 +14535,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 0,
                 y = 5,
             },
@@ -14489,7 +14550,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 4,
                 y = 5,
             },
@@ -14504,7 +14565,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 6,
                 y = 5,
             },
@@ -14521,7 +14582,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -14536,7 +14597,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -14553,7 +14614,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -14568,7 +14629,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -14585,7 +14646,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -14600,7 +14661,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -14617,7 +14678,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -14632,7 +14693,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -14889,7 +14950,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 2,
                 y = 5,
             },
@@ -14904,7 +14965,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 4,
                 y = 5,
             },
@@ -14919,7 +14980,7 @@ BtWQuests_Chains = {
                     },
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 6,
                 y = 5,
             },
@@ -14936,7 +14997,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -14951,7 +15012,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
@@ -14968,7 +15029,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -14983,7 +15044,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -15000,7 +15061,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 1,
                 y = 5,
             },
@@ -15015,7 +15076,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -15032,7 +15093,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 3,
                 y = 5,
             },
@@ -15047,7 +15108,7 @@ BtWQuests_Chains = {
                     }
                 },
                 aside = true,
-                dontScroll = true,
+                userdata = {dontScroll = true},
                 x = 5,
                 y = 5,
             },
