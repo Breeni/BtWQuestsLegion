@@ -21438,6 +21438,10 @@ BtWQuests_Quests = {
 		["name"] = "Fel to the Core",
 		["level"] = 110,
 	},
+	[40821] = {
+		["name"] = "Power Overwhelming",
+		["level"] = 110,
+	},
     
     
     
