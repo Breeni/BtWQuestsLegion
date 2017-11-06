@@ -6467,8 +6467,7 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    --1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                    4
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
                 },
             },
             
@@ -6484,9 +6483,9 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 12
-                -- },
+                connections = {
+                    12
+                },
             },
             {
                 type = "chain",
@@ -6499,9 +6498,9 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 11
-                -- },
+                connections = {
+                    11
+                },
             },
             {
                 type = "chain",
@@ -6514,19 +6513,24 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 10
-                -- },
+                connections = {
+                    10
+                },
             },
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
-                class = BTWQUESTS_CLASS_ID_HUNTER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_HUNTER,
+                    }
+                },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 9
-                -- },
+                connections = {
+                    9
+                },
             },
             {
                 type = "chain",
@@ -6539,9 +6543,9 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 8
-                -- },
+                connections = {
+                    8
+                },
             },
             {
                 type = "chain",
@@ -6554,9 +6558,9 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 7
-                -- },
+                connections = {
+                    7
+                },
             },
             {
                 type = "chain",
@@ -6584,9 +6588,9 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 5
-                -- },
+                connections = {
+                    5
+                },
             },
             {
                 type = "chain",
@@ -6599,9 +6603,9 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 4
-                -- },
+                connections = {
+                    4
+                },
             },
             {
                 type = "chain",
@@ -6614,9 +6618,9 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 3
-                -- },
+                connections = {
+                    3
+                },
             },
             {
                 type = "chain",
@@ -6629,9 +6633,9 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 2
-                -- },
+                connections = {
+                    2
+                },
             },
             {
                 type = "chain",
@@ -6644,9 +6648,9 @@ BtWQuests_Chains = {
                 },
                 x = 3,
                 y = 3,
-                -- connections = {
-                    -- 1
-                -- },
+                connections = {
+                    1
+                },
             },
             
             
