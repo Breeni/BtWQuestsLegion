@@ -12423,9 +12423,449 @@ BtWQuests_Chains = {
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 42814,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
                 x = 3,
                 y = 0,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 41052,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 42815,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 1,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 38904,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39654,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40579,
+                x = 3,
+                y = 3,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
+                breadcrumb = true,
+                x = 1,
+                y = 4,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
+                breadcrumb = true,
+                x = 3,
+                y = 4,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+                breadcrumb = true,
+                x = 5,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 39530,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39192,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39214,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40585,
+                x = 3,
+                y = 8,
+                connections = {
+                    2
+                },
+            },
+            
+            
+            
+            {
+                type = "level",
+                level = 101,
+                x = 5,
+                y = 8.5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42597,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42598,
+                x = 3,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42607,
+                x = 3,
+                y = 11,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42609,
+                x = 3,
+                y = 12,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42610,
+                x = 3,
+                y = 13,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42611,
+                x = 3,
+                y = 14,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43750,
+                x = 3,
+                y = 15,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42193,
+                x = 3,
+                y = 16,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42194,
+                x = 3,
+                y = 17,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42650,
+                x = 3,
+                y = 18,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42651,
+                x = 3,
+                y = 19,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 42107,
+                x = 2,
+                y = 20,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 42614,
+                x = 4,
+                y = 20,
+                connections = {
+                    2
+                },
+            },
+            
+            
+            {
+                type = "level",
+                level = 103,
+                x = 6,
+                y = 20.5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42110,
+                x = 3,
+                y = 21,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42202,
+                x = 3,
+                y = 22,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42204,
+                x = 3,
+                y = 23,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43585,
+                x = 2,
+                y = 24,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 43975,
+                x = 4,
+                y = 24,
+                connections = {
+                    2
+                },
+            },
+            
+            
+            {
+                type = "level",
+                level = 110,
+                x = 6,
+                y = 24.5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43586,
+                x = 3,
+                y = 25,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43604,
+                aside = true,
+                x = 1,
+                y = 25,
+            },
+            {
+                type = "quest",
+                id = 43090,
+                x = 3,
+                y = 26,
+                connections = {
+                    1, 2, 3, 4
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 42616,
+                x = 1,
+                y = 26,
+            },
+            {
+                type = "quest",
+                id = 42618,
+                x = 5,
+                y = 26,
+            },
+            
+            
+            {
+                type = "quest",
+                id = 42918,
+                x = 2,
+                y = 27,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 44667,
+                x = 4,
+                y = 27,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43506,
+                x = 3,
+                y = 28,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43577,
+                x = 3,
+                y = 29,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42974,
+                x = 3,
+                y = 30,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 42619,
+                x = 2,
+                y = 31,
+            },
+            {
+                type = "quest",
+                id = 43425,
+                x = 4,
+                y = 31,
             },
         },
     },
@@ -19975,10 +20415,6 @@ BtWQuests_Quests = {
     },
     
     
-        [42814] = {
-        name = "Odyn and the Valarjar",
-        level = -1,
-    },
     [40579] = {
         name = "Weapons of Legend",
         level = -1,
@@ -21033,6 +21469,38 @@ BtWQuests_Quests = {
 	},
 	[46208] = {
 		["name"] = "A Godly Invitation",
+		["level"] = 110,
+	},
+	[42815] = {
+		["name"] = "Return to the Broken Shore",
+		["level"] = 110,
+	},
+	[39654] = {
+		["name"] = "Odyn and the Valarjar",
+		["level"] = 110,
+	},
+	[42814] = {
+		["name"] = "An Important Mission",
+		["level"] = 110,
+	},
+	[42202] = {
+		["name"] = "Revenge, Served Cold",
+		["level"] = 110,
+	},
+	[43604] = {
+		["name"] = "Maw of Souls: Ymiron's Broken Blade",
+		["level"] = 110,
+	},
+	[42194] = {
+		["name"] = "Stolen Honor",
+		["level"] = 110,
+	},
+	[43750] = {
+		["name"] = "The Call of Battle",
+		["level"] = 110,
+	},
+	[43090] = {
+		["name"] = "Ulduar's Oath",
 		["level"] = 110,
 	},
     
