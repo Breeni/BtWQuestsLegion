@@ -148,8 +148,10 @@ local function BtWQuests_CheckRequirement(item)
         return UnitLevel("player") >= item.level
     elseif item.type == "achievement" then
         return select(13, GetAchievementInfo(item.id))
-    else
+    elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
+    else
+        return item.onEval(item)
     end
 end
 
@@ -188,7 +190,7 @@ local function BtWQuests_GetItemName(item)
         return BtWQuests_GetItemName(BtWQuests_Chains[item.id])
     elseif item.type == "level" then
         return string.format(BTWQUESTS_LEVEL_TO, item.level)
-    else
+    elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
     end
 end

@@ -203,11 +203,17 @@ BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM = 138
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER = 139
 BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS = 140
 
+BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART = 141
+
 BtWQuests_Expansions = {
     [BTWQUESTS_EXPANSION_LEGION] = {
         {
             type = "category",
             id = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
+        },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
         },
         {
             type = "category",
@@ -233,10 +239,10 @@ BtWQuests_Expansions = {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
         -- },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+        },
         -- {
             -- type = "category",
             -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
@@ -489,6 +495,12 @@ BtWQuests_Categories = {
         name = BTWQUESTS_ORDERHALL,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         buttonImage = 1041999,
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
+            },
+        },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
         name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
@@ -636,9 +648,18 @@ BtWQuests_Categories = {
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
             -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
-            -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT,
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT,
+            },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST] = {
@@ -7617,6 +7638,20 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
             },
         },
+        prerequisites = {
+            {
+                hidden = true,
+                onEval = function (self)
+                    if IsQuestFlaggedCompleted(40715) and IsQuestFlaggedCompleted(40722) then -- First Artifact
+                        return true
+                    elseif IsQuestFlaggedCompleted(43962) and IsQuestFlaggedCompleted(40723) then -- Second Artifact
+                        return true
+                    elseif IsQuestFlaggedCompleted(44401) and IsQuestFlaggedCompleted(40724) then -- Third Artifact
+                        return true
+                    end
+                end
+            }
+        },
         completed = {
             type = "quest",
             id = 40740,
@@ -7764,15 +7799,74 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 1,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3, 4, 5, 6
                 },
             },
+            
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-                breadcrumb = true,
+                restrictions = {
+                    {
+                        onEval = function (self)
+                            return not(IsQuestFlaggedCompleted(40722) or IsQuestFlaggedCompleted(40723) or IsQuestFlaggedCompleted(40724))
+                        end
+                    }
+                },
                 x = 1,
+                y = 2,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
+                restrictions = {
+                    {
+                        onEval = function (self)
+                            return not(IsQuestFlaggedCompleted(40722) or IsQuestFlaggedCompleted(40723) or IsQuestFlaggedCompleted(40724))
+                        end
+                    }
+                },
+                x = 3,
+                y = 2,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+                restrictions = {
+                    {
+                        onEval = function (self)
+                            return not(IsQuestFlaggedCompleted(40722) or IsQuestFlaggedCompleted(40723) or IsQuestFlaggedCompleted(40724))
+                        end
+                    }
+                },
+                x = 5,
+                y = 2,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
+                restrictions = {
+                    {
+                        onEval = function (self)
+                            return IsQuestFlaggedCompleted(40722)
+                        end
+                    }
+                },
+                x = 3,
                 y = 2,
                 connections = {
                     3
@@ -7781,7 +7875,13 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-                breadcrumb = true,
+                restrictions = {
+                    {
+                        onEval = function (self)
+                            return IsQuestFlaggedCompleted(40723)
+                        end
+                    }
+                },
                 x = 3,
                 y = 2,
                 connections = {
@@ -7791,13 +7891,23 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-                breadcrumb = true,
-                x = 5,
+                restrictions = {
+                    {
+                        onEval = function (self)
+                            return IsQuestFlaggedCompleted(40724)
+                        end
+                    }
+                },
+                x = 3,
                 y = 2,
                 connections = {
                     1
                 },
             },
+            
+            
+            
+            
             {
                 type = "quest",
                 id = 39757,
@@ -15263,6 +15373,333 @@ BtWQuests_Chains = {
             },
         },
     },
+    
+    
+    [BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
+        name = "Light's Heart",
+        category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
+        expansion = BTWQUESTS_EXPANSION_LEGION,
+        requirements = {
+            {
+                type = "level",
+                level = 100,
+            },
+        },
+        completed = {
+            type = "quest",
+            id = 45866,
+        },
+        range = {100, 110},
+        items = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
+                breadcrumb = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                x = 3,
+                y = -1,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 42866,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44257,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                x = 3,
+                y = 1,
+                connections = {
+                    2,
+                }
+            },
+            {
+                type = "quest",
+                id = 44009,
+                restrictions = {
+                    {
+                        type = "classes",
+                        classes = {
+                            BTWQUESTS_CLASS_ID_WARRIOR,
+                            BTWQUESTS_CLASS_ID_HUNTER,
+                            BTWQUESTS_CLASS_ID_ROGUE,
+                            BTWQUESTS_CLASS_ID_PRIEST,
+                            BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                            BTWQUESTS_CLASS_ID_SHAMAN,
+                            BTWQUESTS_CLASS_ID_MAGE,
+                            BTWQUESTS_CLASS_ID_WARLOCK,
+                            BTWQUESTS_CLASS_ID_MONK,
+                            BTWQUESTS_CLASS_ID_DRUID,
+                            BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                        },
+                    },
+                },
+                x = 3,
+                y = 1,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44004,
+                x = 3,
+                y = 2,
+                connections = {
+                    2,
+                }
+            },
+            {
+                type = "quest",
+                id = 43705,
+                aside = true,
+                x = 1,
+                y = 2,
+            },
+            {
+                type = "quest",
+                id = 44153,
+                x = 3,
+                y = 3,
+                connections = {
+                    1, 3,
+                }
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
+                aside = true,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                x = 1,
+                y = 4,
+            },
+            
+            
+            {
+                type = "level",
+                level = 110,
+                x = 5,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 44337,
+                x = 3,
+                y = 4,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44448,
+                x = 3,
+                y = 5,
+                connections = {
+                    1,
+                }
+            },
+            {
+                name = "Return to your Order Hall",
+                breadcrumb = true,
+                x = 3,
+                y = 6,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44464,
+                x = 3,
+                y = 7,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44466,
+                x = 3,
+                y = 8,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44479,
+                x = 3,
+                y = 9,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 44480,
+                x = 3,
+                y = 10,
+                connections = {
+                    1, 2, 3,
+                }
+            },
+            {
+                type = "quest",
+                id = 44481,
+                restrictions = {
+                    {
+                        type = "classes",
+                        classes = {
+                            BTWQUESTS_CLASS_ID_WARRIOR,
+                            BTWQUESTS_CLASS_ID_PALADIN,
+                            BTWQUESTS_CLASS_ID_HUNTER,
+                            BTWQUESTS_CLASS_ID_ROGUE,
+                            BTWQUESTS_CLASS_ID_PRIEST,
+                            BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                            BTWQUESTS_CLASS_ID_SHAMAN,
+                            BTWQUESTS_CLASS_ID_MAGE,
+                            BTWQUESTS_CLASS_ID_WARLOCK,
+                            BTWQUESTS_CLASS_ID_MONK,
+                            BTWQUESTS_CLASS_ID_DRUID,
+                        },
+                    },
+                    {
+                        type = "achievement",
+                        id = 697,
+                        completed = true,
+                    },
+                    {
+                        type = "quest",
+                        id = 44496,
+                        active = false,
+                    },
+                },
+                x = 3,
+                y = 11,
+                connections = {
+                    3,
+                }
+            },
+            {
+                type = "quest",
+                id = 44496,
+                restrictions = {
+                    {
+                        type = "classes",
+                        classes = {
+                            BTWQUESTS_CLASS_ID_WARRIOR,
+                            BTWQUESTS_CLASS_ID_PALADIN,
+                            BTWQUESTS_CLASS_ID_HUNTER,
+                            BTWQUESTS_CLASS_ID_ROGUE,
+                            BTWQUESTS_CLASS_ID_PRIEST,
+                            BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                            BTWQUESTS_CLASS_ID_SHAMAN,
+                            BTWQUESTS_CLASS_ID_MAGE,
+                            BTWQUESTS_CLASS_ID_WARLOCK,
+                            BTWQUESTS_CLASS_ID_MONK,
+                            BTWQUESTS_CLASS_ID_DRUID,
+                        },
+                    },
+                    {
+                        type = "achievement",
+                        id = 697,
+                        completed = false,
+                    },
+                    {
+                        type = "quest",
+                        id = 44481,
+                        active = false,
+                    },
+                },
+                x = 3,
+                y = 11,
+                connections = {
+                    2,
+                }
+            },
+            {
+                type = "quest",
+                id = 44497,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    },
+                },
+                x = 3,
+                y = 11,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 45174,
+                x = 3,
+                y = 12,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 45175,
+                x = 3,
+                y = 13,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 45176,
+                x = 3,
+                y = 14,
+                connections = {
+                    1,
+                }
+            },
+            {
+                type = "quest",
+                id = 45177,
+                x = 3,
+                y = 15,
+            },
+        },
+    },
 }
 
 BtWQuests_Quests = {
@@ -18152,6 +18589,10 @@ BtWQuests_Quests = {
         name = "Scouting Reports",
         level = -1,
     },
+    [44257] = {
+        name = "A Falling Star",
+        level = -1,
+    },
     [44009] = {
         name = "A Falling Star",
         level = -1,
@@ -20700,66 +21141,126 @@ BtWQuests_Quests = {
     
 
 	[46812] = {
-		["name"] = "Draconic Secrets",
-		["level"] = 110,
+		name = "Draconic Secrets",
+		level = 110,
 	},
 	[46813] = {
-		["name"] = "The Lost Glacier",
-		["level"] = 110,
+		name = "The Lost Glacier",
+		level = 110,
 	},
 	[46719] = {
-		["name"] = "Amal'thazad's Message",
-		["level"] = 110,
+		name = "Amal'thazad's Message",
+		level = 110,
 	},
 	[46720] = {
-		["name"] = "Frozen Memories",
-		["level"] = 110,
+		name = "Frozen Memories",
+		level = 110,
 	},
     
     
 	[44775] = {
-		["name"] = "The Peak of Bones",
-		["level"] = 110,
+		name = "The Peak of Bones",
+		level = 110,
 	},
 	[44783] = {
-		["name"] = "From Bones They Rise",
-		["level"] = 110,
+		name = "From Bones They Rise",
+		level = 110,
 	},
 	[45331] = {
-		["name"] = "Return to Acherus",
-		["level"] = 110,
+		name = "Return to Acherus",
+		level = 110,
 	},
 	[45399] = {
-		["name"] = "Severing the Sveldrek",
-		["level"] = 110,
+		name = "Severing the Sveldrek",
+		level = 110,
 	},
 	[45243] = {
-		["name"] = "On Daumyr's Wings",
-		["level"] = 110,
+		name = "On Daumyr's Wings",
+		level = 110,
 	},
 	[46050] = {
-		["name"] = "Champion: Minerva Ravensorrow",
-		["level"] = 110,
+		name = "Champion: Minerva Ravensorrow",
+		level = 110,
 	},
 	[44787] = {
-		["name"] = "The Bonemother",
-		["level"] = 110,
+		name = "The Bonemother",
+		level = 110,
 	},
 	[45240] = {
-		["name"] = "Making Preparations",
-		["level"] = 110,
+		name = "Making Preparations",
+		level = 110,
 	},
 	[45103] = {
-		["name"] = "We Ride!",
-		["level"] = 110,
+		name = "We Ride!",
+		level = 110,
 	},
 	[45398] = {
-		["name"] = "Harnessing Power",
-		["level"] = 110,
+		name = "Harnessing Power",
+		level = 110,
 	},
 	[46305] = {
-		["name"] = "Thorim's Flame",
-		["level"] = 110,
+		name = "Thorim's Flame",
+		level = 110,
+	},
+    
+    
+
+	[44337] = {
+		name = "Goddess Watch Over You",
+		level = 110,
+	},
+	[44479] = {
+		name = "Ravencrest's Legacy",
+		level = 110,
+	},
+	[44448] = {
+		name = "In the House of Light and Shadow",
+		level = 110,
+	},
+	[44464] = {
+		name = "Awakenings",
+		level = 110,
+	},
+	[44466] = {
+		name = "An Unclear Path",
+		level = 110,
+	},
+    
+	[45177] = {
+		name = "The Nighthold",
+		level = 110,
+	},
+	[44480] = {
+		name = "Destiny Unfulfilled",
+		level = 110,
+	},
+	[44481] = {
+		name = "Destiny Unfulfilled",
+		level = 110,
+	},
+	[44497] = {
+		name = "Destiny Unfulfilled",
+		level = 110,
+	},
+	[45176] = {
+		name = "Trial of Valor: The Once and Future Lord of Shadows",
+        difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
+		level = 110,
+	},
+	[44480] = {
+		name = "In My Father's House",
+		level = 110,
+	},
+	[45175] = {
+		name = "Soul Prism of the Illidari",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+		level = 110,
+	},
+	[45174] = {
+		name = "The Hunt for Illidan Stormrage",
+		level = 110,
 	},
     
     
