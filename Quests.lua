@@ -253,10 +253,10 @@ BtWQuests_Expansions = {
             type = "category",
             id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
         },
-        -- {
-            -- type = "category",
-            -- id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
-        -- },
+        {
+            type = "category",
+            id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
+        },
         {
             type = "category",
             id = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
@@ -754,7 +754,6 @@ BtWQuests_Categories = {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT,
             },
-        },
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE] = {
