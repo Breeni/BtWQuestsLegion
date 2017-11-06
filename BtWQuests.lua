@@ -683,6 +683,31 @@ function BtWQuests_GetChainItemConnectorsByIndex(index)
     end
 end
 
+function BtWQuests_AddWaypoint(mapId, level, x, y, name)
+    if TomTom and TomTom.AddMFWaypoint then
+        TomTom:AddMFWaypoint(mapId, level, x, y, {
+            title = name,
+        })
+    end
+end
+
+function BtWQuests_ShowMapWithWaypoint(mapId, level, x, y, name)
+    if TomTom and TomTom.AddMFWaypoint then
+        TomTom:AddMFWaypoint(mapId, level, x, y, {
+            title = name,
+        })
+    end
+
+    if not IsModifiedClick("CHATLINK") then
+        if not WorldMapFrame:IsShown() then
+            ToggleWorldMap();
+        end
+        
+        SetMapByID(mapId)
+        SetDungeonMapLevel(level)
+    end
+end
+
 tinsert(UISpecialFrames, "BtWQuests") 
 function BtWQuests_OnLoad(self)
     self:RegisterEvent("ADDON_LOADED")
