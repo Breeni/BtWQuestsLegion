@@ -6522,16 +6522,21 @@ BtWQuests_Chains = {
                     -- 7
                 -- },
             },
-            -- {
-                -- type = "chain",
-                -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
-                -- class = BTWQUESTS_CLASS_ID_PALADIN,
-                -- x = 3,
-                -- y = 3,
-                -- connections = {
-                    -- 6
-                -- },
-            -- },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+                restrictions = {
+                    {
+                        type = "class",
+                        class = BTWQUESTS_CLASS_ID_PALADIN,
+                    }
+                },
+                x = 3,
+                y = 3,
+                connections = {
+                    6
+                },
+            },
             -- {
                 -- type = "chain",
                 -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
@@ -13276,14 +13281,519 @@ BtWQuests_Chains = {
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 38710,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40408,
+                x = 3,
+                y = 1,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+                breadcrumb = true,
+                x = 1,
+                y = 2,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+                breadcrumb = true,
+                x = 3,
+                y = 2,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+                breadcrumb = true,
+                x = 5,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 38576,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 38566,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39722,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 38933,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39756,
+                x = 3,
+                y = 7,
+                connections = {
+                    2
+                },
+            },
+            
+            
+            
+            
+            {
+                type = "level",
+                level = 101,
+                x = 5,
+                y = 7.5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42844,
+                breadcrumb = true,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 39696,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42846,
+                x = 3,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42847,
+                x = 3,
+                y = 11,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 42848,
+                x = 2,
+                y = 12,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
+                completed = {
+                    type = "quest",
+                    id = 44153,
+                },
+                x = 4,
+                y = 12,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 42849,
+                x = 2,
+                y = 13,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 42867,
+                x = 4,
+                y = 13,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 42850,
+                x = 2,
+                y = 14,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 42919,
+                x = 4,
+                y = 14,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42968,
+                x = 3,
+                y = 15,
+                connections = {
+                    2
+                },
+            },
+            
+            {
+                type = "level",
+                level = 103,
+                x = 5,
+                y = 15.5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42886,
+                x = 3,
+                y = 16,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42887,
+                x = 3,
+                y = 17,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43462,
+                x = 2,
+                y = 18,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 42888,
+                x = 4,
+                y = 18,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 42890,
+                x = 3,
+                y = 19,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 42852,
+                x = 2,
+                y = 20,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 42851,
+                x = 4,
+                y = 20,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43494,
+                aside = true,
+                x = 6,
+                y = 20,
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43486,
+                x = 3,
+                y = 21,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43487,
+                x = 2,
+                y = 22,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43488,
+                x = 4,
+                y = 22,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43535,
+                x = 3,
+                y = 23,
+                connections = {
+                    2
+                },
+            },
+            
+            
+            
+            {
+                type = "level",
+                level = 110,
+                x = 5,
+                y = 23.5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43493,
+                x = 3,
+                y = 24,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43489,
+                x = 3,
+                y = 25,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43490,
+                x = 3,
+                y = 26,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43491,
+                x = 2,
+                y = 27,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43540,
+                x = 4,
+                y = 27,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43541,
+                x = 3,
+                y = 28,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43492,
+                x = 2,
+                y = 30,
+                connections = {
+                    3, 4, 5
+                },
+            },
+            {
+                type = "quest",
+                id = 43934,
+                x = 4,
+                y = 29,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43933,
+                x = 4,
+                y = 30,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43699,
+                x = 1,
+                y = 31,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 43698,
+                x = 3,
+                y = 31,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43534,
+                x = 5,
+                y = 31,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43700,
+                x = 3,
+                y = 32,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 43697,
+                x = 3,
+                y = 33,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 43785,
+                aside = true,
+                x = 1,
+                y = 34,
+            },
+            {
+                type = "quest",
+                id = 43424,
+                x = 3,
+                y = 34,
+            },
+            {
+                type = "quest",
+                id = 43701,
+                aside = true,
+                x = 5,
+                y = 34,
             },
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER] = {
-        name = "Broken Shore Follower",
+        name = "Champion: Nerus Moonfang",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -13294,15 +13804,117 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46045,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 47137,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45143,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45890,
+                x = 3,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46259,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45145,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45146,
+                x = 3,
+                y = 6,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45147,
+                x = 3,
+                y = 7,
+                connections = {
+                    1, 2
+                },
+            },
+            {
+                type = "quest",
+                id = 45148,
+                x = 2,
+                y = 8,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 45149,
+                x = 4,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46045,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                aside = true,
+                x = 3,
+                y = 10,
             },
         },
     },
@@ -13316,17 +13928,86 @@ BtWQuests_Chains = {
                 class = BTWQUESTS_CLASS_ID_PALADIN,
             },
         },
+        prerequisites = {
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            },
+        },
         completed = {
             type = "quest",
             id = 100,
         },
-        range = {98, 110},
+        range = {110},
         items = {
             {
-                type = "quest",
-                id = 100,
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46069,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46070,
+                x = 3,
+                y = 2,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46071,
+                x = 3,
+                y = 3,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
+                x = 1,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46083,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 46074,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 45770,
+                x = 3,
+                y = 6,
             },
         },
     },

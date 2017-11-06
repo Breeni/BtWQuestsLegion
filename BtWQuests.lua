@@ -147,7 +147,11 @@ local function BtWQuests_CheckRequirement(item)
     elseif item.type == "level" then
         return UnitLevel("player") >= item.level
     elseif item.type == "achievement" then
-        return select(13, GetAchievementInfo(item.id))
+        if item.completed == false then
+            return not select(13, GetAchievementInfo(item.id))
+        else
+            return select(13, GetAchievementInfo(item.id))
+        end
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
     else
@@ -491,6 +495,7 @@ function BtWQuests_GetChainItemByIndex(index)
         
         assert(item.class == nil, string.format("Item %d in chain %d has a class set", index, chainID))
         assert(item.faction == nil, string.format("Item %d in chain %d has a faction set", index, chainID))
+        assert(item.optional == nil, string.format("Item %d in chain %d has a optional set", index, chainID))
         
         local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = nil, item.name, item.visible or true, item.x, item.y, item.atlas, item.breadcrumb, item.aside, item.difficulty, item.tagID, item.status, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
 
@@ -1088,7 +1093,12 @@ function BtWQuests_DisplayChain(dontScroll)
         end
         
         if scrollToButton == nil then
-            scrollToButton = scrollFrame["item1"]
+            temp = 1
+            while scrollFrame["item"..temp] and not scrollFrame["item"..temp]:IsShown() do
+                temp = temp + 1
+            end
+            
+            scrollToButton = scrollFrame["item"..temp]
         end
         
         chain.scroll:UpdateScrollChildRect()
