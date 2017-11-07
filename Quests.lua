@@ -8890,15 +8890,48 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 1,
                 connections = {
-                    1, 2
+                    1, 2,
+                    3, 4
                 },
             },
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40817) or IsQuestFlaggedCompleted(40818))
+                end,
                 breadcrumb = true,
                 x = 2,
+                y = 2,
+                connections = {
+                    4
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40817) or IsQuestFlaggedCompleted(40818))
+                end,
+                breadcrumb = true,
+                x = 4,
+                y = 2,
+                connections = {
+                    3
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40817)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 2,
                 connections = {
                     2
@@ -8907,13 +8940,18 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40818)
+                end,
                 breadcrumb = true,
-                x = 4,
+                x = 3,
                 y = 2,
                 connections = {
                     1
                 },
             },
+            
+            
             {
                 type = "quest",
                 id = 42869,
@@ -9907,15 +9945,74 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 4,
                 connections = {
-                    1, 2, 3, 4
+                    1, 2, 3, 4,
+                    5, 6, 7, 8
                 },
             },
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                end,
                 breadcrumb = true,
                 x = 0,
+                y = 5,
+                connections = {
+                    8
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                end,
+                breadcrumb = true,
+                x = 2,
+                y = 5,
+                connections = {
+                    7
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                end,
+                breadcrumb = true,
+                x = 4,
+                y = 5,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                end,
+                breadcrumb = true,
+                x = 6,
+                y = 5,
+                connections = {
+                    5
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40781)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 5,
                 connections = {
                     4
@@ -9924,8 +10021,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40701)
+                end,
                 breadcrumb = true,
-                x = 2,
+                x = 3,
                 y = 5,
                 connections = {
                     3
@@ -9934,8 +10034,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40702)
+                end,
                 breadcrumb = true,
-                x = 4,
+                x = 3,
                 y = 5,
                 connections = {
                     2
@@ -9944,13 +10047,18 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40703)
+                end,
                 breadcrumb = true,
-                x = 6,
+                x = 3,
                 y = 5,
                 connections = {
                     1
                 },
             },
+            
+            
             {
                 type = "quest",
                 id = 41918,
@@ -10822,13 +10930,22 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    7, 8, 9
                 },
             },
+            
+            
+            
+            
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 breadcrumb = true,
                 x = 1,
                 y = 3,
@@ -10839,6 +10956,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 3,
@@ -10849,6 +10969,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 breadcrumb = true,
                 x = 5,
                 y = 3,
@@ -10860,8 +10983,92 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41009,
-                breadcrumb = true,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 x = 1,
+                y = 4,
+                connections = {
+                    9
+                },
+            },
+            {
+                type = "quest",
+                id = 40952,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
+                x = 3,
+                y = 4,
+                connections = {
+                    8
+                },
+            },
+            {
+                type = "quest",
+                id = 41008,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
+                x = 5,
+                y = 4,
+                connections = {
+                    7
+                },
+            },
+            
+            
+            
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40621)
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40620)
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40619)
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 41009,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40621)
+                end,
+                x = 3,
                 y = 4,
                 connections = {
                     3
@@ -10870,7 +11077,9 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40952,
-                breadcrumb = true,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40620)
+                end,
                 x = 3,
                 y = 4,
                 connections = {
@@ -10880,13 +11089,18 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41008,
-                breadcrumb = true,
-                x = 5,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40619)
+                end,
+                x = 3,
                 y = 4,
                 connections = {
                     1
                 },
             },
+            
+            
+            
             
             
             {
@@ -11506,7 +11720,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -11606,7 +11820,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 10,
             },
@@ -11886,7 +12100,8 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
@@ -11894,8 +12109,52 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41079) or IsQuestFlaggedCompleted(41080) or IsQuestFlaggedCompleted(41081))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 3,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41079) or IsQuestFlaggedCompleted(41080) or IsQuestFlaggedCompleted(41081))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41079) or IsQuestFlaggedCompleted(41080) or IsQuestFlaggedCompleted(41081))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 3,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41079)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 3,
                 connections = {
                     3
@@ -11904,6 +12163,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41080)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 3,
@@ -11914,8 +12176,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41081)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 3,
                 connections = {
                     1
@@ -12371,7 +12636,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46043,
         },
         range = {110},
         items = {
@@ -12856,7 +13121,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 41087,
         },
         range = {98, 110},
         items = {
@@ -12884,15 +13149,59 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40640) or IsQuestFlaggedCompleted(40639) or IsQuestFlaggedCompleted(40638))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 3,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40640) or IsQuestFlaggedCompleted(40639) or IsQuestFlaggedCompleted(40638))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40640) or IsQuestFlaggedCompleted(40639) or IsQuestFlaggedCompleted(40638))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 3,
+                connections = {
+                    4
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40640)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 3,
                 connections = {
                     3
@@ -12901,6 +13210,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40639)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 3,
@@ -12911,8 +13223,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40638)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 3,
                 connections = {
                     1
@@ -13751,7 +14066,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 43697,
         },
         range = {98, 110},
         items = {
@@ -13770,15 +14085,62 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 1,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3, 4, 5, 6
                 },
             },
+            
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40410) or IsQuestFlaggedCompleted(40411) or IsQuestFlaggedCompleted(40409))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 2,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40410) or IsQuestFlaggedCompleted(40411) or IsQuestFlaggedCompleted(40409))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 2,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40410) or IsQuestFlaggedCompleted(40411) or IsQuestFlaggedCompleted(40409))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 2,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40410)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 2,
                 connections = {
                     3
@@ -13787,6 +14149,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40411)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 2,
@@ -13797,13 +14162,17 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40409)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 2,
                 connections = {
                     1
                 },
             },
+            
             
             
             {
@@ -14412,7 +14781,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 45770,
         },
         range = {110},
         items = {
@@ -14695,7 +15064,8 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 1,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
@@ -14703,8 +15073,52 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40709) or IsQuestFlaggedCompleted(40708) or IsQuestFlaggedCompleted(40707))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 2,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40709) or IsQuestFlaggedCompleted(40708) or IsQuestFlaggedCompleted(40707))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 2,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40709) or IsQuestFlaggedCompleted(40708) or IsQuestFlaggedCompleted(40707))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 2,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40709)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 2,
                 connections = {
                     3
@@ -14713,6 +15127,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40708)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 2,
@@ -14723,8 +15140,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40707)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 2,
                 connections = {
                     1
@@ -16829,7 +17249,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 41888,
         },
         range = {98, 110},
         items = {
@@ -16848,15 +17268,59 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 1,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41329) or IsQuestFlaggedCompleted(41328) or IsQuestFlaggedCompleted(41330))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 2,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41329) or IsQuestFlaggedCompleted(41328) or IsQuestFlaggedCompleted(41330))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 2,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41329) or IsQuestFlaggedCompleted(41328) or IsQuestFlaggedCompleted(41330))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 2,
+                connections = {
+                    4
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41329)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 2,
                 connections = {
                     3
@@ -16865,6 +17329,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41328)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 2,
@@ -16875,8 +17342,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41330)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 2,
                 connections = {
                     1
@@ -17372,7 +17842,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46057,
         },
         range = {98, 110},
         items = {
@@ -17764,15 +18234,61 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3, 4, 5, 6
                 },
             },
             
             {
                 type = "chain",
+                name = "Affliction: Ulthalesh",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 3,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 3,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                name = "Affliction: Ulthalesh",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40686)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 3,
                 connections = {
                     3
@@ -17781,6 +18297,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40687)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 3,
@@ -17791,8 +18310,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40688)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 3,
                 connections = {
                     1
@@ -18543,7 +19065,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 42974,
         },
         range = {98, 110},
         items = {
@@ -18622,15 +19144,59 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 3,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40582) or IsQuestFlaggedCompleted(40581) or IsQuestFlaggedCompleted(40580))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 4,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40582) or IsQuestFlaggedCompleted(40581) or IsQuestFlaggedCompleted(40580))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 4,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40582) or IsQuestFlaggedCompleted(40581) or IsQuestFlaggedCompleted(40580))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 4,
+                connections = {
+                    4
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40582)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 4,
                 connections = {
                     3
@@ -18639,6 +19205,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40581)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 4,
@@ -18649,8 +19218,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40580)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 4,
                 connections = {
                     1
@@ -22052,6 +22624,12 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PALADIN,
                     },
                 },
+                userdata = {
+                    scrollTo = {
+                        type = "chain",
+                        id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
+                    },
+                },
                 x = 3,
                 y = -1,
                 connections = {
@@ -22148,6 +22726,12 @@ BtWQuests_Chains = {
                     {
                         type = "class",
                         class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                userdata = {
+                    scrollTo = {
+                        type = "chain",
+                        id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
                     },
                 },
                 x = 1,
@@ -28390,6 +28974,10 @@ BtWQuests_Quests = {
     
     
 
+	[41008] = {
+		["name"] = "Hunter to Hunter",
+		["level"] = 110,
+	},
 	[41009] = {
 		["name"] = "Hunter to Hunter",
 		["level"] = 110,
@@ -28861,6 +29449,314 @@ BtWQuests_Quests = {
 	},
 	[45344] = {
 		["name"] = "Sampling the Source",
+		["level"] = 110,
+	},
+	[42844] = {
+		["name"] = "Growing Power",
+		["level"] = 110,
+	},
+	[42850] = {
+		["name"] = "Tech It Up a Notch",
+		["level"] = 110,
+	},
+	[39654] = {
+		["name"] = "Odyn and the Valarjar",
+		["level"] = 110,
+	},
+	[43604] = {
+		["name"] = "Maw of Souls: Ymiron's Broken Blade",
+		["level"] = 110,
+	},
+	[42815] = {
+		["name"] = "Return to the Broken Shore",
+		["level"] = 110,
+	},
+	[42194] = {
+		["name"] = "Stolen Honor",
+		["level"] = 110,
+	},
+	[43750] = {
+		["name"] = "The Call of Battle",
+		["level"] = 110,
+	},
+	[43090] = {
+		["name"] = "Ulduar's Oath",
+		["level"] = 110,
+	},
+	[42202] = {
+		["name"] = "Revenge, Served Cold",
+		["level"] = 110,
+	},
+	[42989] = {
+		["name"] = "Ma'haat the Indomitable",
+		["level"] = 110,
+	},
+	[42997] = {
+		["name"] = "The Maelstrom Pillar: Earth",
+		["level"] = 110,
+	},
+	[41335] = {
+		["name"] = "The Elements Call...",
+		["level"] = 110,
+	},
+	[45794] = {
+		["name"] = "Informing the Council",
+		["level"] = 110,
+	},
+	[46020] = {
+		["name"] = "Crystal Containment",
+		["level"] = 110,
+	},
+	[45024] = {
+		["name"] = "Cult Culling",
+		["level"] = 110,
+	},
+	[45025] = {
+		["name"] = "Stealing the Source of Power",
+		["level"] = 110,
+	},
+	[45026] = {
+		["name"] = "Expending Fel Energy",
+		["level"] = 110,
+	},
+	[45027] = {
+		["name"] = "To the Broken Shore",
+		["level"] = 110,
+	},
+	[45028] = {
+		["name"] = "The Fate of Kanrethad",
+		["level"] = 110,
+	},
+	[45021] = {
+		["name"] = "Answers Unknown",
+		["level"] = 110,
+	},
+	[46047] = {
+		["name"] = "Champion: Kanrethad Ebonlocke",
+		["level"] = 110,
+	},
+	[40821] = {
+		["name"] = "Power Overwhelming",
+		["level"] = 110,
+	},
+	[46241] = {
+		["name"] = "The Minions of Hel'nurath",
+		["level"] = 110,
+	},
+	[46243] = {
+		["name"] = "The Wrathsteed of Xoroth",
+		["level"] = 110,
+	},
+	[46238] = {
+		["name"] = "If You Build It",
+		["level"] = 110,
+	},
+	[46240] = {
+		["name"] = "Give Me Fuel, Give Me Fire",
+		["level"] = 110,
+	},
+	[46242] = {
+		["name"] = "The Dreadlord's Calling",
+		["level"] = 110,
+	},
+	[46237] = {
+		["name"] = "Bloodbringer's Missive",
+		["level"] = 110,
+	},
+	[46239] = {
+		["name"] = "Fel to the Core",
+		["level"] = 110,
+	},
+	[46259] = {
+		["name"] = "Darkbinder Dilemma",
+		["level"] = 110,
+	},
+	[45770] = {
+		["name"] = "Stirring in the Shadows",
+		["level"] = 110,
+	},
+	[46071] = {
+		["name"] = "The Hammer of Dalaran",
+		["level"] = 110,
+	},
+	[45143] = {
+		["name"] = "Judgment Awaits",
+		["level"] = 110,
+	},
+	[46045] = {
+		["name"] = "Champion: Nerus Moonfang",
+		["level"] = 110,
+	},
+	[46074] = {
+		["name"] = "Leather to Legendary",
+		["level"] = 110,
+	},
+	[46070] = {
+		["name"] = "Preparations Underway",
+		["level"] = 110,
+	},
+	[45145] = {
+		["name"] = "Moonfang Family Relics",
+		["level"] = 110,
+	},
+	[46083] = {
+		["name"] = "A Few Things First",
+		["level"] = 110,
+	},
+	[45146] = {
+		["name"] = "Runic Reading",
+		["level"] = 110,
+	},
+	[46069] = {
+		["name"] = "Worthy of the Title",
+		["level"] = 110,
+	},
+	[45147] = {
+		["name"] = "Felstone Destruction",
+		["level"] = 110,
+	},
+	[45890] = {
+		["name"] = "Ancestors and Enemies",
+		["level"] = 110,
+	},
+	[45148] = {
+		["name"] = "Oath Breaker",
+		["level"] = 110,
+	},
+	[44496] = {
+		["name"] = "Destiny Unfulfilled",
+		["level"] = 110,
+	},
+	[45149] = {
+		["name"] = "Ending the Crescent Curse",
+		["level"] = 110,
+	},
+	[43273] = {
+		["name"] = "Spread the Word",
+		["level"] = 110,
+	},
+	[44100] = {
+		["name"] = "Proper Introductions",
+		["level"] = 110,
+	},
+	[43393] = {
+		["name"] = "Rising Shadows",
+		["level"] = 110,
+	},
+	[44849] = {
+		["name"] = "Recruitment Drive",
+		["level"] = 110,
+	},
+	[46267] = {
+		["name"] = "Return of the Battlelord",
+		["level"] = 110,
+	},
+	[44850] = {
+		["name"] = "Arming the Army",
+		["level"] = 110,
+	},
+	[45128] = {
+		["name"] = "A Glorious Reunion",
+		["level"] = 110,
+	},
+	[44889] = {
+		["name"] = "Resource Management",
+		["level"] = 110,
+	},
+	[46207] = {
+		["name"] = "The Trial of Rage",
+		["level"] = 110,
+	},
+	[46208] = {
+		["name"] = "A Godly Invitation",
+		["level"] = 110,
+	},
+	[46173] = {
+		["name"] = "Tactical Planning",
+		["level"] = 110,
+	},
+	[45648] = {
+		["name"] = "Missing in Action: Lord Darius Crowley",
+		["level"] = 110,
+	},
+	[45634] = {
+		["name"] = "Kvaldir on Call",
+		["level"] = 110,
+	},
+	[45649] = {
+		["name"] = "Mission: Search and Rescue",
+		["level"] = 110,
+	},
+	[45650] = {
+		["name"] = "Operation Felrage",
+		["level"] = 110,
+	},
+	[45118] = {
+		["name"] = "Helya's Horn",
+		["level"] = 110,
+	},
+	[45876] = {
+		["name"] = "Champion: Lord Darius Crowley",
+		["level"] = 110,
+	},
+	[45834] = {
+		["name"] = "Stolen Souls",
+		["level"] = 110,
+	},
+	[45652] = {
+		["name"] = "A \"Humble\" Request",
+		["level"] = 110,
+	},
+	[45765] = {
+		["name"] = "Brothers and Sisters",
+		["level"] = 110,
+	},
+	[45706] = {
+		["name"] = "The Power of Thousands",
+		["level"] = 110,
+	},
+	[46057] = {
+		["name"] = "Champion: Magatha Grimtotem",
+		["level"] = 110,
+	},
+	[45767] = {
+		["name"] = "Elemental Cores",
+		["level"] = 110,
+	},
+	[44800] = {
+		["name"] = "Against Magatha's Will",
+		["level"] = 110,
+	},
+	[45723] = {
+		["name"] = "The Crone's Wrath",
+		["level"] = 110,
+	},
+	[45971] = {
+		["name"] = "Infernal Phenomena",
+		["level"] = 110,
+	},
+	[45724] = {
+		["name"] = "Snakes and Stones",
+		["level"] = 110,
+	},
+	[46258] = {
+		["name"] = "The Calm After the Storm",
+		["level"] = 110,
+	},
+	[45725] = {
+		["name"] = "Breaking Chains",
+		["level"] = 110,
+	},
+	[45763] = {
+		["name"] = "Demonic Disruption",
+		["level"] = 110,
+	},
+	[45769] = {
+		["name"] = "Conflagration",
+		["level"] = 110,
+	},
+	[45883] = {
+		["name"] = "The Firelord's Offense",
 		["level"] = 110,
 	},
     

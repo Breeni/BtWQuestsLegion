@@ -535,6 +535,8 @@ function BtWQuests_GetChainItemByIndex(index)
         
         local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = nil, item.name, item.visible or true, item.x, item.y, item.atlas, item.breadcrumb, item.aside, item.difficulty, item.tagID, item.status, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
 
+        local active, completed = nil, nil
+        
         if skip == nil and item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
             skip = true
             
@@ -549,6 +551,16 @@ function BtWQuests_GetChainItemByIndex(index)
             visible = BtWQuests_CheckRequirements(visible)
         elseif type(visible) == "function" then
             visible = visible(item)
+        end
+    
+        if completed == nil and item.completed then
+            completed = item.completed
+        end
+        
+        if type(completed) == "table" then
+            completed = BtWQuests_CheckRequirement(completed)
+        elseif type(completed) == "function" then
+            completed = completed(item)
         end
             
         if item.type == "quest" then
@@ -644,9 +656,7 @@ function BtWQuests_GetChainItemByIndex(index)
             difficulty = difficulty or chain.difficulty
             tagID = tagID or tagID
             
-            local active, completed = true, false
-            
-            if chain.completed then
+            if completed == nil and chain.completed then
                 if chain.completed[1] ~= nil then
                     completed = BtWQuests_CheckRequirements(chain.completed)
                 else
