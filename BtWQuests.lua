@@ -67,7 +67,7 @@ function BtWQuests_SetCurrentChain(chainID)
     BtWQuests_CurrentCategory = select(5, BtWQuests_GetChainByID(BtWQuests_CurrentChain))
 end
 
-function BtWQuests_SelectChain(id, dontScroll)
+function BtWQuests_SelectChain(id, scrollTo)
     local id = tonumber(id)
     
     BtWQuests_SetCurrentChain(id)
@@ -76,10 +76,10 @@ function BtWQuests_SelectChain(id, dontScroll)
     BtWQuestsNav_AddChainButtonParents(id)
     
     BtWQuests:Show()
-    BtWQuests_DisplayChain(dontScroll)
+    BtWQuests_DisplayChain(scrollTo)
 end
 
-function BtWQuests_SelectFromLink(link, dontScroll)
+function BtWQuests_SelectFromLink(link, scrollTo)
     local _, _, color, type, text, name = string.find(link, "|cff(%x*)|H([^:]+):([^|]+)|h%[([^%[%]]*)%]|h|r")
     if not color then
         _, _, type, text = string.find(link, "([^:]+):(.+)")
@@ -114,7 +114,7 @@ function BtWQuests_SelectFromLink(link, dontScroll)
             
             return true
         elseif subtype == "chain" then
-            BtWQuests_SelectChain(id, dontScroll)
+            BtWQuests_SelectChain(id, scrollTo)
             
             return true
         end
@@ -631,7 +631,7 @@ function BtWQuests_GetChainItemByIndex(index)
             end
             
             onClick = onClick or function (self)
-                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link, self.userdata.dontScroll) then
+                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link, self.userdata.scrollTo) then
                     BtWQuestsTooltip:Hide();
                 end
             end
@@ -893,7 +893,7 @@ function BtWQuests_ListCategories()
     end
 end
 
-function BtWQuests_DisplayChain(dontScroll)
+function BtWQuests_DisplayChain(scrollTo)
 	local chain = BtWQuests.Chain;
     
 	BtWQuests.QuestSelect:Hide();
@@ -1087,7 +1087,7 @@ function BtWQuests_DisplayChain(dontScroll)
     
     scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     
-    if not dontScroll then
+    if scrollTo ~= false then
         if scrollToButton == nil then
             scrollToButton = scrollToButtonAside
         end
