@@ -12862,9 +12862,473 @@ BtWQuests_Chains = {
         items = {
             {
                 type = "quest",
-                id = 100,
+                id = 12103,
                 x = 3,
                 y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40236,
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40636,
+                x = 3,
+                y = 2,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+                breadcrumb = true,
+                x = 1,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+                breadcrumb = true,
+                x = 5,
+                y = 3,
+                connections = {
+                    1
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 40698,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40793,
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 40795,
+                x = 3,
+                y = 6,
+                connections = {
+                    2
+                },
+            },
+            
+            
+            {
+                type = "level",
+                level = 101,
+                x = 5,
+                y = 6.5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42186,
+                x = 3,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42187,
+                x = 3,
+                y = 8,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41945,
+                x = 3,
+                y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41946,
+                x = 3,
+                y = 10,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42210,
+                x = 3,
+                y = 11,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42191,
+                x = 3,
+                y = 12,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41905,
+                x = 3,
+                y = 13,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "level",
+                level = 103,
+                x = 5,
+                y = 13.5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41728,
+                x = 3,
+                y = 14,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 41729,
+                x = 1,
+                y = 15,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 41730,
+                x = 3,
+                y = 15,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 41731,
+                x = 5,
+                y = 15,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 41732,
+                x = 3,
+                y = 16,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41733,
+                x = 3,
+                y = 17,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 41907,
+                x = 1,
+                y = 18,
+                connections = {
+                    4
+                },
+            },
+            {
+                type = "quest",
+                id = 43062,
+                x = 3,
+                y = 18,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 41909,
+                x = 5,
+                y = 18,
+                connections = {
+                    2
+                },
+            },
+            
+            
+            {
+                type = "level",
+                level = 110,
+                x = 5,
+                y = 19.5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41849,
+                x = 3,
+                y = 20,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41850,
+                x = 3,
+                y = 21,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 41852,
+                x = 1,
+                y = 22,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 41853,
+                x = 3,
+                y = 22,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 41851,
+                x = 5,
+                y = 22,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 41854,
+                x = 3,
+                y = 23,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 41737,
+                x = 1,
+                y = 24,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 41738,
+                x = 3,
+                y = 24,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 41736,
+                x = 5,
+                y = 24,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            {
+                type = "quest",
+                id = 41038,
+                x = 3,
+                y = 25,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41039,
+                x = 3,
+                y = 26,
+                connections = {
+                    1, 2, 3, 4
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 41040,
+                x = 0,
+                y = 27,
+                connections = {
+                    4
+                },
+            },
+            {
+                type = "quest",
+                id = 41910,
+                x = 2,
+                y = 27,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "quest",
+                id = 41086,
+                x = 4,
+                y = 27,
+                connections = {
+                    4
+                },
+            },
+            {
+                type = "quest",
+                id = 41911,
+                x = 6,
+                y = 27,
+                connections = {
+                    2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 41059,
+                x = 0,
+                y = 28,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 43151,
+                x = 6,
+                y = 28,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 32442,
+                x = 3,
+                y = 29,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41087,
+                x = 3,
+                y = 30,
+                connections = {
+                    1, 2
+                },
+            },
+            
+            
+            {
+                type = "quest",
+                id = 41739,
+                x = 2,
+                y = 31,
+            },
+            {
+                type = "quest",
+                id = 43359,
+                x = 4,
+                y = 31,
             },
         },
     },
@@ -28162,6 +28626,178 @@ BtWQuests_Quests = {
 	},
 	[42416] = {
 		["name"] = "The Council is in Session",
+		["level"] = 110,
+	},
+	[42187] = {
+		["name"] = "Rise, Champions",
+		["level"] = 110,
+	},
+	[42210] = {
+		["name"] = "Scrolls of Knowledge",
+		["level"] = 110,
+	},
+	[40793] = {
+		["name"] = "A Matter of Planning",
+		["level"] = 110,
+	},
+	[40636] = {
+		["name"] = "Prepare To Strike",
+		["level"] = 110,
+	},
+	[41905] = {
+		["name"] = "Report from Tian Monastery",
+		["level"] = 110,
+	},
+	[40698] = {
+		["name"] = "Purity of Form",
+		["level"] = 110,
+	},
+	[42191] = {
+		["name"] = "Tech It Up A Notch",
+		["level"] = 110,
+	},
+	[40795] = {
+		["name"] = "The Fight Begins",
+		["level"] = 110,
+	},
+	[12103] = {
+		["name"] = "Before the Storm",
+		["level"] = 110,
+	},
+	[41945] = {
+		["name"] = "Tianji of the Ox",
+		["level"] = 110,
+	},
+	[40236] = {
+		["name"] = "The Dawning Light",
+		["level"] = 110,
+	},
+	[42186] = {
+		["name"] = "Growing Power",
+		["level"] = 110,
+	},
+	[41946] = {
+		["name"] = "Building Our Troops",
+		["level"] = 110,
+	},
+	[41039] = {
+		["name"] = "Stolen Knowledge",
+		["level"] = 110,
+	},
+	[41087] = {
+		["name"] = "Storm Brew",
+		["level"] = 110,
+	},
+	[43359] = {
+		["name"] = "A Hero's Weapon",
+		["level"] = 110,
+	},
+	[32442] = {
+		["name"] = "Impending Danger",
+		["level"] = 110,
+	},
+	[41730] = {
+		["name"] = "Desperate Strike",
+		["level"] = 110,
+	},
+	[43151] = {
+		["name"] = "Making A Trade",
+		["level"] = 110,
+	},
+	[41038] = {
+		["name"] = "The Mead Master",
+		["level"] = 110,
+	},
+	[41907] = {
+		["name"] = "Appropriations",
+		["level"] = 110,
+	},
+	[41040] = {
+		["name"] = "Halls of Valor: The Brewmaster",
+		["level"] = 110,
+	},
+	[41909] = {
+		["name"] = "Tracking the Tideskorn",
+		["level"] = 110,
+	},
+	[41910] = {
+		["name"] = "Freya's Spring",
+		["level"] = 110,
+	},
+	[41849] = {
+		["name"] = "The Iron Fist",
+		["level"] = 110,
+	},
+	[41850] = {
+		["name"] = "The Master of Swords",
+		["level"] = 110,
+	},
+	[41851] = {
+		["name"] = "Quelling the Tide",
+		["level"] = 110,
+	},
+	[41728] = {
+		["name"] = "The Defense of Tian Monastery",
+		["level"] = 110,
+	},
+	[43062] = {
+		["name"] = "Further Training",
+		["level"] = 110,
+	},
+	[41854] = {
+		["name"] = "Brick By Brick",
+		["level"] = 110,
+	},
+	[41731] = {
+		["name"] = "Storm, Earth, and Fire",
+		["level"] = 110,
+	},
+	[41732] = {
+		["name"] = "The Hand of Keletress",
+		["level"] = 110,
+	},
+	[41733] = {
+		["name"] = "Rebuilding the Order",
+		["level"] = 110,
+	},
+	[41911] = {
+		["name"] = "Amaranthine Hops",
+		["level"] = 110,
+	},
+	[41086] = {
+		["name"] = "A Peaceful World",
+		["level"] = 110,
+	},
+	[41736] = {
+		["name"] = "Champion: Angus Ironfist",
+		["level"] = 110,
+	},
+	[41737] = {
+		["name"] = "Champion: Hiro",
+		["level"] = 110,
+	},
+	[41738] = {
+		["name"] = "Champion: Sylara Steelsong",
+		["level"] = 110,
+	},
+	[41739] = {
+		["name"] = "Champion: Aegira",
+		["level"] = 110,
+	},
+	[41729] = {
+		["name"] = "Slowing the Spread",
+		["level"] = 110,
+	},
+	[41059] = {
+		["name"] = "Halls of Valor: Odyn's Cauldron",
+		["level"] = 110,
+	},
+	[41852] = {
+		["name"] = "No Monk Left Behind",
+		["level"] = 110,
+	},
+	[41853] = {
+		["name"] = "Zero to Hiro",
 		["level"] = 110,
 	},
     
