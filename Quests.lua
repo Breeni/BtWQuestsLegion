@@ -12990,15 +12990,59 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40640) or IsQuestFlaggedCompleted(40639) or IsQuestFlaggedCompleted(40638))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 3,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40640) or IsQuestFlaggedCompleted(40639) or IsQuestFlaggedCompleted(40638))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40640) or IsQuestFlaggedCompleted(40639) or IsQuestFlaggedCompleted(40638))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 3,
+                connections = {
+                    4
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40640)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 3,
                 connections = {
                     3
@@ -13007,6 +13051,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40639)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 3,
@@ -13017,8 +13064,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40638)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 3,
                 connections = {
                     1
