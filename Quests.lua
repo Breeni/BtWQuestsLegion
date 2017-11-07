@@ -1194,7 +1194,7 @@ BtWQuests_Categories = {
         },
     },
     [BTWQUESTS_CATEGORY_LEGION_HIDDEN] = {
-        name = "Hidden",
+        name = "Secret",
         expansion = BTWQUESTS_EXPANSION_LEGION,
         items = {
             -- {
