@@ -17230,15 +17230,59 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 1,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41329) or IsQuestFlaggedCompleted(41328) or IsQuestFlaggedCompleted(41330))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 2,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41329) or IsQuestFlaggedCompleted(41328) or IsQuestFlaggedCompleted(41330))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 2,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41329) or IsQuestFlaggedCompleted(41328) or IsQuestFlaggedCompleted(41330))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 2,
+                connections = {
+                    4
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41329)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 2,
                 connections = {
                     3
@@ -17247,6 +17291,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41328)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 2,
@@ -17257,8 +17304,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41330)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 2,
                 connections = {
                     1
