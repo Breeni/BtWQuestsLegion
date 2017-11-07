@@ -10822,13 +10822,22 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    7, 8, 9
                 },
             },
+            
+            
+            
+            
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 breadcrumb = true,
                 x = 1,
                 y = 3,
@@ -10839,6 +10848,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 3,
@@ -10849,6 +10861,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 breadcrumb = true,
                 x = 5,
                 y = 3,
@@ -10860,7 +10875,9 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41009,
-                breadcrumb = true,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 x = 1,
                 y = 4,
                 connections = {
@@ -10870,7 +10887,9 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 40952,
-                breadcrumb = true,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 x = 3,
                 y = 4,
                 connections = {
@@ -10880,13 +10899,100 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 41008,
-                breadcrumb = true,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                end,
                 x = 5,
                 y = 4,
                 connections = {
                     1
                 },
             },
+            
+            
+            
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40621)
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40620)
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40619)
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            
+            {
+                type = "quest",
+                id = 41009,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40621)
+                end,
+                x = 3,
+                y = 4,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 40952,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40620)
+                end,
+                x = 3,
+                y = 4,
+                connections = {
+                    2
+                },
+            },
+            {
+                type = "quest",
+                id = 41008,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40619)
+                end,
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
             
             
             {
