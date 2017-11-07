@@ -784,7 +784,7 @@ end
 function BtWQuests_OnShow(self)
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_OPEN);
     
-    BtWQuests_UpdateChain(true)
+    BtWQuests_UpdateChain()
 end
 
 function BtWQuests_OnHide(self)
