@@ -22264,6 +22264,12 @@ BtWQuests_Chains = {
                         class = BTWQUESTS_CLASS_ID_PALADIN,
                     },
                 },
+                userdata = {
+                    scrollTo = {
+                        type = "chain",
+                        id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
+                    },
+                },
                 x = 3,
                 y = -1,
                 connections = {
@@ -22360,6 +22366,12 @@ BtWQuests_Chains = {
                     {
                         type = "class",
                         class = BTWQUESTS_CLASS_ID_PALADIN,
+                    },
+                },
+                userdata = {
+                    scrollTo = {
+                        type = "chain",
+                        id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
                     },
                 },
                 x = 1,
