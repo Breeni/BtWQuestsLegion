@@ -13876,15 +13876,62 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 1,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3, 4, 5, 6
                 },
             },
+            
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40410) or IsQuestFlaggedCompleted(40411) or IsQuestFlaggedCompleted(40409))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 2,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40410) or IsQuestFlaggedCompleted(40411) or IsQuestFlaggedCompleted(40409))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 2,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40410) or IsQuestFlaggedCompleted(40411) or IsQuestFlaggedCompleted(40409))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 2,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40410)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 2,
                 connections = {
                     3
@@ -13893,6 +13940,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40411)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 2,
@@ -13903,13 +13953,17 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40409)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 2,
                 connections = {
                     1
                 },
             },
+            
             
             
             {
