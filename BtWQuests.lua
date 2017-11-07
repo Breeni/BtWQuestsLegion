@@ -958,7 +958,7 @@ function BtWQuests_DisplayChain(scrollTo)
                 itemButton.backgroundLinePool:ReleaseAll();
             end
         else
-            itemButton.ForgottenAnim:Stop()
+            -- itemButton.ForgottenAnim:Stop()
             itemButton.name:SetAlpha(1)
             
             if ( tagID ) then
@@ -1022,22 +1022,44 @@ function BtWQuests_DisplayChain(scrollTo)
                 scrollToButton = itemButton
             end
             
-            local forget = itemButton.status == "complete"
-            if forget then
+            -- local forget = itemButton.status == "complete"
+            -- if forget then
+                -- for j=1,#connections do
+                    -- local connection = index + connections[j]
+                    -- local connectionItem = scrollFrame["item"..connection]
+                    -- if connectionItem and connectionItem:IsShown() then
+                        -- if connectionItem.status == nil or connectionItem.status == 'active' then
+                            -- forget = false
+                            -- break
+                        -- end
+                    -- end
+                -- end
+            -- end
+        
+            -- if forget then
+                -- itemButton.status = 'forgotten'
+                -- itemButton.ForgottenAnim:Play()
+            -- end
+            
+            itemButton.IsNext:Hide()
+            itemButton.canBeActive = true
+            if not breadcrumb then
                 for j=1,#connections do
                     local connection = index + connections[j]
                     local connectionItem = scrollFrame["item"..connection]
                     if connectionItem and connectionItem:IsShown() then
-                        if connectionItem.status == nil or connectionItem.status == 'active' then
-                            forget = false
-                            break
+                        
+                        if itemButton.status == "complete" and connectionItem.status == nil and connectionItem.canBeActive then
+                            connectionItem.IsNext:Show()
+                        elseif itemButton.status ~= "complete" and connectionItem.status ~= "active" then
+                            connectionItem.canBeActive = false
+                            connectionItem.IsNext:Hide()
                         end
                     end
                 end
             end
         
-            if forget then
-                itemButton.status = 'forgotten'
+            if itemButton.status == "complete" then
                 itemButton.ForgottenAnim:Play()
             end
             
@@ -1080,10 +1102,11 @@ function BtWQuests_DisplayChain(scrollTo)
                     lineContainer.Active:Hide()
                     lineContainer.Complete:Hide()
                     
-                    if itemButton.status == "forgotten" then
-                        lineContainer.Complete:Show()
-                        lineContainer:SetAlpha(0.5)
-                    elseif itemButton.status == "complete" then
+                    -- if itemButton.status == "forgotten" then
+                        -- lineContainer.Complete:Show()
+                        -- lineContainer:SetAlpha(0.5)
+                    -- else
+                    if itemButton.status == "complete" then
                         lineContainer.Complete:Show()
                     elseif itemButton.status == "active" then
                         lineContainer.Active:Show()
@@ -1189,25 +1212,47 @@ function BtWQuests_UpdateChain(scroll)
                     end
                 end
             
-                local forget = itemButton.newStatus == "complete"
-                if forget then
+                -- local forget = itemButton.newStatus == "complete"
+                -- if forget then
+                    -- for j=1,#connections do
+                        -- local connection = index + connections[j]
+                        -- local connectionItem = scrollFrame["item"..connection]
+                        -- if connectionItem and connectionItem:IsShown() then
+                            -- if connectionItem.status == nil or connectionItem.status == 'active' then
+                                -- forget = false
+                                -- break
+                            -- end
+                        -- end
+                    -- end
+                -- end
+            
+                -- if forget then
+                    -- itemButton.newStatus = 'forgotten'
+                    -- if itemButton.status ~= "forgotten" then
+                        -- itemButton.ForgottenAnim:Play()
+                    -- end
+                -- end
+            
+                itemButton.IsNext:Hide()
+                itemButton.canBeActive = true
+                if not breadcrumb then
                     for j=1,#connections do
                         local connection = index + connections[j]
                         local connectionItem = scrollFrame["item"..connection]
                         if connectionItem and connectionItem:IsShown() then
-                            if connectionItem.status == nil or connectionItem.status == 'active' then
-                                forget = false
-                                break
+                            
+                            if itemButton.status == "complete" and connectionItem.status == nil and connectionItem.canBeActive then
+                                connectionItem.IsNext:Show()
+                            elseif itemButton.status ~= "complete" and connectionItem.status ~= "active" then
+                                connectionItem.canBeActive = false
+                                connectionItem.IsNext:Hide()
                             end
                         end
                     end
                 end
-            
-                if forget then
-                    itemButton.newStatus = 'forgotten'
-                    if itemButton.status ~= "forgotten" then
-                        itemButton.ForgottenAnim:Play()
-                    end
+                
+                if itemButton.status == "complete" then
+                    itemButton.ForgottenAnim:Play()
                 end
                 
                 if itemButton.newStatus ~= itemButton.status then
@@ -1217,27 +1262,28 @@ function BtWQuests_UpdateChain(scroll)
                         end
                     end
                     
-                    if itemButton.newStatus == 'forgotten' then
-                        if itemButton.status == 'active' or itemButton.status == 'iscompletable' then
-                            itemButton.ActiveTexture:Hide()
+                    -- if itemButton.newStatus == 'forgotten' then
+                        -- if itemButton.status == 'active' or itemButton.status == 'iscompletable' then
+                            -- itemButton.ActiveTexture:Hide()
                             
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(0.5)
+                            -- for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                -- frame:SetAlpha(0.5)
                                 
-                                frame.ActiveToCompleteAnim:Play()
-                            end
-                        elseif itemButton.status == 'complete' then
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(0.5)
-                            end
-                        else
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                frame:SetAlpha(0.5)
+                                -- frame.ActiveToCompleteAnim:Play()
+                            -- end
+                        -- elseif itemButton.status == 'complete' then
+                            -- for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                -- frame:SetAlpha(0.5)
+                            -- end
+                        -- else
+                            -- for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                                -- frame:SetAlpha(0.5)
                                 
-                                frame.DefaultToCompleteAnim:Play()
-                            end
-                        end
-                    elseif itemButton.newStatus == 'complete' then
+                                -- frame.DefaultToCompleteAnim:Play()
+                            -- end
+                        -- end
+                    -- else
+                    if itemButton.newStatus == 'complete' then
                         if itemButton.status == 'active' or itemButton.status == 'iscompletable' then
                             itemButton.ActiveTexture:Hide()
                             

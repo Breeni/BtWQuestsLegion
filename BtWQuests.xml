@@ -223,12 +223,21 @@
 					</Anchors>
 				</Texture>
 			</Layer>
-			<Layer level="ARTWORK">
+			<Layer level="ARTWORK" textureSubLevel="-1">
 				<Texture parentKey="Cover" atlas="groupfinder-button-cover">
                     <Size x="174" y="48"/>
 					<Anchors>
 						<Anchor point="CENTER"/>
 					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="ARTWORK">
+				<Texture parentKey="IsNext" file="Interface\AddOns\BtWQuests\UI-BtWQuests-Glow">
+                    <Size x="174" y="64"/>
+					<Anchors>
+						<Anchor point="CENTER"/>
+					</Anchors>
+                    <TexCoords left="0.0" right="0.5859375" top="0.0" bottom="1.0"/>
 				</Texture>
 			</Layer>
             <Layer level="ARTWORK" textureSubLevel="-2">
