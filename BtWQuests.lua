@@ -606,7 +606,7 @@ function BtWQuests_GetChainItemByIndex(index)
             end
             onEnter = onEnter or function (self)
                 BtWQuestsTooltip_AnchorTo(self)
-                BtWQuestsTooltip_SetHyperlink(self.userdata.link)
+                BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
             end
             onLeave = onLeave or function (self)
                 BtWQuestsTooltip:Hide();
@@ -673,7 +673,7 @@ function BtWQuests_GetChainItemByIndex(index)
             end
             onEnter = onEnter or function (self)
                 BtWQuestsTooltip_AnchorTo(self)
-                BtWQuestsTooltip_SetHyperlink(self.userdata.link)
+                BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
             end
             onLeave = onLeave or function (self)
                 BtWQuestsTooltip:Hide();
@@ -1314,7 +1314,7 @@ function BtWQuestsTooltip_SetHyperlink(link)
     
     local _, _, color, type, text, name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]+):([^|]+)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
     
-    assert(type == "quest" or type == "btwquests")
+    -- assert(type == "quest" or type == "btwquests")
     
     if type == "quest" then
         local _, _, id = string.find(text, "^(%d+):")
@@ -1326,6 +1326,14 @@ function BtWQuestsTooltip_SetHyperlink(link)
         assert(subtype == "chain")
         
         BtWQuestsTooltip_SetChain(id) 
+    else
+        GameTooltip:ClearAllPoints();
+        
+        local point, relativeTo, relativePoint, x, y = BtWQuestsTooltip:GetPoint()
+        GameTooltip:SetPoint(point, relativeTo, relativePoint, x, y);
+        
+        GameTooltip:SetOwner(relativeTo, "ANCHOR_PRESERVE");
+        GameTooltip:SetHyperlink(link)
     end
 end
 

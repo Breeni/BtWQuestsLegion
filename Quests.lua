@@ -15355,7 +15355,6 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 46034,
-                userdata = {tooltipLink = "|cffffffff|Hgarrfollower:1002:1:110:850:828:0:0:0:0:0:0:0:353|h[Aelthalyste]|h|r"},
                 x = 3,
                 y = 8,
                 connections = {
@@ -28810,6 +28809,58 @@ BtWQuests_Quests = {
 	},
 	[41853] = {
 		["name"] = "Zero to Hiro",
+		["level"] = 110,
+	},
+	[46034] = {
+		["name"] = "Champion: Aelthalyste",
+		["level"] = 110,
+	},
+	[45345] = {
+		["name"] = "Mischievous Sprites",
+		["level"] = 110,
+	},
+	[45788] = {
+		["name"] = "The Speaker Awaits",
+		["level"] = 110,
+	},
+	[45346] = {
+		["name"] = "Shambling Specimens",
+		["level"] = 110,
+	},
+	[45789] = {
+		["name"] = "The Sunken Vault",
+		["level"] = 110,
+	},
+	[45347] = {
+		["name"] = "Crafting a Cure",
+		["level"] = 110,
+	},
+	[45348] = {
+		["name"] = "Safekeeping",
+		["level"] = 110,
+	},
+	[45349] = {
+		["name"] = "To the Broken Shore",
+		["level"] = 110,
+	},
+	[45342] = {
+		["name"] = "Administering Aid",
+		["level"] = 110,
+	},
+	[45350] = {
+		["name"] = "Countering the Contagion",
+		["level"] = 110,
+	},
+	[45343] = {
+		["name"] = "A Curious Contagion",
+		["level"] = 110,
+	},
+	[46145] = {
+		["name"] = "Sterile Surroundings",
+		["level"] = 110,
+	},
+	[45344] = {
+		["name"] = "Sampling the Source",
 		["level"] = 110,
 	},
     
