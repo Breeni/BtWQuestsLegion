@@ -11720,7 +11720,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -11820,7 +11820,7 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
-                optional = true,
+                breadcrumb = true,
                 x = 3,
                 y = 10,
             },
@@ -28974,6 +28974,10 @@ BtWQuests_Quests = {
     
     
 
+	[41008] = {
+		["name"] = "Hunter to Hunter",
+		["level"] = 110,
+	},
 	[41009] = {
 		["name"] = "Hunter to Hunter",
 		["level"] = 110,
@@ -29493,6 +29497,266 @@ BtWQuests_Quests = {
 	},
 	[41335] = {
 		["name"] = "The Elements Call...",
+		["level"] = 110,
+	},
+	[45794] = {
+		["name"] = "Informing the Council",
+		["level"] = 110,
+	},
+	[46020] = {
+		["name"] = "Crystal Containment",
+		["level"] = 110,
+	},
+	[45024] = {
+		["name"] = "Cult Culling",
+		["level"] = 110,
+	},
+	[45025] = {
+		["name"] = "Stealing the Source of Power",
+		["level"] = 110,
+	},
+	[45026] = {
+		["name"] = "Expending Fel Energy",
+		["level"] = 110,
+	},
+	[45027] = {
+		["name"] = "To the Broken Shore",
+		["level"] = 110,
+	},
+	[45028] = {
+		["name"] = "The Fate of Kanrethad",
+		["level"] = 110,
+	},
+	[45021] = {
+		["name"] = "Answers Unknown",
+		["level"] = 110,
+	},
+	[46047] = {
+		["name"] = "Champion: Kanrethad Ebonlocke",
+		["level"] = 110,
+	},
+	[40821] = {
+		["name"] = "Power Overwhelming",
+		["level"] = 110,
+	},
+	[46241] = {
+		["name"] = "The Minions of Hel'nurath",
+		["level"] = 110,
+	},
+	[46243] = {
+		["name"] = "The Wrathsteed of Xoroth",
+		["level"] = 110,
+	},
+	[46238] = {
+		["name"] = "If You Build It",
+		["level"] = 110,
+	},
+	[46240] = {
+		["name"] = "Give Me Fuel, Give Me Fire",
+		["level"] = 110,
+	},
+	[46242] = {
+		["name"] = "The Dreadlord's Calling",
+		["level"] = 110,
+	},
+	[46237] = {
+		["name"] = "Bloodbringer's Missive",
+		["level"] = 110,
+	},
+	[46239] = {
+		["name"] = "Fel to the Core",
+		["level"] = 110,
+	},
+	[46259] = {
+		["name"] = "Darkbinder Dilemma",
+		["level"] = 110,
+	},
+	[45770] = {
+		["name"] = "Stirring in the Shadows",
+		["level"] = 110,
+	},
+	[46071] = {
+		["name"] = "The Hammer of Dalaran",
+		["level"] = 110,
+	},
+	[45143] = {
+		["name"] = "Judgment Awaits",
+		["level"] = 110,
+	},
+	[46045] = {
+		["name"] = "Champion: Nerus Moonfang",
+		["level"] = 110,
+	},
+	[46074] = {
+		["name"] = "Leather to Legendary",
+		["level"] = 110,
+	},
+	[46070] = {
+		["name"] = "Preparations Underway",
+		["level"] = 110,
+	},
+	[45145] = {
+		["name"] = "Moonfang Family Relics",
+		["level"] = 110,
+	},
+	[46083] = {
+		["name"] = "A Few Things First",
+		["level"] = 110,
+	},
+	[45146] = {
+		["name"] = "Runic Reading",
+		["level"] = 110,
+	},
+	[46069] = {
+		["name"] = "Worthy of the Title",
+		["level"] = 110,
+	},
+	[45147] = {
+		["name"] = "Felstone Destruction",
+		["level"] = 110,
+	},
+	[45890] = {
+		["name"] = "Ancestors and Enemies",
+		["level"] = 110,
+	},
+	[45148] = {
+		["name"] = "Oath Breaker",
+		["level"] = 110,
+	},
+	[44496] = {
+		["name"] = "Destiny Unfulfilled",
+		["level"] = 110,
+	},
+	[45149] = {
+		["name"] = "Ending the Crescent Curse",
+		["level"] = 110,
+	},
+	[43273] = {
+		["name"] = "Spread the Word",
+		["level"] = 110,
+	},
+	[44100] = {
+		["name"] = "Proper Introductions",
+		["level"] = 110,
+	},
+	[43393] = {
+		["name"] = "Rising Shadows",
+		["level"] = 110,
+	},
+	[44849] = {
+		["name"] = "Recruitment Drive",
+		["level"] = 110,
+	},
+	[46267] = {
+		["name"] = "Return of the Battlelord",
+		["level"] = 110,
+	},
+	[44850] = {
+		["name"] = "Arming the Army",
+		["level"] = 110,
+	},
+	[45128] = {
+		["name"] = "A Glorious Reunion",
+		["level"] = 110,
+	},
+	[44889] = {
+		["name"] = "Resource Management",
+		["level"] = 110,
+	},
+	[46207] = {
+		["name"] = "The Trial of Rage",
+		["level"] = 110,
+	},
+	[46208] = {
+		["name"] = "A Godly Invitation",
+		["level"] = 110,
+	},
+	[46173] = {
+		["name"] = "Tactical Planning",
+		["level"] = 110,
+	},
+	[45648] = {
+		["name"] = "Missing in Action: Lord Darius Crowley",
+		["level"] = 110,
+	},
+	[45634] = {
+		["name"] = "Kvaldir on Call",
+		["level"] = 110,
+	},
+	[45649] = {
+		["name"] = "Mission: Search and Rescue",
+		["level"] = 110,
+	},
+	[45650] = {
+		["name"] = "Operation Felrage",
+		["level"] = 110,
+	},
+	[45118] = {
+		["name"] = "Helya's Horn",
+		["level"] = 110,
+	},
+	[45876] = {
+		["name"] = "Champion: Lord Darius Crowley",
+		["level"] = 110,
+	},
+	[45834] = {
+		["name"] = "Stolen Souls",
+		["level"] = 110,
+	},
+	[45652] = {
+		["name"] = "A \"Humble\" Request",
+		["level"] = 110,
+	},
+	[45765] = {
+		["name"] = "Brothers and Sisters",
+		["level"] = 110,
+	},
+	[45706] = {
+		["name"] = "The Power of Thousands",
+		["level"] = 110,
+	},
+	[46057] = {
+		["name"] = "Champion: Magatha Grimtotem",
+		["level"] = 110,
+	},
+	[45767] = {
+		["name"] = "Elemental Cores",
+		["level"] = 110,
+	},
+	[44800] = {
+		["name"] = "Against Magatha's Will",
+		["level"] = 110,
+	},
+	[45723] = {
+		["name"] = "The Crone's Wrath",
+		["level"] = 110,
+	},
+	[45971] = {
+		["name"] = "Infernal Phenomena",
+		["level"] = 110,
+	},
+	[45724] = {
+		["name"] = "Snakes and Stones",
+		["level"] = 110,
+	},
+	[46258] = {
+		["name"] = "The Calm After the Storm",
+		["level"] = 110,
+	},
+	[45725] = {
+		["name"] = "Breaking Chains",
+		["level"] = 110,
+	},
+	[45763] = {
+		["name"] = "Demonic Disruption",
+		["level"] = 110,
+	},
+	[45769] = {
+		["name"] = "Conflagration",
+		["level"] = 110,
+	},
+	[45883] = {
+		["name"] = "The Firelord's Offense",
 		["level"] = 110,
 	},
     
