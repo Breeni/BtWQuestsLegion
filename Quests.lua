@@ -12477,7 +12477,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46043,
         },
         range = {110},
         items = {
@@ -12962,7 +12962,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 41087,
         },
         range = {98, 110},
         items = {
@@ -13857,7 +13857,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 43697,
         },
         range = {98, 110},
         items = {
@@ -14572,7 +14572,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 45770,
         },
         range = {110},
         items = {
@@ -16989,7 +16989,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 41888,
         },
         range = {98, 110},
         items = {
@@ -17532,7 +17532,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 46057,
         },
         range = {98, 110},
         items = {
@@ -18755,7 +18755,7 @@ BtWQuests_Chains = {
         },
         completed = {
             type = "quest",
-            id = 100,
+            id = 42974,
         },
         range = {98, 110},
         items = {
