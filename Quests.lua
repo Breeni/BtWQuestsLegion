@@ -19056,15 +19056,59 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 3,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40582) or IsQuestFlaggedCompleted(40581) or IsQuestFlaggedCompleted(40580))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 4,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40582) or IsQuestFlaggedCompleted(40581) or IsQuestFlaggedCompleted(40580))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 4,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40582) or IsQuestFlaggedCompleted(40581) or IsQuestFlaggedCompleted(40580))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 4,
+                connections = {
+                    4
+                },
+            },
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40582)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 4,
                 connections = {
                     3
@@ -19073,6 +19117,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40581)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 4,
@@ -19083,8 +19130,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40580)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 4,
                 connections = {
                     1
