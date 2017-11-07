@@ -17870,15 +17870,61 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3, 4, 5, 6
                 },
             },
             
             {
                 type = "chain",
+                name = "Affliction: Ulthalesh",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 3,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 3,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                name = "Affliction: Ulthalesh",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40686)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 3,
                 connections = {
                     3
@@ -17887,6 +17933,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40687)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 3,
@@ -17897,8 +17946,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40688)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 3,
                 connections = {
                     1
