@@ -10881,7 +10881,7 @@ BtWQuests_Chains = {
                 x = 1,
                 y = 4,
                 connections = {
-                    3
+                    9
                 },
             },
             {
@@ -10893,7 +10893,7 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 4,
                 connections = {
-                    2
+                    8
                 },
             },
             {
@@ -10905,7 +10905,7 @@ BtWQuests_Chains = {
                 x = 5,
                 y = 4,
                 connections = {
-                    1
+                    7
                 },
             },
             
