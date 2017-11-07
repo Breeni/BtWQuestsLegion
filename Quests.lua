@@ -8890,15 +8890,48 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 1,
                 connections = {
-                    1, 2
+                    1, 2,
+                    3, 4
                 },
             },
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40817) or IsQuestFlaggedCompleted(40818))
+                end,
                 breadcrumb = true,
                 x = 2,
+                y = 2,
+                connections = {
+                    4
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40817) or IsQuestFlaggedCompleted(40818))
+                end,
+                breadcrumb = true,
+                x = 4,
+                y = 2,
+                connections = {
+                    3
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40817)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 2,
                 connections = {
                     2
@@ -8907,13 +8940,18 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40818)
+                end,
                 breadcrumb = true,
-                x = 4,
+                x = 3,
                 y = 2,
                 connections = {
                     1
                 },
             },
+            
+            
             {
                 type = "quest",
                 id = 42869,
