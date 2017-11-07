@@ -29075,6 +29075,14 @@ BtWQuests_Quests = {
 		["name"] = "Sampling the Source",
 		["level"] = 110,
 	},
+	[42844] = {
+		["name"] = "Growing Power",
+		["level"] = 110,
+	},
+	[42850] = {
+		["name"] = "Tech It Up a Notch",
+		["level"] = 110,
+	},
     
     
     
