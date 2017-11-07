@@ -14956,7 +14956,8 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 1,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
@@ -14964,8 +14965,52 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40709) or IsQuestFlaggedCompleted(40708) or IsQuestFlaggedCompleted(40707))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 2,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40709) or IsQuestFlaggedCompleted(40708) or IsQuestFlaggedCompleted(40707))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 2,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40709) or IsQuestFlaggedCompleted(40708) or IsQuestFlaggedCompleted(40707))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 2,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40709)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 2,
                 connections = {
                     3
@@ -14974,6 +15019,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40708)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 2,
@@ -14984,8 +15032,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40707)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 2,
                 connections = {
                     1
