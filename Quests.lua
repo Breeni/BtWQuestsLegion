@@ -29395,6 +29395,18 @@ BtWQuests_Quests = {
 		["name"] = "Revenge, Served Cold",
 		["level"] = 110,
 	},
+	[42989] = {
+		["name"] = "Ma'haat the Indomitable",
+		["level"] = 110,
+	},
+	[42997] = {
+		["name"] = "The Maelstrom Pillar: Earth",
+		["level"] = 110,
+	},
+	[41335] = {
+		["name"] = "The Elements Call...",
+		["level"] = 110,
+	},
     
     
     
