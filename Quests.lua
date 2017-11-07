@@ -29317,6 +29317,34 @@ BtWQuests_Quests = {
 		["name"] = "Tech It Up a Notch",
 		["level"] = 110,
 	},
+	[39654] = {
+		["name"] = "Odyn and the Valarjar",
+		["level"] = 110,
+	},
+	[43604] = {
+		["name"] = "Maw of Souls: Ymiron's Broken Blade",
+		["level"] = 110,
+	},
+	[42815] = {
+		["name"] = "Return to the Broken Shore",
+		["level"] = 110,
+	},
+	[42194] = {
+		["name"] = "Stolen Honor",
+		["level"] = 110,
+	},
+	[43750] = {
+		["name"] = "The Call of Battle",
+		["level"] = 110,
+	},
+	[43090] = {
+		["name"] = "Ulduar's Oath",
+		["level"] = 110,
+	},
+	[42202] = {
+		["name"] = "Revenge, Served Cold",
+		["level"] = 110,
+	},
     
     
     
