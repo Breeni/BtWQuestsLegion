@@ -9907,15 +9907,74 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 4,
                 connections = {
-                    1, 2, 3, 4
+                    1, 2, 3, 4,
+                    5, 6, 7, 8
                 },
             },
+            
             
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                end,
                 breadcrumb = true,
                 x = 0,
+                y = 5,
+                connections = {
+                    8
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                end,
+                breadcrumb = true,
+                x = 2,
+                y = 5,
+                connections = {
+                    7
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                end,
+                breadcrumb = true,
+                x = 4,
+                y = 5,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                end,
+                breadcrumb = true,
+                x = 6,
+                y = 5,
+                connections = {
+                    5
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40781)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 5,
                 connections = {
                     4
@@ -9924,8 +9983,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40701)
+                end,
                 breadcrumb = true,
-                x = 2,
+                x = 3,
                 y = 5,
                 connections = {
                     3
@@ -9934,8 +9996,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40702)
+                end,
                 breadcrumb = true,
-                x = 4,
+                x = 3,
                 y = 5,
                 connections = {
                     2
@@ -9944,13 +10009,18 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(40703)
+                end,
                 breadcrumb = true,
-                x = 6,
+                x = 3,
                 y = 5,
                 connections = {
                     1
                 },
             },
+            
+            
             {
                 type = "quest",
                 id = 41918,
