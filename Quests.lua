@@ -7936,7 +7936,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Deathlord Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -8860,7 +8860,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Slayer Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -9850,7 +9850,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Archdruid Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10783,7 +10783,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Huntmaster Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -11847,55 +11847,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN] = {
-        name = "Class Campaign",
-        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
-        expansion = BTWQUESTS_EXPANSION_LEGION,
-        restrictions = {
-            {
-                type = "class",
-                class = BTWQUESTS_CLASS_ID_MAGE,
-            },
-        },
-        completed = {
-            type = "quest",
-            id = 100,
-        },
-        range = {98, 110},
-        items = {
-            {
-                type = "quest",
-                id = 100,
-                x = 3,
-                y = 0,
-            },
-        },
-    },
-    [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER] = {
-        name = "Broken Shore Follower",
-        category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
-        expansion = BTWQUESTS_EXPANSION_LEGION,
-        restrictions = {
-            {
-                type = "class",
-                class = BTWQUESTS_CLASS_ID_MAGE,
-            },
-        },
-        completed = {
-            type = "quest",
-            id = 100,
-        },
-        range = {98, 110},
-        items = {
-            {
-                type = "quest",
-                id = 100,
-                x = 3,
-                y = 0,
-            },
-        },
-    },
-    [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Archmage Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -12893,7 +12845,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Brewmaster Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -13324,7 +13276,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Highlord Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -14249,7 +14201,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "High Priest Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -15181,7 +15133,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Shadowblade Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -16391,7 +16343,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Farseer Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -17298,7 +17250,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Netherlord Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -18105,7 +18057,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN] = {
-        name = "Class Campaign",
+        name = "Battelord Campaign",
         category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
