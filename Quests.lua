@@ -8175,7 +8175,7 @@ BtWQuests_Chains = {
                 type = "level",
                 level = 101,
                 x = 5,
-                y = 8,
+                y = 8.5,
                 connections = {
                     1
                 },
@@ -8270,7 +8270,7 @@ BtWQuests_Chains = {
                 type = "level",
                 level = 103,
                 x = 5,
-                y = 16,
+                y = 16.5,
                 connections = {
                     1
                 },
@@ -8382,7 +8382,7 @@ BtWQuests_Chains = {
                 type = "level",
                 level = 110,
                 x = 6,
-                y = 24,
+                y = 24.5,
                 connections = {
                     1, 2
                 },
@@ -8393,7 +8393,7 @@ BtWQuests_Chains = {
                 id = 44217,
                 aside = true,
                 x = 6,
-                y = 25,
+                y = 25.5,
             },
             
             
@@ -8972,7 +8972,7 @@ BtWQuests_Chains = {
                 type = "level",
                 level = 101,
                 x = 5,
-                y = 8,
+                y = 8.5,
                 connections = {
                     1
                 },
@@ -9048,7 +9048,7 @@ BtWQuests_Chains = {
                 type = "level",
                 level = 103,
                 x = 5,
-                y = 15,
+                y = 15.5,
                 connections = {
                     1
                 },
@@ -9150,7 +9150,7 @@ BtWQuests_Chains = {
                 type = "level",
                 level = 110,
                 x = 5,
-                y = 25,
+                y = 25.5,
                 connections = {
                     1
                 },
@@ -15489,7 +15489,7 @@ BtWQuests_Chains = {
                 type = "level",
                 level = 103,
                 x = 5,
-                y = 17,
+                y = 17.5,
                 connections = {
                     1
                 },
@@ -15621,8 +15621,8 @@ BtWQuests_Chains = {
             {
                 type = "level",
                 level = 110,
-                x = 6,
-                y = 25,
+                x = 5,
+                y = 25.5,
                 connections = {
                     1, 2
                 },
@@ -15639,8 +15639,8 @@ BtWQuests_Chains = {
             {
                 type = "quest",
                 id = 44252,
-                x = 6,
-                y = 26,
+                x = 5,
+                y = 26.5,
             },
             {
                 type = "quest",
