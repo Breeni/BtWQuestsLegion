@@ -16259,6 +16259,12 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                userdata = {
+                    scrollTo = {
+                        type = "chain",
+                        id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
+                    },
+                },
                 breadcrumb = true,
                 x = 3,
                 y = 0,
@@ -16565,6 +16571,12 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+                userdata = {
+                    scrollTo = {
+                        type = "chain",
+                        id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
+                    },
+                },
                 aside = true,
                 x = 3,
                 y = 11,

@@ -244,6 +244,42 @@ local function BtWQuests_GetItem(item)
     return BtWQuests_GetItemName(item), BtWQuests_GetItemVisible(item), BtWQuests_GetItemCompleted(item)
 end
 
+
+local function BtWQuests_CompareItems(a, b)
+    if a.type ~= b.type then
+        return false
+    end
+    
+    if a.type == "chain" or a.type == "quest" or a.type == "achievement" then
+        return a.id == b.id
+    elseif a.type == "faction" then
+        return a.faction == b.faction
+    elseif a.type == "class" then
+        return a.class == b.class
+    elseif a.type == "level" then
+        return a.level == b.level
+    else
+        return false
+    end
+end
+
+
+local function BtWQuests_CompareChainItemByIndex(index, b)
+    local chainID = BtWQuests_GetCurrentChain()
+    if chainID == nil then
+        return nil
+    end
+    
+    if BtWQuests_Chains[chainID].items then
+        local a = BtWQuests_Chains[chainID].items[index]
+        if not a then
+            return nil
+        end
+        
+        return BtWQuests_CompareItems(a, b)
+    end
+end
+
 --- Get the correct data for a Category or Chain Button
 -- @param item A table containing an item with the type of category or chain
 -- @return id
@@ -974,12 +1010,16 @@ function BtWQuests_DisplayChain(scrollTo)
                 end
             end
             
-            if itemButton.status ~= "complete" then
+            if scrollTo == nil and itemButton.status ~= "complete" then
                 if aside then
                     scrollToButtonAside = itemButton
                 else
                     scrollToButton = itemButton
                 end
+            elseif type(scrollTo) == "number" and index == scrollTo then
+                scrollToButton = itemButton
+            elseif type(scrollTo) == "table" and BtWQuests_CompareChainItemByIndex(index, scrollTo) then
+                scrollToButton = itemButton
             end
             
             local forget = itemButton.status == "complete"
