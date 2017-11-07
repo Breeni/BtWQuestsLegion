@@ -11992,7 +11992,8 @@ BtWQuests_Chains = {
                 x = 3,
                 y = 2,
                 connections = {
-                    1, 2, 3
+                    1, 2, 3,
+                    4, 5, 6
                 },
             },
             
@@ -12000,8 +12001,52 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41079) or IsQuestFlaggedCompleted(41080) or IsQuestFlaggedCompleted(41081))
+                end,
                 breadcrumb = true,
                 x = 1,
+                y = 3,
+                connections = {
+                    6
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41079) or IsQuestFlaggedCompleted(41080) or IsQuestFlaggedCompleted(41081))
+                end,
+                breadcrumb = true,
+                x = 3,
+                y = 3,
+                connections = {
+                    5
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+                visible = function (self)
+                    return not (IsQuestFlaggedCompleted(41079) or IsQuestFlaggedCompleted(41080) or IsQuestFlaggedCompleted(41081))
+                end,
+                breadcrumb = true,
+                x = 5,
+                y = 3,
+                connections = {
+                    4
+                },
+            },
+            
+            
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41079)
+                end,
+                breadcrumb = true,
+                x = 3,
                 y = 3,
                 connections = {
                     3
@@ -12010,6 +12055,9 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41080)
+                end,
                 breadcrumb = true,
                 x = 3,
                 y = 3,
@@ -12020,8 +12068,11 @@ BtWQuests_Chains = {
             {
                 type = "chain",
                 id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+                visible = function (self)
+                    return IsQuestFlaggedCompleted(41081)
+                end,
                 breadcrumb = true,
-                x = 5,
+                x = 3,
                 y = 3,
                 connections = {
                     1
