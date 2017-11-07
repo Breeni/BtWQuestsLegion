@@ -9561,7 +9561,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE] = {
-        name = "Scythe of Elune",--select(2, GetSpecializationInfoByID(102)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(102)), "Scythe of Elune"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -9640,7 +9640,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL] = {
-        name = "Fangs of Ashamane",--select(2, GetSpecializationInfoByID(103)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(103)), "Fangs of Ashamane"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -9701,7 +9701,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN] = {
-        name = "Claws of Ursoc",--select(2, GetSpecializationInfoByID(104)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(104)), "Claws of Ursoc"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -9780,7 +9780,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION] = {
-        name = "G'Hanir, the Mother Tree",--select(2, GetSpecializationInfoByID(105)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(105)), "G'Hanir, the Mother Tree"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10645,7 +10645,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY] = {
-        name = "Titanstrike",--select(2, GetSpecializationInfoByID(253)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(253)), "Titanstrike"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10688,7 +10688,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP] = {
-        name = "Thas'dorah, Legacy of the Windrunners",--select(2, GetSpecializationInfoByID(254)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(254)), "Thas'dorah, Legacy of the Windrunners"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -10740,7 +10740,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL] = {
-        name = "Talonclaw",--select(2, GetSpecializationInfoByID(255)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(255)), "Talonclaw"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -11664,7 +11664,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE] = {
-        name = "Aluneth",--select(2, GetSpecializationInfoByID(62)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(62)), "Aluneth"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -11743,7 +11743,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE] = {
-        name = "Felo'melorn",--select(2, GetSpecializationInfoByID(63)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(63)), "Felo'melorn"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -11786,7 +11786,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST] = {
-        name = "Ebonchill",--select(2, GetSpecializationInfoByID(64)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(64)), "Ebonchill"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -12746,7 +12746,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER] = {
-        name = "Fu Zan, the Wanderer's Companion",--select(2, GetSpecializationInfoByID(268)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(268)), "Fu Zan, the Wanderer's Companion"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -12816,7 +12816,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER] = {
-        name = "Fists of the Heavens",--select(2, GetSpecializationInfoByID(269)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(269)), "Fists of the Heavens"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -12868,7 +12868,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER] = {
-        name = "Sheilun, Staff of the Mists",--select(2, GetSpecializationInfoByID(270)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(270)), "Sheilun, Staff of the Mists"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -13168,7 +13168,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY] = {
-        name = "The Silver Hand",--select(2, GetSpecializationInfoByID(65)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(65)), "The Silver Hand"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -13202,7 +13202,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION] = {
-        name = "Truthguard",--select(2, GetSpecializationInfoByID(66)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(66)), "Truthguard"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -13254,7 +13254,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION] = {
-        name = "Ashbringer",--select(2, GetSpecializationInfoByID(70)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(70)), "Ashbringer"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -14075,7 +14075,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE] = {
-        name = "Light's Wrath",--select(2, GetSpecializationInfoByID(256)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(256)), "Light's Wrath"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -14163,7 +14163,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY] = {
-        name = "T'uure, Beacon of the Naaru",--select(2, GetSpecializationInfoByID(257)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(257)), "T'uure, Beacon of the Naaru"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -14224,7 +14224,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW] = {
-        name = "Xal'atath, Blade of the Black Empire",--select(2, GetSpecializationInfoByID(258)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(258)), "Xal'atath, Blade of the Black Empire"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -17142,7 +17142,7 @@ BtWQuests_Chains = {
     
     
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION] = {
-        name = "Ulthalesh, the Deadwind Harvester",--select(2, GetSpecializationInfoByID(265)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(265)), "Ulthalesh, the Deadwind Harvester"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -17212,7 +17212,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY] = {
-        name = "Skull of the Man'ari",--select(2, GetSpecializationInfoByID(266)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(266)), "Skull of the Man'ari"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
@@ -17255,7 +17255,7 @@ BtWQuests_Chains = {
         },
     },
     [BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION] = {
-        name = "Scepter of Sargeras",--select(2, GetSpecializationInfoByID(267)),
+        name = string.format("%s: %s", select(2, GetSpecializationInfoByID(267)), "Scepter of Sargeras"),
         category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
         expansion = BTWQUESTS_EXPANSION_LEGION,
         restrictions = {
