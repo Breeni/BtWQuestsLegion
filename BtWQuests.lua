@@ -529,8 +529,8 @@ function BtWQuests_EvalRequirement(requirement, item)
         return requirement
     elseif type(requirement) == "table" then
         if requirement[1] ~= nil then
-            for _, v in ipairs(item) do
-                if BtWQuests_CheckRequirement(requirement) then
+            for _, v in ipairs(requirement) do
+                if BtWQuests_CheckRequirement(v) then
                     return true
                 end
             end
