@@ -231,15 +231,15 @@
 					</Anchors>
 				</Texture>
 			</Layer>
-			<Layer level="ARTWORK">
-				<Texture parentKey="IsNext" file="Interface\AddOns\BtWQuests\UI-BtWQuests-Glow">
-                    <Size x="174" y="64"/>
-					<Anchors>
-						<Anchor point="CENTER"/>
-					</Anchors>
-                    <TexCoords left="0.0" right="0.5859375" top="0.0" bottom="1.0"/>
-				</Texture>
-			</Layer>
+			<!-- <Layer level="ARTWORK"> -->
+				<!-- <Texture parentKey="IsNext" file="Interface\AddOns\BtWQuests\UI-BtWQuests-Glow"> -->
+                    <!-- <Size x="174" y="64"/> -->
+					<!-- <Anchors> -->
+						<!-- <Anchor point="CENTER"/> -->
+					<!-- </Anchors> -->
+                    <!-- <TexCoords left="0.0" right="0.5859375" top="0.0" bottom="1.0"/> -->
+				<!-- </Texture> -->
+			<!-- </Layer> -->
             <Layer level="ARTWORK" textureSubLevel="-2">
                 <Texture parentKey="HeroicTexture" file="Interface\Minimap\UI-DungeonDifficulty-Button" hidden="true">
                     <Size>

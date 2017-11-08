@@ -1051,8 +1051,8 @@ function BtWQuests_DisplayChain(scrollTo)
                 -- itemButton.ForgottenAnim:Play()
             -- end
             
-            itemButton.IsNext:Hide()
-            itemButton.canBeActive = true
+            -- itemButton.IsNext:Hide()
+            itemButton.canBeActive = itemButton.status == nil
             if not breadcrumb then
                 for j=1,#connections do
                     local connection = index + connections[j]
@@ -1060,10 +1060,12 @@ function BtWQuests_DisplayChain(scrollTo)
                     if connectionItem and connectionItem:IsShown() then
                         
                         if itemButton.status == "complete" and connectionItem.status == nil and connectionItem.canBeActive then
-                            connectionItem.IsNext:Show()
+                            -- connectionItem.IsNext:Show()
+                            connectionItem.ActiveTexture:Show()
                         elseif itemButton.status ~= "complete" and connectionItem.status ~= "active" then
                             connectionItem.canBeActive = false
-                            connectionItem.IsNext:Hide()
+                            -- connectionItem.IsNext:Hide()
+                            connectionItem.ActiveTexture:Hide()
                         end
                     end
                 end
@@ -1243,8 +1245,8 @@ function BtWQuests_UpdateChain(scroll)
                     -- end
                 -- end
             
-                itemButton.IsNext:Hide()
-                itemButton.canBeActive = true
+                -- itemButton.IsNext:Hide()
+                itemButton.canBeActive = itemButton.status == nil
                 if not breadcrumb then
                     for j=1,#connections do
                         local connection = index + connections[j]
@@ -1252,10 +1254,12 @@ function BtWQuests_UpdateChain(scroll)
                         if connectionItem and connectionItem:IsShown() then
                             
                             if itemButton.status == "complete" and connectionItem.status == nil and connectionItem.canBeActive then
-                                connectionItem.IsNext:Show()
+                                -- connectionItem.IsNext:Show()
+                                connectionItem.ActiveTexture:Show()
                             elseif itemButton.status ~= "complete" and connectionItem.status ~= "active" then
                                 connectionItem.canBeActive = false
-                                connectionItem.IsNext:Hide()
+                                -- connectionItem.IsNext:Hide()
+                                connectionItem.ActiveTexture:Hide()
                             end
                         end
                     end
