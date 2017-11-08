@@ -696,7 +696,9 @@ function BtWQuests_EvalChainItem(item)
             end
         end
         
-        status = BtWQuests_EvalText(status, item)
+        if status ~= nil then
+            status = BtWQuests_EvalText(status, item)
+        end
         
         return skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
     end
@@ -1046,7 +1048,6 @@ function BtWQuests_DisplayChain(scrollTo)
                 -- itemButton.ForgottenAnim:Play()
             -- end
             
-            -- itemButton.IsNext:Hide()
             itemButton.canBeActive = itemButton.status == nil
             if not breadcrumb then
                 for j=1,#connections do
@@ -1054,13 +1055,14 @@ function BtWQuests_DisplayChain(scrollTo)
                     local connectionItem = scrollFrame["item"..connection]
                     if connectionItem and connectionItem:IsShown() then
                         
-                        if itemButton.status == "complete" and connectionItem.status == nil and connectionItem.canBeActive then
-                            -- connectionItem.IsNext:Show()
-                            connectionItem.ActiveTexture:Show()
-                        elseif itemButton.status ~= "complete" and connectionItem.status ~= "active" then
-                            connectionItem.canBeActive = false
-                            -- connectionItem.IsNext:Hide()
-                            connectionItem.ActiveTexture:Hide()
+                        if connectionItem.canBeActive then
+                            if itemButton.status == "complete" then
+                                connectionItem.ActiveTexture:Show()
+                                connectionItem.ActiveTexture:SetAlpha(0.25)
+                            else
+                                connectionItem.canBeActive = false
+                                connectionItem.ActiveTexture:Hide()
+                            end
                         end
                     end
                 end
@@ -1129,6 +1131,7 @@ function BtWQuests_DisplayChain(scrollTo)
             
             if itemButton.status == "active" or itemButton.status == "iscompletable" then
                 itemButton.ActiveTexture:Show()
+                itemButton.ActiveAnim:Play()
             else
                 itemButton.ActiveTexture:Hide()
             end
@@ -1241,26 +1244,27 @@ function BtWQuests_UpdateChain(scroll)
                 -- end
             
                 -- itemButton.IsNext:Hide()
-                itemButton.canBeActive = itemButton.status == nil
+                itemButton.canBeActive = itemButton.newStatus == nil
                 if not breadcrumb then
                     for j=1,#connections do
                         local connection = index + connections[j]
                         local connectionItem = scrollFrame["item"..connection]
                         if connectionItem and connectionItem:IsShown() then
                             
-                            if itemButton.status == "complete" and connectionItem.status == nil and connectionItem.canBeActive then
-                                -- connectionItem.IsNext:Show()
-                                connectionItem.ActiveTexture:Show()
-                            elseif itemButton.status ~= "complete" and connectionItem.status ~= "active" then
-                                connectionItem.canBeActive = false
-                                -- connectionItem.IsNext:Hide()
-                                connectionItem.ActiveTexture:Hide()
+                            if connectionItem.canBeActive then
+                                if itemButton.newStatus == "complete" then
+                                    connectionItem.ActiveTexture:Show()
+                                    connectionItem.ActiveTexture:SetAlpha(0.25)
+                                else
+                                    connectionItem.canBeActive = false
+                                    connectionItem.ActiveTexture:Hide()
+                                end
                             end
                         end
                     end
                 end
                 
-                if itemButton.status == "complete" then
+                if itemButton.newStatus == "complete" then
                     itemButton.ForgottenAnim:Play()
                 end
                 
@@ -1333,7 +1337,7 @@ function BtWQuests_UpdateChain(scroll)
                     end
                 end
                 
-                if itemButton.ActiveTexture:IsShown() then
+                if itemButton.newStatus == 'iscompletable' or itemButton.newStatus == 'active' then
                     itemButton.ActiveAnim:Play()
                 end
                 
