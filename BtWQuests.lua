@@ -126,11 +126,11 @@ end
 local function BtWQuests_CheckRequirement(item)
     if item.type == "quest" then
         if item.active == true then
-            return GetQuestLogIndexByID(item.id) > 0
+            return BtWQuests_IsQuestActive(item.id)
         elseif item.active == false then
-            return GetQuestLogIndexByID(item.id) == 0
+            return not BtWQuests_IsQuestActive(item.id)
         else
-            return IsQuestFlaggedCompleted(item.id)
+            return BtWQuests_IsQuestCompleted(item.id)
         end
     elseif item.type == "chain" then
         if BtWQuests_Chains[item.id].completed[1] ~= nil then
@@ -516,53 +516,57 @@ function BtWQuests_GetQuestByID(questID)
     return tonumber(questID), questName, (quest.link or link), quest.difficulty, quest.tagID
 end
 
+function BtWQuests_EvalText(text, item)
+    if type(text) == "function" then
+        return tostring(text(item))
+    end
+    
+    return tostring(text)
+end
+
+function BtWQuests_EvalRequirement(requirement, item)
+    if type(requirement) == "boolean" then
+        return requirement
+    elseif type(requirement) == "table" then
+        return BtWQuests_CheckRequirement(requirement)
+    elseif type(requirement) == "function" then
+        return requirement(item)
+    end
+    
+    assert(requirement ~= nil, "Invalid requirement type " .. type(requirement))
+end
+
 -- skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
-function BtWQuests_GetChainItemByIndex(index)
-    local chainID = BtWQuests_GetCurrentChain()
-    if chainID == nil then
+function BtWQuests_EvalChainItem(item)
+    if not item then
         return nil
     end
     
-    if BtWQuests_Chains[chainID].items then
-        local item = BtWQuests_Chains[chainID].items[index]
-        if not item then
-            return nil
+    if item[1] ~= nil then -- This is a list on chain items, we want the first one that doesnt return true for skip
+        for _, v in ipairs(item) do
+            local result = {BtWQuests_EvalChainItem(v)}
+            
+            if result[1] ~= true then
+                return unpack(result)
+            end
         end
         
+        return true -- We didnt find a valid item so skip this list
+    else
         assert(item.class == nil, string.format("Item %d in chain %d has a class set", index, chainID))
         assert(item.faction == nil, string.format("Item %d in chain %d has a faction set", index, chainID))
         assert(item.optional == nil, string.format("Item %d in chain %d has a optional set", index, chainID))
         
-        local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = nil, item.name, item.visible or true, item.x, item.y, item.atlas, item.breadcrumb, item.aside, item.difficulty, item.tagID, item.status, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
-
-        local active, completed = nil, nil
+        local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, active, completed, onClick, onEnter, onLeave, userdata = nil, item.name, item.visible or true, item.x, item.y, item.atlas, item.breadcrumb, item.aside, item.difficulty, item.tagID, item.status, item.active, item.completed, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
         
-        if skip == nil and item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
-            skip = true
-            
+        if skip == nil and item.restrictions then
+            skip = not BtWQuests_CheckRequirements(item.restrictions)
+        end
+
+        if skip then
             return true
         end
         
-        if type(name) == "function" then
-            name = name(item)
-        end
-        
-        if type(visible) == "table" then
-            visible = BtWQuests_CheckRequirements(visible)
-        elseif type(visible) == "function" then
-            visible = visible(item)
-        end
-    
-        if completed == nil and item.completed then
-            completed = item.completed
-        end
-        
-        if type(completed) == "table" then
-            completed = BtWQuests_CheckRequirement(completed)
-        elseif type(completed) == "function" then
-            completed = completed(item)
-        end
-            
         if item.type == "quest" then
             local quest = BtWQuests_Quests[item.id]
             
@@ -572,44 +576,26 @@ function BtWQuests_GetChainItemByIndex(index)
             
             assert(type(quest) == "table", "Error finding quest with id " .. tostring(item.id))
         
-            if skip == nil and quest.restrictions and not BtWQuests_CheckRequirements(quest.restrictions) then
-                skip = true
-            
+            if skip == nil and quest.restrictions then
+                skip = not BtWQuests_CheckRequirements(quest.restrictions)
+            end
+
+            if skip then
                 return true
             end
         
-            local questName = quest.name
-            if type(questName) == "function" then
-                questName = questName(quest)
-            end
-        
-            if visible == nil and quest.visible then
-                visible = quest.visible
-            end
-        
-            if type(visible) == "table" then
-                visible = BtWQuests_CheckRequirements(visible)
-            elseif type(visible) == "function" then
-                visible = visible(quest)
-            end
+            visible = visible == nil and quest.visible or visible
             
-            name = name or questName
+            name = name or quest.name
             difficulty = difficulty or quest.difficulty
             tagID = tagID or quest.tagID
             
-            if GetQuestLogIndexByID(item.id) > 0 then -- User is on this quest
-                if IsQuestComplete(item.id) then -- User can complete this quest
-                    tagID = tagID or "COMPLETED"
-                    
-                    status = status or "iscompletable"
-                else
-                    status = status or "active"
-                end
-            else
-                if IsQuestFlaggedCompleted(item.id) then -- User has completed this quest
-                    status = status or "complete"
-                end
-            end
+            active = active == nil and function (item)
+                return BtWQuests_IsQuestActive(item.id)
+            end or active
+            completed = completed == nil and function (item)
+                return BtWQuests_IsQuestCompleted(item.id)
+            end or completed
             
             onClick = onClick or function (self)
                 if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link) then
@@ -625,56 +611,30 @@ function BtWQuests_GetChainItemByIndex(index)
                 GameTooltip:Hide()
             end
             
-            userdata.link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, questName)
+            userdata.link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, BtWQuests_EvalText(quest.name, quest))
         elseif item.type == "chain" then
             local chain = BtWQuests_Chains[item.id]
             
             assert(type(chain) == "table", "Error finding chain with id " .. tostring(item.id))
         
-            if skip == nil and chain.restrictions and not BtWQuests_CheckRequirements(chain.restrictions) then
-                skip = true
-            
+            if skip == nil and chain.restrictions then
+                skip = not BtWQuests_CheckRequirements(chain.restrictions)
+            end
+
+            if skip then
                 return true
             end
         
-            local chainName = chain.name
-            if type(chainName) == "function" then
-                chainName = chainName(chain)
-            end
-        
-            if visible == nil and chain.visible then
-                visible = chain.visible
-            end
-        
-            if type(visible) == "table" then
-                visible = BtWQuests_CheckRequirements(visible)
-            elseif type(visible) == "function" then
-                visible = visible(chain)
-            end
+            visible = visible == nil and chain.visible or visible
             
-            name = name or chainName
+            name = name or chain.name
             difficulty = difficulty or chain.difficulty
-            tagID = tagID or tagID
+            tagID = tagID or chain.tagID
             
-            if completed == nil and chain.completed then
-                if chain.completed[1] ~= nil then
-                    completed = BtWQuests_CheckRequirements(chain.completed)
-                else
-                    completed = BtWQuests_CheckRequirement(chain.completed)
-                end
-            end
-    
-            if not completed and chain.prerequisites then
-                active = BtWQuests_CheckRequirements(chain.prerequisites)
-            end
-            
-            if completed then
-                status = "complete"
-            elseif active then
-                status = "active"
-            else
-                status = nil
-            end
+            active = active == nil and function (item)
+                return BtWQuests_CheckRequirements(chain.prerequisites)
+            end or active
+            completed = completed == nil and chain.completed or completed
             
             onClick = onClick or function (self)
                 if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link, self.userdata.scrollTo) then
@@ -690,7 +650,7 @@ function BtWQuests_GetChainItemByIndex(index)
                 GameTooltip:Hide()
             end
             
-            userdata.link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, chainName)
+            userdata.link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(chain.name, chain))
         elseif item.type == "reputation" then
             local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
             local gender = UnitSex("player")
@@ -715,7 +675,42 @@ function BtWQuests_GetChainItemByIndex(index)
             assert(false, "Invalid item type: " .. tostring(item.type))
         end
         
+        name = BtWQuests_EvalText(name, item)
+        visible = BtWQuests_EvalRequirement(visible, item)
+        
+        if status == nil then
+            completed = BtWQuests_EvalRequirement(completed, item)
+            
+            if completed then
+                active = false
+            else
+                active = BtWQuests_EvalRequirement(active, item)
+            end
+            
+            if completed then
+                status = "complete"
+            elseif active then
+                status = "active"
+            else
+                status = nil
+            end
+        end
+        
+        status = BtWQuests_EvalText(status, item)
+        
         return skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
+    end
+end
+
+-- skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
+function BtWQuests_GetChainItemByIndex(index)
+    local chainID = BtWQuests_GetCurrentChain()
+    if chainID == nil then
+        return nil
+    end
+    
+    if BtWQuests_Chains[chainID].items then
+        return BtWQuests_EvalChainItem(BtWQuests_Chains[chainID].items[index])
     end
 end
 
