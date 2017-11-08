@@ -7858,7 +7858,7 @@ BtWQuests_Chains = {
         },
         prerequisites = {
             {
-                hidden = true,
+                visible = false,
                 onEval = function (self)
                     if IsQuestFlaggedCompleted(40715) and IsQuestFlaggedCompleted(40722) then -- First Artifact
                         return true
