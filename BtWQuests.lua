@@ -968,6 +968,7 @@ function BtWQuests_DisplayChain(scrollTo)
         else
             -- itemButton.ForgottenAnim:Stop()
             itemButton.name:SetAlpha(1)
+            itemButton.ForgottenAnim:Stop()
             
             if ( tagID ) then
                 local tagCoords = QUEST_TAG_TCOORDS[tagID];
