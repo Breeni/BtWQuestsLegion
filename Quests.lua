@@ -22602,15 +22602,15 @@ BtWQuests_Chains = {
         name = "Light's Heart",
         category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
         expansion = BTWQUESTS_EXPANSION_LEGION,
-        requirements = {
+        prerequisites = {
             {
                 type = "level",
-                level = 100,
+                level = 102,
             },
         },
         completed = {
             type = "quest",
-            id = 45866,
+            id = 45177,
         },
         range = {100, 110},
         items = {
