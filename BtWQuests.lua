@@ -1229,29 +1229,13 @@ function BtWQuests_UpdateChain(scroll)
                 
                 if itemButton.newStatus ~= itemButton.status then
                     if itemButton.newStatus == 'complete' then
-                        if itemButton.status == 'active' then
-                            itemButton.ActiveTexture:Hide()
-                            
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                -- frame:SetAlpha(1)
-                                
-                                frame.DefaultToCompleteAnim:Play()
-                                -- frame.ActiveToCompleteAnim:Play()
-                            end
-                        else
-                            for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                                -- frame:SetAlpha(1)
-                                
-                                frame.DefaultToCompleteAnim:Play()
-                            end
+                        itemButton.ActiveTexture:Hide()
+                        
+                        for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
+                            frame.DefaultToCompleteAnim:Play()
                         end
                     elseif itemButton.newStatus == 'active' then
                         itemButton.ActiveTexture:Show()
-                        
-                        for frame, something in itemButton.backgroundLinePool:EnumerateActive() do
-                            -- frame:SetAlpha(1)
-                            -- frame.DefaultToActiveAnim:Play()
-                        end
                     end
                 end
                 
