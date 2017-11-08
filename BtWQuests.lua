@@ -408,7 +408,7 @@ function BtWQuests_GetCategoryByID(categoryID)
     return categoryID, category.name, link, category.expansion, category.parent, category.buttonImage, category.items and #category.items or 0
 end
 
-function BtWQuests_IsChainActive(questID)
+function BtWQuests_IsChainActive(chainID)
     if not chainID then
         return nil
     end
@@ -433,7 +433,7 @@ function BtWQuests_IsChainActive(questID)
     return active
 end
 
-function BtWQuests_IsChainCompleted(questID)
+function BtWQuests_IsChainCompleted(chainID)
     if not chainID then
         return nil
     end
