@@ -12,6 +12,11 @@
 		<Size x="174" y="96"/>
 		<TexCoords left="0.34570313" right="0.68554688" top="0.33300781" bottom="0.42675781"/>
 	</Texture>
+	<Texture name="UI-BtWQuests-CategoryButton-Active" file="Interface\EncounterJournal\UI-EncounterJournalTextures" virtual="true" >
+		<Size x="174" y="96"/>
+		<TexCoords left="0.34570313" right="0.68554688" top="0.33300781" bottom="0.42675781"/>
+        <Color r="0.937" g="0.796" b="0" a="1"/>
+	</Texture>
     
 	<Texture name="_PaperHeader-SelectUp-Mid" file="Interface\EncounterJournal\UI-EncounterJournalTextures_Tile" virtual="true" horizTile="true" >
 		<Size x="64" y="48"/>
@@ -154,6 +159,7 @@
 				</Texture>
 			</Layer>
 			<Layer level="OVERLAY">
+				<Texture parentKey="AciveTexture" inherits="UI-BtWQuests-CategoryButton-Active" hidden="true"/>
 				<FontString name="$parentName" inherits="QuestTitleFontBlackShadow" parentKey="name">
 					<Size x="150" y="0"/>
 					<Anchors>
@@ -231,15 +237,15 @@
 					</Anchors>
 				</Texture>
 			</Layer>
-			<!-- <Layer level="ARTWORK"> -->
-				<!-- <Texture parentKey="IsNext" file="Interface\AddOns\BtWQuests\UI-BtWQuests-Glow"> -->
-                    <!-- <Size x="174" y="64"/> -->
-					<!-- <Anchors> -->
-						<!-- <Anchor point="CENTER"/> -->
-					<!-- </Anchors> -->
-                    <!-- <TexCoords left="0.0" right="0.5859375" top="0.0" bottom="1.0"/> -->
-				<!-- </Texture> -->
-			<!-- </Layer> -->
+			<Layer level="ARTWORK">
+				<Texture parentKey="IsNext" file="Interface\AddOns\BtWQuests\UI-BtWQuests-Glow" alphaMode="ADD" hidden="true">
+                    <Size x="174" y="64"/>
+					<Anchors>
+						<Anchor point="CENTER"/>
+					</Anchors>
+                    <TexCoords left="0.0" right="0.5859375" top="0.0" bottom="1.0"/>
+				</Texture>
+			</Layer>
             <Layer level="ARTWORK" textureSubLevel="-2">
                 <Texture parentKey="HeroicTexture" file="Interface\Minimap\UI-DungeonDifficulty-Button" hidden="true">
                     <Size>
@@ -303,6 +309,10 @@
             <AnimationGroup parentKey="ActiveAnim" setToFinalAlpha="true">
                 <Alpha childKey="ActiveTexture" startDelay="0.00" duration="0.5" order="1" fromAlpha="0" toAlpha="1"/>
                 <Alpha childKey="ActiveTexture" startDelay="0.20" duration="0.5" order="2" fromAlpha="1" toAlpha="0.5"/>
+            </AnimationGroup>
+            <AnimationGroup parentKey="IsNextAnim" looping="REPEAT">
+                <Alpha childKey="ActiveTexture" startDelay="0.00" duration="0.5" order="1" fromAlpha="0.25" toAlpha="0.75"/>
+                <Alpha childKey="ActiveTexture" startDelay="0.20" duration="0.5" order="2" fromAlpha="0.75" toAlpha="0.25"/>
             </AnimationGroup>
             <AnimationGroup parentKey="ForgottenAnim" setToFinalAlpha="true">
                 <Alpha childKey="name" startDelay="0.00" duration="0.5" order="1" fromAlpha="1" toAlpha="0.5"/>
