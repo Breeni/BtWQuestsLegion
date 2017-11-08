@@ -533,7 +533,7 @@ function BtWQuests_EvalRequirement(requirement, item)
         return requirement(item)
     end
     
-    assert(requirement ~= nil, "Invalid requirement type " .. type(requirement))
+    assert(requirement == nil, "Invalid requirement type " .. type(requirement))
 end
 
 -- skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
