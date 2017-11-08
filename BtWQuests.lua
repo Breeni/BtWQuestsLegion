@@ -528,7 +528,17 @@ function BtWQuests_EvalRequirement(requirement, item)
     if type(requirement) == "boolean" then
         return requirement
     elseif type(requirement) == "table" then
-        return BtWQuests_CheckRequirement(requirement)
+        if requirement[1] ~= nil then
+            for _, v in ipairs(item) do
+                if BtWQuests_CheckRequirement(requirement) then
+                    return true
+                end
+            end
+            
+            return false
+        else
+            return BtWQuests_CheckRequirement(requirement)
+        end
     elseif type(requirement) == "function" then
         return requirement(item)
     end
