@@ -1361,11 +1361,30 @@ BtWQuests_Chains = {
                     1
                 },
             },
+            
+            
+            {
+                type = "quest",
+                id = 43527,
+                breadcrumb = 1,
+                onClick = function (self)
+                    BtWQuests_SelectChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD)
+                end,
+                x = 2.9,
+                y = 7,
+                connections = {
+                    1
+                },
+            },
+            
+            
+            
+            
             {
                 type = "quest",
                 id = 43523,
-                x = 3,
-                y = 7,
+                x = 3.1,
+                y = 8,
                 connections = {
                     2
                 },
@@ -1375,7 +1394,7 @@ BtWQuests_Chains = {
                 id = 1859,
                 standing = 7,
                 x = 5.25,
-                y = 7.5,
+                y = 8.5,
                 onClick = function (self)
                     BtWQuests_SelectCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR)
                 end,
@@ -1387,7 +1406,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 40673,
                 x = 3.25,
-                y = 8,
+                y = 9,
                 connections = {
                     1, 2, 3
                 },
@@ -1399,7 +1418,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43525,
                 x = 1,
-                y = 9,
+                y = 10,
                 connections = {
                     3
                 },
@@ -1408,7 +1427,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 40675,
                 x = 3,
-                y = 9,
+                y = 10,
                 connections = {
                     2
                 },
@@ -1417,7 +1436,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43524,
                 x = 5,
-                y = 9,
+                y = 10,
                 connections = {
                     1
                 },
@@ -1428,7 +1447,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 40678,
                 x = 3.25,
-                y = 10,
+                y = 11,
                 connections = {
                     1
                 },
@@ -1439,7 +1458,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43526,
                 x = 3,
-                y = 11,
+                y = 12,
                 connections = {
                     1
                 },
@@ -1450,7 +1469,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 40603,
                 x = 2.75,
-                y = 12,
+                y = 13,
                 connections = {
                     1
                 },
@@ -1461,7 +1480,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 40608,
                 x = 3.25,
-                y = 13,
+                y = 14,
                 connections = {
                     1
                 },
@@ -1472,7 +1491,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 40613,
                 x = 3,
-                y = 14,
+                y = 15,
                 connections = {
                     1, 2
                 },
@@ -1483,7 +1502,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 40614,
                 x = 2,
-                y = 15,
+                y = 16,
                 connections = {
                     2
                 },
@@ -1494,7 +1513,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 40672,
                 x = 4,
-                y = 15,
+                y = 16,
                 connections = {
                     1
                 },
@@ -1505,7 +1524,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 40615,
                 x = 2.75,
-                y = 16,
+                y = 17,
                 connections = {
                     1
                 },
@@ -1516,7 +1535,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43528,
                 x = 3.25,
-                y = 17,
+                y = 18,
                 connections = {
                     1, 2
                 },
@@ -1527,7 +1546,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43531,
                 x = 2,
-                y = 18,
+                y = 19,
                 connections = {
                     2
                 },
@@ -1538,7 +1557,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43530,
                 x = 4,
-                y = 18,
+                y = 19,
                 connections = {
                     1
                 },
@@ -1549,7 +1568,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43532,
                 x = 3,
-                y = 19,
+                y = 20,
                 connections = {
                     1
                 },
@@ -1560,7 +1579,7 @@ BtWQuests_Chains = {
                 type = "quest",
                 id = 43533,
                 x = 3,
-                y = 20,
+                y = 21,
             },
         },
     },
@@ -4898,6 +4917,22 @@ BtWQuests_Chains = {
                 id = 40972,
                 x = 3,
                 y = 9,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER,
+                userdata = {
+                    scrollTo = {
+                        type = "quest",
+                        id = 43527,
+                    },
+                },
+                aside = true,
+                x = 3,
+                y = 10,
             },
         }
     },
@@ -23262,6 +23297,10 @@ BtWQuests_Quests = {
     [43522] = {
         name = "Essential Consumption",
     },
+	[43527] = {
+		["name"] = "Saving the Guard",
+		["level"] = 110,
+	},
     [43523] = {
         name = "Repaid Debt",
     },
