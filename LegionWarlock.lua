@@ -200,7 +200,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
         
         {
             type = "chain",
-            name = "Affliction: Ulthalesh",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
             visible = function (self)
                 return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
@@ -242,7 +241,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
         
         {
             type = "chain",
-            name = "Affliction: Ulthalesh",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
             visible = function (self)
                 return IsQuestFlaggedCompleted(40686)
@@ -705,7 +703,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
             },
         },
         {
-            name = "Go to the Felblood Alter",
+            name = BTWQUESTS_GO_TO_THE_FELBLOOD_ALTER,
             breadcrumb = true,
             x = 3,
             y = 38,
