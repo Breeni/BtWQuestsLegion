@@ -828,6 +828,10 @@ BtWQuests_Quests = {
         name = "Radunare un'armata",
         level = 110,
     },
+    [43943] = {
+        name = "Addestramento dell'armata degli Avvizziti",
+        level = 110,
+    },
     [44561] = {
         name = "Il seme della speranza",
         level = 110,
@@ -2590,10 +2594,6 @@ BtWQuests_Quests = {
         name = "Reclute acerbe",
         level = -1,
     },
-    [43878] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44213] = {
         name = "Voi sarete pronti!",
         level = -1,
@@ -3144,10 +3144,6 @@ BtWQuests_Quests = {
         name = "Grosse Costine di Selvaggina",
         level = -1,
     },
-    [43880] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44233] = {
         name = "Il sentiero da seguire",
         level = -1,
@@ -3472,10 +3468,6 @@ BtWQuests_Quests = {
         name = "La richiesta ragionevole di Granstrippo",
         level = -1,
     },
-    [43885] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44178] = {
         name = "Una pozione particolarmente potente",
         level = -1,
@@ -3701,10 +3693,6 @@ BtWQuests_Quests = {
     },
     [42100] = {
         name = "Potenziare l'Anima",
-        level = -1,
-    },
-    [43887] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [44254] = {
@@ -4001,10 +3989,6 @@ BtWQuests_Quests = {
     },
     [43487] = {
         name = "Assalto alla Fortezza Violacea: Il Vildizionario",
-        level = -1,
-    },
-    [43883] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43488] = {
@@ -4307,10 +4291,6 @@ BtWQuests_Quests = {
         name = "L'arancione è il nuovo viola",
         level = -1,
     },
-    [43749] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [42954] = {
         name = "Un piccolo favore",
         level = -1,
@@ -4555,10 +4535,6 @@ BtWQuests_Quests = {
         name = "Parola del Potere: Armatura",
         level = -1,
     },
-    [43884] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [43386] = {
         name = "Inviato delle Furie Scarlatte",
         level = -1,
@@ -4753,10 +4729,6 @@ BtWQuests_Quests = {
     },
     [44255] = {
         name = "Chiedi e ti sarà dato",
-        level = -1,
-    },
-    [43888] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43586] = {
@@ -4965,10 +4937,6 @@ BtWQuests_Quests = {
     },
     [44253] = {
         name = "Una visione del trionfo",
-        level = -1,
-    },
-    [43886] = {
-        name = "Speaking to the Wind",
         level = -1,
     },
     [41901] = {

@@ -828,6 +828,10 @@ BtWQuests_Quests = {
         name = "A formação de um exército",
         level = 110,
     },
+    [43943] = {
+        name = "Treinamento do Exército dos Fenecidos",
+        level = 110,
+    },
     [44561] = {
         name = "Semente da esperança",
         level = 110,
@@ -2590,10 +2594,6 @@ BtWQuests_Quests = {
         name = "Novos adeptos",
         level = -1,
     },
-    [43878] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44213] = {
         name = "Você estará preparado!",
         level = -1,
@@ -3144,10 +3144,6 @@ BtWQuests_Quests = {
         name = "Costelões de Caça",
         level = -1,
     },
-    [43880] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44233] = {
         name = "Por aqui",
         level = -1,
@@ -3472,10 +3468,6 @@ BtWQuests_Quests = {
         name = "O pedido rasoável de Nublacuca",
         level = -1,
     },
-    [43885] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44178] = {
         name = "Uma poção particularmente potente",
         level = -1,
@@ -3701,10 +3693,6 @@ BtWQuests_Quests = {
     },
     [42100] = {
         name = "Potencializando a alma",
-        level = -1,
-    },
-    [43887] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [44254] = {
@@ -4001,10 +3989,6 @@ BtWQuests_Quests = {
     },
     [43487] = {
         name = "Ataque ao Castelo Violeta: o Léxico Vil",
-        level = -1,
-    },
-    [43883] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43488] = {
@@ -4307,10 +4291,6 @@ BtWQuests_Quests = {
         name = "Laranja é o novo roxo",
         level = -1,
     },
-    [43749] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [42954] = {
         name = "Um pequeno favor",
         level = -1,
@@ -4555,10 +4535,6 @@ BtWQuests_Quests = {
         name = "Palavra de Poder: Armadura",
         level = -1,
     },
-    [43884] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [43386] = {
         name = "Enviado da ofensiva",
         level = -1,
@@ -4753,10 +4729,6 @@ BtWQuests_Quests = {
     },
     [44255] = {
         name = "Machadinha quando nasce...",
-        level = -1,
-    },
-    [43888] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43586] = {
@@ -4965,10 +4937,6 @@ BtWQuests_Quests = {
     },
     [44253] = {
         name = "Uma visão do triunfo",
-        level = -1,
-    },
-    [43886] = {
-        name = "Speaking to the Wind",
         level = -1,
     },
     [41901] = {

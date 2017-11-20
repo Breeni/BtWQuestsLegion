@@ -828,6 +828,10 @@ BtWQuests_Quests = {
         name = "Crear un ejército",
         level = 110,
     },
+    [43943] = {
+        name = "Instrucción del ejército de los Marchitos",
+        level = 110,
+    },
     [44561] = {
         name = "Semilla de esperanza",
         level = 110,
@@ -2590,10 +2594,6 @@ BtWQuests_Quests = {
         name = "Adeptos verdes",
         level = -1,
     },
-    [43878] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44213] = {
         name = "¡Estarás preparado!",
         level = -1,
@@ -3144,10 +3144,6 @@ BtWQuests_Quests = {
         name = "Costillas grandes de sabor fuerte",
         level = -1,
     },
-    [43880] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44233] = {
         name = "Por el buen camino",
         level = -1,
@@ -3472,10 +3468,6 @@ BtWQuests_Quests = {
         name = "Solicitud razonable de Tragonublo",
         level = -1,
     },
-    [43885] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44178] = {
         name = "Una poción particularmente potente",
         level = -1,
@@ -3701,10 +3693,6 @@ BtWQuests_Quests = {
     },
     [42100] = {
         name = "Potenciar el alma",
-        level = -1,
-    },
-    [43887] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [44254] = {
@@ -4001,10 +3989,6 @@ BtWQuests_Quests = {
     },
     [43487] = {
         name = "Asalto al Bastión Violeta: El Lexicón vil",
-        level = -1,
-    },
-    [43883] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43488] = {
@@ -4307,10 +4291,6 @@ BtWQuests_Quests = {
         name = "El naranja es el nuevo morado",
         level = -1,
     },
-    [43749] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [42954] = {
         name = "Un pequeño favor",
         level = -1,
@@ -4555,10 +4535,6 @@ BtWQuests_Quests = {
         name = "Palabra de poder: armadura",
         level = -1,
     },
-    [43884] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [43386] = {
         name = "Enviado del embate",
         level = -1,
@@ -4753,10 +4729,6 @@ BtWQuests_Quests = {
     },
     [44255] = {
         name = "Hacha lo que hacha",
-        level = -1,
-    },
-    [43888] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43586] = {
@@ -4965,10 +4937,6 @@ BtWQuests_Quests = {
     },
     [44253] = {
         name = "Una visión triunfal",
-        level = -1,
-    },
-    [43886] = {
-        name = "Speaking to the Wind",
         level = -1,
     },
     [41901] = {
