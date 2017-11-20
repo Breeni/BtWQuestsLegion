@@ -167,7 +167,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             }
         },
         {
-            name = "Return to your Order Hall",
+            name = BTWQUESTS_RETURN_TO_ORDER_HALL,
             breadcrumb = true,
             x = 3,
             y = 6,

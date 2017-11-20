@@ -1571,7 +1571,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD] = {
     range = {110},
     items = {
         {
-            name = "Kill Nightborne",
+            name = BTWQUESTS_KILL_NIGHTBORNE,
             breadcrumb = true,
             aside = true,
             x = 1,
@@ -1588,7 +1588,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD] = {
             y = 1,
         },
         {
-            name = "Go to Lyrea Windfeather",
+            name = BTWQUESTS_GO_TO_LYREA_WINDFEATHER,
             breadcrumb = true,
             x = 3,
             y = 0,
@@ -1606,7 +1606,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD] = {
             },
         },
         {
-            name = "Go to Ivanel Meadowsong",
+            name = BTWQUESTS_GO_TO_IVANEL_MEADOWSONG,
             breadcrumb = true,
             x = 5,
             y = 0,
@@ -1770,12 +1770,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR] = {
     range = {110},
     items = {
         {
-            name = "Go to Thaedris Feathersong",
+            name = BTWQUESTS_GO_TO_THAEDRIS_FEATHERSONG,
             breadcrumb = true,
             onClick = function ()
                 if TomTom and TomTom.AddMFWaypoint then
                     TomTom:AddMFWaypoint(1033, 0, 0.456, 0.408, {
-                        title = "Thaedris Feathersong",
+                        title = BTWQUESTS_THAEDRIS_FEATHERSONG,
                     })
                 end
             end,
@@ -1905,7 +1905,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN] = {
             },
         },
         {
-            name = "Kill the Starving Ettin",
+            name = BTWQUESTS_KILL_THE_STARVING_ETTIN,
             breadcrumb = true,
             aside = true,
             x = 1,
@@ -1940,7 +1940,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN] = {
             },
         },
         {
-            name = "Return to Irongrove Retreat",
+            name = BTWQUESTS_RETURN_TO_IRONGROVE_RETRAT,
             breadcrumb = true,
             x = 3,
             y = 3,
@@ -2094,12 +2094,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN] = {
             },
         },
         {
-            name = "Go to Nighteyes",
+            name = BTWQUESTS_GO_TO_NIGHTEYES,
             breadcrumb = true,
             onClick = function ()
                 if TomTom and TomTom.AddMFWaypoint then
                     TomTom:AddMFWaypoint(1033, 0, 0.506, 0.565, {
-                        title = "Nighteyes",
+                        title = BTWQUESTS_NIGHTEYES,
                     })
                 end
             end,
