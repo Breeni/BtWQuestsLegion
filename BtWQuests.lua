@@ -497,6 +497,24 @@ function BtWQuests_IsQuestCompleted(questID)
     return IsQuestFlaggedCompleted(questID)
 end
 
+function BtWQuests_GetQuestName(questID)
+    if not questID then
+        return nil
+    end
+    
+    local quest = BtWQuests_Quests[questID]
+    if not quest then
+        quest = {name = 'Unnamed'}
+    end
+        
+    local questName = quest.name
+    if type(questName) == "function" then
+        questName = questName(quest)
+    end
+    
+    return questName
+end
+
 function BtWQuests_GetQuestByID(questID)
     if not questID then
         return nil
@@ -642,7 +660,7 @@ function BtWQuests_EvalChainItem(item)
             tagID = tagID or chain.tagID
             
             active = active == nil and function (item)
-                return BtWQuests_CheckRequirements(chain.prerequisites)
+                return chain.prerequisites ~= nil and BtWQuests_CheckRequirements(chain.prerequisites) or true
             end or active
             completed = completed == nil and chain.completed or completed
             
@@ -800,7 +818,7 @@ function BtWQuests_OnLoad(self)
 	}
 	NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
     
-    BtWQuests_ListCategories()
+    -- BtWQuests_ListCategories()
     
     
 	-- LDB launcher
@@ -837,7 +855,11 @@ end
 function BtWQuests_OnShow(self)
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_OPEN);
     
-    BtWQuests_UpdateChain()
+    if BtWQuests.Chain:IsShown() then
+        BtWQuests_UpdateChain()
+    else
+        BtWQuests_ListCategories()
+    end
 end
 
 function BtWQuests_OnHide(self)
