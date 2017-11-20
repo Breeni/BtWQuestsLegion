@@ -828,6 +828,10 @@ BtWQuests_Quests = {
         name = "Building an Army",
         level = 110,
     },
+    [43943] = {
+        name = "Withered Army Training",
+        level = 110,
+    },
     [44561] = {
         name = "Seed of Hope",
         level = 110,
@@ -2590,10 +2594,6 @@ BtWQuests_Quests = {
         name = "Green Adepts",
         level = -1,
     },
-    [43878] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44213] = {
         name = "You Will Be Prepared!",
         level = -1,
@@ -3144,10 +3144,6 @@ BtWQuests_Quests = {
         name = "Big Gamy Ribs",
         level = -1,
     },
-    [43880] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44233] = {
         name = "Walk This Way",
         level = -1,
@@ -3472,10 +3468,6 @@ BtWQuests_Quests = {
         name = "Noggenfogger's Reasonable Request",
         level = -1,
     },
-    [43885] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44178] = {
         name = "A Particularly Potent Potion",
         level = -1,
@@ -3701,10 +3693,6 @@ BtWQuests_Quests = {
     },
     [42100] = {
         name = "Empowering the Soul",
-        level = -1,
-    },
-    [43887] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [44254] = {
@@ -4001,10 +3989,6 @@ BtWQuests_Quests = {
     },
     [43487] = {
         name = "Assault on Violet Hold: The Fel Lexicon",
-        level = -1,
-    },
-    [43883] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43488] = {
@@ -4307,10 +4291,6 @@ BtWQuests_Quests = {
         name = "Orange is the New Purple",
         level = -1,
     },
-    [43749] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [42954] = {
         name = "A Small Favor",
         level = -1,
@@ -4555,10 +4535,6 @@ BtWQuests_Quests = {
         name = "Power Word: Armor",
         level = -1,
     },
-    [43884] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [43386] = {
         name = "Onslaught Envoy",
         level = -1,
@@ -4753,10 +4729,6 @@ BtWQuests_Quests = {
     },
     [44255] = {
         name = "Axe and You Shall Receive",
-        level = -1,
-    },
-    [43888] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43586] = {
@@ -4965,10 +4937,6 @@ BtWQuests_Quests = {
     },
     [44253] = {
         name = "A Vision of Triumph",
-        level = -1,
-    },
-    [43886] = {
-        name = "Speaking to the Wind",
         level = -1,
     },
     [41901] = {

@@ -828,6 +828,10 @@ BtWQuests_Quests = {
         name = "Lever une armée",
         level = 110,
     },
+    [43943] = {
+        name = "Entraînement des Flétris",
+        level = 110,
+    },
     [44561] = {
         name = "Le germe de l’espoir",
         level = 110,
@@ -2590,10 +2594,6 @@ BtWQuests_Quests = {
         name = "Adeptes en herbe",
         level = -1,
     },
-    [43878] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44213] = {
         name = "Vous serez prêts !",
         level = -1,
@@ -3144,10 +3144,6 @@ BtWQuests_Quests = {
         name = "Grandes côtes de gibier",
         level = -1,
     },
-    [43880] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44233] = {
         name = "J’irai où tu iras",
         level = -1,
@@ -3472,10 +3468,6 @@ BtWQuests_Quests = {
         name = "La requête raisonnable de Brouillecaboche",
         level = -1,
     },
-    [43885] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [44178] = {
         name = "Une potion particulièrement puissante",
         level = -1,
@@ -3701,10 +3693,6 @@ BtWQuests_Quests = {
     },
     [42100] = {
         name = "La puissance d’une âme",
-        level = -1,
-    },
-    [43887] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [44254] = {
@@ -4001,10 +3989,6 @@ BtWQuests_Quests = {
     },
     [43487] = {
         name = "Assaut sur le fort Pourpre : le Gangrelexique",
-        level = -1,
-    },
-    [43883] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43488] = {
@@ -4307,10 +4291,6 @@ BtWQuests_Quests = {
         name = "Orange et des espoirs",
         level = -1,
     },
-    [43749] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [42954] = {
         name = "Un petit service",
         level = -1,
@@ -4555,10 +4535,6 @@ BtWQuests_Quests = {
         name = "Mot de pouvoir : Armure",
         level = -1,
     },
-    [43884] = {
-        name = "Hitting the Books",
-        level = -1,
-    },
     [43386] = {
         name = "L’émissaire de l’Assaut",
         level = -1,
@@ -4753,10 +4729,6 @@ BtWQuests_Quests = {
     },
     [44255] = {
         name = "Il n’y a qu’à cogner",
-        level = -1,
-    },
-    [43888] = {
-        name = "Hitting the Books",
         level = -1,
     },
     [43586] = {
@@ -4965,10 +4937,6 @@ BtWQuests_Quests = {
     },
     [44253] = {
         name = "Une vision de triomphe",
-        level = -1,
-    },
-    [43886] = {
-        name = "Speaking to the Wind",
         level = -1,
     },
     [41901] = {
