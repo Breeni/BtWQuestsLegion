@@ -451,7 +451,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Blood: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(47025),
             restrictions = {
                 {
                     type = "class",
@@ -466,7 +466,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Unholy: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47057),
             restrictions = {
                 {
                     type = "class",
@@ -483,7 +483,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Vengeance: Seeking Kor'vas",
+            name = BtWQuests_GetQuestName(46314),
             restrictions = {
                 {
                     type = "class",
@@ -500,7 +500,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
-            name = "Beast Mastery: Rumblings Near Feltotem",
+            name = BtWQuests_GetQuestName(47018),
             restrictions = {
                 {
                     type = "class",
@@ -515,7 +515,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Marksmanship: The Twisted Twin",
+            name = BtWQuests_GetQuestName(47039),
             restrictions = {
                 {
                     type = "class",
@@ -532,7 +532,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Assassination: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(47051),
             restrictions = {
                 {
                     type = "class",
@@ -547,7 +547,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Outlaw: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47058),
             restrictions = {
                 {
                     type = "class",
@@ -564,7 +564,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Fury: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47056),
             restrictions = {
                 {
                     type = "class",
@@ -579,7 +579,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Protection: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(45412),
             restrictions = {
                 {
                     type = "class",
@@ -801,7 +801,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Holy: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(46078),
             restrictions = {
                 {
                     type = "class",
@@ -816,7 +816,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Protection: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(45412),
             restrictions = {
                 {
                     type = "class",
@@ -833,7 +833,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Fire: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47055),
             restrictions = {
                 {
                     type = "class",
@@ -848,7 +848,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Frost: The Twisted Twin",
+            name = BtWQuests_GetQuestName(45182),
             restrictions = {
                 {
                     type = "class",
@@ -865,7 +865,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Elemental: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(45123),
             restrictions = {
                 {
                     type = "class",
@@ -880,7 +880,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Restoration: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(47003),
             restrictions = {
                 {
                     type = "class",
@@ -897,7 +897,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Outlaw: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47058),
             restrictions = {
                 {
                     type = "class",
@@ -912,7 +912,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            name = "Subtlety: The Thieving Apprentice",
+            name = BtWQuests_GetQuestName(47048),
             restrictions = {
                 {
                     type = "class",
@@ -929,7 +929,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Affliction: The Twisted Twin",
+            name = BtWQuests_GetQuestName(47041),
             restrictions = {
                 {
                     type = "class",
@@ -944,7 +944,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
-            name = "Destruction: Rumblings Near Feltotem",
+            name = BtWQuests_GetQuestName(45560),
             restrictions = {
                 {
                     type = "class",
@@ -1186,7 +1186,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            name = "Frost: The Thieving Apprentice",
+            name = BtWQuests_GetQuestName(47046),
             restrictions = {
                 {
                     type = "class",
@@ -1201,7 +1201,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Outlaw: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47058),
             restrictions = {
                 {
                     type = "class",
@@ -1218,7 +1218,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            name = "Havoc: The Thieving Apprentice",
+            name = BtWQuests_GetQuestName(47043),
             restrictions = {
                 {
                     type = "class",
@@ -1235,7 +1235,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Balance: The Twisted Twin",
+            name = BtWQuests_GetQuestName(47037),
             restrictions = {
                 {
                     type = "class",
@@ -1250,7 +1250,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Feral: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47059),
             restrictions = {
                 {
                     type = "class",
@@ -1265,7 +1265,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Restoration: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(47003),
             restrictions = {
                 {
                     type = "class",
@@ -1282,7 +1282,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Holy: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(46078),
             restrictions = {
                 {
                     type = "class",
@@ -1297,7 +1297,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Retribution: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(47052),
             restrictions = {
                 {
                     type = "class",
@@ -1314,7 +1314,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Mistweaver: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(47005),
             restrictions = {
                 {
                     type = "class",
@@ -1329,7 +1329,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
-            name = "Windwalker: Rumblings Near Feltotem",
+            name = BtWQuests_GetQuestName(47019),
             restrictions = {
                 {
                     type = "class",
@@ -1346,7 +1346,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            name = "Arms: The Thieving Apprentice",
+            name = BtWQuests_GetQuestName(44914),
             restrictions = {
                 {
                     type = "class",
@@ -1361,7 +1361,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Fury: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47056),
             restrictions = {
                 {
                     type = "class",
@@ -1598,7 +1598,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Balance: The Twisted Twin",--select(2, BtWQuests_GetQuestByID(47037)),
+            name = BtWQuests_GetQuestName(47037),
             restrictions = {
                 {
                     type = "class",
@@ -1613,7 +1613,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Feral: The Folly of Levia Laurence",--select(2, BtWQuests_GetQuestByID(47059)),
+            name = BtWQuests_GetQuestName(47059),
             restrictions = {
                 {
                     type = "class",
@@ -1628,7 +1628,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Guardian: Aid of the Illidari",--select(2, BtWQuests_GetQuestByID(47023)),
+            name = BtWQuests_GetQuestName(47023),
             restrictions = {
                 {
                     type = "class",
@@ -1645,7 +1645,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Protection: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(45412),
             restrictions = {
                 {
                     type = "class",
@@ -1660,7 +1660,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Retribution: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(47052),
             restrictions = {
                 {
                     type = "class",
@@ -1677,7 +1677,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
-            name = "Discipline: Rumblings Near Feltotem",
+            name = BtWQuests_GetQuestName(47020),
             restrictions = {
                 {
                     type = "class",
@@ -1692,7 +1692,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Shadow: The Twisted Twin",
+            name = BtWQuests_GetQuestName(47042),
             restrictions = {
                 {
                     type = "class",
@@ -1709,7 +1709,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Brewmaster: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(47024),
             restrictions = {
                 {
                     type = "class",
@@ -1724,7 +1724,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
-            name = "Windwalker: Rumblings Near Feltotem",
+            name = BtWQuests_GetQuestName(47019),
             restrictions = {
                 {
                     type = "class",
@@ -1741,7 +1741,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Elemental: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(45123),
             restrictions = {
                 {
                     type = "class",
@@ -1756,7 +1756,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Enchantment: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(47050),
             restrictions = {
                 {
                     type = "class",
@@ -1994,7 +1994,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Marksmanship: The Twisted Twin",
+            name = BtWQuests_GetQuestName(47039),
             restrictions = {
                 {
                     type = "class",
@@ -2009,7 +2009,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            name = "Survival: The Thieving Apprentice",
+            name = BtWQuests_GetQuestName(47047),
             restrictions = {
                 {
                     type = "class",
@@ -2026,7 +2026,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Holy: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(46078),
             restrictions = {
                 {
                     type = "class",
@@ -2041,7 +2041,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Shadow: The Twisted Twin",
+            name = BtWQuests_GetQuestName(47042),
             restrictions = {
                 {
                     type = "class",
@@ -2058,7 +2058,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Brewmaster: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(47024),
             restrictions = {
                 {
                     type = "class",
@@ -2073,7 +2073,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Mistweaver: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(47005),
             restrictions = {
                 {
                     type = "class",
@@ -2090,7 +2090,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Affliction: The Twisted Twin",
+            name = BtWQuests_GetQuestName(47041),
             restrictions = {
                 {
                     type = "class",
@@ -2105,7 +2105,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Demonology: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(47049),
             restrictions = {
                 {
                     type = "class",
@@ -2332,7 +2332,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Blood: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(47025),
             restrictions = {
                 {
                     type = "class",
@@ -2347,7 +2347,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            name = "Frost: The Thieving Apprentice",
+            name = BtWQuests_GetQuestName(47046),
             restrictions = {
                 {
                     type = "class",
@@ -2364,7 +2364,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Balance: The Twisted Twin",
+            name = BtWQuests_GetQuestName(47037),
             restrictions = {
                 {
                     type = "class",
@@ -2379,7 +2379,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Guardian: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(47023),
             restrictions = {
                 {
                     type = "class",
@@ -2394,7 +2394,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Restoration: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(47003),
             restrictions = {
                 {
                     type = "class",
@@ -2411,7 +2411,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Assassination: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(47051),
             restrictions = {
                 {
                     type = "class",
@@ -2426,7 +2426,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            name = "Subtlety: The Thieving Apprentice",
+            name = BtWQuests_GetQuestName(47048),
             restrictions = {
                 {
                     type = "class",
@@ -2443,7 +2443,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Enchantment: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(47050),
             restrictions = {
                 {
                     type = "class",
@@ -2458,7 +2458,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Restoration: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(47003),
             restrictions = {
                 {
                     type = "class",
@@ -2475,7 +2475,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Arcane: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(45482),
             restrictions = {
                 {
                     type = "class",
@@ -2490,7 +2490,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
-            name = "Frost: The Twisted Twin",
+            name = BtWQuests_GetQuestName(45182),
             restrictions = {
                 {
                     type = "class",
@@ -2507,7 +2507,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            name = "Arms: The Thieving Apprentice",
+            name = BtWQuests_GetQuestName(44914),
             restrictions = {
                 {
                     type = "class",
@@ -2522,7 +2522,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Protection: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(45412),
             restrictions = {
                 {
                     type = "class",
@@ -2777,7 +2777,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Feral: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47059),
             restrictions = {
                 {
                     type = "class",
@@ -2792,7 +2792,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
-            name = "Guardian: Aid of the Illidari",
+            name = BtWQuests_GetQuestName(47023),
             restrictions = {
                 {
                     type = "class",
@@ -2807,7 +2807,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Restoration: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(47003),
             restrictions = {
                 {
                     type = "class",
@@ -2824,7 +2824,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
-            name = "Beast Mastery: Rumblings Near Feltotem",
+            name = BtWQuests_GetQuestName(47018),
             restrictions = {
                 {
                     type = "class",
@@ -2839,7 +2839,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
-            name = "Survival: The Thieving Apprentice",
+            name = BtWQuests_GetQuestName(47047),
             restrictions = {
                 {
                     type = "class",
@@ -2856,7 +2856,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
-            name = "Discipline: Rumblings Near Feltotem",
+            name = BtWQuests_GetQuestName(47020),
             restrictions = {
                 {
                     type = "class",
@@ -2871,7 +2871,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
-            name = "Holy: The Bradensbrook Investigation",
+            name = BtWQuests_GetQuestName(46078),
             restrictions = {
                 {
                     type = "class",
@@ -2888,7 +2888,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Arcane: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(45482),
             restrictions = {
                 {
                     type = "class",
@@ -2903,7 +2903,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
-            name = "Fire: The Folly of Levia Laurence",
+            name = BtWQuests_GetQuestName(47055),
             restrictions = {
                 {
                     type = "class",
@@ -2920,7 +2920,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
-            name = "Demonology: Fate of the Tideskorn",
+            name = BtWQuests_GetQuestName(47049),
             restrictions = {
                 {
                     type = "class",
@@ -2935,7 +2935,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
-            name = "Destruction: Rumblings Near Feltotem",
+            name = BtWQuests_GetQuestName(45560),
             restrictions = {
                 {
                     type = "class",
