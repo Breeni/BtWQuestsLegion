@@ -241,10 +241,47 @@
 			<Anchor point="CENTER" x="0" y="0"/>
 		</Anchors>
 		<Frames>
-			<Frame name="$parentNavBar" inherits="NavBarTemplate" parentKey="navBar">
-				<Size x="500" y="34"/>
+			<Button name="$parentNavBack" parentKey="back">
+				<Size x="32" y="32"/>
 				<Anchors>
-					<Anchor point="TOPLEFT" x="61" y="-22"/>
+					<Anchor point="TOPLEFT" x="61" y="-23"/>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:Disable();
+					</OnLoad>
+					<OnClick>
+						BtWQuestsHistory_Back();
+					</OnClick>
+				</Scripts>
+				<NormalTexture file="Interface\Buttons\UI-SpellbookIcon-PrevPage-Up"/>
+				<PushedTexture file="Interface\Buttons\UI-SpellbookIcon-PrevPage-Down"/>
+				<DisabledTexture file="Interface\Buttons\UI-SpellbookIcon-PrevPage-Disabled"/>
+				<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD"/>
+			</Button>
+			<Button name="$parentNavForward" parentKey="forward">
+				<Size x="32" y="32"/>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parentNavBack" relativePoint="RIGHT" x="3"/>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:Disable();
+					</OnLoad>
+					<OnClick>
+						BtWQuestsHistory_Forward();
+					</OnClick>
+				</Scripts>
+				<NormalTexture file="Interface\Buttons\UI-SpellbookIcon-NextPage-Up"/>
+				<PushedTexture file="Interface\Buttons\UI-SpellbookIcon-NextPage-Down"/>
+				<DisabledTexture file="Interface\Buttons\UI-SpellbookIcon-NextPage-Disabled"/>
+				<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD"/>
+			</Button>
+            
+			<Frame name="$parentNavBar" inherits="NavBarTemplate" parentKey="navBar">
+				<Size x="640" y="34"/>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parentNavForward" relativePoint="RIGHT" x="3"/>
 				</Anchors>
 				<Layers>
 					<Layer level="BORDER" textureSubLevel="-5">
