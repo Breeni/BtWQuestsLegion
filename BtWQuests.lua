@@ -642,7 +642,7 @@ function BtWQuests_EvalChainItem(item)
             tagID = tagID or chain.tagID
             
             active = active == nil and function (item)
-                return BtWQuests_CheckRequirements(chain.prerequisites)
+                return chain.prerequisites ~= nil and BtWQuests_CheckRequirements(chain.prerequisites)
             end or active
             completed = completed == nil and chain.completed or completed
             
