@@ -6545,4 +6545,32 @@ BtWQuests_Quests = {
         name = "Redistribution",
         level = 113,
     },
+	[38035] = {
+		name = "A Royal Summons",
+		level = -1,
+	},
+	[39735] = {
+		name = "Stormheim",
+		level = -1,
+	},
+	[39864] = {
+		name = "Stormheim",
+		level = -1,
+	},
+	[44700] = {
+		name = "Stormheim",
+		level = -1,
+	},
+	[44701] = {
+		name = "Stormheim",
+		level = -1,
+	},
+	[38206] = {
+		name = "Making the Rounds",
+		level = -1,
+	},
+	[39800] = {
+		name = "Greymane's Gambit",
+		level = -1,
+	},
 }

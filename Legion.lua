@@ -67,10 +67,10 @@ BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION] = {
         -- type = "category",
         -- id = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     -- },
-    -- {
-        -- type = "category",
-        -- id = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
-    -- },
+    {
+        type = "category",
+        id = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
+    },
     {
         type = "category",
         id = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
