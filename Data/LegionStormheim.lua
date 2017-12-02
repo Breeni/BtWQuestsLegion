@@ -2,8 +2,55 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT] = {
     name = GetAchievementCriteriaInfo(10790, 1),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 39800,
+    },
     range = {98, 110},
     items = {
+        {
+            type = "quest",
+            id = 39735,
+            x = 3,
+            y = 0,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 38035,
+            x = 3,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 38206,
+            x = 3,
+            y = 2,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39800,
+            x = 3,
+            y = 3,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH,
+            breadcrumb = true,
+            x = 3,
+            y = 4,
+        },
     }
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH] = {
