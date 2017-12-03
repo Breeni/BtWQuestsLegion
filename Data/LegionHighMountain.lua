@@ -483,7 +483,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             x = 3,
             y = 7,
             connections = {
-                1, 2, 3, 
+                2
             },
         },
         {
