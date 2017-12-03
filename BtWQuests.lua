@@ -133,6 +133,10 @@ local function BtWQuests_CheckRequirement(item)
             return BtWQuests_IsQuestCompleted(item.id)
         end
     elseif item.type == "chain" then
+        if BtWQuests_Chains[item.id].completed == nil then
+            return false
+        end
+        
         if BtWQuests_Chains[item.id].completed[1] ~= nil then
             return BtWQuests_CheckRequirements(BtWQuests_Chains[item.id].completed)
         else
