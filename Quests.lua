@@ -6545,4 +6545,272 @@ BtWQuests_Quests = {
         name = "Redistribution",
         level = 113,
     },
+
+    
+	[42104] = {
+		name = "The Underking Comes",
+		level = -1,
+	},
+	[40594] = {
+		name = "Justice Rains from Above",
+		level = -1,
+	},
+	[39588] = {
+		name = "They Will Pay With Blood",
+		level = -1,
+	},
+	[38915] = {
+		name = "Battle of Snowblind Mesa",
+		level = -1,
+	},
+	[39025] = {
+		name = "Grasp of the Underking",
+		level = -1,
+	},
+	[39027] = {
+		name = "Dargrul and the Hammer",
+		level = -1,
+	},
+	[39777] = {
+		name = "Buy Us Time",
+		level = -1,
+	},
+	[39661] = {
+		name = "Lifespring Cavern",
+		level = -1,
+	},
+	[38907] = {
+		name = "Keepers of the Hammer",
+		level = -1,
+	},
+	[38909] = {
+		name = "Get to High Ground",
+		level = -1,
+	},
+	[38911] = {
+		name = "The Rivermane Tribe",
+		level = -1,
+	},
+	[38913] = {
+		name = "The Skyhorn Tribe",
+		level = -1,
+	},
+	[39860] = {
+		name = "Rite of Blood",
+		level = -1,
+	},
+	[39043] = {
+		name = "Bitestone Enclave",
+		level = -1,
+	},
+	[39990] = {
+		name = "Huln's War - Reinforcements",
+		level = -1,
+	},
+	[39614] = {
+		name = "Fish Out of Water",
+		level = -1,
+	},
+	[39490] = {
+		name = "Infestation",
+		level = -1,
+	},
+	[39429] = {
+		name = "Assaulting the Haglands",
+		level = -1,
+	},
+	[39776] = {
+		name = "Battle Worms",
+		level = -1,
+	},
+	[39496] = {
+		name = "The Flow of the River",
+		level = -1,
+	},
+	[39498] = {
+		name = "High Water",
+		level = -1,
+	},
+	[39374] = {
+		name = "An Audience with Torok",
+		level = -1,
+	},
+	[39862] = {
+		name = "The Siegebrul",
+		level = -1,
+	},
+	[42088] = {
+		name = "Evacuate Snowmane",
+		level = -1,
+	},
+	[40388] = {
+		name = "Huln's War - Shadowsong",
+		level = -1,
+	},
+	[39992] = {
+		name = "Huln's War - The Nathrezim",
+		level = -1,
+	},
+	[39321] = {
+		name = "The Three",
+		level = -1,
+	},
+	[40520] = {
+		name = "To See the Past",
+		level = -1,
+	},
+	[39577] = {
+		name = "An Ancient Secret",
+		level = -1,
+	},
+	[39579] = {
+		name = "The Backdoor",
+		level = -1,
+	},
+	[39455] = {
+		name = "Cave of the Blood Trial",
+		level = -1,
+	},
+	[39488] = {
+		name = "Balance of Elements",
+		level = -1,
+	},
+	[39575] = {
+		name = "The Path of Huln",
+		level = -1,
+	},
+	[39272] = {
+		name = "Poisoned Crops",
+		level = -1,
+	},
+	[40219] = {
+		name = "In Defiance of Deathwing",
+		level = -1,
+	},
+	[39780] = {
+		name = "The Underking",
+		level = -1,
+	},
+	[39026] = {
+		name = "The Drogbar",
+		level = -1,
+	},
+	[39988] = {
+		name = "Huln's War - Stormrage",
+		level = -1,
+	},
+	[40112] = {
+		name = "Huln's War - Malorne's Favored",
+		level = -1,
+	},
+	[39983] = {
+		name = "Huln's War - The Arrival",
+		level = -1,
+	},
+	[40167] = {
+		name = "The Story of Huln",
+		level = -1,
+	},
+	[38910] = {
+		name = "Rocs vs Eagles",
+		level = -1,
+	},
+	[38912] = {
+		name = "The Bloodtotem Tribe",
+		level = -1,
+	},
+	[39733] = {
+		name = "The Lone Mountain",
+		level = -1,
+	},
+	[38916] = {
+		name = "Secrets of Highmountain",
+		level = -1,
+	},
+	[40515] = {
+		name = "A Walk With the Spirits",
+		level = -1,
+	},
+	[39487] = {
+		name = "Crystal Fury",
+		level = -1,
+	},
+	[39489] = {
+		name = "Invading Spelunkers",
+		level = -1,
+	},
+	[39491] = {
+		name = "Ormgul the Pestilent",
+		level = -1,
+	},
+	[39426] = {
+		name = "Blood Debt",
+		level = -1,
+	},
+	[39873] = {
+		name = "I Have a Bad Feeling About This",
+		level = -1,
+	},
+	[39425] = {
+		name = "Stonedark Crystal",
+		level = -1,
+	},
+	[39373] = {
+		name = "Hags of a Feather",
+		level = -1,
+	},
+	[39391] = {
+		name = "Pet Rocks",
+		level = -1,
+	},
+	[39381] = {
+		name = "Rock Troll in a Hard Place",
+		level = -1,
+	},
+	[39316] = {
+		name = "Trapped Tauren",
+		level = -1,
+	},
+	[39318] = {
+		name = "Nursing the Wounds",
+		level = -1,
+	},
+	[39372] = {
+		name = "Witch of the Wood",
+		level = -1,
+	},
+	[39322] = {
+		name = "The Witchqueen",
+		level = -1,
+	},
+	[39387] = {
+		name = "The Skies of Highmountain",
+		level = -1,
+	},
+	[39578] = {
+		name = "Titanic Showdown",
+		level = -1,
+	},
+	[39580] = {
+		name = "The High Chieftain",
+		level = -1,
+	},
+	[39456] = {
+		name = "Unexpected Allies",
+		level = -1,
+	},
+	[39277] = {
+		name = "Spray and Prey",
+		level = -1,
+	},
+	[42512] = {
+		name = "Highmountain Stands",
+		level = -1,
+	},
+	[39781] = {
+		name = "Neltharion's Lair",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+		level = -1,
+	},
 }
