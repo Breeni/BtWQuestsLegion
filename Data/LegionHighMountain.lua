@@ -137,21 +137,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND,
-            breadcrumb = true,
+            aside = true,
             x = 3,
             y = 10,
         },
-
-
-        -- {
-        --     type = "quest",
-        --     id = 39323,
-        --     x = 7,
-        --     y = 6,
-        --     connections = {
-        --         1
-        --     },
-        -- },
     }
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND] = {
@@ -245,21 +234,21 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE,
-            breadcrumb = true,
+            aside = true,
             x = 1,
             y = 7,
         },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
-            breadcrumb = true,
+            aside = true,
             x = 3,
             y = 7,
         },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR,
-            breadcrumb = true,
+            aside = true,
             x = 5,
             y = 7,
         },
@@ -275,8 +264,102 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE] = {
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND,
         },
     },
+    completed = {
+        type = "quest",
+        id = 39387,
+    },
     range = {98, 110},
     items = {
+        {
+            type = "quest",
+            id = 38913,
+            x = 3,
+            y = 0,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39318,
+            x = 3,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 38910,
+            x = 3,
+            y = 2,
+            connections = {
+                1, 2
+            },
+        },
+        {
+            type = "quest",
+            id = 39321,
+            x = 2,
+            y = 3,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 39429,
+            x = 4,
+            y = 3,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39322,
+            x = 3,
+            y = 4,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
+            aside = true,
+            x = 1,
+            y = 5,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 39387,
+            x = 3,
+            y = 5,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
+            aside = true,
+            x = 5,
+            y = 5,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+            aside = true,
+            x = 3,
+            y = 6,
+        },
     }
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
@@ -289,8 +372,157 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND,
         },
     },
+    completed = {
+        type = "quest",
+        id = 39426,
+    },
     range = {98, 110},
     items = {
+        {
+            type = "quest",
+            id = 38912,
+            x = 3,
+            y = 0,
+            connections = {
+                1, 2, 3
+            },
+        },
+        {
+            type = "quest",
+            id = 39372,
+            x = 1,
+            y = 1,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 39373,
+            x = 3,
+            y = 1,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 39873,
+            x = 5,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39374,
+            x = 3,
+            y = 2,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39455,
+            x = 3,
+            y = 3,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39860,
+            x = 3,
+            y = 4,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39381,
+            x = 3,
+            y = 5,
+            connections = {
+                1, 2, 3
+            },
+        },
+        {
+            type = "quest",
+            id = 39425,
+            x = 1,
+            y = 6,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 39391,
+            x = 3,
+            y = 6,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 39588,
+            x = 5,
+            y = 6,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39426,
+            x = 3,
+            y = 7,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE,
+            aside = true,
+            x = 1,
+            y = 8,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 39456,
+            aside = true,
+            x = 3,
+            y = 8,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
+            aside = true,
+            x = 5,
+            y = 8,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+            aside = true,
+            x = 3,
+            y = 9,
+        },
     }
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR] = {
@@ -402,7 +634,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
-            breadcrumb = true,
+            aside = true,
             x = 3,
             y = 10,
         },
@@ -418,6 +650,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN] = 
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR,
         },
     },
+    completed = {
+        type = "quest",
+        id = 39579,
+    },
     range = {98, 110},
     items = {
         {
@@ -428,6 +664,97 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN] = 
             connections = {
                 1
             },
+        },
+        {
+            type = "quest",
+            id = 38916,
+            x = 3,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39575,
+            x = 3,
+            y = 2,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 40219,
+            x = 3,
+            y = 3,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39578,
+            x = 3,
+            y = 4,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39577,
+            x = 3,
+            y = 5,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39579,
+            x = 3,
+            y = 6,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE,
+            aside = true,
+            x = 1,
+            y = 7,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 39580,
+            aside = true,
+            x = 3,
+            y = 7,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
+            aside = true,
+            x = 5,
+            y = 7,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+            aside = true,
+            x = 3,
+            y = 8,
         },
     }
 }
@@ -446,11 +773,94 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA] = {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR,
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
         },
+    },
+    completed = {
+        type = "quest",
+        id = 39780,
     },
     range = {98, 110},
     items = {
+        {
+            type = "quest",
+            id = 38915,
+            x = 3,
+            y = 0,
+            connections = {
+                1, 2, 3
+            },
+        },
+        {
+            type = "quest",
+            id = 39777,
+            x = 1,
+            y = 1,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 39776,
+            x = 3,
+            y = 1,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 39862,
+            x = 5,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 42088,
+            x = 3,
+            y = 2,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 42512,
+            x = 3,
+            y = 3,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 40594,
+            x = 3,
+            y = 4,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39780,
+            x = 3,
+            y = 5,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 39781,
+            aside = true,
+            x = 3,
+            y = 6,
+        },
     }
 }
 
