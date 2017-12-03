@@ -6572,5 +6572,293 @@ BtWQuests_Quests = {
 	[39800] = {
 		name = "Greymane's Gambit",
 		level = -1,
+    },
+    
+    
+	[38312] = {
+		name = "A Grapple a Day",
+		level = -1,
 	},
+	[39590] = {
+		name = "Ahead of the Game",
+		level = -1,
+	},
+	[39848] = {
+		name = "A Desperate Bargain",
+		level = -1,
+	},
+	[40003] = {
+		name = "Stem the Tide",
+		level = -1,
+	},
+	[39122] = {
+		name = "Ending the New Beginning",
+		level = -1,
+	},
+	[38412] = {
+		name = "Above the Winter Moonlight",
+		level = -1,
+	},
+	[39059] = {
+		name = "To Catch a Banshee",
+		level = -1,
+	},
+	[39063] = {
+		name = "Shielded Secrets",
+		level = -1,
+	},
+	[38817] = {
+		name = "Regal Remains",
+		level = -1,
+	},
+	[39837] = {
+		name = "An Unworthy Task",
+		level = -1,
+	},
+	[39591] = {
+		name = "A Trial of Valor",
+		level = -1,
+	},
+	[39595] = {
+		name = "Blood and Gold",
+		level = -1,
+	},
+	[39853] = {
+		name = "Victory is Eternal",
+		level = -1,
+	},
+	[39857] = {
+		name = "The Eternal Nemesis",
+		level = -1,
+	},
+	[38210] = {
+		name = "The Ancient Trials",
+		level = -1,
+	},
+	[40004] = {
+		name = "Break the Spine",
+		level = -1,
+	},
+	[38778] = {
+		name = "Turn the Keys",
+		level = -1,
+	},
+	[38405] = {
+		name = "To Weather the Storm",
+		level = -1,
+	},
+	[40568] = {
+		name = "Fury of the Storm",
+		level = -1,
+	},
+	[38413] = {
+		name = "Wings of Liberty",
+		level = -1,
+	},
+	[38036] = {
+		name = "Supplies From the Skies",
+		level = -1,
+	},
+	[39060] = {
+		name = "Combustible Contagion",
+		level = -1,
+	},
+	[38810] = {
+		name = "The Dreaming Fungus",
+		level = -1,
+	},
+	[38052] = {
+		name = "Boarded!",
+		level = -1,
+	},
+	[38818] = {
+		name = "The Final Judgment",
+		level = -1,
+	},
+	[38060] = {
+		name = "Signal Boost",
+		level = -1,
+	},
+	[39592] = {
+		name = "A Trial of Will",
+		level = -1,
+	},
+	[39850] = {
+		name = "Sundered",
+		level = -1,
+	},
+	[39092] = {
+		name = "Becoming the Ascendant",
+		level = -1,
+	},
+	[38342] = {
+		name = "Another Way",
+		level = -1,
+	},
+	[38473] = {
+		name = "Will of the Thorignir",
+		level = -1,
+	},
+	[40001] = {
+		name = "Knocking on Valor's Door",
+		level = -1,
+	},
+	[40005] = {
+		name = "Stormheim's Salvation",
+		level = -1,
+	},
+	[38624] = {
+		name = "Cry Thunder!",
+		level = -1,
+	},
+	[39652] = {
+		name = "Where Dragons Rule",
+		level = -1,
+	},
+	[39791] = {
+		name = "Lay Them to Rest",
+		level = -1,
+	},
+	[39803] = {
+		name = "The Trials Continue",
+		level = -1,
+	},
+	[38410] = {
+		name = "Impalement Insurance",
+		level = -1,
+	},
+	[38414] = {
+		name = "Heart of a Dragon",
+		level = -1,
+	},
+	[39061] = {
+		name = "Whispers from the Dark",
+		level = -1,
+	},
+	[38811] = {
+		name = "Judgment Day",
+		level = -1,
+	},
+	[38815] = {
+		name = "Waking the Shieldmaiden",
+		level = -1,
+	},
+	[38057] = {
+		name = "The Lost Legion",
+		level = -1,
+	},
+	[38823] = {
+		name = "The Runes that Bind",
+		level = -1,
+	},
+	[39593] = {
+		name = "The Shattered Watcher",
+		level = -1,
+	},
+	[39597] = {
+		name = "The Blessing of the Watchers",
+		level = -1,
+	},
+	[39855] = {
+		name = "Paid in Lifeblood",
+		level = -1,
+	},
+	[38339] = {
+		name = "A Little Kelp From My Foes",
+		level = -1,
+	},
+	[38347] = {
+		name = "Stealth by Seaweed",
+		level = -1,
+	},
+	[40002] = {
+		name = "A Familiar Fate",
+		level = -1,
+	},
+	[38324] = {
+		name = "Accessories of the Cursed",
+		level = -1,
+	},
+	[40078] = {
+		name = "A Heavy Burden",
+		level = -1,
+	},
+	[39594] = {
+		name = "A Trial of Might",
+		level = -1,
+	},
+	[39472] = {
+		name = "Cut Out the Heart",
+		level = -1,
+	},
+	[39788] = {
+		name = "The Runewood's Revenge",
+		level = -1,
+	},
+	[39062] = {
+		name = "To Skold-Ashil",
+		level = -1,
+	},
+	[39796] = {
+		name = "To Haustvald",
+		level = -1,
+	},
+	[38053] = {
+		name = "Assault and Battery",
+		level = -1,
+	},
+	[39804] = {
+		name = "Speaking of Bones",
+		level = -1,
+	},
+	[38059] = {
+		name = "Pins and Needles",
+		level = -1,
+	},
+	[39851] = {
+		name = "Allies in Death",
+		level = -1,
+	},
+	[39849] = {
+		name = "To Light the Way",
+		level = -1,
+	},
+	[38331] = {
+		name = "Havi's Test",
+		level = -1,
+	},
+	[38808] = {
+		name = "Bjornharta",
+		level = -1,
+	},
+	[38558] = {
+		name = "See Ya Later, Oscillator",
+		level = -1,
+	},
+	[38816] = {
+		name = "Breaking the Bonespeakers",
+		level = -1,
+	},
+	[38058] = {
+		name = "Lightning Rod",
+		level = -1,
+    },
+    [38337] = {
+		name = "Built to Scale",
+		level = -1,
+    },
+    [38318] = {
+		name = "No Wings Required",
+		level = -1,
+    },
+    [39405] = {
+		name = "Stories of Battle",
+		level = -1,
+    },
+    [40072] = {
+		name = "Halls of Valor: Securing the Aegis",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+		level = -1,
+    },
 }

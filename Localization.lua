@@ -32,6 +32,9 @@ BTWQUESTS_THE_TWISTED_TWINS = "The Twisted Twin"
 
 BTWQUESTS_LIGHTS_HEART = "Light's Heart"
 
+BTWQUESTS_KILL_CHAMPIONS = "Kill Champions"
+BTWQUESTS_KILL_DRAGONS = "Kill Dragons"
+
 BTWQUESTS_DEATHKNIGHT_CAMPAIGN = "Deathlord Campaign"
 BTWQUESTS_DEATHKNIGHT_MOUNT = "Mount: Deathlord's Vilebrood Vanquisher"
 
