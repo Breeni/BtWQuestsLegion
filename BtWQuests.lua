@@ -426,8 +426,12 @@ function BtWQuests_IsChainActive(chainID)
             completed = BtWQuests_CheckRequirement(chain.completed)
         end
     end
-    if not completed and chain.prerequisites then
-        active = BtWQuests_CheckRequirements(chain.prerequisites)
+    if not completed then
+        if chain.prerequisites then
+            active = BtWQuests_CheckRequirements(chain.prerequisites)
+        else
+            active = true -- Assumed a chain with out prerequisites is active
+        end
     end
     
     return active
@@ -660,11 +664,11 @@ function BtWQuests_EvalChainItem(item)
             tagID = tagID or chain.tagID
             
             active = active == nil and function (item)
-<<<<<<< HEAD
-                return chain.prerequisites ~= nil and BtWQuests_CheckRequirements(chain.prerequisites)
-=======
-                return chain.prerequisites ~= nil and BtWQuests_CheckRequirements(chain.prerequisites) or true
->>>>>>> highmountain
+                if chain.prerequisites ~= nil then
+                    return BtWQuests_CheckRequirements(chain.prerequisites)
+                end
+
+                return true
             end or active
             completed = completed == nil and chain.completed or completed
             
