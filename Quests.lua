@@ -6813,4 +6813,16 @@ BtWQuests_Quests = {
         tagID = QUEST_TAG_DUNGEON,
 		level = -1,
 	},
+	[40961] = {
+		name = "The Dalaran Fountain",
+		level = -1,
+	},
+	[40960] = {
+		name = "Luminous Pearl",
+		level = -1,
+	},
+	[41010] = {
+		name = "Fish Frenzy",
+		level = -1,
+	},
 }
