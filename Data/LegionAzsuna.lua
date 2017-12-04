@@ -415,8 +415,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             x = 4,
             y = 4,
             connections = {
-                1
+                2
             },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS,
+            aside = true,
+            x = 1,
+            y = 5,
         },
         {
             type = "quest",
@@ -723,17 +730,27 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
             },
         },
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA,
+            type = "quest",
+            id = 38857,
             name = BtWQuests_GetQuestName(38857),
             aside = true,
             x = 5,
             y = 8,
+            connections = {
+                2
+            },
         },
         {
             type = "quest",
             id = 37566,
             x = 3,
+            y = 9,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA,
+            aside = true,
+            x = 5.5,
             y = 9,
         },
     }
