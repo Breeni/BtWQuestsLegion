@@ -85,6 +85,10 @@ BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION] = {
     },
     {
         type = "category",
+        id = BTWQUESTS_CATEGORY_LEGION_FISHING,
+    },
+    {
+        type = "category",
         id = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
     },
 }

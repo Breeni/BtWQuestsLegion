@@ -198,6 +198,8 @@ local function BtWQuests_GetItemName(item)
         return BtWQuests_GetItemName(BtWQuests_Chains[item.id])
     elseif item.type == "level" then
         return string.format(BTWQUESTS_LEVEL_TO, item.level)
+    elseif item.type == "achievement" then
+        return select(2, GetAchievementInfo(item.id))
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
     end
