@@ -7178,4 +7178,12 @@ BtWQuests_Quests = {
 		name = "Plunder the Cove",
 		level = -1,
 	},
+	[42220] = {
+		name = "Shipwrecked Sailors",
+		level = -1,
+	},
+	[42268] = {
+		name = "Shipwrecked Sailors",
+		level = -1,
+	},
 }

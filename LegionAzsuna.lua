@@ -751,39 +751,56 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
         {
             type = "quest",
             id = 38857,
-            x = 3,
-            y = 0,
-            connections = {
-                1, 2, 3
-            },
-        },
-        {
-            type = "quest",
-            id = 42220,
             aside = true,
-            x = 1,
-            y = 1,
+            x = 0,
+            y = 0,
         },
         {
             type = "quest",
             id = 37654,
-            x = 3,
-            y = 1,
+            x = 2,
+            y = 0,
             connections = {
-                2
+                4
             },
         },
         {
             type = "quest",
             id = 37657,
-            x = 5,
-            y = 1,
+            x = 4,
+            y = 0,
+        },
+        {
+            type = "quest",
+            id = 42220,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Alliance",
+                }
+            },
+            aside = true,
+            x = 6,
+            y = 0,
+        },
+        {
+            type = "quest",
+            id = 42268,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Horde",
+                }
+            },
+            aside = true,
+            x = 6,
+            y = 0,
         },
         {
             type = "quest",
             id = 37659,
             x = 3,
-            y = 2,
+            y = 1,
             connections = {
                 1, 2
             },
@@ -792,13 +809,13 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
             type = "quest",
             id = 40794,
             x = 3,
-            y = 3
+            y = 2
         },
         {
             type = "quest",
             id = 42244,
             x = 3,
-            y = 3
+            y = 2
         },
     }
 }
