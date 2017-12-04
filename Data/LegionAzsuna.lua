@@ -56,6 +56,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES] = {
         {
             type = "quest",
             id = 36811,
+            aside = true,
             x = 5,
             y = 3.25,
         },
@@ -87,19 +88,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES] = {
             }, 
         },
         {
-            type = "quest",
-            id = 38443,
-            x = 3,
-            y = 6,
-            connections = {
-                1
-            }, 
-        },
-        {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
             x = 3,
-            y = 7,
+            y = 6,
         },
     }
 }
@@ -162,23 +154,14 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE] = {
             x = 3,
             y = 4,
             connections = {
-                1, 3
-            }, 
-        },
-        {
-            type = "quest",
-            id = 37690,
-            x = 5,
-            y = 4.25,
-            connections = {
-                1
+                1, 2
             }, 
         },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA,
-            x = 5.25,
-            y = 5, 
+            x = 5,
+            y = 4.25,
         },
         {
             type = "quest",
@@ -380,7 +363,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             x = 3,
             y = 3,
             connections = {
-                4
+                1, 2, 3, 4
             },
         },
 
@@ -401,13 +384,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             x = 2,
             y = 4,
         },
-        {
-            type = "quest",
-            id = 37492,
-            aside = true,
-            x = 6,
-            y = 4,
-        },
 
         {
             type = "quest",
@@ -415,8 +391,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             x = 4,
             y = 4,
             connections = {
-                2
+                3
             },
+        },
+        {
+            type = "quest",
+            id = 37492,
+            aside = true,
+            x = 6,
+            y = 4,
         },
         {
             type = "chain",
