@@ -627,6 +627,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
     items = {
         {
             name = "Kill Murlocs around El'dranil Shallows",
+            breadcrumb = true,
             x = 3,
             y = 0,
             connections = {
@@ -657,23 +658,23 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
             x = 3,
             y = 3,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 37542,
-            x = 3,
+            x = 2,
             y = 4,
             connections = {
-                1
+                2
             },
         },
         {
             type = "quest",
             id = 37528,
-            x = 3,
-            y = 5,
+            x = 4,
+            y = 4,
             connections = {
                 1
             },
@@ -682,7 +683,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
             type = "quest",
             id = 37510,
             x = 3,
-            y = 6,
+            y = 5,
             connections = {
                 1
             },
@@ -691,7 +692,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
             type = "quest",
             id = 37536,
             x = 3,
-            y = 7,
+            y = 6,
             connections = {
                 1
             },
@@ -700,25 +701,40 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
             type = "quest",
             id = 37538,
             x = 3,
-            y = 8,
+            y = 7,
             connections = {
-                1
+                2
             },
+        },
+        {
+            type = "quest",
+            id = 37495,
+            aside = true,
+            x = 1,
+            y = 8,
         },
         {
             type = "quest",
             id = 37565,
             x = 3,
-            y = 9,
+            y = 8,
             connections = {
-                1
+                2
             },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA,
+            name = BtWQuests_GetQuestName(38857),
+            aside = true,
+            x = 5,
+            y = 8,
         },
         {
             type = "quest",
             id = 37566,
             x = 3,
-            y = 10,
+            y = 9,
         },
     }
 }
@@ -738,8 +754,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
             x = 3,
             y = 0,
             connections = {
-                1
+                1, 2, 3
             },
+        },
+        {
+            type = "quest",
+            id = 42220,
+            aside = true,
+            x = 1,
+            y = 1,
         },
         {
             type = "quest",
@@ -747,23 +770,20 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
             x = 3,
             y = 1,
             connections = {
-                1
+                2
             },
         },
         {
             type = "quest",
             id = 37657,
-            x = 3,
-            y = 2,
-            connections = {
-                1
-            },
+            x = 5,
+            y = 1,
         },
         {
             type = "quest",
             id = 37659,
             x = 3,
-            y = 3,
+            y = 2,
             connections = {
                 1, 2
             },
@@ -772,13 +792,13 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
             type = "quest",
             id = 40794,
             x = 3,
-            y = 4
+            y = 3
         },
         {
             type = "quest",
             id = 42244,
             x = 3,
-            y = 4
+            y = 3
         },
     }
 }
