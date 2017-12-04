@@ -7174,4 +7174,8 @@ BtWQuests_Quests = {
 		name = "A Rather Long Walk",
 		level = -1,
 	},
+	[37495] = {
+		name = "Plunder the Cove",
+		level = -1,
+	},
 }
