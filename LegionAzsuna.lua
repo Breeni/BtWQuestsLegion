@@ -380,13 +380,39 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             x = 3,
             y = 3,
             connections = {
-                1
+                4
             },
+        },
+
+
+
+        
+        {
+            type = "quest",
+            id = 37727,
+            aside = true,
+            x = 0,
+            y = 4,
         },
         {
             type = "quest",
+            id = 37728,
+            aside = true,
+            x = 2,
+            y = 4,
+        },
+        {
+            type = "quest",
+            id = 37492,
+            aside = true,
+            x = 6,
+            y = 4,
+        },
+
+        {
+            type = "quest",
             id = 37257,
-            x = 3,
+            x = 4,
             y = 4,
             connections = {
                 1
@@ -398,18 +424,61 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             x = 3,
             y = 5,
             connections = {
-                1
+                2
+            },
+        },
+
+
+        
+        {
+            type = "quest",
+            id = 37466,
+            aside = true,
+            x = 0,
+            y = 6,
+        },
+
+
+        {
+            type = "quest",
+            id = 37486,
+            x = 2,
+            y = 6,
+            connections = {
+                4
+            },
+        },
+
+
+        {
+            type = "quest",
+            id = 42692,
+            aside = true,
+            x = 4,
+            y = 6,
+            connections = {
+                2
             },
         },
         {
             type = "quest",
-            id = 37486,
-            x = 3,
+            id = 42693,
+            aside = true,
+            x = 6,
             y = 6,
             connections = {
                 1
             },
         },
+        {
+            type = "quest",
+            id = 42694,
+            aside = true,
+            x = 5,
+            y = 7,
+        },
+
+
         {
             type = "quest",
             id = 37467,
@@ -425,23 +494,23 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             x = 3,
             y = 8,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 37736,
-            x = 3,
+            x = 2,
             y = 9,
             connections = {
-                1
+                2
             },
         },
         {
             type = "quest",
             id = 37678,
-            x = 3,
-            y = 10,
+            x = 4,
+            y = 9,
             connections = {
                 1
             },
@@ -450,7 +519,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             type = "quest",
             id = 37518,
             x = 3,
-            y = 11,
+            y = 10,
             connections = {
                 1
             },
@@ -459,7 +528,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             type = "quest",
             id = 42370,
             x = 3,
-            y = 12,
+            y = 11,
             connections = {
                 1
             },
@@ -468,7 +537,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             type = "quest",
             id = 42371,
             x = 3,
-            y = 13,
+            y = 12,
             connections = {
                 1
             },
@@ -477,7 +546,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             type = "quest",
             id = 37729,
             x = 3,
-            y = 14,
+            y = 13,
             connections = {
                 1
             },
@@ -486,7 +555,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             type = "quest",
             id = 37730,
             x = 3,
-            y = 15,
+            y = 14,
             connections = {
                 1
             },
@@ -495,14 +564,32 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             type = "quest",
             id = 37469,
             x = 3,
-            y = 16,
+            y = 15,
             connections = {
                 1
             },
         },
+
+
         {
             type = "quest",
             id = 37530,
+            x = 3,
+            y = 16,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 37779,
+            aside = true,
+            x = 1,
+            y = 17,
+        },
+        {
+            type = "quest",
+            id = 37470,
             x = 3,
             y = 17,
             connections = {
@@ -511,7 +598,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
         },
         {
             type = "quest",
-            id = 37470,
+            id = 38286,
+            aside = true,
             x = 3,
             y = 18,
             connections = {
@@ -520,18 +608,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
         },
         {
             type = "quest",
-            id = 38286,
+            id = 42213,
+            aside = true,
             x = 3,
             y = 19,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "quest",
-            id = 42213,
-            x = 3,
-            y = 20,
         },
     }
 }
@@ -546,8 +626,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
     },
     items = {
         {
-            type = "quest",
-            id = 38407,
+            name = "Kill Murlocs around El'dranil Shallows",
             x = 3,
             y = 0,
             connections = {
@@ -556,7 +635,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
         },
         {
             type = "quest",
-            id = 37496,
+            id = 38407,
             x = 3,
             y = 1,
             connections = {
@@ -565,7 +644,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
         },
         {
             type = "quest",
-            id = 37507,
+            id = 37496,
             x = 3,
             y = 2,
             connections = {
@@ -574,7 +653,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
         },
         {
             type = "quest",
-            id = 37542,
+            id = 37507,
             x = 3,
             y = 3,
             connections = {
@@ -583,7 +662,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
         },
         {
             type = "quest",
-            id = 37528,
+            id = 37542,
             x = 3,
             y = 4,
             connections = {
@@ -592,7 +671,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
         },
         {
             type = "quest",
-            id = 37510,
+            id = 37528,
             x = 3,
             y = 5,
             connections = {
@@ -601,7 +680,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
         },
         {
             type = "quest",
-            id = 37536,
+            id = 37510,
             x = 3,
             y = 6,
             connections = {
@@ -610,7 +689,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
         },
         {
             type = "quest",
-            id = 37538,
+            id = 37536,
             x = 3,
             y = 7,
             connections = {
@@ -619,7 +698,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
         },
         {
             type = "quest",
-            id = 37565,
+            id = 37538,
             x = 3,
             y = 8,
             connections = {
@@ -628,9 +707,18 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
         },
         {
             type = "quest",
-            id = 37566,
+            id = 37565,
             x = 3,
             y = 9,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 37566,
+            x = 3,
+            y = 10,
         },
     }
 }

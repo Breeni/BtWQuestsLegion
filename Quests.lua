@@ -7140,5 +7140,38 @@ BtWQuests_Quests = {
 	[41010] = {
 		name = "Fish Frenzy",
 		level = -1,
+    },
+    
+	[42692] = {
+		name = "Children of Nar'thalas",
+		level = -1,
+	},
+	[42694] = {
+		name = "Back from the Dead",
+		level = -1,
+	},
+	[37779] = {
+		name = "Tip the Scales",
+		level = -1,
+	},
+	[37728] = {
+		name = "Presentation is Everything",
+		level = -1,
+	},
+	[42693] = {
+		name = "You Never Know Until You Scry",
+		level = -1,
+	},
+	[37466] = {
+		name = "The Broken Academy",
+		level = -1,
+	},
+	[37727] = {
+		name = "The Magister of Mixology",
+		level = -1,
+	},
+	[37492] = {
+		name = "A Rather Long Walk",
+		level = -1,
 	},
 }
