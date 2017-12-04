@@ -6551,4 +6551,596 @@ BtWQuests_Quests = {
         name = "Umverteilung",
         level = 113,
     },
+    [38035] = {
+        name = "Eine königliche Vorladung",
+        level = -1,
+    },
+    [39735] = {
+        name = "Sturmheim",
+        level = -1,
+    },
+    [39864] = {
+        name = "Sturmheim",
+        level = -1,
+    },
+    [44700] = {
+        name = "Stormheim",
+        level = -1,
+    },
+    [44701] = {
+        name = "Stormheim",
+        level = -1,
+    },
+    [38206] = {
+        name = "Inspektion",
+        level = -1,
+    },
+    [39800] = {
+        name = "Graumähnes Schachzug",
+        level = -1,
+    },
+    [38312] = {
+        name = "Greifhaken abgreifen",
+        level = -1,
+    },
+    [39590] = {
+        name = "Der Konkurrenz voraus",
+        level = -1,
+    },
+    [39848] = {
+        name = "Eine verzweifelte Bitte",
+        level = -1,
+    },
+    [40003] = {
+        name = "Eindämmen der Flut",
+        level = -1,
+    },
+    [39122] = {
+        name = "Das Ende des Neuanfangs",
+        level = -1,
+    },
+    [38412] = {
+        name = "Über dem Wintermondlicht",
+        level = -1,
+    },
+    [39059] = {
+        name = "Bansheefangen leicht gemacht",
+        level = -1,
+    },
+    [39063] = {
+        name = "Schildgeheimnisse",
+        level = -1,
+    },
+    [38817] = {
+        name = "Royale Reste",
+        level = -1,
+    },
+    [39837] = {
+        name = "Eine unwürdige Aufgabe",
+        level = -1,
+    },
+    [39591] = {
+        name = "Eine Prüfung der Tapferkeit",
+        level = -1,
+    },
+    [39595] = {
+        name = "Blut und Gold",
+        level = -1,
+    },
+    [39853] = {
+        name = "Ein Sieg für die Ewigkeit",
+        level = -1,
+    },
+    [39857] = {
+        name = "Der ewige Widersacher",
+        level = -1,
+    },
+    [38210] = {
+        name = "Die uralten Prüfungen",
+        level = -1,
+    },
+    [40004] = {
+        name = "Das Rückgrat brechen",
+        level = -1,
+    },
+    [38778] = {
+        name = "Dreht die Schlüssel",
+        level = -1,
+    },
+    [38405] = {
+        name = "Wetterfeste Ausrüstung",
+        level = -1,
+    },
+    [40568] = {
+        name = "Zorn des Sturms",
+        level = -1,
+    },
+    [38413] = {
+        name = "Schwingen der Freiheit",
+        level = -1,
+    },
+    [38036] = {
+        name = "Nachschub aus dem Himmel",
+        level = -1,
+    },
+    [39060] = {
+        name = "Müllverbrennung",
+        level = -1,
+    },
+    [38810] = {
+        name = "Der Traumpilz",
+        level = -1,
+    },
+    [38052] = {
+        name = "Geentert!",
+        level = -1,
+    },
+    [38818] = {
+        name = "Das letzte Urteil",
+        level = -1,
+    },
+    [38060] = {
+        name = "Signalverstärkung",
+        level = -1,
+    },
+    [39592] = {
+        name = "Eine Prüfung des Willens",
+        level = -1,
+    },
+    [39850] = {
+        name = "Zerrissen",
+        level = -1,
+    },
+    [39092] = {
+        name = "Aszendentenriten",
+        level = -1,
+    },
+    [38342] = {
+        name = "Ein anderer Weg",
+        level = -1,
+    },
+    [38473] = {
+        name = "Der Wille der Thorignir",
+        level = -1,
+    },
+    [40001] = {
+        name = "Vor der Pforte der Tapferkeit",
+        level = -1,
+    },
+    [40005] = {
+        name = "Sturmheims Rettung",
+        level = -1,
+    },
+    [38624] = {
+        name = "Donner des Schmerzes",
+        level = -1,
+    },
+    [39652] = {
+        name = "Drachenherrschaft",
+        level = -1,
+    },
+    [39791] = {
+        name = "Allerletzte Ruhe",
+        level = -1,
+    },
+    [39803] = {
+        name = "Die Prüfungen gehen weiter",
+        level = -1,
+    },
+    [38410] = {
+        name = "Speerabwehr",
+        level = -1,
+    },
+    [38414] = {
+        name = "Herz eines Drachen",
+        level = -1,
+    },
+    [39061] = {
+        name = "Flüstern aus der Dunkelheit",
+        level = -1,
+    },
+    [38811] = {
+        name = "Der Tag des Urteils",
+        level = -1,
+    },
+    [38815] = {
+        name = "Die Erweckung der Schildmaid",
+        level = -1,
+    },
+    [38057] = {
+        name = "Die verlorene Legion",
+        level = -1,
+    },
+    [38823] = {
+        name = "Die bindenden Runen",
+        level = -1,
+    },
+    [39593] = {
+        name = "Der gespaltene Wächter",
+        level = -1,
+    },
+    [39597] = {
+        name = "Der Segen der Wächter",
+        level = -1,
+    },
+    [39855] = {
+        name = "Ein Leben als Preis",
+        level = -1,
+    },
+    [38339] = {
+        name = "Etwas Hilfe von guten Feinden",
+        level = -1,
+    },
+    [38347] = {
+        name = "Seetang tarnt besser",
+        level = -1,
+    },
+    [40002] = {
+        name = "Ein vertrautes Schicksal",
+        level = -1,
+    },
+    [38324] = {
+        name = "Accessoires der Verfluchten",
+        level = -1,
+    },
+    [40078] = {
+        name = "Schwere Bürde",
+        level = -1,
+    },
+    [39594] = {
+        name = "Eine Prüfung der Macht",
+        level = -1,
+    },
+    [39472] = {
+        name = "Das Herz herausschneiden",
+        level = -1,
+    },
+    [39788] = {
+        name = "Die Rache des Runenwalds",
+        level = -1,
+    },
+    [39062] = {
+        name = "Nach Skold-Ashil",
+        level = -1,
+    },
+    [39796] = {
+        name = "Nach Haustvald",
+        level = -1,
+    },
+    [38053] = {
+        name = "Angriff und Nachladen",
+        level = -1,
+    },
+    [39804] = {
+        name = "Wo wir von Knochen sprechen...",
+        level = -1,
+    },
+    [38059] = {
+        name = "Tausend kleine Nadeln",
+        level = -1,
+    },
+    [39851] = {
+        name = "Verbündete im Tod",
+        level = -1,
+    },
+    [39849] = {
+        name = "Folgt dem Licht",
+        level = -1,
+    },
+    [38331] = {
+        name = "Havi's Test",
+        level = -1,
+    },
+    [38808] = {
+        name = "Bjornhjarta",
+        level = -1,
+    },
+    [38558] = {
+        name = "Diebische Elstern",
+        level = -1,
+    },
+    [38816] = {
+        name = "Knochenbrecher der Knochensprecher",
+        level = -1,
+    },
+    [38058] = {
+        name = "Blitzableiter",
+        level = -1,
+    },
+    [38337] = {
+        name = "Schuppe um Schuppe",
+        level = -1,
+    },
+    [38318] = {
+        name = "Wer braucht schon Flügel?",
+        level = -1,
+    },
+    [39405] = {
+        name = "Geschichten des Kampfs",
+        level = -1,
+    },
+    [40072] = {
+        name = "Hallen der Tapferkeit: Die Aegis sichern",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [42104] = {
+        name = "Der Unterkönig naht",
+        level = -1,
+    },
+    [40594] = {
+        name = "Gerechtigkeit von oben",
+        level = -1,
+    },
+    [39588] = {
+        name = "Sie werden mit Blut bezahlen",
+        level = -1,
+    },
+    [38915] = {
+        name = "Die Schlacht um die Schneeblinde Hochebene",
+        level = -1,
+    },
+    [39025] = {
+        name = "Umklammerung des Unterkönigs",
+        level = -1,
+    },
+    [39027] = {
+        name = "Dargrul und der Hammer",
+        level = -1,
+    },
+    [39777] = {
+        name = "Verschafft uns Zeit",
+        level = -1,
+    },
+    [39661] = {
+        name = "Die Höhle des Lebensquells",
+        level = -1,
+    },
+    [38907] = {
+        name = "Hüter des Hammers",
+        level = -1,
+    },
+    [38909] = {
+        name = "Hoch hinaus",
+        level = -1,
+    },
+    [38911] = {
+        name = "Der Stamm der Flussmähnen",
+        level = -1,
+    },
+    [38913] = {
+        name = "Der Stamm der Himmelshörner",
+        level = -1,
+    },
+    [39860] = {
+        name = "Ritus des Blutes",
+        level = -1,
+    },
+    [39043] = {
+        name = "Die Beißsteinenklave",
+        level = -1,
+    },
+    [39990] = {
+        name = "Hulns Krieg - Verstärkungen",
+        level = -1,
+    },
+    [39614] = {
+        name = "Fische an Land",
+        level = -1,
+    },
+    [39490] = {
+        name = "Befall",
+        level = -1,
+    },
+    [39429] = {
+        name = "Angriff auf die Hexenlande",
+        level = -1,
+    },
+    [39776] = {
+        name = "Kampfwürmer",
+        level = -1,
+    },
+    [39496] = {
+        name = "Der Strom des Flusses",
+        level = -1,
+    },
+    [39498] = {
+        name = "Hochwasser",
+        level = -1,
+    },
+    [39374] = {
+        name = "Eine Audienz bei Torok",
+        level = -1,
+    },
+    [39862] = {
+        name = "Der Belagerungsbrul",
+        level = -1,
+    },
+    [42088] = {
+        name = "Evakuierung der Schneemähnen",
+        level = -1,
+    },
+    [40388] = {
+        name = "Hulns Krieg - Schattensang",
+        level = -1,
+    },
+    [39992] = {
+        name = "Hulns Krieg - Die Nathrezim",
+        level = -1,
+    },
+    [39321] = {
+        name = "Die Drei",
+        level = -1,
+    },
+    [40520] = {
+        name = "Blick in die Vergangenheit",
+        level = -1,
+    },
+    [39577] = {
+        name = "Ein uraltes Geheimnis",
+        level = -1,
+    },
+    [39579] = {
+        name = "Die Hintertür",
+        level = -1,
+    },
+    [39455] = {
+        name = "Die Höhle der Blutprüfung",
+        level = -1,
+    },
+    [39488] = {
+        name = "Gleichgewicht der Elemente",
+        level = -1,
+    },
+    [39575] = {
+        name = "Der Pfad des Huln",
+        level = -1,
+    },
+    [39272] = {
+        name = "Vergiftete Ernte",
+        level = -1,
+    },
+    [40219] = {
+        name = "Todesschwinge zum Trotz",
+        level = -1,
+    },
+    [39780] = {
+        name = "Der Unterkönig",
+        level = -1,
+    },
+    [39026] = {
+        name = "Die Drogbar",
+        level = -1,
+    },
+    [39988] = {
+        name = "Hulns Krieg - Sturmgrimm",
+        level = -1,
+    },
+    [40112] = {
+        name = "Hulns Krieg - Malornes Liebling",
+        level = -1,
+    },
+    [39983] = {
+        name = "Hulns Krieg - Die Ankunft",
+        level = -1,
+    },
+    [40167] = {
+        name = "Hulns Geschichte",
+        level = -1,
+    },
+    [38910] = {
+        name = "Rocs gegen Adler",
+        level = -1,
+    },
+    [38912] = {
+        name = "Der Stamm der Bluttotems",
+        level = -1,
+    },
+    [39733] = {
+        name = "Der einsame Berg",
+        level = -1,
+    },
+    [38916] = {
+        name = "Geheimnisse des Hochbergs",
+        level = -1,
+    },
+    [40515] = {
+        name = "Geisterlicher Spaziergang",
+        level = -1,
+    },
+    [39487] = {
+        name = "Kristallzorn",
+        level = -1,
+    },
+    [39489] = {
+        name = "Einfallende Höhlenkletterer",
+        level = -1,
+    },
+    [39491] = {
+        name = "Ormgul der Befallene",
+        level = -1,
+    },
+    [39426] = {
+        name = "Blutschuld",
+        level = -1,
+    },
+    [39873] = {
+        name = "Mir ist nicht wohl bei der Sache",
+        level = -1,
+    },
+    [39425] = {
+        name = "Dunkelsteinkristall",
+        level = -1,
+    },
+    [39373] = {
+        name = "Federn rupfen",
+        level = -1,
+    },
+    [39391] = {
+        name = "Des Drogbars bester Freund",
+        level = -1,
+    },
+    [39381] = {
+        name = "Den Stein ins Trollen bringen",
+        level = -1,
+    },
+    [39316] = {
+        name = "Tauren in der Falle",
+        level = -1,
+    },
+    [39318] = {
+        name = "Die Wunden lecken",
+        level = -1,
+    },
+    [39372] = {
+        name = "Hexe des Waldes",
+        level = -1,
+    },
+    [39322] = {
+        name = "Die Hexenkönigin",
+        level = -1,
+    },
+    [39387] = {
+        name = "Die Himmel des Hochbergs",
+        level = -1,
+    },
+    [39578] = {
+        name = "Titanisches Kräftemessen",
+        level = -1,
+    },
+    [39580] = {
+        name = "Der Oberhäuptling",
+        level = -1,
+    },
+    [39456] = {
+        name = "Unerwartete Verbündete",
+        level = -1,
+    },
+    [39277] = {
+        name = "Das Parfüm",
+        level = -1,
+    },
+    [42512] = {
+        name = "Verteidigung des Hochbergs",
+        level = -1,
+    },
+    [39781] = {
+        name = "Neltharions Hort",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [40961] = {
+        name = "Der Springbrunnen von Dalaran",
+        level = 110,
+    },
+    [40960] = {
+        name = "Glitzernde Perle",
+        level = 110,
+    },
+    [41010] = {
+        name = "Fischraserei",
+        level = 110,
+    },
 }
