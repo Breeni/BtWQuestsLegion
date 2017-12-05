@@ -204,7 +204,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_HORDE] = {
     },
     completed = {
         type = "quest",
-        id = 39800,
+        id = 39801,
     },
     range = {98, 110},
     items = {
@@ -251,7 +251,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_HORDE] = {
         },
         {
             type = "quest",
-            id = 38206,
+            id = 39698,
             x = 3,
             y = 2,
             connections = {
@@ -260,7 +260,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_HORDE] = {
         },
         {
             type = "quest",
-            id = 39800,
+            id = 39801,
             x = 3,
             y = 3,
             connections = {
