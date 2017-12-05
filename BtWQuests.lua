@@ -133,6 +133,10 @@ local function BtWQuests_CheckRequirement(item)
             return BtWQuests_IsQuestCompleted(item.id)
         end
     elseif item.type == "chain" then
+        if BtWQuests_Chains[item.id].completed == nil then
+            return false
+        end
+        
         if BtWQuests_Chains[item.id].completed[1] ~= nil then
             return BtWQuests_CheckRequirements(BtWQuests_Chains[item.id].completed)
         else
@@ -194,6 +198,8 @@ local function BtWQuests_GetItemName(item)
         return BtWQuests_GetItemName(BtWQuests_Chains[item.id])
     elseif item.type == "level" then
         return string.format(BTWQUESTS_LEVEL_TO, item.level)
+    elseif item.type == "achievement" then
+        return select(2, GetAchievementInfo(item.id))
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
     end
@@ -426,8 +432,12 @@ function BtWQuests_IsChainActive(chainID)
             completed = BtWQuests_CheckRequirement(chain.completed)
         end
     end
-    if not completed and chain.prerequisites then
-        active = BtWQuests_CheckRequirements(chain.prerequisites)
+    if not completed then
+        if chain.prerequisites then
+            active = BtWQuests_CheckRequirements(chain.prerequisites)
+        else
+            active = true -- Assumed a chain with out prerequisites is active
+        end
     end
     
     return active
@@ -660,7 +670,11 @@ function BtWQuests_EvalChainItem(item)
             tagID = tagID or chain.tagID
             
             active = active == nil and function (item)
-                return chain.prerequisites ~= nil and BtWQuests_CheckRequirements(chain.prerequisites) or true
+                if chain.prerequisites ~= nil then
+                    return BtWQuests_CheckRequirements(chain.prerequisites)
+                end
+
+                return true
             end or active
             completed = completed == nil and chain.completed or completed
             

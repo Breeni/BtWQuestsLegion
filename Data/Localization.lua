@@ -76,3 +76,8 @@ BTWQUESTS_RARE_KOSUMOTH = "Rare: Kosumoth the Hungering"
 BTWQUESTS_MOUNT_RIDDLERS = "Mount: Riddler's Mind-Worm"
 BTWQUESTS_PET_SUNDARTER = "Pet: Sun Darter Hatchling"
 BTWQUESTS_MOUNT_LUCID_NIGHTMARE = "Mount: Lucid Nightmare"
+
+BTWQUESTS_FISHING = "Fishing"
+BTWQUESTS_WAIT_NAT_PAGLE = "Wait for Nat Pagle (May require relogging)"
+BTWQUESTS_THE_UNDERLIGHT_ANGLER = "The Underlight Angler"
+BTWQUESTS_FISH_LUMINOUS_PEARL = "Fish up the Luminous Pearl from pools"
