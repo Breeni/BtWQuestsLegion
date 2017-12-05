@@ -6847,6 +6847,10 @@ BtWQuests_Quests = {
 		name = "Built to Scale",
 		level = -1,
     },
+    [38616] = {
+		name = "Built to Scale",
+		level = -1,
+    },
     [38318] = {
 		name = "No Wings Required",
 		level = -1,
@@ -7181,4 +7185,32 @@ BtWQuests_Quests = {
 		name = "The Ancient Trials",
 		level = -1,
     },
+	[38618] = {
+		name = "Above the Winter Moonlight",
+		level = -1,
+	},
+	[38613] = {
+		name = "No Wings Required",
+		level = -1,
+	},
+	[38615] = {
+		name = "Impalement Insurance",
+		level = -1,
+	},
+	[38617] = {
+		name = "Another Way",
+		level = -1,
+	},
+	[38612] = {
+		name = "A Grapple a Day",
+		level = -1,
+	},
+	[38614] = {
+		name = "To Weather the Storm",
+		level = -1,
+	},
+	[38611] = {
+		name = "Will of the Thorignir",
+		level = -1,
+	},
 }
