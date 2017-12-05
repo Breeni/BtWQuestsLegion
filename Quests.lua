@@ -7141,4 +7141,44 @@ BtWQuests_Quests = {
 		name = "Fish Frenzy",
 		level = -1,
 	},
+	[38332] = {
+		name = "The Ranger Lord",
+		level = -1,
+	},
+	[39698] = {
+		name = "Making the Rounds",
+		level = -1,
+	},
+	[38357] = {
+		name = "Side Effects May Include Mild Undeath",
+		level = -1,
+	},
+	[38358] = {
+		name = "Pump it Up",
+		level = -1,
+	},
+	[38307] = {
+		name = "The Warchief Beckons",
+		level = -1,
+	},
+	[38360] = {
+		name = "The Windrunner's Fate",
+		level = -1,
+	},
+	[38361] = {
+		name = "Wrath of the Blightcaller",
+		level = -1,
+	},
+	[39801] = {
+		name = "The Splintered Fleet",
+		level = -1,
+	},
+	[38362] = {
+		name = "A Grim Trophy",
+		level = -1,
+    },
+	[38459] = {
+		name = "The Ancient Trials",
+		level = -1,
+    },
 }
