@@ -165,7 +165,7 @@ end
 
 local function BtWQuests_CheckRequirements(list)
     for i=1, #list do
-        if not BtWQuests_CheckRequirement(list[i]) then
+        if (list[i].restrictions == nil or BtWQuests_CheckRequirements(list[i].restrictions)) and not BtWQuests_CheckRequirement(list[i]) then
             return false
         end
     end
@@ -247,7 +247,7 @@ local BtWQuests_GetItemCompleted = BtWQuests_CheckRequirement
 -- @return hidden
 -- @return completed
 local function BtWQuests_GetItem(item)
-    return BtWQuests_GetItemName(item), BtWQuests_GetItemVisible(item), BtWQuests_GetItemCompleted(item)
+    return BtWQuests_GetItemName(item), BtWQuests_GetItemVisible(item), BtWQuests_GetItemSkip(item), BtWQuests_GetItemCompleted(item)
 end
 
 
@@ -1501,9 +1501,10 @@ function BtWQuestsTooltip_SetChain(chainID)
     tooltip.Description:Hide();
     
     local actualNumPrerequisites = numPrerequisites
-	for i = 1, numPrerequisites do
-		local name, visible, completed = BtWQuests_GetChainPrerequisiteByID(chainID, i);
-        if not visible then
+    local i = 1
+	for index = 1, numPrerequisites do
+		local name, visible, skip, completed = BtWQuests_GetChainPrerequisiteByID(chainID, index);
+        if not visible or skip then
             actualNumPrerequisites = actualNumPrerequisites - 1
         else
             if ( not tooltip.Lines[i] ) then
@@ -1532,6 +1533,8 @@ function BtWQuestsTooltip_SetChain(chainID)
             end
             tooltip.Lines[i]:Show();
             totalHeight = totalHeight + tooltip.Lines[i]:GetHeight() + 6;
+
+            i = i + 1
         end
 	end
     
