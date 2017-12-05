@@ -309,6 +309,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE] = {
         {
             type = "quest",
             id = 38357,
+            aside = true,
             x = 1,
             y = 1,
         },
@@ -324,6 +325,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE] = {
         {
             type = "quest",
             id = 38358,
+            aside = true,
             x = 5,
             y = 1,
         },
@@ -350,6 +352,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE] = {
             id = 38362,
             x = 3,
             y = 3,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT,
+            x = 3,
+            y = 4,
         },
     }
 }
@@ -361,6 +372,22 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_ALLIANCE,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Alliance",
+                },
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Horde",
+                },
+            },
         },
     },
     completed = {
@@ -384,12 +411,33 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT] = {
             x = 3,
             y = 0,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 38210,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Alliance",
+                },
+            },
+            x = 3,
+            y = 1,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 38459,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Horde",
+                },
+            },
             x = 3,
             y = 1,
             connections = {
