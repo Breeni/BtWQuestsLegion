@@ -270,7 +270,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_HORDE] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE,
-            aside = true,
             x = 3,
             y = 4,
         },
@@ -294,7 +293,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE] = {
     },
     completed = {
         type = "quest",
-        id = 40419,
+        id = 38362,
     },
     range = {98, 110},
     items = {
@@ -303,6 +302,54 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE] = {
             id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_HORDE,
             x = 3,
             y = 0,
+            connections = {
+                1, 2, 3
+            },
+        },
+        {
+            type = "quest",
+            id = 38357,
+            x = 1,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 38332,
+            x = 3,
+            y = 1,
+            connections = {
+                2, 3
+            },
+        },
+        {
+            type = "quest",
+            id = 38358,
+            x = 5,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 38360,
+            x = 2,
+            y = 2,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 38361,
+            x = 4,
+            y = 2,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 38362,
+            x = 3,
+            y = 3,
         },
     }
 }
