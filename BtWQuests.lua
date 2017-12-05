@@ -230,9 +230,9 @@ local function BtWQuests_GetItemSkip(item)
         return true
     end
 
-    if item.type == "quest" then
+    if item.type == "quest" and BtWQuests_Quests[item.id] ~= nil then
         return BtWQuests_GetItemSkip(BtWQuests_Quests[item.id])
-    elseif item.type == "chain" then
+    elseif item.type == "chain" and BtWQuests_Chains[item.id] ~= nil then
         return BtWQuests_GetItemSkip(BtWQuests_Chains[item.id])
     else
         return false
@@ -765,10 +765,27 @@ function BtWQuests_GetChainItemConnectorsByIndex(index)
     end
     
     if BtWQuests_Chains[chainID].items then
-        local items = BtWQuests_Chains[chainID].items[index]
+        local item = BtWQuests_Chains[chainID].items[index]
 
-        if items and items.connections then
-            return unpack(items.connections)
+        if not item then
+            return nil
+        end
+        
+        if item[1] ~= nil then
+            for i = 1, #item do
+                if not BtWQuests_GetItemSkip(item[i]) then
+                    if item[i].connections then
+                        return unpack(item[i].connections)
+                    end
+                end
+            end
+            if item.connections then
+                return unpack(item.connections)
+            end
+        else
+            if item.connections then
+                return unpack(item.connections)
+            end
         end
     end
 end
