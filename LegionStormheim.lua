@@ -557,25 +557,71 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
             x = 3,
             y = 0,
             connections = {
-                1
+                1, 2
             },
         },
         {
-            type = "quest",
-            id = 38473,
-            x = 3,
-            y = 1,
-            connections = {
-                1
+            {
+                type = "quest",
+                id = 38473,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 38611,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 1,
+                connections = {
+                    1
+                },
             },
         },
         {
-            type = "quest",
-            id = 38312,
-            x = 3,
-            y = 2,
-            connections = {
-                3, 4
+            {
+                type = "quest",
+                id = 38312,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 2,
+                connections = {
+                    2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 38612,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 2,
+                connections = {
+                    2, 3
+                },
             },
         },
         {
@@ -585,57 +631,191 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
             x = 1,
             y = 3,
             connections = {
-                1
+                3
             },
         },
         {
-            type = "quest",
-            id = 38337,
-            aside = true,
-            x = 1,
-            y = 4,
-        },
-        {
-            type = "quest",
-            id = 38405,
-            x = 3,
-            y = 3,
-            connections = {
-                2
+            {
+                type = "quest",
+                id = 38405,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 3,
+                connections = {
+                    3
+                },
+            },
+            {
+                type = "quest",
+                id = 38614,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 3,
+                connections = {
+                    3
+                },
             },
         },
         {
-            type = "quest",
-            id = 38318,
-            aside = true,
-            x = 5,
-            y = 3,
-        },
-        {
-            type = "quest",
-            id = 38410,
-            x = 3,
-            y = 4,
-            connections = {
-                1
+            {
+                type = "quest",
+                id = 38318,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                aside = true,
+                x = 5,
+                y = 3,
+            },
+            {
+                type = "quest",
+                id = 38613,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                aside = true,
+                x = 5,
+                y = 3,
             },
         },
         {
-            type = "quest",
-            id = 38342,
-            x = 3,
-            y = 5,
-            connections = {
-                1
+            {
+                type = "quest",
+                id = 38337,
+                aside = true,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 1,
+                y = 4,
+            },
+            {
+                type = "quest",
+                id = 38616,
+                aside = true,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 1,
+                y = 4,
             },
         },
         {
-            type = "quest",
-            id = 38412,
-            x = 3,
-            y = 6,
-            connections = {
-                1, 2, 3
+            {
+                type = "quest",
+                id = 38410,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 38615,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 4,
+                connections = {
+                    1
+                },
+            },
+        },
+        {
+            {
+                type = "quest",
+                id = 38342,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 38617,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 5,
+                connections = {
+                    1
+                },
+            },
+        },
+        {
+            {
+                type = "quest",
+                id = 38412,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 6,
+                connections = {
+                    1, 2, 3
+                },
+            },
+            {
+                type = "quest",
+                id = 38618,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 6,
+                connections = {
+                    1, 2, 3
+                },
             },
         },
         {
