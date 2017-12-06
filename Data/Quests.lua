@@ -7213,4 +7213,36 @@ BtWQuests_Quests = {
 		name = "Will of the Thorignir",
 		level = -1,
 	},
+	[39385] = {
+		name = "A Gift for Greymane",
+		level = -1,
+	},
+	[38872] = {
+		name = "The Dark Lady's Bidding",
+		level = -1,
+	},
+	[39154] = {
+		name = "To Skold-Ashil",
+		level = -1,
+	},
+	[39153] = {
+		name = "Dreadwake's Dilemma",
+		level = -1,
+	},
+	[38878] = {
+		name = "Shielded Secrets",
+		level = -1,
+	},
+	[38873] = {
+		name = "Clear the Deck!",
+		level = -1,
+	},
+	[39155] = {
+		name = "Becoming the Ascendant",
+		level = -1,
+	},
+	[38882] = {
+		name = "A New Life for Undeath",
+		level = -1,
+	},
 }
