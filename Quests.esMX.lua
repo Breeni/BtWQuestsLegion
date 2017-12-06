@@ -6851,6 +6851,10 @@ BtWQuests_Quests = {
         name = "Escamados",
         level = -1,
     },
+    [38616] = {
+        name = "Escamados",
+        level = -1,
+    },
     [38318] = {
         name = "No hacen falta alas",
         level = -1,
@@ -7142,5 +7146,105 @@ BtWQuests_Quests = {
     [41010] = {
         name = "Frenesí de pescado",
         level = 110,
+    },
+    [38332] = {
+        name = "El señor forestal",
+        level = -1,
+    },
+    [39698] = {
+        name = "De ronda",
+        level = -1,
+    },
+    [38357] = {
+        name = "Posibles efectos secundarios: una leve no-muerte",
+        level = -1,
+    },
+    [38358] = {
+        name = "Chapapoteando",
+        level = -1,
+    },
+    [38307] = {
+        name = "La Jefa de Guerra llama",
+        level = -1,
+    },
+    [38360] = {
+        name = "El destino de El Brisaveloz",
+        level = -1,
+    },
+    [38361] = {
+        name = "La ira del Clamañublo",
+        level = -1,
+    },
+    [39801] = {
+        name = "La flota escindida",
+        level = -1,
+    },
+    [38362] = {
+        name = "Un trofeo lúgubre",
+        level = -1,
+    },
+    [38459] = {
+        name = "Las antiguas pruebas",
+        level = -1,
+    },
+    [38618] = {
+        name = "Más allá de la luz de luna invernal",
+        level = -1,
+    },
+    [38613] = {
+        name = "No hacen falta alas",
+        level = -1,
+    },
+    [38615] = {
+        name = "Seguro contra empalamientos",
+        level = -1,
+    },
+    [38617] = {
+        name = "Otra vía",
+        level = -1,
+    },
+    [38612] = {
+        name = "Misión con gancho",
+        level = -1,
+    },
+    [38614] = {
+        name = "Capear la tormenta",
+        level = -1,
+    },
+    [38611] = {
+        name = "Voluntad de los Thorignir",
+        level = -1,
+    },
+    [39385] = {
+        name = "Un regalo para Cringrís",
+        level = -1,
+    },
+    [38872] = {
+        name = "Los designios de la Dama Oscura",
+        level = -1,
+    },
+    [39154] = {
+        name = "Hacia Skold-Ashil",
+        level = -1,
+    },
+    [39153] = {
+        name = "El dilema de Rastro del Pavor",
+        level = -1,
+    },
+    [38878] = {
+        name = "Escudado en el secreto",
+        level = -1,
+    },
+    [38873] = {
+        name = "¡Despejadlo todo!",
+        level = -1,
+    },
+    [39155] = {
+        name = "Convertirse en ascendiente",
+        level = -1,
+    },
+    [38882] = {
+        name = "Una vida nueva para los no-muertos",
+        level = -1,
     },
 }

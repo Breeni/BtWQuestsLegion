@@ -6851,6 +6851,10 @@ BtWQuests_Quests = {
         name = "Ninguém me escama, ninguém me quer",
         level = -1,
     },
+    [38616] = {
+        name = "Ninguém me escama, ninguém me quer",
+        level = -1,
+    },
     [38318] = {
         name = "Olha, mãe, sem asas!",
         level = -1,
@@ -7142,5 +7146,105 @@ BtWQuests_Quests = {
     [41010] = {
         name = "Frenesi de Peixe",
         level = 110,
+    },
+    [38332] = {
+        name = "O Senhor dos Patrulheiros",
+        level = -1,
+    },
+    [39698] = {
+        name = "A ronda",
+        level = -1,
+    },
+    [38357] = {
+        name = "Efeitos colaterais podem incluir leve morte",
+        level = -1,
+    },
+    [38358] = {
+        name = "Lixo extraordinário",
+        level = -1,
+    },
+    [38307] = {
+        name = "O chamado da Chefe Guerreira",
+        level = -1,
+    },
+    [38360] = {
+        name = "O destino do Correventos",
+        level = -1,
+    },
+    [38361] = {
+        name = "A fúria do Arauto da Praga",
+        level = -1,
+    },
+    [39801] = {
+        name = "A Frota Estilhaçada",
+        level = -1,
+    },
+    [38362] = {
+        name = "Troféu macabro",
+        level = -1,
+    },
+    [38459] = {
+        name = "As antigas provações",
+        level = -1,
+    },
+    [38618] = {
+        name = "Sobre o luar de inverno",
+        level = -1,
+    },
+    [38613] = {
+        name = "Olha, mãe, sem asas!",
+        level = -1,
+    },
+    [38615] = {
+        name = "À prova de arpoadas",
+        level = -1,
+    },
+    [38617] = {
+        name = "Outro caminho",
+        level = -1,
+    },
+    [38612] = {
+        name = "O lança-gancho",
+        level = -1,
+    },
+    [38614] = {
+        name = "Proteção contra a tempestade",
+        level = -1,
+    },
+    [38611] = {
+        name = "Vontade dos Thorignir",
+        level = -1,
+    },
+    [39385] = {
+        name = "Um presente para Greymane",
+        level = -1,
+    },
+    [38872] = {
+        name = "A ordem da Dama Sombria",
+        level = -1,
+    },
+    [39154] = {
+        name = "Para Skold-Ashil",
+        level = -1,
+    },
+    [39153] = {
+        name = "Dilema Trilhamedo",
+        level = -1,
+    },
+    [38878] = {
+        name = "Escudos e segredos",
+        level = -1,
+    },
+    [38873] = {
+        name = "Sai do convés!",
+        level = -1,
+    },
+    [39155] = {
+        name = "Tornando-se o ascendente",
+        level = -1,
+    },
+    [38882] = {
+        name = "Uma nova vida para os mortos-vivos",
+        level = -1,
     },
 }

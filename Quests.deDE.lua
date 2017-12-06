@@ -6851,6 +6851,10 @@ BtWQuests_Quests = {
         name = "Schuppe um Schuppe",
         level = -1,
     },
+    [38616] = {
+        name = "Schuppe um Schuppe",
+        level = -1,
+    },
     [38318] = {
         name = "Wer braucht schon Flügel?",
         level = -1,
@@ -7142,5 +7146,105 @@ BtWQuests_Quests = {
     [41010] = {
         name = "Fischraserei",
         level = 110,
+    },
+    [38332] = {
+        name = "Der Waldläuferlord",
+        level = -1,
+    },
+    [39698] = {
+        name = "Inspektion",
+        level = -1,
+    },
+    [38357] = {
+        name = "Mögliche Nebenwirkungen: leichtes Untotsein",
+        level = -1,
+    },
+    [38358] = {
+        name = "Immer rein damit",
+        level = -1,
+    },
+    [38307] = {
+        name = "Die Bitte des Kriegshäuptlings",
+        level = -1,
+    },
+    [38360] = {
+        name = "Das Schicksal der Windläufer",
+        level = -1,
+    },
+    [38361] = {
+        name = "Der Zorn des Pestrufers",
+        level = -1,
+    },
+    [39801] = {
+        name = "Die zersplitterte Flotte",
+        level = -1,
+    },
+    [38362] = {
+        name = "Eine grausame Trophäe",
+        level = -1,
+    },
+    [38459] = {
+        name = "Die uralten Prüfungen",
+        level = -1,
+    },
+    [38618] = {
+        name = "Über dem Wintermondlicht",
+        level = -1,
+    },
+    [38613] = {
+        name = "Wer braucht schon Flügel?",
+        level = -1,
+    },
+    [38615] = {
+        name = "Speerabwehr",
+        level = -1,
+    },
+    [38617] = {
+        name = "Ein anderer Weg",
+        level = -1,
+    },
+    [38612] = {
+        name = "Greifhaken abgreifen",
+        level = -1,
+    },
+    [38614] = {
+        name = "Wetterfeste Ausrüstung",
+        level = -1,
+    },
+    [38611] = {
+        name = "Der Wille der Thorignir",
+        level = -1,
+    },
+    [39385] = {
+        name = "Ein Geschenk für Graumähne",
+        level = -1,
+    },
+    [38872] = {
+        name = "Auf Befehl der Dunklen Fürstin",
+        level = -1,
+    },
+    [39154] = {
+        name = "Nach Skold-Ashil",
+        level = -1,
+    },
+    [39153] = {
+        name = "Schreckensflutdilemma",
+        level = -1,
+    },
+    [38878] = {
+        name = "Schildgeheimnisse",
+        level = -1,
+    },
+    [38873] = {
+        name = "Macht das Deck klar!",
+        level = -1,
+    },
+    [39155] = {
+        name = "Aszendentenriten",
+        level = -1,
+    },
+    [38882] = {
+        name = "Ein neues Leben für die Untoten",
+        level = -1,
     },
 }

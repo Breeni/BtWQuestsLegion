@@ -2103,7 +2103,7 @@ BtWQuests_Quests = {
         level = 110,
     },
     [46501] = {
-        name = "Grave Robbin",
+        name = "Grave Robbin'",
         level = 110,
     },
     [46509] = {
@@ -6851,6 +6851,10 @@ BtWQuests_Quests = {
         name = "Built to Scale",
         level = -1,
     },
+    [38616] = {
+        name = "Built to Scale",
+        level = -1,
+    },
     [38318] = {
         name = "No Wings Required",
         level = -1,
@@ -7142,5 +7146,105 @@ BtWQuests_Quests = {
     [41010] = {
         name = "Fish Frenzy",
         level = 110,
+    },
+    [38332] = {
+        name = "The Ranger Lord",
+        level = -1,
+    },
+    [39698] = {
+        name = "Making the Rounds",
+        level = -1,
+    },
+    [38357] = {
+        name = "Side Effects May Include Mild Undeath",
+        level = -1,
+    },
+    [38358] = {
+        name = "Pump it Up",
+        level = -1,
+    },
+    [38307] = {
+        name = "The Warchief Beckons",
+        level = -1,
+    },
+    [38360] = {
+        name = "The Windrunner's Fate",
+        level = -1,
+    },
+    [38361] = {
+        name = "Wrath of the Blightcaller",
+        level = -1,
+    },
+    [39801] = {
+        name = "The Splintered Fleet",
+        level = -1,
+    },
+    [38362] = {
+        name = "A Grim Trophy",
+        level = -1,
+    },
+    [38459] = {
+        name = "The Ancient Trials",
+        level = -1,
+    },
+    [38618] = {
+        name = "Above the Winter Moonlight",
+        level = -1,
+    },
+    [38613] = {
+        name = "No Wings Required",
+        level = -1,
+    },
+    [38615] = {
+        name = "Impalement Insurance",
+        level = -1,
+    },
+    [38617] = {
+        name = "Another Way",
+        level = -1,
+    },
+    [38612] = {
+        name = "A Grapple a Day",
+        level = -1,
+    },
+    [38614] = {
+        name = "To Weather the Storm",
+        level = -1,
+    },
+    [38611] = {
+        name = "Will of the Thorignir",
+        level = -1,
+    },
+    [39385] = {
+        name = "A Gift for Greymane",
+        level = -1,
+    },
+    [38872] = {
+        name = "The Dark Lady's Bidding",
+        level = -1,
+    },
+    [39154] = {
+        name = "To Skold-Ashil",
+        level = -1,
+    },
+    [39153] = {
+        name = "Dreadwake's Dilemma",
+        level = -1,
+    },
+    [38878] = {
+        name = "Shielded Secrets",
+        level = -1,
+    },
+    [38873] = {
+        name = "Clear the Deck!",
+        level = -1,
+    },
+    [39155] = {
+        name = "Becoming the Ascendant",
+        level = -1,
+    },
+    [38882] = {
+        name = "A New Life for Undeath",
+        level = -1,
     },
 }
