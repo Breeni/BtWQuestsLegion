@@ -6851,6 +6851,10 @@ BtWQuests_Quests = {
         name = "Create con le scaglie",
         level = -1,
     },
+    [38616] = {
+        name = "Create con le scaglie",
+        level = -1,
+    },
     [38318] = {
         name = "Chi ha bisogno di ali?",
         level = -1,
@@ -7142,5 +7146,105 @@ BtWQuests_Quests = {
     [41010] = {
         name = "Frenesia ittica",
         level = 110,
+    },
+    [38332] = {
+        name = "Il Signore delle Guardaboschi",
+        level = -1,
+    },
+    [39698] = {
+        name = "Ultimi preparativi",
+        level = -1,
+    },
+    [38357] = {
+        name = "Gli effetti collaterali includono una leggera Non Morte",
+        level = -1,
+    },
+    [38358] = {
+        name = "Raccogliere i rifiuti",
+        level = -1,
+    },
+    [38307] = {
+        name = "La convocazione della Capoguerra",
+        level = -1,
+    },
+    [38360] = {
+        name = "Il fato della Ventolesto",
+        level = -1,
+    },
+    [38361] = {
+        name = "L'ira di Selvamorta",
+        level = -1,
+    },
+    [39801] = {
+        name = "La flotta alla deriva",
+        level = -1,
+    },
+    [38362] = {
+        name = "Un lugubre trofeo",
+        level = -1,
+    },
+    [38459] = {
+        name = "Le antiche prove",
+        level = -1,
+    },
+    [38618] = {
+        name = "Sopra la luna d'inverno",
+        level = -1,
+    },
+    [38613] = {
+        name = "Chi ha bisogno di ali?",
+        level = -1,
+    },
+    [38615] = {
+        name = "Assicurazione anti-impalamento",
+        level = -1,
+    },
+    [38617] = {
+        name = "Un'altra via",
+        level = -1,
+    },
+    [38612] = {
+        name = "Un rampino al giorno...",
+        level = -1,
+    },
+    [38614] = {
+        name = "Affrontare la tempesta",
+        level = -1,
+    },
+    [38611] = {
+        name = "La volontà dei Thorignir",
+        level = -1,
+    },
+    [39385] = {
+        name = "Un regalo per Mantogrigio",
+        level = -1,
+    },
+    [38872] = {
+        name = "L'incarico della Dama Oscura",
+        level = -1,
+    },
+    [39154] = {
+        name = "Verso Skold-Ashil",
+        level = -1,
+    },
+    [39153] = {
+        name = "Spazzare via i Worgen",
+        level = -1,
+    },
+    [38878] = {
+        name = "Scudi segreti",
+        level = -1,
+    },
+    [38873] = {
+        name = "Ripulire il ponte!",
+        level = -1,
+    },
+    [39155] = {
+        name = "Ascendere",
+        level = -1,
+    },
+    [38882] = {
+        name = "Una nuova vita per la Non Morte",
+        level = -1,
     },
 }

@@ -6851,6 +6851,10 @@ BtWQuests_Quests = {
         name = "On se l’écaille",
         level = -1,
     },
+    [38616] = {
+        name = "On se l’écaille",
+        level = -1,
+    },
     [38318] = {
         name = "Sans les ailes !",
         level = -1,
@@ -7142,5 +7146,105 @@ BtWQuests_Quests = {
     [41010] = {
         name = "Frénésie de poisson",
         level = 110,
+    },
+    [38332] = {
+        name = "Le seigneur des forestiers",
+        level = -1,
+    },
+    [39698] = {
+        name = "Tournée d’inspection",
+        level = -1,
+    },
+    [38357] = {
+        name = "Peut entraîner un léger effet de non-mort",
+        level = -1,
+    },
+    [38358] = {
+        name = "Opération de pompage",
+        level = -1,
+    },
+    [38307] = {
+        name = "L’appel du chef de guerre",
+        level = -1,
+    },
+    [38360] = {
+        name = "Le destin du Coursevent",
+        level = -1,
+    },
+    [38361] = {
+        name = "Le courroux du Flétrisseur",
+        level = -1,
+    },
+    [39801] = {
+        name = "La flotte brisée",
+        level = -1,
+    },
+    [38362] = {
+        name = "Un trophée des plus funestes",
+        level = -1,
+    },
+    [38459] = {
+        name = "Les épreuves antiques",
+        level = -1,
+    },
+    [38618] = {
+        name = "Clair de lune hivernal",
+        level = -1,
+    },
+    [38613] = {
+        name = "Sans les ailes !",
+        level = -1,
+    },
+    [38615] = {
+        name = "Assurance contre l’empalement",
+        level = -1,
+    },
+    [38617] = {
+        name = "Un autre chemin",
+        level = -1,
+    },
+    [38612] = {
+        name = "Mettre le grappin sur un grappin",
+        level = -1,
+    },
+    [38614] = {
+        name = "En pleine tempête",
+        level = -1,
+    },
+    [38611] = {
+        name = "La volonté des thorignirs",
+        level = -1,
+    },
+    [39385] = {
+        name = "Un cadeau pour Grisetête",
+        level = -1,
+    },
+    [38872] = {
+        name = "La volonté de la Dame noire",
+        level = -1,
+    },
+    [39154] = {
+        name = "En route vers Skold-Ashil",
+        level = -1,
+    },
+    [39153] = {
+        name = "Le dilemme de Noirsillage",
+        level = -1,
+    },
+    [38878] = {
+        name = "Le secret des boucliers",
+        level = -1,
+    },
+    [38873] = {
+        name = "Nettoyage de printemps",
+        level = -1,
+    },
+    [39155] = {
+        name = "Ascension",
+        level = -1,
+    },
+    [38882] = {
+        name = "Une nouvelle vie pour la non-mort",
+        level = -1,
     },
 }
