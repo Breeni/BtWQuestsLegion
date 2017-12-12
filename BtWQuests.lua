@@ -963,6 +963,8 @@ function BtWQuests_ZoomOut()
         BtWQuests_SetCurrentCategory(nil)
     end
     
+    BtWQuestsTooltip:Hide();
+
     BtWQuests_ListCategories()
 end
 
