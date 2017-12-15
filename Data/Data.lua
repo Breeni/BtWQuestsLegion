@@ -220,6 +220,8 @@ BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ANNOYING_FOLLOWER = 146
 
 BTWQUESTS_CHAIN_LEGION_FISHING_UNDERLIGHT_ANGLER = 2601
 
+BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL = 201
+
 BtWQuests_Expansions = {}
 
 BtWQuests_Categories = {}
@@ -227,3 +229,5 @@ BtWQuests_Categories = {}
 BtWQuests_Chains = {}
 
 BtWQuests_Quests = {}
+
+BtWQuests_Missions = {}

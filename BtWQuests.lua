@@ -196,6 +196,8 @@ local function BtWQuests_GetItemName(item)
         return BtWQuests_GetItemName(BtWQuests_Quests[item.id])
     elseif item.type == "chain" then
         return BtWQuests_GetItemName(BtWQuests_Chains[item.id])
+    elseif item.type == "mission" then
+        return BtWQuests_GetItemName(BtWQuests_Missions[item.id])
     elseif item.type == "level" then
         return string.format(BTWQUESTS_LEVEL_TO, item.level)
     elseif item.type == "achievement" then
@@ -220,6 +222,8 @@ local function BtWQuests_GetItemVisible(item)
         return BtWQuests_GetItemVisible(BtWQuests_Quests[item.id])
     elseif item.type == "chain" then
         return BtWQuests_GetItemVisible(BtWQuests_Chains[item.id])
+    elseif item.type == "mission" then
+        return BtWQuests_GetItemVisible(BtWQuests_Missions[item.id])
     else
         return true
     end
@@ -234,6 +238,8 @@ local function BtWQuests_GetItemSkip(item)
         return BtWQuests_GetItemSkip(BtWQuests_Quests[item.id])
     elseif item.type == "chain" and BtWQuests_Chains[item.id] ~= nil then
         return BtWQuests_GetItemSkip(BtWQuests_Chains[item.id])
+    elseif item.type == "mission" and BtWQuests_Missions[item.id] ~= nil then
+        return BtWQuests_GetItemSkip(BtWQuests_Missions[item.id])
     else
         return false
     end
@@ -256,7 +262,7 @@ local function BtWQuests_CompareItems(a, b)
         return false
     end
     
-    if a.type == "chain" or a.type == "quest" or a.type == "achievement" then
+    if a.type == "chain" or a.type == "quest" or a.type == "achievement" or a.type == "mission" then
         return a.id == b.id
     elseif a.type == "faction" then
         return a.faction == b.faction
@@ -650,6 +656,35 @@ function BtWQuests_EvalChainItem(item)
             end
             
             userdata.link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, BtWQuests_EvalText(quest.name, quest))
+        elseif item.type == "mission" then
+            local mission = BtWQuests_Missions[item.id]
+            
+            if not mission then
+                mission = {name = 'Unnamed'}
+            end
+            
+            assert(type(mission) == "table", "Error finding mission with id " .. tostring(item.id))
+        
+            if skip == nil and mission.restrictions then
+                skip = not BtWQuests_CheckRequirements(mission.restrictions)
+            end
+
+            if skip then
+                return true
+            end
+        
+            visible = visible == nil and mission.visible or visible
+            
+            name = name or "Mission: " .. mission.name
+            difficulty = difficulty or mission.difficulty
+            tagID = tagID or mission.tagID
+            
+            active = active == nil and function (item)
+                local mission = C_Garrison.GetBasicMissionInfo(item.id)
+
+                return mission and mission.inProgress or false
+            end or active
+            breadcrumb = true
         elseif item.type == "chain" then
             local chain = BtWQuests_Chains[item.id]
             
