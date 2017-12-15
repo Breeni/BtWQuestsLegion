@@ -345,17 +345,23 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL] = {
         {
             type = "achievement",
             id = 11558,
-            requirements = {
-                type = "faction",
-                faction = "Alliance",
+            anyone = true,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Alliance",
+                },
             },
         },
         {
             type = "achievement",
             id = 11559,
-            requirements = {
-                type = "faction",
-                faction = "Horde",
+            anyone = true,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Horde",
+                },
             },
         },
     },
