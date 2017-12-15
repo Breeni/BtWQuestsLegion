@@ -151,10 +151,18 @@ local function BtWQuests_CheckRequirement(item)
     elseif item.type == "level" then
         return UnitLevel("player") >= item.level
     elseif item.type == "achievement" then
-        if item.completed == false then
-            return not select(13, GetAchievementInfo(item.id))
+        if item.anyone then
+            if item.completed == false then
+                return not select(4, GetAchievementInfo(item.id))
+            else
+                return select(4, GetAchievementInfo(item.id))
+            end
         else
-            return select(13, GetAchievementInfo(item.id))
+            if item.completed == false then
+                return not select(13, GetAchievementInfo(item.id))
+            else
+                return select(13, GetAchievementInfo(item.id))
+            end
         end
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
