@@ -374,7 +374,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL] = {
         {
             type = "quest",
             id = 45302,
-            name = "Defeat Oso",
+            breadcrumb = true,
+            name = "Complete a Brawl",
             x = 3,
             y = 0,
             connections = {
