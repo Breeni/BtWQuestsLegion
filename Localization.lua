@@ -81,3 +81,5 @@ BTWQUESTS_FISHING = "Fishing"
 BTWQUESTS_WAIT_NAT_PAGLE = "Wait for Nat Pagle (May require relogging)"
 BTWQUESTS_THE_UNDERLIGHT_ANGLER = "The Underlight Angler"
 BTWQUESTS_FISH_LUMINOUS_PEARL = "Fish up the Luminous Pearl from pools"
+
+BTWQUESTS_ENCHANTING = "Enchanting"
