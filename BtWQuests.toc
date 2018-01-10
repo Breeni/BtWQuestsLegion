@@ -48,4 +48,5 @@ Data/LegionSuramar.lua
 Data/LegionBrokenShore.lua
 Data/LegionArgus.lua
 Data/LegionFishing.lua
+Data/LegionEnchanting.lua
 Data/LegionHidden.lua

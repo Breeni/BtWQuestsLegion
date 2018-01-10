@@ -7241,4 +7241,127 @@ BtWQuests_Quests = {
         name = "A New Life for Undeath",
         level = -1,
     },
+    
+	[39883] = {
+		name = "Cloaked in Tradition",
+		level = -1,
+	},
+	[39884] = {
+		name = "No Longer Worthy",
+		level = -1,
+	},
+	[39916] = {
+		name = "Turnabout Betrayal",
+		level = -1,
+	},
+	[39918] = {
+		name = "The Absent Priestess",
+		level = -1,
+	},
+	[39889] = {
+		name = "Led Astray",
+		level = -1,
+	},
+	[40169] = {
+		name = "Crossroads Rendezvous",
+		level = -1,
+	},
+	[39891] = {
+		name = "Cursed, But Convenient",
+		level = -1,
+	},
+	[39923] = {
+		name = "Down to the Core",
+		level = -1,
+	},
+	[40048] = {
+		name = "Strings of the Puppet Masters",
+		level = -1,
+	},
+	[39920] = {
+		name = "On Azure Wings",
+		level = -1,
+	},
+	[39907] = {
+		name = "Elven Enchantments",
+		level = -1,
+	},
+	[40130] = {
+		name = "Washed Clean",
+		level = -1,
+	},
+	[39914] = {
+		name = "Sentinel's Final Duty",
+		level = -1,
+	},
+	[39910] = {
+		name = "The Druid's Debt",
+		level = -1,
+	},
+	[39906] = {
+		name = "Prepping For Battle",
+		level = -1,
+	},
+	[39905] = {
+		name = "Ringing True",
+		level = -1,
+	},
+	[39903] = {
+		name = "An Enchanting Home",
+		level = -1,
+	},
+	[39904] = {
+		name = "Halls of Valor: Revenge of the Enchantress",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+		level = -1,
+	},
+	[39874] = {
+		name = "Some Enchanted Evening",
+		level = -1,
+	},
+	[39875] = {
+		name = "The Last Few",
+		level = -1,
+	},
+	[39876] = {
+		name = "Helping the Hunters",
+		level = -1,
+	},
+	[39877] = {
+		name = "In the Loop",
+		level = -1,
+	},
+	[39878] = {
+		name = "Thunder Struck",
+		level = -1,
+	},
+	[39879] = {
+		name = "Strong Like the Earth",
+		level = -1,
+	},
+	[39880] = {
+		name = "Waste Not",
+		level = -1,
+	},
+	[39881] = {
+		name = "Fey Enchantments",
+		level = -1,
+	},
+	[39882] = {
+		name = "Darkheart Thicket: The Glamour Has Faded",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+		level = -1,
+	},
+	[40265] = {
+		name = "A Touch of Magic",
+		level = -1,
+	},
+	[39921] = {
+		name = "Neltharion's Lair: Rod of Azure",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+		level = -1,
+	},
 }
