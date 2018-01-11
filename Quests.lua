@@ -7241,4 +7241,147 @@ BtWQuests_Quests = {
         name = "A New Life for Undeath",
         level = -1,
     },
+    
+	[38513] = {
+		name = "The Highmountain Smiths",
+		level = -1,
+	},
+	[38515] = {
+		name = "Nature Provides",
+		level = -1,
+	},
+	[38519] = {
+		name = "Grayheft",
+		level = -1,
+	},
+	[38523] = {
+		name = "Leystone Hoofplates",
+		level = -1,
+	},
+	[38525] = {
+		name = "Part of the Team",
+		level = -1,
+	},
+	[44449] = {
+		name = "Advanced Quenching",
+		level = -1,
+	},
+	[39726] = {
+		name = "...And the Anvil",
+		level = -1,
+	},
+	[38531] = {
+		name = "Leystone Mastery",
+		level = -1,
+	},
+	[38533] = {
+		name = "Tribal Knowledge",
+		level = -1,
+	},
+	[39681] = {
+		name = "The Properties of Leystone",
+		level = -1,
+	},
+	[38559] = {
+		name = "Worthy of the Stone",
+		level = -1,
+	},
+	[38563] = {
+		name = "Flower-Pickers and Potion-Quaffers",
+		level = -1,
+	},
+	[38502] = {
+		name = "The Methods of the Nightfallen",
+		level = -1,
+	},
+	[38506] = {
+		name = "Chicken Scratch",
+		level = -1,
+	},
+	[38514] = {
+		name = "You Are Not Worthy",
+		level = -1,
+	},
+	[38518] = {
+		name = "From One Master to Another",
+		level = -1,
+	},
+	[38522] = {
+		name = "Not Just Weapons and Armor",
+		level = -1,
+	},
+	[38524] = {
+		name = "Felsmith Nal'ryssa",
+		level = -1,
+	},
+	[38526] = {
+		name = "Smith Under Fire",
+		level = -1,
+	},
+	[38528] = {
+		name = "Leystone's Potential",
+		level = -1,
+	},
+	[38530] = {
+		name = "The Firmament Stone",
+		level = -1,
+	},
+	[39729] = {
+		name = "The Knowledge of Black Rook",
+		level = -1,
+	},
+	[48053] = {
+		name = "Weigh Anchor",
+		level = -1,
+	},
+	[39680] = {
+		name = "Between the Hammer...",
+		level = -1,
+	},
+	[38833] = {
+		name = "The Art of Demonsteel",
+		level = -1,
+	},
+	[38532] = {
+		name = "Maw of Souls: Hammered By The Storm",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+		level = -1,
+	},
+	[39699] = {
+		name = "Ironhorn Leysmithing",
+		level = -1,
+	},
+	[38499] = {
+		name = "Strange New Ores",
+		level = -1,
+	},
+	[38564] = {
+		name = "A Sweet Bargain",
+		level = -1,
+	},
+	[39702] = {
+		name = "Legend of Black Rook Hold",
+		level = -1,
+	},
+	[38505] = {
+		name = "Engineers: Not COMPLETELY Useless",
+		level = -1,
+	},
+	[38507] = {
+		name = "Secrets of Leysmithing",
+		level = -1,
+	},
+	[38527] = {
+		name = "Nal'ryssa's Technique",
+		level = -1,
+	},
+	[38500] = {
+		name = "Leysmithing Mastery",
+		level = -1,
+	},
+	[38501] = {
+		name = "Hatecoil Hammerwork",
+		level = -1,
+	},
 }
