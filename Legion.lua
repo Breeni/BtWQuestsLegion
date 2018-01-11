@@ -85,7 +85,7 @@ BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION] = {
     },
     {
         type = "category",
-        id = BTWQUESTS_CATEGORY_LEGION_FISHING,
+        id = BTWQUESTS_CATEGORY_LEGION_PROFESSIONS,
     },
     {
         type = "category",
