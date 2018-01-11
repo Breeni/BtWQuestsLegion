@@ -77,6 +77,7 @@ BTWQUESTS_MOUNT_RIDDLERS = "Mount: Riddler's Mind-Worm"
 BTWQUESTS_PET_SUNDARTER = "Pet: Sun Darter Hatchling"
 BTWQUESTS_MOUNT_LUCID_NIGHTMARE = "Mount: Lucid Nightmare"
 
+BTWQUESTS_PROFESSIONS = "Professions"
 BTWQUESTS_FISHING = "Fishing"
 BTWQUESTS_WAIT_NAT_PAGLE = "Wait for Nat Pagle (May require relogging)"
 BTWQUESTS_THE_UNDERLIGHT_ANGLER = "The Underlight Angler"
