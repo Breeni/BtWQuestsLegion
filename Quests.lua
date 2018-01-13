@@ -7241,4 +7241,124 @@ BtWQuests_Quests = {
         name = "A New Life for Undeath",
         level = -1,
     },
+	[40875] = {
+		["name"] = "Going to Waste",
+		["level"] = -1,
+	},
+	[40876] = {
+		["name"] = "'Locke, Stock and Barrel",
+		["level"] = -1,
+	},
+	[40877] = {
+		["name"] = "Halls of Valor: Trigger Happy",
+		["level"] = -1,
+	},
+	[40878] = {
+		["name"] = "Assault on Violet Hold: Cheating Death",
+		["level"] = -1,
+	},
+	[40879] = {
+		["name"] = "It's On With Automatons",
+		["level"] = -1,
+	},
+	[40880] = {
+		["name"] = "Short Circuit",
+		["level"] = -1,
+	},
+	[40881] = {
+		["name"] = "Oil Rags to Riches",
+		["level"] = -1,
+	},
+	[40882] = {
+		["name"] = "Court of Stars: Revamping the Recoil",
+		["level"] = -1,
+	},
+	[40854] = {
+		["name"] = "Endless Possibilities",
+		["level"] = -1,
+	},
+	[40855] = {
+		["name"] = "Our Man in Azsuna",
+		["level"] = -1,
+	},
+	[40856] = {
+		["name"] = "It'll Cost You",
+		["level"] = -1,
+	},
+	[40545] = {
+		["name"] = "Aww Scrap!",
+		["level"] = -1,
+	},
+	[46128] = {
+		["name"] = "Time for a Recharge",
+		["level"] = -1,
+	},
+	[40859] = {
+		["name"] = "The Latest Fashion: Headguns!",
+		["level"] = -1,
+	},
+	[40860] = {
+		["name"] = "Resupplying the Line",
+		["level"] = -1,
+	},
+	[40861] = {
+		["name"] = "In My Sights",
+		["level"] = -1,
+	},
+	[40862] = {
+		["name"] = "All Charged Up",
+		["level"] = -1,
+	},
+	[40863] = {
+		["name"] = "Always the Last Thing",
+		["level"] = -1,
+	},
+	[40864] = {
+		["name"] = "Modular Modifications",
+		["level"] = -1,
+	},
+	[40865] = {
+		["name"] = "It's Not Rocket Science",
+		["level"] = -1,
+	},
+	[40866] = {
+		["name"] = "The Shell, You Say?",
+		["level"] = -1,
+	},
+	[40867] = {
+		["name"] = "Bubble Baubles",
+		["level"] = -1,
+	},
+	[40868] = {
+		["name"] = "Wibbly-Wobbly, Timey-Wimey",
+		["level"] = -1,
+	},
+	[40869] = {
+		["name"] = "Fire and Forget",
+		["level"] = -1,
+	},
+	[40870] = {
+		["name"] = "Here Comes the BOOM!",
+		["level"] = -1,
+	},
+	[40871] = {
+		["name"] = "'Locke and Load",
+		["level"] = -1,
+	},
+	[40872] = {
+		["name"] = "Going Out With a Bang",
+		["level"] = -1,
+	},
+	[40873] = {
+		["name"] = "Keep Yer Powder Dry",
+		["level"] = -1,
+	},
+	[40874] = {
+		["name"] = "I'd Do It Myself, But...",
+		["level"] = -1,
+	},
+	[40858] = {
+		["name"] = "The Missing Pieces",
+		["level"] = -1,
+	},
 }
