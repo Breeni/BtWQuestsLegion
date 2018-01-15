@@ -989,6 +989,114 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW] = {
     },
 }
 
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS] = {
+    name = BtWQuests_GetQuestName(48460),
+    category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS,
+        },
+        {
+            type = "quest",
+            id = 48461,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 47220,
+    },
+    range = {110},
+    items = {
+        {
+            name = "Kill Eredar",
+            breadcrumb = true,
+            visible = {
+                {
+                    type = "quest",
+                    id = 48453,
+                    active = false,
+                },
+            },
+            x = 1,
+            y = 0,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 48460,
+            x = 3,
+            y = 0,
+            connections = {
+                2,
+            },
+        },
+        {
+            {
+                type = "quest",
+                id = 48453,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 48453,
+                        active = true,
+                    },
+                },
+                x = 1,
+                y = 1,
+                connections = {
+                    3,
+                },
+            },
+            {
+                type = "quest",
+                id = 48542,
+                x = 1,
+                y = 1,
+                connections = {
+                    3,
+                },
+            },
+        },
+        {
+            type = "quest",
+            id = 47967,
+            x = 3,
+            y = 1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 48455,
+            x = 5,
+            y = 1,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 48544,
+            x = 3,
+            y = 2,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 48441,
+            x = 3,
+            y = 3,
+        },
+    },
+}
+
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ARGUS] = {
     name = GetMapNameByID(1184),
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1005,6 +1113,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ARGUS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS,
         },
     },
 }
