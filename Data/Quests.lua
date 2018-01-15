@@ -7744,4 +7744,24 @@ BtWQuests_Quests = {
 		name = "The Card Shark",
 		level = -1,
 	},
+	[45163] = {
+		name = "Cleaning Up",
+		level = -1,
+	},
+	[45312] = {
+		name = "You Beat the Ball of Meat",
+		level = -1,
+	},
+	[45111] = {
+		name = "Everyone Loves a Good Fight",
+		level = -1,
+	},
+	[45162] = {
+		name = "We Brought the Hammer",
+		level = -1,
+	},
+	[45304] = {
+		name = "Attacking the Darkness",
+		level = -1,
+	},
 }
