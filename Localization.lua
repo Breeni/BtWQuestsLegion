@@ -78,6 +78,8 @@ BTWQUESTS_PET_SUNDARTER = "Pet: Sun Darter Hatchling"
 BTWQUESTS_MOUNT_LUCID_NIGHTMARE = "Mount: Lucid Nightmare"
 
 BTWQUESTS_PROFESSIONS = "Professions"
+BTWQUESTS_BLACKSMITHING = "Blacksmithing"
+BTWQUESTS_ENCHANTING = "Enchanting"
 BTWQUESTS_FISHING = "Fishing"
 BTWQUESTS_WAIT_NAT_PAGLE = "Wait for Nat Pagle (May require relogging)"
 BTWQUESTS_THE_UNDERLIGHT_ANGLER = "The Underlight Angler"
