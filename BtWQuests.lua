@@ -300,6 +300,24 @@ local function BtWQuests_CompareChainItemByIndex(index, b)
     end
 end
 
+function BtWQuests_IsCategoryCompleted(categoryID)
+    local category = BtWQuests_Categories[categoryID]
+    
+    for _,v in ipairs(category.items) do
+        if v.type == 'chain' then
+            if not BtWQuests_GetItemSkip(v) and not BtWQuests_IsChainCompleted(v.id) then
+                return false
+            end
+        elseif v.type == 'category' then
+            if not BtWQuests_IsCategoryCompleted(v.id) then
+                return false
+            end
+        end
+    end
+
+    return true
+end
+
 --- Get the correct data for a Category or Chain Button
 -- @param item A table containing an item with the type of category or chain
 -- @return id
@@ -988,6 +1006,8 @@ function BtWQuests_ZoomOut()
         BtWQuests_SetCurrentCategory(nil)
     end
     
+    BtWQuestsTooltip:Hide();
+
     BtWQuests_ListCategories()
 end
 
@@ -1018,6 +1038,11 @@ function BtWQuests_ListCategories()
             categoryButton.name:SetText(name);
             categoryButton.bgImage:SetTexture(buttonImage);
             categoryButton.AciveTexture:SetShown(itemType == "chain" and BtWQuests_IsChainActive(id) or false)
+            if itemType == "chain" then
+                categoryButton.Tick:SetShown(BtWQuests_IsChainCompleted(id))
+            else
+                categoryButton.Tick:SetShown(BtWQuests_IsCategoryCompleted(id))
+            end
             
             categoryButton.id = id;
             categoryButton.userdata = userdata;
