@@ -7149,4 +7149,28 @@ BtWQuests_Quests = {
 		name = "Fish Frenzy",
 		level = -1,
 	},
+	[38716] = {
+		name = "Black Rook Hold",
+		level = -1,
+	},
+	[38711] = {
+		name = "The Warden's Signet",
+		level = -1,
+	},
+	[38748] = {
+		name = "Ruins of Shala'nir",
+		level = -1,
+	},
+	[38372] = {
+		name = "Wretched Sisters",
+		level = -1,
+	},
+	[39393] = {
+		name = "Moonclaw Vale",
+		level = -1,
+	},
+	[39029] = {
+		name = "Defend The Temple",
+		level = -1,
+	},
 }
