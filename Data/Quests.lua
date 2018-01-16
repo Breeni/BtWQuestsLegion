@@ -7796,4 +7796,80 @@ BtWQuests_Quests = {
 		name = "Defend The Temple",
 		level = -1,
 	},
+	[48441] = {
+		name = "Remnants of Darkfall Ridge",
+		level = 110,
+	},
+	[48442] = {
+		name = "Nath'raxas Hold: Preparations",
+		level = 110,
+	},
+	[48443] = {
+		name = "Nath'raxas Hold: Rescue Mission",
+		level = 110,
+	},
+	[48910] = {
+		name = "Supplying Krokuun",
+		level = 110,
+	},
+	[48446] = {
+		name = "Relics of the Ancient Eredar",
+		level = 110,
+	},
+	[48447] = {
+		name = "Shadowguard Dispersion",
+		level = 110,
+	},
+	[48448] = {
+		name = "Hindering the Legion War Machine",
+		level = 110,
+	},
+	[48542] = {
+		name = "Strike Back",
+		level = 110,
+	},
+	[48544] = {
+		name = "Woah, Nelly!",
+		level = 110,
+	},
+	[48455] = {
+		name = "Duskcloak Problem",
+		level = 110,
+	},
+	[48460] = {
+		name = "The Wranglers",
+		level = 110,
+	},
+	[47967] = {
+		name = "An Argus Roper",
+		level = 110,
+	},
+	[48601] = {
+		name = "Felfire Shattering",
+		level = 110,
+	},
+	[48912] = {
+		name = "Supplying the Antoran Campaign",
+		level = 110,
+	},
+	[48600] = {
+		name = "Take the Edge Off",
+		level = 110,
+	},
+	[48634] = {
+		name = "Further Supplying Krokuun",
+		level = 110,
+	},
+	[48654] = {
+		name = "Beneath Oronaar",
+		level = 110,
+	},
+	[48911] = {
+		name = "Void Inoculation",
+		level = 110,
+	},
+	[48445] = {
+		name = "The Ruins of Oronaar",
+		level = 110,
+	},
 }
