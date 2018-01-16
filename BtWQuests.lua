@@ -128,6 +128,7 @@ local function BtWQuests_CheckRequirement(item)
         if item.active == true then
             return BtWQuests_IsQuestActive(item.id)
         elseif item.active == false then
+            print(item.active, item.id, not BtWQuests_IsQuestActive(item.id))
             return not BtWQuests_IsQuestActive(item.id)
         else
             return BtWQuests_IsQuestCompleted(item.id)

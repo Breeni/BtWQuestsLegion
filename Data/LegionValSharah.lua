@@ -105,8 +105,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE] = {
             x = 3,
             y = 2,
             connections = {
-                1
+                2
             },
+        },
+        {
+            type = "quest",
+            id = 39393,
+            aside = true,
+            x = 5,
+            y = 2,
         },
         {
             type = "quest",
@@ -166,41 +173,50 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW] = {
             x = 3,
             y = 1,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 38455,
-            x = 3,
-            y = 2,
+            x = 1,
+            y = 2.5,
             connections = {
-                1
+                5
             },
         },
         {
             type = "quest",
             id = 38922,
             x = 3,
-            y = 3,
+            y = 2,
             connections = {
-                1
+                2
+            },
+        },
+        {
+            name = "Kill the Chieftain at the Nightmare Totem",
+            breadcrumb = true,
+            x = 5,
+            y = 2,
+            connections = {
+                2
             },
         },
         {
             type = "quest",
             id = 38246,
             x = 3,
-            y = 4,
+            y = 3,
             connections = {
-                1
+                2
             },
         },
         {
             type = "quest",
             id = 38146,
-            x = 3,
-            y = 5,
+            x = 5,
+            y = 3,
             connections = {
                 1
             },
@@ -209,25 +225,25 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW] = {
             type = "quest",
             id = 38143,
             x = 3,
-            y = 6,
+            y = 4,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 38145,
-            x = 3,
-            y = 7,
+            x = 2,
+            y = 5,
             connections = {
-                1
+                2
             },
         },
         {
             type = "quest",
             id = 38144,
-            x = 3,
-            y = 8,
+            x = 4,
+            y = 5,
             connections = {
                 1
             },
@@ -236,7 +252,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW] = {
             type = "quest",
             id = 38147,
             x = 3,
-            y = 9,
+            y = 6,
             connections = {
                 1
             },
@@ -245,7 +261,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
             x = 3,
-            y = 10,
+            y = 7,
         },
     }
 }
@@ -281,32 +297,38 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE] = {
             x = 3,
             y = 1,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 38235,
-            x = 3,
+            x = 2,
             y = 2,
             connections = {
-                1
+                3
             },
         },
         {
             type = "quest",
             id = 38225,
-            x = 3,
-            y = 3,
+            x = 4,
+            y = 2,
             connections = {
-                1
+                2
             },
+        },
+        {
+            type = "quest",
+            id = 38372,
+            x = 6,
+            y = 2,
         },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
             x = 3,
-            y = 4,
+            y = 3,
         },
     }
 }
@@ -343,7 +365,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
             x = 1,
             y = 0,
             connections = {
-                3
+                3, 4, 5
             },
         },
         {
@@ -352,7 +374,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
             x = 3,
             y = 0,
             connections = {
-                2
+                2, 3, 4
             },
         },
         {
@@ -361,12 +383,47 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
             x = 5,
             y = 0,
             connections = {
-                1
+                1, 2, 3
             },
         },
         {
             type = "quest",
             id = 38148,
+            visible = function ()
+                return not (BtWQuests_IsQuestActive(38322) or BtWQuests_IsQuestActive(38323))
+            end,
+            x = 3,
+            y = 1,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 38322,
+            visible = {
+                {
+                    type = "quest",
+                    id = 38322,
+                    active = true,
+                },
+            },
+            x = 3,
+            y = 1,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 38323,
+            visible = {
+                {
+                    type = "quest",
+                    id = 38323,
+                    active = true,
+                },
+            },
             x = 3,
             y = 1,
             connections = {
@@ -388,21 +445,34 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
             x = 3,
             y = 3,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 38662,
-            x = 3,
+            x = 2,
             y = 4,
             connections = {
-                1
+                3
             },
         },
         {
             type = "quest",
             id = 38655,
+            x = 4,
+            y = 4,
+        },
+        {
+            type = "quest",
+            id = 39029,
+            aside = true,
+            x = 6,
+            y = 4,
+        },
+        {
+            type = "quest",
+            id = 38663,
             x = 3,
             y = 5,
             connections = {
@@ -411,7 +481,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
         },
         {
             type = "quest",
-            id = 38663,
+            id = 38595,
             x = 3,
             y = 6,
             connections = {
@@ -420,7 +490,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
         },
         {
             type = "quest",
-            id = 38595,
+            id = 38582,
             x = 3,
             y = 7,
             connections = {
@@ -429,18 +499,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
         },
         {
             type = "quest",
-            id = 38582,
-            x = 3,
-            y = 8,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "quest",
             id = 38753,
             x = 3,
-            y = 9,
+            y = 8,
             connections = {
                 1
             },
@@ -449,7 +510,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG,
             x = 3,
-            y = 10,
+            y = 9,
         },
     }
 }
@@ -462,7 +523,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG] = {
         {
             type = "chain",
             name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 4)),
-            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG,
+            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
         },
     },
     completed = {
@@ -472,7 +533,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG] = {
     items = {
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG,
+            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
             x = 3,
             y = 0,
             connections = {
@@ -485,21 +546,35 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG] = {
             x = 3,
             y = 1,
             connections = {
-                1
+                1, 2, 3
             },
         },
         {
             type = "quest",
             id = 41707,
+            aside = true,
+            x = 1,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 41708,
             x = 3,
             y = 2,
             connections = {
-                1
+                2
             },
         },
         {
             type = "quest",
             id = 38671,
+            aside = true,
+            x = 5,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 43576,
             x = 3,
             y = 3,
             connections = {
@@ -508,25 +583,41 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG] = {
         },
         {
             type = "quest",
-            id = 41708,
+            id = 41724,
             x = 3,
             y = 4,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
-            id = 43576,
-            x = 3,
+            id = 38684,
+            x = 2,
             y = 5,
             connections = {
-                1
+                3
             },
         },
         {
             type = "quest",
-            id = 41724,
+            id = 41893,
+            x = 4,
+            y = 5,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 43241,
+            aside = true,
+            x = 6,
+            y = 5,
+        },
+        {
+            type = "quest",
+            id = 43702,
             x = 3,
             y = 6,
             connections = {
@@ -535,63 +626,40 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG] = {
         },
         {
             type = "quest",
-            id = 38684,
+            id = 38687,
             x = 3,
             y = 7,
             connections = {
-                1
+                2
             },
         },
         {
             type = "quest",
-            id = 41893,
-            x = 3,
-            y = 8,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "quest",
-            id = 43702,
-            x = 3,
-            y = 9,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "quest",
-            id = 38687,
-            x = 3,
-            y = 10,
-            connections = {
-                1
-            },
+            id = 38748,
+            aside = true,
+            x = 5,
+            y = 7,
         },
         {
             type = "quest",
             id = 38743,
             x = 3,
-            y = 11,
+            y = 8,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 40567,
-            x = 3,
-            y = 12,
-            connections = {
-                1
-            },
+            x = 2,
+            y = 9,
         },
         {
             type = "quest",
             id = 40890,
-            x = 3,
-            y = 13,
+            x = 4,
+            y = 9,
         },
     }
 }
@@ -618,7 +686,17 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK] = {
             x = 3,
             y = 0,
             connections = {
-                1
+                2
+            },
+        },
+        {
+            name = "Head to the top floor of Hearthrow Manor",
+            breadcrumb = true,
+            aside = true,
+            x = 0,
+            y = 1,
+            connections = {
+                3
             },
         },
         {
@@ -627,59 +705,83 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK] = {
             x = 3,
             y = 1,
             connections = {
-                1
+                3, 4
+            },
+        },
+        {
+            name = "Kill Lelyn Swiftshadow, near Hearthrow Manor",
+            breadcrumb = true,
+            aside = true,
+            x = 6,
+            y = 1,
+            connections = {
+                4
             },
         },
         {
             type = "quest",
+            id = 39015,
+            aside = true,
+            x = 0,
+            y = 2,
+        },
+        {
+            type = "quest",
             id = 38645,
-            x = 3,
+            x = 2,
             y = 2,
             connections = {
-                1
+                6
             },
         },
         {
             type = "quest",
             id = 38644,
-            x = 3,
-            y = 3,
+            x = 4,
+            y = 2,
             connections = {
-                1
+                5
             },
+        },
+        {
+            type = "quest",
+            id = 38711,
+            aside = true,
+            x = 6,
+            y = 2,
         },
         {
             type = "quest",
             id = 38647,
-            x = 3,
-            y = 4,
             connections = {
-                1
+                3
             },
+            x = 0,
+            y = 3,
         },
         {
             type = "quest",
             id = 38646,
-            x = 3,
-            y = 5,
             connections = {
-                1
+                2
             },
+            x = 6,
+            y = 3,
         },
         {
             type = "quest",
             id = 39117,
-            x = 3,
-            y = 6,
             connections = {
                 1
             },
+            x = 0,
+            y = 4,
         },
         {
             type = "quest",
             id = 38691,
             x = 3,
-            y = 7,
+            y = 3,
             connections = {
                 1
             },
@@ -688,7 +790,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD,
             x = 3,
-            y = 8,
+            y = 4,
         },
     }
 }
@@ -724,59 +826,64 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD] = {
             x = 3,
             y = 1,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 38714,
-            x = 3,
+            x = 2,
             y = 2,
             connections = {
-                1
+                3
             },
         },
         {
             type = "quest",
             id = 38715,
-            x = 3,
-            y = 3,
+            x = 4,
+            y = 2,
             connections = {
-                1
+                2
             },
+        },
+        {
+            type = "quest",
+            id = 38716,
+            aside = true,
+            x = 6,
+            y = 2,
         },
         {
             type = "quest",
             id = 38717,
             x = 3,
-            y = 4,
+            y = 3,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 38724,
-            x = 3,
-            y = 5,
+            x = 2,
+            y = 4,
             connections = {
-                1
+                2
             },
         },
         {
             type = "quest",
             id = 38719,
-            x = 3,
-            y = 6,
-            connections = {
-                1
-            },
+            aside = true,
+            x = 4,
+            y = 4,
         },
         {
             type = "quest",
             id = 38721,
             x = 3,
-            y = 7,
+            y = 5,
         },
     }
 }

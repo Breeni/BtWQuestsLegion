@@ -500,6 +500,14 @@ BtWQuests_Quests = {
         name = "Return to the Grove",
         level = -1,
     },
+    [38322] = {
+        name = "Return to the Grove",
+        level = -1,
+    },
+    [38323] = {
+        name = "Return to the Grove",
+        level = -1,
+    },
     [38377] = {
         name = "The Emerald Queen",
         level = -1,
@@ -7762,6 +7770,30 @@ BtWQuests_Quests = {
 	},
 	[45304] = {
 		name = "Attacking the Darkness",
+		level = -1,
+	},
+	[38716] = {
+		name = "Black Rook Hold",
+		level = -1,
+	},
+	[38711] = {
+		name = "The Warden's Signet",
+		level = -1,
+	},
+	[38748] = {
+		name = "Ruins of Shala'nir",
+		level = -1,
+	},
+	[38372] = {
+		name = "Wretched Sisters",
+		level = -1,
+	},
+	[39393] = {
+		name = "Moonclaw Vale",
+		level = -1,
+	},
+	[39029] = {
+		name = "Defend The Temple",
 		level = -1,
 	},
 }
