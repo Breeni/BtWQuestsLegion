@@ -500,6 +500,14 @@ BtWQuests_Quests = {
         name = "Return to the Grove",
         level = -1,
     },
+    [38322] = {
+        name = "Return to the Grove",
+        level = -1,
+    },
+    [38323] = {
+        name = "Return to the Grove",
+        level = -1,
+    },
     [38377] = {
         name = "The Emerald Queen",
         level = -1,
