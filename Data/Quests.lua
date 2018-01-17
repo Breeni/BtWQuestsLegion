@@ -7899,4 +7899,12 @@ BtWQuests_Quests = {
         name = "The Ruins of Oronaar",
         level = -1,
     },
+	[48636] = {
+		name = "Fueling the Antoran Campaign",
+		level = -1,
+	},
+	[48635] = {
+		name = "More Void Inoculation",
+		level = -1,
+	},
 }

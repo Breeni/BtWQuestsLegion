@@ -7905,4 +7905,12 @@ BtWQuests_Quests = {
         name = "As Ruínas de Oronaar",
         level = -1,
     },
+    [48636] = {
+        name = "Combustível para a campanha Antorana",
+        level = -1,
+    },
+    [48635] = {
+        name = "Mais inoculação de Caos",
+        level = -1,
+    },
 }

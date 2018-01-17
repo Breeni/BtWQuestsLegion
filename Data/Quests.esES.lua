@@ -7905,4 +7905,12 @@ BtWQuests_Quests = {
         name = "Las Ruinas de Oronaar",
         level = -1,
     },
+    [48636] = {
+        name = "Impulsar la campaña en Antorus",
+        level = -1,
+    },
+    [48635] = {
+        name = "Más vacunas de Vacío",
+        level = -1,
+    },
 }

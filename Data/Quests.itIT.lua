@@ -7905,4 +7905,12 @@ BtWQuests_Quests = {
         name = "Le Rovine di Oronaar",
         level = -1,
     },
+    [48636] = {
+        name = "Alimentare la campagna degli Antoran",
+        level = -1,
+    },
+    [48635] = {
+        name = "Altra Inoculazione del Vuoto",
+        level = -1,
+    },
 }
