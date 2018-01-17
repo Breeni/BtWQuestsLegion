@@ -114,7 +114,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
     },
     completed = {
         type = "quest",
-        id = 40740,
+        id = 43186,
     },
     range = {98, 110},
     items = {

@@ -6551,4 +6551,700 @@ BtWQuests_Quests = {
         name = "Redistribución",
         level = 113,
     },
+    [38035] = {
+        name = "Un edicto real",
+        level = -1,
+    },
+    [39735] = {
+        name = "Tormenheim",
+        level = -1,
+    },
+    [39864] = {
+        name = "Tormenheim",
+        level = -1,
+    },
+    [44700] = {
+        name = "Stormheim",
+        level = -1,
+    },
+    [44701] = {
+        name = "Stormheim",
+        level = -1,
+    },
+    [38206] = {
+        name = "De ronda",
+        level = -1,
+    },
+    [39800] = {
+        name = "Gambito de Cringrís",
+        level = -1,
+    },
+    [38312] = {
+        name = "Misión con gancho",
+        level = -1,
+    },
+    [39590] = {
+        name = "De cabeza a la prueba",
+        level = -1,
+    },
+    [39848] = {
+        name = "Un acuerdo desesperado",
+        level = -1,
+    },
+    [40003] = {
+        name = "Contener la marea",
+        level = -1,
+    },
+    [39122] = {
+        name = "El final del nuevo comienzo",
+        level = -1,
+    },
+    [38412] = {
+        name = "Más allá de la luz de luna invernal",
+        level = -1,
+    },
+    [39059] = {
+        name = "Atrapa a un alma en pena",
+        level = -1,
+    },
+    [39063] = {
+        name = "Escudado en el secreto",
+        level = -1,
+    },
+    [38817] = {
+        name = "Restos regios",
+        level = -1,
+    },
+    [39837] = {
+        name = "Una tarea indigna",
+        level = -1,
+    },
+    [39591] = {
+        name = "Una prueba de valor",
+        level = -1,
+    },
+    [39595] = {
+        name = "Sangre y oro",
+        level = -1,
+    },
+    [39853] = {
+        name = "La victoria es eterna",
+        level = -1,
+    },
+    [39857] = {
+        name = "La Némesis Eterna",
+        level = -1,
+    },
+    [38210] = {
+        name = "Las antiguas pruebas",
+        level = -1,
+    },
+    [40004] = {
+        name = "Destruir la columna vertebral",
+        level = -1,
+    },
+    [38778] = {
+        name = "Girar las llaves",
+        level = -1,
+    },
+    [38405] = {
+        name = "Capear la tormenta",
+        level = -1,
+    },
+    [40568] = {
+        name = "Furia de la tormenta",
+        level = -1,
+    },
+    [38413] = {
+        name = "Alas de libertad",
+        level = -1,
+    },
+    [38036] = {
+        name = "Suministros caídos del cielo",
+        level = -1,
+    },
+    [39060] = {
+        name = "Contagio combustible",
+        level = -1,
+    },
+    [38810] = {
+        name = "El hongo de ensueño",
+        level = -1,
+    },
+    [38052] = {
+        name = "¡Abordados!",
+        level = -1,
+    },
+    [38818] = {
+        name = "El juicio final",
+        level = -1,
+    },
+    [38060] = {
+        name = "Señal potenciada",
+        level = -1,
+    },
+    [39592] = {
+        name = "Una prueba de voluntad",
+        level = -1,
+    },
+    [39850] = {
+        name = "En pedazos",
+        level = -1,
+    },
+    [39092] = {
+        name = "Convertirse en ascendiente",
+        level = -1,
+    },
+    [38342] = {
+        name = "Otra vía",
+        level = -1,
+    },
+    [38473] = {
+        name = "Voluntad de los Thorignir",
+        level = -1,
+    },
+    [40001] = {
+        name = "Llamando a las Puertas del Valor",
+        level = -1,
+    },
+    [40005] = {
+        name = "La salvación de Tormenheim",
+        level = -1,
+    },
+    [38624] = {
+        name = "¡Truenos!",
+        level = -1,
+    },
+    [39652] = {
+        name = "Donde reinan los dragones",
+        level = -1,
+    },
+    [39791] = {
+        name = "Darles descanso",
+        level = -1,
+    },
+    [39803] = {
+        name = "Las pruebas continúan",
+        level = -1,
+    },
+    [38410] = {
+        name = "Seguro contra empalamientos",
+        level = -1,
+    },
+    [38414] = {
+        name = "Corazón de un dragón",
+        level = -1,
+    },
+    [39061] = {
+        name = "Susurros desde la oscuridad",
+        level = -1,
+    },
+    [38811] = {
+        name = "El día del juicio",
+        level = -1,
+    },
+    [38815] = {
+        name = "Despertar a la doncella escudera",
+        level = -1,
+    },
+    [38057] = {
+        name = "La legión perdida",
+        level = -1,
+    },
+    [38823] = {
+        name = "Las runas que atan",
+        level = -1,
+    },
+    [39593] = {
+        name = "El vigía despedazado",
+        level = -1,
+    },
+    [39597] = {
+        name = "La bendición de los Vigías",
+        level = -1,
+    },
+    [39855] = {
+        name = "Pago con sangrevida",
+        level = -1,
+    },
+    [38339] = {
+        name = "Lo que alga falta",
+        level = -1,
+    },
+    [38347] = {
+        name = "Esquinazo con sargazo",
+        level = -1,
+    },
+    [40002] = {
+        name = "Un destino familiar",
+        level = -1,
+    },
+    [38324] = {
+        name = "Accesorios de los malditos",
+        level = -1,
+    },
+    [40078] = {
+        name = "Una carga pesada",
+        level = -1,
+    },
+    [39594] = {
+        name = "Una prueba de poder",
+        level = -1,
+    },
+    [39472] = {
+        name = "Arrancar el corazón",
+        level = -1,
+    },
+    [39788] = {
+        name = "La venganza del Bosque de las Runas",
+        level = -1,
+    },
+    [39062] = {
+        name = "Hacia Skold-Ashil",
+        level = -1,
+    },
+    [39796] = {
+        name = "A Haustvald",
+        level = -1,
+    },
+    [38053] = {
+        name = "Dando batería",
+        level = -1,
+    },
+    [39804] = {
+        name = "Hablando de huesos",
+        level = -1,
+    },
+    [38059] = {
+        name = "Hormigueo",
+        level = -1,
+    },
+    [39851] = {
+        name = "Aliados en la muerte",
+        level = -1,
+    },
+    [39849] = {
+        name = "Iluminar el camino",
+        level = -1,
+    },
+    [38331] = {
+        name = "Havi's Test",
+        level = -1,
+    },
+    [38808] = {
+        name = "Bjornhjarta",
+        level = -1,
+    },
+    [38558] = {
+        name = "Encandilador oscilador",
+        level = -1,
+    },
+    [38816] = {
+        name = "A por los oradores de huesos",
+        level = -1,
+    },
+    [38058] = {
+        name = "Pararrayos",
+        level = -1,
+    },
+    [38337] = {
+        name = "Escamados",
+        level = -1,
+    },
+    [38616] = {
+        name = "Escamados",
+        level = -1,
+    },
+    [38318] = {
+        name = "No hacen falta alas",
+        level = -1,
+    },
+    [39405] = {
+        name = "Historias de batallas",
+        level = -1,
+    },
+    [40072] = {
+        name = "Cámaras del Valor: Conseguir la Égida",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [42104] = {
+        name = "Viene el Infrarrey",
+        level = -1,
+    },
+    [40594] = {
+        name = "La justicia llueve del cielo",
+        level = -1,
+    },
+    [39588] = {
+        name = "Lo pagarán con sangre",
+        level = -1,
+    },
+    [38915] = {
+        name = "La batalla de Mesa Velonieve",
+        level = -1,
+    },
+    [39025] = {
+        name = "En poder del Infrarrey",
+        level = -1,
+    },
+    [39027] = {
+        name = "Dargrul y el Martillo",
+        level = -1,
+    },
+    [39777] = {
+        name = "Ganar tiempo",
+        level = -1,
+    },
+    [39661] = {
+        name = "Caverna Brote de Vida",
+        level = -1,
+    },
+    [38907] = {
+        name = "Guardianes del Martillo",
+        level = -1,
+    },
+    [38909] = {
+        name = "A terreno elevado",
+        level = -1,
+    },
+    [38911] = {
+        name = "La tribu Crin de Río",
+        level = -1,
+    },
+    [38913] = {
+        name = "La tribu Cuerno del Cielo",
+        level = -1,
+    },
+    [39860] = {
+        name = "Rito de Sangre",
+        level = -1,
+    },
+    [39043] = {
+        name = "Enclave Roepiedra",
+        level = -1,
+    },
+    [39990] = {
+        name = "La guerra de Huln: refuerzos",
+        level = -1,
+    },
+    [39614] = {
+        name = "Como pez fuera del agua",
+        level = -1,
+    },
+    [39490] = {
+        name = "Infestación",
+        level = -1,
+    },
+    [39429] = {
+        name = "Ataque a la Tierra de las Brujas",
+        level = -1,
+    },
+    [39776] = {
+        name = "Gusanos de combate",
+        level = -1,
+    },
+    [39496] = {
+        name = "La corriente del río",
+        level = -1,
+    },
+    [39498] = {
+        name = "Marea alta",
+        level = -1,
+    },
+    [39374] = {
+        name = "Una audiencia con Torok",
+        level = -1,
+    },
+    [39862] = {
+        name = "El brul de asedio",
+        level = -1,
+    },
+    [42088] = {
+        name = "Evacuar Crin de Nieve",
+        level = -1,
+    },
+    [40388] = {
+        name = "La guerra de Huln: Cantosombrío",
+        level = -1,
+    },
+    [39992] = {
+        name = "La guerra de Huln: los Nathrezim",
+        level = -1,
+    },
+    [39321] = {
+        name = "Las tres",
+        level = -1,
+    },
+    [40520] = {
+        name = "Ver el pasado",
+        level = -1,
+    },
+    [39577] = {
+        name = "Un antiguo secreto",
+        level = -1,
+    },
+    [39579] = {
+        name = "La puerta trasera",
+        level = -1,
+    },
+    [39455] = {
+        name = "Cueva de la Prueba de Sangre",
+        level = -1,
+    },
+    [39488] = {
+        name = "El equilibrio de los elementos",
+        level = -1,
+    },
+    [39575] = {
+        name = "El Sendero de Huln",
+        level = -1,
+    },
+    [39272] = {
+        name = "Cultivos envenenados",
+        level = -1,
+    },
+    [40219] = {
+        name = "Desafío a Alamuerte",
+        level = -1,
+    },
+    [39780] = {
+        name = "El Infrarrey",
+        level = -1,
+    },
+    [39026] = {
+        name = "Los drógbar",
+        level = -1,
+    },
+    [39988] = {
+        name = "La guerra de Huln: Tempestira",
+        level = -1,
+    },
+    [40112] = {
+        name = "La guerra de Huln: los favoritos de Malorne",
+        level = -1,
+    },
+    [39983] = {
+        name = "La guerra de Huln: la llegada",
+        level = -1,
+    },
+    [40167] = {
+        name = "La historia de Huln",
+        level = -1,
+    },
+    [38910] = {
+        name = "Rocs contra águilas",
+        level = -1,
+    },
+    [38912] = {
+        name = "La tribu Tótem Sangriento",
+        level = -1,
+    },
+    [39733] = {
+        name = "La montaña solitaria",
+        level = -1,
+    },
+    [38916] = {
+        name = "Secretos de Monte Alto",
+        level = -1,
+    },
+    [40515] = {
+        name = "Un paseo con los espíritus",
+        level = -1,
+    },
+    [39487] = {
+        name = "Furia de cristal",
+        level = -1,
+    },
+    [39489] = {
+        name = "Espeleólogos invasores",
+        level = -1,
+    },
+    [39491] = {
+        name = "Ormgul el Pestilente",
+        level = -1,
+    },
+    [39426] = {
+        name = "Deuda de sangre",
+        level = -1,
+    },
+    [39873] = {
+        name = "Esto da mala espina",
+        level = -1,
+    },
+    [39425] = {
+        name = "Cristal Piedra Lóbrega",
+        level = -1,
+    },
+    [39373] = {
+        name = "Plumas elocuentes",
+        level = -1,
+    },
+    [39391] = {
+        name = "Mascotas de roca",
+        level = -1,
+    },
+    [39381] = {
+        name = "Entre la roca y la pared",
+        level = -1,
+    },
+    [39316] = {
+        name = "Tauren atrapados",
+        level = -1,
+    },
+    [39318] = {
+        name = "Cuidar de las heridas",
+        level = -1,
+    },
+    [39372] = {
+        name = "Bruja de la Espesura",
+        level = -1,
+    },
+    [39322] = {
+        name = "La Reina Bruja",
+        level = -1,
+    },
+    [39387] = {
+        name = "Los cielos de Monte Alto",
+        level = -1,
+    },
+    [39578] = {
+        name = "Duelo titánico",
+        level = -1,
+    },
+    [39580] = {
+        name = "El Gran Jefe",
+        level = -1,
+    },
+    [39456] = {
+        name = "Aliados inesperados",
+        level = -1,
+    },
+    [39277] = {
+        name = "Pulverización",
+        level = -1,
+    },
+    [42512] = {
+        name = "Monte Alto resiste",
+        level = -1,
+    },
+    [39781] = {
+        name = "La Guarida de Neltharion",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [40961] = {
+        name = "La fuente de Dalaran",
+        level = 110,
+    },
+    [40960] = {
+        name = "Perla luminosa",
+        level = 110,
+    },
+    [41010] = {
+        name = "Frenesí de pescado",
+        level = 110,
+    },
+    [38332] = {
+        name = "El señor forestal",
+        level = -1,
+    },
+    [39698] = {
+        name = "De ronda",
+        level = -1,
+    },
+    [38357] = {
+        name = "Posibles efectos secundarios: una leve no-muerte",
+        level = -1,
+    },
+    [38358] = {
+        name = "Chapapoteando",
+        level = -1,
+    },
+    [38307] = {
+        name = "La Jefa de Guerra llama",
+        level = -1,
+    },
+    [38360] = {
+        name = "El destino de El Brisaveloz",
+        level = -1,
+    },
+    [38361] = {
+        name = "La ira del Clamañublo",
+        level = -1,
+    },
+    [39801] = {
+        name = "La flota escindida",
+        level = -1,
+    },
+    [38362] = {
+        name = "Un trofeo lúgubre",
+        level = -1,
+    },
+    [38459] = {
+        name = "Las antiguas pruebas",
+        level = -1,
+    },
+    [38618] = {
+        name = "Más allá de la luz de luna invernal",
+        level = -1,
+    },
+    [38613] = {
+        name = "No hacen falta alas",
+        level = -1,
+    },
+    [38615] = {
+        name = "Seguro contra empalamientos",
+        level = -1,
+    },
+    [38617] = {
+        name = "Otra vía",
+        level = -1,
+    },
+    [38612] = {
+        name = "Misión con gancho",
+        level = -1,
+    },
+    [38614] = {
+        name = "Capear la tormenta",
+        level = -1,
+    },
+    [38611] = {
+        name = "Voluntad de los Thorignir",
+        level = -1,
+    },
+    [39385] = {
+        name = "Un regalo para Cringrís",
+        level = -1,
+    },
+    [38872] = {
+        name = "Los designios de la Dama Oscura",
+        level = -1,
+    },
+    [39154] = {
+        name = "Hacia Skold-Ashil",
+        level = -1,
+    },
+    [39153] = {
+        name = "El dilema de Rastro del Pavor",
+        level = -1,
+    },
+    [38878] = {
+        name = "Escudado en el secreto",
+        level = -1,
+    },
+    [38873] = {
+        name = "¡Despejadlo todo!",
+        level = -1,
+    },
+    [39155] = {
+        name = "Convertirse en ascendiente",
+        level = -1,
+    },
+    [38882] = {
+        name = "Una vida nueva para los no-muertos",
+        level = -1,
+    },
 }
