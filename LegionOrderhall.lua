@@ -336,6 +336,153 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
     },
 }
 
+
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL] = {
+    name = C_Garrison.GetFollowerInfo(986).name,
+    category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "achievement",
+            id = 11558,
+            anyone = true,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Alliance",
+                },
+            },
+        },
+        {
+            type = "achievement",
+            id = 11559,
+            anyone = true,
+            restrictions = {
+                {
+                    type = "faction",
+                    faction = "Horde",
+                },
+            },
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 45312,
+    },
+    range = {110},
+    items = {
+        {
+            type = "quest",
+            id = 45302,
+            breadcrumb = true,
+            name = "Complete a Brawl",
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "mission",
+            id = 1502,
+            x = 3,
+            y = 1,
+            connections = {
+                1,
+            }
+        },
+        
+        
+        {
+            type = "quest",
+            id = 45111,
+            x = 3,
+            y = 2,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "mission",
+            id = 1503,
+            x = 3,
+            y = 3,
+            connections = {
+                1,
+            }
+        },
+        
+        
+        {
+            type = "quest",
+            id = 45162,
+            x = 3,
+            y = 4,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "mission",
+            id = 1504,
+            x = 3,
+            y = 5,
+            connections = {
+                1,
+            }
+        },
+        
+        
+        {
+            type = "quest",
+            id = 45163,
+            x = 3,
+            y = 6,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "mission",
+            id = 1512,
+            x = 3,
+            y = 7,
+            connections = {
+                1,
+            }
+        },
+        
+        
+        {
+            type = "quest",
+            id = 45304,
+            x = 3,
+            y = 8,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "mission",
+            id = 1513,
+            x = 3,
+            y = 9,
+            connections = {
+                1,
+            }
+        },
+        
+        
+        {
+            type = "quest",
+            id = 45312,
+            x = 3,
+            y = 10,
+        },
+    },
+}
+-- /dump C_Garrison.GetBasicMissionInfo(1502)
+
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ORDERHALL] = {
     name = BTWQUESTS_ORDERHALL,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -345,5 +492,29 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ORDERHALL] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART,
         },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL,
+        },
     },
+}
+
+BtWQuests_Missions[1502] = {
+    name = "There is no Brawlers Guild",
+}
+
+BtWQuests_Missions[1503] = {
+    name = "Council of War",
+}
+
+BtWQuests_Missions[1504] = {
+    name = "Its Clean Up Time",
+}
+
+BtWQuests_Missions[1512] = {
+    name = "Master of Shadows",
+}
+
+BtWQuests_Missions[1513] = {
+    name = "I've Got A Strange Feeling About This",
 }
