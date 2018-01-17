@@ -109,7 +109,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
     },
     completed = {
         type = "quest",
-        id = -1,
+        id = 50374,
     },
     range = {110},
     items = {
