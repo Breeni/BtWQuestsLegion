@@ -506,6 +506,14 @@ BtWQuests_Quests = {
         name = "Ritorno al Boschetto",
         level = -1,
     },
+    [38322] = {
+        name = "Ritorno al Boschetto",
+        level = -1,
+    },
+    [38323] = {
+        name = "Ritorno al Boschetto",
+        level = -1,
+    },
     [38377] = {
         name = "La Regina di Smeraldo",
         level = -1,
@@ -7246,5 +7254,615 @@ BtWQuests_Quests = {
     [38882] = {
         name = "Una nuova vita per la Non Morte",
         level = -1,
+    },
+    [38513] = {
+        name = "Fabbri di Alto Monte",
+        level = 104,
+    },
+    [38515] = {
+        name = "Soluzioni naturali",
+        level = 102,
+    },
+    [38519] = {
+        name = "Pesogrigio",
+        level = 104,
+    },
+    [38523] = {
+        name = "Parazoccoli di Fagliaroccia",
+        level = 106,
+    },
+    [38525] = {
+        name = "Parte della squadra",
+        level = 110,
+    },
+    [44449] = {
+        name = "Tempratura avanzata",
+        level = 108,
+    },
+    [39726] = {
+        name = "...E l'incudine",
+        level = 108,
+    },
+    [38531] = {
+        name = "Maestria nella fagliaroccia",
+        level = 110,
+    },
+    [38533] = {
+        name = "Conoscenza tribale",
+        level = 110,
+    },
+    [39681] = {
+        name = "Le proprietà della fagliaroccia",
+        level = 100,
+    },
+    [38559] = {
+        name = "Degni della pietra",
+        level = 110,
+    },
+    [38563] = {
+        name = "Raccoglifiori e tracannapozioni",
+        level = 102,
+    },
+    [38502] = {
+        name = "I metodi degli Esuli Oscuri",
+        level = 100,
+    },
+    [38506] = {
+        name = "Ricerca esplosiva",
+        level = 102,
+    },
+    [38514] = {
+        name = "Non esser degni",
+        level = 104,
+    },
+    [38518] = {
+        name = "Da un maestro all'altro",
+        level = 104,
+    },
+    [38522] = {
+        name = "Non solo armi e armature",
+        level = 106,
+    },
+    [38524] = {
+        name = "Vilfabbro Nal'ryssa",
+        level = 110,
+    },
+    [38526] = {
+        name = "Fabbro sotto attacco",
+        level = 110,
+    },
+    [38528] = {
+        name = "Il potenziale della fagliaroccia",
+        level = 110,
+    },
+    [38530] = {
+        name = "La Pietra del Firmamento",
+        level = 110,
+    },
+    [39729] = {
+        name = "La saggezza di Corvonero",
+        level = 108,
+    },
+    [48053] = {
+        name = "Ancore pesanti",
+        level = -1,
+    },
+    [39680] = {
+        name = "Tra il martello...",
+        level = 108,
+    },
+    [38833] = {
+        name = "La lavorazione del demonacciaio",
+        level = 110,
+    },
+    [38532] = {
+        name = "Fauci delle Anime: A colpi di tempesta",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [39699] = {
+        name = "Forgiatura di Faglia dei Corno Ferreo",
+        level = 104,
+    },
+    [38499] = {
+        name = "Nuovi strani minerali",
+        level = 100,
+    },
+    [38564] = {
+        name = "Un dolce patto",
+        level = 108,
+    },
+    [39702] = {
+        name = "La leggenda del Forte Corvonero",
+        level = 108,
+    },
+    [38505] = {
+        name = "Ingegneri: non del tutto inutili",
+        level = 102,
+    },
+    [38507] = {
+        name = "I segreti della Forgiatura di Faglia",
+        level = 102,
+    },
+    [38527] = {
+        name = "La tecnica di Nal'ryssa",
+        level = 110,
+    },
+    [38500] = {
+        name = "Maestria nella Forgiatura di Faglia",
+        level = 102,
+    },
+    [38501] = {
+        name = "Forgiatura degli Spiraostile",
+        level = 100,
+    },
+    [39883] = {
+        name = "Ammantato nelle tradizioni",
+        level = 102,
+    },
+    [39884] = {
+        name = "Elfi indegni",
+        level = 104,
+    },
+    [39916] = {
+        name = "Pentimento",
+        level = 108,
+    },
+    [39918] = {
+        name = "La sacerdotessa assente",
+        level = 108,
+    },
+    [39889] = {
+        name = "Lontano dalla retta via",
+        level = 104,
+    },
+    [40169] = {
+        name = "Resa dei conti al crocevia",
+        level = 108,
+    },
+    [39891] = {
+        name = "Maledetto, ma conveniente",
+        level = 108,
+    },
+    [39923] = {
+        name = "Il potere dei nuclei",
+        level = 110,
+    },
+    [40048] = {
+        name = "Strumenti di dominio",
+        level = 100,
+    },
+    [39920] = {
+        name = "Su ali azzurre",
+        level = 110,
+    },
+    [39907] = {
+        name = "Incantamenti elfici",
+        level = 108,
+    },
+    [40130] = {
+        name = "Purificata dall'acqua",
+        level = 108,
+    },
+    [39914] = {
+        name = "L'ultimo dovere di una Sentinella",
+        level = 108,
+    },
+    [39910] = {
+        name = "Il debito del Druido",
+        level = 108,
+    },
+    [39906] = {
+        name = "Preparativi bellici",
+        level = 108,
+    },
+    [39905] = {
+        name = "Ritorno a Dalaran",
+        level = 100,
+    },
+    [39903] = {
+        name = "Una casa incantevole",
+        level = 106,
+    },
+    [39904] = {
+        name = "Sale del Valore: La vendetta dell'incantatrice",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 106,
+    },
+    [39874] = {
+        name = "Che incantevole serata",
+        level = 100,
+    },
+    [39875] = {
+        name = "Ultimi ordini",
+        level = 100,
+    },
+    [39876] = {
+        name = "Aiutare i Cacciatori di Demoni",
+        level = 100,
+    },
+    [39877] = {
+        name = "Velli da asporto",
+        level = 100,
+    },
+    [39878] = {
+        name = "Colpo di fulmine",
+        level = 102,
+    },
+    [39879] = {
+        name = "Forte come la terra",
+        level = 102,
+    },
+    [39880] = {
+        name = "Vietato sprecare",
+        level = 102,
+    },
+    [39881] = {
+        name = "Incantamenti fatati",
+        level = 104,
+    },
+    [39882] = {
+        name = "Boschetto Cuortetro: L'illusione dissolta",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 104,
+    },
+    [40265] = {
+        name = "Un tocco di magia",
+        level = 106,
+    },
+    [39921] = {
+        name = "Antro di Neltharion: La Verga di Pietraceleste",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [40875] = {
+        name = "Un'idea per la testa",
+        level = 106,
+    },
+    [40876] = {
+        name = "Pronti, caricare, fuoco!",
+        level = 106,
+    },
+    [40877] = {
+        name = "Sale del Valore: Attivatore Felicità",
+        level = 108,
+    },
+    [40878] = {
+        name = "Assault on Violet Hold: Cheating Death",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [40879] = {
+        name = "Tutti in campo con Razzy",
+        level = 110,
+    },
+    [40880] = {
+        name = "Corto circuito",
+        level = 110,
+    },
+    [40881] = {
+        name = "Dalle stalle alle stelle",
+        level = 110,
+    },
+    [40882] = {
+        name = "Corte delle Stelle: Ricalibrare il rinculo",
+        difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [40854] = {
+        name = "Possibilità infinite",
+        level = 100,
+    },
+    [40855] = {
+        name = "Il nostro uomo ad Azsuna",
+        level = 100,
+    },
+    [40856] = {
+        name = "Parti per il Vilrazziatore",
+        level = 100,
+    },
+    [40545] = {
+        name = "Rottamazione inevitabile",
+        level = 100,
+    },
+    [46128] = {
+        name = "Ora di ricaricarsi",
+        level = 110,
+    },
+    [40859] = {
+        name = "All'ultima moda: Occhiali Sputapiombo",
+        level = 100,
+    },
+    [40860] = {
+        name = "Rifornire le linee",
+        level = 102,
+    },
+    [40861] = {
+        name = "Sotto tiro",
+        level = 102,
+    },
+    [40862] = {
+        name = "Che cariche!",
+        level = 102,
+    },
+    [40863] = {
+        name = "Fonte d'energia",
+        level = 102,
+    },
+    [40864] = {
+        name = "Modular Modifications",
+        level = -1,
+    },
+    [40865] = {
+        name = "Non è poi così difficile",
+        level = 104,
+    },
+    [40866] = {
+        name = "Hai detto conchiglie?",
+        level = 104,
+    },
+    [40867] = {
+        name = "Esche a forma di bolla",
+        level = 104,
+    },
+    [40868] = {
+        name = "Come una grossa palla vacillante che va e viene, fluttuante",
+        level = 104,
+    },
+    [40869] = {
+        name = "Spara e dimentica",
+        level = 104,
+    },
+    [40870] = {
+        name = "Ecco il BOOM!",
+        level = 104,
+    },
+    [40871] = {
+        name = "Pronto a sparare",
+        level = 106,
+    },
+    [40872] = {
+        name = "Recupero Esplosivo",
+        level = 106,
+    },
+    [40873] = {
+        name = "Tenere le polveri asciutte",
+        level = 106,
+    },
+    [40874] = {
+        name = "Lo farei da solo, ma...",
+        level = 106,
+    },
+    [40858] = {
+        name = "I pezzi mancanti",
+        level = 100,
+    },
+    [39945] = {
+        name = "Rune nelle rovine",
+        level = 104,
+    },
+    [39946] = {
+        name = "Lo strumento giusto per il lavoro giusto",
+        level = 104,
+    },
+    [39947] = {
+        name = "Non così difficile",
+        level = 104,
+    },
+    [39948] = {
+        name = "Fiumi d'inchiostro",
+        level = 106,
+    },
+    [39949] = {
+        name = "I primi passi di un runografo",
+        level = 106,
+    },
+    [39950] = {
+        name = "Uno strano monile",
+        level = 106,
+    },
+    [39953] = {
+        name = "Sale del Valore: Visioni di valore",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 106,
+    },
+    [39954] = {
+        name = "Tecniche di Granpestatura",
+        level = 108,
+    },
+    [39955] = {
+        name = "Un diabolico mistero",
+        level = 108,
+    },
+    [39956] = {
+        name = "Passare l'eredità",
+        level = 108,
+    },
+    [40052] = {
+        name = "Vrykul antico perfezionato",
+        level = 104,
+    },
+    [39932] = {
+        name = "Inchiostro di pesce",
+        level = 100,
+    },
+    [39961] = {
+        name = "Un'imbarazzante rivelazione",
+        level = 108,
+    },
+    [39931] = {
+        name = "Sminuzzare le erbe",
+        level = 100,
+    },
+    [40056] = {
+        name = "I nostri nuovi alleati",
+        level = 102,
+    },
+    [40057] = {
+        name = "Il prezzo del potere",
+        level = 102,
+    },
+    [39934] = {
+        name = "I nostri nuovi alleati",
+        level = 102,
+    },
+    [39935] = {
+        name = "Il prezzo del potere",
+        level = 102,
+    },
+    [40060] = {
+        name = "Contenere il demone interiore",
+        level = 102,
+    },
+    [40061] = {
+        name = "Conosci il tuo nemico",
+        level = 102,
+    },
+    [39847] = {
+        name = "Firma qui",
+        level = 100,
+    },
+    [40063] = {
+        name = "...senza il controllo",
+        level = 102,
+    },
+    [39940] = {
+        name = "Rune del Vilpotere",
+        level = 102,
+    },
+    [40059] = {
+        name = "Gli opposti si respingono",
+        level = 102,
+    },
+    [40058] = {
+        name = "Simbologie difensive",
+        level = 102,
+    },
+    [39943] = {
+        name = "Il fardello della caccia",
+        level = 102,
+    },
+    [39944] = {
+        name = "Messaggi misteriosi",
+        level = 104,
+    },
+    [39933] = {
+        name = "Il cacciatore di carte",
+        level = 100,
+    },
+    [45163] = {
+        name = "Igienizzazione definitiva",
+        level = -1,
+    },
+    [45312] = {
+        name = "Battere l'ammasso di carne",
+        level = -1,
+    },
+    [45111] = {
+        name = "Tutti apprezzano una bella rissa",
+        level = -1,
+    },
+    [45162] = {
+        name = "Abbiamo portato il martello",
+        level = -1,
+    },
+    [45304] = {
+        name = "Colpire l'oscurità",
+        level = -1,
+    },
+    [38716] = {
+        name = "Forte Corvonero",
+        level = -1,
+    },
+    [38711] = {
+        name = "L'Anello con Sigillo delle Custodi",
+        level = -1,
+    },
+    [38748] = {
+        name = "Rovine di Shala'nir",
+        level = -1,
+    },
+    [38372] = {
+        name = "Le sorelle miserabili",
+        level = -1,
+    },
+    [39393] = {
+        name = "Vallata degli Zannaluna",
+        level = -1,
+    },
+    [39029] = {
+        name = "Difendi il Tempio",
+        level = -1,
+    },
+    [50047] = {
+        name = "Campioni gratuiti",
+        level = 110,
+    },
+    [50228] = {
+        name = "Il sopravvissuto del Crepuscolo",
+        level = 110,
+    },
+    [49981] = {
+        name = "Testimoniare la ferita",
+        level = 110,
+    },
+    [50229] = {
+        name = "Un po' di tessuto",
+        level = 110,
+    },
+    [50372] = {
+        name = "Ricerca nel deserto",
+        level = 110,
+    },
+    [50373] = {
+        name = "Un nuovo arrivo",
+        level = 110,
+    },
+    [49976] = {
+        name = "Doni dei caduti",
+        level = 110,
+    },
+    [50374] = {
+        name = "Il sangue di Azeroth",
+        level = 110,
+    },
+    [50049] = {
+        name = "La prospettiva dell'oratore",
+        level = 110,
+    },
+    [50226] = {
+        name = "La fonte del potere",
+        level = 110,
+    },
+    [50046] = {
+        name = "Sabotaggio",
+        level = 110,
+    },
+    [50227] = {
+        name = "Dozzine di larve",
+        level = 110,
+    },
+    [50371] = {
+        name = "Convocazioni a Roccavento",
+        level = 110,
+    },
+    [49982] = {
+        name = "Testimoniare la ferita",
+        level = 110,
+    },
+    [50341] = {
+        name = "Una scoperta recente",
+        level = 110,
+    },
+    [49977] = {
+        name = "Chiamata a Orgrimmar",
+        level = 110,
     },
 }

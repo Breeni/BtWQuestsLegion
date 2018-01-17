@@ -506,6 +506,14 @@ BtWQuests_Quests = {
         name = "Retour au bosquet",
         level = -1,
     },
+    [38322] = {
+        name = "Retour au bosquet",
+        level = -1,
+    },
+    [38323] = {
+        name = "Retour au bosquet",
+        level = -1,
+    },
     [38377] = {
         name = "La reine d’émeraude",
         level = -1,
@@ -7246,5 +7254,615 @@ BtWQuests_Quests = {
     [38882] = {
         name = "Une nouvelle vie pour la non-mort",
         level = -1,
+    },
+    [38513] = {
+        name = "Les forgerons de Haut-Roc",
+        level = 104,
+    },
+    [38515] = {
+        name = "Tout est dans la nature",
+        level = 102,
+    },
+    [38519] = {
+        name = "Grisemasse",
+        level = 104,
+    },
+    [38523] = {
+        name = "Plaques de sabot en tellurium",
+        level = 106,
+    },
+    [38525] = {
+        name = "Membre de l’équipe",
+        level = 110,
+    },
+    [44449] = {
+        name = "La trempe pour les experts",
+        level = 108,
+    },
+    [39726] = {
+        name = "… et l’enclume",
+        level = 108,
+    },
+    [38531] = {
+        name = "La maîtrise du tellurium",
+        level = 110,
+    },
+    [38533] = {
+        name = "Connaissance tribale",
+        level = 110,
+    },
+    [39681] = {
+        name = "Les propriétés du tellurium",
+        level = 100,
+    },
+    [38559] = {
+        name = "Digne de la pierre",
+        level = 110,
+    },
+    [38563] = {
+        name = "Entre ramasseurs de fleurs et faiseurs de potions",
+        level = 102,
+    },
+    [38502] = {
+        name = "Les méthodes des Souffrenuit",
+        level = 100,
+    },
+    [38506] = {
+        name = "Des pattes de mouche",
+        level = 102,
+    },
+    [38514] = {
+        name = "Incapable",
+        level = 104,
+    },
+    [38518] = {
+        name = "D’un maître à l’autre",
+        level = 104,
+    },
+    [38522] = {
+        name = "Bien plus que des armes et armures",
+        level = 106,
+    },
+    [38524] = {
+        name = "La gangreforge Nal’ryssa",
+        level = 110,
+    },
+    [38526] = {
+        name = "Forger sous le feu ennemi",
+        level = 110,
+    },
+    [38528] = {
+        name = "Tout le potentiel du tellurium",
+        level = 110,
+    },
+    [38530] = {
+        name = "La Pierre du firmament",
+        level = 110,
+    },
+    [39729] = {
+        name = "Le savoir du Freux",
+        level = 108,
+    },
+    [48053] = {
+        name = "Jeter l’ancre",
+        level = -1,
+    },
+    [39680] = {
+        name = "Entre le marteau…",
+        level = 108,
+    },
+    [38833] = {
+        name = "L’art de la fabrication du démonium",
+        level = 110,
+    },
+    [38532] = {
+        name = "Gueule des âmes : martelé par la tempête",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [39699] = {
+        name = "Forge tellurique corne-de-fer",
+        level = 104,
+    },
+    [38499] = {
+        name = "D’étranges minerais",
+        level = 100,
+    },
+    [38564] = {
+        name = "Une offre intéressante",
+        level = 108,
+    },
+    [39702] = {
+        name = "La légende du bastion du Freux",
+        level = 108,
+    },
+    [38505] = {
+        name = "Des ingénieurs pas si inutiles que ça",
+        level = 102,
+    },
+    [38507] = {
+        name = "Les secrets de la forge tellurique",
+        level = 102,
+    },
+    [38527] = {
+        name = "La technique de Nal’ryssa",
+        level = 110,
+    },
+    [38500] = {
+        name = "La maîtrise de la forge tellurique",
+        level = 102,
+    },
+    [38501] = {
+        name = "Ouvrage glissefiel",
+        level = 100,
+    },
+    [39883] = {
+        name = "Le poids des traditions",
+        level = 102,
+    },
+    [39884] = {
+        name = "Ingratitude inexcusable",
+        level = 104,
+    },
+    [39916] = {
+        name = "Volte-face et traîtrise",
+        level = 108,
+    },
+    [39918] = {
+        name = "La prêtresse absente",
+        level = 108,
+    },
+    [39889] = {
+        name = "Brebis égarées",
+        level = 104,
+    },
+    [40169] = {
+        name = "Rendez-vous à la croisée des chemins",
+        level = 108,
+    },
+    [39891] = {
+        name = "Maudit, mais pas inutile",
+        level = 108,
+    },
+    [39923] = {
+        name = "Des pépins pour des noyaux",
+        level = 110,
+    },
+    [40048] = {
+        name = "Les ficelles des marionnettistes",
+        level = 100,
+    },
+    [39920] = {
+        name = "Sur des ailes d’azur",
+        level = 110,
+    },
+    [39907] = {
+        name = "Les enchantements elfiques",
+        level = 108,
+    },
+    [40130] = {
+        name = "Lavée de tout péché",
+        level = 108,
+    },
+    [39914] = {
+        name = "L’ultime devoir de la Sentinelle",
+        level = 108,
+    },
+    [39910] = {
+        name = "La dette du druide",
+        level = 108,
+    },
+    [39906] = {
+        name = "Se préparer au combat",
+        level = 108,
+    },
+    [39905] = {
+        name = "L’anneau de vérité",
+        level = 100,
+    },
+    [39903] = {
+        name = "Une maison enchanteresse",
+        level = 106,
+    },
+    [39904] = {
+        name = "Salles des Valeureux : la vengeance de l’enchanteresse",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 106,
+    },
+    [39874] = {
+        name = "Une soirée enchanteresse",
+        level = 100,
+    },
+    [39875] = {
+        name = "Du pain sur la planche",
+        level = 100,
+    },
+    [39876] = {
+        name = "Au service des chasseurs",
+        level = 100,
+    },
+    [39877] = {
+        name = "Bagues à part",
+        level = 100,
+    },
+    [39878] = {
+        name = "Roulement de tonnerre",
+        level = 102,
+    },
+    [39879] = {
+        name = "Fort comme la terre",
+        level = 102,
+    },
+    [39880] = {
+        name = "Tri sélectif",
+        level = 102,
+    },
+    [39881] = {
+        name = "Enchantements faë",
+        level = 104,
+    },
+    [39882] = {
+        name = "Fourré Sombrecœur : une rupture consommée",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 104,
+    },
+    [40265] = {
+        name = "Une pincée de magie",
+        level = 106,
+    },
+    [39921] = {
+        name = "Repaire de Neltharion : bâtonnet d’azur",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [40875] = {
+        name = "Tondu comme un mouton",
+        level = 106,
+    },
+    [40876] = {
+        name = "La totale",
+        level = 106,
+    },
+    [40877] = {
+        name = "Salles des Valeureux : rapide à la détente",
+        level = 108,
+    },
+    [40878] = {
+        name = "Assault on Violet Hold: Cheating Death",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [40879] = {
+        name = "Combat d’automates",
+        level = 110,
+    },
+    [40880] = {
+        name = "Court-circuit",
+        level = 110,
+    },
+    [40881] = {
+        name = "Ingénieuse ingénierie",
+        level = 110,
+    },
+    [40882] = {
+        name = "Cour des Étoiles : atténuation du recul",
+        difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [40854] = {
+        name = "Infinies possibilités",
+        level = 100,
+    },
+    [40855] = {
+        name = "Notre homme sur Azsuna",
+        level = 100,
+    },
+    [40856] = {
+        name = "Le prix à payer",
+        level = 100,
+    },
+    [40545] = {
+        name = "Trafic d’armes",
+        level = 100,
+    },
+    [46128] = {
+        name = "Un p’tit coup de charge",
+        level = 110,
+    },
+    [40859] = {
+        name = "La dernière mode : le pisto-crâne !",
+        level = 100,
+    },
+    [40860] = {
+        name = "Ravitaillement des troupes",
+        level = 102,
+    },
+    [40861] = {
+        name = "Dans la ligne de mire",
+        level = 102,
+    },
+    [40862] = {
+        name = "Désherbage",
+        level = 102,
+    },
+    [40863] = {
+        name = "La touche finale",
+        level = 102,
+    },
+    [40864] = {
+        name = "Modular Modifications",
+        level = -1,
+    },
+    [40865] = {
+        name = "C’est pas sorcier",
+        level = 104,
+    },
+    [40866] = {
+        name = "Braconnage de coquillages",
+        level = 104,
+    },
+    [40867] = {
+        name = "Je suis breloque",
+        level = 104,
+    },
+    [40868] = {
+        name = "Comme ci, comme ça, cahin-caha",
+        level = 104,
+    },
+    [40869] = {
+        name = "Feu salvateur",
+        level = 104,
+    },
+    [40870] = {
+        name = "Ça va faire BOUM !",
+        level = 104,
+    },
+    [40871] = {
+        name = "En joue… feu !",
+        level = 106,
+    },
+    [40872] = {
+        name = "Cocktail explosif",
+        level = 106,
+    },
+    [40873] = {
+        name = "Poudre de guerre",
+        level = 106,
+    },
+    [40874] = {
+        name = "Délégation de pouvoir",
+        level = 106,
+    },
+    [40858] = {
+        name = "Quelques pièces manquantes",
+        level = 100,
+    },
+    [39945] = {
+        name = "Les runes des ruines",
+        level = 104,
+    },
+    [39946] = {
+        name = "L’outil approprié",
+        level = 104,
+    },
+    [39947] = {
+        name = "Pas si complexe que ça ?",
+        level = 104,
+    },
+    [39948] = {
+        name = "L’encre coule à flots",
+        level = 106,
+    },
+    [39949] = {
+        name = "Avant, j’étais un scribe comme vous…",
+        level = 106,
+    },
+    [39950] = {
+        name = "Une babiole étrange",
+        level = 106,
+    },
+    [39953] = {
+        name = "Salles des Valeureux : valeureuses visions",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 106,
+    },
+    [39954] = {
+        name = "Techniques de broyage de masse",
+        level = 108,
+    },
+    [39955] = {
+        name = "Le mystère s’épaissit",
+        level = 108,
+    },
+    [39956] = {
+        name = "La plume en héritage",
+        level = 108,
+    },
+    [40052] = {
+        name = "La maîtrise du vrykul ancien",
+        level = 104,
+    },
+    [39932] = {
+        name = "Encre de poisson",
+        level = 100,
+    },
+    [39961] = {
+        name = "Une révélation embarrassante",
+        level = 108,
+    },
+    [39931] = {
+        name = "Herbes à piler",
+        level = 100,
+    },
+    [40056] = {
+        name = "Nos nouveaux alliés",
+        level = 102,
+    },
+    [40057] = {
+        name = "Le prix du pouvoir",
+        level = 102,
+    },
+    [39934] = {
+        name = "Nos nouveaux alliés",
+        level = 102,
+    },
+    [39935] = {
+        name = "Le prix du pouvoir",
+        level = 102,
+    },
+    [40060] = {
+        name = "Museler les démons intérieurs",
+        level = 102,
+    },
+    [40061] = {
+        name = "Connaître son adversaire",
+        level = 102,
+    },
+    [39847] = {
+        name = "Un contrat à signer",
+        level = 100,
+    },
+    [40063] = {
+        name = "Le contrôle est la clé",
+        level = 102,
+    },
+    [39940] = {
+        name = "Runes de puissance",
+        level = 102,
+    },
+    [40059] = {
+        name = "Oppositions magiques",
+        level = 102,
+    },
+    [40058] = {
+        name = "Symbolique défensive",
+        level = 102,
+    },
+    [39943] = {
+        name = "Le fardeau de la chasse",
+        level = 102,
+    },
+    [39944] = {
+        name = "Des messages bien mystérieux",
+        level = 104,
+    },
+    [39933] = {
+        name = "L’as des cartes",
+        level = 100,
+    },
+    [45163] = {
+        name = "Le grand ménage",
+        level = -1,
+    },
+    [45312] = {
+        name = "Coup de boule à Boulette",
+        level = -1,
+    },
+    [45111] = {
+        name = "Tout le monde aime la baston",
+        level = -1,
+    },
+    [45162] = {
+        name = "L’épreuve des coups",
+        level = -1,
+    },
+    [45304] = {
+        name = "À l’assaut de l’ombre",
+        level = -1,
+    },
+    [38716] = {
+        name = "Le bastion du Freux",
+        level = -1,
+    },
+    [38711] = {
+        name = "La chevalière de gardienne",
+        level = -1,
+    },
+    [38748] = {
+        name = "Les ruines de Shala’nir",
+        level = -1,
+    },
+    [38372] = {
+        name = "Sœurs maudites",
+        level = -1,
+    },
+    [39393] = {
+        name = "Le val des Griffelunes",
+        level = -1,
+    },
+    [39029] = {
+        name = "Défendre le Temple",
+        level = -1,
+    },
+    [50047] = {
+        name = "Échantillons gratuits",
+        level = 110,
+    },
+    [50228] = {
+        name = "Le survivant du Crépuscule",
+        level = 110,
+    },
+    [49981] = {
+        name = "Témoin de la blessure",
+        level = 110,
+    },
+    [50229] = {
+        name = "Un petit bout de tissu",
+        level = 110,
+    },
+    [50372] = {
+        name = "Recherche dans le désert",
+        level = 110,
+    },
+    [50373] = {
+        name = "Une arrivée récente",
+        level = 110,
+    },
+    [49976] = {
+        name = "Dons des déchus",
+        level = 110,
+    },
+    [50374] = {
+        name = "Le sang d’Azeroth",
+        level = 110,
+    },
+    [50049] = {
+        name = "La perspective de l’orateur",
+        level = 110,
+    },
+    [50226] = {
+        name = "La source de puissance",
+        level = 110,
+    },
+    [50046] = {
+        name = "C’est du sabotage",
+        level = 110,
+    },
+    [50227] = {
+        name = "Des larves par dizaines",
+        level = 110,
+    },
+    [50371] = {
+        name = "Convocation à Hurlevent",
+        level = 110,
+    },
+    [49982] = {
+        name = "Témoin de la blessure",
+        level = 110,
+    },
+    [50341] = {
+        name = "Une découverte récente",
+        level = 110,
+    },
+    [49977] = {
+        name = "Convocation à Orgrimmar",
+        level = 110,
     },
 }
