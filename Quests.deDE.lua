@@ -7905,4 +7905,12 @@ BtWQuests_Quests = {
         name = "Die Ruinen von Oronaar",
         level = -1,
     },
+    [48636] = {
+        name = "Versorgung des antorischen Feldzugs",
+        level = -1,
+    },
+    [48635] = {
+        name = "Erweiterte Leerenimpfung",
+        level = -1,
+    },
 }

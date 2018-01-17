@@ -1177,6 +1177,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS] = {
         {
             type = "quest",
             id = 48911,
+            aside = true,
             x = 2,
             y = 9,
             connections = {
@@ -1194,7 +1195,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS] = {
         },
         {
             type = "quest",
-            id = 48911,
+            id = 48635,
+            aside = true,
             x = 1,
             y = 10,
         },
@@ -1235,7 +1237,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS] = {
         },
         {
             type = "quest",
-            id = 48601,
+            id = 48636,
             x = 3,
             y = 12,
         },

@@ -7905,4 +7905,12 @@ BtWQuests_Quests = {
         name = "Les ruines d’Oronaar",
         level = -1,
     },
+    [48636] = {
+        name = "Au service de la campagne antoréenne",
+        level = -1,
+    },
+    [48635] = {
+        name = "Inoculation du Vide, suite",
+        level = -1,
+    },
 }
