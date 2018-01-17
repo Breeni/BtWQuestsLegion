@@ -506,6 +506,14 @@ BtWQuests_Quests = {
         name = "Rückkehr zum Hain",
         level = -1,
     },
+    [38322] = {
+        name = "Rückkehr zum Hain",
+        level = -1,
+    },
+    [38323] = {
+        name = "Rückkehr zum Hain",
+        level = -1,
+    },
     [38377] = {
         name = "Die Smaragdkönigin",
         level = -1,
@@ -7246,5 +7254,615 @@ BtWQuests_Quests = {
     [38882] = {
         name = "Ein neues Leben für die Untoten",
         level = -1,
+    },
+    [38513] = {
+        name = "Die Schmiede des Hochbergs",
+        level = 104,
+    },
+    [38515] = {
+        name = "Die Gaben der Natur",
+        level = 102,
+    },
+    [38519] = {
+        name = "Grauwucht",
+        level = 104,
+    },
+    [38523] = {
+        name = "Leysteinhufplatten",
+        level = 106,
+    },
+    [38525] = {
+        name = "Teil des Teams",
+        level = 110,
+    },
+    [44449] = {
+        name = "Ablöschen für Fortgeschrittene",
+        level = 108,
+    },
+    [39726] = {
+        name = "Rüstungsraub",
+        level = 108,
+    },
+    [38531] = {
+        name = "Leysteinmeisterschaft",
+        level = 110,
+    },
+    [38533] = {
+        name = "Stammeswissen",
+        level = 110,
+    },
+    [39681] = {
+        name = "Die Eigenschaften von Leystein",
+        level = 100,
+    },
+    [38559] = {
+        name = "Des Steines würdig",
+        level = 110,
+    },
+    [38563] = {
+        name = "Blumenpflücker und Tränkeschlucker",
+        level = 102,
+    },
+    [38502] = {
+        name = "Die Methoden der Nachtsüchtigen",
+        level = 100,
+    },
+    [38506] = {
+        name = "Hühnergekritzel",
+        level = 102,
+    },
+    [38514] = {
+        name = "Ihr seid nicht würdig",
+        level = 104,
+    },
+    [38518] = {
+        name = "Von Meister zu Meister",
+        level = 104,
+    },
+    [38522] = {
+        name = "Nicht nur Waffen und Rüstungen",
+        level = 106,
+    },
+    [38524] = {
+        name = "Teufelsschmiedin Nal'ryssa",
+        level = 110,
+    },
+    [38526] = {
+        name = "Schmiede unter Feuer",
+        level = 110,
+    },
+    [38528] = {
+        name = "Das Potenzial von Leystein",
+        level = 110,
+    },
+    [38530] = {
+        name = "Der Firmamentstein",
+        level = 110,
+    },
+    [39729] = {
+        name = "Das Wissen der Rabenwehr",
+        level = 108,
+    },
+    [48053] = {
+        name = "Anker lichten",
+        level = -1,
+    },
+    [39680] = {
+        name = "Kein Hammer, kein Frieden",
+        level = 108,
+    },
+    [38833] = {
+        name = "Die Kunst des Dämonenstahls",
+        level = 110,
+    },
+    [38532] = {
+        name = "Der Seelenschlund: Vom Sturm gehämmert",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [39699] = {
+        name = "Leyschmieden der Eisenhörner",
+        level = 104,
+    },
+    [38499] = {
+        name = "Seltsame neue Erze",
+        level = 100,
+    },
+    [38564] = {
+        name = "Ein gutes Geschäft",
+        level = 108,
+    },
+    [39702] = {
+        name = "Die Legende der Rabenwehr",
+        level = 108,
+    },
+    [38505] = {
+        name = "Ingenieure: Nicht TOTAL nutzlos",
+        level = 102,
+    },
+    [38507] = {
+        name = "Die Geheimnisse des Leyschmiedens",
+        level = 102,
+    },
+    [38527] = {
+        name = "Nal'ryssas Techniken",
+        level = 110,
+    },
+    [38500] = {
+        name = "Leyschmiedemeisterschaft",
+        level = 102,
+    },
+    [38501] = {
+        name = "Lernt von den Hassnattern",
+        level = 100,
+    },
+    [39883] = {
+        name = "Haufenweise Tradition",
+        level = 102,
+    },
+    [39884] = {
+        name = "Nicht mehr würdig",
+        level = 104,
+    },
+    [39916] = {
+        name = "Umschwung des Verrats",
+        level = 108,
+    },
+    [39918] = {
+        name = "Die abwesende Priesterin",
+        level = 108,
+    },
+    [39889] = {
+        name = "Fehlgeleitet",
+        level = 104,
+    },
+    [40169] = {
+        name = "An der Wegkreuzung",
+        level = 108,
+    },
+    [39891] = {
+        name = "Verflucht, aber zweckmäßig",
+        level = 108,
+    },
+    [39923] = {
+        name = "Kernbohrung",
+        level = 110,
+    },
+    [40048] = {
+        name = "Die Fäden des Marionettenspielers",
+        level = 100,
+    },
+    [39920] = {
+        name = "Auf azurblauen Schwingen",
+        level = 110,
+    },
+    [39907] = {
+        name = "Elfische Verzauberungen",
+        level = 108,
+    },
+    [40130] = {
+        name = "Reingewaschen",
+        level = 108,
+    },
+    [39914] = {
+        name = "Der letzte Dienst der Schildwache",
+        level = 108,
+    },
+    [39910] = {
+        name = "Die Schuld des Druiden",
+        level = 108,
+    },
+    [39906] = {
+        name = "Vorbereitung auf den Kampf",
+        level = 108,
+    },
+    [39905] = {
+        name = "Da ist was Wahres dran",
+        level = 100,
+    },
+    [39903] = {
+        name = "Ein bezauberndes Zuhause",
+        level = 106,
+    },
+    [39904] = {
+        name = "Hallen der Tapferkeit: Die Rache der Verzauberin",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 106,
+    },
+    [39874] = {
+        name = "Ein zauberhafter Abend",
+        level = 100,
+    },
+    [39875] = {
+        name = "Letzte Vorbereitungen",
+        level = 100,
+    },
+    [39876] = {
+        name = "Hilfe für die Jäger",
+        level = 100,
+    },
+    [39877] = {
+        name = "Immer in Bewegung bleiben",
+        level = 100,
+    },
+    [39878] = {
+        name = "Vom Donner gerührt",
+        level = 102,
+    },
+    [39879] = {
+        name = "Elementare Kräfte",
+        level = 102,
+    },
+    [39880] = {
+        name = "Nichts verschwenden",
+        level = 102,
+    },
+    [39881] = {
+        name = "Feenverzauberungen",
+        level = 104,
+    },
+    [39882] = {
+        name = "Das Finsterherzdickicht: Freundschaft gekündigt",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 104,
+    },
+    [40265] = {
+        name = "Ein Hauch von Magie",
+        level = 106,
+    },
+    [39921] = {
+        name = "Neltharions Hort: Azurblaue Rute",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [40875] = {
+        name = "Datensicherung",
+        level = 106,
+    },
+    [40876] = {
+        name = "Über Kimme und Korn",
+        level = 106,
+    },
+    [40877] = {
+        name = "Hallen der Tapferkeit: Finger am Abzug",
+        level = 108,
+    },
+    [40878] = {
+        name = "Assault on Violet Hold: Cheating Death",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [40879] = {
+        name = "Kampfbotwettbewerb",
+        level = 110,
+    },
+    [40880] = {
+        name = "Kurzschluss",
+        level = 110,
+    },
+    [40881] = {
+        name = "Von Öllappen zu Reichtümern",
+        level = 110,
+    },
+    [40882] = {
+        name = "Der Hof der Sterne: Rückschlagdämpfung",
+        difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [40854] = {
+        name = "Unzählige Möglichkeiten",
+        level = 100,
+    },
+    [40855] = {
+        name = "Unser Mann in Azsuna",
+        level = 100,
+    },
+    [40856] = {
+        name = "Das wird teuer",
+        level = 100,
+    },
+    [40545] = {
+        name = "So ein Schrott!",
+        level = 100,
+    },
+    [46128] = {
+        name = "Zeit zum Aufladen",
+        level = 110,
+    },
+    [40859] = {
+        name = "Der letzte Schrei: Kopfkanonen!",
+        level = 100,
+    },
+    [40860] = {
+        name = "Nachschub für die Front",
+        level = 102,
+    },
+    [40861] = {
+        name = "Im Visier",
+        level = 102,
+    },
+    [40862] = {
+        name = "Unkrautvernichter",
+        level = 102,
+    },
+    [40863] = {
+        name = "Mehr Saft",
+        level = 102,
+    },
+    [40864] = {
+        name = "Modular Modifications",
+        level = -1,
+    },
+    [40865] = {
+        name = "Es ist keine Raketenwissenschaft",
+        level = 104,
+    },
+    [40866] = {
+        name = "Her mit den Muscheln!",
+        level = 104,
+    },
+    [40867] = {
+        name = "Überzeugungsarbeit",
+        level = 104,
+    },
+    [40868] = {
+        name = "Schnibbedischnick-wibbelig-wobbeliges Zeitzeugs",
+        level = 104,
+    },
+    [40869] = {
+        name = "Feuer aus den eigenen Reihen",
+        level = 104,
+    },
+    [40870] = {
+        name = "Feuerwerk vermisst",
+        level = 104,
+    },
+    [40871] = {
+        name = "Keine Flinte ins Korn",
+        level = 106,
+    },
+    [40872] = {
+        name = "Wasserläufer",
+        level = 106,
+    },
+    [40873] = {
+        name = "Das Pulver trocken halten",
+        level = 106,
+    },
+    [40874] = {
+        name = "Stellvertretende Rache",
+        level = 106,
+    },
+    [40858] = {
+        name = "Fehlende Stücke",
+        level = 100,
+    },
+    [39945] = {
+        name = "Runen in den Ruinen",
+        level = 104,
+    },
+    [39946] = {
+        name = "Das richtige Werkzeug zur Hand",
+        level = 104,
+    },
+    [39947] = {
+        name = "Nicht so kompliziert?",
+        level = 104,
+    },
+    [39948] = {
+        name = "Tintenfluss",
+        level = 106,
+    },
+    [39949] = {
+        name = "Frühere Schreiberkollegen",
+        level = 106,
+    },
+    [39950] = {
+        name = "Ein merkwürdiges Schmuckstück",
+        level = 106,
+    },
+    [39953] = {
+        name = "Hallen der Tapferkeit: Visionen von Tapferkeit",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 106,
+    },
+    [39954] = {
+        name = "Techniken der Massenmahlung",
+        level = 108,
+    },
+    [39955] = {
+        name = "Teuflisches Komplott",
+        level = 108,
+    },
+    [39956] = {
+        name = "Das weitergegebene Vermächtnis",
+        level = 108,
+    },
+    [40052] = {
+        name = "Uraltes Vrykul gemeistert",
+        level = 104,
+    },
+    [39932] = {
+        name = "Fischtinte",
+        level = 100,
+    },
+    [39961] = {
+        name = "Peinliche Offenbarung",
+        level = 108,
+    },
+    [39931] = {
+        name = "Kräuter hacken",
+        level = 100,
+    },
+    [40056] = {
+        name = "Unsere neuen Verbündeten",
+        level = 102,
+    },
+    [40057] = {
+        name = "Der Preis der Macht",
+        level = 102,
+    },
+    [39934] = {
+        name = "Unsere neuen Verbündeten",
+        level = 102,
+    },
+    [39935] = {
+        name = "Der Preis der Macht",
+        level = 102,
+    },
+    [40060] = {
+        name = "Herr über den inneren Dämon",
+        level = 102,
+    },
+    [40061] = {
+        name = "Den Feind kennen",
+        level = 102,
+    },
+    [39847] = {
+        name = "Unterschreibt dies",
+        level = 100,
+    },
+    [40063] = {
+        name = "Kontrolle ist der Schlüssel",
+        level = 102,
+    },
+    [39940] = {
+        name = "Runen der Kraft",
+        level = 102,
+    },
+    [40059] = {
+        name = "Gegensätze stoßen sich ab",
+        level = 102,
+    },
+    [40058] = {
+        name = "Symbologie der Verteidigung",
+        level = 102,
+    },
+    [39943] = {
+        name = "Die Bürden der Jagd",
+        level = 102,
+    },
+    [39944] = {
+        name = "Mysteriöse Botschaften",
+        level = 104,
+    },
+    [39933] = {
+        name = "Der Kartenhai",
+        level = 100,
+    },
+    [45163] = {
+        name = "Frühjahrsputz",
+        level = -1,
+    },
+    [45312] = {
+        name = "Fleischklopsragout",
+        level = -1,
+    },
+    [45111] = {
+        name = "Zu einem guten Kampf sagt niemand nein",
+        level = -1,
+    },
+    [45162] = {
+        name = "Der Hammer ist gefallen",
+        level = -1,
+    },
+    [45304] = {
+        name = "Kampf mit der Finsternis",
+        level = -1,
+    },
+    [38716] = {
+        name = "Die Rabenwehr",
+        level = -1,
+    },
+    [38711] = {
+        name = "Das Signet des Wächters",
+        level = -1,
+    },
+    [38748] = {
+        name = "Ruinen von Shala'nir",
+        level = -1,
+    },
+    [38372] = {
+        name = "Elende Schwestern",
+        level = -1,
+    },
+    [39393] = {
+        name = "Das Mondklauental",
+        level = -1,
+    },
+    [39029] = {
+        name = "Verteidigung des Tempels",
+        level = -1,
+    },
+    [50047] = {
+        name = "Gratisproben",
+        level = 110,
+    },
+    [50228] = {
+        name = "Der Zwielichtüberlebende",
+        level = 110,
+    },
+    [49981] = {
+        name = "Aufbruch zur Wunde",
+        level = 110,
+    },
+    [50229] = {
+        name = "Ein kleines Stückchen Stoff",
+        level = 110,
+    },
+    [50372] = {
+        name = "Wüstenforschung",
+        level = 110,
+    },
+    [50373] = {
+        name = "Das Wiedersehen",
+        level = 110,
+    },
+    [49976] = {
+        name = "Gaben des Gefallenen",
+        level = 110,
+    },
+    [50374] = {
+        name = "Das Blut von Azeroth",
+        level = 110,
+    },
+    [50049] = {
+        name = "Die Perspektive des Sprechers",
+        level = 110,
+    },
+    [50226] = {
+        name = "Die Machtquelle",
+        level = 110,
+    },
+    [50046] = {
+        name = "Auf Sabotagemission",
+        level = 110,
+    },
+    [50227] = {
+        name = "Larven im Dutzend",
+        level = 110,
+    },
+    [50371] = {
+        name = "Rückruf nach Sturmwind",
+        level = 110,
+    },
+    [49982] = {
+        name = "Aufbruch zur Wunde",
+        level = 110,
+    },
+    [50341] = {
+        name = "Eine neue Entdeckung",
+        level = 110,
+    },
+    [49977] = {
+        name = "Rückruf nach Orgrimmar",
+        level = 110,
     },
 }
