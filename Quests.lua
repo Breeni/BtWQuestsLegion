@@ -7249,615 +7249,614 @@ BtWQuests_Quests = {
         name = "A New Life for Undeath",
         level = -1,
     },
-    
-	[38513] = {
-		name = "The Highmountain Smiths",
-		level = -1,
-	},
-	[38515] = {
-		name = "Nature Provides",
-		level = -1,
-	},
-	[38519] = {
-		name = "Grayheft",
-		level = -1,
-	},
-	[38523] = {
-		name = "Leystone Hoofplates",
-		level = -1,
-	},
-	[38525] = {
-		name = "Part of the Team",
-		level = -1,
-	},
-	[44449] = {
-		name = "Advanced Quenching",
-		level = -1,
-	},
-	[39726] = {
-		name = "...And the Anvil",
-		level = -1,
-	},
-	[38531] = {
-		name = "Leystone Mastery",
-		level = -1,
-	},
-	[38533] = {
-		name = "Tribal Knowledge",
-		level = -1,
-	},
-	[39681] = {
-		name = "The Properties of Leystone",
-		level = -1,
-	},
-	[38559] = {
-		name = "Worthy of the Stone",
-		level = -1,
-	},
-	[38563] = {
-		name = "Flower-Pickers and Potion-Quaffers",
-		level = -1,
-	},
-	[38502] = {
-		name = "The Methods of the Nightfallen",
-		level = -1,
-	},
-	[38506] = {
-		name = "Chicken Scratch",
-		level = -1,
-	},
-	[38514] = {
-		name = "You Are Not Worthy",
-		level = -1,
-	},
-	[38518] = {
-		name = "From One Master to Another",
-		level = -1,
-	},
-	[38522] = {
-		name = "Not Just Weapons and Armor",
-		level = -1,
-	},
-	[38524] = {
-		name = "Felsmith Nal'ryssa",
-		level = -1,
-	},
-	[38526] = {
-		name = "Smith Under Fire",
-		level = -1,
-	},
-	[38528] = {
-		name = "Leystone's Potential",
-		level = -1,
-	},
-	[38530] = {
-		name = "The Firmament Stone",
-		level = -1,
-	},
-	[39729] = {
-		name = "The Knowledge of Black Rook",
-		level = -1,
-	},
-	[48053] = {
-		name = "Weigh Anchor",
-		level = -1,
-	},
-	[39680] = {
-		name = "Between the Hammer...",
-		level = -1,
-	},
-	[38833] = {
-		name = "The Art of Demonsteel",
-		level = -1,
-	},
-	[38532] = {
-		name = "Maw of Souls: Hammered By The Storm",
+    [38513] = {
+        name = "The Highmountain Smiths",
+        level = 104,
+    },
+    [38515] = {
+        name = "Nature Provides",
+        level = 102,
+    },
+    [38519] = {
+        name = "Grayheft",
+        level = 104,
+    },
+    [38523] = {
+        name = "Leystone Hoofplates",
+        level = 106,
+    },
+    [38525] = {
+        name = "Part of the Team",
+        level = 110,
+    },
+    [44449] = {
+        name = "Advanced Quenching",
+        level = 108,
+    },
+    [39726] = {
+        name = "...And the Anvil",
+        level = 108,
+    },
+    [38531] = {
+        name = "Leystone Mastery",
+        level = 110,
+    },
+    [38533] = {
+        name = "Tribal Knowledge",
+        level = 110,
+    },
+    [39681] = {
+        name = "The Properties of Leystone",
+        level = 100,
+    },
+    [38559] = {
+        name = "Worthy of the Stone",
+        level = 110,
+    },
+    [38563] = {
+        name = "Flower-Pickers and Potion-Quaffers",
+        level = 102,
+    },
+    [38502] = {
+        name = "The Methods of the Nightfallen",
+        level = 100,
+    },
+    [38506] = {
+        name = "Chicken Scratch",
+        level = 102,
+    },
+    [38514] = {
+        name = "You Are Not Worthy",
+        level = 104,
+    },
+    [38518] = {
+        name = "From One Master to Another",
+        level = 104,
+    },
+    [38522] = {
+        name = "Not Just Weapons and Armor",
+        level = 106,
+    },
+    [38524] = {
+        name = "Felsmith Nal'ryssa",
+        level = 110,
+    },
+    [38526] = {
+        name = "Smith Under Fire",
+        level = 110,
+    },
+    [38528] = {
+        name = "Leystone's Potential",
+        level = 110,
+    },
+    [38530] = {
+        name = "The Firmament Stone",
+        level = 110,
+    },
+    [39729] = {
+        name = "The Knowledge of Black Rook",
+        level = 108,
+    },
+    [48053] = {
+        name = "Weigh Anchor",
+        level = -1,
+    },
+    [39680] = {
+        name = "Between the Hammer...",
+        level = 108,
+    },
+    [38833] = {
+        name = "The Art of Demonsteel",
+        level = 110,
+    },
+    [38532] = {
+        name = "Maw of Souls: Hammered By The Storm",
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
-		level = -1,
-	},
-	[39699] = {
-		name = "Ironhorn Leysmithing",
-		level = -1,
-	},
-	[38499] = {
-		name = "Strange New Ores",
-		level = -1,
-	},
-	[38564] = {
-		name = "A Sweet Bargain",
-		level = -1,
-	},
-	[39702] = {
-		name = "Legend of Black Rook Hold",
-		level = -1,
-	},
-	[38505] = {
-		name = "Engineers: Not COMPLETELY Useless",
-		level = -1,
-	},
-	[38507] = {
-		name = "Secrets of Leysmithing",
-		level = -1,
-	},
-	[38527] = {
-		name = "Nal'ryssa's Technique",
-		level = -1,
-	},
-	[38500] = {
-		name = "Leysmithing Mastery",
-		level = -1,
-	},
-	[38501] = {
-		name = "Hatecoil Hammerwork",
-		level = -1,
-	},
-	[39883] = {
-		name = "Cloaked in Tradition",
-		level = -1,
-	},
-	[39884] = {
-		name = "No Longer Worthy",
-		level = -1,
-	},
-	[39916] = {
-		name = "Turnabout Betrayal",
-		level = -1,
-	},
-	[39918] = {
-		name = "The Absent Priestess",
-		level = -1,
-	},
-	[39889] = {
-		name = "Led Astray",
-		level = -1,
-	},
-	[40169] = {
-		name = "Crossroads Rendezvous",
-		level = -1,
-	},
-	[39891] = {
-		name = "Cursed, But Convenient",
-		level = -1,
-	},
-	[39923] = {
-		name = "Down to the Core",
-		level = -1,
-	},
-	[40048] = {
-		name = "Strings of the Puppet Masters",
-		level = -1,
-	},
-	[39920] = {
-		name = "On Azure Wings",
-		level = -1,
-	},
-	[39907] = {
-		name = "Elven Enchantments",
-		level = -1,
-	},
-	[40130] = {
-		name = "Washed Clean",
-		level = -1,
-	},
-	[39914] = {
-		name = "Sentinel's Final Duty",
-		level = -1,
-	},
-	[39910] = {
-		name = "The Druid's Debt",
-		level = -1,
-	},
-	[39906] = {
-		name = "Prepping For Battle",
-		level = -1,
-	},
-	[39905] = {
-		name = "Ringing True",
-		level = -1,
-	},
-	[39903] = {
-		name = "An Enchanting Home",
-		level = -1,
-	},
-	[39904] = {
-		name = "Halls of Valor: Revenge of the Enchantress",
+        level = 110,
+    },
+    [39699] = {
+        name = "Ironhorn Leysmithing",
+        level = 104,
+    },
+    [38499] = {
+        name = "Strange New Ores",
+        level = 100,
+    },
+    [38564] = {
+        name = "A Sweet Bargain",
+        level = 108,
+    },
+    [39702] = {
+        name = "Legend of Black Rook Hold",
+        level = 108,
+    },
+    [38505] = {
+        name = "Engineers: Not COMPLETELY Useless",
+        level = 102,
+    },
+    [38507] = {
+        name = "Secrets of Leysmithing",
+        level = 102,
+    },
+    [38527] = {
+        name = "Nal'ryssa's Technique",
+        level = 110,
+    },
+    [38500] = {
+        name = "Leysmithing Mastery",
+        level = 102,
+    },
+    [38501] = {
+        name = "Hatecoil Hammerwork",
+        level = 100,
+    },
+    [39883] = {
+        name = "Cloaked in Tradition",
+        level = 102,
+    },
+    [39884] = {
+        name = "No Longer Worthy",
+        level = 104,
+    },
+    [39916] = {
+        name = "Turnabout Betrayal",
+        level = 108,
+    },
+    [39918] = {
+        name = "The Absent Priestess",
+        level = 108,
+    },
+    [39889] = {
+        name = "Led Astray",
+        level = 104,
+    },
+    [40169] = {
+        name = "Crossroads Rendezvous",
+        level = 108,
+    },
+    [39891] = {
+        name = "Cursed, But Convenient",
+        level = 108,
+    },
+    [39923] = {
+        name = "Down to the Core",
+        level = 110,
+    },
+    [40048] = {
+        name = "Strings of the Puppet Masters",
+        level = 100,
+    },
+    [39920] = {
+        name = "On Azure Wings",
+        level = 110,
+    },
+    [39907] = {
+        name = "Elven Enchantments",
+        level = 108,
+    },
+    [40130] = {
+        name = "Washed Clean",
+        level = 108,
+    },
+    [39914] = {
+        name = "Sentinel's Final Duty",
+        level = 108,
+    },
+    [39910] = {
+        name = "The Druid's Debt",
+        level = 108,
+    },
+    [39906] = {
+        name = "Prepping For Battle",
+        level = 108,
+    },
+    [39905] = {
+        name = "Ringing True",
+        level = 100,
+    },
+    [39903] = {
+        name = "An Enchanting Home",
+        level = 106,
+    },
+    [39904] = {
+        name = "Halls of Valor: Revenge of the Enchantress",
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
-		level = -1,
-	},
-	[39874] = {
-		name = "Some Enchanted Evening",
-		level = -1,
-	},
-	[39875] = {
-		name = "The Last Few",
-		level = -1,
-	},
-	[39876] = {
-		name = "Helping the Hunters",
-		level = -1,
-	},
-	[39877] = {
-		name = "In the Loop",
-		level = -1,
-	},
-	[39878] = {
-		name = "Thunder Struck",
-		level = -1,
-	},
-	[39879] = {
-		name = "Strong Like the Earth",
-		level = -1,
-	},
-	[39880] = {
-		name = "Waste Not",
-		level = -1,
-	},
-	[39881] = {
-		name = "Fey Enchantments",
-		level = -1,
-	},
-	[39882] = {
-		name = "Darkheart Thicket: The Glamour Has Faded",
+        level = 106,
+    },
+    [39874] = {
+        name = "Some Enchanted Evening",
+        level = 100,
+    },
+    [39875] = {
+        name = "The Last Few",
+        level = 100,
+    },
+    [39876] = {
+        name = "Helping the Hunters",
+        level = 100,
+    },
+    [39877] = {
+        name = "In the Loop",
+        level = 100,
+    },
+    [39878] = {
+        name = "Thunder Struck",
+        level = 102,
+    },
+    [39879] = {
+        name = "Strong Like the Earth",
+        level = 102,
+    },
+    [39880] = {
+        name = "Waste Not",
+        level = 102,
+    },
+    [39881] = {
+        name = "Fey Enchantments",
+        level = 104,
+    },
+    [39882] = {
+        name = "Darkheart Thicket: The Glamour Has Faded",
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
-		level = -1,
-	},
-	[40265] = {
-		name = "A Touch of Magic",
-		level = -1,
-	},
-	[39921] = {
-		name = "Neltharion's Lair: Rod of Azure",
+        level = 104,
+    },
+    [40265] = {
+        name = "A Touch of Magic",
+        level = 106,
+    },
+    [39921] = {
+        name = "Neltharion's Lair: Rod of Azure",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [40875] = {
+        name = "Going to Waste",
+        level = 106,
+    },
+    [40876] = {
+        name = "'Locke, Stock and Barrel",
+        level = 106,
+    },
+    [40877] = {
+        name = "Halls of Valor: Trigger Happy",
+        level = 108,
+    },
+    [40878] = {
+        name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
     },
-	[40875] = {
-		name = "Going to Waste",
-		level = -1,
-	},
-	[40876] = {
-		name = "'Locke, Stock and Barrel",
-		level = -1,
-	},
-	[40877] = {
-		name = "Halls of Valor: Trigger Happy",
-		level = -1,
-	},
-	[40878] = {
-		name = "Assault on Violet Hold: Cheating Death",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-		level = -1,
-	},
-	[40879] = {
-		name = "It's On With Automatons",
-		level = -1,
-	},
-	[40880] = {
-		name = "Short Circuit",
-		level = -1,
-	},
-	[40881] = {
-		name = "Oil Rags to Riches",
-		level = -1,
-	},
-	[40882] = {
-		name = "Court of Stars: Revamping the Recoil",
+    [40879] = {
+        name = "It's On With Automatons",
+        level = 110,
+    },
+    [40880] = {
+        name = "Short Circuit",
+        level = 110,
+    },
+    [40881] = {
+        name = "Oil Rags to Riches",
+        level = 110,
+    },
+    [40882] = {
+        name = "Court of Stars: Revamping the Recoil",
         difficulty = "heroic",
         tagID = QUEST_TAG_DUNGEON,
-		level = -1,
-	},
-	[40854] = {
-		name = "Endless Possibilities",
-		level = -1,
-	},
-	[40855] = {
-		name = "Our Man in Azsuna",
-		level = -1,
-	},
-	[40856] = {
-		name = "It'll Cost You",
-		level = -1,
-	},
-	[40545] = {
-		name = "Aww Scrap!",
-		level = -1,
-	},
-	[46128] = {
-		name = "Time for a Recharge",
-		level = -1,
-	},
-	[40859] = {
-		name = "The Latest Fashion: Headguns!",
-		level = -1,
-	},
-	[40860] = {
-		name = "Resupplying the Line",
-		level = -1,
-	},
-	[40861] = {
-		name = "In My Sights",
-		level = -1,
-	},
-	[40862] = {
-		name = "All Charged Up",
-		level = -1,
-	},
-	[40863] = {
-		name = "Always the Last Thing",
-		level = -1,
-	},
-	[40864] = {
-		name = "Modular Modifications",
-		level = -1,
-	},
-	[40865] = {
-		name = "It's Not Rocket Science",
-		level = -1,
-	},
-	[40866] = {
-		name = "The Shell, You Say?",
-		level = -1,
-	},
-	[40867] = {
-		name = "Bubble Baubles",
-		level = -1,
-	},
-	[40868] = {
-		name = "Wibbly-Wobbly, Timey-Wimey",
-		level = -1,
-	},
-	[40869] = {
-		name = "Fire and Forget",
-		level = -1,
-	},
-	[40870] = {
-		name = "Here Comes the BOOM!",
-		level = -1,
-	},
-	[40871] = {
-		name = "'Locke and Load",
-		level = -1,
-	},
-	[40872] = {
-		name = "Going Out With a Bang",
-		level = -1,
-	},
-	[40873] = {
-		name = "Keep Yer Powder Dry",
-		level = -1,
-	},
-	[40874] = {
-		name = "I'd Do It Myself, But...",
-		level = -1,
-	},
-	[40858] = {
-		name = "The Missing Pieces",
-		level = -1,
-	},
-	[39945] = {
-		name = "Runes Within the Ruins",
-		level = -1,
-	},
-	[39946] = {
-		name = "Right Tool for the Job",
-		level = -1,
-	},
-	[39947] = {
-		name = "Not So Complex?",
-		level = -1,
-	},
-	[39948] = {
-		name = "The Ink Flows",
-		level = -1,
-	},
-	[39949] = {
-		name = "Once a Scribe Like You",
-		level = -1,
-	},
-	[39950] = {
-		name = "An Odd Trinket",
-		level = -1,
-	},
-	[39953] = {
-		name = "Halls of Valor: Vision of Valor",
+        level = 110,
+    },
+    [40854] = {
+        name = "Endless Possibilities",
+        level = 100,
+    },
+    [40855] = {
+        name = "Our Man in Azsuna",
+        level = 100,
+    },
+    [40856] = {
+        name = "It'll Cost You",
+        level = 100,
+    },
+    [40545] = {
+        name = "Aww Scrap!",
+        level = 100,
+    },
+    [46128] = {
+        name = "Time for a Recharge",
+        level = 110,
+    },
+    [40859] = {
+        name = "The Latest Fashion: Headguns!",
+        level = 100,
+    },
+    [40860] = {
+        name = "Resupplying the Line",
+        level = 102,
+    },
+    [40861] = {
+        name = "In My Sights",
+        level = 102,
+    },
+    [40862] = {
+        name = "All Charged Up",
+        level = 102,
+    },
+    [40863] = {
+        name = "Always the Last Thing",
+        level = 102,
+    },
+    [40864] = {
+        name = "Modular Modifications",
+        level = -1,
+    },
+    [40865] = {
+        name = "It's Not Rocket Science",
+        level = 104,
+    },
+    [40866] = {
+        name = "The Shell, You Say?",
+        level = 104,
+    },
+    [40867] = {
+        name = "Bubble Baubles",
+        level = 104,
+    },
+    [40868] = {
+        name = "Wibbly-Wobbly, Timey-Wimey",
+        level = 104,
+    },
+    [40869] = {
+        name = "Fire and Forget",
+        level = 104,
+    },
+    [40870] = {
+        name = "Here Comes the BOOM!",
+        level = 104,
+    },
+    [40871] = {
+        name = "'Locke and Load",
+        level = 106,
+    },
+    [40872] = {
+        name = "Going Out With a Bang",
+        level = 106,
+    },
+    [40873] = {
+        name = "Keep Yer Powder Dry",
+        level = 106,
+    },
+    [40874] = {
+        name = "I'd Do It Myself, But...",
+        level = 106,
+    },
+    [40858] = {
+        name = "The Missing Pieces",
+        level = 100,
+    },
+    [39945] = {
+        name = "Runes Within the Ruins",
+        level = 104,
+    },
+    [39946] = {
+        name = "Right Tool for the Job",
+        level = 104,
+    },
+    [39947] = {
+        name = "Not So Complex?",
+        level = 104,
+    },
+    [39948] = {
+        name = "The Ink Flows",
+        level = 106,
+    },
+    [39949] = {
+        name = "Once a Scribe Like You",
+        level = 106,
+    },
+    [39950] = {
+        name = "An Odd Trinket",
+        level = 106,
+    },
+    [39953] = {
+        name = "Halls of Valor: Vision of Valor",
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
-		level = -1,
-	},
-	[39954] = {
-		name = "Mass Milling Techniques",
-		level = -1,
-	},
-	[39955] = {
-		name = "The Plot Thickens",
-		level = -1,
-	},
-	[39956] = {
-		name = "The Legacy Passed On",
-		level = -1,
-	},
-	[40052] = {
-		name = "Ancient Vrykul Mastered",
-		level = -1,
-	},
-	[39932] = {
-		name = "Fish Ink",
-		level = -1,
-	},
-	[39961] = {
-		name = "An Embarrassing Revelation",
-		level = -1,
-	},
-	[39931] = {
-		name = "Smashing Herbs",
-		level = -1,
-	},
-	[40056] = {
-		name = "Our New Allies",
-		level = -1,
-	},
-	[40057] = {
-		name = "The Price of Power",
-		level = -1,
-	},
-	[39934] = {
-		name = "Our New Allies",
-		level = -1,
-	},
-	[39935] = {
-		name = "The Price of Power",
-		level = -1,
-	},
-	[40060] = {
-		name = "Containing the Demon Within",
-		level = -1,
-	},
-	[40061] = {
-		name = "To Know Your Enemy",
-		level = -1,
-	},
-	[39847] = {
-		name = "Sign This",
-		level = -1,
-	},
-	[40063] = {
-		name = "Control is Key",
-		level = -1,
-	},
-	[39940] = {
-		name = "Runes of Power",
-		level = -1,
-	},
-	[40059] = {
-		name = "Opposites Repel",
-		level = -1,
-	},
-	[40058] = {
-		name = "Defense Symbology",
-		level = -1,
-	},
-	[39943] = {
-		name = "The Burdens of Hunting",
-		level = -1,
-	},
-	[39944] = {
-		name = "Mysterious Messages",
-		level = -1,
-	},
-	[39933] = {
-		name = "The Card Shark",
-		level = -1,
-	},
-	[45163] = {
-		name = "Cleaning Up",
-		level = -1,
-	},
-	[45312] = {
-		name = "You Beat the Ball of Meat",
-		level = -1,
-	},
-	[45111] = {
-		name = "Everyone Loves a Good Fight",
-		level = -1,
-	},
-	[45162] = {
-		name = "We Brought the Hammer",
-		level = -1,
-	},
-	[45304] = {
-		name = "Attacking the Darkness",
-		level = -1,
-	},
-	[38716] = {
-		name = "Black Rook Hold",
-		level = -1,
-	},
-	[38711] = {
-		name = "The Warden's Signet",
-		level = -1,
-	},
-	[38748] = {
-		name = "Ruins of Shala'nir",
-		level = -1,
-	},
-	[38372] = {
-		name = "Wretched Sisters",
-		level = -1,
-	},
-	[39393] = {
-		name = "Moonclaw Vale",
-		level = -1,
-	},
-	[39029] = {
-		name = "Defend The Temple",
-		level = -1,
-	},
-	[50047] = {
-		name = "Free Samples",
-		level = 110,
-	},
-	[50228] = {
-		name = "The Twilight Survivor",
-		level = 110,
-	},
-	[49981] = {
-		name = "Witness to the Wound",
-		level = 110,
-	},
-	[50229] = {
-		name = "A Wee Bit O' Cloth",
-		level = 110,
-	},
-	[50372] = {
-		name = "Desert Research",
-		level = 110,
-	},
-	[50373] = {
-		name = "A Recent Arrival",
-		level = 110,
-	},
-	[49976] = {
-		name = "Gifts of the Fallen",
-		level = 110,
-	},
-	[50374] = {
-		name = "The Blood of Azeroth",
-		level = 110,
-	},
-	[50049] = {
-		name = "The Speaker's Perspective",
-		level = 110,
-	},
-	[50226] = {
-		name = "The Source of Power",
-		level = 110,
-	},
-	[50046] = {
-		name = "It's a Sabotage",
-		level = 110,
-	},
-	[50227] = {
-		name = "Larvae By The Dozen",
-		level = 110,
-	},
-	[50371] = {
-		name = "Summons to Stormwind",
-		level = 110,
-	},
-	[49982] = {
-		name = "Witness to the Wound",
-		level = 110,
-	},
-	[50341] = {
-		name = "A Recent Discovery",
-		level = 110,
-	},
-	[49977] = {
-		name = "Summons to Orgrimmar",
-		level = 110,
-	},
+        level = 106,
+    },
+    [39954] = {
+        name = "Mass Milling Techniques",
+        level = 108,
+    },
+    [39955] = {
+        name = "The Plot Thickens",
+        level = 108,
+    },
+    [39956] = {
+        name = "The Legacy Passed On",
+        level = 108,
+    },
+    [40052] = {
+        name = "Ancient Vrykul Mastered",
+        level = 104,
+    },
+    [39932] = {
+        name = "Fish Ink",
+        level = 100,
+    },
+    [39961] = {
+        name = "An Embarrassing Revelation",
+        level = 108,
+    },
+    [39931] = {
+        name = "Smashing Herbs",
+        level = 100,
+    },
+    [40056] = {
+        name = "Our New Allies",
+        level = 102,
+    },
+    [40057] = {
+        name = "The Price of Power",
+        level = 102,
+    },
+    [39934] = {
+        name = "Our New Allies",
+        level = 102,
+    },
+    [39935] = {
+        name = "The Price of Power",
+        level = 102,
+    },
+    [40060] = {
+        name = "Containing the Demon Within",
+        level = 102,
+    },
+    [40061] = {
+        name = "To Know Your Enemy",
+        level = 102,
+    },
+    [39847] = {
+        name = "Sign This",
+        level = 100,
+    },
+    [40063] = {
+        name = "Control is Key",
+        level = 102,
+    },
+    [39940] = {
+        name = "Runes of Power",
+        level = 102,
+    },
+    [40059] = {
+        name = "Opposites Repel",
+        level = 102,
+    },
+    [40058] = {
+        name = "Defense Symbology",
+        level = 102,
+    },
+    [39943] = {
+        name = "The Burdens of Hunting",
+        level = 102,
+    },
+    [39944] = {
+        name = "Mysterious Messages",
+        level = 104,
+    },
+    [39933] = {
+        name = "The Card Shark",
+        level = 100,
+    },
+    [45163] = {
+        name = "Cleaning Up",
+        level = -1,
+    },
+    [45312] = {
+        name = "You Beat the Ball of Meat",
+        level = -1,
+    },
+    [45111] = {
+        name = "Everyone Loves a Good Fight",
+        level = -1,
+    },
+    [45162] = {
+        name = "We Brought the Hammer",
+        level = -1,
+    },
+    [45304] = {
+        name = "Attacking the Darkness",
+        level = -1,
+    },
+    [38716] = {
+        name = "Black Rook Hold",
+        level = -1,
+    },
+    [38711] = {
+        name = "The Warden's Signet",
+        level = -1,
+    },
+    [38748] = {
+        name = "Ruins of Shala'nir",
+        level = -1,
+    },
+    [38372] = {
+        name = "Wretched Sisters",
+        level = -1,
+    },
+    [39393] = {
+        name = "Moonclaw Vale",
+        level = -1,
+    },
+    [39029] = {
+        name = "Defend The Temple",
+        level = -1,
+    },
+    [50047] = {
+        name = "Free Samples",
+        level = 110,
+    },
+    [50228] = {
+        name = "The Twilight Survivor",
+        level = 110,
+    },
+    [49981] = {
+        name = "Witness to the Wound",
+        level = 110,
+    },
+    [50229] = {
+        name = "A Wee Bit O' Cloth",
+        level = 110,
+    },
+    [50372] = {
+        name = "Desert Research",
+        level = 110,
+    },
+    [50373] = {
+        name = "A Recent Arrival",
+        level = 110,
+    },
+    [49976] = {
+        name = "Gifts of the Fallen",
+        level = 110,
+    },
+    [50374] = {
+        name = "The Blood of Azeroth",
+        level = 110,
+    },
+    [50049] = {
+        name = "The Speaker's Perspective",
+        level = 110,
+    },
+    [50226] = {
+        name = "The Source of Power",
+        level = 110,
+    },
+    [50046] = {
+        name = "It's a Sabotage",
+        level = 110,
+    },
+    [50227] = {
+        name = "Larvae By The Dozen",
+        level = 110,
+    },
+    [50371] = {
+        name = "Summons to Stormwind",
+        level = 110,
+    },
+    [49982] = {
+        name = "Witness to the Wound",
+        level = 110,
+    },
+    [50341] = {
+        name = "A Recent Discovery",
+        level = 110,
+    },
+    [49977] = {
+        name = "Summons to Orgrimmar",
+        level = 110,
+    },
 }
