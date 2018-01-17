@@ -668,10 +668,6 @@ BtWQuests_Quests = {
         name = "Rudino",
         level = -1,
     },
-    [39117] = {
-        name = "Niente più starnazzi",
-        level = -1,
-    },
     [44555] = {
         name = "La scoperta di Khadgar",
         level = 110,
@@ -894,10 +890,6 @@ BtWQuests_Quests = {
     },
     [40727] = {
         name = "Attraverso il canale",
-        level = 113,
-    },
-    [40730] = {
-        name = "Redistribuzione",
         level = 113,
     },
     [42828] = {
@@ -2254,10 +2246,6 @@ BtWQuests_Quests = {
         name = "Il ritorno dei Quattro Cavalieri",
         level = -1,
     },
-    [42484] = {
-        name = "Il primogenito",
-        level = -1,
-    },
     [44550] = {
         name = "Chiamata ad Acherus",
         level = -1,
@@ -3104,14 +3092,6 @@ BtWQuests_Quests = {
         name = "Festa di benvenuto",
         level = -1,
     },
-    [42390] = {
-        name = "Reclutare Rexxar",
-        level = -1,
-    },
-    [42388] = {
-        name = "Convocazioni urgenti",
-        level = -1,
-    },
     [43335] = {
         name = "Abilità di sopravvivenza",
         level = -1,
@@ -3170,14 +3150,6 @@ BtWQuests_Quests = {
     },
     [42414] = {
         name = "Campionessa: Addie Frizzabrago",
-        level = -1,
-    },
-    [42397] = {
-        name = "Barone e il Predatore",
-        level = -1,
-    },
-    [42403] = {
-        name = "I Cacciatori di Alto Monte",
         level = -1,
     },
     [42398] = {
@@ -4459,10 +4431,6 @@ BtWQuests_Quests = {
         name = "Campionessa: Gran Sacerdotessa Ishanah",
         level = -1,
     },
-    [43265] = {
-        name = "Spargere la voce",
-        level = -1,
-    },
     [43275] = {
         name = "Reclutare le truppe",
         level = -1,
@@ -5595,10 +5563,6 @@ BtWQuests_Quests = {
         name = "Prova del Valore: Il vecchio e futuro Signore delle Ombre",
         difficulty = "lfr",
         tagID = QUEST_TAG_RAID,
-        level = 110,
-    },
-    [44480] = {
-        name = "Nella casa di mio padre",
         level = 110,
     },
     [45175] = {
@@ -7864,5 +7828,81 @@ BtWQuests_Quests = {
     [49977] = {
         name = "Chiamata a Orgrimmar",
         level = 110,
+    },
+    [48441] = {
+        name = "Resti della Cresta della Caduta Oscura",
+        level = -1,
+    },
+    [48442] = {
+        name = "Forte di Nath'raxas: Preparativi",
+        level = -1,
+    },
+    [48443] = {
+        name = "Forte di Nath'raxas: Missione di soccorso",
+        level = -1,
+    },
+    [48910] = {
+        name = "Rifornire Krokuun",
+        level = -1,
+    },
+    [48446] = {
+        name = "Reliquie degli Eredar Antichi",
+        level = -1,
+    },
+    [48447] = {
+        name = "Disperdere la Guardia dell'Ombra",
+        level = -1,
+    },
+    [48448] = {
+        name = "Intralciare la macchina da guerra della Legione",
+        level = -1,
+    },
+    [48542] = {
+        name = "Contrattacco",
+        level = 110,
+    },
+    [48544] = {
+        name = "Al galoppo!",
+        level = 110,
+    },
+    [48455] = {
+        name = "Problema con i Mantombroso",
+        level = 110,
+    },
+    [48460] = {
+        name = "I Mandriani",
+        level = 110,
+    },
+    [47967] = {
+        name = "Una mandria per Argus",
+        level = 110,
+    },
+    [48601] = {
+        name = "Frantumare il vilfuoco",
+        level = -1,
+    },
+    [48912] = {
+        name = "Aiutare la campagna degli Antoran",
+        level = -1,
+    },
+    [48600] = {
+        name = "Un passo verso la vittoria",
+        level = -1,
+    },
+    [48634] = {
+        name = "Altri rifornimenti per Krokuun",
+        level = -1,
+    },
+    [48654] = {
+        name = "Sotto Oronaar",
+        level = -1,
+    },
+    [48911] = {
+        name = "Inoculazione del Vuoto",
+        level = -1,
+    },
+    [48445] = {
+        name = "Le Rovine di Oronaar",
+        level = -1,
     },
 }

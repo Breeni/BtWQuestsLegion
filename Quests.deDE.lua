@@ -668,10 +668,6 @@ BtWQuests_Quests = {
         name = "Brummer",
         level = -1,
     },
-    [39117] = {
-        name = "Es hat sich ausgekrächzt!",
-        level = -1,
-    },
     [44555] = {
         name = "Khadgars Entdeckung",
         level = 110,
@@ -894,10 +890,6 @@ BtWQuests_Quests = {
     },
     [40727] = {
         name = "Wachablösung",
-        level = 113,
-    },
-    [40730] = {
-        name = "Umverteilung",
         level = 113,
     },
     [42828] = {
@@ -2254,10 +2246,6 @@ BtWQuests_Quests = {
         name = "Rückkehr der Vier Reiter",
         level = -1,
     },
-    [42484] = {
-        name = "Der Erstgeborene erhebt sich",
-        level = -1,
-    },
     [44550] = {
         name = "Ruf nach Acherus",
         level = -1,
@@ -3104,14 +3092,6 @@ BtWQuests_Quests = {
         name = "Wiedersehen",
         level = -1,
     },
-    [42390] = {
-        name = "Rexxar rekrutieren",
-        level = -1,
-    },
-    [42388] = {
-        name = "Dringende Einbestellung",
-        level = -1,
-    },
     [43335] = {
         name = "Überlebensfertigkeiten",
         level = -1,
@@ -3170,14 +3150,6 @@ BtWQuests_Quests = {
     },
     [42414] = {
         name = "Champion: Addie Zischmoor",
-        level = -1,
-    },
-    [42397] = {
-        name = "Baron und der Jäger",
-        level = -1,
-    },
-    [42403] = {
-        name = "Hochbergjäger",
         level = -1,
     },
     [42398] = {
@@ -4459,10 +4431,6 @@ BtWQuests_Quests = {
         name = "Champion: Hohepriesterin Ishanah",
         level = -1,
     },
-    [43265] = {
-        name = "Verbreitet die Kunde",
-        level = -1,
-    },
     [43275] = {
         name = "Rekrutierung der Truppen",
         level = -1,
@@ -5595,10 +5563,6 @@ BtWQuests_Quests = {
         name = "Prüfung der Tapferkeit: Der einstige und zukünftige Herr der Schatten",
         difficulty = "lfr",
         tagID = QUEST_TAG_RAID,
-        level = 110,
-    },
-    [44480] = {
-        name = "In meines Vaters Haus",
         level = 110,
     },
     [45175] = {
@@ -7864,5 +7828,81 @@ BtWQuests_Quests = {
     [49977] = {
         name = "Rückruf nach Orgrimmar",
         level = 110,
+    },
+    [48441] = {
+        name = "Überreste des Sinistren Grats",
+        level = -1,
+    },
+    [48442] = {
+        name = "Die Nath'raxasfestung: Vorbereitungen",
+        level = -1,
+    },
+    [48443] = {
+        name = "Die Nath'raxasfestung: Rettungsmission",
+        level = -1,
+    },
+    [48910] = {
+        name = "Vorräte für Krokuun",
+        level = -1,
+    },
+    [48446] = {
+        name = "Relikte der uralten Eredar",
+        level = -1,
+    },
+    [48447] = {
+        name = "Vertreibung der Schattenwache",
+        level = -1,
+    },
+    [48448] = {
+        name = "Die Legionskriegsmaschine lahmlegen",
+        level = -1,
+    },
+    [48542] = {
+        name = "Gegenschlag",
+        level = 110,
+    },
+    [48544] = {
+        name = "Ruhig, Brauner!",
+        level = 110,
+    },
+    [48455] = {
+        name = "Dämmerschutzproblem",
+        level = 110,
+    },
+    [48460] = {
+        name = "Die Tiertreiber",
+        level = 110,
+    },
+    [47967] = {
+        name = "Als Tiertreiber auf Argus",
+        level = 110,
+    },
+    [48601] = {
+        name = "Teufelsfeuerzerschmetterung",
+        level = -1,
+    },
+    [48912] = {
+        name = "Versorgung des antorischen Feldzugs",
+        level = -1,
+    },
+    [48600] = {
+        name = "Etwas weniger Druck",
+        level = -1,
+    },
+    [48634] = {
+        name = "Weitere Vorräte für Krokuun",
+        level = -1,
+    },
+    [48654] = {
+        name = "Unterhalb von Oronaar",
+        level = -1,
+    },
+    [48911] = {
+        name = "Leerenimpfung",
+        level = -1,
+    },
+    [48445] = {
+        name = "Die Ruinen von Oronaar",
+        level = -1,
     },
 }

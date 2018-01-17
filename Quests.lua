@@ -662,10 +662,6 @@ BtWQuests_Quests = {
         name = "Grumpy",
         level = -1,
     },
-    [39117] = {
-        name = "Shriek No More",
-        level = -1,
-    },
     [44555] = {
         name = "Khadgar's Discovery",
         level = 110,
@@ -888,10 +884,6 @@ BtWQuests_Quests = {
     },
     [40727] = {
         name = "All Along the Waterways",
-        level = 113,
-    },
-    [40730] = {
-        name = "Redistribution",
         level = 113,
     },
     [42828] = {
@@ -2248,10 +2240,6 @@ BtWQuests_Quests = {
         name = "Return of the Four Horsemen",
         level = -1,
     },
-    [42484] = {
-        name = "The Firstborn Rises",
-        level = -1,
-    },
     [44550] = {
         name = "Called to Acherus",
         level = -1,
@@ -3098,14 +3086,6 @@ BtWQuests_Quests = {
         name = "Homecoming",
         level = -1,
     },
-    [42390] = {
-        name = "Recruiting Rexxar",
-        level = -1,
-    },
-    [42388] = {
-        name = "Urgent Summons",
-        level = -1,
-    },
     [43335] = {
         name = "Survival Skills",
         level = -1,
@@ -3164,14 +3144,6 @@ BtWQuests_Quests = {
     },
     [42414] = {
         name = "Champion: Addie Fizzlebog",
-        level = -1,
-    },
-    [42397] = {
-        name = "Baron and the Huntsman",
-        level = -1,
-    },
-    [42403] = {
-        name = "Highmountain Hunters",
         level = -1,
     },
     [42398] = {
@@ -4453,10 +4425,6 @@ BtWQuests_Quests = {
         name = "Champion: High Priestess Ishanah",
         level = -1,
     },
-    [43265] = {
-        name = "Spread the Word",
-        level = -1,
-    },
     [43275] = {
         name = "Recruiting the Troops",
         level = -1,
@@ -5589,10 +5557,6 @@ BtWQuests_Quests = {
         name = "Trial of Valor: The Once and Future Lord of Shadows",
         difficulty = "lfr",
         tagID = QUEST_TAG_RAID,
-        level = 110,
-    },
-    [44480] = {
-        name = "In My Father's House",
         level = 110,
     },
     [45175] = {
@@ -7859,208 +7823,80 @@ BtWQuests_Quests = {
         name = "Summons to Orgrimmar",
         level = 110,
     },
-	[39954] = {
-		name = "Mass Milling Techniques",
-		level = -1,
-	},
-	[39955] = {
-		name = "The Plot Thickens",
-		level = -1,
-	},
-	[39956] = {
-		name = "The Legacy Passed On",
-		level = -1,
-	},
-	[40052] = {
-		name = "Ancient Vrykul Mastered",
-		level = -1,
-	},
-	[39932] = {
-		name = "Fish Ink",
-		level = -1,
-	},
-	[39961] = {
-		name = "An Embarrassing Revelation",
-		level = -1,
-	},
-	[39931] = {
-		name = "Smashing Herbs",
-		level = -1,
-	},
-	[40056] = {
-		name = "Our New Allies",
-		level = -1,
-	},
-	[40057] = {
-		name = "The Price of Power",
-		level = -1,
-	},
-	[39934] = {
-		name = "Our New Allies",
-		level = -1,
-	},
-	[39935] = {
-		name = "The Price of Power",
-		level = -1,
-	},
-	[40060] = {
-		name = "Containing the Demon Within",
-		level = -1,
-	},
-	[40061] = {
-		name = "To Know Your Enemy",
-		level = -1,
-	},
-	[39847] = {
-		name = "Sign This",
-		level = -1,
-	},
-	[40063] = {
-		name = "Control is Key",
-		level = -1,
-	},
-	[39940] = {
-		name = "Runes of Power",
-		level = -1,
-	},
-	[40059] = {
-		name = "Opposites Repel",
-		level = -1,
-	},
-	[40058] = {
-		name = "Defense Symbology",
-		level = -1,
-	},
-	[39943] = {
-		name = "The Burdens of Hunting",
-		level = -1,
-	},
-	[39944] = {
-		name = "Mysterious Messages",
-		level = -1,
-	},
-	[39933] = {
-		name = "The Card Shark",
-		level = -1,
-	},
-	[45163] = {
-		name = "Cleaning Up",
-		level = -1,
-	},
-	[45312] = {
-		name = "You Beat the Ball of Meat",
-		level = -1,
-	},
-	[45111] = {
-		name = "Everyone Loves a Good Fight",
-		level = -1,
-	},
-	[45162] = {
-		name = "We Brought the Hammer",
-		level = -1,
-	},
-	[45304] = {
-		name = "Attacking the Darkness",
-		level = -1,
-	},
-	[38716] = {
-		name = "Black Rook Hold",
-		level = -1,
-	},
-	[38711] = {
-		name = "The Warden's Signet",
-		level = -1,
-	},
-	[38748] = {
-		name = "Ruins of Shala'nir",
-		level = -1,
-	},
-	[38372] = {
-		name = "Wretched Sisters",
-		level = -1,
-	},
-	[39393] = {
-		name = "Moonclaw Vale",
-		level = -1,
-	},
-	[39029] = {
-		name = "Defend The Temple",
-		level = -1,
-	},
-	[48441] = {
-		name = "Remnants of Darkfall Ridge",
-		level = 110,
-	},
-	[48442] = {
-		name = "Nath'raxas Hold: Preparations",
-		level = 110,
-	},
-	[48443] = {
-		name = "Nath'raxas Hold: Rescue Mission",
-		level = 110,
-	},
-	[48910] = {
-		name = "Supplying Krokuun",
-		level = 110,
-	},
-	[48446] = {
-		name = "Relics of the Ancient Eredar",
-		level = 110,
-	},
-	[48447] = {
-		name = "Shadowguard Dispersion",
-		level = 110,
-	},
-	[48448] = {
-		name = "Hindering the Legion War Machine",
-		level = 110,
-	},
-	[48542] = {
-		name = "Strike Back",
-		level = 110,
-	},
-	[48544] = {
-		name = "Woah, Nelly!",
-		level = 110,
-	},
-	[48455] = {
-		name = "Duskcloak Problem",
-		level = 110,
-	},
-	[48460] = {
-		name = "The Wranglers",
-		level = 110,
-	},
-	[47967] = {
-		name = "An Argus Roper",
-		level = 110,
-	},
-	[48601] = {
-		name = "Felfire Shattering",
-		level = 110,
-	},
-	[48912] = {
-		name = "Supplying the Antoran Campaign",
-		level = 110,
-	},
-	[48600] = {
-		name = "Take the Edge Off",
-		level = 110,
-	},
-	[48634] = {
-		name = "Further Supplying Krokuun",
-		level = 110,
-	},
-	[48654] = {
-		name = "Beneath Oronaar",
-		level = 110,
-	},
-	[48911] = {
-		name = "Void Inoculation",
-		level = 110,
-	},
-	[48445] = {
-		name = "The Ruins of Oronaar",
-		level = 110,
-	},
+    [48441] = {
+        name = "Remnants of Darkfall Ridge",
+        level = -1,
+    },
+    [48442] = {
+        name = "Nath'raxas Hold: Preparations",
+        level = -1,
+    },
+    [48443] = {
+        name = "Nath'raxas Hold: Rescue Mission",
+        level = -1,
+    },
+    [48910] = {
+        name = "Supplying Krokuun",
+        level = -1,
+    },
+    [48446] = {
+        name = "Relics of the Ancient Eredar",
+        level = -1,
+    },
+    [48447] = {
+        name = "Shadowguard Dispersion",
+        level = -1,
+    },
+    [48448] = {
+        name = "Hindering the Legion War Machine",
+        level = -1,
+    },
+    [48542] = {
+        name = "Strike Back",
+        level = 110,
+    },
+    [48544] = {
+        name = "Woah, Nelly!",
+        level = 110,
+    },
+    [48455] = {
+        name = "Duskcloak Problem",
+        level = 110,
+    },
+    [48460] = {
+        name = "The Wranglers",
+        level = 110,
+    },
+    [47967] = {
+        name = "An Argus Roper",
+        level = 110,
+    },
+    [48601] = {
+        name = "Felfire Shattering",
+        level = -1,
+    },
+    [48912] = {
+        name = "Supplying the Antoran Campaign",
+        level = -1,
+    },
+    [48600] = {
+        name = "Take the Edge Off",
+        level = -1,
+    },
+    [48634] = {
+        name = "Further Supplying Krokuun",
+        level = -1,
+    },
+    [48654] = {
+        name = "Beneath Oronaar",
+        level = -1,
+    },
+    [48911] = {
+        name = "Void Inoculation",
+        level = -1,
+    },
+    [48445] = {
+        name = "The Ruins of Oronaar",
+        level = -1,
+    },
 }

@@ -668,10 +668,6 @@ BtWQuests_Quests = {
         name = "Ronchon",
         level = -1,
     },
-    [39117] = {
-        name = "Le dernier cri",
-        level = -1,
-    },
     [44555] = {
         name = "La découverte de Khadgar",
         level = 110,
@@ -894,10 +890,6 @@ BtWQuests_Quests = {
     },
     [40727] = {
         name = "Par les rivières souterraines",
-        level = 113,
-    },
-    [40730] = {
-        name = "Redistribution",
         level = 113,
     },
     [42828] = {
@@ -2254,10 +2246,6 @@ BtWQuests_Quests = {
         name = "Le retour des quatre cavaliers",
         level = -1,
     },
-    [42484] = {
-        name = "L’avènement du Premier-né",
-        level = -1,
-    },
     [44550] = {
         name = "Présence requise à Achérus",
         level = -1,
@@ -3104,14 +3092,6 @@ BtWQuests_Quests = {
         name = "Retour chez soi",
         level = -1,
     },
-    [42390] = {
-        name = "Le recrutement de Rexxar",
-        level = -1,
-    },
-    [42388] = {
-        name = "Une convocation urgente",
-        level = -1,
-    },
     [43335] = {
         name = "Compétences de survie",
         level = -1,
@@ -3170,14 +3150,6 @@ BtWQuests_Quests = {
     },
     [42414] = {
         name = "Championne : Addie Pétibourbe",
-        level = -1,
-    },
-    [42397] = {
-        name = "Baron et le veneur",
-        level = -1,
-    },
-    [42403] = {
-        name = "Chasseurs de Haut-Roc",
         level = -1,
     },
     [42398] = {
@@ -4459,10 +4431,6 @@ BtWQuests_Quests = {
         name = "Championne : grande prêtresse Ishanah",
         level = -1,
     },
-    [43265] = {
-        name = "Répandre la nouvelle",
-        level = -1,
-    },
     [43275] = {
         name = "Recrutement des troupes",
         level = -1,
@@ -5595,10 +5563,6 @@ BtWQuests_Quests = {
         name = "Jugement des Valeureux : seigneur des ombres un jour, seigneur des ombres toujours",
         difficulty = "lfr",
         tagID = QUEST_TAG_RAID,
-        level = 110,
-    },
-    [44480] = {
-        name = "Dans la maison de mon père",
         level = 110,
     },
     [45175] = {
@@ -7864,5 +7828,81 @@ BtWQuests_Quests = {
     [49977] = {
         name = "Convocation à Orgrimmar",
         level = 110,
+    },
+    [48441] = {
+        name = "Vestiges de la crête de Noirdéclin",
+        level = -1,
+    },
+    [48442] = {
+        name = "Bastion de Nath’raxas : préparatifs",
+        level = -1,
+    },
+    [48443] = {
+        name = "Bastion de Nath’raxas : mission de sauvetage",
+        level = -1,
+    },
+    [48910] = {
+        name = "Fournir Krokuun",
+        level = -1,
+    },
+    [48446] = {
+        name = "Des reliques des anciens érédars",
+        level = -1,
+    },
+    [48447] = {
+        name = "Disperser l’Ombre-Garde",
+        level = -1,
+    },
+    [48448] = {
+        name = "Un grain de sable dans la machine de guerre de la Légion",
+        level = -1,
+    },
+    [48542] = {
+        name = "Riposte",
+        level = 110,
+    },
+    [48544] = {
+        name = "À bride abattue",
+        level = 110,
+    },
+    [48455] = {
+        name = "Abattage de voiles-de-brune",
+        level = 110,
+    },
+    [48460] = {
+        name = "Les dresseurs",
+        level = 110,
+    },
+    [47967] = {
+        name = "Coup de filet sur Argus",
+        level = 110,
+    },
+    [48601] = {
+        name = "Gangrefeu à volonté",
+        level = -1,
+    },
+    [48912] = {
+        name = "Fournir la campagne antoréenne",
+        level = -1,
+    },
+    [48600] = {
+        name = "Bas les armes",
+        level = -1,
+    },
+    [48634] = {
+        name = "Fournir Krokuun à nouveau",
+        level = -1,
+    },
+    [48654] = {
+        name = "Sous Oronaar",
+        level = -1,
+    },
+    [48911] = {
+        name = "Inoculation du Vide",
+        level = -1,
+    },
+    [48445] = {
+        name = "Les ruines d’Oronaar",
+        level = -1,
     },
 }
