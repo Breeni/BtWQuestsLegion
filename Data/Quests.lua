@@ -7848,4 +7848,16 @@ BtWQuests_Quests = {
 		name = "Summons to Stormwind",
 		level = 110,
 	},
+	[49982] = {
+		name = "Witness to the Wound",
+		level = 110,
+	},
+	[50341] = {
+		name = "A Recent Discovery",
+		level = 110,
+	},
+	[49977] = {
+		name = "Summons to Orgrimmar",
+		level = 110,
+	},
 }
