@@ -98,7 +98,7 @@ BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION] = {
 }
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
-    name = 'BTWQUESTS_CHAIN_LEGION_EPILOGUE',
+    name = BTWQUESTS_EPILOGUE,
     category = 0,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {

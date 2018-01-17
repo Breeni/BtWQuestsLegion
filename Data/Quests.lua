@@ -7796,4 +7796,56 @@ BtWQuests_Quests = {
 		name = "Defend The Temple",
 		level = -1,
 	},
+	[50047] = {
+		name = "Free Samples",
+		level = 110,
+	},
+	[50228] = {
+		name = "The Twilight Survivor",
+		level = 110,
+	},
+	[49981] = {
+		name = "Witness to the Wound",
+		level = 110,
+	},
+	[50229] = {
+		name = "A Wee Bit O' Cloth",
+		level = 110,
+	},
+	[50372] = {
+		name = "Desert Research",
+		level = 110,
+	},
+	[50373] = {
+		name = "A Recent Arrival",
+		level = 110,
+	},
+	[49976] = {
+		name = "Gifts of the Fallen",
+		level = 110,
+	},
+	[50374] = {
+		name = "The Blood of Azeroth",
+		level = 110,
+	},
+	[50049] = {
+		name = "The Speaker's Perspective",
+		level = 110,
+	},
+	[50226] = {
+		name = "The Source of Power",
+		level = 110,
+	},
+	[50046] = {
+		name = "It's a Sabotage",
+		level = 110,
+	},
+	[50227] = {
+		name = "Larvae By The Dozen",
+		level = 110,
+	},
+	[50371] = {
+		name = "Summons to Stormwind",
+		level = 110,
+	},
 }
