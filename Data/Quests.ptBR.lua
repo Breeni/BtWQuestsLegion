@@ -668,10 +668,6 @@ BtWQuests_Quests = {
         name = "Rabugento",
         level = -1,
     },
-    [39117] = {
-        name = "Bico Fechado",
-        level = -1,
-    },
     [44555] = {
         name = "A descoberta de Hadggar",
         level = 110,
@@ -894,10 +890,6 @@ BtWQuests_Quests = {
     },
     [40727] = {
         name = "Ao longo dos cursos d'água",
-        level = 113,
-    },
-    [40730] = {
-        name = "Redistribuição",
         level = 113,
     },
     [42828] = {
@@ -2254,10 +2246,6 @@ BtWQuests_Quests = {
         name = "Retorno dos Quatro Cavaleiros",
         level = -1,
     },
-    [42484] = {
-        name = "A ascensão do Primeiro",
-        level = -1,
-    },
     [44550] = {
         name = "Chamada ao Áquerus",
         level = -1,
@@ -3104,14 +3092,6 @@ BtWQuests_Quests = {
         name = "Retorno para casa",
         level = -1,
     },
-    [42390] = {
-        name = "Recrutando Rexxar",
-        level = -1,
-    },
-    [42388] = {
-        name = "Evocações urgentes",
-        level = -1,
-    },
     [43335] = {
         name = "Habilidades de sobrevivência",
         level = -1,
@@ -3170,14 +3150,6 @@ BtWQuests_Quests = {
     },
     [42414] = {
         name = "Campeão: Addie Chiabrejo",
-        level = -1,
-    },
-    [42397] = {
-        name = "Barão e o guarda-caça",
-        level = -1,
-    },
-    [42403] = {
-        name = "Caçadores de Alta Montanha",
         level = -1,
     },
     [42398] = {
@@ -4459,10 +4431,6 @@ BtWQuests_Quests = {
         name = "Campeã: Alta-sacerdotisa Ishanah",
         level = -1,
     },
-    [43265] = {
-        name = "Espalhe a notícia",
-        level = -1,
-    },
     [43275] = {
         name = "Recrutando tropas",
         level = -1,
@@ -5595,10 +5563,6 @@ BtWQuests_Quests = {
         name = "Provação da Bravura: o único e futuro Lorde das Sombras",
         difficulty = "lfr",
         tagID = QUEST_TAG_RAID,
-        level = 110,
-    },
-    [44480] = {
-        name = "Na casa do meu pai",
         level = 110,
     },
     [45175] = {
@@ -7864,5 +7828,81 @@ BtWQuests_Quests = {
     [49977] = {
         name = "Convocação a Orgrimmar",
         level = 110,
+    },
+    [48441] = {
+        name = "Restos no Desfiladeiro das Trevas",
+        level = -1,
+    },
+    [48442] = {
+        name = "Castelo Nath'raxas: Preparativos",
+        level = -1,
+    },
+    [48443] = {
+        name = "Castelo Nath'raxas: Missão de resgate",
+        level = -1,
+    },
+    [48910] = {
+        name = "Suprimentos para Krokuun",
+        level = -1,
+    },
+    [48446] = {
+        name = "Relíquias dos antigos eredares",
+        level = -1,
+    },
+    [48447] = {
+        name = "Dispersão da Guarda Sombria",
+        level = -1,
+    },
+    [48448] = {
+        name = "Desmantelando a máquina de guerra da Legião",
+        level = -1,
+    },
+    [48542] = {
+        name = "Contra-ataque",
+        level = 110,
+    },
+    [48544] = {
+        name = "Eita, ferro!",
+        level = 110,
+    },
+    [48455] = {
+        name = "Problema Crepusculante",
+        level = 110,
+    },
+    [48460] = {
+        name = "Os enlaçadores",
+        level = 110,
+    },
+    [47967] = {
+        name = "Laçada em Argus",
+        level = 110,
+    },
+    [48601] = {
+        name = "Fogovil estilhaçado",
+        level = -1,
+    },
+    [48912] = {
+        name = "Suprimentos para a campanha Antorana",
+        level = -1,
+    },
+    [48600] = {
+        name = "Lâmina cega",
+        level = -1,
+    },
+    [48634] = {
+        name = "Mais suprimentos para Krokuun",
+        level = -1,
+    },
+    [48654] = {
+        name = "Sob Oronaar",
+        level = -1,
+    },
+    [48911] = {
+        name = "Inoculação de caos",
+        level = -1,
+    },
+    [48445] = {
+        name = "As Ruínas de Oronaar",
+        level = -1,
     },
 }

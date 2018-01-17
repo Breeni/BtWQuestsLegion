@@ -668,10 +668,6 @@ BtWQuests_Quests = {
         name = "Grumpy",
         level = -1,
     },
-    [39117] = {
-        name = "Shriek No More",
-        level = -1,
-    },
     [44555] = {
         name = "Khadgar's Discovery",
         level = 110,
@@ -894,10 +890,6 @@ BtWQuests_Quests = {
     },
     [40727] = {
         name = "All Along the Waterways",
-        level = 113,
-    },
-    [40730] = {
-        name = "Redistribution",
         level = 113,
     },
     [42828] = {
@@ -2254,10 +2246,6 @@ BtWQuests_Quests = {
         name = "Return of the Four Horsemen",
         level = -1,
     },
-    [42484] = {
-        name = "The Firstborn Rises",
-        level = -1,
-    },
     [44550] = {
         name = "Called to Acherus",
         level = -1,
@@ -3104,14 +3092,6 @@ BtWQuests_Quests = {
         name = "Homecoming",
         level = -1,
     },
-    [42390] = {
-        name = "Recruiting Rexxar",
-        level = -1,
-    },
-    [42388] = {
-        name = "Urgent Summons",
-        level = -1,
-    },
     [43335] = {
         name = "Survival Skills",
         level = -1,
@@ -3170,14 +3150,6 @@ BtWQuests_Quests = {
     },
     [42414] = {
         name = "Champion: Addie Fizzlebog",
-        level = -1,
-    },
-    [42397] = {
-        name = "Baron and the Huntsman",
-        level = -1,
-    },
-    [42403] = {
-        name = "Highmountain Hunters",
         level = -1,
     },
     [42398] = {
@@ -4459,10 +4431,6 @@ BtWQuests_Quests = {
         name = "Champion: High Priestess Ishanah",
         level = -1,
     },
-    [43265] = {
-        name = "Spread the Word",
-        level = -1,
-    },
     [43275] = {
         name = "Recruiting the Troops",
         level = -1,
@@ -5595,10 +5563,6 @@ BtWQuests_Quests = {
         name = "Trial of Valor: The Once and Future Lord of Shadows",
         difficulty = "lfr",
         tagID = QUEST_TAG_RAID,
-        level = 110,
-    },
-    [44480] = {
-        name = "In My Father's House",
         level = 110,
     },
     [45175] = {
@@ -7864,5 +7828,81 @@ BtWQuests_Quests = {
     [49977] = {
         name = "Summons to Orgrimmar",
         level = 110,
+    },
+    [48441] = {
+        name = "Remnants of Darkfall Ridge",
+        level = -1,
+    },
+    [48442] = {
+        name = "Nath'raxas Hold: Preparations",
+        level = -1,
+    },
+    [48443] = {
+        name = "Nath'raxas Hold: Rescue Mission",
+        level = -1,
+    },
+    [48910] = {
+        name = "Supplying Krokuun",
+        level = -1,
+    },
+    [48446] = {
+        name = "Relics of the Ancient Eredar",
+        level = -1,
+    },
+    [48447] = {
+        name = "Shadowguard Dispersion",
+        level = -1,
+    },
+    [48448] = {
+        name = "Hindering the Legion War Machine",
+        level = -1,
+    },
+    [48542] = {
+        name = "Strike Back",
+        level = 110,
+    },
+    [48544] = {
+        name = "Woah, Nelly!",
+        level = 110,
+    },
+    [48455] = {
+        name = "Duskcloak Problem",
+        level = 110,
+    },
+    [48460] = {
+        name = "The Wranglers",
+        level = 110,
+    },
+    [47967] = {
+        name = "An Argus Roper",
+        level = 110,
+    },
+    [48601] = {
+        name = "Felfire Shattering",
+        level = -1,
+    },
+    [48912] = {
+        name = "Supplying the Antoran Campaign",
+        level = -1,
+    },
+    [48600] = {
+        name = "Take the Edge Off",
+        level = -1,
+    },
+    [48634] = {
+        name = "Further Supplying Krokuun",
+        level = -1,
+    },
+    [48654] = {
+        name = "Beneath Oronaar",
+        level = -1,
+    },
+    [48911] = {
+        name = "Void Inoculation",
+        level = -1,
+    },
+    [48445] = {
+        name = "The Ruins of Oronaar",
+        level = -1,
     },
 }

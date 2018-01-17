@@ -668,10 +668,6 @@ BtWQuests_Quests = {
         name = "Protestón",
         level = -1,
     },
-    [39117] = {
-        name = "Basta de chillidos",
-        level = -1,
-    },
     [44555] = {
         name = "El descubrimiento de Khadgar",
         level = 110,
@@ -894,10 +890,6 @@ BtWQuests_Quests = {
     },
     [40727] = {
         name = "A lo largo de los canales",
-        level = 113,
-    },
-    [40730] = {
-        name = "Redistribución",
         level = 113,
     },
     [42828] = {
@@ -2254,10 +2246,6 @@ BtWQuests_Quests = {
         name = "El retorno de los Cuatro Jinetes",
         level = -1,
     },
-    [42484] = {
-        name = "El Primogénito se alza",
-        level = -1,
-    },
     [44550] = {
         name = "Llamada a Acherus",
         level = -1,
@@ -3104,14 +3092,6 @@ BtWQuests_Quests = {
         name = "El regreso",
         level = -1,
     },
-    [42390] = {
-        name = "Reclutar a Rexxar",
-        level = -1,
-    },
-    [42388] = {
-        name = "Llamada urgente",
-        level = -1,
-    },
     [43335] = {
         name = "Conocimientos de supervivencia",
         level = -1,
@@ -3170,14 +3150,6 @@ BtWQuests_Quests = {
     },
     [42414] = {
         name = "Campeona: Addie Silbarisma",
-        level = -1,
-    },
-    [42397] = {
-        name = "Barón y el montero",
-        level = -1,
-    },
-    [42403] = {
-        name = "Cazadores de Monte Alto",
         level = -1,
     },
     [42398] = {
@@ -4459,10 +4431,6 @@ BtWQuests_Quests = {
         name = "Campeona: Suma sacerdotisa Ishanah",
         level = -1,
     },
-    [43265] = {
-        name = "Que corra la voz",
-        level = -1,
-    },
     [43275] = {
         name = "Reclutar tropas",
         level = -1,
@@ -5595,10 +5563,6 @@ BtWQuests_Quests = {
         name = "Prueba del Valor: El pasado y futuro Señor de las Sombras",
         difficulty = "lfr",
         tagID = QUEST_TAG_RAID,
-        level = 110,
-    },
-    [44480] = {
-        name = "En casa de mi padre",
         level = 110,
     },
     [45175] = {
@@ -7864,5 +7828,81 @@ BtWQuests_Quests = {
     [49977] = {
         name = "Convocatoria en Orgrimmar",
         level = 110,
+    },
+    [48441] = {
+        name = "Restos de Cresta Caída Oscura",
+        level = -1,
+    },
+    [48442] = {
+        name = "Fuerte Nath'raxas: Preparativos",
+        level = -1,
+    },
+    [48443] = {
+        name = "Fuerte Nath'raxas: Misión de rescate",
+        level = -1,
+    },
+    [48910] = {
+        name = "Suministros para Krokuun",
+        level = -1,
+    },
+    [48446] = {
+        name = "Reliquias de los eredar ancestrales",
+        level = -1,
+    },
+    [48447] = {
+        name = "Dispersión de la Guardia de las Sombras",
+        level = -1,
+    },
+    [48448] = {
+        name = "Desbarata la máquina de guerra de la Legión",
+        level = -1,
+    },
+    [48542] = {
+        name = "Contraataque",
+        level = 110,
+    },
+    [48544] = {
+        name = "¡Arre, arre!",
+        level = 110,
+    },
+    [48455] = {
+        name = "La amenaza de los mantocaso",
+        level = 110,
+    },
+    [48460] = {
+        name = "Los retadores",
+        level = 110,
+    },
+    [47967] = {
+        name = "Un lacero de Argus",
+        level = 110,
+    },
+    [48601] = {
+        name = "Destrucción del fuego vil",
+        level = -1,
+    },
+    [48912] = {
+        name = "Suministros para la campaña antoriana",
+        level = -1,
+    },
+    [48600] = {
+        name = "Cortar la ventaja",
+        level = -1,
+    },
+    [48634] = {
+        name = "Más suministros para Krokuun",
+        level = -1,
+    },
+    [48654] = {
+        name = "Debajo de Oronaar",
+        level = -1,
+    },
+    [48911] = {
+        name = "Inoculación del Vacío",
+        level = -1,
+    },
+    [48445] = {
+        name = "Las Ruinas de Oronaar",
+        level = -1,
     },
 }
