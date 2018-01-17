@@ -506,6 +506,14 @@ BtWQuests_Quests = {
         name = "O Retorno ao Bosque",
         level = -1,
     },
+    [38322] = {
+        name = "O Retorno ao Bosque",
+        level = -1,
+    },
+    [38323] = {
+        name = "O Retorno ao Bosque",
+        level = -1,
+    },
     [38377] = {
         name = "A Rainha Esmeralda",
         level = -1,
@@ -7246,5 +7254,615 @@ BtWQuests_Quests = {
     [38882] = {
         name = "Uma nova vida para os mortos-vivos",
         level = -1,
+    },
+    [38513] = {
+        name = "Os ferreiros de Alta Montanha",
+        level = 104,
+    },
+    [38515] = {
+        name = "A natureza provê",
+        level = 102,
+    },
+    [38519] = {
+        name = "Peso cinza",
+        level = 104,
+    },
+    [38523] = {
+        name = "Ferraduras de Pedra de Meridiano",
+        level = 106,
+    },
+    [38525] = {
+        name = "Membro da equipe",
+        level = 110,
+    },
+    [44449] = {
+        name = "Têmpera avançada",
+        level = 108,
+    },
+    [39726] = {
+        name = "... E a bigorna",
+        level = 108,
+    },
+    [38531] = {
+        name = "Maestria de pedra de meridiano",
+        level = 110,
+    },
+    [38533] = {
+        name = "Conhecimento Tribal",
+        level = 110,
+    },
+    [39681] = {
+        name = "As propriedades da pedra de meridiano",
+        level = 100,
+    },
+    [38559] = {
+        name = "Digno da pedra",
+        level = 110,
+    },
+    [38563] = {
+        name = "Colhedores de flor e bebedores de poção",
+        level = 102,
+    },
+    [38502] = {
+        name = "Os métodos dos noctívoros",
+        level = 100,
+    },
+    [38506] = {
+        name = "Arranhão de galinha",
+        level = 102,
+    },
+    [38514] = {
+        name = "Você não é digno",
+        level = 104,
+    },
+    [38518] = {
+        name = "De um mestre para outro",
+        level = 104,
+    },
+    [38522] = {
+        name = "Não são só armas e armaduras",
+        level = 106,
+    },
+    [38524] = {
+        name = "Forjavil Nal'ryssa",
+        level = 110,
+    },
+    [38526] = {
+        name = "Ferreiro frito",
+        level = 110,
+    },
+    [38528] = {
+        name = "O potencial da pedra de meridiano",
+        level = 110,
+    },
+    [38530] = {
+        name = "A Pedra do Firmamento",
+        level = 110,
+    },
+    [39729] = {
+        name = "O conhecimento do Corvo Negro",
+        level = 108,
+    },
+    [48053] = {
+        name = "Levantar âncora",
+        level = -1,
+    },
+    [39680] = {
+        name = "Entre o martelo e...",
+        level = 108,
+    },
+    [38833] = {
+        name = "A arte do demonaço",
+        level = 110,
+    },
+    [38532] = {
+        name = "Gorja das Almas: martelada da tempestade",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [39699] = {
+        name = "Forja meridional chifre de ferro",
+        level = 104,
+    },
+    [38499] = {
+        name = "Novos minérios estranhos",
+        level = 100,
+    },
+    [38564] = {
+        name = "Uma ótima troca",
+        level = 108,
+    },
+    [39702] = {
+        name = "Lenda do Castelo Corvo Negro",
+        level = 108,
+    },
+    [38505] = {
+        name = "Engenheiros: não são TÃO inúteis assim",
+        level = 102,
+    },
+    [38507] = {
+        name = "Os segredos da Forja Meridional",
+        level = 102,
+    },
+    [38527] = {
+        name = "A técnica de Nal'ryssa",
+        level = 110,
+    },
+    [38500] = {
+        name = "Maestria em Forja Meridional",
+        level = 102,
+    },
+    [38501] = {
+        name = "Martelagem espiródia",
+        level = 100,
+    },
+    [39883] = {
+        name = "Envolto em tradição",
+        level = 102,
+    },
+    [39884] = {
+        name = "Indignos",
+        level = 104,
+    },
+    [39916] = {
+        name = "Reviravolta e traição",
+        level = 108,
+    },
+    [39918] = {
+        name = "A sacerdotisa ausente",
+        level = 108,
+    },
+    [39889] = {
+        name = "Desencaminhados",
+        level = 104,
+    },
+    [40169] = {
+        name = "Encontro na encruzilhada",
+        level = 108,
+    },
+    [39891] = {
+        name = "Amaldiçoado, porém conveniente",
+        level = 108,
+    },
+    [39923] = {
+        name = "Até o núcleo",
+        level = 110,
+    },
+    [40048] = {
+        name = "Fios dos mestres de marionetes",
+        level = 100,
+    },
+    [39920] = {
+        name = "Nas asas lazúli",
+        level = 110,
+    },
+    [39907] = {
+        name = "Encantamentos élficos",
+        level = 108,
+    },
+    [40130] = {
+        name = "Lavado",
+        level = 108,
+    },
+    [39914] = {
+        name = "O último dever da Sentinela",
+        level = 108,
+    },
+    [39910] = {
+        name = "O débito do druida",
+        level = 108,
+    },
+    [39906] = {
+        name = "Preparativos para a batalha",
+        level = 108,
+    },
+    [39905] = {
+        name = "A verdade inexorável",
+        level = 100,
+    },
+    [39903] = {
+        name = "Um lar encantador",
+        level = 106,
+    },
+    [39904] = {
+        name = "Salões da Bravura: a vingança da encantadora",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 106,
+    },
+    [39874] = {
+        name = "Uma noite encantada",
+        level = 100,
+    },
+    [39875] = {
+        name = "Os últimos velinos",
+        level = 100,
+    },
+    [39876] = {
+        name = "Ajudando os caçadores",
+        level = 100,
+    },
+    [39877] = {
+        name = "No circuito",
+        level = 100,
+    },
+    [39878] = {
+        name = "Ajuda do trovão",
+        level = 102,
+    },
+    [39879] = {
+        name = "Forte feito a terra",
+        level = 102,
+    },
+    [39880] = {
+        name = "Nada de desperdício",
+        level = 102,
+    },
+    [39881] = {
+        name = "Encantamentos feéricos",
+        level = 104,
+    },
+    [39882] = {
+        name = "Bosque Corenegro: o glamour se foi",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 104,
+    },
+    [40265] = {
+        name = "Um toque de magia",
+        level = 106,
+    },
+    [39921] = {
+        name = "Covil de Neltharion: bastão de Lazúli",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [40875] = {
+        name = "Indo pro lixo",
+        level = 106,
+    },
+    [40876] = {
+        name = "Bruxo, trapaça e um barril fumegante",
+        level = 106,
+    },
+    [40877] = {
+        name = "Salões da Bravura: dedo nervoso",
+        level = 108,
+    },
+    [40878] = {
+        name = "Assault on Violet Hold: Cheating Death",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = -1,
+    },
+    [40879] = {
+        name = "Gigantes Autômatos",
+        level = 110,
+    },
+    [40880] = {
+        name = "Curto-circuito",
+        level = 110,
+    },
+    [40881] = {
+        name = "Trapos de óleo para os ricos",
+        level = 110,
+    },
+    [40882] = {
+        name = "Pátio das Estrelas: reajustando o coice",
+        difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 110,
+    },
+    [40854] = {
+        name = "Possibilidades infinitas",
+        level = 100,
+    },
+    [40855] = {
+        name = "Nosso homem em Azsuna",
+        level = 100,
+    },
+    [40856] = {
+        name = "Tem um preço",
+        level = 100,
+    },
+    [40545] = {
+        name = "Ah, porcaria!",
+        level = 100,
+    },
+    [46128] = {
+        name = "Hora de recarregar",
+        level = 110,
+    },
+    [40859] = {
+        name = "Tá na moda: Craniarmas!",
+        level = 100,
+    },
+    [40860] = {
+        name = "Reabastecendo a linha",
+        level = 102,
+    },
+    [40861] = {
+        name = "Na minha mira",
+        level = 102,
+    },
+    [40862] = {
+        name = "Tudo pronto",
+        level = 102,
+    },
+    [40863] = {
+        name = "Sempre a última coisa",
+        level = 102,
+    },
+    [40864] = {
+        name = "Modular Modifications",
+        level = -1,
+    },
+    [40865] = {
+        name = "Não É Tão Complicado Assim",
+        level = 104,
+    },
+    [40866] = {
+        name = "Você disse a concha?",
+        level = 104,
+    },
+    [40867] = {
+        name = "Isca de iscas",
+        level = 104,
+    },
+    [40868] = {
+        name = "Barato muito doido de espaço-tempo",
+        level = 104,
+    },
+    [40869] = {
+        name = "Disparar e esquecer",
+        level = 104,
+    },
+    [40870] = {
+        name = "Lá vem CABUM!",
+        level = 104,
+    },
+    [40871] = {
+        name = "Armado e Pronto",
+        level = 106,
+    },
+    [40872] = {
+        name = "Saída explosiva",
+        level = 106,
+    },
+    [40873] = {
+        name = "Mantenha a pólvora seca",
+        level = 106,
+    },
+    [40874] = {
+        name = "Eu faria pessoalmente, mas...",
+        level = 106,
+    },
+    [40858] = {
+        name = "As peças faltantes",
+        level = 100,
+    },
+    [39945] = {
+        name = "Runas nas ruínas",
+        level = 104,
+    },
+    [39946] = {
+        name = "A ferramenta certa para o trabalho",
+        level = 104,
+    },
+    [39947] = {
+        name = "Nada tão complexo?",
+        level = 104,
+    },
+    [39948] = {
+        name = "A tinta flui",
+        level = 106,
+    },
+    [39949] = {
+        name = "Um escriba como você",
+        level = 106,
+    },
+    [39950] = {
+        name = "Um berloque estranho",
+        level = 106,
+    },
+    [39953] = {
+        name = "Salões da Bravura: visão de bravura",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
+        level = 106,
+    },
+    [39954] = {
+        name = "Técnicas de trituração em massa",
+        level = 108,
+    },
+    [39955] = {
+        name = "A trama se aprofunda",
+        level = 108,
+    },
+    [39956] = {
+        name = "O legado transmitido",
+        level = 108,
+    },
+    [40052] = {
+        name = "Vraikal ancestral dominado",
+        level = 104,
+    },
+    [39932] = {
+        name = "Tinta de Peixe",
+        level = 100,
+    },
+    [39961] = {
+        name = "Uma revelação embaraçosa",
+        level = 108,
+    },
+    [39931] = {
+        name = "Triturando plantas",
+        level = 100,
+    },
+    [40056] = {
+        name = "Nossos Novos Aliados",
+        level = 102,
+    },
+    [40057] = {
+        name = "O preço do poder",
+        level = 102,
+    },
+    [39934] = {
+        name = "Nossos Novos Aliados",
+        level = 102,
+    },
+    [39935] = {
+        name = "O preço do poder",
+        level = 102,
+    },
+    [40060] = {
+        name = "Contendo o demônio interior",
+        level = 102,
+    },
+    [40061] = {
+        name = "Conhecer seu inimigo",
+        level = 102,
+    },
+    [39847] = {
+        name = "Assine isto",
+        level = 100,
+    },
+    [40063] = {
+        name = "Controle é essencial",
+        level = 102,
+    },
+    [39940] = {
+        name = "Runas de Poder",
+        level = 102,
+    },
+    [40059] = {
+        name = "Opostos se repelem",
+        level = 102,
+    },
+    [40058] = {
+        name = "Simbologia de defesa",
+        level = 102,
+    },
+    [39943] = {
+        name = "O fardo da caça",
+        level = 102,
+    },
+    [39944] = {
+        name = "Mensagens Misteriosas",
+        level = 104,
+    },
+    [39933] = {
+        name = "O tubarão das cartas",
+        level = 100,
+    },
+    [45163] = {
+        name = "Limpeza geral",
+        level = -1,
+    },
+    [45312] = {
+        name = "Você venceu o Almôndega",
+        level = -1,
+    },
+    [45111] = {
+        name = "Todo mundo gosta de uma boa briga",
+        level = -1,
+    },
+    [45162] = {
+        name = "Nós trouxemos o martelo",
+        level = -1,
+    },
+    [45304] = {
+        name = "Ataque às trevas",
+        level = -1,
+    },
+    [38716] = {
+        name = "Castelo Corvo Negro",
+        level = -1,
+    },
+    [38711] = {
+        name = "O Sinete da Guardiã",
+        level = -1,
+    },
+    [38748] = {
+        name = "Ruínas de Shala'nir",
+        level = -1,
+    },
+    [38372] = {
+        name = "Irmãs Ignóbeis",
+        level = -1,
+    },
+    [39393] = {
+        name = "Vale Garralua",
+        level = -1,
+    },
+    [39029] = {
+        name = "Defender o Templo",
+        level = -1,
+    },
+    [50047] = {
+        name = "Amostras grátis",
+        level = 110,
+    },
+    [50228] = {
+        name = "O sobrevivente do Crepúsculo",
+        level = 110,
+    },
+    [49981] = {
+        name = "Testemunha da ferida",
+        level = 110,
+    },
+    [50229] = {
+        name = "Um tiquinho de pano",
+        level = 110,
+    },
+    [50372] = {
+        name = "Pesquisa no deserto",
+        level = 110,
+    },
+    [50373] = {
+        name = "Recém-chegado",
+        level = 110,
+    },
+    [49976] = {
+        name = "Dádivas dos Caídos",
+        level = 110,
+    },
+    [50374] = {
+        name = "O sangue de Azeroth",
+        level = 110,
+    },
+    [50049] = {
+        name = "O ponto de vista do mensageiro",
+        level = 110,
+    },
+    [50226] = {
+        name = "A fonte de poder",
+        level = 110,
+    },
+    [50046] = {
+        name = "É sa-bo-ta-gem",
+        level = 110,
+    },
+    [50227] = {
+        name = "Larvas de baciada",
+        level = 110,
+    },
+    [50371] = {
+        name = "Convocatórias a Ventobravo",
+        level = 110,
+    },
+    [49982] = {
+        name = "Testemunha da ferida",
+        level = 110,
+    },
+    [50341] = {
+        name = "Uma recente descoberta",
+        level = 110,
+    },
+    [49977] = {
+        name = "Convocação a Orgrimmar",
+        level = 110,
     },
 }
