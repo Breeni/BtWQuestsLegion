@@ -270,6 +270,156 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE] = {
         },
     },
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
+    name = "Uuna",
+    category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 47885,
+    },
+    range = {110},
+    items = {
+        {
+            name = "Collect Uuna from the Many-Faced Devourer",
+            completed = function ()
+                return C_PetJournal.GetOwnedBattlePetString(2136) ~= nil
+            end,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "Summon Uuna and wait for her to emote",
+            id = 50098,
+            x = 3,
+            y = 1,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "/whistle at Uuna",
+            id = 50099,
+            x = 3,
+            y = 2,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "/roar at Uuna",
+            id = 50100,
+            x = 3,
+            y = 3,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "/cry at Uuna",
+            id = 50101,
+            x = 3,
+            y = 4,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "Take Uuna to A'dal in Shattrath",
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(481, 0, 0.5398, 0.4477, "A'dal")
+            end,
+            id = 50102,
+            x = 3,
+            y = 5,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "Take Uuna to Lake Falathim in Ashenvale",
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(43, 0, 0.1889, 0.4161, "Lake Falathim")
+            end,
+            id = 50103,
+            x = 3,
+            y = 6,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "Take Uuna to Nuu in Mac'Aree",
+            onClick = function ()
+                BtWQuests_AddWaypoint(1170, 0, 0.3272, 0.7552, "Nuu")
+                BtWQuests_AddWaypoint(1170, 0, 0.2516, 0.5989, "Jump and glide from the highest point to the next island")
+                BtWQuests_ShowMapWithWaypoint(1170, 0, 0.2401, 0.5864, "Glide from here to the first island")
+            end,
+            id = 50104,
+            x = 3,
+            y = 7,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "Take Uuna to Jessera of Mac'Aree",
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(476, 0, 0.5653, 0.5646, "Jessera of Mac'Aree")
+            end,
+            id = 50105,
+            x = 3,
+            y = 8,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "Take Uuna to a camp in Shadowmoon Valley",
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(947, 0, 0.5602, 0.4113, "Camp in Shadowmoon Valley")
+            end,
+            id = 50106,
+            x = 3,
+            y = 9,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "Wait for poor Uuna to get taken by darkness",
+            id = 50107,
+            x = 3,
+            y = 10,
+            connections = {
+                1,
+            }
+        },
+        {
+            type = "quest",
+            name = "Speak to any Spirit Healer",
+            id = 50108,
+            x = 3,
+            y = 11,
+            connections = {
+                1,
+            }
+        },
+    },
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_HIDDEN] = {
     name = BTWQUESTS_SECRET,
@@ -290,6 +440,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_HIDDEN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA,
         },
     },
 }
