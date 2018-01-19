@@ -572,7 +572,7 @@ function BtWQuests_GetQuestByID(questID)
         questName = questName(quest)
     end
     
-    local link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(questID), quest.level or -1, questName)
+    local link = format("\124cffffff00\124Hquest:%d:%d:%d:255\124h[%s]\124h\124r", tonumber(questID), quest.level or -1, quest.requiredLevel or -1, BtWQuests_EvalText(quest.name, quest))
     return tonumber(questID), questName, (quest.link or link), quest.difficulty, quest.tagID
 end
 
@@ -681,7 +681,8 @@ function BtWQuests_EvalChainItem(item)
                 GameTooltip:Hide()
             end
             
-            userdata.link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, BtWQuests_EvalText(quest.name, quest))
+            userdata.link = format("\124cffffff00\124Hquest:%d:%d:%d:255\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, quest.requiredLevel or -1, BtWQuests_EvalText(quest.name, quest))
+            -- userdata.link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, BtWQuests_EvalText(quest.name, quest))
         elseif item.type == "mission" then
             local mission = BtWQuests_Missions[item.id]
             
