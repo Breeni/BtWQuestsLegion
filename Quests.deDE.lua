@@ -9859,4 +9859,39 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [41397] = {
+        name = "Ein Riesenpaket",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [46278] = {
+        name = "Zurück an den Absender",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41394] = {
+        name = "Ein kleiner Nebenverdienst",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41368] = {
+        name = "Verlorene Post",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [50247] = {
+        name = "Die Post muss fließen",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41367] = {
+        name = "Eilzustellung",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41395] = {
+        name = "Der gebührende Lohn",
+        level = 110,
+        requiredLevel = 98,
+    },
 }

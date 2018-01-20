@@ -9859,4 +9859,39 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [41397] = {
+        name = "Un paquete enorme",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [46278] = {
+        name = "Devolver al remitente",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41394] = {
+        name = "A la orden, señor",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41368] = {
+        name = "Correo perdido",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [50247] = {
+        name = "El correo nunca se detiene",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41367] = {
+        name = "Entrega urgente",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41395] = {
+        name = "Recompensa merecida",
+        level = 110,
+        requiredLevel = 98,
+    },
 }

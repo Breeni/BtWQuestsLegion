@@ -9859,4 +9859,39 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [41397] = {
+        name = "Un gros colis",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [46278] = {
+        name = "Retour à l’expéditeur",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41394] = {
+        name = "Avec le sourire",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41368] = {
+        name = "Courrier perdu",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [50247] = {
+        name = "Les chiens aboient, le courrier passe !",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41367] = {
+        name = "Livraison prioritaire",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41395] = {
+        name = "Une juste récompense",
+        level = 110,
+        requiredLevel = 98,
+    },
 }

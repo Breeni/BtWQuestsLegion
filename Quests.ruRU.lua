@@ -9859,4 +9859,39 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [41397] = {
+        name = "Крупная посылка",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [46278] = {
+        name = "Вернуть отправителю",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41394] = {
+        name = "Рад служить",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41368] = {
+        name = "Утерянное письмо",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [50247] = {
+        name = "Письма должны поступать!",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41367] = {
+        name = "Срочная доставка",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41395] = {
+        name = "Достойная награда",
+        level = 110,
+        requiredLevel = 98,
+    },
 }

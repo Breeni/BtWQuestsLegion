@@ -9859,4 +9859,39 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [41397] = {
+        name = "커다란 소포",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [46278] = {
+        name = "반송",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41394] = {
+        name = "웃으며 하는 일",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41368] = {
+        name = "잃어버린 우편",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [50247] = {
+        name = "우편은 계속 배달되어야 한다",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41367] = {
+        name = "우등 우편물 배달",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41395] = {
+        name = "정당한 보상",
+        level = 110,
+        requiredLevel = 98,
+    },
 }
