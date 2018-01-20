@@ -7906,5 +7906,34 @@ BtWQuests_Quests = {
 	[48635] = {
 		name = "More Void Inoculation",
 		level = -1,
+    },
+    
+	[41397] = {
+		name = "A Huge Package",
+		level = -1,
+	},
+	[46278] = {
+		name = "Return to Sender",
+		level = -1,
+	},
+	[41394] = {
+		name = "Service with a Smile",
+		level = -1,
+	},
+	[41368] = {
+		name = "Lost Mail",
+		level = -1,
+	},
+	[50247] = {
+		name = "The Mail Must Flow",
+		level = -1,
+	},
+	[41367] = {
+		name = "Priority Delivery",
+		level = -1,
+	},
+	[41395] = {
+		name = "Due Reward",
+		level = -1,
 	},
 }
