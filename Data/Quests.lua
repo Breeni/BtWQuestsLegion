@@ -9853,4 +9853,39 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [41397] = {
+        name = "A Huge Package",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [46278] = {
+        name = "Return to Sender",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41394] = {
+        name = "Service with a Smile",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41368] = {
+        name = "Lost Mail",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [50247] = {
+        name = "The Mail Must Flow",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41367] = {
+        name = "Priority Delivery",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41395] = {
+        name = "Due Reward",
+        level = 110,
+        requiredLevel = 98,
+    },
 }
