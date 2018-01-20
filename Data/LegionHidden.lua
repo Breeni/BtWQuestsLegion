@@ -25,7 +25,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
         type = "quest",
-        id = 47214,
+        id = 50147,
     },
     range = {110},
     items = {
@@ -448,7 +448,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
             type = "quest",
             name = "Take Uuna to the Nighthold Entrance",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(811, 0, 0.62, 0.83, "Nighthold Entrance")
+                BtWQuests_ShowMapWithWaypoint(1033, 0, 0.62, 0.83, "Nighthold Entrance")
             end,
             id = 50141,
             x = 3,
@@ -461,7 +461,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
             type = "quest",
             name = "Take Uuna to Krasus Landing",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(811, 0, 0.74, 0.46, "Krasus Landing")
+                BtWQuests_ShowMapWithWaypoint(1014, 10, 0.74, 0.46, "Krasus Landing")
             end,
             id = 50142,
             x = 3,
@@ -474,7 +474,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
             type = "quest",
             name = "Take Uuna to Wyrmrest Temple",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(811, 0, 0.57, 0.54, "Wyrmrest Temple")
+                BtWQuests_ShowMapWithWaypoint(488, 0, 0.57, 0.54, "Wyrmrest Temple")
             end,
             id = 50143,
             x = 3,
@@ -485,9 +485,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
         },
         {
             type = "quest",
-            name = "Take Uuna to Hyjal",
+            name = "Take Uuna to Mount Hyjal",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(811, 0, 0.59, 0.24, "Hyjal")
+                BtWQuests_ShowMapWithWaypoint(606, 0, 0.59, 0.24, "Mount Hyjal")
             end,
             id = 50144,
             x = 3,
@@ -500,7 +500,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
             type = "quest",
             name = "Take Uuna to Everest Pinnacle",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(811, 0, 0.44, 0.52, "Everest Pinnacle")
+                BtWQuests_ShowMapWithWaypoint(809, 0, 0.44, 0.52, "Everest Pinnacle")
             end,
             id = 50145,
             x = 3,
@@ -513,7 +513,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
             type = "quest",
             name = "Take Uuna to Blackrock Mountain",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(811, 0, 0.37, 0.68, "Blackrock Mountain")
+                BtWQuests_ShowMapWithWaypoint(29, 0, 0.18, 0.31, "Blackrock Mountain")
             end,
             id = 50146,
             x = 3,
@@ -526,7 +526,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
             type = "quest",
             name = "Take Uuna to Karabor",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(811, 0, 0.70, 0.46, "Karabor")
+                BtWQuests_ShowMapWithWaypoint(947, 0, 0.70, 0.46, "Karabor")
             end,
             id = 50147,
             x = 3,
