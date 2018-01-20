@@ -25,7 +25,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
         type = "quest",
-        id = 50147,
+        id = 47214,
     },
     range = {110},
     items = {
@@ -276,7 +276,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
         type = "quest",
-        id = 47885,
+        id = 50147,
     },
     range = {110},
     items = {
