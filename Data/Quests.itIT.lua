@@ -9859,4 +9859,39 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [41397] = {
+        name = "Un pacco enorme",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [46278] = {
+        name = "Restituzione al mittente",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41394] = {
+        name = "Servire col sorriso",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41368] = {
+        name = "Posta Perduta",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [50247] = {
+        name = "La posta non può fermarsi!",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41367] = {
+        name = "Consegna prioritaria",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41395] = {
+        name = "Una ricompensa dovuta",
+        level = 110,
+        requiredLevel = 98,
+    },
 }

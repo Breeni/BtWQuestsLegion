@@ -9859,4 +9859,39 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [41397] = {
+        name = "超大的包裹",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [46278] = {
+        name = "退還給寄件人",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41394] = {
+        name = "笑著服務",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41368] = {
+        name = "失落的信件",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [50247] = {
+        name = "克服萬難，郵件必達",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41367] = {
+        name = "優先遞送",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41395] = {
+        name = "應得的獎勵",
+        level = 110,
+        requiredLevel = 98,
+    },
 }
