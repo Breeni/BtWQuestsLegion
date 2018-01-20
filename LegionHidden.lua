@@ -531,9 +531,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
             id = 50147,
             x = 3,
             y = 20,
-            connections = {
-                1,
-            }
         },
     },
 }
