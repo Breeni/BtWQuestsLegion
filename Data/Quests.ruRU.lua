@@ -8523,6 +8523,76 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [40961] = {
+        name = "Даларанский фонтан",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [40960] = {
+        name = "Сияющая жемчужина",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "Рыбная ярость",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [42692] = {
+        name = "Дети Нар'таласа",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "Возвращение к жизни",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "Уравнять шансы",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "Искусство сервировки",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "Никогда не знаешь, пока не погадаешь",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37466] = {
+        name = "Разрушенная академия",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "Магистр миксологии",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "Долгая прогулка",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37495] = {
+        name = "Налет на бухту",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "Моряки-утопленники",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42268] = {
+        name = "Моряки-утопленники",
+        level = -1,
+        requiredLevel = 98,
+    },
     [42104] = {
         name = "Король подземелий наступает",
         level = -1,
@@ -8853,21 +8923,6 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "Даларанский фонтан",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "Сияющая жемчужина",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "Рыбная ярость",
-        level = 110,
         requiredLevel = 98,
     },
     [38332] = {

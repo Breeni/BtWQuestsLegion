@@ -8523,6 +8523,76 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [40961] = {
+        name = "La fontana di Dalaran",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [40960] = {
+        name = "Perla luminosa",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "Frenesia ittica",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [42692] = {
+        name = "Figli di Nar'thalas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "Di ritorno dalla morte",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "Bilanciare la situazione",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "La presentazione è tutto",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "Basta solo un po' di veggenza",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37466] = {
+        name = "L'accademia in rovina",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "Il Magistro della Mescologia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "Una passeggiata piuttosto lunga",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37495] = {
+        name = "Saccheggiare la baia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "Marinai naufragati",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42268] = {
+        name = "Marinai naufragati",
+        level = -1,
+        requiredLevel = 98,
+    },
     [42104] = {
         name = "Arriva il Re delle Profondità",
         level = -1,
@@ -8853,21 +8923,6 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "La fontana di Dalaran",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "Perla luminosa",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "Frenesia ittica",
-        level = 110,
         requiredLevel = 98,
     },
     [38332] = {

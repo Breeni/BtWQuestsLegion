@@ -8523,6 +8523,76 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [40961] = {
+        name = "La fuente de Dalaran",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [40960] = {
+        name = "Perla luminosa",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "Frenesí de pescado",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [42692] = {
+        name = "Hijos de Nar'thalas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "Regreso de entre los muertos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "Inclinar la balanza",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "La presentación lo es todo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "No lo sabrás hasta que lo adivines",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37466] = {
+        name = "La Academia destruida",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "El magister de la ciencia de la mezcla",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "Un paseo más bien largo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37495] = {
+        name = "Saquea la cala",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "Marineros naufragados",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42268] = {
+        name = "Marineros naufragados",
+        level = -1,
+        requiredLevel = 98,
+    },
     [42104] = {
         name = "Viene el Infrarrey",
         level = -1,
@@ -8853,21 +8923,6 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "La fuente de Dalaran",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "Perla luminosa",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "Frenesí de pescado",
-        level = 110,
         requiredLevel = 98,
     },
     [38332] = {
