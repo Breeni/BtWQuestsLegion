@@ -8523,6 +8523,76 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [40961] = {
+        name = "La fontaine de Dalaran",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [40960] = {
+        name = "Perle lumineuse",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "Frénésie de poisson",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [42692] = {
+        name = "Enfants de Nar’thalas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "Revenus d’entre les morts",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "Retour de bâton",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "Tout est dans la présentation",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "Rien de tel qu’une petite divination",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37466] = {
+        name = "L’académie brisée",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "Le magistère de la mixologie",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "Une bien longue promenade",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37495] = {
+        name = "Le sac de la crique",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "Marins naufragés",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42268] = {
+        name = "Marins naufragés",
+        level = -1,
+        requiredLevel = 98,
+    },
     [42104] = {
         name = "L’arrivée du roi d’en bas",
         level = -1,
@@ -8853,21 +8923,6 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "La fontaine de Dalaran",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "Perle lumineuse",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "Frénésie de poisson",
-        level = 110,
         requiredLevel = 98,
     },
     [38332] = {

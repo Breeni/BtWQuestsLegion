@@ -8523,6 +8523,76 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [40961] = {
+        name = "The Dalaran Fountain",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [40960] = {
+        name = "Luminous Pearl",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "Fish Frenzy",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [42692] = {
+        name = "Children of Nar'thalas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "Back from the Dead",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "Tip the Scales",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "Presentation is Everything",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "You Never Know Until You Scry",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37466] = {
+        name = "The Broken Academy",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "The Magister of Mixology",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "A Rather Long Walk",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37495] = {
+        name = "Plunder the Cove",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "Shipwrecked Sailors",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42268] = {
+        name = "Shipwrecked Sailors",
+        level = -1,
+        requiredLevel = 98,
+    },
     [42104] = {
         name = "The Underking Comes",
         level = -1,
@@ -8853,21 +8923,6 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "The Dalaran Fountain",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "Luminous Pearl",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "Fish Frenzy",
-        level = 110,
         requiredLevel = 98,
     },
     [38332] = {

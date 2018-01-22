@@ -8523,6 +8523,76 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [40961] = {
+        name = "達拉然噴泉",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [40960] = {
+        name = "夜光珍珠",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "鮮魚狂亂",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [42692] = {
+        name = "納薩拉斯之子",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "亡者重返",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "攪亂均勢",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "裝飾才是重點",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "占卜之前別定論",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37466] = {
+        name = "毀壞的學院",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "調酒行家",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "散步一萬年",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37495] = {
+        name = "劫掠海灣",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "遇難水手",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42268] = {
+        name = "船難水手",
+        level = -1,
+        requiredLevel = 98,
+    },
     [42104] = {
         name = "地底之王來襲",
         level = -1,
@@ -8853,21 +8923,6 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "達拉然噴泉",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "夜光珍珠",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "鮮魚狂亂",
-        level = 110,
         requiredLevel = 98,
     },
     [38332] = {

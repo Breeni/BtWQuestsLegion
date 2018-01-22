@@ -8523,6 +8523,76 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [40961] = {
+        name = "달라란 분수",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [40960] = {
+        name = "영롱한 진주",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "물 반, 고기 반",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [42692] = {
+        name = "나르탈라스의 아이들",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "죽음으로부터 돌아와",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "전세역전",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "모양이 살아야 맛도 살지",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "점 치기 전엔 몰라요",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37466] = {
+        name = "무너진 대학",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "마력이 깃든 알",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "꽤나 긴 산책",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37495] = {
+        name = "약탈자 약탈",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "선원에게 안식을",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42268] = {
+        name = "선원에게 안식을",
+        level = -1,
+        requiredLevel = 98,
+    },
     [42104] = {
         name = "다가오는 지저왕",
         level = -1,
@@ -8853,21 +8923,6 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "달라란 분수",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "영롱한 진주",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "물 반, 고기 반",
-        level = 110,
         requiredLevel = 98,
     },
     [38332] = {

@@ -8523,6 +8523,76 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [40961] = {
+        name = "Der Springbrunnen von Dalaran",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [40960] = {
+        name = "Glitzernde Perle",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "Fischraserei",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [42692] = {
+        name = "Kinder von Nar'thalas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "Zurück von den Toten",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "Gut gegen Schuppen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "Das Auge trinkt mit",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "Hellsicht ist besser als Nachsicht",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37466] = {
+        name = "Die verheerte Akademie",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "Der Magister der Mixologie",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "Ein ziemlich langer Spaziergang",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37495] = {
+        name = "Plündert die Höhle",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "Schiffbrüchige Matrosen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42268] = {
+        name = "Schiffbrüchige Matrosen",
+        level = -1,
+        requiredLevel = 98,
+    },
     [42104] = {
         name = "Der Unterkönig naht",
         level = -1,
@@ -8853,21 +8923,6 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "Der Springbrunnen von Dalaran",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "Glitzernde Perle",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "Fischraserei",
-        level = 110,
         requiredLevel = 98,
     },
     [38332] = {

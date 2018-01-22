@@ -8523,6 +8523,76 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [40961] = {
+        name = "A Fonte de Dalaran",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [40960] = {
+        name = "Pérola luminosa",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "Frenesi de Peixe",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [42692] = {
+        name = "Filhos de Nar'thalas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "De volta dos mortos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "Meridiano da vida",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "Apresentação É Tudo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "Você nunca sabe até usar a clarividência",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37466] = {
+        name = "A academia partida",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "O Magíster da Mixologia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "Uma Longa Caminhada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37495] = {
+        name = "A Pilhagem do Covil",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "Marinheiros náufragos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42268] = {
+        name = "Marinheiros náufragos",
+        level = -1,
+        requiredLevel = 98,
+    },
     [42104] = {
         name = "O Hipomonarca se aproxima",
         level = -1,
@@ -8853,21 +8923,6 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "A Fonte de Dalaran",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "Pérola luminosa",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "Frenesi de Peixe",
-        level = 110,
         requiredLevel = 98,
     },
     [38332] = {
