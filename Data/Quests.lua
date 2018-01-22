@@ -8514,9 +8514,9 @@ BtWQuests_Quests = {
         name = "Halls of Valor: Securing the Aegis",
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
-<<<<<<< HEAD
-		level = -1,
-	},
+        level = -1,
+        requiredLevel = 98,
+    },
 	[40961] = {
 		name = "The Dalaran Fountain",
 		level = -1,
@@ -8574,11 +8574,6 @@ BtWQuests_Quests = {
 		name = "Shipwrecked Sailors",
 		level = -1,
 	},
-}
-=======
-        level = -1,
-        requiredLevel = 98,
-    },
     [42104] = {
         name = "The Underking Comes",
         level = -1,
@@ -9950,5 +9945,5 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 98,
     },
+
 }
->>>>>>> master
