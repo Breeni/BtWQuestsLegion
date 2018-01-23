@@ -474,7 +474,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
             type = "quest",
             name = "Take Uuna to Wyrmrest Temple",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(488, 0, 0.57, 0.54, "Wyrmrest Temple")
+                BtWQuests_ShowMapWithWaypoint(488, 0, 0.5783, 0.5453, "Wyrmrest Temple")
             end,
             id = 50143,
             x = 3,
@@ -498,9 +498,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
         },
         {
             type = "quest",
-            name = "Take Uuna to Everest Pinnacle",
+            name = "Take Uuna to Neverest Pinnacle",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(809, 0, 0.44, 0.52, "Everest Pinnacle")
+                BtWQuests_ShowMapWithWaypoint(809, 0, 0.4476, 0.5239, "Neverest Pinnacle")
             end,
             id = 50145,
             x = 3,
@@ -526,7 +526,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
             type = "quest",
             name = "Take Uuna to Karabor",
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(947, 0, 0.70, 0.46, "Karabor")
+                BtWQuests_ShowMapWithWaypoint(947, 0, 0.7070, 0.4660, "Karabor")
             end,
             id = 50147,
             x = 3,
