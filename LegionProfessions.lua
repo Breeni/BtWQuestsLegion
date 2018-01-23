@@ -1,3 +1,336 @@
+
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_ALCHEMY] = {
+    name = BTWQUESTS_ALCHEMY,
+    category = BTWQUESTS_CATEGORY_LEGION_PROFESSIONS,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "level",
+            level = 98,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 41010,
+    },
+    range = {98, 110},
+    items = {
+        {
+            ["y"] = 0,
+            ["x"] = 3,
+            ["id"] = 39325,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [1]
+        {
+            ["y"] = 1,
+            ["x"] = 2,
+            ["id"] = 39326,
+            ["connections"] = {
+                0, -- [1]
+                2, -- [2]
+            },
+            ["type"] = "quest",
+        }, -- [2]
+        {
+            ["y"] = 1,
+            ["x"] = 4,
+            ["id"] = 39390,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [3]
+        {
+            ["y"] = 2,
+            ["x"] = 3,
+            ["id"] = 39327,
+            ["connections"] = {
+                0, -- [1]
+                1, -- [2]
+            },
+            ["type"] = "quest",
+        }, -- [4]
+        {
+            ["y"] = 3,
+            ["x"] = 3,
+            ["id"] = 39328,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [5]
+        {
+            ["y"] = 4,
+            ["x"] = 3,
+            ["id"] = 39329,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [6]
+        {
+            ["y"] = 5,
+            ["x"] = 3,
+            ["id"] = 39330,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [7]
+        {
+            ["y"] = 6,
+            ["x"] = 3,
+            ["id"] = 39331,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [8]
+        {
+            ["y"] = 7,
+            ["x"] = 3,
+            ["id"] = 39332,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [9]
+        {
+            ["y"] = 8,
+            ["x"] = 3,
+            ["id"] = 39430,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [10]
+        {
+            ["y"] = 9,
+            ["x"] = 3,
+            ["id"] = 39334,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [11]
+        {
+            ["y"] = 10,
+            ["x"] = 3,
+            ["id"] = 39335,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [12]
+        {
+            ["y"] = 11,
+            ["x"] = 3,
+            ["id"] = 39336,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [13]
+        {
+            ["y"] = 12,
+            ["x"] = 3,
+            ["id"] = 39337,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [14]
+        {
+            ["y"] = 13,
+            ["x"] = 3,
+            ["id"] = 39431,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [15]
+        {
+            ["y"] = 14,
+            ["x"] = 3,
+            ["id"] = 44112,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [16]
+        {
+            ["y"] = 15,
+            ["x"] = 3,
+            ["id"] = 39338,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [17]
+        {
+            ["y"] = 16,
+            ["x"] = 3,
+            ["id"] = 39339,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [18]
+        {
+            ["y"] = 17,
+            ["x"] = 3,
+            ["id"] = 39340,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [19]
+        {
+            ["y"] = 18,
+            ["x"] = 2,
+            ["id"] = 39341,
+            ["connections"] = {
+                0, -- [1]
+                2, -- [2]
+            },
+            ["type"] = "quest",
+        }, -- [20]
+        {
+            ["y"] = 18,
+            ["x"] = 4,
+            ["id"] = 39343,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [21]
+        {
+            ["y"] = 19,
+            ["x"] = 3,
+            ["id"] = 39344,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [22]
+        {
+            ["y"] = 20,
+            ["x"] = 3,
+            ["id"] = 39342,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [23]
+        {
+            ["y"] = 21,
+            ["x"] = 3,
+            ["id"] = 39333,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [24]
+        {
+            {
+                ["type"] = "quest",
+                ["id"] = 39645,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                ["x"] = 3,
+                ["y"] = 22,
+                ["connections"] = {
+                    1, -- [1]
+                },
+            }, -- [25]
+            {
+                ["type"] = "quest",
+                ["id"] = 39345,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                ["x"] = 3,
+                ["y"] = 22,
+                ["connections"] = {
+                    1, -- [1]
+                },
+            }, -- [26]
+        }, -- [26]
+        {
+            ["y"] = 23,
+            ["x"] = 3,
+            ["id"] = 39346,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [27]
+        {
+            ["y"] = 24,
+            ["x"] = 3,
+            ["id"] = 39347,
+            ["connections"] = {
+                1, -- [1]
+                3, -- [2]
+                2, -- [3]
+            },
+            ["type"] = "quest",
+        }, -- [28]
+        {
+            ["y"] = 25,
+            ["x"] = 1,
+            ["id"] = 39348,
+            ["connections"] = {
+                3, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [29]
+        {
+            ["y"] = 25,
+            ["x"] = 5,
+            ["id"] = 39350,
+            ["connections"] = {
+                2, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [30]
+        {
+            ["y"] = 25,
+            ["x"] = 3,
+            ["id"] = 39349,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [31]
+        {
+            ["y"] = 26,
+            ["x"] = 3,
+            ["id"] = 39351,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [32]
+        {
+            ["id"] = 42081,
+            ["type"] = "quest",
+            ["y"] = 27,
+            ["x"] = 3,
+        }, -- [33]
+    },
+}
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_ENGINEERING] = {
     name = BTWQUESTS_ENGINEERING,
     category = BTWQUESTS_CATEGORY_LEGION_PROFESSIONS,
@@ -1211,6 +1544,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_PROFESSIONS] = {
     name = BTWQUESTS_PROFESSIONS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     items = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_PROFESSIONS_ALCHEMY,
+        },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_PROFESSIONS_BLACKSMITHING,
