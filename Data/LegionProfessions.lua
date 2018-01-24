@@ -1260,6 +1260,331 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_INSCRIPTION] = {
     },
 }
 
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_JEWELCRAFTING] = {
+    name = BTWQUESTS_JEWELCRAFTING,
+    category = BTWQUESTS_CATEGORY_LEGION_PROFESSIONS,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "level",
+            level = 98,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 40562,
+    },
+    range = {98, 110},
+    items = {
+        {
+            ["type"] = "quest",
+            ["id"] = 40523,
+            ["x"] = 3,
+            ["y"] = 0,
+            ["connections"] = {
+                1, -- [1]
+                2, -- [2]
+            },
+        }, -- [1]
+        {
+            ["y"] = 1,
+            ["x"] = 2,
+            ["id"] = 40529,
+            ["type"] = "quest",
+            ["connections"] = {
+                2, -- [1]
+            },
+        }, -- [2]
+        {
+            ["y"] = 1,
+            ["x"] = 4,
+            ["id"] = 40524,
+            ["connections"] = {
+                2, -- [1]
+                3, -- [2]
+            },
+            ["type"] = "quest",
+        }, -- [3]
+        {
+            ["type"] = "quest",
+            ["id"] = 40530,
+            ["x"] = 2,
+            ["y"] = 2,
+            ["connections"] = {
+                3, -- [1]
+            },
+        }, -- [4]
+
+        {
+            ["id"] = 40525,
+            ["x"] = 4,
+            ["y"] = 2,
+            ["connections"] = {
+                3, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [9]
+        {
+            ["y"] = 2,
+            ["x"] = 6,
+            ["id"] = 42214,
+            ["connections"] = {
+                2, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [10]
+
+        {
+            ["type"] = "quest",
+            ["id"] = 40531,
+            ["x"] = 2,
+            ["y"] = 3,
+            ["connections"] = {
+                2, -- [1]
+            },
+        }, -- [5]
+
+        {
+            {
+                ["y"] = 3,
+                ["x"] = 4,
+                ["id"] = 40526,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40526,
+                        active = true,
+                    },
+                },
+                ["connections"] = {
+                    2, -- [1]
+                },
+                ["type"] = "quest",
+            }, -- [11]
+            {
+                ["y"] = 3,
+                ["x"] = 4,
+                ["id"] = 40527,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40527,
+                        active = true,
+                    },
+                },
+                ["connections"] = {
+                    2, -- [1]
+                },
+                ["type"] = "quest",
+            }, -- [12]
+            {
+                ["y"] = 3,
+                ["x"] = 4,
+                ["id"] = 40528,
+                ["connections"] = {
+                    2, -- [1]
+                },
+                ["type"] = "quest",
+            }, -- [13]
+        },
+        {
+            {
+                ["y"] = 4,
+                ["x"] = 2,
+                ["id"] = 40532,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40532,
+                        active = true,
+                    },
+                },
+                ["connections"] = {
+                    1, -- [1]
+                },
+                ["type"] = "quest",
+            }, -- [6]
+            {
+                ["y"] = 4,
+                ["x"] = 2,
+                ["id"] = 40533,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40533,
+                        active = true,
+                    },
+                },
+                ["connections"] = {
+                    1, -- [1]
+                },
+                ["type"] = "quest",
+            }, -- [7]
+            {
+                ["y"] = 4,
+                ["x"] = 2,
+                ["id"] = 40534,
+                ["connections"] = {
+                    1, -- [1]
+                },
+                ["type"] = "quest",
+            }, -- [8]
+        },
+
+        {
+            ["y"] = 5,
+            ["x"] = 3,
+            ["id"] = 40535,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [14]
+        {
+            ["y"] = 6,
+            ["x"] = 3,
+            ["id"] = 40536,
+            ["connections"] = {
+                1, -- [1]
+                2, -- [2]
+            },
+            ["type"] = "quest",
+        }, -- [15]
+        {
+            ["y"] = 7,
+            ["x"] = 2,
+            ["id"] = 40538,
+            ["connections"] = {
+                2, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [17]
+        {
+            ["id"] = 40539,
+            ["type"] = "quest",
+            ["y"] = 7,
+            ["x"] = 4,
+        }, -- [16]
+        {
+            ["y"] = 8,
+            ["x"] = 3,
+            ["id"] = 40540,
+            ["connections"] = {
+                1, -- [1]
+                2, -- [2]
+            },
+            ["type"] = "quest",
+        }, -- [18]
+        {
+            ["y"] = 9,
+            ["x"] = 2,
+            ["id"] = 40541,
+            ["connections"] = {
+                2, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [19]
+        {
+            ["y"] = 9,
+            ["x"] = 4,
+            ["id"] = 40546,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [20]
+        {
+            {
+                ["y"] = 10,
+                ["x"] = 3,
+                ["id"] = 40542,
+                ["connections"] = {
+                    1, -- [1]
+                },
+                ["type"] = "quest",
+            }, -- [21]
+            {
+                ["y"] = 10,
+                ["x"] = 3,
+                ["id"] = 40543,
+                ["connections"] = {
+                    1, -- [1]
+                },
+                ["type"] = "quest",
+            }, -- [22]
+            {
+                ["y"] = 10,
+                ["x"] = 3,
+                ["id"] = 40544,
+                ["connections"] = {
+                    1, -- [1]
+                },
+                ["type"] = "quest",
+            }, -- [23]
+        }, -- [23]
+        {
+            ["y"] = 11,
+            ["x"] = 3,
+            ["id"] = 40556,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [24]
+        {
+            ["y"] = 12,
+            ["x"] = 3,
+            ["id"] = 40547,
+            ["connections"] = {
+                1, -- [3]
+                2, -- [2]
+                3, -- [1]
+                4, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [25]
+        {
+            ["y"] = 13,
+            ["x"] = 0,
+            ["id"] = 40558,
+            ["type"] = "quest",
+        }, -- [28]
+        {
+            ["y"] = 13,
+            ["x"] = 2,
+            ["id"] = 40559,
+            ["connections"] = {
+                3, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [28]
+        {
+            ["y"] = 13,
+            ["x"] = 4,
+            ["id"] = 40560,
+            ["connections"] = {
+                2, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [27]
+        {
+            ["y"] = 13,
+            ["x"] = 6,
+            ["id"] = 40561,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [26]
+        {
+            ["id"] = 40562,
+            ["type"] = "quest",
+            ["y"] = 14,
+            ["x"] = 3,
+        }, -- [29]
+    },
+}
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_ENCHANTING] = {
     name = BTWQUESTS_ENCHANTING,
     category = BTWQUESTS_CATEGORY_LEGION_PROFESSIONS,
@@ -1563,6 +1888,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_PROFESSIONS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_PROFESSIONS_INSCRIPTION,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_PROFESSIONS_JEWELCRAFTING,
         },
         {
             type = "chain",

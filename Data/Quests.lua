@@ -10124,4 +10124,154 @@ BtWQuests_Quests = {
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
 	},
+	[40535] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Raising the Drogbar",
+	},
+	[40536] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Bruls Before Jewels",
+	},
+	[40538] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Lapidary Lessons",
+	},
+	[40539] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Hidden Intentions",
+	},
+	[40540] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Come at Me, Brul",
+	},
+	[40541] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Charge Within",
+	},
+	[40542] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Eyes of Nashal",
+	},
+	[40543] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Eyes of Nashal",
+	},
+	[40544] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Eyes of Nashal",
+	},
+	[40546] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Mysteries of Nature",
+	},
+	[40547] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "To Dalaran, With Love",
+	},
+	[40525] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Getting the Band Back Together",
+	},
+	[42214] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Knocked for a Loop",
+	},
+	[40529] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Truly Outrageous",
+	},
+	[40530] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "An Eye for Detail",
+	},
+	[40523] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Facet-nating Friends",
+	},
+	[40524] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Familiar Ring to It",
+	},
+	[40556] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Jabrul Needs You",
+	},
+	[40526] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Finishing Touches",
+	},
+	[40527] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Finishing Touches",
+	},
+	[40528] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Finishing Touches",
+	},
+	[40558] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Socket to Me",
+	},
+	[40559] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Black Rook Hold: The Raven's Wisdom",
+	},
+	[40560] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Maw of Souls: Spiriting Away",
+	},
+	[40561] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Halls of Valor: Jewel of the Heavens",
+	},
+	[40562] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Personal Touch",
+	},
+	[40532] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Making the Cut",
+	},
+	[40533] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Making the Cut",
+	},
+	[40534] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Making the Cut",
+	},
+	[40531] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Swift Vengeance",
+	},
 }
