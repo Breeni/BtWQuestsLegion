@@ -1498,6 +1498,13 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_JEWELCRAFTING] = {
                 ["y"] = 10,
                 ["x"] = 3,
                 ["id"] = 40542,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40542,
+                        active = true,
+                    },
+                },
                 ["connections"] = {
                     1, -- [1]
                 },
@@ -1507,6 +1514,13 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_JEWELCRAFTING] = {
                 ["y"] = 10,
                 ["x"] = 3,
                 ["id"] = 40543,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40543,
+                        active = true,
+                    },
+                },
                 ["connections"] = {
                     1, -- [1]
                 },
