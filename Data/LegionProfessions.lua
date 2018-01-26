@@ -1847,11 +1847,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_UNDERLIGHT_ANGLER] = {
     prerequisites = {
         {
             type = "level",
-            level = 98,
+            level = 110,
         },
         {
             type = "profession",
             id = 356,
+        },
+        {
+            type = "achievement",
+            id = 10596,
         },
     },
     completed = {
