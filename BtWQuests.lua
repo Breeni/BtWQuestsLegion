@@ -9,6 +9,24 @@ local EJ_TIER_DATA =
 	[7] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Legion", r = 1.0, g = 0.8, b = 0.0 },
 }
 
+local professionsMap = {
+	[129] = BTWQUESTS_PROFESSION_FIRST_AID,
+	[164] = BTWQUESTS_PROFESSION_BLACKSMITHING,
+	[165] = BTWQUESTS_PROFESSION_LEATHERWORKING,
+	[171] = BTWQUESTS_PROFESSION_ALCHEMY,
+	[182] = BTWQUESTS_PROFESSION_HERBALISM,
+	[184] = BTWQUESTS_PROFESSION_COOKING,
+	[186] = BTWQUESTS_PROFESSION_MINING,
+	[197] = BTWQUESTS_PROFESSION_TAILORING,
+	[202] = BTWQUESTS_PROFESSION_ENGINEERING,
+	[333] = BTWQUESTS_PROFESSION_ENCHANTING,
+	[356] = BTWQUESTS_PROFESSION_FISHING,
+	[393] = BTWQUESTS_PROFESSION_SKINNING,
+	[755] = BTWQUESTS_PROFESSION_JEWELCRAFTING,
+	[773] = BTWQUESTS_PROFESSION_INSCRIPTION,
+	[794] = BTWQUESTS_PROFESSION_ARCHAEOLOGY,
+};
+
 local function ArrayContains(a, item)
     for i=1,#a do
         if a[i] == item then
@@ -166,6 +184,14 @@ local function BtWQuests_CheckRequirement(item)
         end
     elseif item.type == "mount" then
         return select(11, C_MountJournal.GetMountInfoByID(item.id))
+    elseif item.type == "profession" then
+        local professions = {GetProfessions()}
+        for _,index in ipairs(professions) do
+            if select(7, GetProfessionInfo(index)) == item.id then
+                return true
+            end
+        end
+        return false
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
     else
@@ -212,6 +238,12 @@ local function BtWQuests_GetItemName(item)
         return string.format(BTWQUESTS_LEVEL_TO, item.level)
     elseif item.type == "achievement" then
         return select(2, GetAchievementInfo(item.id))
+    elseif item.type == "profession" then
+        if professionsMap[item.id] ~= nil then
+            return professionsMap[item.id]
+        end
+
+        return item.id
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
     end
