@@ -6,7 +6,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_ALCHEMY] = {
     prerequisites = {
         {
             type = "level",
-            level = 98,
+            level = 100,
         },
         {
             type = "profession",
@@ -339,7 +339,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_BLACKSMITHING] = {
     prerequisites = {
         {
             type = "level",
-            level = 98,
+            level = 100,
         },
         {
             type = "profession",
@@ -674,7 +674,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_ENCHANTING] = {
     prerequisites = {
         {
             type = "level",
-            level = 98,
+            level = 100,
         },
         {
             type = "profession",
@@ -957,7 +957,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_ENGINEERING] = {
     prerequisites = {
         {
             type = "level",
-            level = 98,
+            level = 100,
         },
         {
             type = "profession",
@@ -1234,7 +1234,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_INSCRIPTION] = {
     prerequisites = {
         {
             type = "level",
-            level = 98,
+            level = 100,
         },
         {
             type = "profession",
@@ -1501,7 +1501,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_JEWELCRAFTING] = {
     prerequisites = {
         {
             type = "level",
-            level = 98,
+            level = 100,
         },
         {
             type = "profession",
@@ -1833,7 +1833,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_LEATHERWORKING] = {
     prerequisites = {
         {
             type = "level",
-            level = 98,
+            level = 100,
         },
         {
             type = "profession",
@@ -2233,7 +2233,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_TAILORING] = {
     prerequisites = {
         {
             type = "level",
-            level = 98,
+            level = 100,
         },
         {
             type = "profession",
