@@ -367,8 +367,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS] = {
             x = 3,
             y = 28,
             connections = {
-                1
+                1, 2
             },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS,
+            aside = true,
+            x = 1,
+            y = 29,
         },
         {
             type = "quest",
@@ -989,6 +996,254 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW] = {
     },
 }
 
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS] = {
+    name = BtWQuests_GetQuestName(48460),
+    category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "quest",
+            id = 48199,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 48601,
+    },
+    range = {110},
+    items = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS,
+            breadcrumb = true,
+            x = 3,
+            y = 0,
+            connections = {
+                2,
+            },
+        },
+        {
+            name = "Kill Eredar",
+            breadcrumb = true,
+            visible = {
+                {
+                    type = "quest",
+                    id = 48453,
+                    active = false,
+                },
+            },
+            x = 1,
+            y = 1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 48460,
+            breadcrumb = true,
+            x = 3,
+            y = 1,
+            connections = {
+                2,
+            },
+        },
+        {
+            {
+                type = "quest",
+                id = 48453,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 48453,
+                        active = true,
+                    },
+                },
+                x = 1,
+                y = 2,
+                connections = {
+                    3,
+                },
+            },
+            {
+                type = "quest",
+                id = 48542,
+                x = 1,
+                y = 2,
+                connections = {
+                    3,
+                },
+            },
+        },
+        {
+            type = "quest",
+            id = 47967,
+            x = 3,
+            y = 2,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 48455,
+            x = 5,
+            y = 2,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 48544,
+            x = 3,
+            y = 3,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 48441,
+            x = 3,
+            y = 4,
+            connections = {
+                1, 2
+            },
+        },
+        {
+            type = "quest",
+            id = 48442,
+            x = 2,
+            y = 5,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 48910,
+            aside = true,
+            x = 4,
+            y = 5,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 48634,
+            aside = true,
+            x = 5,
+            y = 6,
+        },
+        {
+            type = "quest",
+            id = 48443,
+            x = 3,
+            y = 6,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 48445,
+            x = 3,
+            y = 7,
+            connections = {
+                1, 2
+            },
+        },
+        {
+            type = "quest",
+            id = 48654,
+            aside = true,
+            x = 2,
+            y = 8,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 48446,
+            x = 4,
+            y = 8,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 48911,
+            aside = true,
+            x = 2,
+            y = 9,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 48447,
+            x = 4,
+            y = 9,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 48635,
+            aside = true,
+            x = 1,
+            y = 10,
+        },
+        {
+            type = "quest",
+            id = 48448,
+            x = 3,
+            y = 10,
+            connections = {
+                1, 2
+            },
+        },
+        {
+            type = "quest",
+            id = 48600,
+            x = 2,
+            y = 11,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 48912,
+            aside = true,
+            x = 4,
+            y = 11,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 48601,
+            x = 3,
+            y = 12,
+        },
+        {
+            type = "quest",
+            id = 48636,
+            aside = true,
+            x = 5,
+            y = 12,
+        },
+    },
+}
+
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ARGUS] = {
     name = GetMapNameByID(1184),
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1005,6 +1260,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ARGUS] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS,
         },
     },
 }
