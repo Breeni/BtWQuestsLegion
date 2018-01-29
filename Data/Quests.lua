@@ -4568,6 +4568,8 @@ BtWQuests_Quests = {
     },
     [42098] = {
         name = "Black Rook Hold: An Unclaimed Soul",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -4928,6 +4930,8 @@ BtWQuests_Quests = {
     },
     [43487] = {
         name = "Assault on Violet Hold: The Fel Lexicon",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -4943,6 +4947,8 @@ BtWQuests_Quests = {
     },
     [43493] = {
         name = "Black Rook Hold: Lord Ravencrest",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -5878,6 +5884,8 @@ BtWQuests_Quests = {
     },
     [43506] = {
         name = "Black Rook Hold: Greater Power",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -10238,16 +10246,22 @@ BtWQuests_Quests = {
 		requiredLevel = 110,
 		level = 110,
 		name = "Black Rook Hold: The Raven's Wisdom",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
 	},
 	[40560] = {
 		requiredLevel = 110,
 		level = 110,
 		name = "Maw of Souls: Spiriting Away",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
 	},
 	[40561] = {
 		requiredLevel = 110,
 		level = 110,
 		name = "Halls of Valor: Jewel of the Heavens",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
 	},
 	[40562] = {
 		requiredLevel = 110,
@@ -10453,11 +10467,15 @@ BtWQuests_Quests = {
 		requiredLevel = 110,
 		level = 110,
 		name = "Eye of Azshara: The Depraved Nightfallen",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
 	},
 	[38965] = {
 		requiredLevel = 110,
 		level = 110,
 		name = "Assault on Violet Hold: Into the Hold",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
 	},
 	[40176] = {
 		requiredLevel = 110,
@@ -10503,6 +10521,8 @@ BtWQuests_Quests = {
 		requiredLevel = 110,
 		level = 110,
 		name = "Eye of Azshara: Scales of the Sea",
+        difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
 	},
 	[40212] = {
 		requiredLevel = 110,
