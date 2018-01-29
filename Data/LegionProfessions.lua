@@ -15,7 +15,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_ALCHEMY] = {
     },
     completed = {
         type = "quest",
-        id = 41010,
+        id = 42081,
     },
     range = {98, 110},
     items = {
