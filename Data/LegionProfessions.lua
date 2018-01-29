@@ -358,21 +358,21 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_BLACKSMITHING] = {
         {
             type = "quest",
             id = 38499,
-            x = 2,
-            y = 0,
-            connections = {
-                2,
-            }
-        },
-        {
-            type = "quest",
-            id = 48053,
-            x = 4,
+            x = 3,
             y = 0,
             connections = {
                 1,
             }
         },
+        -- {
+        --     type = "quest",
+        --     id = 48053,
+        --     x = 4,
+        --     y = 0,
+        --     connections = {
+        --         1,
+        --     }
+        -- },
         {
             type = "quest",
             id = 39681,
@@ -2256,7 +2256,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_TAILORING] = {
     },
     completed = {
         type = "quest",
-        id = 38967,
+        id = 38970,
     },
     range = {98, 110},
     items = {
@@ -2504,11 +2504,39 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_TAILORING] = {
             ["type"] = "quest",
         }, -- [26]
         {
-            ["id"] = 38967,
-            ["type"] = "quest",
             ["y"] = 23,
             ["x"] = 3,
+            ["id"] = 38967,
+            ["connections"] = {
+                1, -- [1]
+                2, -- [2]
+            },
+            ["type"] = "quest",
         }, -- [28]
+        {
+            ["y"] = 24,
+            ["x"] = 2,
+            ["id"] = 38968,
+            ["connections"] = {
+                2, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [29]
+        {
+            ["y"] = 24,
+            ["x"] = 4,
+            ["id"] = 38969,
+            ["connections"] = {
+                1, -- [1]
+            },
+            ["type"] = "quest",
+        }, -- [30]
+        {
+            ["id"] = 38970,
+            ["type"] = "quest",
+            ["y"] = 25,
+            ["x"] = 3,
+        }, -- [31]
     },
 }
 
@@ -2532,7 +2560,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_UNDERLIGHT_ANGLER] = {
     },
     completed = {
         type = "quest",
-        id = 38533,
+        id = 41010,
     },
     range = {98, 110},
     items = {

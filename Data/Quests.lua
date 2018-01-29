@@ -10274,4 +10274,364 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Swift Vengeance",
 	},
+	[38947] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Runic Catgut",
+	},
+	[38951] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Needle Need",
+	},
+	[38955] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Sew Far, Sew Good",
+	},
+	[38959] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Left Behind",
+	},
+	[38963] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Final Lesson?",
+	},
+	[39602] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Where's Lyndras: Sewer Sleuthing",
+	},
+	[40178] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Vestment Opportunity",
+	},
+	[40182] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Too Good To Pass Up",
+	},
+	[40186] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Drogbar Durability",
+	},
+	[40194] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Reclaimed Cargo",
+	},
+	[40198] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Rats!",
+	},
+	[40202] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Final Lessons",
+	},
+	[40206] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Debt Paid",
+	},
+	[40210] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Time Well Spent",
+	},
+	[38944] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Sew It Begins",
+	},
+	[38948] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Hard Times",
+	},
+	[38952] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Meticulous Precision",
+	},
+	[38956] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Where's Lyndras Again?",
+	},
+	[38960] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Lining Them Up",
+	},
+	[38964] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Where's Lyndras Now?",
+	},
+	[41889] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Dazed of the Past",
+	},
+	[39667] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Where's Lyndras: Leyflame Larceny",
+	},
+	[40179] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Stormheim Savagery",
+	},
+	[40183] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Over Your Head",
+	},
+	[40187] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Links in the Chain",
+	},
+	[40191] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Stamped Stories",
+	},
+	[40195] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Daring Rescue",
+	},
+	[40199] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Leather Legwork",
+	},
+	[40203] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Strength of the Past",
+	},
+	[40207] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Scales of the Arcane",
+	},
+	[40211] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Demon Flesh",
+	},
+	[38945] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "This Should Be Simple... Right?",
+	},
+	[38949] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "So You Think You Can Sew",
+	},
+	[38953] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Advanced Needlework",
+	},
+	[38957] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Taking Inspiration",
+	},
+	[38961] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Eye of Azshara: The Depraved Nightfallen",
+	},
+	[38965] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Assault on Violet Hold: Into the Hold",
+	},
+	[40176] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "From Head to Toe",
+	},
+	[40180] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Mail Men",
+	},
+	[40184] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Tauren Tanning",
+	},
+	[40188] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Best Served Cold",
+	},
+	[40192] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Claw of the Land",
+	},
+	[40196] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Adventuring Anxieties",
+	},
+	[40200] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Battle Bonds",
+	},
+	[40204] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Evolution of the Past",
+	},
+	[40208] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Eye of Azshara: Scales of the Sea",
+	},
+	[40212] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Wrong End of the Knife",
+	},
+	[38946] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Consult the Locals",
+	},
+	[38950] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Wayward Tailor",
+	},
+	[38954] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Where's Lyndras?",
+	},
+	[38958] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Right Color",
+	},
+	[38962] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Path to Suramar City",
+	},
+	[38966] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Secret Silkweaving Methods",
+	},
+	[39605] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Where's Lyndras: Downward Spiral",
+	},
+	[40415] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Well Spent Time",
+	},
+	[38967] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Nightborne Connection",
+	},
+	[40214] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Fel Tanning",
+	},
+	[40177] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Leather Lady",
+	},
+	[40181] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Black Rook Bandit",
+	},
+	[40185] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Shoulder the Burden",
+	},
+	[40189] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Naga Know-How",
+	},
+	[40327] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Testing the Metal",
+	},
+	[40197] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Necessary Materials",
+	},
+	[40201] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Playthings",
+	},
+	[40205] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Respect for the Past",
+	},
+	[40209] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Scales of the Earth",
+	},
+	[40213] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Hounds Abound",
+	},
+	[39958] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Skin Deep",
+	},
+	[38969] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Master of Silkweave",
+	},
+	[38968] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Proof of Loyalty",
+	},
+	[38970] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Queen's Grace Loom",
+	},
+	[39957] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Demon Ink",
+	},
 }
