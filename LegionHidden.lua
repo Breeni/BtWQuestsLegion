@@ -283,7 +283,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
         {
             name = "Collect Uuna from the Many-Faced Devourer",
             completed = function ()
-                return C_PetJournal.GetOwnedBattlePetString(2136) ~= nil
+                return select(1, C_PetJournal.GetNumCollectedInfo(2136)) > 0
             end,
             x = 3,
             y = 0,
