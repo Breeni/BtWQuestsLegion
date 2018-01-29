@@ -1,6 +1,6 @@
 ## Interface: 70300
 ## Title: BtWQuests
-## Version: 0.9.2
+## Version: 0.11.3
 ## Notes: 
 ## Author: Breen
 ## SavedVariablesPerCharacter: BtWQuests_Settings
@@ -47,4 +47,5 @@ Data/LegionStormheim.lua
 Data/LegionSuramar.lua
 Data/LegionBrokenShore.lua
 Data/LegionArgus.lua
+Data/LegionProfessions.lua
 Data/LegionHidden.lua
