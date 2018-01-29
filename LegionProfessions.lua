@@ -2486,12 +2486,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_TAILORING] = {
             ["type"] = "quest",
         }, -- [25]
         {
-            ["id"] = 34,
-            ["type"] = "chain",
-            ["y"] = 21.5,
-            ["x"] = 5,
-            ["connections"] = {
-                1, -- [1]
+            type = "quest",
+            id = 42079,
+            onClick = function (self)
+                BtWQuests_SelectChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE)
+            end,
+            y = 21.5,
+            x = 5,
+            connections = {
+                1,
             },
         }, -- [27]
         {
