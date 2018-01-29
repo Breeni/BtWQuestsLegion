@@ -10654,4 +10654,14 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+	[37965] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Tainted Vintage",
+	},
+	[38203] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Challiane Vineyards",
+	},
 }

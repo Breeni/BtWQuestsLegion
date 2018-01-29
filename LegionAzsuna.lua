@@ -819,6 +819,37 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
         },
     }
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD] = {
+    name = BtWQuests_GetQuestName(38203),
+    category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    range = {98, 110},
+    completed = {
+        type = "quest",
+        id = 38203,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 37965,
+            x = 1,
+            y = 0,
+        },
+        {
+            type = "quest",
+            id = 38203,
+            x = 3,
+            y = 0,
+        },
+        {
+            type = "quest",
+            id = 38367,
+            name = "Treasure: Cask of Special Reserve",
+            x = 5,
+            y = 0,
+        },
+    }
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
     name = GetMapNameByID(1015),
@@ -844,6 +875,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD,
         },
     },
 }
