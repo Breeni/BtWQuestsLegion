@@ -1841,7 +1841,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_JEWELCRAFTING] = {
 }
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_LEATHERWORKING] = {
-    name = BTWQUESTS_PROFESSION_JEWELCRAFTING,
+    name = BTWQUESTS_PROFESSION_LEATHERWORKING,
     category = BTWQUESTS_CATEGORY_LEGION_PROFESSIONS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1851,12 +1851,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_LEATHERWORKING] = {
         },
         {
             type = "profession",
-            id = 755,
+            id = 165,
         },
     },
     completed = {
         type = "quest",
-        id = 40562,
+        id = 40415,
     },
     range = {98, 110},
     items = {
@@ -2241,7 +2241,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_LEATHERWORKING] = {
 }
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_TAILORING] = {
-    name = BTWQUESTS_PROFESSION_JEWELCRAFTING,
+    name = BTWQUESTS_PROFESSION_TAILORING,
     category = BTWQUESTS_CATEGORY_LEGION_PROFESSIONS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -2251,12 +2251,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_TAILORING] = {
         },
         {
             type = "profession",
-            id = 755,
+            id = 197,
         },
     },
     completed = {
         type = "quest",
-        id = 40562,
+        id = 38967,
     },
     range = {98, 110},
     items = {
