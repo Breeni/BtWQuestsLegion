@@ -10654,4 +10654,24 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+	[38237] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "This IS In My Contract.",
+	},
+	[42238] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Missing Demon",
+	},
+	[38232] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Minion! Kill Them!",
+	},
+	[38460] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Let's Make A Deal",
+	},
 }
