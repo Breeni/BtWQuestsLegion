@@ -1,24 +1,24 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_KOSUMOTH] = {
-    name = BTWQUESTS_RARE_KOSUMOTH,
-    category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
-    expansion = BTWQUESTS_EXPANSION_LEGION,
-    completed = {
-        type = "quest",
-        id = 45866,
-    },
-    range = {110},
-    items = {
-        {
-            type = "quest",
-            id = 46744,
-            x = 3,
-            y = 0,
-            connections = {
-                1,
-            }
-        },
-    },
-}
+-- BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_KOSUMOTH] = {
+--     name = BTWQUESTS_RARE_KOSUMOTH,
+--     category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
+--     expansion = BTWQUESTS_EXPANSION_LEGION,
+--     completed = {
+--         type = "quest",
+--         id = 46744,
+--     },
+--     range = {110},
+--     items = {
+--         {
+--             type = "quest",
+--             id = 46744,
+--             x = 3,
+--             y = 0,
+--             connections = {
+--                 1,
+--             }
+--         },
+--     },
+-- }
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM] = {
     name = BTWQUESTS_MOUNT_RIDDLERS,
@@ -162,27 +162,27 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM] = {
     },
 }
 
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_SUNDARTER] = {
-    name = BTWQUESTS_PET_SUNDARTER,
-    category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
-    expansion = BTWQUESTS_EXPANSION_LEGION,
-    completed = {
-        type = "quest",
-        id = 45866,
-    },
-    range = {110},
-    items = {
-        {
-            type = "quest",
-            id = 46744,
-            x = 3,
-            y = 0,
-            connections = {
-                1,
-            }
-        },
-    },
-}
+-- BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_SUNDARTER] = {
+--     name = BTWQUESTS_PET_SUNDARTER,
+--     category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
+--     expansion = BTWQUESTS_EXPANSION_LEGION,
+--     completed = {
+--         type = "quest",
+--         id = 45866,
+--     },
+--     range = {110},
+--     items = {
+--         {
+--             type = "quest",
+--             id = 46744,
+--             x = 3,
+--             y = 0,
+--             connections = {
+--                 1,
+--             }
+--         },
+--     },
+-- }
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE] = {
     name = BTWQUESTS_MOUNT_LUCID_NIGHTMARE,
@@ -273,6 +273,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE] = {
         },
     },
 }
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
     name = "Uuna",
     category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
