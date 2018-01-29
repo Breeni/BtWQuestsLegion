@@ -348,7 +348,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_BLACKSMITHING] = {
     },
     completed = {
         type = "quest",
-        id = 41010,
+        id = 38533,
     },
     range = {98, 110},
     items = {
