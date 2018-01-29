@@ -152,6 +152,8 @@ local function BtWQuests_CheckRequirement(item)
         else
             return select(13, GetAchievementInfo(item.id))
         end
+    elseif item.type == "mount" then
+        return select(11, C_MountJournal.GetMountInfoByID(item.id))
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
     else
