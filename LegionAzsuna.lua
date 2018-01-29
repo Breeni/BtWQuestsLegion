@@ -819,6 +819,59 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
         },
     }
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP] = {
+    name = BtWQuests_GetQuestName(42238),
+    category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    range = {98, 110},
+    completed = {
+        type = "quest",
+        id = 38237,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 42238,
+            breadcrumb = true,
+            x = 3,
+            y = 0,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 38460,
+            x = 3,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 38232,
+            x = 3,
+            y = 2,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 38237,
+            x = 3,
+            y = 3,
+        },
+        -- {
+        --     type = "quest",
+        --     name = BTWQUESTS_TREASURE,
+        --     id = 42278,
+        --     x = 5,
+        --     y = 3,
+        -- }
+    }
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
     name = GetMapNameByID(1015),
@@ -844,6 +897,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP,
         },
     },
 }
