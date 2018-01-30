@@ -887,6 +887,207 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD] = {
         },
     }
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN] = {
+    name = BtWQuests_GetQuestName(42747),
+    category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    range = {98, 110},
+    completed = {
+        type = "quest",
+        id = 43324,
+    },
+    items = {
+        {
+            name = "Go to Guviena Bladesong",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.594, 0.84, "Guviena Bladesong")
+            end,
+            x = 1,
+            y = 0,
+            connections = {
+                3, 4,
+            },
+        },
+        {
+            name = "Go to Leirana",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.594, 0.82, "Leirana")
+            end,
+            x = 4,
+            y = 0,
+            connections = {
+                4,
+            },
+        },
+        {
+            name = "Kill Undulating Boneslime",
+            breadcrumb = true,
+            x = 6,
+            y = 0,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 42747,
+            x = 0,
+            y = 1,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 42748,
+            x = 2,
+            y = 1,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 42750,
+            x = 4,
+            y = 1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 42786,
+            x = 6,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 42751,
+            x = 2,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 43324,
+            x = 6,
+            y = 2,
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD] = {
+    name = BtWQuests_GetQuestName(42865),
+    category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    range = {98, 110},
+    completed = {
+        type = "quest",
+        id = 42865,
+    },
+    items = {
+        {
+            name = "Go to Old Grizzleback",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.6668, 0.7727, "Old Grizzleback")
+            end,
+            x = 2,
+            y = 0,
+            connections = {
+                2, 3, 4,
+            },
+        },
+        {
+            name = "Go to the Moist Grizzlecomb",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.6682, 0.7566, "Moist Grizzlecomb")
+            end,
+            x = 6,
+            y = 0,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 42865,
+            x = 0,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 42884,
+            x = 2,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 42883,
+            x = 4,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 42857,
+            x = 6,
+            y = 1,
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING] = {
+    name = BtWQuests_GetQuestName(40221),
+    category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    range = {98, 110},
+    completed = {
+        type = "quest",
+        id = 40220,
+    },
+    items = {
+        {
+            name = "Go to Saylanna Riverbreeze",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.5375, 0.7983, "Saylanna Riverbreeze")
+            end,
+            x = 2,
+            y = 0,
+            connections = {
+                2, 3,
+            },
+        },
+        {
+            name = "Kill Thistleleaf",
+            breadcrumb = true,
+            x = 5,
+            y = 0,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 40220,
+            x = 1,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 40221,
+            x = 3,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 38862,
+            x = 5,
+            y = 1,
+        },
+    }
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_VALSHARAH] = {
     name = GetMapNameByID(1018),
@@ -924,6 +1125,18 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_VALSHARAH] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING,
         },
     },
 }
