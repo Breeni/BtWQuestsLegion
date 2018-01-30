@@ -1117,7 +1117,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS] = {
             x = 2,
             y = 5,
             connections = {
-                3,
+                4,
             },
         },
         {
@@ -1136,6 +1136,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS] = {
             aside = true,
             x = 5,
             y = 6,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+            x = 1,
+            y = 6.5,
+            connections = {
+                2,
+            },
         },
         {
             type = "quest",
