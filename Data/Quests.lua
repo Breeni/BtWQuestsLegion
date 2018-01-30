@@ -10707,6 +10707,91 @@ BtWQuests_Quests = {
 	[42368] = {
 		requiredLevel = 110,
 		level = 110,
-		name = "Quantity Over Quality",
+        name = "Quantity Over Quality",
+    },
+	[42645] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Spilling Bad Blood",
+	},
+	[42640] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Value of Knowledge",
+	},
+	[42635] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Mystery of Dreyrgrot",
+	},
+	[42639] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Stone of Blood",
+	},
+	[42641] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "What the Bonespeakers Buried",
+	},
+	[40120] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Murky Fate",
+	},
+	[42447] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Dances With Ravenbears",
+	},
+	[42444] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Plight of the Blackfeather",
+	},
+	[42446] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Singed Feathers",
+	},
+	[42445] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Nithogg's Tribute",
+	},
+	[39787] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Rigging the Wager",
+	},
+	[39789] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Eating Into Our Business",
+	},
+	[43331] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Time to Collect",
+	},
+	[42483] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Put It All on Red",
+	},
+	[39786] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Stone Cold Gamble",
+	},
+	[39792] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Stack of Racks",
+	},
+	[39793] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Only the Finest",
 	},
 }
