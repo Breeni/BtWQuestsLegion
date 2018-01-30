@@ -894,7 +894,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN] = {
     range = {98, 110},
     completed = {
         type = "quest",
-        id = 43324,
+        id = 42751,
     },
     items = {
         {
