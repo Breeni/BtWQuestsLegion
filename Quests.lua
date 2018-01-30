@@ -10654,4 +10654,34 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+	[42645] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Spilling Bad Blood",
+	},
+	[42640] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Value of Knowledge",
+	},
+	[42635] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Mystery of Dreyrgrot",
+	},
+	[42639] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Stone of Blood",
+	},
+	[42641] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "What the Bonespeakers Buried",
+	},
+	[40120] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Murky Fate",
+	},
 }
