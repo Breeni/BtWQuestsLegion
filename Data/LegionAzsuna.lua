@@ -872,7 +872,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP] = {
         -- }
     }
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD] = {
     name = BtWQuests_GetQuestName(38203),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
@@ -902,6 +901,56 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD] = {
         --     x = 5,
         --     y = 0,
         -- },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE] = {
+    name = BtWQuests_GetQuestName(42372),
+    category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    range = {98, 110},
+    completed = {
+        type = "quest",
+        id = 42369,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 42372,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 42375,
+            x = 3,
+            y = 1,
+            connections = {
+                1,
+                2,
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 42367,
+            x = 1,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 42368,
+            x = 3,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 42369,
+            x = 5,
+            y = 2,
+        },
     }
 }
 
@@ -937,6 +986,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE,
         },
     },
 }
