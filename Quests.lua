@@ -10672,6 +10672,16 @@ BtWQuests_Quests = {
 	[38460] = {
 		requiredLevel = 110,
 		level = 110,
-		name = "Let's Make A Deal",
+        name = "Let's Make A Deal",
+    },
+	[37965] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Tainted Vintage",
+	},
+	[38203] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Challiane Vineyards",
 	},
 }
