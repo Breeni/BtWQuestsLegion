@@ -10859,4 +10859,29 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Spread Your Lunarwings and Fly",
 	},
+	[46275] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Kingdom's Heart",
+	},
+	[46282] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The King's Path",
+	},
+	[46272] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Summons to the Keep",
+	},
+	[46274] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Consoling the King",
+	},
+	[46268] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Found Memento",
+	},
 }

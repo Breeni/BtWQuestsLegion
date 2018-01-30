@@ -434,6 +434,85 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED] =
         },
     },
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_A_FOUND_MEMENTO] = {
+    name = BtWQuests_GetQuestName(46268),
+    category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "quest",
+            id = 46734,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 46282,
+    },
+    range = {110},
+    items = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            breadcrumb = true,
+            x = 3,
+            y = 0,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 46268,
+            x = 3,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            name = "Wait for daily reset",
+            breadcrumb = true,
+            x = 3,
+            y = 2,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 46272,
+            x = 3,
+            y = 3,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 46274,
+            x = 3,
+            y = 4,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 46275,
+            x = 3,
+            y = 5,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 46282,
+            x = 3,
+            y = 6,
+        },
+    },
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_BROKENSHORE] = {
     name = GetMapNameByID(1021),
@@ -447,6 +526,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_BROKENSHORE] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_A_FOUND_MEMENTO,
         },
     },
 }
