@@ -1037,6 +1037,57 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD] = {
         },
     }
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING] = {
+    name = BtWQuests_GetQuestName(40221),
+    category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    range = {98, 110},
+    completed = {
+        type = "quest",
+        id = 40220,
+    },
+    items = {
+        {
+            name = "Go to Saylanna Riverbreeze",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.5375, 0.7983, "Saylanna Riverbreeze")
+            end,
+            x = 2,
+            y = 0,
+            connections = {
+                2, 3,
+            },
+        },
+        {
+            name = "Kill Thistleleaf",
+            breadcrumb = true,
+            x = 5,
+            y = 0,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 40220,
+            x = 1,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 40221,
+            x = 3,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 38862,
+            x = 5,
+            y = 1,
+        },
+    }
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_VALSHARAH] = {
     name = GetMapNameByID(1018),
@@ -1082,6 +1133,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_VALSHARAH] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING,
         },
     },
 }
