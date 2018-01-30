@@ -1677,6 +1677,160 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT] = {
         },
     }
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR] = {
+    name = BtWQuests_GetQuestName(42444),
+    category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 42447,
+    },
+    range = {98, 110},
+    items = {
+        {
+            name = "Go to Frightened Ravenbear",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.5032, 0.3403, "Frightened Ravenbear")
+            end,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 42444,
+            x = 3,
+            y = 1,
+            connections = {
+                1,
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 42445,
+            x = 2,
+            y = 2,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 42446,
+            x = 4,
+            y = 2,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 42447,
+            x = 3,
+            y = 3,
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS] = {
+    name = select(2, GetAchievementInfo(11232)),
+    category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 43331,
+    },
+    range = {98, 110},
+    items = {
+        {
+            name = "Go to Ootasa Galehoof",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.5147, 0.5695, "Ootasa Galehoof")
+            end,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 39789,
+            x = 3,
+            y = 1,
+            connections = {
+                1,
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 39793,
+            x = 2,
+            y = 2,
+            connections = {
+                2,
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 39787,
+            x = 4,
+            y = 2,
+            connections = {
+                1,
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 39792,
+            x = 2,
+            y = 3,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 39786,
+            x = 4,
+            y = 3,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 42483,
+            x = 3,
+            y = 4,
+        },
+        {
+            name = "Go to Gazrix Gearlock",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1014, 10, 0.5016, 0.2262, "Gazrix Gearlock")
+            end,
+            x = 3,
+            y = 5,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 43331,
+            x = 3,
+            y = 6,
+        },
+    }
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_STORMHEIM] = {
     name = GetMapNameByID(1017),
@@ -1730,6 +1884,14 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_STORMHEIM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS,
         },
     }
 }
