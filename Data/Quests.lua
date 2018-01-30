@@ -10794,4 +10794,69 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Only the Finest",
 	},
+	[42748] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Emerald Sisters",
+	},
+	[43324] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Rage of the Owlbeasts",
+	},
+	[42747] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Where the Wildkin Are",
+	},
+	[42751] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Moon Reaver",
+	},
+	[42750] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Dreamcatcher",
+	},
+	[42786] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Grotesque Remains",
+	},
+	[42884] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Grassroots Effort",
+	},
+	[42865] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Grell to Pay",
+	},
+	[42857] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Moist Around the Hedges",
+	},
+	[42883] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "All Grell Broke Loose",
+	},
+	[40220] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Thorny Dancing",
+	},
+	[38862] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Thieving Thistleleaf",
+	},
+	[40221] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Spread Your Lunarwings and Fly",
+	},
 }
