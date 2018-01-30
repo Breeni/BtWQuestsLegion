@@ -1573,6 +1573,110 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_CHAMPION_OF_STORMHEIM] = {
         },  
     }
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_A_MURKY_FATE] = {
+    name = BtWQuests_GetQuestName(40120),
+    category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 40120,
+    },
+    range = {98, 110},
+    items = {
+        {
+            name = "Go to Morheim Ancestor",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.7824, 0.5867, "Morheim Ancestor")
+            end,
+            x = 3,
+            y = 0,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 40120,
+            x = 3,
+            y = 1,
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT] = {
+    name = BtWQuests_GetQuestName(42635),
+    category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 42640,
+    },
+    range = {98, 110},
+    items = {
+        {
+            name = "Go to Sir Finley Mrrgglton",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.7492, 0.5558, "Sir Finley Mrrgglton")
+            end,
+            x = 2,
+            y = 0,
+            connections = {
+                2, 3,
+            },
+        },
+        {
+            name = "Go to the Crate of Ancient Relics",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.7553, 0.5080, "Crate of Ancient Relics")
+            end,
+            x = 5,
+            y = 0,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 42635,
+            x = 1,
+            y = 1,
+            connections = {
+                3,
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 42639,
+            x = 3,
+            y = 1,
+            connections = {
+                2,
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 42640,
+            x = 5,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 42641,
+            x = 1,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 42645,
+            x = 3,
+            y = 2,
+        },
+    }
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_STORMHEIM] = {
     name = GetMapNameByID(1017),
@@ -1618,6 +1722,14 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_STORMHEIM] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_CHAMPION_OF_STORMHEIM,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_A_MURKY_FATE,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT,
         },
     }
 }
