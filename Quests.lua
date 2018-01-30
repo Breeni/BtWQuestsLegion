@@ -10759,4 +10759,19 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "All Grell Broke Loose",
 	},
+	[40220] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Thorny Dancing",
+	},
+	[38862] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Thieving Thistleleaf",
+	},
+	[40221] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Spread Your Lunarwings and Fly",
+	},
 }
