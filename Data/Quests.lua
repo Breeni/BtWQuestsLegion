@@ -10739,4 +10739,24 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Grotesque Remains",
 	},
+	[42884] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Grassroots Effort",
+	},
+	[42865] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Grell to Pay",
+	},
+	[42857] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Moist Around the Hedges",
+	},
+	[42883] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "All Grell Broke Loose",
+	},
 }

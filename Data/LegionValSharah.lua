@@ -977,6 +977,66 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN] = {
         },
     }
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD] = {
+    name = BtWQuests_GetQuestName(42865),
+    category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    range = {98, 110},
+    completed = {
+        type = "quest",
+        id = 42865,
+    },
+    items = {
+        {
+            name = "Go to Old Grizzleback",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.6668, 0.7727, "Old Grizzleback")
+            end,
+            x = 2,
+            y = 0,
+            connections = {
+                2, 3, 4,
+            },
+        },
+        {
+            name = "Go to the Moist Grizzlecomb",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.6682, 0.7566, "Moist Grizzlecomb")
+            end,
+            x = 6,
+            y = 0,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 42865,
+            x = 0,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 42884,
+            x = 2,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 42883,
+            x = 4,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 42857,
+            x = 6,
+            y = 1,
+        },
+    }
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_VALSHARAH] = {
     name = GetMapNameByID(1018),
@@ -1018,6 +1078,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_VALSHARAH] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD,
         },
     },
 }
