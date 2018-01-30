@@ -916,6 +916,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE] = {
         {
             type = "quest",
             id = 42372,
+            breadcrumb = true,
             x = 3,
             y = 0,
             connections = {
