@@ -10654,4 +10654,29 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+	[42372] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Felblaze Ingress",
+	},
+	[42367] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Arkethrax",
+	},
+	[42369] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "They're Doing it Wrong",
+	},
+	[42375] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Eye See You",
+	},
+	[42368] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Quantity Over Quality",
+	},
 }
