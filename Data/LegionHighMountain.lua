@@ -901,7 +901,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
                 x = 3,
                 y = 0,
                 connections = {
-                    1,
+                    2,
                 },
             },
             {
@@ -917,7 +917,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
                 x = 3,
                 y = 0,
                 connections = {
-                    1,
+                    2,
                 },
             },
             {
@@ -929,8 +929,20 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
                 x = 3,
                 y = 0,
                 connections = {
-                    1,
+                    2,
                 },
+            },
+        },
+        {
+            name = "Go to Lorna Stoutfoot",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1024, 0, 0.5759, 0.5641, "Lorna Stoutfoot")
+            end,
+            x = 5,
+            y = 0,
+            connections = {
+                2,
             },
         },
         {
