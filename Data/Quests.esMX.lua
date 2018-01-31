@@ -11020,4 +11020,129 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [49787] = {
+        name = "Las Tierras Fantasma",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "Los Templeluz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "Forja de los Eones",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Falla de Telogrus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "¡Por la Luz!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "La sombra sobre Cima del Trueno",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "Hielo y Sombra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "El resguardo final",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "Maldición de los Necroscuro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Regresa a Altamontaña",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Fuerzas oscuras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Recuerda la Fuente del Sol",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "Relatos oscuros",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "Esbirros de la oscuridad",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "Tras los pasos de los espíritus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "Dominio de Thalyssra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "¡Juntos somos la Horda!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "¿Cómo está Ebacuerno?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "La sombra del Sepulcro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "La Oscuridad",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Ciudad de Lunargenta",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "Los Natonocturno",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "La montaña de Huln",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "Un festín para los nuestros",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "Sirvientes de la oscuridad",
+        level = 110,
+        requiredLevel = 110,
+    },
 }

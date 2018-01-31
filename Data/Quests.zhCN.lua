@@ -11020,4 +11020,129 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [49787] = {
+        name = "The Ghostlands",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "The Lightforged",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "Forge of Aeons",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Telogrus Rift",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "For the Light!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "Shadow Over Thunder Bluff",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "Ice and Shadow",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "The Final Ward",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "Curse of the Necrodark",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Return to Highmountain",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Dark Forces",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Remember the Sunwell",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "Dark Tales",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "Minions of the Darkness",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "Walking in Their Footsteps",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "Thalyssra's Estate",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "Together We Are the Horde!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "How Fares Ebonhorn?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "Shadow of the Sepulcher",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "The Darkness",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Silvermoon City",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "The Nightborne",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "Huln's Mountain",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "A Feast for Our Kin",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "Servants of the Darkness",
+        level = 110,
+        requiredLevel = 110,
+    },
 }

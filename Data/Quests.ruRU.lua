@@ -11020,4 +11020,129 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [49787] = {
+        name = "Призрачные земли",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "Озаренные",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "Кузня Вечности",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Телогрус",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "Во имя Света!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "Тень над Громовым Утесом",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "Лед и Тьма",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "Последний идол",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "Проклятие Культа Смерти",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Возвращение в Крутогорье",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Темные силы",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Помни о Солнечном Колодце",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "Темные истории",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "Прислужники Мрака",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "По их следам",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "Поместье Талисры",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "Вместе мы – Орда!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "Как там Смоляной Рог?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "Тень склепа",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "Мрак",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Луносвет",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "Ночнорожденные",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "Гора Хална",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "Пир для наших сородичей",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "Слуги Мрака",
+        level = 110,
+        requiredLevel = 110,
+    },
 }

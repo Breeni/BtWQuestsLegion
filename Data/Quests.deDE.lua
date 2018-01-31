@@ -11020,4 +11020,129 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [49787] = {
+        name = "Die Geisterlande",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "Die Lichtgeschmiedeten",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "Äonenschmiede",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Der Telogrusriss",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "Für das Licht!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "Schatten über Donnerfels",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "Eis und Schatten",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "Der letzte Zauberschutz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "Fluch der Nekrodunklen",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Rückkehr zum Hochberg",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Dunkle Mächte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Erinnerung an den Sonnenbrunnen",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "Finstere Geschichten",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "Vasallen der Finsternis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "In ihren Fußstapfen",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "Thalyssras Anwesen",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "Zusammen sind wir die Horde!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "Wie geht es Ebenhorn?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "Schatten des Grabes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "Die Finsternis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Silbermond",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "Die Nachtgeborenen",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "Hulns Berg",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "Ein Fest für die Unseren",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "Diener der Finsternis",
+        level = 110,
+        requiredLevel = 110,
+    },
 }
