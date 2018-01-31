@@ -10660,4 +10660,364 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [38237] = {
+        name = "This IS In My Contract.",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "Missing Demon",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38232] = {
+        name = "Minion! Kill Them!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38460] = {
+        name = "Let's Make A Deal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "A Tainted Vintage",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38203] = {
+        name = "Challiane Vineyards",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "Felblaze Ingress",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42367] = {
+        name = "Arkethrax",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "They're Doing it Wrong",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "Eye See You",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "Quantity Over Quality",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "Spilling Bad Blood",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "The Value of Knowledge",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42635] = {
+        name = "The Mystery of Dreyrgrot",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "A Stone of Blood",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "What the Bonespeakers Buried",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "A Murky Fate",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "Dances With Ravenbears",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "Plight of the Blackfeather",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "Singed Feathers",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "Nithogg's Tribute",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "Rigging the Wager",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "Eating Into Our Business",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43331] = {
+        name = "Time to Collect",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42483] = {
+        name = "Put It All on Red",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "A Stone Cold Gamble",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "A Stack of Racks",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "Only the Finest",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "Emerald Sisters",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43324] = {
+        name = "Rage of the Owlbeasts",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "Where the Wildkin Are",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "Moon Reaver",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42750] = {
+        name = "Dreamcatcher",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42786] = {
+        name = "Grotesque Remains",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "Grassroots Effort",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "Grell to Pay",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42857] = {
+        name = "Moist Around the Hedges",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42883] = {
+        name = "All Grell Broke Loose",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "Thorny Dancing",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "Thieving Thistleleaf",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "Spread Your Lunarwings and Fly",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [46275] = {
+        name = "A Kingdom's Heart",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46282] = {
+        name = "The King's Path",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "Summons to the Keep",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "Consoling the King",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "A Found Memento",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "Critter Scatter Shot",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "Wolf Pack Attack",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "A True Hunter",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "Procuring a Prototype",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40049] = {
+        name = "Slime Time",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "Murlocs: The Next Generation",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "Oh, the Clawdacity!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "Nature vs. Nurture",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "I'll Huff, I'll Puff...",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "Step into the Dark",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "You Lift, Brul?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "Stonedark Relics",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "Guhruhlruhlruh",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39437] = {
+        name = "Deep in the Cavern",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "An Offering of Ammo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "Rating Razik",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40170] = {
+        name = "Amateur Hour",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40216] = {
+        name = "A Hunter at Heart",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "Bear Huntin'",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "Lion Stalkin'",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "Moose Shootin'",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "I'm Not Lion!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "Moose on the Loose",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40228] = {
+        name = "Scout It Out",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "Note-Eating Goats",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40244] = {
+        name = "That Guy in the Costume",
+        level = -1,
+        requiredLevel = 98,
+    },
 }

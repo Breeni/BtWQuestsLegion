@@ -10660,4 +10660,364 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [38237] = {
+        name = "Esto ESTÁ en mi contrato",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "Demonio desaparecido",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38232] = {
+        name = "¡Esbirro! ¡Mátalos!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38460] = {
+        name = "Hagamos un trato",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "Una añada corrupta",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38203] = {
+        name = "Viñedos de Challiane",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "Acceso Llamarada Vil",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42367] = {
+        name = "Arkethrax",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "Se complican la vida",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "Ojo conmigo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "Cantidad mejor que calidad",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "Derramar mala sangre",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "El valor del conocimiento",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42635] = {
+        name = "El misterio de Dreyrgrot",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "Una piedra de sangre",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "Lo que los oradores de huesos enterraron",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "Un destino turbio",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "Bailando con osos corvinos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "El apuro de los Pluma Negra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "Plumas chamuscadas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "Tributo de Nithogg",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "Amañar la apuesta",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "Se comen nuestro negocio",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43331] = {
+        name = "Hora de recoger",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42483] = {
+        name = "Todo al rojo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "Una apuesta pedregosa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "Costillar, un manjar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "Solo lo mejor",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "Hermanas esmeralda",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43324] = {
+        name = "La ira de las lechubestias",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "Donde viven los lechúcicos salvajes",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "Atraco a la luna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42750] = {
+        name = "Atrapasueños",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42786] = {
+        name = "Restos grotescos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "La raíz del problema",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "Los grells lo pagarán",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42857] = {
+        name = "Setos frutales",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42883] = {
+        name = "Guerra al grell sin cuartel",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "Una danza espinosa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "Ladrones Hojacardo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "Extiende tus alalunares y vuela",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [46275] = {
+        name = "El corazón de un reino",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46282] = {
+        name = "El camino del rey",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "Llamada al castillo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "Consolar al rey",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "El hallazgo de un recuerdo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "Disparo de dispersión de alimañas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "Manada de lobos al ataque",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "Un auténtico cazador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "Adquisición de un prototipo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40049] = {
+        name = "La hora de las babas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "Múrlocs: la nueva generación",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "No dejarse atenazar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "Naturaleza frente a educación",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "Globos explosivos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "Adentrarse en la oscuridad",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "¿Haces pesas, brul?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "Reliquias Piedra Lóbrega",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "Guhruhlruhlruh",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39437] = {
+        name = "En lo hondo de la caverna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "Oferta de munición",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "Evaluación de Razik",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40170] = {
+        name = "La hora de los aficionados",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40216] = {
+        name = "Corazón de cazador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "Caza de osos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "Al acecho de leones",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "Tiro al alce",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "¡Es un león, no mi imaginación!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "Un alce suelto",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40228] = {
+        name = "De vigilancia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "Cabras comenotas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40244] = {
+        name = "Ese tipo del disfraz",
+        level = -1,
+        requiredLevel = 98,
+    },
 }

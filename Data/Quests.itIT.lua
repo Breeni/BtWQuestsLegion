@@ -10660,4 +10660,364 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [38237] = {
+        name = "Questo fa parte del contratto.",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "Demoni dispersi",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38232] = {
+        name = "Servitore, uccidili!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38460] = {
+        name = "Stringere un patto",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "Un'annata corrotta",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38203] = {
+        name = "Vigne di Challiane",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "Soglia della Vilfiamma",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42367] = {
+        name = "Arkethrax",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "Lo stanno facendo male",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "Occhio che ti vedo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "Qualità, non quantità",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "Versare il sangue cattivo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "Il valore della conoscenza",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42635] = {
+        name = "Il mistero di Dreyrgrot",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "Una pietra di sangue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "Quel che i Parlaossa han sotterrato",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "Un torbido destino",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "Balla con gli Orsocorvo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "Le difficoltà dei Piumanera",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "Piume bruciate",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "Il tributo per Nithogg",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "La scommessa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "Mangiare è il nostro mestiere",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43331] = {
+        name = "Raccogliere i frutti",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42483] = {
+        name = "Tutto sul rosso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "Scommettiamo una pietra?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "Un mucchio di costolette",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "Solo i migliori",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "Sorelle smeraldine",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43324] = {
+        name = "Rabbia dei Bestiagufo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "Dove osano i Silvagufo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "I predatori della luna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42750] = {
+        name = "Acchiappasogni",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42786] = {
+        name = "Resti grotteschi",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "Impegnarsi a disboscare",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "I Grell devono pagare",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42857] = {
+        name = "L'umidità sulle siepi",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42883] = {
+        name = "Grell scatenati",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "Danza di spine",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "Ladri Sferzafoglie",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "Salvare gli Alalunare",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [46275] = {
+        name = "Il cuore di un reame",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46282] = {
+        name = "La via del re",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "Convocazioni al forte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "Consolare il re",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "Un ricordo ritrovato",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "Conigli ovunque",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "Attacco ai capibranco",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "Un vero cacciatore",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "Procurarsi un prototipo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40049] = {
+        name = "Tempo di melma",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "Una nuova generazione di Murloc",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "Assalto dei Murloc",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "Natura contro allevamento",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "Si gonfia fino a scoppiare",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "Un passo nelle tenebre",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "Sollevi, Brul?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "Reliquie dei Pietrascura",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "Guhruhlruhlruh",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39437] = {
+        name = "Nel profondo della caverna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "Un'offerta di munizioni",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "Razik l'affidabile",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40170] = {
+        name = "L'ora dei principianti",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40216] = {
+        name = "Cuore di cacciatore",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "Caccia all'orso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "Braccare i leoni",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "Spara all'alce",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "Non è un leone!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "Alce scatenato",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40228] = {
+        name = "Vai e trovalo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "Capre mangia-appunti",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40244] = {
+        name = "L'uomo sotto la maschera",
+        level = -1,
+        requiredLevel = 98,
+    },
 }

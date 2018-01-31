@@ -10660,4 +10660,364 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [38237] = {
+        name = "이게 내 \"계약\"이야",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "사라진 임프",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38232] = {
+        name = "하수인! 가서 처치해라!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38460] = {
+        name = "거래를 해 볼까",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "오염된 포도주",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38203] = {
+        name = "샬리안 포도원",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "지옥화염 침투지",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42367] = {
+        name = "아르케스락스",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "차원문의 달인",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "장님이 뭘 알겠어",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "질보다 양",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "사악한 피의 종말",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "지식의 참된 가치",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42635] = {
+        name = "드레위르그로트의 수수께끼",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "핏빛 돌",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "뼈예언자가 묻은 것",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "이젠 편히 쉬세요",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "까마귀곰과 춤을",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "검은털의 고난",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "그을린 날개",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "니소그의 공물",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "승부 조작",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "사냥감을 지켜라",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43331] = {
+        name = "짭짤한 보상",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42483] = {
+        name = "상어의 값어치",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "돌처럼 굳은 약속",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "맛있는 갈비",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "품질 좋은 물건",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "에메랄드 자매",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43324] = {
+        name = "올빼미야수의 분노",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "올빼미야수의 운명",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "달의 약탈자",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42750] = {
+        name = "꿈흡입기",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42786] = {
+        name = "잔혹한 잔해",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "뿌리뽑기",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "그렐의 죗값",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42857] = {
+        name = "수상한 과일",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42883] = {
+        name = "폭주하는 그렐",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "가시투성이 춤꾼들",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "엉망진창 엉겅퀴잎",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "달빛날개를 활짝 펼치고 날아라",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [46275] = {
+        name = "백성들의 마음",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46282] = {
+        name = "왕의 길",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "왕궁으로부터의 소환",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "왕에게 위로를",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "찾아낸 기억의 조각",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "토끼의 특별한 용도",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "늑대 무리 공격",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "진정한 사냥꾼",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "맞춤형 무기",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40049] = {
+        name = "점액만점 점액풀",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "멀록: 다음 세대를 위하여",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "뻔뻔한 가재의 최후",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "머키에게 한 표를",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "복어 펑!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "어둠 속으로",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "운동은 하나, 브룰?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "돌어둠 유물",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "가옳옳옳",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39437] = {
+        name = "동굴 깊은 곳",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "전통 사냥 방식",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "라지크의 작품",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40170] = {
+        name = "초보자의 솜씨",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40216] = {
+        name = "마음만은 사냥꾼",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "곰 사냥",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "표적: 표범",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "순록 사냥",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "사자 목격담",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "가지뿔 가지치기",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40228] = {
+        name = "정찰",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "배고픈 염소 주의!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40244] = {
+        name = "괴상망측한 옷을 입은 친구",
+        level = -1,
+        requiredLevel = 98,
+    },
 }
