@@ -30,8 +30,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI] = {
         },
     },
     completed = {
-        type = "quest",
-        id = 50071,
+        type = "achievement",
+        id = 12243,
+        anyone = true,
     },
     range = {110},
     items = {
@@ -93,8 +94,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_VOID_ELF] = {
         },
     },
     completed = {
-        type = "quest",
-        id = 48962,
+        type = "achievement",
+        id = 12242,
+        anyone = true,
     },
     range = {110},
     items = {
@@ -147,8 +149,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_NIGHTBORNE] = {
         },
     },
     completed = {
-        type = "quest",
-        id = 49614,
+        type = "achievement",
+        id = 12244,
+        anyone = true,
     },
     range = {110},
     items = {
@@ -219,8 +222,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN] = {
         },
     },
     completed = {
-        type = "quest",
-        id = 48433,
+        type = "achievement",
+        id = 12245,
+        anyone = true,
     },
     range = {110},
     items = {
