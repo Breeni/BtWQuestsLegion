@@ -10739,4 +10739,29 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Only the Finest",
 	},
+	[49787] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Ghostlands",
+	},
+	[49698] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Lightforged",
+	},
+	[49266] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Forge of Aeons",
+	},
+	[48962] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Telogrus Rift",
+	},
+	[50071] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "For the Light!",
+	},
 }
