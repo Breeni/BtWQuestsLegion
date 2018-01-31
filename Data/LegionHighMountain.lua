@@ -863,6 +863,225 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA] = {
         },
     }
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
+    name = BtWQuests_GetQuestName(39670),
+    category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 39656,
+    },
+    range = {98, 110},
+    items = {
+        {
+            {
+                type = "quest",
+                id = 39386,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39386,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
+            },
+            {
+                type = "quest",
+                id = 39386,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39386,
+                        active = true,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
+            },
+            {
+                name = "Go to Razik Gazbolt",
+                breadcrumb = true,
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(1024, 0, 0.5763, 0.5661, "Razik Gazbolt")
+                end,
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
+            },
+        },
+        {
+            type = "quest",
+            id = 39670,
+            x = 3,
+            y = 1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 40000,
+            x = 5,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 39656,
+            x = 3,
+            y = 2,
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
+    name = GetAchievementCriteriaInfo(10059, 7),
+    category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 39780,
+    },
+    range = {98, 110},
+    items = {
+        {
+            type = "quest",
+            id = 38915,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            },
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK] = {
+    name = GetAchievementCriteriaInfo(10059, 7),
+    category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 39780,
+    },
+    range = {98, 110},
+    items = {
+        {
+            type = "quest",
+            id = 38915,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            },
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY] = {
+    name = BtWQuests_GetQuestName(40102),
+    category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 40102,
+    },
+    range = {98, 110},
+    items = {
+        {
+            -- {
+            --     type = "quest",
+            --     id = 39386,
+            --     restrictions = {
+            --         {
+            --             type = "quest",
+            --             id = 39386,
+            --         }
+            --     },
+            --     x = 3,
+            --     y = 0,
+            --     connections = {
+            --         1, 2, 3,
+            --     },
+            -- },
+            -- {
+            --     type = "quest",
+            --     id = 39386,
+            --     restrictions = {
+            --         {
+            --             type = "quest",
+            --             id = 39386,
+            --             active = true,
+            --         }
+            --     },
+            --     x = 3,
+            --     y = 0,
+            --     connections = {
+            --         1, 2, 3,
+            --     },
+            -- },
+            {
+                name = "Go to King Mrgl-Mrgl",
+                breadcrumb = true,
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(1024, 0, 0.4273, 0.1094, "King Mrgl-Mrgl")
+                end,
+                x = 3,
+                y = 0,
+                connections = {
+                    1, 2, 3,
+                },
+            },
+        },
+        {
+            type = "quest",
+            id = 40045,
+            x = 1,
+            y = 1,
+            connections = {
+                3,
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 40047,
+            x = 3,
+            y = 1,
+            connections = {
+                2,
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 40049,
+            x = 5,
+            y = 1,
+            connections = {
+                1,
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 40102,
+            x = 2,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 40230,
+            x = 4,
+            y = 2,
+        },
+    }
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN] = {
     name = GetMapNameByID(1024),
@@ -896,6 +1115,22 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY,
         },
     },
 }
