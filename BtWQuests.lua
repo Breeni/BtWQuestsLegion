@@ -249,7 +249,7 @@ local function BtWQuests_GetItemName(item)
     elseif item.type == "level" then
         return string.format(BTWQUESTS_LEVEL_TO, item.level)
     elseif item.type == "expansion" then
-        return _G['EXPANSION_NAME' .. item.expansion]
+        return _G['BTWQUESTS_EXPANSION_NAME' .. item.expansion]
     elseif item.type == "reputation" then
         local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
         local gender = UnitSex("player")
