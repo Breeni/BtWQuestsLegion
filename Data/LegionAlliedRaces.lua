@@ -14,13 +14,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI] = {
             expansion = 7,
         },
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+            type = "achievement",
+            id = 12066,
+            anyone = true,
         },
         {
-            type = "reputation",
-            id = 2165,
-            standing = 8,
+            type = "achievement",
+            id = 12081,
+            name = {
+                type = "reputation",
+                id = 2165,
+                standing = 8,
+            },
+            anyone = true,
         },
     },
     completed = {
@@ -71,13 +77,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_VOID_ELF] = {
             expansion = 7,
         },
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
+            type = "achievement",
+            id = 12066,
+            anyone = true,
         },
         {
-            type = "reputation",
-            id = 2170,
-            standing = 8,
+            type = "achievement",
+            id = 12076,
+            name = {
+                type = "reputation",
+                id = 2170,
+                standing = 8,
+            },
+            anyone = true,
         },
     },
     completed = {
@@ -119,13 +131,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_NIGHTBORNE] = {
             expansion = 7,
         },
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD,
+            type = "achievement",
+            id = 11340,
+            anyone = true,
         },
         {
-            type = "reputation",
-            id = 1859,
-            standing = 8,
+            type = "achievement",
+            id = 10778,
+            name = {
+                type = "reputation",
+                id = 1859,
+                standing = 8,
+            },
+            anyone = true,
         },
     },
     completed = {
@@ -185,13 +203,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN] = {
             expansion = 7,
         },
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+            type = "achievement",
+            id = 10059,
+            anyone = true,
         },
         {
-            type = "reputation",
-            id = 1828,
-            standing = 8,
+            type = "achievement",
+            id = 12292,
+            name = {
+                type = "reputation",
+                id = 1828,
+                standing = 8,
+            },
+            anyone = true,
         },
     },
     completed = {

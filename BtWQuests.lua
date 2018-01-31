@@ -235,6 +235,8 @@ local function BtWQuests_GetItemName(item)
     if item.name then
         if type(item.name) == "function" then
             return item.name()
+        elseif type(item.name) == "table" then
+            return BtWQuests_GetItemName(item.name)
         end
         
         return item.name
