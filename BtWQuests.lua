@@ -168,6 +168,8 @@ local function BtWQuests_CheckRequirement(item)
         return ArrayContains(item.classes, select(3, UnitClass("player")))
     elseif item.type == "level" then
         return UnitLevel("player") >= item.level
+    elseif item.type == "expansion" then
+        return GetAccountExpansionLevel() > item.expansion
     elseif item.type == "reputation" then
         local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
         local gender = UnitSex("player")
@@ -246,6 +248,8 @@ local function BtWQuests_GetItemName(item)
         return BtWQuests_GetItemName(BtWQuests_Missions[item.id])
     elseif item.type == "level" then
         return string.format(BTWQUESTS_LEVEL_TO, item.level)
+    elseif item.type == "expansion" then
+        return _G['EXPANSION_NAME' .. item.expansion]
     elseif item.type == "reputation" then
         local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
         local gender = UnitSex("player")
