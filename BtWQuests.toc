@@ -49,3 +49,4 @@ Data/LegionBrokenShore.lua
 Data/LegionArgus.lua
 Data/LegionProfessions.lua
 Data/LegionHidden.lua
+Data/LegionAlliedRaces.lua

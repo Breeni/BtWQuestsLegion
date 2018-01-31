@@ -11014,4 +11014,214 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+	[42645] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Spilling Bad Blood",
+	},
+	[42640] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Value of Knowledge",
+	},
+	[42635] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Mystery of Dreyrgrot",
+	},
+	[42639] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Stone of Blood",
+	},
+	[42641] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "What the Bonespeakers Buried",
+	},
+	[40120] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Murky Fate",
+	},
+	[42447] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Dances With Ravenbears",
+	},
+	[42444] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Plight of the Blackfeather",
+	},
+	[42446] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Singed Feathers",
+	},
+	[42445] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Nithogg's Tribute",
+	},
+	[39787] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Rigging the Wager",
+	},
+	[39789] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Eating Into Our Business",
+	},
+	[43331] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Time to Collect",
+	},
+	[42483] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Put It All on Red",
+	},
+	[39786] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Stone Cold Gamble",
+	},
+	[39792] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Stack of Racks",
+	},
+	[39793] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Only the Finest",
+	},
+	[49787] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Ghostlands",
+	},
+	[49698] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Lightforged",
+	},
+	[49266] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Forge of Aeons",
+	},
+	[48962] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Telogrus Rift",
+	},
+	[50071] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "For the Light!",
+	},
+	[48067] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Shadow Over Thunder Bluff",
+	},
+	[41840] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Ice and Shadow",
+	},
+	[41841] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Final Ward",
+	},
+	[41815] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Curse of the Necrodark",
+	},
+	[48079] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Return to Highmountain",
+	},
+	[49756] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Dark Forces",
+	},
+	[49354] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Remember the Sunwell",
+	},
+	[41884] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Dark Tales",
+	},
+	[41799] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Minions of the Darkness",
+	},
+	[41764] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Walking in Their Footsteps",
+	},
+	[49973] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Thalyssra's Estate",
+	},
+	[48433] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Together We Are the Horde!",
+	},
+	[48434] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "How Fares Ebonhorn?",
+	},
+	[48185] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Shadow of the Sepulcher",
+	},
+	[48403] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Darkness",
+	},
+	[49613] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Silvermoon City",
+	},
+	[49614] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Nightborne",
+	},
+	[48190] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Huln's Mountain",
+	},
+	[48066] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Feast for Our Kin",
+	},
+	[41800] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Servants of the Darkness",
+	},
 }

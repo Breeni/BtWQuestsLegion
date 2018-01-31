@@ -99,6 +99,10 @@ BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION] = {
         type = "chain",
         id = BTWQUESTS_CHAIN_LEGION_LOST_MAIL,
     },
+    {
+        type = "category",
+        id = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
+    },
 }
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {

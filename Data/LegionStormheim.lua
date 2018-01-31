@@ -1810,6 +1810,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS] = {
             id = 42483,
             x = 3,
             y = 4,
+            connections = {
+                1,
+            },
         },
         {
             name = "Go to Gazrix Gearlock",
