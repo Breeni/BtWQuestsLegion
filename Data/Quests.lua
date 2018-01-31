@@ -10834,4 +10834,9 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Note-Eating Goats",
 	},
+	[40244] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "That Guy in the Costume",
+	},
 }
