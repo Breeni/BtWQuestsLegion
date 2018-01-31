@@ -10754,4 +10754,29 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "I'll Huff, I'll Puff...",
 	},
+	[40229] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Step into the Dark",
+	},
+	[39440] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "You Lift, Brul?",
+	},
+	[39439] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Stonedark Relics",
+	},
+	[39438] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Guhruhlruhlruh",
+	},
+	[39437] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Deep in the Cavern",
+	},
 }

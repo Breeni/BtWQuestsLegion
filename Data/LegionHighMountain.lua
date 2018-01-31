@@ -483,15 +483,30 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             x = 3,
             y = 7,
             connections = {
-                2
+                1
             },
+        },
+        {
+            type = "quest",
+            id = 40229,
+            x = 3,
+            y = 8,
+            connections = {
+                1, 3
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK,
+            x = 5,
+            y = 8,
         },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE,
             aside = true,
             x = 1,
-            y = 8,
+            y = 9,
             connections = {
                 3
             },
@@ -501,7 +516,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             id = 39456,
             aside = true,
             x = 3,
-            y = 8,
+            y = 9,
             connections = {
                 2
             },
@@ -511,7 +526,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
             aside = true,
             x = 5,
-            y = 8,
+            y = 9,
             connections = {
                 1
             },
@@ -521,7 +536,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
             aside = true,
             x = 3,
-            y = 9,
+            y = 10,
         },
     }
 }
@@ -963,23 +978,64 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
     }
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK] = {
-    name = GetAchievementCriteriaInfo(10059, 7),
+    name = BtWQuests_GetQuestName(39440),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
+        },
+    },
     completed = {
         type = "quest",
-        id = 39780,
+        id = 39439,
     },
     range = {98, 110},
     items = {
         {
             type = "quest",
-            id = 38915,
+            id = 40229,
+            onClick = function()
+                BtWQuests_SelectChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE, {
+                    type = "quest",
+                    id = 40229
+                })
+            end,
             x = 3,
             y = 0,
             connections = {
                 1,
             },
+        },
+        {
+            type = "quest",
+            id = 39440,
+            x = 3,
+            y = 1,
+            connections = {
+                1,
+                2,
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 39438,
+            x = 1,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 39439,
+            x = 3,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 39437,
+            x = 5,
+            y = 2,
         },
     }
 }
