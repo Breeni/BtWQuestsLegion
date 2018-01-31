@@ -11020,4 +11020,129 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [49787] = {
+        name = "유령의 땅",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "빛으로 벼려지다",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "영혼의 제련",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "텔로그러스 균열",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "빛을 위하여!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "썬더 블러프에 드리운 그림자",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "얼음과 어둠",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "마지막 수호물",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "어둠강령의 저주",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "높은산으로의 귀환",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "어둠의 세력",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "태양샘을 기억하라",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "영혼의 속삭임",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "어둠의 하수인",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "발자취를 따라서",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "탈리스라의 영지",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "우리는 모두 호드다!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "에본혼의 상태는?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "무덤의 그림자",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "어둠의 존재",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "실버문",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "나이트본",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "훌른의 산",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "동족을 위한 연회",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "어둠의 심복",
+        level = 110,
+        requiredLevel = 110,
+    },
 }

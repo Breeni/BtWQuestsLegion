@@ -11020,4 +11020,129 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [49787] = {
+        name = "A Terra Fantasma",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "O Forjado a Luz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "Forja das Eras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Fissura de Telogrus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "Pela Luz!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "Sombras no Penhasco do Trovão",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "Gelo e sombra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "A última proteção",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "Maldição dos Necrotrevas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Retorno a Alta Montanha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Forças das Trevas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Lembrem-se da Nascente do Sol",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "Contos obscuros",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "Lacaios da Escuridão",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "Trilhando os mesmos passos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "A mansão de Thalyssra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "Juntos, nós somos a Horda!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "Como vai Chifre de Ébano?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "Sombra do Sepulcro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "A Treva",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Luaprata",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "Os Filhos da Noite",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "A Montanha de Huln",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "Um banquete para os nossos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "Servos da Escuridão",
+        level = 110,
+        requiredLevel = 110,
+    },
 }

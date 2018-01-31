@@ -11020,4 +11020,129 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [49787] = {
+        name = "鬼魂之地",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "光鑄儀式",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "萬世熔爐",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "特洛古斯裂隙",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "為了聖光！",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "籠罩雷霆崖的暗影",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "冰與影",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "最後的結界",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "冥闇的詛咒",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "返回高嶺",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "黑暗之力",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "勿忘太陽之井",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "黑暗傳說",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "黑暗的爪牙",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "跟隨他們的腳步",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "薩莉瑟拉的住所",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "團結一心，為了部落！",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "黯角怎麼樣了？",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "籠罩墳塚的暗影",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "無邊黑暗",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "銀月城",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "夜裔精靈",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "胡恩的山嶺",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "宴請親族",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "黑暗的奴僕",
+        level = 110,
+        requiredLevel = 110,
+    },
 }

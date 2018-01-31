@@ -11020,4 +11020,129 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [49787] = {
+        name = "Le Terre Spettrali",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "I Forgialuce",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "La Forgia degli Eoni",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Fenditura di Telogrus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "Per la Luce!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "Ombre su Picco del Tuono",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "Ghiaccio e ombra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "L'ultima protezione",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "La maledizione dei Necronotte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Ritorno ad Alto Monte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Forze Oscure",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Ricorda il Pozzo Solare",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "Racconti oscuri",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "Servitori dell'Oscurità",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "Seguire il loro cammino",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "La tenuta di Thalyssra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "Insieme, siamo l'Orda!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "Come sta Corna Nere?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "L'ombra del sepolcro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "L'Oscurità",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Lunargenta",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "I Nobili Oscuri",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "La montagna di Huln",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "Un banchetto per i nostri fratelli",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "Servi dell'Oscurità",
+        level = 110,
+        requiredLevel = 110,
+    },
 }

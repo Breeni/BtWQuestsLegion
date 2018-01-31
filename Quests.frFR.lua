@@ -11020,4 +11020,129 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [49787] = {
+        name = "Les terres Fantômes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "Les Sancteforge",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "Forge des Éons",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Faille de Telogrus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "Pour la Lumière !",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "Un voile d’ombre sur les Pitons-du-Tonnerre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "De glace et d’ombre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "La dernière protection",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "La malédiction nécrosombre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Retour à Haut-Roc",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Forces ténébreuses",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Le souvenir du Puits de soleil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "Funestes présages",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "Serviteurs des Ténèbres",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "Marcher dans leurs pas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "Le domaine de Thalyssra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "Ensemble, nous sommes la Horde !",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "Comment se porte Corne-d’Ébène ?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "Ombre du sépulcre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "Les Ténèbres",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Lune-d’Argent",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "Les Sacrenuit",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "La montagne de Huln",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "Un festin pour les nôtres",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "Laquais des Ténèbres",
+        level = 110,
+        requiredLevel = 110,
+    },
 }
