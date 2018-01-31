@@ -953,6 +953,16 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
             id = 39656,
             x = 3,
             y = 2,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET,
+            aside = true,
+            x = 3,
+            y = 3,
         },
     }
 }
@@ -1133,6 +1143,23 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
             id = 40228,
             x = 3,
             y = 4,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK,
+            aside = true,
+            x = 2,
+            y = 5,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY,
+            aside = true,
+            x = 4,
+            y = 5,
         },
     }
 }
@@ -1209,37 +1236,37 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY] = {
     range = {98, 110},
     items = {
         {
-            -- {
-            --     type = "quest",
-            --     id = 39386,
-            --     restrictions = {
-            --         {
-            --             type = "quest",
-            --             id = 39386,
-            --         }
-            --     },
-            --     x = 3,
-            --     y = 0,
-            --     connections = {
-            --         1, 2, 3,
-            --     },
-            -- },
-            -- {
-            --     type = "quest",
-            --     id = 39386,
-            --     restrictions = {
-            --         {
-            --             type = "quest",
-            --             id = 39386,
-            --             active = true,
-            --         }
-            --     },
-            --     x = 3,
-            --     y = 0,
-            --     connections = {
-            --         1, 2, 3,
-            --     },
-            -- },
+            {
+                type = "quest",
+                id = 40244,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40244,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1, 2, 3,
+                },
+            },
+            {
+                type = "quest",
+                id = 40244,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40244,
+                        active = true,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1, 2, 3,
+                },
+            },
             {
                 name = "Go to King Mrgl-Mrgl",
                 breadcrumb = true,
