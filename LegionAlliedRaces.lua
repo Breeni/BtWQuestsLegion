@@ -2,6 +2,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI] = {
     name = "Lightforged Draenei",
     category = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
     prerequisites = {
         {
             type = "expansion",
@@ -53,6 +59,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_VOID_ELF] = {
     name = "Void Elf",
     category = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
     prerequisites = {
         {
             type = "expansion",
@@ -95,6 +107,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_NIGHTBORNE] = {
     name = "Nightborne",
     category = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
     prerequisites = {
         {
             type = "expansion",
@@ -155,6 +173,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN] = {
     name = "Highmountain Tauren",
     category = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
     prerequisites = {
         {
             type = "expansion",
