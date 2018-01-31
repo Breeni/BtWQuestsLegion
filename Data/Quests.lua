@@ -10764,4 +10764,104 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "For the Light!",
 	},
+	[48067] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Shadow Over Thunder Bluff",
+	},
+	[41840] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Ice and Shadow",
+	},
+	[41841] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Final Ward",
+	},
+	[41815] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Curse of the Necrodark",
+	},
+	[48079] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Return to Highmountain",
+	},
+	[49756] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Dark Forces",
+	},
+	[49354] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Remember the Sunwell",
+	},
+	[41884] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Dark Tales",
+	},
+	[41799] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Minions of the Darkness",
+	},
+	[41764] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Walking in Their Footsteps",
+	},
+	[49973] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Thalyssra's Estate",
+	},
+	[48433] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Together We Are the Horde!",
+	},
+	[48434] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "How Fares Ebonhorn?",
+	},
+	[48185] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Shadow of the Sepulcher",
+	},
+	[48403] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Darkness",
+	},
+	[49613] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Silvermoon City",
+	},
+	[49614] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Nightborne",
+	},
+	[48190] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Huln's Mountain",
+	},
+	[48066] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Feast for Our Kin",
+	},
+	[41800] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Servants of the Darkness",
+	},
 }
