@@ -10884,4 +10884,134 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "A Found Memento",
 	},
+	[39670] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Critter Scatter Shot",
+	},
+	[39656] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Wolf Pack Attack",
+	},
+	[40000] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A True Hunter",
+	},
+	[39386] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Procuring a Prototype",
+	},
+	[40049] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Slime Time",
+	},
+	[40102] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Murlocs: The Next Generation",
+	},
+	[40230] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Oh, the Clawdacity!",
+	},
+	[40045] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Nature vs. Nurture",
+	},
+	[40047] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "I'll Huff, I'll Puff...",
+	},
+	[40229] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Step into the Dark",
+	},
+	[39440] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "You Lift, Brul?",
+	},
+	[39439] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Stonedark Relics",
+	},
+	[39438] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Guhruhlruhlruh",
+	},
+	[39437] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Deep in the Cavern",
+	},
+	[40217] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "An Offering of Ammo",
+	},
+	[39417] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Rating Razik",
+	},
+	[40170] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Amateur Hour",
+	},
+	[40216] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Hunter at Heart",
+	},
+	[39392] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Bear Huntin'",
+	},
+	[39123] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Lion Stalkin'",
+	},
+	[39124] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Moose Shootin'",
+	},
+	[39867] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "I'm Not Lion!",
+	},
+	[39178] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Moose on the Loose",
+	},
+	[40228] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Scout It Out",
+	},
+	[39859] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Note-Eating Goats",
+	},
+	[40244] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "That Guy in the Costume",
+	},
 }
