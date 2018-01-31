@@ -10709,4 +10709,49 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Quantity Over Quality",
 	},
+	[39670] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Critter Scatter Shot",
+	},
+	[39656] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Wolf Pack Attack",
+	},
+	[40000] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A True Hunter",
+	},
+	[39386] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Procuring a Prototype",
+	},
+	[40049] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Slime Time",
+	},
+	[40102] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Murlocs: The Next Generation",
+	},
+	[40230] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Oh, the Clawdacity!",
+	},
+	[40045] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Nature vs. Nurture",
+	},
+	[40047] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "I'll Huff, I'll Puff...",
+	},
 }
