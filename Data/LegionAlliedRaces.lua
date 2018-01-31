@@ -4,6 +4,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
         {
+            type = "expansion",
+            expansion = 7,
+        },
+        {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
         },
