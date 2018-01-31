@@ -483,15 +483,30 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             x = 3,
             y = 7,
             connections = {
-                2
+                1
             },
+        },
+        {
+            type = "quest",
+            id = 40229,
+            x = 3,
+            y = 8,
+            connections = {
+                1, 3
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK,
+            x = 5,
+            y = 8,
         },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE,
             aside = true,
             x = 1,
-            y = 8,
+            y = 9,
             connections = {
                 3
             },
@@ -501,7 +516,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             id = 39456,
             aside = true,
             x = 3,
-            y = 8,
+            y = 9,
             connections = {
                 2
             },
@@ -511,7 +526,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN,
             aside = true,
             x = 5,
-            y = 8,
+            y = 9,
             connections = {
                 1
             },
@@ -521,7 +536,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE] = {
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
             aside = true,
             x = 3,
-            y = 9,
+            y = 10,
         },
     }
 }
@@ -863,6 +878,464 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA] = {
         },
     }
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
+    name = BtWQuests_GetQuestName(39670),
+    category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 39656,
+    },
+    range = {98, 110},
+    items = {
+        {
+            {
+                type = "quest",
+                id = 39386,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39386,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                type = "quest",
+                id = 39386,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39386,
+                        active = true,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                name = "Go to Razik Gazbolt",
+                breadcrumb = true,
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(1024, 0, 0.5763, 0.5661, "Razik Gazbolt")
+                end,
+                x = 3,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+        },
+        {
+            name = "Go to Lorna Stoutfoot",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1024, 0, 0.5759, 0.5641, "Lorna Stoutfoot")
+            end,
+            x = 5,
+            y = 0,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 39670,
+            x = 3,
+            y = 1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 40000,
+            x = 5,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 39656,
+            x = 3,
+            y = 2,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET,
+            aside = true,
+            x = 3,
+            y = 3,
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
+    name = "Nesingwary's Retreat",
+    category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 40228,
+    },
+    range = {98, 110},
+    items = {
+        {
+            {
+                type = "quest",
+                id = 39417,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39417,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                type = "quest",
+                id = 39417,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39417,
+                        active = true,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                type = "quest",
+                id = 40217,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40217,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                type = "quest",
+                id = 40217,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40217,
+                        active = true,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                name = "Go to Hemet Nesingwary",
+                breadcrumb = true,
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(1024, 0, 0.4004, 0.5225, "Hemet Nesingwary")
+                end,
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+        },
+        {
+            name = "Go to Addie Fizzlebog",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1024, 0, 0.3993, 0.5224, "Addie Fizzlebog")
+            end,
+            x = 6,
+            y = 0,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 40170,
+            x = 2,
+            y = 1,
+            connections = {
+                2,
+                3,
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 39859,
+            x = 6,
+            y = 1,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 39123,
+            x = 0,
+            y = 2,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 39124,
+            x = 2,
+            y = 2,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 39392,
+            x = 4,
+            y = 2,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 40216,
+            x = 6,
+            y = 2,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 39867,
+            x = 0,
+            y = 3,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 39178,
+            x = 2,
+            y = 3,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 40228,
+            x = 3,
+            y = 4,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK,
+            aside = true,
+            x = 2,
+            y = 5,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY,
+            aside = true,
+            x = 4,
+            y = 5,
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK] = {
+    name = BtWQuests_GetQuestName(39440),
+    category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 39439,
+    },
+    range = {98, 110},
+    items = {
+        {
+            type = "quest",
+            id = 40229,
+            onClick = function()
+                BtWQuests_SelectChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE, {
+                    type = "quest",
+                    id = 40229
+                })
+            end,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 39440,
+            x = 3,
+            y = 1,
+            connections = {
+                1,
+                2,
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 39438,
+            x = 1,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 39439,
+            x = 3,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 39437,
+            x = 5,
+            y = 2,
+        },
+    }
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY] = {
+    name = BtWQuests_GetQuestName(40102),
+    category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    completed = {
+        type = "quest",
+        id = 40102,
+    },
+    range = {98, 110},
+    items = {
+        {
+            {
+                type = "quest",
+                id = 40244,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40244,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1, 2, 3,
+                },
+            },
+            {
+                type = "quest",
+                id = 40244,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40244,
+                        active = true,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1, 2, 3,
+                },
+            },
+            {
+                name = "Go to King Mrgl-Mrgl",
+                breadcrumb = true,
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(1024, 0, 0.4273, 0.1094, "King Mrgl-Mrgl")
+                end,
+                x = 3,
+                y = 0,
+                connections = {
+                    1, 2, 3,
+                },
+            },
+        },
+        {
+            type = "quest",
+            id = 40045,
+            x = 1,
+            y = 1,
+            connections = {
+                3,
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 40047,
+            x = 3,
+            y = 1,
+            connections = {
+                2,
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 40049,
+            x = 5,
+            y = 1,
+            connections = {
+                1,
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 40102,
+            x = 2,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 40230,
+            x = 4,
+            y = 2,
+        },
+    }
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN] = {
     name = GetMapNameByID(1024),
@@ -896,6 +1369,22 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY,
         },
     },
 }
