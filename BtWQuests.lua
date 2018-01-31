@@ -168,6 +168,16 @@ local function BtWQuests_CheckRequirement(item)
         return ArrayContains(item.classes, select(3, UnitClass("player")))
     elseif item.type == "level" then
         return UnitLevel("player") >= item.level
+    elseif item.type == "reputation" then
+        local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
+        local gender = UnitSex("player")
+        local standingText = getglobal("FACTION_STANDING_LABEL" .. item.standing .. (gender == 3 and "_FEMALE" or ""))
+        
+        if item.amount ~= nil then
+            return standing > item.standing or (standing == item.standing and value - barMin >= item.amount)
+        else
+            return standing >= item.standing
+        end
     elseif item.type == "achievement" then
         if item.anyone then
             if item.completed == false then
@@ -236,6 +246,16 @@ local function BtWQuests_GetItemName(item)
         return BtWQuests_GetItemName(BtWQuests_Missions[item.id])
     elseif item.type == "level" then
         return string.format(BTWQUESTS_LEVEL_TO, item.level)
+    elseif item.type == "reputation" then
+        local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
+        local gender = UnitSex("player")
+        local standingText = getglobal("FACTION_STANDING_LABEL" .. item.standing .. (gender == 3 and "_FEMALE" or ""))
+        
+        if item.amount ~= nil then
+            return string.format(name or BTWQUESTS_REPUTATION_AMOUNT_STANDING, item.amount, standingText, factionName)
+        else
+            return string.format(name or BTWQUESTS_REPUTATION_STANDING, standingText, factionName)
+        end
     elseif item.type == "achievement" then
         return select(2, GetAchievementInfo(item.id))
     elseif item.type == "profession" then
