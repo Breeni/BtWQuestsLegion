@@ -957,23 +957,182 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
     }
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
-    name = GetAchievementCriteriaInfo(10059, 7),
+    name = "Nesingwary's Retreat",
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
         type = "quest",
-        id = 39780,
+        id = 40228,
     },
     range = {98, 110},
     items = {
         {
-            type = "quest",
-            id = 38915,
-            x = 3,
+            {
+                type = "quest",
+                id = 39417,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39417,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                type = "quest",
+                id = 39417,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39417,
+                        active = true,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                type = "quest",
+                id = 40217,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40217,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                type = "quest",
+                id = 40217,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40217,
+                        active = true,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                name = "Go to Hemet Nesingwary",
+                breadcrumb = true,
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(1024, 0, 0.4004, 0.5225, "Hemet Nesingwary")
+                end,
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+        },
+        {
+            name = "Go to Addie Fizzlebog",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(1024, 0, 0.3993, 0.5224, "Addie Fizzlebog")
+            end,
+            x = 6,
             y = 0,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 40170,
+            x = 2,
+            y = 1,
+            connections = {
+                2,
+                3,
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 39859,
+            x = 6,
+            y = 1,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 39123,
+            x = 0,
+            y = 2,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 39124,
+            x = 2,
+            y = 2,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 39392,
+            x = 4,
+            y = 2,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 40216,
+            x = 6,
+            y = 2,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 39867,
+            x = 0,
+            y = 3,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 39178,
+            x = 2,
+            y = 3,
             connections = {
                 1,
             },
+        },
+        {
+            type = "quest",
+            id = 40228,
+            x = 3,
+            y = 4,
         },
     }
 }

@@ -10779,4 +10779,59 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Deep in the Cavern",
 	},
+	[40217] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "An Offering of Ammo",
+	},
+	[39417] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Rating Razik",
+	},
+	[40170] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Amateur Hour",
+	},
+	[40216] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Hunter at Heart",
+	},
+	[39392] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Bear Huntin'",
+	},
+	[39123] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Lion Stalkin'",
+	},
+	[39124] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Moose Shootin'",
+	},
+	[39867] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "I'm Not Lion!",
+	},
+	[39178] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Moose on the Loose",
+	},
+	[40228] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Scout It Out",
+	},
+	[39859] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Note-Eating Goats",
+	},
 }
