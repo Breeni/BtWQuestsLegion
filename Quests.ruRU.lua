@@ -10660,4 +10660,364 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [38237] = {
+        name = "Вот это как раз БЫЛО прописано в моем договоре!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "Пропавший демон",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38232] = {
+        name = "Прислужник! Убей их!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38460] = {
+        name = "Давай заключим сделку",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "Испорченное вино",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38203] = {
+        name = "Виноградники Чаллианы",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "Врата Пламени Скверны",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42367] = {
+        name = "Аркетракс",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "Они все делают не так",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "Око видит тебя",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "Главное – побольше",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "Проливая дурную кровь",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "Ценность знаний",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42635] = {
+        name = "Загадка Кровавого грота",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "Камень крови",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "Что закопали Говорящие с костями",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "Печальная участь",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "Танцы с воронухами",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "Бедствие племени Черного Пера",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "Опаленные перья",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "Подношение Нитхеггу",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "Мухлеж в споре",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "Зубастые вредители",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43331] = {
+        name = "Время расплаты",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42483] = {
+        name = "Все на красное",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "Хладнокровная игра",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "Ребрышки",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "Тончайшее руно",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "Изумрудные сестры",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43324] = {
+        name = "Ярость совухов",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "Там, где дикие живут",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "Лунный разоритель",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42750] = {
+        name = "Ловец снов",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42786] = {
+        name = "Странные останки",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "Начиная от корней",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "Месть греллям",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42857] = {
+        name = "Кактус подзаборный",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42883] = {
+        name = "Грелли озверелли",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "Шипастые пляски",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "Воришки из племени Листа Чертополоха",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "Расправь лунные крылья – и лети!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [46275] = {
+        name = "Сердце королевства",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46282] = {
+        name = "Путь короля",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "Вызов в крепость",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "Утешение короля",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "Памятная вещь",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "Зайцестрел\" к бою!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "Нападение на волчью стаю",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "Настоящий охотник",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "Создание прототипа",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40049] = {
+        name = "Кушать подано",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "Мурлоки: новое поколение",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "Ох уж эти клешни!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "Природа против воспитания",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "Колючие бомбы",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "Шаг во тьму",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "Сколько тягаешь?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "Реликвии племени Темного Камня",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "Гурулрулру",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39437] = {
+        name = "В глубине пещер",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "Подношение боеприпасов",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "Разик за работой",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40170] = {
+        name = "Новичкам здесь не место",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40216] = {
+        name = "Прирожденная охотница",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "Охота на медведей",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "Охота на львов",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "Охота на лосей",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "Честное охотничье!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "Озверевший лось",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40228] = {
+        name = "Разведка",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "Козы-литературоеды",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40244] = {
+        name = "Странный тип в странном костюме",
+        level = -1,
+        requiredLevel = 98,
+    },
 }

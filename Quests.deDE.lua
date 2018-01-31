@@ -10660,4 +10660,364 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [38237] = {
+        name = "Das steht so im Vertrag!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "Vermisster Dämon",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38232] = {
+        name = "Diener! Tötet sie!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38460] = {
+        name = "Kommen wir ins Geschäft!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "Ein verderbter Jahrgang",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38203] = {
+        name = "Weingut Challiane",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "Der Teufelsfeuervorstoß",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42367] = {
+        name = "Arkethrax",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "Sie machen es falsch",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "Im Auge behalten",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "Quantität über Qualität",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "Böses Blut",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "Der Wert des Wissens",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42635] = {
+        name = "Das Geheimnis von Dreyrgrot",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "Ein blutiger Stein",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "Von Knochensprechern begraben",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "Ein unwürdiges Schicksal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "Der mit dem Rabenbären tanzt",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "Die Notlage der Schwarzfedern",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "Angesengte Federn",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "Nithoggs Tribut",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "Wettmanipulation",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "Mithilfe gefragt",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43331] = {
+        name = "Zahltag",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42483] = {
+        name = "Alles auf Hai",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "Keine zahnlose Wette",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "Ordentlich was auf den Rippchen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "Nur vom Feinsten",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "Smaragdgrüne Schwestern",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43324] = {
+        name = "Zorn der Eulenbestien",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "Wo die Wildekin wohnen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "Mondhäscher",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42750] = {
+        name = "Traumfänger",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42786] = {
+        name = "Groteske Überreste",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "Entwurzelung",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "Greller Wahnsinn",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42857] = {
+        name = "Feuchtes Fresschen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42883] = {
+        name = "Die Grell sind los",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "Dorniger Tanz",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "Diebische Distelblattgeister",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "Mondschwingen in Not",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [46275] = {
+        name = "Herz eines Königreichs",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46282] = {
+        name = "Der Weg des Königs",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "Einbestellung in die Burg",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "Den König trösten",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "Ein gefundenes Andenken",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "Kleintierstreuschuss",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "Wolfsrudel im Visier",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "Wahre Jäger",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "Ein Prototyp muss her",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40049] = {
+        name = "Schleimzeit",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "Murlocs: Die nächste Generation",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "Ein Klau-kühnes Unterfangen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "Sozialisierung der Kaulquappen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "Kugelrund fressen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "Ein Schritt in die Dunkelheit",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "Stemmst du, Brul?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "Dunkelsteinrelikte",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "Guhruhlruhlruh",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39437] = {
+        name = "Tief in der Höhle",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "Befiederte Gabe",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "Raziks Resultate",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40170] = {
+        name = "Die Stunde der Amateure",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40216] = {
+        name = "Jägerin im Herzen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "Bärenjagd",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "Löwenpirsch",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "Elchjagd",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "Ich bin doch nicht blind!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "Elch außer Rand und Band",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40228] = {
+        name = "Ausspähen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "Ziegen, die Notizen fressen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40244] = {
+        name = "Ein verdächtiges Kostüm",
+        level = -1,
+        requiredLevel = 98,
+    },
 }

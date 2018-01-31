@@ -10660,4 +10660,364 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [38237] = {
+        name = "這是合約的一部份！",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "走失的惡魔",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38232] = {
+        name = "手下！殺死他們！",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38460] = {
+        name = "簽訂合約",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "受污染的佳釀",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38203] = {
+        name = "夏麗蓮葡萄園",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "魔炎入口",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42367] = {
+        name = "亞克薩拉斯",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "欠修理的傳送門穩定裝置",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "全視之眼",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "重量不重質",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "拋頭顱，灑壞血",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "知識的價值",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42635] = {
+        name = "錐爾格特之謎",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "血之石",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "骸語埋起來的東西",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "前途黯淡",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "與熊鴉共舞",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "黑羽的災難",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "燒焦的羽毛",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "尼索格的供品",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "詐騙賭局",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "我們的家產被吃了",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43331] = {
+        name = "還債的時候到了",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42483] = {
+        name = "將一切染紅",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "如岩石般冰冷的賭局",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "一堆肋排",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "只要最好的",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "翡翠姐妹",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43324] = {
+        name = "梟獸之怒",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "梟獸所在之處",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "月之劫奪者",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42750] = {
+        name = "攝夢符",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42786] = {
+        name = "古怪的遺體",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "基層行動",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "血債血償",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42857] = {
+        name = "潮濕樹籬",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42883] = {
+        name = "劣魔大暴動",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "棘刺之舞",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "偷竊的薊葉妖精",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "展翼而飛",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [46275] = {
+        name = "王國之心",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46282] = {
+        name = "國王之道",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "奉旨覲見",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "開導國王",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "尋獲的紀念物",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "發射小動物進行驅散",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "攻擊狼群",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "真正的獵人",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "取得原型裝備",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40049] = {
+        name = "綠泥時間",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "魚人：年輕世代",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "喔，威猛的蝦鉗！",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "天性使然與後天教養",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "深呼吸，然後自爆…",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "步入黑暗",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "好傢伙，不舉嗎？",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "石暗聖物",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "咕嚕嚕嚕",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39437] = {
+        name = "洞穴深處",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "提供箭矢",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "拉傑的能耐",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40170] = {
+        name = "業餘時刻",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40216] = {
+        name = "天生的獵人",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "獵熊季節",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "守株待獅",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "鹿死誰手",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "此獅非彼獅",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "失控的麋鹿",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40228] = {
+        name = "偵察行蹤",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "吃書羊",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40244] = {
+        name = "穿戲服的怪人",
+        level = -1,
+        requiredLevel = 98,
+    },
 }
