@@ -5722,6 +5722,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41052] = {
+        name = "A Desperate Plea",
+        level = -1,
+        requiredLevel = 98,
+    },
     [40579] = {
         name = "Weapons of Legend",
         level = -1,
@@ -7759,6 +7764,11 @@ BtWQuests_Quests = {
         requiredLevel = 110,
     },
     [42815] = {
+        name = "Return to the Broken Shore",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
         name = "Return to the Broken Shore",
         level = -1,
         requiredLevel = 98,
