@@ -11139,4 +11139,14 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+	[44741] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Return to Karazhan: The Big Bag Theory",
+	},
+	[38975] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Inspire Me!",
+	},
 }
