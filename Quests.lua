@@ -11149,4 +11149,9 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Inspire Me!",
 	},
+	[38656] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Mark of the Demon",
+	},
 }
