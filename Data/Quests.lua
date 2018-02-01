@@ -11154,4 +11154,9 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Mark of the Demon",
 	},
+	[38842] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Faerie Fracas",
+	},
 }
