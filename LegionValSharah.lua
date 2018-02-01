@@ -1068,37 +1068,43 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING] = {
             onClick = function ()
                 BtWQuests_ShowMapWithWaypoint(1018, 0, 0.5375, 0.7983, "Saylanna Riverbreeze")
             end,
-            x = 2,
+            x = 3,
             y = 0,
             connections = {
-                2, 3,
+                3, 4,
             },
         },
         {
             name = "Kill Thistleleaf",
             breadcrumb = true,
-            x = 5,
+            x = 6,
             y = 0,
             connections = {
-                3,
+                4,
             },
         },
         {
             type = "quest",
+            id = 38842,
+            x = 0,
+            y = 1,
+        },
+        {
+            type = "quest",
             id = 40220,
-            x = 1,
+            x = 2,
             y = 1,
         },
         {
             type = "quest",
             id = 40221,
-            x = 3,
+            x = 4,
             y = 1,
         },
         {
             type = "quest",
             id = 38862,
-            x = 5,
+            x = 6,
             y = 1,
         },
     }
