@@ -11154,4 +11154,234 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Mark of the Demon",
 	},
+	[38765] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Enter the Illidari: Shivarra",
+	},
+	[40222] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Imp Mother's Tome",
+	},
+	[39279] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Assault on Mardum",
+	},
+	[39663] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "On Felbat Wings",
+	},
+	[40051] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Fel Secrets",
+	},
+	[44463] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Demons Among Them",
+	},
+	[39742] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Vault of the Wardens",
+	},
+	[39683] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Forged in Fire",
+	},
+	[40378] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Enter the Illidari: Ashtongue",
+	},
+	[39689] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Illidari, We Are Leaving",
+	},
+	[39691] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Call of War",
+	},
+	[38813] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Orders for Your Captains",
+	},
+	[38689] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Fel Infusion",
+	},
+	[40077] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Invasion Begins",
+	},
+	[38819] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Their Numbers Are Legion",
+	},
+	[39262] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Give Me Sight Beyond Sight",
+	},
+	[39516] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Cry Havoc and Let Slip the Illidari!",
+	},
+	[38766] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Before We're Overrun",
+	},
+	[38723] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Stop Gul'dan!",
+	},
+	[38725] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Into the Foul Creche",
+	},
+	[38727] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Stop the Bombardment",
+	},
+	[38729] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Return to the Black Temple",
+	},
+	[40373] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A New Direction",
+	},
+	[39682] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Grand Theft Felbat",
+	},
+	[39495] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Hidden No More",
+	},
+	[39686] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "All The Way Up",
+	},
+	[39688] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Between Us and Freedom",
+	},
+	[44473] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Weapon of the Alliance",
+	},
+	[44471] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Second Sight",
+	},
+	[40379] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Enter the Illidari: Coilskar",
+	},
+	[39049] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Eye On the Prize",
+	},
+	[38690] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Rise of the Illidari",
+	},
+	[39050] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Meeting With the Queen",
+	},
+	[39684] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Beam Me Up",
+	},
+	[38759] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Set Them Free",
+	},
+	[38728] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Keystone",
+	},
+	[38672] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Breaking Out",
+	},
+	[39685] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Frozen in Time",
+	},
+	[40256] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Between Us and Freedom",
+	},
+	[39515] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Vengeance Will Be Mine!",
+	},
+	[41002] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Weapon of the Horde",
+	},
+	[40983] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Demons Among Them",
+	},
+	[39690] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Illidari, We Are Leaving",
+	},
+	[40976] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Audience with the Warchief",
+	},
+	[40982] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Second Sight",
+	},
+	[44663] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "In the Blink of an Eye",
+	},
 }

@@ -1,3 +1,637 @@
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
+    name = "Demon Hunter Starting Zone",
+    category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    restrictions = {
+        {
+            type = "class",
+            class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 44663,
+    },
+    range = {98},
+    items = {
+        {
+            type = "quest",
+            id = 40077,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 40378,
+            x = 3,
+            y = 1,
+            connections = {
+                2,
+                3,
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 39279,
+            aside = true,
+            x = 5,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 38759,
+            x = 1,
+            y = 2,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 39049,
+            x = 3,
+            y = 2,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 40379,
+            x = 5,
+            y = 2,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 39050,
+            x = 3,
+            y = 3,
+            connections = {
+                1,
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 38765,
+            x = 2,
+            y = 4,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 38766,
+            x = 4,
+            y = 4,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 38813,
+            x = 3,
+            y = 5,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 39262,
+            x = 3,
+            y = 6,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 39495,
+            x = 3,
+            y = 7,
+            connections = {
+                1,
+                2,
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 38727,
+            x = 1,
+            y = 8,
+            connections = {
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 38725,
+            x = 3,
+            y = 8,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 38819,
+            x = 5,
+            y = 8,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 40222,
+            x = 3,
+            y = 9,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 40051,
+            x = 3,
+            y = 10,
+            connections = {
+                1, 
+            },
+        },
+        {
+            { -- Havoc
+                type = "quest",
+                id = 39516,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39517,
+                    },
+                },
+                x = 3,
+                y = 11,
+                connections = {
+                    1,
+                },
+            },
+            { -- Vengence
+                type = "quest",
+                id = 39515,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39518,
+                    },
+                },
+                x = 3,
+                y = 11,
+                connections = {
+                    1,
+                },
+            },
+        },
+        {
+            type = "quest",
+            id = 39663,
+            x = 3,
+            y = 12,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 38728,
+            x = 3,
+            y = 13,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 38729,
+            x = 3,
+            y = 14,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 38672,
+            x = 3,
+            y = 15,
+            connections = {
+                1,
+                2,
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 39742,
+            x = 5,
+            y = 15,
+        },
+        {
+            type = "quest",
+            id = 38689,
+            x = 2,
+            y = 16,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 38690,
+            x = 4,
+            y = 16,
+            connections = {
+                1,
+            },
+        },
+        {
+            { -- Havoc
+                type = "quest",
+                id = 38723,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39517,
+                    },
+                },
+                x = 3,
+                y = 17,
+                connections = {
+                    1,
+                },
+            },
+            { -- Vengence
+                type = "quest",
+                id = 40253,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39518,
+                    },
+                },
+                x = 3,
+                y = 17,
+                connections = {
+                    1,
+                },
+            },
+        },
+        {
+            type = "quest",
+            id = 39682,
+            x = 3,
+            y = 18,
+            connections = {
+                1,
+                2,
+                3,
+            },
+        },
+        {
+            { -- Havoc
+                type = "quest",
+                id = 39683,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39517,
+                    },
+                },
+                x = 1,
+                y = 19,
+                connections = {
+                    3,
+                },
+            },
+            { -- Vengence
+                type = "quest",
+                id = 40254,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39518,
+                    },
+                },
+                x = 1,
+                y = 19,
+                connections = {
+                    3,
+                },
+            },
+        },
+        {
+            type = "quest",
+            id = 39684,
+            x = 3,
+            y = 19,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 39685,
+            x = 5,
+            y = 19,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 39686,
+            x = 3,
+            y = 20,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 40373,
+            x = 3,
+            y = 21,
+            connections = {
+                1,
+            },
+        },
+        {
+            { -- Alliance/Havoc
+                type = "quest",
+                id = 39688,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39517,
+                    },
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 22,
+                connections = {
+                    1,
+                },
+            },
+            { -- Horde/Havoc
+                type = "quest",
+                id = 39694,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39517,
+                    },
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 22,
+                connections = {
+                    1,
+                },
+            },
+            { -- Alliance/Vengence
+                type = "quest",
+                id = 40255,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39518,
+                    },
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 22,
+                connections = {
+                    1,
+                },
+            },
+            { -- Horde/Vengence
+                type = "quest",
+                id = 40256,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 39518,
+                    },
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 22,
+                connections = {
+                    1,
+                },
+            },
+        },
+        {
+            {
+                type = "quest",
+                id = 39689,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 23,
+                connections = {
+                    1,
+                },
+            },
+            {
+                type = "quest",
+                id = 39690,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 23,
+                connections = {
+                    1,
+                },
+            },
+        },
+        {
+            {
+                type = "quest",
+                id = 39691,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 24,
+                connections = {
+                    1,
+                },
+            },
+            {
+                type = "quest",
+                id = 40976,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 24,
+                connections = {
+                    1,
+                },
+            },
+        },
+        {
+            {
+                type = "quest",
+                id = 44471,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 25,
+                connections = {
+                    1,
+                },
+            },
+            {
+                type = "quest",
+                id = 40982,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 25,
+                connections = {
+                    1,
+                },
+            },
+        },
+        {
+            {
+                type = "quest",
+                id = 44463,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 26,
+                connections = {
+                    1,
+                },
+            },
+            {
+                type = "quest",
+                id = 40983,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 26,
+                connections = {
+                    1,
+                },
+            },
+        },
+        {
+            {
+                type = "quest",
+                id = 44473,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Alliance",
+                    },
+                },
+                x = 3,
+                y = 27,
+                connections = {
+                    1,
+                },
+            },
+            {
+                type = "quest",
+                id = 41002,
+                restrictions = {
+                    {
+                        type = "faction",
+                        faction = "Horde",
+                    },
+                },
+                x = 3,
+                y = 27,
+                connections = {
+                    1,
+                },
+            },
+        },
+        {
+            type = "quest",
+            id = 44663,
+            x = 3,
+            y = 28,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN,
+            aside = true,
+            x = 3,
+            y = 29,
+        }
+    },
+}
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC] = {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(577)), "Twinblades of the Deceiver"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -106,6 +740,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
     name = BTWQUESTS_DEMONHUNTER_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE
+        },
+    },
     restrictions = {
         {
             type = "class",
@@ -853,8 +1493,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER] = {
     },
     -- buttonImage = 1041999,
     items = {
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE,
+        },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN,
