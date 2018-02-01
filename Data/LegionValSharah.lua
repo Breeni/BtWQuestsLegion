@@ -445,7 +445,16 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
             x = 3,
             y = 3,
             connections = {
-                1, 2
+                2, 3
+            },
+        },
+        {
+            name = "Kill Gravax the Desecrator",
+            breadcrumb = true,
+            x = 0,
+            y = 4,
+            connections = {
+                4
             },
         },
         {
@@ -454,7 +463,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
             x = 2,
             y = 4,
             connections = {
-                3
+                4
             },
         },
         {
@@ -469,6 +478,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
             aside = true,
             x = 6,
             y = 4,
+        },
+        {
+            type = "quest",
+            id = 38656,
+            x = 0,
+            y = 5,
         },
         {
             type = "quest",
