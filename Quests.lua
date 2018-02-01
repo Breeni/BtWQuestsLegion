@@ -11382,6 +11382,11 @@ BtWQuests_Quests = {
 	[44663] = {
 		requiredLevel = 110,
 		level = 110,
-		name = "In the Blink of an Eye",
+        name = "In the Blink of an Eye",
+    },
+	[38842] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Faerie Fracas",
 	},
 }
