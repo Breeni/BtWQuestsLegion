@@ -2525,6 +2525,21 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_PROFESSIONS_TAILORING] = {
             id = 38970,
             x = 3,
             y = 25,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 38975,
+            x = 2,
+            y = 26,
+        },
+        {
+            type = "quest",
+            id = 44741,
+            x = 4,
+            y = 26,
         },
     },
 }
