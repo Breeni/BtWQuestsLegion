@@ -3233,11 +3233,6 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
-    [44616] = {
-        name = "We'll Need Some Obliterum",
-        level = -1,
-        requiredLevel = 110,
-    },
     [42732] = {
         name = "Migliorare le Lame da Guerra",
         level = -1,
@@ -5728,6 +5723,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41052] = {
+        name = "Una richiesta disperata",
+        level = -1,
+        requiredLevel = 98,
+    },
     [40579] = {
         name = "Armi leggendarie",
         level = -1,
@@ -7765,6 +7765,11 @@ BtWQuests_Quests = {
         requiredLevel = 110,
     },
     [42815] = {
+        name = "Tornare alla Riva Dispersa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
         name = "Tornare alla Riva Dispersa",
         level = -1,
         requiredLevel = 98,
@@ -11142,6 +11147,421 @@ BtWQuests_Quests = {
     },
     [41800] = {
         name = "Servi dell'Oscurità",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44741] = {
+        name = "Ritorno a Karazhan: Due borse per amiche",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38975] = {
+        name = "Ispirami!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38656] = {
+        name = "Il marchio del demone",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38765] = {
+        name = "L'arrivo degli Illidari: Shivarra",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40222] = {
+        name = "Il tomo della Madre degli Imp",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39279] = {
+        name = "Assalto a Mardum",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39663] = {
+        name = "Chi ha paura del pipistrello?",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40051] = {
+        name = "Vilsegreti",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [44463] = {
+        name = "I demoni sono tra loro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39742] = {
+        name = "Segrete delle Custodi",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39683] = {
+        name = "Forgiato nel fuoco",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40378] = {
+        name = "Il ritorno degli Illidari: Linguamorta",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39689] = {
+        name = "Illidari, ce ne andiamo",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39691] = {
+        name = "La guerra chiama",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38813] = {
+        name = "Ordini per i capitani",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38689] = {
+        name = "Vilinfusione",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40077] = {
+        name = "L'invasione ha inizio",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38819] = {
+        name = "Loro sono Legione",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39262] = {
+        name = "Vedere oltre",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39516] = {
+        name = "Chi di Rovina ferisce...",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38766] = {
+        name = "Prima di essere travolti",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38723] = {
+        name = "Fermare Gul'dan",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38725] = {
+        name = "Dentro il Nido Infetto",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38727] = {
+        name = "Fermare il bombardamento",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38729] = {
+        name = "Ritorno al Tempio Nero",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40373] = {
+        name = "Una nuova direzione",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39682] = {
+        name = "Fuori dal tunnel",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39495] = {
+        name = "Nascondino",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39686] = {
+        name = "Sempre più su",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39688] = {
+        name = "Tra noi e la libertà",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [44473] = {
+        name = "Un'arma dell'Alleanza",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44471] = {
+        name = "Seconda vista",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40379] = {
+        name = "Il ritorno degli Illidari: Malaspira",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39049] = {
+        name = "Occhi aperti",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38690] = {
+        name = "L'ascesa degli Illidari",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39050] = {
+        name = "Incontro con la regina",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39684] = {
+        name = "Forza e coraggio... raggio",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38759] = {
+        name = "Liberali",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38728] = {
+        name = "Chiave di Pietra",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38672] = {
+        name = "Fuga",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39685] = {
+        name = "Sotto zero",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40256] = {
+        name = "Tra noi e la libertà",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39515] = {
+        name = "La Vendetta sarà mia!",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [41002] = {
+        name = "Un'arma per l'Orda",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40983] = {
+        name = "I demoni sono tra loro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39690] = {
+        name = "Illidari, ce ne andiamo",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40976] = {
+        name = "Udienza con il Capoguerra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40982] = {
+        name = "Seconda vista",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44663] = {
+        name = "In un battito di ciglia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38842] = {
+        name = "Sedare la rissa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42809] = {
+        name = "L'invasione di Niskara",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41070] = {
+        name = "Spoglie della vittoria",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44161] = {
+        name = "I desideri di Gaardoun",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39047] = {
+        name = "La chiamata degli Illidari",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42670] = {
+        name = "L'avvento dei campioni",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41096] = {
+        name = "Non c'è tempo da perdere",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42634] = {
+        name = "Confronto al Tempio Nero",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40816] = {
+        name = "La forza per sopravvivere",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41060] = {
+        name = "Potere sfrenato",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42666] = {
+        name = "Ritorno alla Vilmartello",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39741] = {
+        name = "Nei nostri ranghi",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41099] = {
+        name = "Dirigere la nostra ira",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41066] = {
+        name = "Lo sguardo del cacciatore",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41069] = {
+        name = "Dirigere la nostra ira",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41221] = {
+        name = "Torna a Mardum.",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41067] = {
+        name = "Non c'è tempo da perdere",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40819] = {
+        name = "Preparativi in corso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39051] = {
+        name = "A qualunque costo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39247] = {
+        name = "La caccia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39694] = {
+        name = "Tra noi e la libertà",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [41631] = {
+        name = "Volta del Nexus",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [48453] = {
+        name = "Contrattacco",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46178] = {
+        name = "Nascosto in bella vista",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40254] = {
+        name = "Forgiato nel fuoco",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [45632] = {
+        name = "Scomparso in azione: Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40255] = {
+        name = "Tra noi e la libertà",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40253] = {
+        name = "Fermare Gul'dan",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [46324] = {
+        name = "Ordini Falsi",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45873] = {
+        name = "Campione: Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45633] = {
+        name = "Operazione Rabbiavile",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46322] = {
+        name = "La baia dei pirati",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45647] = {
+        name = "Missione: Ricerca e salvataggio",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46323] = {
+        name = "Sono casse amare",
         level = 110,
         requiredLevel = 110,
     },

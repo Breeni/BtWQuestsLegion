@@ -3233,11 +3233,6 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
-    [44616] = {
-        name = "We'll Need Some Obliterum",
-        level = -1,
-        requiredLevel = 110,
-    },
     [42732] = {
         name = "Tödlichere Kriegsgleven",
         level = -1,
@@ -5728,6 +5723,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41052] = {
+        name = "Eine verzweifelte Bitte",
+        level = -1,
+        requiredLevel = 98,
+    },
     [40579] = {
         name = "Legendäre Waffen",
         level = -1,
@@ -7765,6 +7765,11 @@ BtWQuests_Quests = {
         requiredLevel = 110,
     },
     [42815] = {
+        name = "Rückkehr zur Verheerten Küste",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
         name = "Rückkehr zur Verheerten Küste",
         level = -1,
         requiredLevel = 98,
@@ -11142,6 +11147,421 @@ BtWQuests_Quests = {
     },
     [41800] = {
         name = "Diener der Finsternis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44741] = {
+        name = "Rückkehr nach Karazhan: Die Tieftaschentheorie",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38975] = {
+        name = "Inspiriert mich!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38656] = {
+        name = "Zeichen des Dämons",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38765] = {
+        name = "Auftritt der Illidari: Die Shivarra",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40222] = {
+        name = "Der Foliant der Wichtelmutter",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39279] = {
+        name = "Angriff auf Mardum",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39663] = {
+        name = "Der Tod naht auf teuflischen Schwingen",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40051] = {
+        name = "Dämonengeheimnisse",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [44463] = {
+        name = "Dämonen unter ihnen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39742] = {
+        name = "Das Verlies der Wächterinnen",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39683] = {
+        name = "Stählende Flammen",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40378] = {
+        name = "Auftritt der Illidari: Aschenzungen",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39689] = {
+        name = "Illidari, wir brechen auf!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39691] = {
+        name = "Der Ruf des Krieges",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38813] = {
+        name = "Befehle für die Offiziere",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38689] = {
+        name = "Dämonische Heilung",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40077] = {
+        name = "Die Invasion beginnt",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38819] = {
+        name = "Ihre Zahl ist Legion",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39262] = {
+        name = "Verleiht mir die Augen der Allsicht",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39516] = {
+        name = "Lehrt die Illidari, was Verwüstung bedeutet!",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38766] = {
+        name = "Überrennt sie, bevor sie Euch überrennen",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38723] = {
+        name = "Haltet Gul'dan auf!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38725] = {
+        name = "Zum Fäulnishort",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38727] = {
+        name = "Stoppt das Bombardement",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38729] = {
+        name = "Rückkehr zum Schwarzen Tempel",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40373] = {
+        name = "Frischer Wind",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39682] = {
+        name = "Ein teuflischer Ritt",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39495] = {
+        name = "Kein Versteckspiel mehr",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39686] = {
+        name = "Es geht aufwärts",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39688] = {
+        name = "Die Freiheit ist zum Greifen nah",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [44473] = {
+        name = "Eine Waffe der Allianz",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44471] = {
+        name = "Zweites Gesicht",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40379] = {
+        name = "Auftritt der Illidari: Naga der Echsennarbe",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39049] = {
+        name = "Augen auf das Ziel",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38690] = {
+        name = "Die Illidari erheben sich",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39050] = {
+        name = "Treffen mit der Königin",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39684] = {
+        name = "Lasershow",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38759] = {
+        name = "Lasst sie frei",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38728] = {
+        name = "Der Schlüsselstein",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38672] = {
+        name = "Ausbruch",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39685] = {
+        name = "Gefroren in der Zeit",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40256] = {
+        name = "Die Freiheit ist zum Greifen nah",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39515] = {
+        name = "Spürt meine brennende Rachsucht!",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [41002] = {
+        name = "Eine Waffe der Horde",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40983] = {
+        name = "Dämonen unter ihnen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39690] = {
+        name = "Illidari, wir brechen auf!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40976] = {
+        name = "Audienz beim Kriegshäuptling",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40982] = {
+        name = "Zweites Gesicht",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44663] = {
+        name = "In einem flüchtigen Augenblick",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38842] = {
+        name = "Feenaufruhr",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42809] = {
+        name = "Die Invasion von Niskara",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41070] = {
+        name = "Lohn des Sieges",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44161] = {
+        name = "Was Gaardoun so braucht",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39047] = {
+        name = "Der Ruf der Illidari",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42670] = {
+        name = "Erhebt Euch, Champions",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41096] = {
+        name = "Die Zeit drängt",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42634] = {
+        name = "Konfrontation am Schwarzen Tempel",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40816] = {
+        name = "Die Kraft zu überleben",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41060] = {
+        name = "Ungezügelte Macht",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42666] = {
+        name = "Kehrt zur Teufelshammer zurück.",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39741] = {
+        name = "In unsere Reihen",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41099] = {
+        name = "An der Spitze des Widerstands",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41066] = {
+        name = "Der Blick des Jägers",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41069] = {
+        name = "An der Spitze des Widerstands",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41221] = {
+        name = "Zurück nach Mardum",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41067] = {
+        name = "Die Zeit drängt",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40819] = {
+        name = "Abmachungen treffen",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39051] = {
+        name = "Um jeden Preis",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39247] = {
+        name = "Die Jagd",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39694] = {
+        name = "Die Freiheit ist zum Greifen nah",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [41631] = {
+        name = "Die Nexuskammer",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [48453] = {
+        name = "Gegenschlag",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46178] = {
+        name = "Vor aller Augen verborgen",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40254] = {
+        name = "Stählende Flammen",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [45632] = {
+        name = "Vermisst: Etrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40255] = {
+        name = "Die Freiheit ist zum Greifen nah",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40253] = {
+        name = "Haltet Gul'dan auf!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [46324] = {
+        name = "Gefälschte Befehle",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45873] = {
+        name = "Champion: Etrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45633] = {
+        name = "Operation Dämonengroll",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46322] = {
+        name = "Die Piratenbucht",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45647] = {
+        name = "Mission: Rettungseinsatz",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46323] = {
+        name = "Was ist da drin?",
         level = 110,
         requiredLevel = 110,
     },

@@ -3233,11 +3233,6 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
-    [44616] = {
-        name = "We'll Need Some Obliterum",
-        level = -1,
-        requiredLevel = 110,
-    },
     [42732] = {
         name = "更致命的戰刃",
         level = -1,
@@ -5728,6 +5723,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41052] = {
+        name = "懇切的請求",
+        level = -1,
+        requiredLevel = 98,
+    },
     [40579] = {
         name = "傳說中的武器",
         level = -1,
@@ -7765,6 +7765,11 @@ BtWQuests_Quests = {
         requiredLevel = 110,
     },
     [42815] = {
+        name = "返回破碎海岸",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
         name = "返回破碎海岸",
         level = -1,
         requiredLevel = 98,
@@ -11142,6 +11147,421 @@ BtWQuests_Quests = {
     },
     [41800] = {
         name = "黑暗的奴僕",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44741] = {
+        name = "重返卡拉贊：大袋理論",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38975] = {
+        name = "給我靈感！",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38656] = {
+        name = "惡魔印記",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38765] = {
+        name = "伊利達瑞援軍：希瓦拉",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40222] = {
+        name = "鬼母的寶典",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39279] = {
+        name = "襲擊馬爾頓",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39663] = {
+        name = "乘上魔化蝙蝠",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40051] = {
+        name = "惡魔之秘",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [44463] = {
+        name = "惡魔四伏",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39742] = {
+        name = "看守者鐵獄",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39683] = {
+        name = "火鑄而生",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40378] = {
+        name = "伊利達瑞援軍：灰舌",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39689] = {
+        name = "伊利達瑞，我們要啟程了",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39691] = {
+        name = "戰爭召集令",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38813] = {
+        name = "下達軍令",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38689] = {
+        name = "注入魔力",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40077] = {
+        name = "開始入侵",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38819] = {
+        name = "大軍壓境",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39262] = {
+        name = "靈視之力",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39516] = {
+        name = "災虐怒吼！釋放伊利達瑞！",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38766] = {
+        name = "力挽狂瀾",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38723] = {
+        name = "阻止古爾丹！",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38725] = {
+        name = "深入魔育所",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38727] = {
+        name = "阻止轟炸",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38729] = {
+        name = "回到黑暗神廟",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40373] = {
+        name = "新的方向",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39682] = {
+        name = "俠盜獵蝠手",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39495] = {
+        name = "無所遁形",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39686] = {
+        name = "一路向上",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39688] = {
+        name = "邁向自由的唯一障礙",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [44473] = {
+        name = "聯盟的武器",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44471] = {
+        name = "第二視象",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40379] = {
+        name = "伊利達瑞援軍：考斯卡",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39049] = {
+        name = "獎勵就在眼前",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38690] = {
+        name = "伊利達瑞的崛起",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39050] = {
+        name = "偵察蛛后",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39684] = {
+        name = "照過去",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38759] = {
+        name = "釋放他們",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38728] = {
+        name = "鑰石",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38672] = {
+        name = "破繭重生",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39685] = {
+        name = "凍結於時光之中",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40256] = {
+        name = "邁向自由的唯一障礙",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39515] = {
+        name = "我要復仇！",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [41002] = {
+        name = "部落的武器",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40983] = {
+        name = "惡魔四伏",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39690] = {
+        name = "伊利達瑞，我們要啟程了",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40976] = {
+        name = "謁見大酋長",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40982] = {
+        name = "第二視象",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44663] = {
+        name = "傳瞬之間",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38842] = {
+        name = "妖精大亂鬥",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42809] = {
+        name = "入侵尼斯卡拉",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41070] = {
+        name = "豐厚的戰利品",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44161] = {
+        name = "蓋爾道恩需要的東西",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39047] = {
+        name = "伊利達瑞的呼喚",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42670] = {
+        name = "奮起吧，勇士們",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41096] = {
+        name = "時間寶貴",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42634] = {
+        name = "黑暗神廟對峙",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40816] = {
+        name = "生存之力",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41060] = {
+        name = "無法駕馭的力量",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42666] = {
+        name = "回到魔錘號",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39741] = {
+        name = "加入我方",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41099] = {
+        name = "指引怒火",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41066] = {
+        name = "獵人的凝視",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41069] = {
+        name = "指引怒火",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41221] = {
+        name = "回到馬爾頓",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41067] = {
+        name = "時間寶貴",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40819] = {
+        name = "巧做安排",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39051] = {
+        name = "不擇手段",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39247] = {
+        name = "獵殺",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39694] = {
+        name = "邁向自由的唯一障礙",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [41631] = {
+        name = "奧核寶庫",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [48453] = {
+        name = "反擊",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46178] = {
+        name = "隱匿行蹤",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40254] = {
+        name = "在烈火中鍛鑄",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [45632] = {
+        name = "失蹤戰鬥人員：伊崔格",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40255] = {
+        name = "邁向自由的唯一障礙",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40253] = {
+        name = "阻止古爾丹！",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [46324] = {
+        name = "假命令",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45873] = {
+        name = "勇士：伊崔格",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45633] = {
+        name = "魔怒行動",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46322] = {
+        name = "海盜灣",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45647] = {
+        name = "任務：搜索與救援",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46323] = {
+        name = "箱子裡有什麼？",
         level = 110,
         requiredLevel = 110,
     },
