@@ -406,7 +406,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                     },
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        faction = "Horde",
                     },
                 },
                 x = 3,
