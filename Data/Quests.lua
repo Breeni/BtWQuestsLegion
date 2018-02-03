@@ -11389,4 +11389,84 @@ BtWQuests_Quests = {
 		level = 110,
 		name = "Faerie Fracas",
 	},
+	[42809] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Invasion of Niskara",
+	},
+	[41070] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Spoils of Victory",
+	},
+	[44161] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Things Gaardoun Needs",
+	},
+	[39047] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Call of the Illidari",
+	},
+	[42670] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Rise, Champions",
+	},
+	[41096] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Time is of the Essence",
+	},
+	[42634] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Confrontation at the Black Temple",
+	},
+	[40816] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Power to Survive",
+	},
+	[41060] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Unbridled Power",
+	},
+	[42666] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Return to the Fel Hammer",
+	},
+	[39741] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Into Our Ranks",
+	},
+	[41099] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Direct Our Wrath",
+	},
+	[41066] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Hunter's Gaze",
+	},
+	[41069] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Direct Our Wrath",
+	},
+	[41221] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Return to Mardum",
+	},
+	[41067] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Time is of the Essence",
+	},
 }

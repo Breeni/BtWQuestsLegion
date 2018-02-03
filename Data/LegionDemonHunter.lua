@@ -1458,8 +1458,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
         {
             type = "level",
             level = 110,
-            x = 5,
-            y = 29.5,
+            x = 6,
+            y = 28.5,
             connections = {
                 1
             },
@@ -1468,7 +1468,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 42787,
             x = 3,
-            y = 30,
+            y = 29,
             connections = {
                 1
             },
@@ -1477,25 +1477,39 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 42735,
             x = 3,
-            y = 31,
+            y = 30,
             connections = {
-                1
+                1, 2, 3, 4
             },
         },
         {
             type = "quest",
             id = 42736,
+            visible = {
+                {
+                    type = "quest",
+                    id = 42736,
+                    active = false,
+                }
+            },
             x = 3,
-            y = 32,
+            y = 31,
             connections = {
-                1, 2, 3
+                4
             },
         },
         {
             type = "quest",
             id = 42737,
+            visible = {
+                {
+                    type = "quest",
+                    id = 42736,
+                    active = true,
+                }
+            },
             x = 1,
-            y = 33,
+            y = 31,
             connections = {
                 3
             },
@@ -1503,8 +1517,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
         {
             type = "quest",
             id = 42739,
+            visible = {
+                {
+                    type = "quest",
+                    id = 42736,
+                    active = true,
+                }
+            },
             x = 3,
-            y = 33,
+            y = 31,
             connections = {
                 2
             },
@@ -1512,8 +1533,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
         {
             type = "quest",
             id = 42738,
+            visible = {
+                {
+                    type = "quest",
+                    id = 42736,
+                    active = true,
+                }
+            },
             x = 5,
-            y = 33,
+            y = 31,
             connections = {
                 1
             },
@@ -1522,7 +1550,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 42749,
             x = 3,
-            y = 34,
+            y = 32,
             connections = {
                 1
             },
@@ -1531,7 +1559,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 42752,
             x = 3,
-            y = 35,
+            y = 33,
             connections = {
                 1
             },
@@ -1540,7 +1568,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 42775,
             x = 3,
-            y = 36,
+            y = 34,
             connections = {
                 1
             },
@@ -1549,52 +1577,52 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 42776,
             x = 3,
-            y = 37,
+            y = 35,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 42669,
-            x = 3,
-            y = 38,
+            x = 2,
+            y = 36,
             connections = {
-                1
+                2, 3
             },
         },
         {
             type = "quest",
             id = 44694,
-            x = 3,
-            y = 41,
+            x = 4,
+            y = 36,
             connections = {
-                1
+                1, 2
             },
         },
         {
             type = "quest",
             id = 42733,
-            x = 3,
-            y = 42,
+            x = 2,
+            y = 37,
             connections = {
-                1
+                2
             },
         },
-        {
-            type = "quest",
-            id = 44616,
-            x = 3,
-            y = 43,
-            connections = {
-                1
-            },
-        },
+        -- {
+        --     type = "quest",
+        --     id = 44616,
+        --     x = 4,
+        --     y = 37,
+        --     connections = {
+        --         1
+        --     },
+        -- },
         {
             type = "quest",
             id = 42732,
-            x = 3,
-            y = 44,
+            x = 4,
+            y = 37,
             connections = {
                 1
             },
@@ -1603,7 +1631,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 42754,
             x = 3,
-            y = 45,
+            y = 38,
             connections = {
                 1
             },
@@ -1612,25 +1640,48 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 42810,
             x = 3,
-            y = 46,
+            y = 39,
             connections = {
                 1
             },
         },
         {
-            type = "quest",
-            id = 42920,
-            x = 3,
-            y = 47,
-            connections = {
-                1
+            {
+                type = "quest",
+                id = 42920,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40374,
+                    }
+                },
+                x = 3,
+                y = 40,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 42809,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40375,
+                    }
+                },
+                x = 3,
+                y = 40,
+                connections = {
+                    1
+                },
             },
         },
         {
             type = "quest",
             id = 42132,
             x = 3,
-            y = 48,
+            y = 41,
             connections = {
                 1
             },
@@ -1639,7 +1690,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 43186,
             x = 3,
-            y = 49,
+            y = 42,
             connections = {
                 1, 2
             },
@@ -1648,13 +1699,13 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "quest",
             id = 44214,
             x = 2,
-            y = 50,
+            y = 43,
         },
         {
             type = "quest",
             id = 43412,
             x = 4,
-            y = 50,
+            y = 43,
         },
     },
 }
