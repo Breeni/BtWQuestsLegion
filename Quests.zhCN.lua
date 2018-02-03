@@ -3233,11 +3233,6 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
-    [44616] = {
-        name = "We'll Need Some Obliterum",
-        level = -1,
-        requiredLevel = 110,
-    },
     [42732] = {
         name = "Deadlier Warglaives",
         level = -1,
@@ -5728,6 +5723,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41052] = {
+        name = "A Desperate Plea",
+        level = -1,
+        requiredLevel = 98,
+    },
     [40579] = {
         name = "Weapons of Legend",
         level = -1,
@@ -7765,6 +7765,11 @@ BtWQuests_Quests = {
         requiredLevel = 110,
     },
     [42815] = {
+        name = "Return to the Broken Shore",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
         name = "Return to the Broken Shore",
         level = -1,
         requiredLevel = 98,
@@ -11142,6 +11147,421 @@ BtWQuests_Quests = {
     },
     [41800] = {
         name = "Servants of the Darkness",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44741] = {
+        name = "Return to Karazhan: The Big Bag Theory",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38975] = {
+        name = "Inspire Me!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38656] = {
+        name = "Mark of the Demon",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38765] = {
+        name = "Enter the Illidari: Shivarra",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40222] = {
+        name = "The Imp Mother's Tome",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39279] = {
+        name = "Assault on Mardum",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39663] = {
+        name = "On Felbat Wings",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40051] = {
+        name = "Fel Secrets",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [44463] = {
+        name = "Demons Among Them",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39742] = {
+        name = "Vault of the Wardens",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39683] = {
+        name = "Forged in Fire",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40378] = {
+        name = "Enter the Illidari: Ashtongue",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39689] = {
+        name = "Illidari, We Are Leaving",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39691] = {
+        name = "The Call of War",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38813] = {
+        name = "Orders for Your Captains",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38689] = {
+        name = "Fel Infusion",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40077] = {
+        name = "The Invasion Begins",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38819] = {
+        name = "Their Numbers Are Legion",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39262] = {
+        name = "Give Me Sight Beyond Sight",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39516] = {
+        name = "Cry Havoc and Let Slip the Illidari!",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38766] = {
+        name = "Before We're Overrun",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38723] = {
+        name = "Stop Gul'dan!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38725] = {
+        name = "Into the Foul Creche",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38727] = {
+        name = "Stop the Bombardment",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38729] = {
+        name = "Return to the Black Temple",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40373] = {
+        name = "A New Direction",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39682] = {
+        name = "Grand Theft Felbat",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39495] = {
+        name = "Hidden No More",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39686] = {
+        name = "All The Way Up",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39688] = {
+        name = "Between Us and Freedom",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [44473] = {
+        name = "A Weapon of the Alliance",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44471] = {
+        name = "Second Sight",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40379] = {
+        name = "Enter the Illidari: Coilskar",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39049] = {
+        name = "Eye On the Prize",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38690] = {
+        name = "Rise of the Illidari",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39050] = {
+        name = "Meeting With the Queen",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39684] = {
+        name = "Beam Me Up",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38759] = {
+        name = "Set Them Free",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38728] = {
+        name = "The Keystone",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38672] = {
+        name = "Breaking Out",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39685] = {
+        name = "Frozen in Time",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40256] = {
+        name = "Between Us and Freedom",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39515] = {
+        name = "Vengeance Will Be Mine!",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [41002] = {
+        name = "A Weapon of the Horde",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40983] = {
+        name = "Demons Among Them",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39690] = {
+        name = "Illidari, We Are Leaving",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40976] = {
+        name = "Audience with the Warchief",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40982] = {
+        name = "Second Sight",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44663] = {
+        name = "In the Blink of an Eye",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38842] = {
+        name = "Faerie Fracas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42809] = {
+        name = "The Invasion of Niskara",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41070] = {
+        name = "Spoils of Victory",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44161] = {
+        name = "Things Gaardoun Needs",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39047] = {
+        name = "Call of the Illidari",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42670] = {
+        name = "Rise, Champions",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41096] = {
+        name = "Time is of the Essence",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42634] = {
+        name = "Confrontation at the Black Temple",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40816] = {
+        name = "The Power to Survive",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41060] = {
+        name = "Unbridled Power",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42666] = {
+        name = "Return to the Fel Hammer",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39741] = {
+        name = "Into Our Ranks",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41099] = {
+        name = "Direct Our Wrath",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41066] = {
+        name = "The Hunter's Gaze",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41069] = {
+        name = "Direct Our Wrath",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41221] = {
+        name = "Return to Mardum",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41067] = {
+        name = "Time is of the Essence",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40819] = {
+        name = "Making Arrangements",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39051] = {
+        name = "By Any Means",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39247] = {
+        name = "The Hunt",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39694] = {
+        name = "Between Us and Freedom",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [41631] = {
+        name = "The Nexus Vault",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [48453] = {
+        name = "Strike Back",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46178] = {
+        name = "Hiding In Plain Sight",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40254] = {
+        name = "Forged in Fire",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [45632] = {
+        name = "Missing in Action: Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40255] = {
+        name = "Between Us and Freedom",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40253] = {
+        name = "Stop Gul'dan!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [46324] = {
+        name = "False Orders",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45873] = {
+        name = "Champion: Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45633] = {
+        name = "Operation Felrage",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46322] = {
+        name = "The Pirate's Bay",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45647] = {
+        name = "Mission: Search and Rescue",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46323] = {
+        name = "What's the Cache?",
         level = 110,
         requiredLevel = 110,
     },

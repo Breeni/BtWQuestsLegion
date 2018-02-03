@@ -3233,11 +3233,6 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
-    [44616] = {
-        name = "We'll Need Some Obliterum",
-        level = -1,
-        requiredLevel = 110,
-    },
     [42732] = {
         name = "더욱 치명적인 전투검",
         level = -1,
@@ -5728,6 +5723,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41052] = {
+        name = "간곡한 부탁",
+        level = -1,
+        requiredLevel = 98,
+    },
     [40579] = {
         name = "전설의 무기",
         level = -1,
@@ -7765,6 +7765,11 @@ BtWQuests_Quests = {
         requiredLevel = 110,
     },
     [42815] = {
+        name = "다시 부서진 해변으로",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
         name = "다시 부서진 해변으로",
         level = -1,
         requiredLevel = 98,
@@ -11142,6 +11147,421 @@ BtWQuests_Quests = {
     },
     [41800] = {
         name = "어둠의 심복",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44741] = {
+        name = "다시 찾은 카라잔: 큰 가방 이론",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38975] = {
+        name = "나에게 영감을!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38656] = {
+        name = "악마의 표식",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38765] = {
+        name = "일리다리 소환: 쉬바라",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40222] = {
+        name = "임프 어미의 일지",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39279] = {
+        name = "마르둠 공격",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39663] = {
+        name = "지옥박쥐의 날개에 올라",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40051] = {
+        name = "지옥의 비밀",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [44463] = {
+        name = "그대들 안의 악마",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39742] = {
+        name = "감시관의 금고",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39683] = {
+        name = "불에 벼려진",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40378] = {
+        name = "일리다리 소환: 잿빛혓바닥",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39689] = {
+        name = "일리다리, 우린 떠난다",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39691] = {
+        name = "전쟁이 부른다",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38813] = {
+        name = "공격 명령 하달",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38689] = {
+        name = "지옥 마력 삼키기",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40077] = {
+        name = "침공의 시작",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38819] = {
+        name = "끔찍한 수의 군단에 맞서",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39262] = {
+        name = "시각 너머의 시야",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39516] = {
+        name = "일리다리와 파멸의 비밀",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38766] = {
+        name = "더 늦기 전에",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38723] = {
+        name = "굴단을 막아라!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38725] = {
+        name = "악마의 탁아소 속으로",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38727] = {
+        name = "폭격 차단",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38729] = {
+        name = "검은 사원으로 돌아가기",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40373] = {
+        name = "새로운 길",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39682] = {
+        name = "지옥박쥐 강탈자",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39495] = {
+        name = "숨바꼭질은 끝났다",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39686] = {
+        name = "끝까지 올라가면",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39688] = {
+        name = "자유를 가로막는 자",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [44473] = {
+        name = "얼라이언스의 무기",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44471] = {
+        name = "두 번째 눈",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40379] = {
+        name = "일리다리 소환: 갈퀴흉터",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39049] = {
+        name = "적의 눈은 내 것",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38690] = {
+        name = "일리다리의 봉기",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39050] = {
+        name = "여왕 엿보기",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39684] = {
+        name = "광선을 타고",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38759] = {
+        name = "아군 풀어주기",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38728] = {
+        name = "쐐기돌",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38672] = {
+        name = "탈옥",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39685] = {
+        name = "시간 속에 얼어붙은",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40256] = {
+        name = "자유를 가로막는 자",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39515] = {
+        name = "복수는 내 것이다!",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [41002] = {
+        name = "호드의 무기",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40983] = {
+        name = "그대들 사이의 악마",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39690] = {
+        name = "일리다리, 우린 떠난다",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40976] = {
+        name = "대족장과의 만남",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40982] = {
+        name = "적을 꿰뚫어 보는 눈",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44663] = {
+        name = "눈 깜빡할 사이",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38842] = {
+        name = "요정 소동",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42809] = {
+        name = "니스카라 침공",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41070] = {
+        name = "뜻밖의 전리품",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44161] = {
+        name = "가르둔에게 필요한 것",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39047] = {
+        name = "일리다리의 부름",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42670] = {
+        name = "일어나라, 용사들이여",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41096] = {
+        name = "시간이 없다!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42634] = {
+        name = "검은 사원에서의 대면",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40816] = {
+        name = "생존에 필요한 힘",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41060] = {
+        name = "해방된 힘",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42666] = {
+        name = "지옥 망치호로 돌아가기",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39741] = {
+        name = "충원",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41099] = {
+        name = "분노가 향할 곳",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41066] = {
+        name = "사냥꾼의 시선",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41069] = {
+        name = "분노가 향할 곳",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41221] = {
+        name = "마르둠으로 돌아가기",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41067] = {
+        name = "시간이 없다!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40819] = {
+        name = "면회 시도",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39051] = {
+        name = "무슨 수를 써서든",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39247] = {
+        name = "사냥",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39694] = {
+        name = "자유를 가로막는 자",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [41631] = {
+        name = "마력의 금고",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [48453] = {
+        name = "반격",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46178] = {
+        name = "등잔 밑이 어둡다",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40254] = {
+        name = "불에 벼려진",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [45632] = {
+        name = "아이트리그의 행방불명",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40255] = {
+        name = "자유를 가로막는 자",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40253] = {
+        name = "굴단을 막아라!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [46324] = {
+        name = "거짓 명령서",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45873] = {
+        name = "용사: 아이트리그",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45633] = {
+        name = "작전명 지옥분노",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46322] = {
+        name = "해적의 만",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45647] = {
+        name = "사로잡힌 전사 구하기",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46323] = {
+        name = "목표는 통",
         level = 110,
         requiredLevel = 110,
     },

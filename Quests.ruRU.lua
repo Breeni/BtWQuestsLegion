@@ -3233,11 +3233,6 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
-    [44616] = {
-        name = "We'll Need Some Obliterum",
-        level = -1,
-        requiredLevel = 110,
-    },
     [42732] = {
         name = "Еще более смертоносные боевые клинки",
         level = -1,
@@ -5728,6 +5723,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41052] = {
+        name = "Мольба о помощи",
+        level = -1,
+        requiredLevel = 98,
+    },
     [40579] = {
         name = "Легендарное оружие",
         level = -1,
@@ -7765,6 +7765,11 @@ BtWQuests_Quests = {
         requiredLevel = 110,
     },
     [42815] = {
+        name = "Возвращение на Расколотый берег",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
         name = "Возвращение на Расколотый берег",
         level = -1,
         requiredLevel = 98,
@@ -11142,6 +11147,421 @@ BtWQuests_Quests = {
     },
     [41800] = {
         name = "Слуги Мрака",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44741] = {
+        name = "Возвращение в Каражан: теория большой сумки",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38975] = {
+        name = "Вдохнови меня!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38656] = {
+        name = "Знак демона",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38765] = {
+        name = "Сбор иллидари: шиварры",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40222] = {
+        name = "Фолиант матери бесов",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39279] = {
+        name = "Атака на Мардум",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39663] = {
+        name = "На крыльях сквернотопыря",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40051] = {
+        name = "Тайны Скверны",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [44463] = {
+        name = "Демоны среди них",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39742] = {
+        name = "Казематы Стражей",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39683] = {
+        name = "Выковано в огне",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40378] = {
+        name = "Сбор иллидари: Пеплоусты",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39689] = {
+        name = "Иллидари, пора в путь",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39691] = {
+        name = "Призыв к оружию",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38813] = {
+        name = "Приказы командирам",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38689] = {
+        name = "Вливание Скверны",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40077] = {
+        name = "Атака начинается",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38819] = {
+        name = "Число им — легион",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39262] = {
+        name = "Лишняя пара глаз",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39516] = {
+        name = "Пощады нет! Спускайте иллидари!",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38766] = {
+        name = "Пока нас не вытеснили",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38723] = {
+        name = "Остановить Гул'дана!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38725] = {
+        name = "Нечистый приют",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38727] = {
+        name = "Остановить бомбардировку",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38729] = {
+        name = "Возвращение в Черный храм",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40373] = {
+        name = "Новое начало",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39682] = {
+        name = "Великий угонщик сквернотопырей",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39495] = {
+        name = "Тайное становится явным",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39686] = {
+        name = "Путь наверх",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39688] = {
+        name = "Между нами и свободой",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [44473] = {
+        name = "Оружие Альянса",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44471] = {
+        name = "На второй взгляд",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40379] = {
+        name = "Сбор иллидари: клан Змеиных Колец",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39049] = {
+        name = "Всевидящее око",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38690] = {
+        name = "Возвращение иллидари",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39050] = {
+        name = "Знакомство с королевой",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39684] = {
+        name = "В лучах славы",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38759] = {
+        name = "Освободи их",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38728] = {
+        name = "Ключ",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38672] = {
+        name = "Свобода!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39685] = {
+        name = "Застывший во времени",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40256] = {
+        name = "Между нами и свободой",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39515] = {
+        name = "Я свершу месть!",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [41002] = {
+        name = "Оружие Орды",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40983] = {
+        name = "Демоны среди них",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39690] = {
+        name = "Иллидари, пора в путь",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40976] = {
+        name = "Аудиенция у вождя",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40982] = {
+        name = "На второй взгляд",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44663] = {
+        name = "В мгновение ока",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38842] = {
+        name = "Лесная братва",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42809] = {
+        name = "Вторжение в Нискару",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41070] = {
+        name = "Трофеи победителя",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44161] = {
+        name = "Список Гаардуна",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39047] = {
+        name = "Призыв иллидари",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42670] = {
+        name = "Явитесь, защитники!",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41096] = {
+        name = "Время не ждет",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42634] = {
+        name = "Столкновение в Черном храме",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40816] = {
+        name = "Мощь, без которой не выжить",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41060] = {
+        name = "Необузданная сила",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42666] = {
+        name = "Вернитесь на \"Молот Скверны\".",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39741] = {
+        name = "В наши ряды",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41099] = {
+        name = "Цель номер один",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41066] = {
+        name = "Взор охотника",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41069] = {
+        name = "Направь наш гнев",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41221] = {
+        name = "Возвращение в Мардум",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41067] = {
+        name = "Время не ждет",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40819] = {
+        name = "Последние приготовления",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39051] = {
+        name = "Любой ценой",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39247] = {
+        name = "Охота",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39694] = {
+        name = "Между нами и свободой",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [41631] = {
+        name = "Хранилище Нексуса",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [48453] = {
+        name = "Ответный удар",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46178] = {
+        name = "Спрятались на самом виду",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40254] = {
+        name = "Выковано в огне",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [45632] = {
+        name = "Пропавший без вести: Эйтригг",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40255] = {
+        name = "Между нами и свободой",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40253] = {
+        name = "Остановить Гул'дана!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [46324] = {
+        name = "Ложные приказы",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45873] = {
+        name = "Защитник: Эйтригг",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45633] = {
+        name = "Операция: Ярость Скверны",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46322] = {
+        name = "Пиратский залив",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45647] = {
+        name = "Задание: спасательная операция",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46323] = {
+        name = "Порох с секретом",
         level = 110,
         requiredLevel = 110,
     },
