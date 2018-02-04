@@ -3018,6 +3018,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41803] = {
+        name = "동력원을 부탁해",
+        level = -1,
+        requiredLevel = 98,
+    },
     [41804] = {
         name = "물어라, 그러면 얻을 것이다",
         level = -1,
@@ -3034,6 +3039,11 @@ BtWQuests_Quests = {
         requiredLevel = 98,
     },
     [40249] = {
+        name = "복수는 우리 것이다",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41863] = {
         name = "복수는 우리 것이다",
         level = -1,
         requiredLevel = 98,

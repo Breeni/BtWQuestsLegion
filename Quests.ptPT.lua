@@ -3018,6 +3018,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41803] = {
+        name = "Pedindo um favor",
+        level = -1,
+        requiredLevel = 98,
+    },
     [41804] = {
         name = "Peça e você receberá",
         level = -1,
@@ -3035,6 +3040,11 @@ BtWQuests_Quests = {
     },
     [40249] = {
         name = "A Vingança Será Nossa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41863] = {
+        name = "A vingança será nossa",
         level = -1,
         requiredLevel = 98,
     },
