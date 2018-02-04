@@ -759,12 +759,35 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE] = {
     buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DemonHunter-Vengeance",
     items = {
         {
-            type = "quest",
-            id = 40247,
-            x = 3,
-            y = 0,
-            connections = {
-                1
+            {
+                type = "quest",
+                id = 40247,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40374,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
+            },
+            {
+                type = "quest",
+                id = 41803,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40375,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1
+                },
             },
         },
         {
@@ -795,11 +818,31 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE] = {
             },
         },
         {
-            type = "quest",
-            id = 40249,
-            x = 3,
-            y = 4,
-        },
+            {
+                type = "quest",
+                id = 40249,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40374,
+                    }
+                },
+                x = 3,
+                y = 4,
+            },
+            {
+                type = "quest",
+                id = 41863,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40375,
+                    }
+                },
+                x = 3,
+                y = 4,
+            },
+        }
     },
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {

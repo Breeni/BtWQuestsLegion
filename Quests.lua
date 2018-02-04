@@ -3012,6 +3012,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41803] = {
+        name = "Asking a Favor",
+        level = -1,
+        requiredLevel = 98,
+    },
     [41804] = {
         name = "Ask and You Shall Receive",
         level = -1,
@@ -3028,6 +3033,11 @@ BtWQuests_Quests = {
         requiredLevel = 98,
     },
     [40249] = {
+        name = "Vengeance Will Be Ours",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41863] = {
         name = "Vengeance Will Be Ours",
         level = -1,
         requiredLevel = 98,
