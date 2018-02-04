@@ -3018,6 +3018,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41803] = {
+        name = "Одолжение",
+        level = -1,
+        requiredLevel = 98,
+    },
     [41804] = {
         name = "Попроси – и тебе помогут",
         level = -1,
@@ -3034,6 +3039,11 @@ BtWQuests_Quests = {
         requiredLevel = 98,
     },
     [40249] = {
+        name = "Мы отомстим!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41863] = {
         name = "Мы отомстим!",
         level = -1,
         requiredLevel = 98,

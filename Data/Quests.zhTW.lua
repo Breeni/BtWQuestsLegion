@@ -3018,6 +3018,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41803] = {
+        name = "尋求協助",
+        level = -1,
+        requiredLevel = 98,
+    },
     [41804] = {
         name = "求必有得",
         level = -1,
@@ -3034,6 +3039,11 @@ BtWQuests_Quests = {
         requiredLevel = 98,
     },
     [40249] = {
+        name = "我們必將復仇",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41863] = {
         name = "我們必將復仇",
         level = -1,
         requiredLevel = 98,

@@ -3018,6 +3018,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41803] = {
+        name = "Un service à demander",
+        level = -1,
+        requiredLevel = 98,
+    },
     [41804] = {
         name = "Il n’y a qu’à demander",
         level = -1,
@@ -3034,6 +3039,11 @@ BtWQuests_Quests = {
         requiredLevel = 98,
     },
     [40249] = {
+        name = "Vengeance sera nôtre",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41863] = {
         name = "Vengeance sera nôtre",
         level = -1,
         requiredLevel = 98,
