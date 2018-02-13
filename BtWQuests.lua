@@ -728,9 +728,29 @@ function BtWQuests_EvalChainItem(item)
             end or completed
             
             onClick = onClick or function (self)
-                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link) then
-                    BtWQuestsTooltip:Hide();
+                if ChatEdit_TryInsertChatLink(self.userdata.link) then
+                    return
                 end
+
+                if IsModifiedClick("QUESTWATCHTOGGLE") then
+                    local questLogIndex = GetQuestLogIndexByID(self.userdata.id)
+
+                    if questLogIndex then
+                        if IsQuestWatched(questLogIndex) then
+                            RemoveQuestWatch(questLogIndex)
+                        else
+                            AddQuestWatch(questLogIndex, true)
+                        end
+
+                        return
+                    end
+                end
+
+                if BtWQuests_SelectFromLink(self.userdata.link) then
+                    return
+                end
+
+                BtWQuestsTooltip:Hide();
             end
             onEnter = onEnter or function (self)
                 BtWQuestsTooltip_AnchorTo(self)
@@ -741,6 +761,7 @@ function BtWQuests_EvalChainItem(item)
                 GameTooltip:Hide()
             end
             
+            userdata.id = item.id
             userdata.link = format("\124cffffff00\124Hquest:%d:%d:%d:255\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, quest.requiredLevel or -1, BtWQuests_EvalText(quest.name, quest))
             -- userdata.link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, BtWQuests_EvalText(quest.name, quest))
         elseif item.type == "mission" then
