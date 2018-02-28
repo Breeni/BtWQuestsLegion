@@ -169,7 +169,7 @@ local function BtWQuests_CheckRequirement(item)
     elseif item.type == "level" then
         return UnitLevel("player") >= item.level
     elseif item.type == "expansion" then
-        return GetAccountExpansionLevel() > item.expansion
+        return GetAccountExpansionLevel() >= item.expansion
     elseif item.type == "reputation" then
         local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
         local gender = UnitSex("player")
