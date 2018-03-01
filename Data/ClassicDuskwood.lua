@@ -120,8 +120,11 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
             },
         },
         {
-            type = "quest",
-            id = 26683,
+            name = "Go to Viktori Prism'Antras",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(34, 0, 0.7953, 0.4747, "Viktori Prism'Antras")
+            end,
             x = 2,
             y = 2,
             connections = {
@@ -155,9 +158,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
         },
         {
             type = "quest",
-            id = 26684,
+            id = 26683,
             x = 2,
             y = 3,
+            connections = {
+                3,
+            },
         },
         {
             type = "quest",
@@ -171,8 +177,14 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
             x = 6,
             y = 3,
             connections = {
-                1,
+                2,
             },
+        },
+        {
+            type = "quest",
+            id = 26684,
+            x = 2,
+            y = 4,
         },
         {
             type = "quest",
