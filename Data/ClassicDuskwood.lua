@@ -21,12 +21,60 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
     range = {20},
     items = {
         {
-            type = "quest",
-            id = 28564,
-            x = 3,
+            {
+                type = "quest",
+                id = 28564,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 28564,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    3,
+                },
+            },
+            {
+                type = "quest",
+                id = 28564,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 28564,
+                        active = true,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    3,
+                },
+            },
+            {
+                name = "Go to Commander Althea Ebonlocke",
+                breadcrumb = true,
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(34, 0, 0.7352, 0.4693, "Commander Althea Ebonlocke")
+                end,
+                x = 2,
+                y = 0,
+                connections = {
+                    3,
+                },
+            },
+        },
+        {
+            name = "Go to Calor",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(34, 0, 0.7533, 0.4802, "Calor")
+            end,
+            x = 6,
             y = 0,
             connections = {
-                2,
+                4,
             },
         },
         {
@@ -63,7 +111,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
         },
         {
             type = "quest",
-            id = 26683,
+            id = 26627,
+            aside = true,
             x = 0,
             y = 2,
             connections = {
@@ -72,7 +121,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
         },
         {
             type = "quest",
-            id = 26627,
+            id = 26683,
             x = 2,
             y = 2,
             connections = {
@@ -98,14 +147,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
             },
         },
         {
-            type = "quest",
-            id = 26684,
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT,
+            aside = true,
             x = 0,
             y = 3,
         },
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT,
+            type = "quest",
+            id = 26684,
             x = 2,
             y = 3,
         },
@@ -155,8 +205,11 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_STALVAN] = {
     range = {20},
     items = {
         {
-            type = "quest",
-            id = 26666,
+            name = "Go to Tobias Mistmantle",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(34, 0, 0.7908, 0.4418, "Tobias Mistmantle")
+            end,
             x = 3,
             y = 0,
             connections = {
@@ -165,7 +218,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_STALVAN] = {
         },
         {
             type = "quest",
-            id = 26667,
+            id = 26666,
             x = 3,
             y = 1,
             connections = {
@@ -174,7 +227,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_STALVAN] = {
         },
         {
             type = "quest",
-            id = 26669,
+            id = 26667,
             x = 3,
             y = 2,
             connections = {
@@ -183,7 +236,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_STALVAN] = {
         },
         {
             type = "quest",
-            id = 26670,
+            id = 26669,
             x = 3,
             y = 3,
             connections = {
@@ -192,7 +245,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_STALVAN] = {
         },
         {
             type = "quest",
-            id = 26671,
+            id = 26670,
             x = 3,
             y = 4,
             connections = {
@@ -201,7 +254,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_STALVAN] = {
         },
         {
             type = "quest",
-            id = 26672,
+            id = 26671,
             x = 3,
             y = 5,
             connections = {
@@ -210,9 +263,18 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_STALVAN] = {
         },
         {
             type = "quest",
-            id = 26674,
+            id = 26672,
             x = 3,
             y = 6,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26674,
+            x = 3,
+            y = 7,
             connections = {
                 1,
             },
@@ -222,7 +284,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_STALVAN] = {
             id = BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_MORBENT_FEL,
             aside = true,
             x = 3,
-            y = 7,
+            y = 8,
         },
     },
 }
@@ -444,17 +506,53 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
     range = {20},
     items = {
         {
-            type = "quest",
-            id = 26653,
-            x = 3,
-            y = 0,
-            connections = {
-                1,
+            {
+                type = "quest",
+                id = 26684,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 26684,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
+            },
+            {
+                type = "quest",
+                id = 26684,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 26684,
+                        active = true,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
+            },
+            {
+                name = "Go to Abercrombie",
+                breadcrumb = true,
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(34, 0, 0.8743, 0.3520, "Abercrombie")
+                end,
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
             },
         },
         {
             type = "quest",
-            id = 26652,
+            id = 26653,
             x = 3,
             y = 1,
             connections = {
@@ -463,7 +561,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         },
         {
             type = "quest",
-            id = 26654,
+            id = 26652,
             x = 3,
             y = 2,
             connections = {
@@ -472,7 +570,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         },
         {
             type = "quest",
-            id = 26655,
+            id = 26654,
             x = 3,
             y = 3,
             connections = {
@@ -481,7 +579,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         },
         {
             type = "quest",
-            id = 26660,
+            id = 26655,
             x = 3,
             y = 4,
             connections = {
@@ -490,7 +588,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         },
         {
             type = "quest",
-            id = 26661,
+            id = 26660,
             x = 3,
             y = 5,
             connections = {
@@ -499,7 +597,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         },
         {
             type = "quest",
-            id = 26676,
+            id = 26661,
             x = 3,
             y = 6,
             connections = {
@@ -508,7 +606,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         },
         {
             type = "quest",
-            id = 26680,
+            id = 26676,
             x = 3,
             y = 7,
             connections = {
@@ -517,7 +615,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         },
         {
             type = "quest",
-            id = 26677,
+            id = 26680,
             x = 3,
             y = 8,
             connections = {
@@ -526,7 +624,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         },
         {
             type = "quest",
-            id = 26681,
+            id = 26677,
             x = 3,
             y = 9,
             connections = {
@@ -535,9 +633,18 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         },
         {
             type = "quest",
-            id = 26727,
+            id = 26681,
             x = 3,
             y = 10,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26727,
+            x = 3,
+            y = 11,
         },
     },
 }
@@ -564,10 +671,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_MORLADIM] = {
     range = {20},
     items = {
         {
-            name = "Go to Lorna Stoutfoot",
+            name = "Go to The Weathered Grave",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1024, 0, 0.5759, 0.5641, "Lorna Stoutfoot")
+                BtWQuests_ShowMapWithWaypoint(34, 0, 0.1772, 0.2907, "The Weathered Grave")
             end,
             x = 3,
             y = 0,
