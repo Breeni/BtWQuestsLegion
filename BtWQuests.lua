@@ -8,6 +8,15 @@ local EJ_TIER_DATA =
 	[6] = { backgroundTexture = "Interface\\ENCOUNTERJOURNAL\\UI-EJ-WarlordsofDraenor", r = 0.82, g = 0.55, b = 0.1 },
 	[7] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Legion", r = 1.0, g = 0.8, b = 0.0 },
 }
+local ExpansionEnumToEJTierDataTableId = {
+	[LE_EXPANSION_CLASSIC] = 1,
+	[LE_EXPANSION_BURNING_CRUSADE] = 2,
+	[LE_EXPANSION_WRATH_OF_THE_LICH_KING] = 3,
+	[LE_EXPANSION_CATACLYSM] = 4,
+	[LE_EXPANSION_MISTS_OF_PANDARIA] = 5,
+	[LE_EXPANSION_WARLORDS_OF_DRAENOR] = 6,
+	[LE_EXPANSION_LEGION] = 7,
+}
 
 local professionsMap = {
 	[129] = BTWQUESTS_PROFESSION_FIRST_AID,
@@ -39,7 +48,7 @@ end
 
 local EJ_NUM_INSTANCE_PER_ROW = 4;
 
-local BtWQuests_CurrentExpansion = 7
+local BtWQuests_CurrentExpansion = nil
 local BtWQuests_CurrentCategory = nil
 local BtWQuests_CurrentChain = nil
 
@@ -53,6 +62,21 @@ function BtWQuests_SetCurrentExpansion(value)
     end
     
     BtWQuests_CurrentExpansion = value
+end
+
+-- EJSuggestTab_GetPlayerTierIndex from Blizzard_EncounterJournal.lua
+function BtWQuests_GuessExpansion()
+	local playerLevel = UnitLevel("player");
+	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
+	local minDiff = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEVEL_CURRENT];
+	for tierId, tierLevel in pairs(MAX_PLAYER_LEVEL_TABLE) do
+		local diff = tierLevel - playerLevel;
+		if ( diff > 0 and diff < minDiff ) then
+			expansionId = tierId;
+			minDiff = diff;
+		end
+	end
+	return ExpansionEnumToEJTierDataTableId[expansionId];
 end
 
 function BtWQuests_GetCurrentCategory()
@@ -955,6 +979,7 @@ function BtWQuests_OnLoad(self)
     self.Tooltip:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
     self.Tooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
     
+    BtWQuests_SetCurrentExpansion(BtWQuests_GuessExpansion())
     local expansion = BtWQuests_GetCurrentExpansion()
 	local tierData = EJ_TIER_DATA[expansion];
 	local questSelect = BtWQuests.QuestSelect;
