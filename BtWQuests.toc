@@ -26,6 +26,7 @@ Data/Quests.zhCN.lua
 Data/Quests.zhTW.lua
 
 Data/Classic.lua
+Data/ClassicDuskwood.lua
 
 Data/Legion.lua
 Data/LegionArtifact.lua
