@@ -256,6 +256,10 @@ local function BtWQuests_FindValidItem(list)
 end
 
 local function BtWQuests_GetItemName(item)
+    if item == nil then
+        return "Unnamed"
+    end
+
     if item.name then
         if type(item.name) == "function" then
             return item.name()
@@ -296,10 +300,16 @@ local function BtWQuests_GetItemName(item)
         return item.id
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
+    else
+        return "Unnamed"
     end
 end
 
 local function BtWQuests_GetItemVisible(item)
+    if item == nil then
+        return true
+    end
+
     if item.visible ~= nil then
         if type(item.visible) == "table" then
             return BtWQuests_CheckRequirements(item.visible)
@@ -322,6 +332,10 @@ local function BtWQuests_GetItemVisible(item)
 end
 
 local function BtWQuests_GetItemSkip(item)
+    if item == nil then
+        return false
+    end
+
     if item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
         return true
     end
