@@ -1,6 +1,6 @@
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_ZULGURUB] = {
     name = GetAchievementCriteriaInfo(4905, 1),
-    category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+    category = BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         {
@@ -20,20 +20,85 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_ZULGURUB] = {
     },
     range = {30,60},
     items = {
+        
         {
-            type = "quest",
-            id = 28702,
-            x = 2,
-            y = 0,
-            connections = {
-                2,
+            {
+                type = "quest",
+                id = 28702,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 28702,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
             },
-        },
-        {
-            type = "quest",
-            id = 26805,
-            x = 4,
-            y = 0,
+            {
+                type = "quest",
+                id = 28702,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 28702,
+                        active = true,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
+            },
+
+
+            {
+                type = "quest",
+                id = 26805,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 26805,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
+            },
+            {
+                type = "quest",
+                id = 26805,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 26805,
+                        active = true,
+                    }
+                },
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
+            },
+
+            {
+                name = "Go to Bronwyn Hewstrike",
+                breadcrumb = true,
+                onClick = function ()
+                    BtWQuests_ShowMapWithWaypoint(673, 0, 0.5524, 0.4248, "Bronwyn Hewstrike")
+                end,
+                x = 3,
+                y = 0,
+                connections = {
+                    1,
+                },
+            },
         },
         {
             type = "quest",
@@ -196,7 +261,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_ZULGURUB] = {
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_PIRATES] = {
     name = GetAchievementCriteriaInfo(4905, 3),
-    category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+    category = BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         {
@@ -305,6 +370,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_PIRATES] = {
         {
             type = "quest",
             id = 26648,
+            aside = true,
             x = 1,
             y = 7,
         },
@@ -383,7 +449,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_PIRATES] = {
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BOOTY_BAY] = {
     name = GetAchievementCriteriaInfo(4905, 2),
-    category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+    category = BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         {
@@ -403,6 +469,55 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BOOTY_BAY] = {
     },
     range = {30,60},
     items = {
+        {
+            name = "Find a Half-Buried Bottle along the coast",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(673, 0, 0.5024, 0.7602, "Half-Buried Bottle")
+            end,
+            x = 0,
+            y = 0,
+            connections = {
+                4,
+            },
+        },
+        {
+            name = "Go to \"Sea Wolf\" MacKinley",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(673, 0, 0.4208, 0.7338, "\"Sea Wolf\" MacKinley")
+            end,
+            x = 2,
+            y = 0,
+            connections = {
+                4,
+            },
+        },
+        {
+            name = "Go to Captain Hecklebury Smotts",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(673, 0, 0.4032, 0.6779, "Captain Hecklebury Smotts")
+            end,
+            x = 4,
+            y = 0,
+            connections = {
+                4,
+            },
+        },
+        {
+            name = "Go to Fin Fizracket",
+            breadcrumb = true,
+            aside = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(673, 0, 0.4180, 0.7283, "Fin Fizracket")
+            end,
+            x = 6,
+            y = 0,
+            connections = {
+                4,
+            },
+        },
         {
             type = "quest",
             id = 26603,
@@ -433,6 +548,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BOOTY_BAY] = {
         {
             type = "quest",
             id = 26597,
+            aside = true,
             x = 6,
             y = 1,
         },
@@ -529,6 +645,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BOOTY_BAY] = {
         {
             type = "quest",
             id = 26617,
+            aside = true,
             x = 4,
             y = 6,
         },
@@ -546,12 +663,14 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BOOTY_BAY] = {
         {
             type = "quest",
             id = 26614,
+            aside = true,
             x = 0,
             y = 8,
         },
         {
             type = "quest",
             id = 26612,
+            aside = true,
             x = 2,
             y = 8,
             connections = {
@@ -567,6 +686,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BOOTY_BAY] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_PIRATES,
+            aside = true,
             x = 2,
             y = 9,
         },
@@ -574,7 +694,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BOOTY_BAY] = {
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BLOODSAIL] = {
     name = GetAchievementCriteriaInfo(4905, 4),
-    category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+    category = BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         {
