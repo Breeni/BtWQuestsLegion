@@ -1373,7 +1373,7 @@ function BtWQuests_DisplayChain(scrollTo)
     if temp > 0 then
         scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     end
-    
+
     if scrollTo ~= false then
         if scrollToButton == nil then
             scrollToButton = scrollToButtonAside
@@ -1388,8 +1388,10 @@ function BtWQuests_DisplayChain(scrollTo)
             scrollToButton = scrollFrame["item"..temp]
         end
         
-        chain.scroll:UpdateScrollChildRect()
-        chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        if scrollToButton then
+            chain.scroll:UpdateScrollChildRect()
+            chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        end
     end
 end
 

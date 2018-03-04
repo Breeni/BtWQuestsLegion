@@ -15,4 +15,8 @@ BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC] = {
         type = "category",
         id = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
     },
+    {
+        type = "category",
+        id = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
+    },
 }
