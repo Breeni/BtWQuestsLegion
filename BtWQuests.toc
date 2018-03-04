@@ -29,6 +29,8 @@ Data/Classic.lua
 Data/ClassicCapeOfStranglethorn.lua
 Data/ClassicDuskwood.lua
 Data/ClassicNorthenStranglethorn.lua
+Data/ClassicWesternPlaguelands.lua
+Data/ClassicEasternPlaguelands.lua
 
 Data/Legion.lua
 Data/LegionArtifact.lua

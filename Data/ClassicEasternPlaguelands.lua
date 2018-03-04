@@ -1,0 +1,126 @@
+-- BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_OHGANANKA] = {
+--     name = GetAchievementCriteriaInfo(4906, 1),
+--     category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+--     expansion = BTWQUESTS_EXPANSION_CLASSIC,
+--     restrictions = {
+--         {
+--             type = "faction",
+--             faction = "Alliance",
+--         },
+--     },
+--     prerequisites = {
+--         {
+--             type = "level",
+--             level = 25,
+--         },
+--         {
+--             type = "chain",
+--             id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING,
+--         },
+--     },
+--     completed = {
+--         type = "quest",
+--         id = 26775,
+--     },
+--     range = {25,60},
+--     items = {
+--     },
+-- }
+-- BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_REBEL_CAMP] = {
+--     name = function ()
+--         return GetAchievementCriteriaInfo(4906, 2)
+--     end,
+--     category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+--     expansion = BTWQUESTS_EXPANSION_CLASSIC,
+--     restrictions = {
+--         {
+--             type = "faction",
+--             faction = "Alliance",
+--         },
+--     },
+--     prerequisites = {
+--         {
+--             type = "level",
+--             level = 25,
+--         },
+--     },
+--     completed = {
+--         type = "quest",
+--         id = 26731,
+--     },
+--     range = {25,60},
+--     items = {
+--     },
+-- }
+-- BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_NESINGWARY] = {
+--     name = function ()
+--         return GetAchievementCriteriaInfo(4906, 3)
+--     end,
+--     category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+--     expansion = BTWQUESTS_EXPANSION_CLASSIC,
+--     restrictions = {
+--         {
+--             type = "faction",
+--             faction = "Alliance",
+--         },
+--     },
+--     prerequisites = {
+--         {
+--             type = "level",
+--             level = 25,
+--         },
+--     },
+--     completed = {
+--         type = "quest",
+--         id = 208,
+--     },
+--     range = {25,60},
+--     items = {
+--     },
+-- }
+-- BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING] = {
+--     name = "Hatchling",
+--     category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+--     expansion = BTWQUESTS_EXPANSION_CLASSIC,
+--     restrictions = {
+--         {
+--             type = "faction",
+--             faction = "Alliance",
+--         },
+--     },
+--     prerequisites = {
+--         {
+--             type = "level",
+--             level = 25,
+--         },
+--     },
+--     completed = {
+--         type = "quest",
+--         id = 26748,
+--     },
+--     range = {25,60},
+--     items = {
+--     },
+-- }
+BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS] = {
+    name = GetMapNameByID(23),
+    expansion = BTWQUESTS_EXPANSION_CLASSIC,
+    items = {
+        -- {
+        --     type = "chain",
+        --     id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_REBEL_CAMP,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_NESINGWARY,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_OHGANANKA,
+        -- },
+    },
+}
