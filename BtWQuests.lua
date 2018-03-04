@@ -1370,7 +1370,9 @@ function BtWQuests_DisplayChain(scrollTo)
         temp = temp - 1
     end
     
-    scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
+    if temp > 0 then
+        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
+    end
     
     if scrollTo ~= false then
         if scrollToButton == nil then
