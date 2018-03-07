@@ -1,5 +1,5 @@
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
-    name = GetMapNameByID(34),
+    name = GetAchievementCriteriaInfo(12430, 5),
     category = BTWQUESTS_CATEGORY_CLASSIC_DUSKWOOD,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
@@ -141,14 +141,11 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
             },
         },
         {
-            type = "quest",
-            id = 26627,
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT,
             aside = true,
             x = 0,
             y = 2,
-            connections = {
-                4,
-            },
         },
         {
             name = "Go to Viktori Prism'Antras",
@@ -159,7 +156,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
             x = 2,
             y = 2,
             connections = {
-                4,
+                3,
             },
         },
         {
@@ -168,7 +165,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
             x = 4,
             y = 2,
             connections = {
-                4,
+                3,
             },
         },
         {
@@ -177,15 +174,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
             x = 6,
             y = 2,
             connections = {
-                4,
+                3,
             },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT,
-            aside = true,
-            x = 0,
-            y = 3,
         },
         {
             type = "quest",
