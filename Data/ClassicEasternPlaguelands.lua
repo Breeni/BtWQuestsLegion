@@ -613,6 +613,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_TYRS_HAND] = {
             y = 1,
             connections = {
                 1,
+            },
+        },
+        {
+            type = "quest",
+            id = 27460,
+            x = 3,
+            y = 2,
+            connections = {
+                1,
                 2,
             },
         },
@@ -923,7 +932,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_JOURNEYS_END] = {
             y = 1,
             connections = {
                 3,
-                6,
+                4,
             },
         },
         {
@@ -946,6 +955,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_JOURNEYS_END] = {
         },
         {
             type = "quest",
+            id = 27524,
+            x = 2,
+            y = 2,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
             id = 27528,
             x = 5,
             y = 2,
@@ -964,7 +982,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_JOURNEYS_END] = {
         },
         {
             type = "quest",
-            id = 27524,
+            id = 27525,
             x = 2,
             y = 3,
             connections = {
