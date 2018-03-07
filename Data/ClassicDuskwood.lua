@@ -53,6 +53,37 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
                 },
             },
             {
+                type = "quest",
+                id = 26728,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 26728,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    3,
+                },
+            },
+            {
+                type = "quest",
+                id = 26728,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 26728,
+                        active = true,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    3,
+                },
+            },
+            {
                 name = "Go to Commander Althea Ebonlocke",
                 breadcrumb = true,
                 onClick = function ()
@@ -185,12 +216,21 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
             id = 26684,
             x = 2,
             y = 4,
+            connections = {
+                2,
+            },
         },
         {
             type = "quest",
             id = 26691,
             x = 6,
             y = 4,
+        },
+        {
+            type = "quest",
+            id = 26685,
+            x = 2,
+            y = 5,
         },
     },
 }
@@ -520,11 +560,11 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
         {
             {
                 type = "quest",
-                id = 26684,
+                id = 26627,
                 restrictions = {
                     {
                         type = "quest",
-                        id = 26684,
+                        id = 26627,
                     }
                 },
                 x = 3,
@@ -535,11 +575,11 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
             },
             {
                 type = "quest",
-                id = 26684,
+                id = 26627,
                 restrictions = {
                     {
                         type = "quest",
-                        id = 26684,
+                        id = 26627,
                         active = true,
                     }
                 },
