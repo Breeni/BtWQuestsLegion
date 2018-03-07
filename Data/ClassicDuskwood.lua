@@ -17,6 +17,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
     completed = {
         type = "achievement",
         id = 12430,
+        criteria = 5,
     },
     range = {20},
     items = {

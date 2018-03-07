@@ -205,7 +205,13 @@ local function BtWQuests_CheckRequirement(item)
             return standing >= item.standing
         end
     elseif item.type == "achievement" then
-        if item.anyone then
+        if item.criteria then
+            if item.completed == false then
+                return not select(3, GetAchievementCriteriaInfo(item.id, item.criteria))
+            else
+                return select(3, GetAchievementCriteriaInfo(item.id, item.criteria))
+            end
+        elseif item.anyone then
             if item.completed == false then
                 return not select(4, GetAchievementInfo(item.id))
             else
@@ -291,7 +297,11 @@ local function BtWQuests_GetItemName(item)
             return string.format(name or BTWQUESTS_REPUTATION_STANDING, standingText, factionName)
         end
     elseif item.type == "achievement" then
-        return select(2, GetAchievementInfo(item.id))
+        if item.criteria then
+            return string.format("%s: %s", select(2, GetAchievementInfo(item.id)), select(1, GetAchievementCriteriaInfo(item.id, item.criteria)))
+        else
+            return select(2, GetAchievementInfo(item.id))
+        end
     elseif item.type == "profession" then
         if professionsMap[item.id] ~= nil then
             return professionsMap[item.id]
