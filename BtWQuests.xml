@@ -132,7 +132,13 @@
 		<Scripts>
 			<OnMouseUp>
                 if ( button == "RightButton" ) then
-                    BtWQuests_ZoomOut()
+					if self.type == "chain" then
+						BtWQuests_Settings.ignoredChains[self.id] = not BtWQuests_Settings.ignoredChains[self.id] and true or nil
+            			self.AciveTexture:SetShown(BtWQuests_IsChainActive(self.id))
+					elseif self.type == "category" then
+						BtWQuests_Settings.ignoredCategories[self.id] = not BtWQuests_Settings.ignoredCategories[self.id] and true or nil
+					end
+                    -- BtWQuests_ZoomOut()
                 end
 			</OnMouseUp>
 		</Scripts>
