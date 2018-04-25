@@ -1248,6 +1248,7 @@ function BtWQuests_DisplayChain(scrollTo)
                 end
             end
         
+            itemButton.Tick:SetShown(itemButton.status == "complete")
             if itemButton.status == "complete" then
                 itemButton.ForgottenAnim:Play()
             end
@@ -1417,6 +1418,7 @@ function BtWQuests_UpdateChain(scroll)
                     end
                 end
                 
+                itemButton.Tick:SetShown(itemButton.newStatus == "complete")
                 if itemButton.newStatus == "complete" then
                     itemButton.ForgottenAnim:Play()
                 end

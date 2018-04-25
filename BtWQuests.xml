@@ -194,6 +194,13 @@
                     <TexCoords left="0.25" right="0.5" top="0.1203125" bottom="0.4140625"/><!-- top="0.0703125" bottom="0.4140625"-->
                 </Texture>
             </Layer>
+			<Layer level="ARTWORK" textureSubLevel="1">
+				<Texture parentKey="Tick" inherits="GreenCheckMarkTemplate">
+					<Anchors>
+						<Anchor point="BOTTOMRIGHT" relativePoint="BOTTOMRIGHT" x="-7" y="7"/>
+					</Anchors>
+				</Texture>
+            </Layer>
 			<Layer level="ARTWORK">
 				<Texture parentKey="TagTexture" file="Interface\QuestFrame\QuestTypeIcons" hidden="true">
 					<Size x="18" y="18"/>
