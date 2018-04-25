@@ -11569,54 +11569,54 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
-	[45644] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Oh Doloria, My Sweet Doloria",
-	},
-	[45562] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Kneel and Be Squired!",
-	},
-	[45645] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "A Fool's Errand",
-	},
-	[45565] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Further Training",
-	},
-	[45813] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Where Art Thou, My Sweet",
-	},
-	[45566] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "A Knight's Belongings",
-	},
-	[45567] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "My Kingdom for a Horse",
-	},
-	[45568] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "They Stole Excaliberto!",
-	},
-	[45561] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Seek Me Out",
+    [45644] = {
+        name = "Oh Doloria, My Sweet Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "Kneel and Be Squired!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "A Fool's Errand",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Further Training",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "Where Art Thou, My Sweet",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "A Knight's Belongings",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "My Kingdom for a Horse",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "They Stole Excaliberto!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Seek Me Out",
+        level = -1,
+        requiredLevel = 110,
     },
     [24707] = {
         name = "The Ballad of Maximillian",
-		["requiredLevel"] = 40,
-		["level"] = 40,
-    }
+        level = 55,
+        requiredLevel = 51,
+    },
 }

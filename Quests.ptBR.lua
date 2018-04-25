@@ -11575,4 +11575,54 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [45644] = {
+        name = "Ah, Doloria, minha doce Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "Ajoelhe-se e torne-se escudeiro!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "Bonita, linda e joiada",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Mais treinamento",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "Onde estás, minha amada",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "Pertences de um cavaleiro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "Meu reino por um cavalo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "Roubaram a Excaliberto!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Procure-me",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "A canção de Maximiliano",
+        level = 55,
+        requiredLevel = 51,
+    },
 }
