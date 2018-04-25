@@ -11575,4 +11575,54 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [45644] = {
+        name = "喔，朵莉亞，我親愛的朵莉亞。",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "侍從聽命！",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "傻瓜任務",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "進階訓練",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "妳在哪，親愛的",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "騎士的所有物",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "馬上王國",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "他們偷了土中劍！",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "來找我",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "瑪克西米利安頌",
+        level = 55,
+        requiredLevel = 51,
+    },
 }
