@@ -864,7 +864,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER] = {
     },
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER] = {
-    name = "Maximillian of Northshire",
+    name = "Champion: Maximillian of Northshire",
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
