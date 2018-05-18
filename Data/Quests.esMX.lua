@@ -13795,4 +13795,54 @@ BtWQuests_Quests = {
         level = 37,
         requiredLevel = 35,
     },
+    [45644] = {
+        name = "Ay, Doloria, mi dulce Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "¡Arrodíllate y conviértete en $GEscudero:Escudera;!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "El recado de un tonto",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Más entrenamiento",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "¿Dónde estás, corazón mío?",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "Las pertenencias de un caballero",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "Mi reino por un caballo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "¡Robaron a Excaliberto!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Búscame",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "La balada de Maximillian",
+        level = 55,
+        requiredLevel = 51,
+    },
 }

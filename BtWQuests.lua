@@ -413,11 +413,11 @@ function BtWQuests_IsCategoryCompleted(categoryID)
     
     for _,v in ipairs(category.items) do
         if v.type == 'chain' then
-            if not BtWQuests_GetItemSkip(v) and not BtWQuests_IsChainCompleted(v.id) then
+            if not BtWQuests_Settings.ignoredChains[v.id] and not BtWQuests_GetItemSkip(v) and not BtWQuests_IsChainCompleted(v.id) then
                 return false
             end
         elseif v.type == 'category' then
-            if not BtWQuests_IsCategoryCompleted(v.id) then
+            if not BtWQuests_Settings.ignoredCategories[v.id] and not BtWQuests_IsCategoryCompleted(v.id) then
                 return false
             end
         end
@@ -562,6 +562,10 @@ function BtWQuests_IsChainActive(chainID)
     local chain = BtWQuests_Chains[chainID]
     if not chain then
         return nil
+    end
+
+    if BtWQuests_Settings.ignoredChains[chainID] then
+        return false
     end
     
     local active, completed = false, false
@@ -1042,8 +1046,18 @@ function BtWQuests_OnEvent(self, event, ...)
         if ... == "BtWQuests" then
             if BtWQuests_Settings == nil then
                 BtWQuests_Settings = {
-                    minimapShown = true
+                    minimapShown = true,
+                    ignoredCategories = {},
+                    ignoredChains = {},
                 }
+            end
+
+            if BtWQuests_Settings.ignoredCategories == nil then
+                BtWQuests_Settings.ignoredCategories = {}
+            end
+
+            if BtWQuests_Settings.ignoredChains == nil then
+                BtWQuests_Settings.ignoredChains = {}
             end
             
             BtWQuestsMinimapButton:SetShown(BtWQuests_Settings.minimapShown)
@@ -1156,6 +1170,7 @@ function BtWQuests_ListCategories()
                 categoryButton.Tick:SetShown(BtWQuests_IsCategoryCompleted(id))
             end
             
+            categoryButton.type = itemType;
             categoryButton.id = id;
             categoryButton.userdata = userdata;
             categoryButton:SetScript("OnClick", onClick)
@@ -1297,6 +1312,7 @@ function BtWQuests_DisplayChain(scrollTo)
                 end
             end
         
+            itemButton.Tick:SetShown(itemButton.status == "complete")
             if itemButton.status == "complete" then
                 itemButton.ForgottenAnim:Play()
             end
@@ -1470,6 +1486,7 @@ function BtWQuests_UpdateChain(scroll)
                     end
                 end
                 
+                itemButton.Tick:SetShown(itemButton.newStatus == "complete")
                 if itemButton.newStatus == "complete" then
                     itemButton.ForgottenAnim:Play()
                 end

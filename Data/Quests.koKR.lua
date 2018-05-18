@@ -13795,4 +13795,54 @@ BtWQuests_Quests = {
         level = 37,
         requiredLevel = 35,
     },
+    [45644] = {
+        name = "오 돌로리아, 내 사랑 돌로리아",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "무릎을 꿇고 종자가 되어라!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "헛수고",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "추가 훈련",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "내 사랑, 그대는 어디에",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "기사의 소지품",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "내 나라를 줄 터이니 말을 다오",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "엑스칼리베르토를 도둑맞았다!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "나를 찾아줘",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "맥시밀리언의 노래",
+        level = 55,
+        requiredLevel = 51,
+    },
 }

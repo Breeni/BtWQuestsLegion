@@ -13795,4 +13795,54 @@ BtWQuests_Quests = {
         level = 37,
         requiredLevel = 35,
     },
+    [45644] = {
+        name = "Oh, meine liebste Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "Kniet nieder, Knappe!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "Vergebliche Mühe",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Weiterführende Ausbildung",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "Oh, wo seid Ihr, meine Teure?!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "Die Habseligkeiten eines Ritters",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "Mein Königreich für ein Pferd",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "Sie haben Excaliberto gestohlen!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Kommt zu mir",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "Die Ballade von Maximillian",
+        level = 55,
+        requiredLevel = 51,
+    },
 }

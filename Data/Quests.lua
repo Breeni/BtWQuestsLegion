@@ -13789,4 +13789,54 @@ BtWQuests_Quests = {
         level = 37,
         requiredLevel = 35,
     },
+    [45644] = {
+        name = "Oh Doloria, My Sweet Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "Kneel and Be Squired!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "A Fool's Errand",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Further Training",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "Where Art Thou, My Sweet",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "A Knight's Belongings",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "My Kingdom for a Horse",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "They Stole Excaliberto!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Seek Me Out",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "The Ballad of Maximillian",
+        level = 55,
+        requiredLevel = 51,
+    },
 }

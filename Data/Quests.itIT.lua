@@ -13795,4 +13795,54 @@ BtWQuests_Quests = {
         level = 37,
         requiredLevel = 35,
     },
+    [45644] = {
+        name = "O Doloria, mia dolce Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "La nomina a Scudiero",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "Un'impresa folle",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Addestramento ulteriore",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "Dove sei, amore mio",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "Le proprietà di un re",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "Il mio regno per un cavallo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "Hanno rubato Excaliberto!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Ricerche continue",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "La ballata di Maximillian",
+        level = 55,
+        requiredLevel = 51,
+    },
 }

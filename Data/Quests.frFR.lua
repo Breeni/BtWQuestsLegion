@@ -13795,4 +13795,54 @@ BtWQuests_Quests = {
         level = 37,
         requiredLevel = 35,
     },
+    [45644] = {
+        name = "Ô Doloria, ma douce Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "À genoux, que je vous arme écuyer",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "Mission impossible ?",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Formation continue",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "Où es-tu, ma dulcinée ?",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "Les effets personnels du chevalier",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "Mon royaume pour un cheval",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "Ils ont volé Excaliberto !",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Venez me retrouver",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "La ballade de Maximillian",
+        level = 55,
+        requiredLevel = 51,
+    },
 }
