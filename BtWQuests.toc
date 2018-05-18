@@ -1,6 +1,6 @@
 ## Interface: 70300
 ## Title: BtWQuests
-## Version: 0.12.2
+## Version: 0.12.2.c1
 ## Notes: 
 ## Author: Breen
 ## SavedVariablesPerCharacter: BtWQuests_Settings
@@ -26,8 +26,10 @@ Data/Quests.zhCN.lua
 Data/Quests.zhTW.lua
 
 Data/Classic.lua
+Data/ClassicBadlands.lua
 Data/ClassicCapeOfStranglethorn.lua
 Data/ClassicDuskwood.lua
+Data/ClassicHillsbradFoothills.lua
 Data/ClassicNorthenStranglethorn.lua
 Data/ClassicWesternPlaguelands.lua
 Data/ClassicEasternPlaguelands.lua

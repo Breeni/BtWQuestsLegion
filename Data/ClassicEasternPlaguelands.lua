@@ -1046,10 +1046,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PLAGUEWOOD] = {
             level = 40,
         },
     },
-    completed = {
-        type = "quest",
-        id = 27489,
-    },
+    -- completed = {
+    --     type = "quest",
+    --     id = 27489,
+    -- },
     range = {40,60},
     items = {
         {

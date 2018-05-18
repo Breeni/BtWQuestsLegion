@@ -11575,4 +11575,2224 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [43285] = {
+        name = "Вторжение: предгорья Хилсбрада",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [43297] = {
+        name = "Отпор",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [28192] = {
+        name = "Никто не уйдет живым",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28196] = {
+        name = "Битва за Хилсбрад",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28325] = {
+        name = "Охрана природы",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28329] = {
+        name = "Злые гнилостные слизни",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28331] = {
+        name = "Жезл Гелькулара дает...",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28587] = {
+        name = "Помощь клана Северного Волка",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28089] = {
+        name = "Приказ вождя: предгорья Хилсбрада!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28345] = {
+        name = "*Бульк* ПОМОГИТЕ! *Бульк*",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28603] = {
+        name = "Проникновение",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28605] = {
+        name = "Власть",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28355] = {
+        name = "Маленькие гадкие создания",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28484] = {
+        name = "Суть дела",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28617] = {
+        name = "Цветочная сила",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28111] = {
+        name = "Проблемы в Лазуритовом рудника",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28748] = {
+        name = "Посев мертвецов",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28115] = {
+        name = "Они свое отжили",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28375] = {
+        name = "Дорога к Острову Очищения",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28506] = {
+        name = "Диспозиция Грозовой Вершины",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28635] = {
+        name = "Призраки Хилсбрада",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28643] = {
+        name = "Вызов Дарнхольда: Зефирий",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28645] = {
+        name = "Вызов Дарнхольда: Кровояд",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28647] = {
+        name = "Вызов Дарнхольда: Д-1000",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28397] = {
+        name = "Такого они точно не ожидают...",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28538] = {
+        name = "Крик банши",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28556] = {
+        name = "Преградить путь",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28566] = {
+        name = "Истребление",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28189] = {
+        name = "Благое дело",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28197] = {
+        name = "Осторожность – ключ к успеху",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28199] = {
+        name = "Во имя науки!",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28330] = {
+        name = "Следы гнили",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28332] = {
+        name = "Приказ Гелькулара",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28209] = {
+        name = "Свободу Лидону",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28344] = {
+        name = "Знаешь, что делает \"лок'тар\"?",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28600] = {
+        name = "Суть верности",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28348] = {
+        name = "Встреча с Грозовой Вершиной",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28604] = {
+        name = "Хитрость и мошенничество",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28733] = {
+        name = "Основы ботаники",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28354] = {
+        name = "Кайша снова взлетит",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28356] = {
+        name = "Предупреждающий удар",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28485] = {
+        name = "Йетиан Царь Пещер",
+        level = 25,
+        requiredLevel = 21,
+    },
+    [28487] = {
+        name = "Интимные проблемы Гумберта",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28235] = {
+        name = "Бернсайд должен умереть",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28237] = {
+        name = "Нарыв на теле земли",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28747] = {
+        name = "Тыквомбы",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28495] = {
+        name = "Во имя спасения",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28251] = {
+        name = "Проблемы в Южнобережье",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28634] = {
+        name = "Истребление",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28636] = {
+        name = "Тишина дворфов",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28644] = {
+        name = "Вызов Дарнхольда: Теракула",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28138] = {
+        name = "Заражение людьми",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28144] = {
+        name = "Маленькие грязные воришки!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28146] = {
+        name = "Деликатесы с побережья",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28324] = {
+        name = "Изучение смертоносности",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28616] = {
+        name = "Конец клану Грозовой Вершины",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28154] = {
+        name = "Плавник Грязехлюпа или что-то в таком духе...",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28114] = {
+        name = "Славный урожай",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28620] = {
+        name = "Восточная башня",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [43286] = {
+        name = "Командир демонов",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [27746] = {
+        name = "Империя грязи",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [43296] = {
+        name = "Защита",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [28571] = {
+        name = "Приказ вождя: предгорья Хилсбрада!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28206] = {
+        name = "Потерялась маленькая девочка",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28400] = {
+        name = "Герои Орды!",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28230] = {
+        name = "Протокол",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28231] = {
+        name = "Сделай это во имя Звездочки",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28168] = {
+        name = "Проблемы в Топких полях",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28156] = {
+        name = "Спасение из глубин рудника",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28744] = {
+        name = "Вурдалакам не нравятся мои семена",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28096] = {
+        name = "Добро пожаловать в систему",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28489] = {
+        name = "Сэндвичи с олениной",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28646] = {
+        name = "Вызов Дарнхольда: Инферний",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [27797] = {
+        name = "Пешка-часовой",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27877] = {
+        name = "Цирк непуганых идиотов",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27878] = {
+        name = "Насильственный захват",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27879] = {
+        name = "Выживает жирнейший",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27881] = {
+        name = "Лагерь Кровавого Взора",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27882] = {
+        name = "Вопрос не истории, а силы",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27883] = {
+        name = "Пешка-страж",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27884] = {
+        name = "Пешка-часовой",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27885] = {
+        name = "Игра стражей",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27886] = {
+        name = "Игра часовых",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27887] = {
+        name = "Древние защитники",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27888] = {
+        name = "Возвращение к Бламу",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27763] = {
+        name = "В Фюзель!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27764] = {
+        name = "Необычная просьба",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27766] = {
+        name = "Второй образец: детеныши драконов",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27769] = {
+        name = "Рея срывает маску",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27770] = {
+        name = "Откровение",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27771] = {
+        name = "Третий образец: яйца Никсондры",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27709] = {
+        name = "Игра часовых",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27774] = {
+        name = "Легко поддающиеся внушению",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27775] = {
+        name = "Когда прижмет, можно и схитрить",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27713] = {
+        name = "День, когда пришел Смертокрыл",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27714] = {
+        name = "День, когда пришел Смертокрыл: вся правда",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [28579] = {
+        name = "Воззвание к героям: Бесплодные земли!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27833] = {
+        name = "Затяжная оборона",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27912] = {
+        name = "Сокровище титанов",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27913] = {
+        name = "Сокровище титанов",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27823] = {
+        name = "У дворфов – свои нужды",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27789] = {
+        name = "По троггам – из турели",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27824] = {
+        name = "За сокровищем – с кулаками",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27825] = {
+        name = "Выживает жирнейший",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27792] = {
+        name = "На войне, в любви и археологии все средства хороши!",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27793] = {
+        name = "Древние защитники",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27772] = {
+        name = "Почтенный доктор Блам",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27776] = {
+        name = "Пусти козла в город...",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27796] = {
+        name = "Пешка-страж",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27762] = {
+        name = "Фюзель, йо-хо-хо!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27693] = {
+        name = "Игра стражей",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27895] = {
+        name = "Охота продолжается!",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27880] = {
+        name = "Затяжная оборона",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27927] = {
+        name = "Погружение в бездну",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27897] = {
+        name = "Потайная кладка",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27898] = {
+        name = "Дар Реастразы",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27930] = {
+        name = "Сокрушение",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27791] = {
+        name = "Раскопки Пыльного Ветра",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27715] = {
+        name = "День, когда пришел Смертокрыл: все было совсем иначе...",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27794] = {
+        name = "Возвращение к Бламу",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27889] = {
+        name = "Новый Каргат",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27859] = {
+        name = "Яйцо в безопасности",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [28580] = {
+        name = "Приказ вождя: Бесплодные земли!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27896] = {
+        name = "Печаль и гнев",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27892] = {
+        name = "Джаррикс-истребитель",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27765] = {
+        name = "Первый образец: украденные яйца",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27893] = {
+        name = "Гаргал-чудище",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27890] = {
+        name = "Плохие парни",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27891] = {
+        name = "Амаккар, мастер на все руки",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27894] = {
+        name = "Поход на дракона",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27832] = {
+        name = "Потайная кладка",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27858] = {
+        name = "Дар Реастразы",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27834] = {
+        name = "Бейлог, капитан Стеклянная Пушка",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27835] = {
+        name = "Олаф, капитан Громадина",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27827] = {
+        name = "Резвый, Лютый и Крепкий",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27830] = {
+        name = "Охота продолжается!",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27831] = {
+        name = "Печаль и гнев",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27828] = {
+        name = "Эрик, капитан Необходимость",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27826] = {
+        name = "Дорога в Драконью Пасть",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27829] = {
+        name = "Поход на дракона",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [26727] = {
+        name = "Месть Бальзамировщика",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26794] = {
+        name = "Морган Ладимор",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26672] = {
+        name = "Узнать правду",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26674] = {
+        name = "Месть Мистмантла",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26676] = {
+        name = "Доставка сока",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26677] = {
+        name = "Чучело вурдалака",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26680] = {
+        name = "Нападение огров",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26681] = {
+        name = "Письмо для мэра",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26683] = {
+        name = "Взгляни на звезды",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26684] = {
+        name = "Невменяемый вурдалак",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26685] = {
+        name = "Отличное стекло",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26686] = {
+        name = "Ходячие кости",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26688] = {
+        name = "Воргены в лесу",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26691] = {
+        name = "Воргены в лесу",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26797] = {
+        name = "Дочерняя любовь",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26795] = {
+        name = "Мор'Ладим",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26760] = {
+        name = "Вой на луну",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26796] = {
+        name = "Выжившая дочь",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26793] = {
+        name = "Заброшенная могила",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26785] = {
+        name = "Часть стаи",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26722] = {
+        name = "Сокрытый под землей",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26754] = {
+        name = "Погибель Морбента",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26717] = {
+        name = "Ворген Йоргена",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26753] = {
+        name = "Чертоги мертвых",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26724] = {
+        name = "Скрывающийся лич",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26723] = {
+        name = "Судьба Морбента Скверна",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26707] = {
+        name = "Смертоносная лоза",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26778] = {
+        name = "Крики мертвых",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26623] = {
+        name = "Темные пирожки с крабами",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25235] = {
+        name = "Лощина Вул'Гол",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28564] = {
+        name = "Воззвание к героям: Темнолесье!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [26627] = {
+        name = "Отшельник",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26787] = {
+        name = "Медвежьи мозги",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26777] = {
+        name = "Успокоение духов",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26652] = {
+        name = "Нить из призрачных волос",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26653] = {
+        name = "Припасы из Темнолесья",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26654] = {
+        name = "Гребень для Евы",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26655] = {
+        name = "Доставка ниток",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26719] = {
+        name = "Доставка мастеру Харрису",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26720] = {
+        name = "Проклятие, которое не снять",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26721] = {
+        name = "Реагенты для Трясунчика",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26660] = {
+        name = "Сок зомби",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26661] = {
+        name = "Сбор цветков гнили",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26725] = {
+        name = "Ведомый Светом",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26620] = {
+        name = "Пряные котлеты из волчатины",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26666] = {
+        name = "Легенда о Сталване",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26670] = {
+        name = "Погибель Роланда",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26689] = {
+        name = "Гниющий сад",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26618] = {
+        name = "Волки идут по пятам",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26667] = {
+        name = "Украденные письма",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26671] = {
+        name = "Судьба Сталвана Мистмантла",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26690] = {
+        name = "Ярые и Нечистые",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26669] = {
+        name = "В темном углу",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26645] = {
+        name = "Ночной дозор",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26729] = {
+        name = "Элементали воды",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26730] = {
+        name = "Можно вывести мурлока из воды...",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26731] = {
+        name = "Алтарь Найаса",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26732] = {
+        name = "Дурное лекарство",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26733] = {
+        name = "Контрольный образец",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26734] = {
+        name = "Источник безумия",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26735] = {
+        name = "Участь Курцена",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26736] = {
+        name = "Вменяемые заключенные",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26737] = {
+        name = "Положить конец наследию Курцена",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26738] = {
+        name = "Новорожденный",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26739] = {
+        name = "Не покормишь – не вырастишь",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26740] = {
+        name = "Горшок Кразека",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26742] = {
+        name = "Изучение Кровавого Скальпа",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26743] = {
+        name = "Реликвия Кровавых Скальпов",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26744] = {
+        name = "Глубокие корни",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26745] = {
+        name = "Особенный череп",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [28699] = {
+        name = "Воззвание к героям: Северная Тернистая долина!",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26747] = {
+        name = "Отборный экземпляр",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26748] = {
+        name = "Мандокир Повелитель Крови",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26749] = {
+        name = "Жрица Тхаалия",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26763] = {
+        name = "Рудник Торговой Компании",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26765] = {
+        name = "Возвращение к капралу Калебу",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26772] = {
+        name = "Внутреннее зрение",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26773] = {
+        name = "Увидеть ящера",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26774] = {
+        name = "Контроль над разумом",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26775] = {
+        name = "Стать ящером",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26776] = {
+        name = "Галири",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26779] = {
+        name = "Пляски Зул'Мамве",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26780] = {
+        name = "Ночь в джунглях",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26781] = {
+        name = "Глаз разума",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26782] = {
+        name = "Сокровища клана Мош'Огг",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26805] = {
+        name = "На мыс!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26746] = {
+        name = "Хороший нюх",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [193] = {
+        name = "Охота на пантер",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [26345] = {
+        name = "Эксельзиор",
+        level = 28,
+        requiredLevel = 25,
+    },
+    [208] = {
+        name = "Охотник на крупную дичь",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [186] = {
+        name = "Охота на тигров",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26269] = {
+        name = "Зеленые холмы Тернистой долины",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [190] = {
+        name = "Охота на пантер",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [194] = {
+        name = "Охота на ящеров",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [197] = {
+        name = "Охота на ящеров",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [192] = {
+        name = "Охота на пантер",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [187] = {
+        name = "Тигриная отвага",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [191] = {
+        name = "По следу пантеры",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [195] = {
+        name = "Охота на ящеров",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [188] = {
+        name = "Охота на тигров",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [196] = {
+        name = "Большая охота",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26344] = {
+        name = "Немного разнообразия не помешает",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [583] = {
+        name = "Добро пожаловать в джунгли",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [185] = {
+        name = "Охота на тигров",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26343] = {
+        name = "Спрос и предложение",
+        level = 26,
+        requiredLevel = 25,
+    },
+    [26600] = {
+        name = "Великанское пиршество",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26601] = {
+        name = "Мок'раш Колун",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26602] = {
+        name = "Блюдо подается ящиками",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26603] = {
+        name = "Послание в бутылке",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26604] = {
+        name = "Защита Ее Королевского величества Пубы",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26605] = {
+        name = "Загребущие лапки",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26606] = {
+        name = "Гибель Муклы",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26609] = {
+        name = "Пираты Кровавого Паруса",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26610] = {
+        name = "Вероломство пиратов Кровавого Паруса",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26611] = {
+        name = "Предупредить барона",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26612] = {
+        name = "На разведку",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26613] = {
+        name = "Понюшка табака",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26614] = {
+        name = "Смотри в оба",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26678] = {
+        name = "Крепленый ром",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26679] = {
+        name = "Возвращение к Ревилгазу",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26617] = {
+        name = "Старый пират",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26808] = {
+        name = "Мейвики",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26809] = {
+        name = "Тайные сделки",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26810] = {
+        name = "Убить Отверженного",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26811] = {
+        name = "Троллья дыра",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26812] = {
+        name = "Верховная жрица Джеклик",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26813] = {
+        name = "Путешествие в Зул'Гуруб",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26814] = {
+        name = "Верховный жрец Веноксис",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26815] = {
+        name = "Тайна Занзила",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26816] = {
+        name = "Рецепт катастрофы",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26817] = {
+        name = "Идеальная чистота",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26818] = {
+        name = "Мягкие шкуры",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26819] = {
+        name = "Вязанка акириса",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26820] = {
+        name = "Если они собираются просто оставить это на земле...",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26821] = {
+        name = "Айрвин Куропуша",
+        level = 32,
+        requiredLevel = 26,
+    },
+    [26822] = {
+        name = "Шавки паршивые",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26823] = {
+        name = "Слишком большой для своих штанов",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26824] = {
+        name = "Неопределенные результаты",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26825] = {
+        name = "Даск \"Пузырь\" Гоблопшик",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26700] = {
+        name = "Госпожа не-Удача",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26697] = {
+        name = "Последнее путешествие Крушащей Волны",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26699] = {
+        name = "Борьба с Крушащей Волной",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26703] = {
+        name = "Конец Кровавому Парусу!",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26698] = {
+        name = "В поисках Морского Рога",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26695] = {
+        name = "Приготовиться к взлету!",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26665] = {
+        name = "Зов пиратов",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26644] = {
+        name = "Новые горизонты",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26664] = {
+        name = "Обвинение в мятеже",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26662] = {
+        name = "Крушащая волна",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26647] = {
+        name = "Пушка-старушка",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26648] = {
+        name = "Наши смертельные враги",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26649] = {
+        name = "Черное золото",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26650] = {
+        name = "Госпожа Удача",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26663] = {
+        name = "Саботаж",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26633] = {
+        name = "Обязанности уборщика",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26635] = {
+        name = "Ныряние за ядрами",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26631] = {
+        name = "Пират-новичок",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26634] = {
+        name = "Бич пиратов",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26593] = {
+        name = "Напугать Трусишку",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26594] = {
+        name = "Возвращение к Маккинли",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26595] = {
+        name = "Долг платежом красен",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26629] = {
+        name = "Вопрос лояльности",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26597] = {
+        name = "Лихорадка Тернистой долины",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26624] = {
+        name = "Связи с Кровавым Парусом",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26599] = {
+        name = "Сундук капитана",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [28702] = {
+        name = "Воззвание к героям: мыс Тернистой долины",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [27160] = {
+        name = "Боевые машины",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27161] = {
+        name = "Бесконечный поток",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27162] = {
+        name = "Некроректор",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27164] = {
+        name = "Араж Призыватель",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27158] = {
+        name = "Битва за Андорал",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27159] = {
+        name = "Сначала Плеть... Потом Орда",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27165] = {
+        name = "Сиюминутная победа",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27477] = {
+        name = "Огромный червь",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27481] = {
+        name = "Прочь из зиккурата!",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27489] = {
+        name = "Это моя вина",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27525] = {
+        name = "Стражи Стратхольма",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27529] = {
+        name = "Защитники Дарроушира",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27533] = {
+        name = "Хуже, чем попасть на прилавок к мяснику",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27482] = {
+        name = "В самое пекло",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27522] = {
+        name = "Выбей из них дурь",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27526] = {
+        name = "Судьба Гидвина",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27530] = {
+        name = "Трупозвери",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27534] = {
+        name = "Книга рецептов Августа",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27479] = {
+        name = "Праведный гнев",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27487] = {
+        name = "Икс'лар Владыка Подземелий",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27523] = {
+        name = "Проклятый Тенекрыл",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27527] = {
+        name = "Конец пути",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27531] = {
+        name = "Борьба с чумой",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27535] = {
+        name = "Совсем чуть-чуть порчи",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27539] = {
+        name = "Бросай их в кучу!",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27551] = {
+        name = "Послание баронессы",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27488] = {
+        name = "Нетерпение",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27521] = {
+        name = "Проклятое гнездо мерзавцев и негодяев",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27524] = {
+        name = "Слепая ярость",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27528] = {
+        name = "Жуткая масса",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27532] = {
+        name = "Башня Чумного леса",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [26838] = {
+        name = "Безыдейные повстанцы",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28756] = {
+        name = "Костяные кадавры",
+        level = 42,
+        requiredLevel = 40,
+    },
+    [26944] = {
+        name = "Тайны Гномрегана",
+        level = 26,
+        requiredLevel = 26,
+    },
+    [27422] = {
+        name = "Осажденный город",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [26751] = {
+        name = "Кон-тролль\" популяции",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [46293] = {
+        name = "Мертвые копи – часть третья?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [28755] = {
+        name = "Летописи ордена Серебряной Длани",
+        level = 46,
+        requiredLevel = 42,
+    },
+    [27166] = {
+        name = "Перышки!",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27170] = {
+        name = "Покинутая крипта",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27172] = {
+        name = "Удел Страданий",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27174] = {
+        name = "Боевые учения",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27432] = {
+        name = "Зельдарр Изгой",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27053] = {
+        name = "Котел в пустоши Гаррона",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27055] = {
+        name = "Студенты Крастинова",
+        level = 39,
+        requiredLevel = 36,
+    },
+    [27057] = {
+        name = "Возвращение на площадку",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [27448] = {
+        name = "Путешествие продолжается",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27450] = {
+        name = "Фредерик, любитель рыбы",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27198] = {
+        name = "Поддержка войск",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27454] = {
+        name = "Капля в море",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27202] = {
+        name = "Брат против брата",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27204] = {
+        name = "Арадне",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27460] = {
+        name = "Мягкая посадка",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [26954] = {
+        name = "Разный подход",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26956] = {
+        name = "Прополка",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27466] = {
+        name = "Серебряный зов: Северный Дол",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27615] = {
+        name = "Обрушивающий гнев",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27617] = {
+        name = "Очищение",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27619] = {
+        name = "Командир",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27367] = {
+        name = "Гидвин Златокос",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27369] = {
+        name = "Не подмажешь – не поедешь",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27371] = {
+        name = "Мои таланты",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27373] = {
+        name = "Вперед, к часовне Последней Надежды!",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27000] = {
+        name = "Разобраться досконально",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27383] = {
+        name = "Малышка Памела",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27385] = {
+        name = "Дядюшка Карлин",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27387] = {
+        name = "Негодяи Дарроушира",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27389] = {
+        name = "Мародеры Дарроушира",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27391] = {
+        name = "Спрятанные сокровища",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27012] = {
+        name = "Угроза гноллов",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26728] = {
+        name = "Воззвание к героям: Темнолесье!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [27421] = {
+        name = "Жизнь среди смерти",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27465] = {
+        name = "Серебряный зов: Ядовитая поляна",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27612] = {
+        name = "Триумф воли",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27151] = {
+        name = "Наследство Телана Фордринга",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27153] = {
+        name = "Цвет Дольного Очага",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27155] = {
+        name = "Явка с повинной",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27157] = {
+        name = "Drudges... <Sigh>",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [27464] = {
+        name = "Серебряный зов: испытание в склепе",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27456] = {
+        name = "Личинокос",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27163] = {
+        name = "Грубая сила",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27458] = {
+        name = "Дымок и бинты",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27167] = {
+        name = "Угроза голодной смерти",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27169] = {
+        name = "Благословение Утера",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27171] = {
+        name = "Засада!",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27173] = {
+        name = "Это наша армия",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27175] = {
+        name = "Участок Целителей Земли",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27420] = {
+        name = "Отсрочка неизбежного",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [28576] = {
+        name = "Воззвание к героям: Западные Чумные земли!",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27054] = {
+        name = "Акт отчаяния",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27453] = {
+        name = "Катализатор",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27463] = {
+        name = "Мечта детства",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27452] = {
+        name = "Темные одеяния",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [26935] = {
+        name = "Лесопилка Северного Кряжа",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27451] = {
+        name = "Убийство во благо",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27455] = {
+        name = "Ох уж эти мальчики",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27449] = {
+        name = "Честь и сила",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27197] = {
+        name = "Борьба возобновляется!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27199] = {
+        name = "Прах к праху",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27201] = {
+        name = "Вторжение валь'кир",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27457] = {
+        name = "Случайный попутчик",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27205] = {
+        name = "Коварство Отрекшихся",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [26953] = {
+        name = "Друид Зен'Кики",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26955] = {
+        name = "Зен'Кики и служители культа",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [26957] = {
+        name = "Долгая дорога домой",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27467] = {
+        name = "Похоронные клинки",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27613] = {
+        name = "Убийца",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27616] = {
+        name = "Охотник",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27168] = {
+        name = "Неприкаянные",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27462] = {
+        name = "Штурм казармы",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27461] = {
+        name = "Штурм аббатства",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [28749] = {
+        name = "Битва за Андорал",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27459] = {
+        name = "Братство Света",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [26340] = {
+        name = "Охота",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [27614] = {
+        name = "Спасение артефактов",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [28505] = {
+        name = "Битва за Андорал",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27618] = {
+        name = "Победа Серебряных",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27620] = {
+        name = "Словно крысы",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27368] = {
+        name = "В сети",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27370] = {
+        name = "Таренар Удар Солнца",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27372] = {
+        name = "Подарок для Фионы",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27392] = {
+        name = "Я не должна тебе этого говорить",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27544] = {
+        name = "Упрямые друиды",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27386] = {
+        name = "Странный историк",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [26999] = {
+        name = "Новая эра Чумных земель",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27001] = {
+        name = "Охота на пауков",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27384] = {
+        name = "Кукла Памелы",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27388] = {
+        name = "Герои Дарроушира",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27390] = {
+        name = "Битва при Дарроушире",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27011] = {
+        name = "Вороватая Красная Сосна",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27013] = {
+        name = "Переживания на грани",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27381] = {
+        name = "Попутчики",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27017] = {
+        name = "Воспоминания о далеком прошлом",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27002] = {
+        name = "Аудиенция у верховного лорда",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27382] = {
+        name = "Плохие дороги",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27152] = {
+        name = "Необычное поведение... Даже для гноллов",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27154] = {
+        name = "Разборка с Биспом",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27156] = {
+        name = "Самое время!",
+        level = 37,
+        requiredLevel = 35,
+    },
 }

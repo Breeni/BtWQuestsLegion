@@ -16,11 +16,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST] = {
     },
     completed = {
         type = "quest",
-        id = 26775,
+        id = 27165,
     },
     range = {35,60},
     items = {
-        
         {
             {
                 type = "quest",
@@ -258,7 +257,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE] = {
     },
     completed = {
         type = "quest",
-        id = 26731,
+        id = 27174,
     },
     range = {35,60},
     items = {
@@ -398,10 +397,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND] = {
             id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE,
         },
     },
-    completed = {
-        type = "quest",
-        id = 208,
-    },
+    -- completed = {
+    --     type = "quest",
+    --     id = 27206,
+    -- },
     range = {35,60},
     items = {
         {
@@ -505,10 +504,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_STEAD] = {
             level = 35,
         },
     },
-    completed = {
-        type = "quest",
-        id = 26748,
-    },
+    -- completed = {
+    --     type = "quest",
+    --     id = 26748,
+    -- },
     range = {35,60},
     items = {
         {

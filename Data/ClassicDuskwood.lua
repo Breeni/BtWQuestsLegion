@@ -544,7 +544,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_HERMIT] = {
     },
     completed = {
         type = "quest",
-        id = 26674,
+        id = 26727,
     },
     range = {20},
     items = {

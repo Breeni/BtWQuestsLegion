@@ -5,6 +5,10 @@ BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC] = {
     },
     {
         type = "category",
+        id = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
+    },
+    {
+        type = "category",
         id = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
     },
     {
