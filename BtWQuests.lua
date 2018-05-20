@@ -1,12 +1,12 @@
 local EJ_TIER_DATA =
 {
-	[1] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Classic", r = 1.0, g = 0.8, b = 0.0 },
-	[2] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-BurningCrusade", r = 0.6, g = 0.8, b = 0.0 },
-	[3] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-WrathoftheLichKing", r = 0.2, g = 0.8, b = 1.0 },
-	[4] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Cataclysm", r = 1.0, g = 0.4, b = 0.0 },
-	[5] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-MistsofPandaria", r = 0.0, g = 0.6, b = 0.2 },
-	[6] = { backgroundTexture = "Interface\\ENCOUNTERJOURNAL\\UI-EJ-WarlordsofDraenor", r = 0.82, g = 0.55, b = 0.1 },
-	[7] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Legion", r = 1.0, g = 0.8, b = 0.0 },
+	[BTWQUESTS_EXPANSION_CLASSIC] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Classic", r = 1.0, g = 0.8, b = 0.0 },
+	[BTWQUESTS_EXPANSION_BURNING_CRUSADE] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-BurningCrusade", r = 0.6, g = 0.8, b = 0.0 },
+	[BTWQUESTS_EXPANSION_WRATH_OF_THE_LICH_KING] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-WrathoftheLichKing", r = 0.2, g = 0.8, b = 1.0 },
+	[BTWQUESTS_EXPANSION_CATACLYSM] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Cataclysm", r = 1.0, g = 0.4, b = 0.0 },
+	[BTWQUESTS_EXPANSION_MISTS_OF_PANDARIA] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-MistsofPandaria", r = 0.0, g = 0.6, b = 0.2 },
+	[BTWQUESTS_EXPANSION_WARLORDS_OF_DRAENOR] = { backgroundTexture = "Interface\\ENCOUNTERJOURNAL\\UI-EJ-WarlordsofDraenor", r = 0.82, g = 0.55, b = 0.1 },
+	[BTWQUESTS_EXPANSION_LEGION] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Legion", r = 1.0, g = 0.8, b = 0.0 },
 }
 
 local professionsMap = {
@@ -39,7 +39,7 @@ end
 
 local EJ_NUM_INSTANCE_PER_ROW = 4;
 
-local BtWQuests_CurrentExpansion = 7
+local BtWQuests_CurrentExpansion = BTWQUESTS_EXPANSION_LEGION
 local BtWQuests_CurrentCategory = nil
 local BtWQuests_CurrentChain = nil
 
@@ -48,8 +48,8 @@ function BtWQuests_GetCurrentExpansion()
 end
 
 function BtWQuests_SetCurrentExpansion(value)
-    if not (value >= 1 and value <= 7) then
-        value = 7
+    if not (value >= BTWQUESTS_EXPANSION_CLASSIC and value <= BTWQUESTS_EXPANSION_LEGION) then
+        value = BTWQUESTS_EXPANSION_LEGION
     end
     
     BtWQuests_CurrentExpansion = value
@@ -280,6 +280,8 @@ BtWQuests_GetItemName = function (item)
         return BtWQuests_GetItemName(BtWQuests_Quests[item.id])
     elseif item.type == "chain" then
         return BtWQuests_GetItemName(BtWQuests_Chains[item.id])
+    elseif item.type == "category" then
+        return BtWQuests_GetItemName(BtWQuests_Category[item.id])
     elseif item.type == "mission" then
         return BtWQuests_GetItemName(BtWQuests_Missions[item.id])
     elseif item.type == "level" then
@@ -620,7 +622,7 @@ function BtWQuests_GetChainByID(chainID)
     
     local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, BtWQuests_EvalText(chain.name, chain))
     return chainID, BtWQuests_EvalText(chain.name, chain), link, chain.expansion, chain.category, chain.buttonImage, chain.prerequisites and #chain.prerequisites or 0, chain.items and #chain.items or 0
-end -- , active, completed
+end
 
 function BtWQuests_GetQuestName(questID)
     if not questID then
@@ -799,6 +801,47 @@ function BtWQuests_GetChainItem(item)
             end
             
             userdata.link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(chain.name, chain))
+        elseif item.type == "category" then
+            local category = BtWQuests_Category[item.id] or {}
+            
+            if skip == nil and category.restrictions then
+                skip = not BtWQuests_EvalRequirement(category.restrictions, chain)
+            end
+
+            if skip then
+                return true
+            end
+        
+            visible = visible == nil and category.visible or visible
+            
+            name = name or category.name
+            difficulty = difficulty or category.difficulty
+            tagID = tagID or category.tagID
+            
+            active = active == nil and function (item)
+                if category.prerequisites ~= nil then
+                    return BtWQuests_EvalRequirement(category.prerequisites, chain)
+                end
+
+                return true
+            end or active
+            completed = completed == nil and category.completed or completed
+            
+            onClick = onClick or function (self)
+                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link, self.userdata.scrollTo) then
+                    BtWQuestsTooltip:Hide();
+                end
+            end
+            onEnter = onEnter or function (self)
+                BtWQuestsTooltip_AnchorTo(self)
+                BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
+            end
+            onLeave = onLeave or function (self)
+                BtWQuestsTooltip:Hide();
+                GameTooltip:Hide()
+            end
+            
+            userdata.link = format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(category.name, category))
         elseif item.type == "reputation" then
             local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
             local gender = UnitSex("player")
