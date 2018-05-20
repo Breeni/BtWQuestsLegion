@@ -431,11 +431,6 @@ local function BtWQuests_GetCategoryItem(item)
 
         -- assert(chain ~= nil, "Could not find chain with id " .. tostring(item.id))
         
-        -- local chainName = chain.name
-        -- if type(chainName) == "function" then
-        --     chainName = chainName(chain)
-        -- end
-        
         if hidden == nil and chain.restrictions and not BtWQuests_EvalRequirement(chain.restrictions, chain) then
             hidden = true
         end
@@ -467,6 +462,7 @@ local function BtWQuests_GetCategoryItem(item)
         userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(chain.name, chain))
     elseif item.type == "category" then
         local category = BtWQuests_Categories[item.id] or {}
+
         -- assert(category ~= nil)
         
         if hidden == nil and category.restrictions and not BtWQuests_EvalRequirement(category.restrictions, category) then
@@ -533,8 +529,8 @@ function BtWQuests_GetCategoryByID(categoryID)
         return nil
     end
     
-    local link = format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", categoryID, category.name)
-    return categoryID, category.name, link, category.expansion, category.parent, category.buttonImage, category.items and #category.items or 0
+    local link = format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", categoryID, BtWQuests_EvalText(category.name, category))
+    return categoryID, BtWQuests_EvalText(category.name, category), link, category.expansion, category.parent, category.buttonImage, category.items and #category.items or 0
 end
 
 function BtWQuests_GetChainName(chainID)
@@ -621,14 +617,9 @@ function BtWQuests_GetChainByID(chainID)
     if not chain then
         return nil
     end
-
-    name = chain.name
-    if type(name) == "function" then
-        name = name(item)
-    end
     
-    local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, name)
-    return chainID, name, link, chain.expansion, chain.category, chain.buttonImage, chain.prerequisites and #chain.prerequisites or 0, chain.items and #chain.items or 0
+    local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, BtWQuests_EvalText(chain.name, chain))
+    return chainID, BtWQuests_EvalText(chain.name, chain), link, chain.expansion, chain.category, chain.buttonImage, chain.prerequisites and #chain.prerequisites or 0, chain.items and #chain.items or 0
 end -- , active, completed
 
 function BtWQuests_GetQuestName(questID)
@@ -700,10 +691,6 @@ function BtWQuests_GetChainItem(item)
         if item.type == "quest" then
             local quest = BtWQuests_Quests[item.id] or {}
             
-            -- if not quest then
-            --     quest = {name = 'Unnamed'}
-            -- end
-            
             -- assert(type(quest) == "table", "Error finding quest with id " .. tostring(item.id))
         
             if skip == nil and quest.restrictions then
@@ -746,10 +733,6 @@ function BtWQuests_GetChainItem(item)
             userdata.link = format("\124cffffff00\124Hquest:%d:%d:%d:255\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, quest.requiredLevel or -1, BtWQuests_EvalText(quest.name, quest))
         elseif item.type == "mission" then
             local mission = BtWQuests_Missions[item.id] or {}
-            
-            -- if not mission then
-            --     mission = {name = 'Unnamed'}
-            -- end
             
             -- assert(type(mission) == "table", "Error finding mission with id " .. tostring(item.id))
         
@@ -973,7 +956,6 @@ function BtWQuests_OnLoad(self)
 	NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
     
     -- BtWQuests_ListCategories()
-    
     
 	-- LDB launcher
 	local LDB = LibStub and LibStub("LibDataBroker-1.1", true)
