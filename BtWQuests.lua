@@ -159,7 +159,43 @@ local function BtWQuests_CompareItems(a, b)
     end
 end
 
-local function BtWQuests_CheckItemRequirement(item)
+local BtWQuests_CheckItemRequirement
+local function BtWQuests_EvalRequirement(requirement, item)
+    if type(requirement) == "boolean" then
+        return requirement
+    elseif type(requirement) == "table" then
+        if requirement[1] ~= nil then
+            for _, v in ipairs(requirement) do
+                if BtWQuests_CheckItemRequirement(v) then
+                    return true
+                end
+            end
+            
+            return false
+        else
+            return BtWQuests_CheckItemRequirement(requirement)
+        end
+    elseif type(requirement) == "function" then
+        return requirement(item)
+    end
+    
+    assert(requirement == nil, "Invalid requirement type " .. type(requirement))
+end
+
+local BtWQuests_GetItemName
+local function BtWQuests_EvalText(text, item)
+    if text == nil then
+        return "Unnamed"
+    elseif type(text) == "function" then
+        return tostring(text(item))
+    elseif type(text) == "table" then
+        return BtWQuests_GetItemName(text)
+    end
+    
+    return tostring(text)
+end
+
+BtWQuests_CheckItemRequirement = function (item)
     if item.type == "quest" then
         if item.active == true then
             return BtWQuests_IsQuestActive(item.id)
@@ -235,41 +271,7 @@ local function BtWQuests_CheckItemRequirement(item)
     end
 end
 
-local function BtWQuests_EvalRequirement(requirement, item)
-    if type(requirement) == "boolean" then
-        return requirement
-    elseif type(requirement) == "table" then
-        if requirement[1] ~= nil then
-            for _, v in ipairs(requirement) do
-                if BtWQuests_CheckItemRequirement(v) then
-                    return true
-                end
-            end
-            
-            return false
-        else
-            return BtWQuests_CheckItemRequirement(requirement)
-        end
-    elseif type(requirement) == "function" then
-        return requirement(item)
-    end
-    
-    assert(requirement == nil, "Invalid requirement type " .. type(requirement))
-end
-
-local function BtWQuests_EvalText(text, item)
-    if text == nil then
-        return "Unnamed"
-    elseif type(text) == "function" then
-        return tostring(text(item))
-    elseif type(text) == "table" then
-        return BtWQuests_GetItemName(text)
-    end
-    
-    return tostring(text)
-end
-
-local function BtWQuests_GetItemName(item)
+BtWQuests_GetItemName = function (item)
     if item.name then
         return BtWQuests_EvalText(item.name, item)
     end
@@ -425,19 +427,20 @@ local function BtWQuests_GetCategoryItem(item)
     end
         
     if item.type == "chain" then
-        local chain = BtWQuests_Chains[item.id]
-        assert(chain ~= nil, "Could not find chain with id " .. tostring(item.id))
+        local chain = BtWQuests_Chains[item.id] or {}
+
+        -- assert(chain ~= nil, "Could not find chain with id " .. tostring(item.id))
         
-        local chainName = chain.name
-        if type(chainName) == "function" then
-            chainName = chainName(chain)
-        end
+        -- local chainName = chain.name
+        -- if type(chainName) == "function" then
+        --     chainName = chainName(chain)
+        -- end
         
         if hidden == nil and chain.restrictions and not BtWQuests_EvalRequirement(chain.restrictions, chain) then
             hidden = true
         end
         
-        name = name or chainName
+        name = name or chain.name
         category = category or chain.category
         expansion = expansion or chain.expansion
         buttonImage = buttonImage or chain.buttonImage
@@ -460,20 +463,20 @@ local function BtWQuests_GetCategoryItem(item)
             BtWQuestsTooltip:Hide();
         end
         
-        userdata.name = userdata.name or name
-        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, chainName)
+        -- userdata.name = userdata.name or name
+        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(chain.name, chain))
     elseif item.type == "category" then
-        local chain = BtWQuests_Categories[item.id]
-        assert(chain ~= nil)
+        local category = BtWQuests_Categories[item.id] or {}
+        -- assert(category ~= nil)
         
-        if hidden == nil and chain.restrictions and not BtWQuests_EvalRequirement(chain.restrictions, chain) then
+        if hidden == nil and category.restrictions and not BtWQuests_EvalRequirement(category.restrictions, category) then
             hidden = true
         end
         
-        name = name or chain.name
-        category = category or chain.parent
-        expansion = expansion or chain.expansion
-        buttonImage = buttonImage or chain.buttonImage
+        name = name or category.name
+        category = category or category.parent
+        expansion = expansion or category.expansion
+        buttonImage = buttonImage or category.buttonImage
         
         onClick = onClick or function (self)
             if not ChatEdit_TryInsertChatLink(self.userdata.link) then
@@ -492,11 +495,13 @@ local function BtWQuests_GetCategoryItem(item)
             
         end
         
-        userdata.name = userdata.name or name
-        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, chain.name)
+        -- userdata.name = userdata.name or name
+        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(category.name, category))
     else
         assert(false, "Invalid item type: " .. item.type)
     end
+        
+    name = BtWQuests_EvalText(name, item)
     
     return item.type, item.id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata
 end
