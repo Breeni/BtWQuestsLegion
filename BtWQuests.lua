@@ -1,12 +1,32 @@
-local EJ_TIER_DATA =
-{
-	[BTWQUESTS_EXPANSION_CLASSIC] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Classic", r = 1.0, g = 0.8, b = 0.0 },
-	[BTWQUESTS_EXPANSION_BURNING_CRUSADE] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-BurningCrusade", r = 0.6, g = 0.8, b = 0.0 },
-	[BTWQUESTS_EXPANSION_WRATH_OF_THE_LICH_KING] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-WrathoftheLichKing", r = 0.2, g = 0.8, b = 1.0 },
-	[BTWQUESTS_EXPANSION_CATACLYSM] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Cataclysm", r = 1.0, g = 0.4, b = 0.0 },
-	[BTWQUESTS_EXPANSION_MISTS_OF_PANDARIA] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-MistsofPandaria", r = 0.0, g = 0.6, b = 0.2 },
-	[BTWQUESTS_EXPANSION_WARLORDS_OF_DRAENOR] = { backgroundTexture = "Interface\\ENCOUNTERJOURNAL\\UI-EJ-WarlordsofDraenor", r = 0.82, g = 0.55, b = 0.1 },
-	[BTWQUESTS_EXPANSION_LEGION] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Legion", r = 1.0, g = 0.8, b = 0.0 },
+local BTWQUESTS_EXPANSION_DATA = {
+	[BTWQUESTS_EXPANSION_CLASSIC] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Classic",
+        r = 1.0, g = 0.8, b = 0.0
+    },
+	[BTWQUESTS_EXPANSION_BURNING_CRUSADE] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-BurningCrusade",
+        r = 0.6, g = 0.8, b = 0.0
+    },
+	[BTWQUESTS_EXPANSION_WRATH_OF_THE_LICH_KING] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-WrathoftheLichKing",
+        r = 0.2, g = 0.8, b = 1.0
+    },
+	[BTWQUESTS_EXPANSION_CATACLYSM] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Cataclysm",
+        r = 1.0, g = 0.4, b = 0.0
+    },
+	[BTWQUESTS_EXPANSION_MISTS_OF_PANDARIA] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-MistsofPandaria",
+        r = 0.0, g = 0.6, b = 0.2
+    },
+	[BTWQUESTS_EXPANSION_WARLORDS_OF_DRAENOR] = {
+        backgroundTexture = "Interface\\ENCOUNTERJOURNAL\\UI-EJ-WarlordsofDraenor",
+        r = 0.82, g = 0.55, b = 0.1
+    },
+	[BTWQUESTS_EXPANSION_LEGION] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Legion",
+        r = 1.0, g = 0.8, b = 0.0
+    },
 }
 
 local professionsMap = {
@@ -37,7 +57,7 @@ local function ArrayContains(a, item)
     return false
 end
 
-local EJ_NUM_INSTANCE_PER_ROW = 4;
+local BTWQUESTS_NUM_ITEMS_PER_ROW = 4;
 
 local BtWQuests_CurrentExpansion = nil
 local BtWQuests_CurrentCategory = nil
@@ -55,7 +75,6 @@ function BtWQuests_SetCurrentExpansion(value)
     BtWQuests_CurrentExpansion = value
 end
 
--- EJSuggestTab_GetPlayerTierIndex from Blizzard_EncounterJournal.lua
 function BtWQuests_GuessExpansion()
 	local playerLevel = UnitLevel("player");
 	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
@@ -68,6 +87,14 @@ function BtWQuests_GuessExpansion()
 		end
 	end
 	return expansionId;
+end
+
+function BtWQuests_GetExpansionCount()
+    return EJ_GetNumTiers()
+end
+
+function BtWQuests_GetExpansionInfo(index)
+    return EJ_GetTierInfo(index + 1)
 end
 
 function BtWQuests_GetCurrentCategory()
@@ -1017,10 +1044,10 @@ function BtWQuests_OnLoad(self)
     
     BtWQuests_SetCurrentExpansion(BtWQuests_GuessExpansion())
     local expansion = BtWQuests_GetCurrentExpansion()
-	local tierData = EJ_TIER_DATA[expansion];
+	local tierData = BTWQUESTS_EXPANSION_DATA[expansion];
 	local questSelect = BtWQuests.QuestSelect;
 	questSelect.bg:SetTexture(tierData.backgroundTexture);
-	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, EJ_GetTierInfo(BtWQuests_GetCurrentExpansion()));
+	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
     
 	local homeData = {
 		name = HOME,
@@ -1161,8 +1188,8 @@ function BtWQuests_ListCategories()
             if not categoryButton then -- create button
                 categoryButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."category"..index, scrollFrame, "BtWQuestsCategoryButtonTemplate");
                 scrollFrame["category"..index] = categoryButton;
-                if mod(index-1, EJ_NUM_INSTANCE_PER_ROW) == 0 then
-                    categoryButton:SetPoint("TOP", scrollFrame["category"..(index-EJ_NUM_INSTANCE_PER_ROW)], "BOTTOM", 0, -15);
+                if mod(index-1, BTWQUESTS_NUM_ITEMS_PER_ROW) == 0 then
+                    categoryButton:SetPoint("TOP", scrollFrame["category"..(index-BTWQUESTS_NUM_ITEMS_PER_ROW)], "BOTTOM", 0, -15);
                 else
                     categoryButton:SetPoint("LEFT", scrollFrame["category"..(index-1)], "RIGHT", 15, 0);
                 end
@@ -1903,25 +1930,27 @@ end
 
 function BtWQuestsExpansionDropDown_Initialize(self, level)
 	local info = UIDropDownMenu_CreateInfo();
-	local numTiers = EJ_GetNumTiers();
-	local currTier = BtWQuests_GetCurrentExpansion();
-	for i=1,numTiers do
-		info.text = EJ_GetTierInfo(i);
-		info.func = BtWQuestsExpansionDropDown_Select
-		info.checked = i == currTier;
-		info.arg1 = i;
-		UIDropDownMenu_AddButton(info, level)
+	local numTiers = BtWQuests_GetExpansionCount();
+	local current = BtWQuests_GetCurrentExpansion();
+    for i=0,numTiers - 1 do
+        if BtWQuests_Expansions[i] ~= nil or i == current then
+            info.text = BtWQuests_GetExpansionInfo(i);
+            info.func = BtWQuestsExpansionDropDown_Select
+            info.checked = i == current;
+            info.arg1 = i;
+            UIDropDownMenu_AddButton(info, level)
+        end
 	end
 end
 
 function BtWQuestsExpansionDropDown_Select(_, expansion)
 	BtWQuests_SetCurrentExpansion(expansion);
 
-	local tierData = EJ_TIER_DATA[expansion];
+	local tierData = BTWQUESTS_EXPANSION_DATA[expansion];
 	local questSelect = BtWQuests.QuestSelect;
 	questSelect.bg:SetTexture(tierData.backgroundTexture);
 
-	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, EJ_GetTierInfo(BtWQuests_GetCurrentExpansion()));
+	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
 
     NavBar_Reset(BtWQuests.navBar)
     
