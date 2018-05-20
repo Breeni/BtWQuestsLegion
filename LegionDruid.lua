@@ -1156,10 +1156,6 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID] = {
     },
     -- buttonImage = 1041999,
     items = {
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN,
@@ -1174,3 +1170,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
+})

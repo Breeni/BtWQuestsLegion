@@ -1,3 +1,88 @@
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING] = {
+    name = BtWQuests_GetQuestName(43943),
+    category = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "achievement",
+            name = select(2, GetAchievementInfo(10617)),
+            id = 10617,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 44636,
+    },
+    range = {110},
+    items = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
+            x = 3,
+            y = 0,
+            connections = {
+                1, 3
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
+            x = 2,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
+            x = 2,
+            y = 2,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH,
+            x = 4,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
+            x = 4,
+            y = 2,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW,
+            x = 3,
+            y = 3,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 44636,
+            x = 3,
+            y = 4,
+        },
+        {
+            type = "quest",
+            id = 43943,
+            x = 3,
+            y = 5,
+        },
+    }
+}
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL] = {
     name = GetAchievementCriteriaInfo(10617, 1),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
@@ -579,91 +664,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW] = {
             id = 44561,
             x = 5,
             y = 9,
-        },
-    }
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING] = {
-    name = BtWQuests_GetQuestName(43943),
-    category = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
-    expansion = BTWQUESTS_EXPANSION_LEGION,
-    prerequisites = {
-        {
-            type = "achievement",
-            name = select(2, GetAchievementInfo(10617)),
-            id = 10617,
-        },
-    },
-    completed = {
-        type = "quest",
-        id = 44636,
-    },
-    range = {110},
-    items = {
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
-            x = 3,
-            y = 0,
-            connections = {
-                1, 3
-            },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
-            x = 2,
-            y = 1,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
-            x = 2,
-            y = 2,
-            connections = {
-                3
-            },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH,
-            x = 4,
-            y = 1,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
-            x = 4,
-            y = 2,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW,
-            x = 3,
-            y = 3,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "quest",
-            id = 44636,
-            x = 3,
-            y = 4,
-        },
-        {
-            type = "quest",
-            id = 43943,
-            x = 3,
-            y = 5,
         },
     }
 }
@@ -3377,3 +3377,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION] = {
         },
     }
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
+})

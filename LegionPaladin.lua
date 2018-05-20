@@ -1103,9 +1103,6 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
     },
     -- buttonImage = 1041999,
     items = {
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN,
@@ -1124,3 +1121,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+})
