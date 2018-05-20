@@ -943,9 +943,6 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK] = {
     },
     -- buttonImage = 1041999,
     items = {
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN,
@@ -960,3 +957,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
+})

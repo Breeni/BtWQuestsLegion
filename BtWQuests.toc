@@ -26,8 +26,6 @@ Data/Quests.zhCN.lua
 Data/Quests.zhTW.lua
 
 Data/Legion.lua
-Data/LegionArtifact.lua
-Data/LegionOrderhall.lua
 Data/LegionDeathKnight.lua
 Data/LegionDemonHunter.lua
 Data/LegionDruid.lua
@@ -40,6 +38,8 @@ Data/LegionRogue.lua
 Data/LegionShaman.lua
 Data/LegionWarlock.lua
 Data/LegionWarror.lua
+Data/LegionArtifact.lua
+Data/LegionOrderhall.lua
 Data/LegionAzsuna.lua
 Data/LegionValSharah.lua
 Data/LegionHighMountain.lua
@@ -50,3 +50,4 @@ Data/LegionArgus.lua
 Data/LegionProfessions.lua
 Data/LegionHidden.lua
 Data/LegionAlliedRaces.lua
+Data/LegionExtras.lua
