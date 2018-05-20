@@ -695,6 +695,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING] = {
         },
     },
 }
+
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN] = {
     name = GetMapNameByID(37),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
@@ -717,3 +718,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+})

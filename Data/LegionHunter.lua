@@ -1132,9 +1132,6 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER] = {
     },
     -- buttonImage = 1041999,
     items = {
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN,
@@ -1149,3 +1146,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
+})

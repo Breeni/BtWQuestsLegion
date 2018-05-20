@@ -995,7 +995,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW] = {
         },
     },
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS] = {
     name = BtWQuests_GetQuestName(48460),
     category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
@@ -1276,3 +1275,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ARGUS] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+})

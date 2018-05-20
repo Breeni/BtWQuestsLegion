@@ -7,6 +7,9 @@
 
 Data/Data.lua
 
+Data/Classic.lua
+Data/Legion.lua
+
 Data/Localization.lua
 
 BtWQuests.lua
@@ -25,7 +28,6 @@ Data/Quests.ruRU.lua
 Data/Quests.zhCN.lua
 Data/Quests.zhTW.lua
 
-Data/Classic.lua
 Data/ClassicBadlands.lua
 Data/ClassicCapeOfStranglethorn.lua
 Data/ClassicDuskwood.lua
@@ -34,9 +36,6 @@ Data/ClassicNorthenStranglethorn.lua
 Data/ClassicWesternPlaguelands.lua
 Data/ClassicEasternPlaguelands.lua
 
-Data/Legion.lua
-Data/LegionArtifact.lua
-Data/LegionOrderhall.lua
 Data/LegionDeathKnight.lua
 Data/LegionDemonHunter.lua
 Data/LegionDruid.lua
@@ -49,6 +48,8 @@ Data/LegionRogue.lua
 Data/LegionShaman.lua
 Data/LegionWarlock.lua
 Data/LegionWarror.lua
+Data/LegionArtifact.lua
+Data/LegionOrderhall.lua
 Data/LegionAzsuna.lua
 Data/LegionValSharah.lua
 Data/LegionHighMountain.lua
@@ -59,3 +60,4 @@ Data/LegionArgus.lua
 Data/LegionProfessions.lua
 Data/LegionHidden.lua
 Data/LegionAlliedRaces.lua
+Data/LegionExtras.lua

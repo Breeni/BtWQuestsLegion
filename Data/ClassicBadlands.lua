@@ -74,7 +74,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_RHEA] = {
 		},
 	}
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_THEFATEOFADRAGONFLIGHT] = {
 	name = GetAchievementCriteriaInfo(4900, 2),
 	category = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
@@ -241,7 +240,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_THEFATEOFADRAGONFLIGHT] = {
 		},
 	}
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_THETITANSKNOWLEDGEA] = {
 	name = GetAchievementCriteriaInfo(4900, 3),
 	category = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
@@ -252,20 +250,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_THETITANSKNOWLEDGEA] = {
 		id = 27794,
 	},
 	items = {
--- 		{
--- 			type = "quest",
--- 			id = 0,
--- 			x = 3,
--- 			y = 2,
--- 			connections = { 1 },
--- 		},
--- 		{
--- 			type = "quest",
--- 			id = 0,
--- 			x = 3,
--- 			y = 3,
--- 			connections = { 1 },
--- 		},
 		{
 			type = "quest",
 			id = 27791,
@@ -331,7 +315,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_THETITANSKNOWLEDGEA] = {
 		},
 	}
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_THETITANSKNOWLEDGEH] = {
 	name = GetAchievementCriteriaInfo(4900, 3),
 	category = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
@@ -421,7 +404,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_THETITANSKNOWLEDGEH] = {
 		},
 	}
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_THEDAYTHATDEATHWINGCAME] = {
 	name = GetAchievementCriteriaInfo(4900, 4),
 	category = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
@@ -462,7 +444,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_THEDAYTHATDEATHWINGCAME] = {
 		},
 	}
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_OTHER_BOTH] = {
 	name = "Other Both",
 	category = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
@@ -496,7 +477,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_OTHER_BOTH] = {
 		},
 	}
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_OTHER_ALLIANCE] = {
 	name = "Other Alliance",
 	category = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
@@ -544,7 +524,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_OTHER_ALLIANCE] = {
 		},
 	}
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_OTHER_HORDE] = {
 	name = "Other Horde",
 	category = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
@@ -632,4 +611,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_BADLANDS] = {
 	}
 }
 
-tinsert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], { type = "category", id = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS })
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
+})

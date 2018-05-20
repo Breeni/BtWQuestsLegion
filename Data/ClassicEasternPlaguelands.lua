@@ -1131,6 +1131,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PLAGUEWOOD] = {
         },
     },
 }
+
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS] = {
     name = GetMapNameByID(23),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
@@ -1169,3 +1170,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
+})

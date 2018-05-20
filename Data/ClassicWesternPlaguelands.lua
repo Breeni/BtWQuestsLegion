@@ -709,6 +709,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_STEAD] = {
         },
     },
 }
+
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS] = {
     name = GetMapNameByID(22),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
@@ -731,3 +732,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
+})

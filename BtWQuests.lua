@@ -80,11 +80,13 @@ function BtWQuests_GuessExpansion()
 	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
 	local minDiff = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEVEL_CURRENT];
 	for tierId, tierLevel in pairs(MAX_PLAYER_LEVEL_TABLE) do
-		local diff = tierLevel - playerLevel;
-		if ( diff > 0 and diff < minDiff ) then
-			expansionId = tierId;
-			minDiff = diff;
-		end
+        if BtWQuests_Expansions[i] ~= nil then
+            local diff = tierLevel - playerLevel;
+            if ( diff > 0 and diff < minDiff ) then
+                expansionId = tierId;
+                minDiff = diff;
+            end
+        end
 	end
 	return expansionId;
 end

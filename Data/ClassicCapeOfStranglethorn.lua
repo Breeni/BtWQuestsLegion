@@ -800,6 +800,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BLOODSAIL] = {
         },
     },
 }
+
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN] = {
     name = GetMapNameByID(673),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
@@ -822,3 +823,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN,
+})

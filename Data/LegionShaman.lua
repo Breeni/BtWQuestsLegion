@@ -973,9 +973,6 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN] = {
     },
     -- buttonImage = 1041999,
     items = {
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN,
@@ -990,3 +987,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
+})

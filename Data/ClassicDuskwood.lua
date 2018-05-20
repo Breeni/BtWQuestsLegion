@@ -769,6 +769,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_MORLADIM] = {
         },
     },
 }
+
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_DUSKWOOD] = {
     name = GetMapNameByID(34),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
@@ -795,3 +796,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_DUSKWOOD] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_DUSKWOOD,
+})
