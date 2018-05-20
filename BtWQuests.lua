@@ -39,7 +39,7 @@ end
 
 local EJ_NUM_INSTANCE_PER_ROW = 4;
 
-local BtWQuests_CurrentExpansion = BTWQUESTS_EXPANSION_LEGION
+local BtWQuests_CurrentExpansion = nil
 local BtWQuests_CurrentCategory = nil
 local BtWQuests_CurrentChain = nil
 
@@ -53,6 +53,21 @@ function BtWQuests_SetCurrentExpansion(value)
     end
     
     BtWQuests_CurrentExpansion = value
+end
+
+-- EJSuggestTab_GetPlayerTierIndex from Blizzard_EncounterJournal.lua
+function BtWQuests_GuessExpansion()
+	local playerLevel = UnitLevel("player");
+	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
+	local minDiff = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEVEL_CURRENT];
+	for tierId, tierLevel in pairs(MAX_PLAYER_LEVEL_TABLE) do
+		local diff = tierLevel - playerLevel;
+		if ( diff > 0 and diff < minDiff ) then
+			expansionId = tierId;
+			minDiff = diff;
+		end
+	end
+	return expansionId;
 end
 
 function BtWQuests_GetCurrentCategory()
@@ -241,7 +256,13 @@ BtWQuests_CheckItemRequirement = function (item)
             return standing >= item.standing
         end
     elseif item.type == "achievement" then
-        if item.anyone then
+        if item.criteria then
+            if item.completed == false then
+                return not select(3, GetAchievementCriteriaInfo(item.id, item.criteria))
+            else
+                return select(3, GetAchievementCriteriaInfo(item.id, item.criteria))
+            end
+        elseif item.anyone then
             if item.completed == false then
                 return not select(4, GetAchievementInfo(item.id))
             else
@@ -299,7 +320,11 @@ BtWQuests_GetItemName = function (item)
             return string.format(name or BTWQUESTS_REPUTATION_STANDING, standingText, factionName)
         end
     elseif item.type == "achievement" then
-        return select(2, GetAchievementInfo(item.id))
+        if item.criteria then
+            return string.format("%s: %s", select(2, GetAchievementInfo(item.id)), select(1, GetAchievementCriteriaInfo(item.id, item.criteria)))
+        else
+            return select(2, GetAchievementInfo(item.id))
+        end
     elseif item.type == "profession" then
         if professionsMap[item.id] ~= nil then
             return professionsMap[item.id]
@@ -313,6 +338,10 @@ BtWQuests_GetItemName = function (item)
 end
 
 local function BtWQuests_GetItemVisible(item)
+    if item == nil then
+        return true
+    end
+
     if item.visible ~= nil then
         return BtWQuests_EvalRequirement(item.visible, item)
     end
@@ -329,6 +358,10 @@ local function BtWQuests_GetItemVisible(item)
 end
 
 local function BtWQuests_GetItemSkip(item)
+    if item == nil then
+        return false
+    end
+    
     if item.restrictions and not BtWQuests_EvalRequirement(item.restrictions, item) then
         return true
     end
@@ -982,6 +1015,7 @@ function BtWQuests_OnLoad(self)
     self.Tooltip:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
     self.Tooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
     
+    BtWQuests_SetCurrentExpansion(BtWQuests_GuessExpansion())
     local expansion = BtWQuests_GetCurrentExpansion()
 	local tierData = EJ_TIER_DATA[expansion];
 	local questSelect = BtWQuests.QuestSelect;
@@ -1369,8 +1403,10 @@ function BtWQuests_DisplayChain(scrollTo)
         temp = temp - 1
     end
     
-    scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
-    
+    if temp > 0 then
+        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
+    end
+
     if scrollTo ~= false then
         if scrollToButton == nil then
             scrollToButton = scrollToButtonAside
@@ -1385,8 +1421,10 @@ function BtWQuests_DisplayChain(scrollTo)
             scrollToButton = scrollFrame["item"..temp]
         end
         
-        chain.scroll:UpdateScrollChildRect()
-        chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        if scrollToButton then
+            chain.scroll:UpdateScrollChildRect()
+            chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        end
     end
 end
 

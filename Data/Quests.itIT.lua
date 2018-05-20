@@ -11575,6 +11575,2226 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [43285] = {
+        name = "Invasione: Alture di Colletorto",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [43297] = {
+        name = "Arretramento",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [28192] = {
+        name = "Nessuno uscirà vivo di qui",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28196] = {
+        name = "Battaglia per Colletorto",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28325] = {
+        name = "Raccolta rifiuti",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28329] = {
+        name = "Bollicine arrabbiate",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28331] = {
+        name = "La Bacchetta di Helcular dona...",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28587] = {
+        name = "L'aiuto dei Lupi Bianchi",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28089] = {
+        name = "Ordine del Capoguerra: Alture di Colletorto!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28345] = {
+        name = "*Glu glu glu* AIUTO! *Glu glu glu*",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28603] = {
+        name = "Infiltrazione",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28605] = {
+        name = "Dominio",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28355] = {
+        name = "Terribili creaturine",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28484] = {
+        name = "Dritto al cuore",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28617] = {
+        name = "Flower Power",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28111] = {
+        name = "Problemi a Venazzurra",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28748] = {
+        name = "L'erba dei morti viventi",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28115] = {
+        name = "Senza utilità",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28375] = {
+        name = "La via per la Purificazione",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28506] = {
+        name = "La marcia dei Piccatonante",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28635] = {
+        name = "Un'infestazione a Colletorto",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28643] = {
+        name = "La Sfida di Durnholde: Zefirus",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28645] = {
+        name = "La Sfida di Durnholde: Sanguemarcio",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28647] = {
+        name = "La Sfida di Durnholde: D-1000",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28397] = {
+        name = "Non se lo aspettano di certo...",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28538] = {
+        name = "L'urlo delle Banshee",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28556] = {
+        name = "Rompere la mano",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28566] = {
+        name = "Decimazione",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28189] = {
+        name = "Fa' la cosa giusta",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28197] = {
+        name = "Il segreto è essere discreti",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28199] = {
+        name = "In nome della scienza!",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28330] = {
+        name = "Tracce disgustose",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28332] = {
+        name = "L'ordine di Helcular",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28209] = {
+        name = "Lydon libero!",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28344] = {
+        name = "Per Lok'tar! Cosa bolle nella pentola?",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28600] = {
+        name = "Una questione di lealtà",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28348] = {
+        name = "L'incontro di Piccatonante",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28604] = {
+        name = "Inganno e astuzia",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28733] = {
+        name = "Fondamenti di botanica",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28354] = {
+        name = "Kasha volerà ancora",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28356] = {
+        name = "Attacco preventivo",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28485] = {
+        name = "Yetimus il Signore degli Yeti",
+        level = 25,
+        requiredLevel = 21,
+    },
+    [28487] = {
+        name = "I problemi personali di Humbert",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28235] = {
+        name = "Manero deve morire",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28237] = {
+        name = "Un morbo sulla regione",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28747] = {
+        name = "Qualcuno inneschi la Bomba Zucca",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28495] = {
+        name = "La possibilità di combattere",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28251] = {
+        name = "Grosso guaio a Riva del Sud",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28634] = {
+        name = "Sterminio",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28636] = {
+        name = "Il silenzio dei Nani",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28644] = {
+        name = "La Sfida di Durnholde: Teracula",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28138] = {
+        name = "Infestazione di Umani",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28144] = {
+        name = "Mostriciattoli ladri!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28146] = {
+        name = "Squisitezze costiere!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28324] = {
+        name = "Studi di Letalità",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28616] = {
+        name = "L'Apocalisse dei Piccatonante",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28154] = {
+        name = "La Pinna di Branchialercia o qualcosa del genere...",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28114] = {
+        name = "Un raccolto glorioso",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28620] = {
+        name = "Torre dell'Est",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [43286] = {
+        name = "Comandante dei demoni",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [27746] = {
+        name = "Impero di fango",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [43296] = {
+        name = "Difesa",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [28571] = {
+        name = "Ordine del Capoguerra: Alture di Colletorto!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28206] = {
+        name = "La ragazzina smarrita",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28400] = {
+        name = "Eroi dell'Orda!",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28230] = {
+        name = "Protocollo",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28231] = {
+        name = "Fallo per Scintilla",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28168] = {
+        name = "Problemi ai Campi Fangosi",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28156] = {
+        name = "Salvataggio nell'Abisso",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28744] = {
+        name = "I Ghoul hanno mangiato il mio grano!",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28096] = {
+        name = "Benvenuti nell'ingranaggio",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28489] = {
+        name = "Pancervo",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28646] = {
+        name = "La Sfida di Durnholde: Infernus",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [27797] = {
+        name = "La Pedina della Sentinella",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27877] = {
+        name = "La Lega degli idioti",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27878] = {
+        name = "Acquisizione forzata",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27879] = {
+        name = "La sopravvivenza del più grasso",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27881] = {
+        name = "Presidio di Mirasangue",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27882] = {
+        name = "Non si tratta della storia, ma del potere",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27883] = {
+        name = "La Pedina del Custode",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27884] = {
+        name = "La Pedina della Sentinella",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27885] = {
+        name = "L'Enigma del Custode",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27886] = {
+        name = "L'Enigma della Sentinella",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27887] = {
+        name = "Protettori Antichi",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27888] = {
+        name = "Ritorno da Blam",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27763] = {
+        name = "A Lanternia città",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27764] = {
+        name = "Una strana richiesta",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27766] = {
+        name = "Secondo campione: cuccioli",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27769] = {
+        name = "Rhea si rivela",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27770] = {
+        name = "Si apre il sipario",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27771] = {
+        name = "Terzo campione: uova impiantate",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27709] = {
+        name = "L'Enigma della Sentinella",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27774] = {
+        name = "Facilmente influenzati",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27775] = {
+        name = "Quando il gioco si fa duro, bara!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27713] = {
+        name = "Il giorno in cui arrivò Alamorte",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27714] = {
+        name = "Il giorno in cui arrivò Alamorte: la vera storia",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [28579] = {
+        name = "Chiamata alle armi: Maleterre!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27833] = {
+        name = "Avversari da mezza tonnellata",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27912] = {
+        name = "I Manufatti dei Titani",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27913] = {
+        name = "I Manufatti dei Titani",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27823] = {
+        name = "Anche un Nano ha i suoi bisogni",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27789] = {
+        name = "Problemi con i Trogg",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27824] = {
+        name = "Tutto il meglio",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27825] = {
+        name = "La sopravvivenza del più grasso",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27792] = {
+        name = "In amore, guerra e archeologia, tutto è concesso",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27793] = {
+        name = "Protettori Antichi",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27772] = {
+        name = "Il venerabile Dottor Blam",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27776] = {
+        name = "È tempo di caproni",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27796] = {
+        name = "La Pedina del Custode",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27762] = {
+        name = "Lanternia, oh!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27693] = {
+        name = "L'Enigma del Custode",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27895] = {
+        name = "La caccia continua",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27880] = {
+        name = "Avversari da mezza tonnellata",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27927] = {
+        name = "Giù nella fossa",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27897] = {
+        name = "Il Nido Nascosto",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27898] = {
+        name = "Il dono di Rheastrasza",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27930] = {
+        name = "Devastazione",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27791] = {
+        name = "Scavi di Ventolordo",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27715] = {
+        name = "Il giorno in cui arrivò Alamorte: ciò che accadde davvero",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27794] = {
+        name = "Ritorno da Blam",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27889] = {
+        name = "Nuova Kargath",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27859] = {
+        name = "L'uovo continua a vivere",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [28580] = {
+        name = "Ordine del Capoguerra: Maleterre!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27896] = {
+        name = "Il dolore e la furia",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27892] = {
+        name = "Jurrix l'Assalitore",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27765] = {
+        name = "Primo campione: uova selvagge",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27893] = {
+        name = "Gargal il Behemoth",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27890] = {
+        name = "I cagnacci",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27891] = {
+        name = "Amakkar il Jolly",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27894] = {
+        name = "La furia di uno stormo dei draghi",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27832] = {
+        name = "Il Nido Nascosto",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27858] = {
+        name = "Il dono di Rheastrasza",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27834] = {
+        name = "Baelog il Cannone di Vetro",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27835] = {
+        name = "Olaf il Nanone",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27827] = {
+        name = "Il rapido, il feroce, il resistente",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27830] = {
+        name = "La caccia continua",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27831] = {
+        name = "Il dolore e la furia",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27828] = {
+        name = "Eric il Nano di sfondamento",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27826] = {
+        name = "Nella Bocca del Drago",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27829] = {
+        name = "La furia di uno stormo dei draghi",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [26727] = {
+        name = "La vendetta dell'Imbalsamatore",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26794] = {
+        name = "Morgan Ladimore",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26672] = {
+        name = "Tutta la verità",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26674] = {
+        name = "La vendetta dei Foscomanto",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26676] = {
+        name = "La consegna del distillato",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26677] = {
+        name = "L'effige del Ghoul",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26680] = {
+        name = "Ladri Ogre",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26681] = {
+        name = "Lettera per il sindaco",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26683] = {
+        name = "Guardare le stelle",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26684] = {
+        name = "Il Ghoul Folle",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26685] = {
+        name = "Un tocco di classe",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26686] = {
+        name = "Scheletri ambulanti",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26688] = {
+        name = "Worgen nei boschi",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26691] = {
+        name = "Worgen nei boschi",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26797] = {
+        name = "L'amore di una figlia",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26795] = {
+        name = "Mor'ladim",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26760] = {
+        name = "Urlo alla luna",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26796] = {
+        name = "La figlia sopravvissuta",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26793] = {
+        name = "La tomba rovinata",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26785] = {
+        name = "Parte del branco",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26722] = {
+        name = "Sottoterra",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26754] = {
+        name = "Anatema di Morbent",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26717] = {
+        name = "Il Worgen degli Yorgen",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26753] = {
+        name = "Le sale dei morti",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26724] = {
+        name = "Il Lich Celato",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26723] = {
+        name = "Il destino di Morbent Vil",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26707] = {
+        name = "Una pianta mortale",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26778] = {
+        name = "Le urla dei morti",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26623] = {
+        name = "Tortini di Granchio Scuro",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25235] = {
+        name = "Tumulo di Vul'Gol",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28564] = {
+        name = "Chiamata alle armi: Boscovespro!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [26627] = {
+        name = "L'eremita",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26787] = {
+        name = "Cervelli d'orso",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26777] = {
+        name = "Placare gli spiriti",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26652] = {
+        name = "Filo di Capelli Spettrali",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26653] = {
+        name = "Provviste da Borgoscuro",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26654] = {
+        name = "La riconsegna del pettine",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26655] = {
+        name = "Consegnare il filo",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26719] = {
+        name = "Consegna per il Maestro Harris",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26720] = {
+        name = "Una maledizione che non possiamo rimuovere",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26721] = {
+        name = "Chi ha paura dei ragni?",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26660] = {
+        name = "Distillato di Zombi",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26661] = {
+        name = "In cerca di Fiori Marci",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26725] = {
+        name = "Guidato dalla Luce",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26620] = {
+        name = "Kebab Speziato di Lupo",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26666] = {
+        name = "La leggenda di Stalvan",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26670] = {
+        name = "Rovina di Roland",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26689] = {
+        name = "Frutteto Marcescente",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26618] = {
+        name = "Lupi alle calcagna",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26667] = {
+        name = "Le lettere rubate",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26671] = {
+        name = "Il destino di Stalvan Foscomanto",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26690] = {
+        name = "Vili e corrotti",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26669] = {
+        name = "In un angolo buio",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26645] = {
+        name = "Guardiani della Notte",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26729] = {
+        name = "Elementali dell'Acqua",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26730] = {
+        name = "Puoi togliere un Murloc dall'oceano...",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26731] = {
+        name = "L'Altare di Naias",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26732] = {
+        name = "Medicine scadute",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26733] = {
+        name = "Campione di controllo",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26734] = {
+        name = "L'origine della follia",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26735] = {
+        name = "Il destino di Kurzen",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26736] = {
+        name = "Scampati alla follia",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26737] = {
+        name = "Cancellare l'Eredità di Kurzen",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26738] = {
+        name = "Appena schiuso",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26739] = {
+        name = "Penso che abbia fame",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26740] = {
+        name = "Gastronomia Krazek",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26742] = {
+        name = "Comprendere gli Scalporosso",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26743] = {
+        name = "Sacro per gli Scalporosso",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26744] = {
+        name = "Radici profonde",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26745] = {
+        name = "Il teschio preferito",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [28699] = {
+        name = "Chiamata alle armi: Rovotorto Settentrionale!",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26747] = {
+        name = "Un esemplare fisico",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26748] = {
+        name = "Il Signore del Sangue Mandokir",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26749] = {
+        name = "La Sacerdotessa Thaalia",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26763] = {
+        name = "Gli scavi della S.P.R. & Co.",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26765] = {
+        name = "Ritorno dal Caporale Kaleb",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26772] = {
+        name = "Visione Mentale",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26773] = {
+        name = "Vedere il raptor",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26774] = {
+        name = "Controllo Mentale",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26775] = {
+        name = "Essere il raptor",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26776] = {
+        name = "Ghaliri",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26779] = {
+        name = "Il mambo di Zul'Mamwe",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26780] = {
+        name = "Notte nella giungla",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26781] = {
+        name = "L'Occhio della Mente",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26782] = {
+        name = "Il bottino dei Mosh'ogg",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26805] = {
+        name = "Verso il Capo!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26746] = {
+        name = "Ha naso per queste cose",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [193] = {
+        name = "La maestria nella caccia alla pantera",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [26345] = {
+        name = "Excelsior",
+        level = 28,
+        requiredLevel = 25,
+    },
+    [208] = {
+        name = "Caccia grossa",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [186] = {
+        name = "Braccando le tigri",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26269] = {
+        name = "Verdi Colline di Rovotorto",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [190] = {
+        name = "Caccia alla pantera",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [194] = {
+        name = "Caccia ai raptor",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [197] = {
+        name = "La maestria nella caccia al raptor",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [192] = {
+        name = "L'abilità nella caccia alla pantera",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [187] = {
+        name = "L'abilità nella caccia alla tigre",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [191] = {
+        name = "Braccando le pantere",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [195] = {
+        name = "Braccando i raptor",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [188] = {
+        name = "La maestria nella caccia alla tigre",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [196] = {
+        name = "L'abilità nella caccia al raptor",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26344] = {
+        name = "Bisogna lavorarci",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [583] = {
+        name = "Benvenuti nella giungla",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [185] = {
+        name = "Caccia alla tigre",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26343] = {
+        name = "Domanda e offerta",
+        level = 26,
+        requiredLevel = 25,
+    },
+    [26600] = {
+        name = "Banchetto per un gigante",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26601] = {
+        name = "Mok'rash Spaccascogli",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26602] = {
+        name = "Un piatto servito abbondante",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26603] = {
+        name = "Messaggio nella bottiglia",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26604] = {
+        name = "Proteggere Sua Altezza Reale Poobah",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26605] = {
+        name = "Zampette sporche",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26606] = {
+        name = "La fine di Mukla",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26609] = {
+        name = "I Bucanieri Velerosse",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26610] = {
+        name = "Il tradimento dei Velerosse",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26611] = {
+        name = "Bisogna avvertire il Barone",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26612] = {
+        name = "I dettagli dell'assalto",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26613] = {
+        name = "Per un po' di tabacco in più...",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26614] = {
+        name = "Occhi aperti!",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26678] = {
+        name = "Doppiorum",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26679] = {
+        name = "Ritorno da Granbottino",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26617] = {
+        name = "Un vecchio lupo di mare",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26808] = {
+        name = "Maywiki",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26809] = {
+        name = "Trame segrete",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26810] = {
+        name = "Un esiliato da eliminare",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26811] = {
+        name = "Attraverso il portale del Troll",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26812] = {
+        name = "Gran Sacerdotessa Jeklik",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26813] = {
+        name = "Addentrarsi a Zul'gurub",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26814] = {
+        name = "Il Gran Sacerdote Venoxis",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26815] = {
+        name = "Il segreto di Zanzil",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26816] = {
+        name = "Ricetta per un disastro",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26817] = {
+        name = "Perfettamente puro",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26818] = {
+        name = "Materiali morbidi",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26819] = {
+        name = "Akiris all'ingrosso",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26820] = {
+        name = "Se non se ne fanno nulla...",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26821] = {
+        name = "Airwyn Bantamflax",
+        level = 32,
+        requiredLevel = 26,
+    },
+    [26822] = {
+        name = "Lucertoloni buoni a nulla",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26823] = {
+        name = "Meglio non ringalluzzirsi troppo",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26824] = {
+        name = "Esito: inconcludente",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26825] = {
+        name = "Dask \"Ampolla",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26700] = {
+        name = "La (S)Fortuna della Damigella",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26697] = {
+        name = "L'ultimo viaggio dei Razziamarea",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26699] = {
+        name = "Flusso e riflusso dei Razziamarea",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26703] = {
+        name = "Fine dei Velerosse",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26698] = {
+        name = "Alla ricerca di Corno Marino",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26695] = {
+        name = "Prepararsi al decollo",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26665] = {
+        name = "Il richiamo del Bottino",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26644] = {
+        name = "Attirare l'attenzione",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26664] = {
+        name = "Ammutinamento!",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26662] = {
+        name = "L'Equipaggio Razziamarea",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26647] = {
+        name = "Il Vecchio Scoppy",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26648] = {
+        name = "I nostri nemici mortali",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26649] = {
+        name = "Pirateria di passaggio",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26650] = {
+        name = "La Fortuna della Damigella",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26663] = {
+        name = "Auto-affondamento",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26633] = {
+        name = "Lavoro da mozzo",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26635] = {
+        name = "L'oceano e le palle di cannone",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26631] = {
+        name = "Primo giorno da pirata",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26634] = {
+        name = "Un male che affligge tutti i pirati",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26593] = {
+        name = "Spaventare lo Scosso",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26594] = {
+        name = "Ritorno da MacKinley",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26595] = {
+        name = "Uccidi e recupera",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26629] = {
+        name = "Fedele, ma a chi?",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26597] = {
+        name = "La febbre di Rovotorto",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26624] = {
+        name = "Ingraziarsi i Velerosse",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26599] = {
+        name = "Lo scrigno del capitano",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [28702] = {
+        name = "Chiamata alle armi: Capo di Rovotorto!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [27160] = {
+        name = "Macchine da guerra",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27161] = {
+        name = "Il flusso infinito",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27162] = {
+        name = "Il Signore di Scholomance",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27164] = {
+        name = "Araj l'Evocatore",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27158] = {
+        name = "La battaglia per Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27159] = {
+        name = "Prima il Flagello, poi l'Orda",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27165] = {
+        name = "Vittoria, almeno per ora",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27477] = {
+        name = "Un problema ingombrante",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27481] = {
+        name = "Fuori dalla Ziggurat",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27489] = {
+        name = "È tutta colpa mia",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27525] = {
+        name = "Guardiani di Stratholme",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27529] = {
+        name = "Difensori del Borgo di Darrow",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27533] = {
+        name = "Un destino peggiore del macello",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27482] = {
+        name = "Nelle fiamme",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27522] = {
+        name = "Far parlare i morti",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27526] = {
+        name = "Il destino di Gidwin svelato",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27530] = {
+        name = "Le Bestie Cadaveriche",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27534] = {
+        name = "Libro Mastro di Augustus",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27479] = {
+        name = "Indignazione virtuosa",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27487] = {
+        name = "Ix'lar il Signore delle Profondità",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27523] = {
+        name = "Alascura, come ti odio...",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27527] = {
+        name = "Fine del viaggio",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27531] = {
+        name = "Ricerca contro la Piaga",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27535] = {
+        name = "Svitato ma non troppo",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27539] = {
+        name = "Mettili insieme agli altri",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27551] = {
+        name = "Lettera della Baronessa",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27488] = {
+        name = "Impazienza",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27521] = {
+        name = "Miserabile alveare di feccia e malvagità",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27524] = {
+        name = "Furia cieca",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27528] = {
+        name = "Massa piagata",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27532] = {
+        name = "La Torre di Malaselva",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [26838] = {
+        name = "Ribelli senza una guida",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28756] = {
+        name = "Aberrazioni d'ossa",
+        level = 42,
+        requiredLevel = 40,
+    },
+    [26944] = {
+        name = "Esplorare Gnomeregan",
+        level = 26,
+        requiredLevel = 26,
+    },
+    [27422] = {
+        name = "Una città sotto assedio",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [26751] = {
+        name = "Con-Troll-o della popolazione",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [46293] = {
+        name = "Miniere della Morte, per la terza volta?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [28755] = {
+        name = "Annali della Mano d'Argento",
+        level = 46,
+        requiredLevel = 42,
+    },
+    [27166] = {
+        name = "A caccia di piume",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27170] = {
+        name = "La cripta abbandonata",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27172] = {
+        name = "Il Campo Putrido",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27174] = {
+        name = "Addestramento al combattimento",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27432] = {
+        name = "Zaeldarr l'Errante",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27053] = {
+        name = "Il calderone del Podere di Gahrron",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27055] = {
+        name = "Gli studenti di Krastinov",
+        level = 39,
+        requiredLevel = 36,
+    },
+    [27057] = {
+        name = "Ritorno al Bivacco",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [27448] = {
+        name = "Il viaggio continua",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27450] = {
+        name = "Il mare di Frederick",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27198] = {
+        name = "Aiutare le truppe",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27454] = {
+        name = "Solo una goccia nel calderone",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27202] = {
+        name = "Fratello contro fratello",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27204] = {
+        name = "Aradne",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27460] = {
+        name = "Atterraggio morbido",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [26954] = {
+        name = "Cambiare approccio",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26956] = {
+        name = "Una mela marcia al giorno...",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27466] = {
+        name = "Chiamata d'Argento: Valnordia",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27615] = {
+        name = "L'Iracondo",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27617] = {
+        name = "Basta corruzione",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27619] = {
+        name = "Il Comandante",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27367] = {
+        name = "Gidwin Treccedoro",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27369] = {
+        name = "Oliare gli ingranaggi",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27371] = {
+        name = "Nato per uccidere",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27373] = {
+        name = "In marcia verso la Cappella della Luce",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27000] = {
+        name = "Impara le regole",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27383] = {
+        name = "La piccola Pamela",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27385] = {
+        name = "Zio Carlin",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27387] = {
+        name = "Nemici del Borgo di Darrow",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27389] = {
+        name = "Predoni del Borgo di Darrow",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27391] = {
+        name = "Tesori nascosti",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27012] = {
+        name = "Misure anti-Gnoll",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26728] = {
+        name = "Chiamata alle armi: Boscovespro!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [27421] = {
+        name = "La vita in mezzo alla morte",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27465] = {
+        name = "Chiamata d'Argento: la Radura Venefica",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27612] = {
+        name = "Vittoria dall'interno",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27151] = {
+        name = "Il retaggio di Taelan Fordring",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27153] = {
+        name = "La gente perbene di Valsalda",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27155] = {
+        name = "Costituisciti",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27157] = {
+        name = "Drudges... <Sigh>",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [27464] = {
+        name = "Chiamata d'Argento: la Prova della Cripta",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27456] = {
+        name = "A caccia di vermi",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27163] = {
+        name = "Forza bruta",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27458] = {
+        name = "Smokey e le bende",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27167] = {
+        name = "Una gran fame",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27169] = {
+        name = "Benedizione di Uther",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27171] = {
+        name = "Imboscata!",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27173] = {
+        name = "Questo è il nostro esercito",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27175] = {
+        name = "Il Bivacco dei Guaritori",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27420] = {
+        name = "Rimandare l'inevitabile",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [28576] = {
+        name = "Chiamata alle armi: Terre Infette Occidentali!",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27054] = {
+        name = "Atti disperati",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27453] = {
+        name = "Catalisi",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27463] = {
+        name = "Il sogno di ogni bambino",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27452] = {
+        name = "Abito scuro",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [26935] = {
+        name = "La Segheria della Cresta Nord",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27451] = {
+        name = "Uccidere per uno scopo",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27455] = {
+        name = "Vegliare sui ragazzi",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27449] = {
+        name = "Forza e onore",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27197] = {
+        name = "La battaglia continua!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27199] = {
+        name = "Cenere alla cenere",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27201] = {
+        name = "L'incursione delle Val'kyr",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27457] = {
+        name = "Un'alleanza vantaggiosa",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27205] = {
+        name = "La depravazione dei Reietti",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [26953] = {
+        name = "Zen'kiki, il Druido",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26955] = {
+        name = "Zen'kiki e i Cultisti",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [26957] = {
+        name = "Il lungo viaggio verso casa",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27467] = {
+        name = "Lame conficcate",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27613] = {
+        name = "L'Assassino",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27616] = {
+        name = "Il Predatore",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27168] = {
+        name = "Quelli che restano",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27462] = {
+        name = "Prendere la caserma",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27461] = {
+        name = "Prendere l'abbazia",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [28749] = {
+        name = "La battaglia per Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27459] = {
+        name = "La Fratellanza della Luce",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [26340] = {
+        name = "La caccia",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [27614] = {
+        name = "Manufatti Scarlatti",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [28505] = {
+        name = "La battaglia per Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27618] = {
+        name = "Rivolta d'Argento",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27620] = {
+        name = "Come ratti",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27368] = {
+        name = "Imprigionato",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27370] = {
+        name = "Tarenar Sferzasole",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27372] = {
+        name = "Un dono per Fiona",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27392] = {
+        name = "Non dirlo a nessuno",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27544] = {
+        name = "Tenacia cenariana",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27386] = {
+        name = "Uno strano storico",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [26999] = {
+        name = "Una nuova epoca per le Terre Infette",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27001] = {
+        name = "E GUERRA sia (battuta degli aracnidi selvatici)",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27384] = {
+        name = "La bambola di Pamela",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27388] = {
+        name = "Eroi del Borgo di Darrow",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27390] = {
+        name = "La Battaglia del Borgo di Darrow",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27011] = {
+        name = "I furti dei Pinorosso",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27013] = {
+        name = "Caccia alla volpe",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27381] = {
+        name = "Compagni di viaggio",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27017] = {
+        name = "Ricordi da un passato dimenticato",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27002] = {
+        name = "A udienza dal Gran Signore",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27382] = {
+        name = "Incontri pericolosi",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27152] = {
+        name = "Un comportamento strano... anche per degli Gnoll",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27154] = {
+        name = "Incastrare Bisp",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27156] = {
+        name = "Era ora!",
+        level = 37,
+        requiredLevel = 35,
+    },
     [45644] = {
         name = "O Doloria, mia dolce Doloria",
         level = -1,

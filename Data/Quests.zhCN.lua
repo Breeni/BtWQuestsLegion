@@ -11575,6 +11575,2226 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [43285] = {
+        name = "Invasion: Hillsbrad Foothills",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [43297] = {
+        name = "Repel",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [28192] = {
+        name = "No One Here Gets Out Alive",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28196] = {
+        name = "The Battle for Hillsbrad",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28325] = {
+        name = "Green Living",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28329] = {
+        name = "Angry Scrubbing Bubbles",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28331] = {
+        name = "Helcular's Rod Giveth...",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28587] = {
+        name = "Aid of the Frostwolf",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28089] = {
+        name = "Warchief's Command: Hillsbrad Foothills!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28345] = {
+        name = "*Gurgle* HELP! *Gurgle*",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28603] = {
+        name = "Infiltration",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28605] = {
+        name = "Domination",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28355] = {
+        name = "Terrible Little Creatures",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28484] = {
+        name = "The Heart of the Matter",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28617] = {
+        name = "Flower Power",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28111] = {
+        name = "Trouble at Azurelode",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28748] = {
+        name = "Lawn of the Dead",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28115] = {
+        name = "Past Their Prime",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28375] = {
+        name = "The Road to Purgation",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28506] = {
+        name = "March of the Stormpike",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28635] = {
+        name = "A Haunting in Hillsbrad",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28643] = {
+        name = "The Durnholde Challenge: Zephyrus",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28645] = {
+        name = "The Durnholde Challenge: Bloodvenom",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28647] = {
+        name = "The Durnholde Challenge: D-1000",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28397] = {
+        name = "They Will Never Expect This...",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28538] = {
+        name = "Cry of the Banshee",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28556] = {
+        name = "Breaking the Hand",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28566] = {
+        name = "Decimation",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28189] = {
+        name = "Do the Right Thing",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28197] = {
+        name = "Discretion is Key",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28199] = {
+        name = "For Science!",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28330] = {
+        name = "Trail of Filth",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28332] = {
+        name = "Helcular's Command",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28209] = {
+        name = "Freedom for Lydon",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28344] = {
+        name = "Can You Smell What the Lok'tar is Cooking?",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28600] = {
+        name = "Matters of Loyalty",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28348] = {
+        name = "Stormpike Rendezvous",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28604] = {
+        name = "Deception and Trickery",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28733] = {
+        name = "Basic Botany",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28354] = {
+        name = "Kasha Will Fly Again",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28356] = {
+        name = "Preemptive Strike",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28485] = {
+        name = "Yetimus the Yeti Lord",
+        level = 25,
+        requiredLevel = 21,
+    },
+    [28487] = {
+        name = "Humbert's Personal Problems",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28235] = {
+        name = "Burnside Must Fall",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28237] = {
+        name = "A Blight Upon the Land",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28747] = {
+        name = "Someone Setup the Pumpkin Bomb",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28495] = {
+        name = "A Fighting Chance",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28251] = {
+        name = "Trouble at Southshore",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28634] = {
+        name = "Extinction",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28636] = {
+        name = "Silence of the Dwarves",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28644] = {
+        name = "The Durnholde Challenge: Teracula",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28138] = {
+        name = "Human Infestation",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28144] = {
+        name = "Thieving Little Monsters!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28146] = {
+        name = "Coastal Delicacies!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28324] = {
+        name = "Studies in Lethality",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28616] = {
+        name = "Stormpike Apocalypse",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28154] = {
+        name = "Muckgill's Flipper or Something...",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28114] = {
+        name = "Glorious Harvest",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28620] = {
+        name = "Eastpoint Tower",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [43286] = {
+        name = "Demon Commander",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [27746] = {
+        name = "Empire of Dirt",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [43296] = {
+        name = "Defend",
+        level = -1,
+        requiredLevel = 1,
+    },
+    [28571] = {
+        name = "Warchief's Command: Hillsbrad Foothills!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28206] = {
+        name = "Little Girl Lost",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28400] = {
+        name = "Heroes of the Horde!",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28230] = {
+        name = "Protocol",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28231] = {
+        name = "Do it for Twinkles",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28168] = {
+        name = "Trouble at the Sludge Fields",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28156] = {
+        name = "Deep Mine Rescue",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28744] = {
+        name = "Ghouls Hate My Grains",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28096] = {
+        name = "Welcome to the Machine",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28489] = {
+        name = "Stagwiches",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28646] = {
+        name = "The Durnholde Challenge: Infernus",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [27797] = {
+        name = "The Sentinel's Pawn",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27877] = {
+        name = "The Morons' League",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27878] = {
+        name = "Forcible Acquisition",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27879] = {
+        name = "Survival of the Fattest",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27881] = {
+        name = "Bloodwatcher Point",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27882] = {
+        name = "It's Not About History, It's About Power",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27883] = {
+        name = "The Warden's Pawn",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27884] = {
+        name = "The Sentinel's Pawn",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27885] = {
+        name = "The Warden's Game",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27886] = {
+        name = "The Sentinel's Game",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27887] = {
+        name = "Ancient Protectors",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27888] = {
+        name = "Return to Blam",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27763] = {
+        name = "To Fuselight Proper",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27764] = {
+        name = "A Strange Request",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27766] = {
+        name = "Second Sample: Whelps",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27769] = {
+        name = "Rhea Revealed",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27770] = {
+        name = "Lifting the Veil",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27771] = {
+        name = "Third Sample: Implanted Eggs",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27709] = {
+        name = "The Sentinel's Game",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27774] = {
+        name = "Easily Swayed",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27775] = {
+        name = "When the Going Gets Tough, Cheat",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27713] = {
+        name = "The Day that Deathwing Came",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27714] = {
+        name = "The Day that Deathwing Came: The Real Story",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [28579] = {
+        name = "Hero's Call: Badlands!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27833] = {
+        name = "Half-Ton Holdouts",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27912] = {
+        name = "The Titans' Trove",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27913] = {
+        name = "The Titans' Trove",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27823] = {
+        name = "A Dwarf's Got Needs",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27789] = {
+        name = "Troggish Troubles",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27824] = {
+        name = "The Good Stuff",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27825] = {
+        name = "Survival of the Fattest",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27792] = {
+        name = "All's Fair in Love, War, and Archaeology",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27793] = {
+        name = "Ancient Protectors",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27772] = {
+        name = "The Venerable Doctor Blam",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27776] = {
+        name = "It's Goat Time, Baby",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27796] = {
+        name = "The Warden's Pawn",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27762] = {
+        name = "Fuselight, Ho!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27693] = {
+        name = "The Warden's Game",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27895] = {
+        name = "Their Hunt Continues",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27880] = {
+        name = "Half-Ton Holdouts",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27927] = {
+        name = "Down to the Scar",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27897] = {
+        name = "The Hidden Clutch",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27898] = {
+        name = "Rheastrasza's Gift",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27930] = {
+        name = "Devastation",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27791] = {
+        name = "Dustwind Dig",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27715] = {
+        name = "The Day that Deathwing Came: What Really Happened",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27794] = {
+        name = "Return to Blam",
+        level = 46,
+        requiredLevel = 44,
+    },
+    [27889] = {
+        name = "New Kargath",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27859] = {
+        name = "The Egg Lives On",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [28580] = {
+        name = "Warchief's Command: Badlands!",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27896] = {
+        name = "The Sorrow and the Fury",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27892] = {
+        name = "Jurrix the Striker",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27765] = {
+        name = "First Sample: Wild Eggs",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27893] = {
+        name = "Gargal, the Behemoth",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27890] = {
+        name = "The Bad Dogs",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27891] = {
+        name = "Amakkar, Jack of All Trades",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27894] = {
+        name = "The Wrath of a Dragonflight",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27832] = {
+        name = "The Hidden Clutch",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27858] = {
+        name = "Rheastrasza's Gift",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27834] = {
+        name = "Baelog, the Glass Cannon",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27835] = {
+        name = "Olaf, the Big Fella'",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27827] = {
+        name = "The Swift, the Fierce, and the Stout",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27830] = {
+        name = "Their Hunt Continues",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27831] = {
+        name = "The Sorrow and the Fury",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27828] = {
+        name = "Eric, the Utility Dwarf",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27826] = {
+        name = "Into the Dragon's Mouth",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [27829] = {
+        name = "The Wrath of a Dragonflight",
+        level = 47,
+        requiredLevel = 44,
+    },
+    [26727] = {
+        name = "The Embalmer's Revenge",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26794] = {
+        name = "Morgan Ladimore",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26672] = {
+        name = "Clawing at the Truth",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26674] = {
+        name = "Mistmantle's Revenge",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26676] = {
+        name = "Juice Delivery",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26677] = {
+        name = "Ghoulish Effigy",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26680] = {
+        name = "Ogre Thieves",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26681] = {
+        name = "Note to the Mayor",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26683] = {
+        name = "Look To The Stars",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26684] = {
+        name = "The Insane Ghoul",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26685] = {
+        name = "Classy Glass",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26686] = {
+        name = "Bones That Walk",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26688] = {
+        name = "Worgen in the Woods",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26691] = {
+        name = "Worgen in the Woods",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26797] = {
+        name = "A Daughter's Love",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26795] = {
+        name = "Mor'Ladim",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26760] = {
+        name = "Cry For The Moon",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26796] = {
+        name = "The Daughter Who Lived",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26793] = {
+        name = "The Weathered Grave",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26785] = {
+        name = "Part of the Pack",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26722] = {
+        name = "Buried Below",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26754] = {
+        name = "Morbent's Bane",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26717] = {
+        name = "The Yorgen Worgen",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26753] = {
+        name = "The Halls of the Dead",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26724] = {
+        name = "The Lurking Lich",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26723] = {
+        name = "The Fate of Morbent Fel",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26707] = {
+        name = "A Deadly Vine",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26778] = {
+        name = "The Cries of the Dead",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26623] = {
+        name = "Dusky Crab Cakes",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25235] = {
+        name = "Vulgar Vul'Gol",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28564] = {
+        name = "Hero's Call: Duskwood!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [26627] = {
+        name = "The Hermit",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26787] = {
+        name = "Bear In Mind",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26777] = {
+        name = "Soothing Spirits",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26652] = {
+        name = "Ghost Hair Thread",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26653] = {
+        name = "Supplies from Darkshire",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26654] = {
+        name = "Return the Comb",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26655] = {
+        name = "Deliver the Thread",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26719] = {
+        name = "Delivery to Master Harris",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26720] = {
+        name = "A Curse We Cannot Lift",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26721] = {
+        name = "The Jitters-Bugs",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26660] = {
+        name = "Zombie Juice",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26661] = {
+        name = "Gather Rot Blossoms",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26725] = {
+        name = "Guided by the Light",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26620] = {
+        name = "Seasoned Wolf Kabobs",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26666] = {
+        name = "The Legend of Stalvan",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26670] = {
+        name = "Roland's Doom",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26689] = {
+        name = "The Rotting Orchard",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26618] = {
+        name = "Wolves at Our Heels",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26667] = {
+        name = "The Stolen Letters",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26671] = {
+        name = "The Fate of Stalvan Mistmantle",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26690] = {
+        name = "Vile and Tainted",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26669] = {
+        name = "In A Dark Corner",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26645] = {
+        name = "The Night Watch",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26729] = {
+        name = "Water Elementals",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26730] = {
+        name = "You Can Take the Murloc Out of the Ocean...",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26731] = {
+        name = "The Altar of Naias",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26732] = {
+        name = "Bad Medicine",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26733] = {
+        name = "Control Sample",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26734] = {
+        name = "The Source of the Madness",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26735] = {
+        name = "The Fate of Kurzen",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26736] = {
+        name = "Spared from Madness",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26737] = {
+        name = "Stopping Kurzen's Legacy",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26738] = {
+        name = "Just Hatched",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26739] = {
+        name = "I Think She's Hungry",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26740] = {
+        name = "Krazek's Cookery",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26742] = {
+        name = "Bloodscalp Insight",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26743] = {
+        name = "Sacred to the Bloodscalp",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26744] = {
+        name = "Deep Roots",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26745] = {
+        name = "Favored Skull",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [28699] = {
+        name = "Hero's Call: Northern Stranglethorn!",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26747] = {
+        name = "A Physical Specimen",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26748] = {
+        name = "Bloodlord Mandokir",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26749] = {
+        name = "Priestess Thaalia",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26763] = {
+        name = "Venture Company Mining",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26765] = {
+        name = "Return to Corporal Kaleb",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26772] = {
+        name = "Mind Vision",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26773] = {
+        name = "See Raptor",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26774] = {
+        name = "Mind Control",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26775] = {
+        name = "Be Raptor",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26776] = {
+        name = "Ghaliri",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26779] = {
+        name = "Zul'Mamwe Mambo",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26780] = {
+        name = "Nighttime in the Jungle",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26781] = {
+        name = "The Mind's Eye",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26782] = {
+        name = "The Mosh'Ogg Bounty",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26805] = {
+        name = "To the Cape!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26746] = {
+        name = "A Nose for This Sort of Thing",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [193] = {
+        name = "Panther Mastery",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [26345] = {
+        name = "Excelsior",
+        level = 28,
+        requiredLevel = 25,
+    },
+    [208] = {
+        name = "Big Game Hunter",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [186] = {
+        name = "Tiger Stalking",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26269] = {
+        name = "The Green Hills of Stranglethorn",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [190] = {
+        name = "Panther Hunting",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [194] = {
+        name = "Raptor Hunting",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [197] = {
+        name = "Raptor Mastery",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [192] = {
+        name = "Panther Prowess",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [187] = {
+        name = "Tiger Prowess",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [191] = {
+        name = "Panther Stalking",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [195] = {
+        name = "Raptor Stalking",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [188] = {
+        name = "Tiger Mastery",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [196] = {
+        name = "Raptor Prowess",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26344] = {
+        name = "Some Assembly Required",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [583] = {
+        name = "Welcome to the Jungle",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [185] = {
+        name = "Tiger Hunting",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26343] = {
+        name = "Supply and Demand",
+        level = 26,
+        requiredLevel = 25,
+    },
+    [26600] = {
+        name = "A Giant's Feast",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26601] = {
+        name = "Mok'rash the Cleaver",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26602] = {
+        name = "A Dish Best Served Huge",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26603] = {
+        name = "Message in a Bottle",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26604] = {
+        name = "Protecting Her Royal Highness Poobah",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26605] = {
+        name = "Grubby Little Paws",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26606] = {
+        name = "Mukla's Demise",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26609] = {
+        name = "The Bloodsail Buccaneers",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26610] = {
+        name = "Bloodsail Treachery",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26611] = {
+        name = "The Baron Must Be Told",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26612] = {
+        name = "Details of the Attack",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26613] = {
+        name = "Up to Snuff",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26614] = {
+        name = "Keep An Eye Out",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26678] = {
+        name = "Doublerum",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26679] = {
+        name = "Return to Revilgaz",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26617] = {
+        name = "An Old Sea Dog",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26808] = {
+        name = "Maywiki",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26809] = {
+        name = "Backdoor Dealings",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26810] = {
+        name = "Eliminate the Outcast",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26811] = {
+        name = "Through the Troll Hole",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26812] = {
+        name = "High Priestess Jeklik",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26813] = {
+        name = "Plunging Into Zul'Gurub",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26814] = {
+        name = "High Priest Venoxis",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26815] = {
+        name = "Zanzil's Secret",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26816] = {
+        name = "Recipe for Disaster",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26817] = {
+        name = "Perfectly Pure",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26818] = {
+        name = "Plush Pelts",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26819] = {
+        name = "Akiris by the Bundle",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26820] = {
+        name = "If They're Just Going to Leave Them Lying Around...",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26821] = {
+        name = "Airwyn Bantamflax",
+        level = 32,
+        requiredLevel = 26,
+    },
+    [26822] = {
+        name = "Good-Fer-Nothin' Slither-Dogs",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26823] = {
+        name = "Too Big For His Britches",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26824] = {
+        name = "Results: Inconclusive",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26825] = {
+        name = "Dask \"The Flask\" Gobfizzle",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26700] = {
+        name = "The Damsel's (Bad) Luck",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26697] = {
+        name = "The Final Voyage of the Brashtide",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26699] = {
+        name = "Turning the Brashtide",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26703] = {
+        name = "Bloodsail's End",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26698] = {
+        name = "Seeking Seahorn",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26695] = {
+        name = "Prepare for Takeoff",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26665] = {
+        name = "Call of Booty",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26644] = {
+        name = "Attracting Attention",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26664] = {
+        name = "Making Mutiny",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26662] = {
+        name = "The Brashtide Crew",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26647] = {
+        name = "Ol' Blasty",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26648] = {
+        name = "Our Mortal Enemies",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26649] = {
+        name = "Drive-By Piracy",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26650] = {
+        name = "The Damsel's Luck",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26663] = {
+        name = "Sinking From Within",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26633] = {
+        name = "Swabbing Duty",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26635] = {
+        name = "Cannonball Swim",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26631] = {
+        name = "Your First Day as a Pirate",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26634] = {
+        name = "The Bane of Many A Pirate",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26593] = {
+        name = "Scaring Shaky",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26594] = {
+        name = "Return to MacKinley",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26595] = {
+        name = "Kill-Collect",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26629] = {
+        name = "Seeing Where Your Loyalties Lie",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26597] = {
+        name = "Stranglethorn Fever",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26624] = {
+        name = "Getting In With the Bloodsail",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26599] = {
+        name = "The Captain's Chest",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [28702] = {
+        name = "Hero's Call: The Cape of Stranglethorn!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [27160] = {
+        name = "War Machines",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27161] = {
+        name = "The Endless Flow",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27162] = {
+        name = "Scholomancer",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27164] = {
+        name = "Araj the Summoner",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27158] = {
+        name = "The Battle for Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27159] = {
+        name = "Scourge First... Horde Later",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27165] = {
+        name = "Victory, For Now",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27477] = {
+        name = "The Corpulent One",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27481] = {
+        name = "Out of the Ziggurat",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27489] = {
+        name = "Nobody to Blame but Myself",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27525] = {
+        name = "Guardians of Stratholme",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27529] = {
+        name = "Defenders of Darrowshire",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27533] = {
+        name = "A Fate Worse Than Butchery",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27482] = {
+        name = "Into the Flames",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27522] = {
+        name = "Beat it Out of Them",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27526] = {
+        name = "Gidwin's Fate Revealed",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27530] = {
+        name = "The Corpsebeasts",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27534] = {
+        name = "Augustus' Receipt Book",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27479] = {
+        name = "Righteous Indignation",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27487] = {
+        name = "Ix'lar the Underlord",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27523] = {
+        name = "Duskwing, Oh How I Hate Thee...",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27527] = {
+        name = "Journey's End",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27531] = {
+        name = "Counter-Plague Research",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27535] = {
+        name = "Just a Little Touched",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27539] = {
+        name = "Add 'em to the Pile",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27551] = {
+        name = "The Baroness' Missive",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27488] = {
+        name = "Impatience",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27521] = {
+        name = "Wretched Hive of Scum and Villainy",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27524] = {
+        name = "Blind Fury",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27528] = {
+        name = "Scourged Mass",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27532] = {
+        name = "The Plaguewood Tower",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [26838] = {
+        name = "Rebels Without a Clue",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28756] = {
+        name = "Aberrations of Bone",
+        level = 42,
+        requiredLevel = 40,
+    },
+    [26944] = {
+        name = "Exploring Gnomeregan",
+        level = 26,
+        requiredLevel = 26,
+    },
+    [27422] = {
+        name = "A City Under Siege",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [26751] = {
+        name = "Population Con-Troll",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [46293] = {
+        name = "Deadmines, Part Three?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [28755] = {
+        name = "Annals of the Silver Hand",
+        level = 46,
+        requiredLevel = 42,
+    },
+    [27166] = {
+        name = "Go Fletch!",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27170] = {
+        name = "The Abandoned Crypt",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27172] = {
+        name = "The Writhing Haunt",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27174] = {
+        name = "Combat Training",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27432] = {
+        name = "Zaeldarr the Outcast",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27053] = {
+        name = "Gahrron's Withering Cauldron",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27055] = {
+        name = "Students of Krastinov",
+        level = 39,
+        requiredLevel = 36,
+    },
+    [27057] = {
+        name = "Return to the Stead",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [27448] = {
+        name = "The Trek Continues",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27450] = {
+        name = "Frederick's Fish Fancy",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27198] = {
+        name = "Supporting the Troops",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27454] = {
+        name = "Just a Drop in the Bucket",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27202] = {
+        name = "Brother Against Brother",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27204] = {
+        name = "Aradne",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27460] = {
+        name = "Soft Landing",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [26954] = {
+        name = "A Different Approach",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26956] = {
+        name = "I Ain't Sayin' You a Gourd-Digger...",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27466] = {
+        name = "Argent Call: Northdale",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27615] = {
+        name = "The Wrathcaster",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27617] = {
+        name = "Befouled No More",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27619] = {
+        name = "The Commander",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27367] = {
+        name = "Gidwin Goldbraids",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27369] = {
+        name = "Greasing the Wheel",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27371] = {
+        name = "What I Do Best",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27373] = {
+        name = "Onward, to Light's Hope Chapel",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27000] = {
+        name = "Learning the Ropes",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27383] = {
+        name = "Little Pamela",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27385] = {
+        name = "Uncle Carlin",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27387] = {
+        name = "Villains of Darrowshire",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27389] = {
+        name = "Marauders of Darrowshire",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27391] = {
+        name = "Hidden Treasures",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27012] = {
+        name = "A Gnoll's Resolve",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26728] = {
+        name = "Hero's Call: Duskwood!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [27421] = {
+        name = "Amidst Death, Life",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27465] = {
+        name = "Argent Call: The Noxious Glade",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27612] = {
+        name = "Victory From Within",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27151] = {
+        name = "Taelan Fordring's Legacy",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27153] = {
+        name = "The Good People of Hearthglen",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27155] = {
+        name = "Turning Yourself In",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27157] = {
+        name = "Drudges... <Sigh>",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [27464] = {
+        name = "Argent Call: The Trial of the Crypt",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27456] = {
+        name = "Gathering Some Grub(s)",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27163] = {
+        name = "Brute Strength",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27458] = {
+        name = "Smokey and the Bandage",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27167] = {
+        name = "A Mighty Hunger",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27169] = {
+        name = "Uther's Blessing",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27171] = {
+        name = "Ambushed!",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27173] = {
+        name = "This Is Our Army",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27175] = {
+        name = "The Menders' Stead",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27420] = {
+        name = "Postponing the Inevitable",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [28576] = {
+        name = "Hero's Call: Western Plaguelands!",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27054] = {
+        name = "Desperate Acts",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27453] = {
+        name = "Catalysm",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27463] = {
+        name = "A Boyhood Dream",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27452] = {
+        name = "Dark Garb",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [26935] = {
+        name = "Northridge Lumber Mill",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27451] = {
+        name = "To Kill With Purpose",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27455] = {
+        name = "Boys Will Be Boys",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27449] = {
+        name = "Honor and Strength",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27197] = {
+        name = "The Battle Resumes!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27199] = {
+        name = "Ashes to Ashes",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27201] = {
+        name = "Val'kyr Incursion",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27457] = {
+        name = "An Opportune Alliance",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27205] = {
+        name = "The Depravity of the Forsaken",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [26953] = {
+        name = "Zen'Kiki, the Druid",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26955] = {
+        name = "Zen'Kiki and the Cultists",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [26957] = {
+        name = "The Long Trip Home",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27467] = {
+        name = "Buried Blades",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27613] = {
+        name = "The Assassin",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27616] = {
+        name = "The Huntsman",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27168] = {
+        name = "Those That Couldn't Let Go",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27462] = {
+        name = "To Take the Barracks",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27461] = {
+        name = "To Take the Abbey",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [28749] = {
+        name = "The Battle for Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27459] = {
+        name = "The Brotherhood of Light",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [26340] = {
+        name = "The Hunt",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [27614] = {
+        name = "Scarlet Salvage",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [28505] = {
+        name = "The Battle for Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27618] = {
+        name = "Argent Upheaval",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27620] = {
+        name = "Like Rats",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27368] = {
+        name = "Just Encased",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27370] = {
+        name = "Tarenar Sunstrike",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27372] = {
+        name = "A Gift For Fiona",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27392] = {
+        name = "I'm Not Supposed to Tell You This",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27544] = {
+        name = "Cenarion Tenacity",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27386] = {
+        name = "A Strange Historian",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [26999] = {
+        name = "A New Era for the Plaguelands",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27001] = {
+        name = "This Means WAR (Wild Arachnid Roundup)",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27384] = {
+        name = "Pamela's Doll",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27388] = {
+        name = "Heroes of Darrowshire",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27390] = {
+        name = "The Battle of Darrowshire",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27011] = {
+        name = "Redpine Thievery",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27013] = {
+        name = "Too Close for Comfort",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27381] = {
+        name = "Traveling Companions",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27017] = {
+        name = "Memories from a Lost Past",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27002] = {
+        name = "An Audience with the Highlord",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27382] = {
+        name = "Rough Roads",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27152] = {
+        name = "Unusual Behavior... Even For Gnolls",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27154] = {
+        name = "Bagging Bisp",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27156] = {
+        name = "It's About Time!",
+        level = 37,
+        requiredLevel = 35,
+    },
     [45644] = {
         name = "Oh Doloria, My Sweet Doloria",
         level = -1,
