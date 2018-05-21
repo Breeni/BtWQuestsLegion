@@ -11575,4 +11575,54 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [45644] = {
+        name = "О Долория, дама моего сердца",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "На колени, оруженосец!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "Безнадежное дело",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Дальнейшая тренировка",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "О, где же ты, прекраснейшая из дев...",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "Имущество рыцаря",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "Все царство за коня",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "Они украли Экскалиберто!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Отыщи меня",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "Баллада о Максимилиане",
+        level = 55,
+        requiredLevel = 51,
+    },
 }
