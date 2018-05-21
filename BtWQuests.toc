@@ -6,6 +6,13 @@
 ## SavedVariablesPerCharacter: BtWQuests_Settings
 
 Data/Data.lua
+Data/Classic.lua
+Data/BurningCrusade.lua
+Data/Wrath.lua
+Data/Cataclysm.lua
+Data/Mists.lua
+Data/Warlords.lua
+Data/Legion.lua
 
 Data/Localization.lua
 
@@ -25,7 +32,6 @@ Data/Quests.ruRU.lua
 Data/Quests.zhCN.lua
 Data/Quests.zhTW.lua
 
-Data/Legion.lua
 Data/LegionDeathKnight.lua
 Data/LegionDemonHunter.lua
 Data/LegionDruid.lua
