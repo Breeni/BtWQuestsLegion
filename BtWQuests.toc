@@ -8,6 +8,11 @@
 Data/Data.lua
 
 Data/Classic.lua
+Data/BurningCrusade.lua
+Data/Wrath.lua
+Data/Cataclysm.lua
+Data/Mists.lua
+Data/Warlords.lua
 Data/Legion.lua
 
 Data/Localization.lua

@@ -1,0 +1,2 @@
+
+-- BtWQuests_Expansions[BTWQUESTS_EXPANSION_WARLORDS_OF_DRAENOR] = {}
