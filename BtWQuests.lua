@@ -265,6 +265,18 @@ local function BtWQuests_CheckRequirement(item)
         return ArrayContains(item.classes, select(3, UnitClass("player")))
     elseif item.type == "level" then
         return UnitLevel("player") >= item.level
+    elseif item.type == "expansion" then
+        return GetAccountExpansionLevel() >= item.expansion
+    elseif item.type == "reputation" then
+        local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
+        local gender = UnitSex("player")
+        local standingText = getglobal("FACTION_STANDING_LABEL" .. item.standing .. (gender == 3 and "_FEMALE" or ""))
+        
+        if item.amount ~= nil then
+            return standing > item.standing or (standing == item.standing and value - barMin >= item.amount)
+        else
+            return standing >= item.standing
+        end
     elseif item.type == "achievement" then
         if item.anyone then
             if item.completed == false then
@@ -320,6 +332,8 @@ local function BtWQuests_GetItemName(item)
     if item.name then
         if type(item.name) == "function" then
             return item.name()
+        elseif type(item.name) == "table" then
+            return BtWQuests_GetItemName(item.name)
         end
         
         return item.name
@@ -333,6 +347,18 @@ local function BtWQuests_GetItemName(item)
         return BtWQuests_GetItemName(BtWQuests_Missions[item.id])
     elseif item.type == "level" then
         return string.format(BTWQUESTS_LEVEL_TO, item.level)
+    elseif item.type == "expansion" then
+        return _G['BTWQUESTS_EXPANSION_NAME' .. item.expansion]
+    elseif item.type == "reputation" then
+        local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
+        local gender = UnitSex("player")
+        local standingText = getglobal("FACTION_STANDING_LABEL" .. item.standing .. (gender == 3 and "_FEMALE" or ""))
+        
+        if item.amount ~= nil then
+            return string.format(name or BTWQUESTS_REPUTATION_AMOUNT_STANDING, item.amount, standingText, factionName)
+        else
+            return string.format(name or BTWQUESTS_REPUTATION_STANDING, standingText, factionName)
+        end
     elseif item.type == "achievement" then
         return select(2, GetAchievementInfo(item.id))
     elseif item.type == "profession" then
@@ -436,11 +462,11 @@ function BtWQuests_IsCategoryCompleted(categoryID)
     
     for _,v in ipairs(category.items) do
         if v.type == 'chain' then
-            if not BtWQuests_GetItemSkip(v) and not BtWQuests_IsChainCompleted(v.id) then
+            if not BtWQuests_Settings.ignoredChains[v.id] and not BtWQuests_GetItemSkip(v) and not BtWQuests_IsChainCompleted(v.id) then
                 return false
             end
         elseif v.type == 'category' then
-            if not BtWQuests_IsCategoryCompleted(v.id) then
+            if not BtWQuests_Settings.ignoredCategories[v.id] and not BtWQuests_IsCategoryCompleted(v.id) then
                 return false
             end
         end
@@ -593,6 +619,10 @@ function BtWQuests_IsChainActive(chainID)
     local chain = BtWQuests_Chains[chainID]
     if not chain then
         return nil
+    end
+
+    if BtWQuests_Settings.ignoredChains[chainID] then
+        return false
     end
     
     local active, completed = false, false
@@ -1078,15 +1108,27 @@ function BtWQuests_OnEvent(self, event, ...)
         if ... == "BtWQuests" then
             if BtWQuests_Settings == nil then
                 BtWQuests_Settings = {
-                    minimapShown = true
+                    minimapShown = true,
+                    ignoredCategories = {},
+                    ignoredChains = {},
                 }
+            end
+
+            if BtWQuests_Settings.ignoredCategories == nil then
+                BtWQuests_Settings.ignoredCategories = {}
+            end
+
+            if BtWQuests_Settings.ignoredChains == nil then
+                BtWQuests_Settings.ignoredChains = {}
             end
             
             BtWQuestsMinimapButton:SetShown(BtWQuests_Settings.minimapShown)
-            BtWQuestsMinimapButton_Reposition()
+            if BtWQuests_Settings.minimapX ~= nil then
+                BtWQuestsMinimapButton_SetCoords(BtWQuests_Settings.minimapX, BtWQuests_Settings.minimapY)
+            else
+                BtWQuestsMinimapButton_Reposition(BtWQuests_Settings.minimapAngle)
+            end
         end
-    else
-        -- print("TEST2")
     end
 end
 
@@ -1192,6 +1234,7 @@ function BtWQuests_ListCategories()
                 categoryButton.Tick:SetShown(BtWQuests_IsCategoryCompleted(id))
             end
             
+            categoryButton.type = itemType;
             categoryButton.id = id;
             categoryButton.userdata = userdata;
             categoryButton:SetScript("OnClick", onClick)
@@ -1333,6 +1376,7 @@ function BtWQuests_DisplayChain(scrollTo)
                 end
             end
         
+            itemButton.Tick:SetShown(itemButton.status == "complete")
             if itemButton.status == "complete" then
                 itemButton.ForgottenAnim:Play()
             end
@@ -1502,6 +1546,7 @@ function BtWQuests_UpdateChain(scroll)
                     end
                 end
                 
+                itemButton.Tick:SetShown(itemButton.newStatus == "complete")
                 if itemButton.newStatus == "complete" then
                     itemButton.ForgottenAnim:Play()
                 end
@@ -1947,6 +1992,25 @@ end
 
 
 -- [[ Minimap Button ]]
+local minimapShapes = {
+	-- quadrant booleans (same order as SetTexCoord)
+	-- {bottom-right, bottom-left, top-right, top-left}
+	-- true = rounded, false = squared
+	["ROUND"] 			= {true,  true,  true,  true },
+	["SQUARE"] 			= {false, false, false, false},
+	["CORNER-TOPLEFT"] 		= {false, false, false, true },
+	["CORNER-TOPRIGHT"] 		= {false, false, true,  false},
+	["CORNER-BOTTOMLEFT"] 		= {false, true,  false, false},
+	["CORNER-BOTTOMRIGHT"]	 	= {true,  false, false, false},
+	["SIDE-LEFT"] 			= {false, true,  false, true },
+	["SIDE-RIGHT"] 			= {true,  false, true,  false},
+	["SIDE-TOP"] 			= {false, false, true,  true },
+	["SIDE-BOTTOM"] 		= {true,  true,  false, false},
+	["TRICORNER-TOPLEFT"] 		= {false, true,  true,  true },
+	["TRICORNER-TOPRIGHT"] 		= {true,  false, true,  true },
+	["TRICORNER-BOTTOMLEFT"] 	= {true,  true,  false, true },
+	["TRICORNER-BOTTOMRIGHT"] 	= {true,  true,  true,  false},
+}
 
 function BtWQuestsMinimapButton_Toggle()
     BtWQuests_Settings.minimapShown = not BtWQuests_Settings.minimapShown
@@ -1954,10 +2018,39 @@ function BtWQuestsMinimapButton_Toggle()
     BtWQuestsMinimapButton:SetShown(BtWQuests_Settings.minimapShown)
 end
 
-function BtWQuestsMinimapButton_Reposition()
-    -- local angle = 180 -- 172
-    local angle = BtWQuests_Settings.minimapAngle or 200
-	BtWQuestsMinimapButton:SetPoint("CENTER","Minimap","CENTER",(80*cos(angle)),(80*sin(angle)))
+function BtWQuestsMinimapButton_SetCoords(x, y)
+    BtWQuests_Settings.minimapX = x
+    BtWQuests_Settings.minimapY = y
+
+    BtWQuestsMinimapButton:SetPoint("CENTER", Minimap, "CENTER", x, y)
+end
+
+function BtWQuestsMinimapButton_Reposition(degrees)
+    local radius = 80
+	local rounding = 10
+    local angle = math.rad(degrees or 200)
+    local x, y
+	local cos = math.cos(angle)
+	local sin = math.sin(angle)
+	local q = 1;
+	if cos < 0 then
+		q = q + 1;	-- lower
+	end
+	if sin > 0 then
+		q = q + 2;	-- right
+	end
+    local minimapShape = GetMinimapShape and GetMinimapShape() or "ROUND"
+    
+	local quadTable = minimapShapes[minimapShape];
+	if quadTable[q] then
+		x = cos*radius;
+		y = sin*radius;
+	else
+		local diagRadius = math.sqrt(2*(radius)^2)-rounding
+		x = math.max(-radius, math.min(cos*diagRadius, radius))
+		y = math.max(-radius, math.min(sin*diagRadius, radius))
+	end
+    BtWQuestsMinimapButton_SetCoords(x, y)
 end
 
 function BtWQuestsMinimapButtonDraggingFrame_OnUpdate()
@@ -1967,8 +2060,7 @@ function BtWQuestsMinimapButtonDraggingFrame_OnUpdate()
     local scale = Minimap:GetEffectiveScale()
     px, py = px / scale, py / scale
     
-    BtWQuests_Settings.minimapAngle = math.deg(math.atan2(py - my, px - mx))
-    BtWQuestsMinimapButton_Reposition()
+    BtWQuestsMinimapButton_Reposition(math.deg(math.atan2(py - my, px - mx)))
 end
 
 function BtWQuestsMinimapButton_OnClick(self, button)

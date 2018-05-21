@@ -3018,6 +3018,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41803] = {
+        name = "Un service à demander",
+        level = -1,
+        requiredLevel = 98,
+    },
     [41804] = {
         name = "Il n’y a qu’à demander",
         level = -1,
@@ -3034,6 +3039,11 @@ BtWQuests_Quests = {
         requiredLevel = 98,
     },
     [40249] = {
+        name = "Vengeance sera nôtre",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41863] = {
         name = "Vengeance sera nôtre",
         level = -1,
         requiredLevel = 98,
@@ -3230,11 +3240,6 @@ BtWQuests_Quests = {
     },
     [42733] = {
         name = "Un carburant quelque peu particulier",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44616] = {
-        name = "We'll Need Some Obliterum",
         level = -1,
         requiredLevel = 110,
     },
@@ -5728,6 +5733,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41052] = {
+        name = "Une supplique désespérée",
+        level = -1,
+        requiredLevel = 98,
+    },
     [40579] = {
         name = "Des armes de légende",
         level = -1,
@@ -7765,6 +7775,11 @@ BtWQuests_Quests = {
         requiredLevel = 110,
     },
     [42815] = {
+        name = "Retour au rivage Brisé",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
         name = "Retour au rivage Brisé",
         level = -1,
         requiredLevel = 98,
@@ -10659,5 +10674,955 @@ BtWQuests_Quests = {
         name = "L’encre démoniaque",
         level = 110,
         requiredLevel = 110,
+    },
+    [38237] = {
+        name = "Ça fait partie du contrat",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "Démon disparu",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38232] = {
+        name = "Laquais ! Tuez-les !",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38460] = {
+        name = "Et si on faisait un marché ?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "Millésime frelaté",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38203] = {
+        name = "Les vignerons de Challiane",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "La Gueule du Brasier infernal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42367] = {
+        name = "Arkethrax",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "L’art et la manière",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "Troisième œil",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "Politique de quotas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "Un sang impur répandu",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "La valeur du savoir",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42635] = {
+        name = "Le mystère de Dreyrgrot",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "Une pierre de sang",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "Ce que les Parle-os ont enterré",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "Un sombre destin",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "Danse avec les corvursidés",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "Les mésaventures des Plumes-Noires",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "Plumes roussies",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "L’offrande de Nithogg",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "Un pari faussé",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "Rongeurs de profits",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43331] = {
+        name = "L’heure des comptes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42483] = {
+        name = "Tout sur le rouge",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "Pierre qui roule…",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "Un tas de côtelettes",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "Ce qui se fait de mieux",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "Sœurs émeraude",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43324] = {
+        name = "La rage des chouettards",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "Sur le territoire des indomptables",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "Saccageur de la lune",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42750] = {
+        name = "Capturêve",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42786] = {
+        name = "Dépouille grotesque",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "À la racine",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "Déluge de grells",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42857] = {
+        name = "Des fruits encombrants",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42883] = {
+        name = "La fureur des grells",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "Danse épineuse",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "Chardofeuilles chapardeurs",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "Comme un vol de sélénailes",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [46275] = {
+        name = "Le cœur du royaume",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46282] = {
+        name = "Le chemin du roi",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "Convocation au donjon",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "Un roi à consoler",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "Un souvenir retrouvé",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "Des bestioles comme s’il en pleuvait",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "L’attaque de la meute de loups",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "Un véritable chasseur",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "Le prototype",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40049] = {
+        name = "Plus c’est gluant, plus c’est ragoûtant",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "Murlocs : la prochaine génération",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "Insatiable faim de victoires",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "Acquis ou inné ?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "Bulles et détonations",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "Un plongeon dans l’obscurité",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "L’esbroufe de Lèvebrouf",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "Les reliques sombres-pierres",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "Guhruhlruhlruh",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39437] = {
+        name = "Au cœur de la caverne",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "Un don de flèches",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "L’évaluation de Razik",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40170] = {
+        name = "L’heure est aux amateurs",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40216] = {
+        name = "Cœur de chasseur",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "La chasse aux ours",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "La traque aux lions",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "Le pistage des élans",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "Je ne suis PAS un lion !",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "Un élan en cavale",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40228] = {
+        name = "Une bête à débusquer",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "Des chèvres avides de lecture",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40244] = {
+        name = "Ce gars en costume",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [49787] = {
+        name = "Les terres Fantômes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "Les Sancteforge",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "Forge des Éons",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Faille de Telogrus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "Pour la Lumière !",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "Un voile d’ombre sur les Pitons-du-Tonnerre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "De glace et d’ombre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "La dernière protection",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "La malédiction nécrosombre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Retour à Haut-Roc",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Forces ténébreuses",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Le souvenir du Puits de soleil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "Funestes présages",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "Serviteurs des Ténèbres",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "Marcher dans leurs pas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "Le domaine de Thalyssra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "Ensemble, nous sommes la Horde !",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "Comment se porte Corne-d’Ébène ?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "Ombre du sépulcre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "Les Ténèbres",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Lune-d’Argent",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "Les Sacrenuit",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "La montagne de Huln",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "Un festin pour les nôtres",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "Laquais des Ténèbres",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44741] = {
+        name = "Retour à Karazhan : sacs aux mille malices",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38975] = {
+        name = "Ma source d’inspiration",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38656] = {
+        name = "La marque du démon",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38765] = {
+        name = "Place aux Illidari : les Shivarra",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40222] = {
+        name = "Le grimoire de la mère des diablotins",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39279] = {
+        name = "Assaut sur Mardum",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39663] = {
+        name = "D’un battement d’aile de gangroptère",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40051] = {
+        name = "Secrets gangrenés",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [44463] = {
+        name = "Des démons parmi eux",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39742] = {
+        name = "Caveau des Gardiennes",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39683] = {
+        name = "Forgé dans les flammes",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40378] = {
+        name = "Place aux Illidari : les Cendrelangues",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39689] = {
+        name = "Le départ des Illidari",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39691] = {
+        name = "L’appel de la guerre",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38813] = {
+        name = "Des ordres pour vos capitaines",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38689] = {
+        name = "Infusion gangrenée",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40077] = {
+        name = "L’invasion commence",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38819] = {
+        name = "Ils sont Légion",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39262] = {
+        name = "Voir par-delà ses yeux",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39516] = {
+        name = "Semer la dévastation",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38766] = {
+        name = "Avant d’être submergés",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38723] = {
+        name = "Arrêtez Gul’dan !",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38725] = {
+        name = "Dans la Couveuse infâme",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38727] = {
+        name = "Halte au bombardement",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38729] = {
+        name = "Retourner au Temple noir",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40373] = {
+        name = "Une nouvelle direction",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39682] = {
+        name = "Envole-moi",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39495] = {
+        name = "Caché, mais plus pour longtemps",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39686] = {
+        name = "Jusqu’au sommet",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39688] = {
+        name = "La liberté à portée d’ailes",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [44473] = {
+        name = "Une arme de l’Alliance",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44471] = {
+        name = "Seconde vue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40379] = {
+        name = "Place aux Illidari : les Glissentailles",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39049] = {
+        name = "L’œil rivé sur l’objectif",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38690] = {
+        name = "Le soulèvement des Illidari",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39050] = {
+        name = "Une audience auprès de la reine",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39684] = {
+        name = "Tout un rayon",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38759] = {
+        name = "Libérer, délivrer",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38728] = {
+        name = "La Clé",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38672] = {
+        name = "La gangr’évasion",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39685] = {
+        name = "Figé dans le temps",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40256] = {
+        name = "La liberté à portée d’ailes",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39515] = {
+        name = "À moi la vengeance !",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [41002] = {
+        name = "Une arme de la Horde",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40983] = {
+        name = "Des démons parmi eux",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39690] = {
+        name = "Le départ des Illidari",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40976] = {
+        name = "Une audience avec le chef de guerre",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40982] = {
+        name = "Seconde vue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44663] = {
+        name = "D’un battement de cil",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38842] = {
+        name = "Fracas féerique",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42809] = {
+        name = "L’invasion de Niskara",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41070] = {
+        name = "Le trophée de la victoire",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44161] = {
+        name = "Ce dont Gaardoun a besoin",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39047] = {
+        name = "L’appel des Illidari",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42670] = {
+        name = "Levez-vous, champions !",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41096] = {
+        name = "Le temps presse",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42634] = {
+        name = "Confrontation au Temple noir",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40816] = {
+        name = "Le pouvoir de survivre",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41060] = {
+        name = "Une puissance déchaînée",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42666] = {
+        name = "Retour au Marteau gangrené",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39741] = {
+        name = "Dans nos rangs",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41099] = {
+        name = "La main du courroux",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41066] = {
+        name = "L’œil des chasseurs",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41069] = {
+        name = "La main du courroux",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41221] = {
+        name = "Retour à Mardum",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41067] = {
+        name = "Le temps presse",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40819] = {
+        name = "Petits accords",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39051] = {
+        name = "Par tous les moyens",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39247] = {
+        name = "La chasse",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39694] = {
+        name = "La liberté à portée d’ailes",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [41631] = {
+        name = "Caveau du Nexus",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [48453] = {
+        name = "Riposte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46178] = {
+        name = "Cachés en pleine lumière",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40254] = {
+        name = "Forgé dans les flammes",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [45632] = {
+        name = "Disparu au combat : Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40255] = {
+        name = "La liberté à portée d’ailes",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40253] = {
+        name = "Arrêtez Gul’dan !",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [46324] = {
+        name = "Faux ordres",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45873] = {
+        name = "Champion : Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45633] = {
+        name = "Opération Gangrerage",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46322] = {
+        name = "La baie du pirate",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45647] = {
+        name = "Mission : sauvetage",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46323] = {
+        name = "Cache-cache et poudre aux yeux",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45644] = {
+        name = "Ô Doloria, ma douce Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "À genoux, que je vous arme écuyer",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "Mission impossible ?",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Formation continue",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "Où es-tu, ma dulcinée ?",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "Les effets personnels du chevalier",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "Mon royaume pour un cheval",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "Ils ont volé Excaliberto !",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Venez me retrouver",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "La ballade de Maximillian",
+        level = 55,
+        requiredLevel = 51,
     },
 }

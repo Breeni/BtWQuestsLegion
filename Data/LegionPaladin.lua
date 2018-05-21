@@ -863,6 +863,141 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER] = {
         },
     },
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER] = {
+    name = "Champion: Maximillian of Northshire",
+    category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    restrictions = {
+        {
+            type = "class",
+            class = BTWQUESTS_CLASS_ID_PALADIN,
+        },
+    },
+    prerequisites = {
+        {
+            type = "quest",
+            id = 24707,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+        }
+    },
+    completed = {
+        type = "quest",
+        id = 45813,
+    },
+    range = {110},
+    items = {
+        {
+            type = "quest",
+            id = 24707,
+            x = 2,
+            y = 0,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+            breadcrumb = true,
+            x = 4,
+            y = 0,
+            connections = {
+                1
+            },
+        },
+        {
+            name = "Wait for a mail from Maximillian",
+            type = "quest",
+            id = 45773,
+            x = 3,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 45561,
+            x = 3,
+            y = 2,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 45562,
+            x = 3,
+            y = 3,
+            connections = {
+                1, 2, 3, 4
+            },
+        },
+        {
+            type = "quest",
+            id = 45565,
+            x = 0,
+            y = 4,
+            connections = {
+                4
+            },
+        },
+        {
+            type = "quest",
+            id = 45566,
+            x = 2,
+            y = 4,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 45567,
+            x = 4,
+            y = 4,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 45568,
+            x = 6,
+            y = 4,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 45644,
+            x = 3,
+            y = 5,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 45645,
+            x = 3,
+            y = 6,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 45813,
+            x = 3,
+            y = 7,
+        }
+    },
+}
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT] = {
     name = BTWQUESTS_PALADIN_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
@@ -978,6 +1113,10 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER,
         },
         {
             type = "chain",

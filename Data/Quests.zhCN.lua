@@ -3018,6 +3018,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41803] = {
+        name = "Asking a Favor",
+        level = -1,
+        requiredLevel = 98,
+    },
     [41804] = {
         name = "Ask and You Shall Receive",
         level = -1,
@@ -3034,6 +3039,11 @@ BtWQuests_Quests = {
         requiredLevel = 98,
     },
     [40249] = {
+        name = "Vengeance Will Be Ours",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41863] = {
         name = "Vengeance Will Be Ours",
         level = -1,
         requiredLevel = 98,
@@ -3230,11 +3240,6 @@ BtWQuests_Quests = {
     },
     [42733] = {
         name = "A Very Special Kind of Fuel",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44616] = {
-        name = "We'll Need Some Obliterum",
         level = -1,
         requiredLevel = 110,
     },
@@ -5728,6 +5733,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [41052] = {
+        name = "A Desperate Plea",
+        level = -1,
+        requiredLevel = 98,
+    },
     [40579] = {
         name = "Weapons of Legend",
         level = -1,
@@ -7765,6 +7775,11 @@ BtWQuests_Quests = {
         requiredLevel = 110,
     },
     [42815] = {
+        name = "Return to the Broken Shore",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
         name = "Return to the Broken Shore",
         level = -1,
         requiredLevel = 98,
@@ -10659,5 +10674,955 @@ BtWQuests_Quests = {
         name = "Demon Ink",
         level = 110,
         requiredLevel = 110,
+    },
+    [38237] = {
+        name = "This IS In My Contract.",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "Missing Demon",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38232] = {
+        name = "Minion! Kill Them!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38460] = {
+        name = "Let's Make A Deal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "A Tainted Vintage",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38203] = {
+        name = "Challiane Vineyards",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "Felblaze Ingress",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42367] = {
+        name = "Arkethrax",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "They're Doing it Wrong",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "Eye See You",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "Quantity Over Quality",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "Spilling Bad Blood",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "The Value of Knowledge",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42635] = {
+        name = "The Mystery of Dreyrgrot",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "A Stone of Blood",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "What the Bonespeakers Buried",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "A Murky Fate",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "Dances With Ravenbears",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "Plight of the Blackfeather",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "Singed Feathers",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "Nithogg's Tribute",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "Rigging the Wager",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "Eating Into Our Business",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43331] = {
+        name = "Time to Collect",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42483] = {
+        name = "Put It All on Red",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "A Stone Cold Gamble",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "A Stack of Racks",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "Only the Finest",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "Emerald Sisters",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43324] = {
+        name = "Rage of the Owlbeasts",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "Where the Wildkin Are",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "Moon Reaver",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42750] = {
+        name = "Dreamcatcher",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42786] = {
+        name = "Grotesque Remains",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "Grassroots Effort",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "Grell to Pay",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42857] = {
+        name = "Moist Around the Hedges",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42883] = {
+        name = "All Grell Broke Loose",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "Thorny Dancing",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "Thieving Thistleleaf",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "Spread Your Lunarwings and Fly",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [46275] = {
+        name = "A Kingdom's Heart",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46282] = {
+        name = "The King's Path",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "Summons to the Keep",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "Consoling the King",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "A Found Memento",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "Critter Scatter Shot",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "Wolf Pack Attack",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "A True Hunter",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "Procuring a Prototype",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40049] = {
+        name = "Slime Time",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "Murlocs: The Next Generation",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "Oh, the Clawdacity!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "Nature vs. Nurture",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "I'll Huff, I'll Puff...",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "Step into the Dark",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "You Lift, Brul?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "Stonedark Relics",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "Guhruhlruhlruh",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39437] = {
+        name = "Deep in the Cavern",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "An Offering of Ammo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "Rating Razik",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40170] = {
+        name = "Amateur Hour",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40216] = {
+        name = "A Hunter at Heart",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "Bear Huntin'",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "Lion Stalkin'",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "Moose Shootin'",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "I'm Not Lion!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "Moose on the Loose",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40228] = {
+        name = "Scout It Out",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "Note-Eating Goats",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40244] = {
+        name = "That Guy in the Costume",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [49787] = {
+        name = "The Ghostlands",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "The Lightforged",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "Forge of Aeons",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Telogrus Rift",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "For the Light!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "Shadow Over Thunder Bluff",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41840] = {
+        name = "Ice and Shadow",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41841] = {
+        name = "The Final Ward",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41815] = {
+        name = "Curse of the Necrodark",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Return to Highmountain",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Dark Forces",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Remember the Sunwell",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41884] = {
+        name = "Dark Tales",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41799] = {
+        name = "Minions of the Darkness",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "Walking in Their Footsteps",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "Thalyssra's Estate",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "Together We Are the Horde!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "How Fares Ebonhorn?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "Shadow of the Sepulcher",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "The Darkness",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Silvermoon City",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "The Nightborne",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "Huln's Mountain",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "A Feast for Our Kin",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41800] = {
+        name = "Servants of the Darkness",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44741] = {
+        name = "Return to Karazhan: The Big Bag Theory",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38975] = {
+        name = "Inspire Me!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38656] = {
+        name = "Mark of the Demon",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38765] = {
+        name = "Enter the Illidari: Shivarra",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40222] = {
+        name = "The Imp Mother's Tome",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39279] = {
+        name = "Assault on Mardum",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39663] = {
+        name = "On Felbat Wings",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40051] = {
+        name = "Fel Secrets",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [44463] = {
+        name = "Demons Among Them",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39742] = {
+        name = "Vault of the Wardens",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39683] = {
+        name = "Forged in Fire",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40378] = {
+        name = "Enter the Illidari: Ashtongue",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39689] = {
+        name = "Illidari, We Are Leaving",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39691] = {
+        name = "The Call of War",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38813] = {
+        name = "Orders for Your Captains",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38689] = {
+        name = "Fel Infusion",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40077] = {
+        name = "The Invasion Begins",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38819] = {
+        name = "Their Numbers Are Legion",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39262] = {
+        name = "Give Me Sight Beyond Sight",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39516] = {
+        name = "Cry Havoc and Let Slip the Illidari!",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38766] = {
+        name = "Before We're Overrun",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38723] = {
+        name = "Stop Gul'dan!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38725] = {
+        name = "Into the Foul Creche",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38727] = {
+        name = "Stop the Bombardment",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38729] = {
+        name = "Return to the Black Temple",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40373] = {
+        name = "A New Direction",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39682] = {
+        name = "Grand Theft Felbat",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39495] = {
+        name = "Hidden No More",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39686] = {
+        name = "All The Way Up",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39688] = {
+        name = "Between Us and Freedom",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [44473] = {
+        name = "A Weapon of the Alliance",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44471] = {
+        name = "Second Sight",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40379] = {
+        name = "Enter the Illidari: Coilskar",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39049] = {
+        name = "Eye On the Prize",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38690] = {
+        name = "Rise of the Illidari",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39050] = {
+        name = "Meeting With the Queen",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39684] = {
+        name = "Beam Me Up",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38759] = {
+        name = "Set Them Free",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38728] = {
+        name = "The Keystone",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38672] = {
+        name = "Breaking Out",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39685] = {
+        name = "Frozen in Time",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40256] = {
+        name = "Between Us and Freedom",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39515] = {
+        name = "Vengeance Will Be Mine!",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [41002] = {
+        name = "A Weapon of the Horde",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40983] = {
+        name = "Demons Among Them",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39690] = {
+        name = "Illidari, We Are Leaving",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40976] = {
+        name = "Audience with the Warchief",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40982] = {
+        name = "Second Sight",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44663] = {
+        name = "In the Blink of an Eye",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38842] = {
+        name = "Faerie Fracas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42809] = {
+        name = "The Invasion of Niskara",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41070] = {
+        name = "Spoils of Victory",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44161] = {
+        name = "Things Gaardoun Needs",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39047] = {
+        name = "Call of the Illidari",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42670] = {
+        name = "Rise, Champions",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41096] = {
+        name = "Time is of the Essence",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42634] = {
+        name = "Confrontation at the Black Temple",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40816] = {
+        name = "The Power to Survive",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41060] = {
+        name = "Unbridled Power",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42666] = {
+        name = "Return to the Fel Hammer",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39741] = {
+        name = "Into Our Ranks",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41099] = {
+        name = "Direct Our Wrath",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41066] = {
+        name = "The Hunter's Gaze",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41069] = {
+        name = "Direct Our Wrath",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41221] = {
+        name = "Return to Mardum",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41067] = {
+        name = "Time is of the Essence",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40819] = {
+        name = "Making Arrangements",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39051] = {
+        name = "By Any Means",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39247] = {
+        name = "The Hunt",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39694] = {
+        name = "Between Us and Freedom",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [41631] = {
+        name = "The Nexus Vault",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [48453] = {
+        name = "Strike Back",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46178] = {
+        name = "Hiding In Plain Sight",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40254] = {
+        name = "Forged in Fire",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [45632] = {
+        name = "Missing in Action: Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40255] = {
+        name = "Between Us and Freedom",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40253] = {
+        name = "Stop Gul'dan!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [46324] = {
+        name = "False Orders",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45873] = {
+        name = "Champion: Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45633] = {
+        name = "Operation Felrage",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46322] = {
+        name = "The Pirate's Bay",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45647] = {
+        name = "Mission: Search and Rescue",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46323] = {
+        name = "What's the Cache?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45644] = {
+        name = "Oh Doloria, My Sweet Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45562] = {
+        name = "Kneel and Be Squired!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "A Fool's Errand",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45565] = {
+        name = "Further Training",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "Where Art Thou, My Sweet",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45566] = {
+        name = "A Knight's Belongings",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45567] = {
+        name = "My Kingdom for a Horse",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45568] = {
+        name = "They Stole Excaliberto!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Seek Me Out",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [24707] = {
+        name = "The Ballad of Maximillian",
+        level = 55,
+        requiredLevel = 51,
     },
 }

@@ -132,7 +132,13 @@
 		<Scripts>
 			<OnMouseUp>
                 if ( button == "RightButton" ) then
-                    BtWQuests_ZoomOut()
+					if self.type == "chain" then
+						BtWQuests_Settings.ignoredChains[self.id] = not BtWQuests_Settings.ignoredChains[self.id] and true or nil
+            			self.AciveTexture:SetShown(BtWQuests_IsChainActive(self.id))
+					elseif self.type == "category" then
+						BtWQuests_Settings.ignoredCategories[self.id] = not BtWQuests_Settings.ignoredCategories[self.id] and true or nil
+					end
+                    -- BtWQuests_ZoomOut()
                 end
 			</OnMouseUp>
 		</Scripts>
@@ -193,6 +199,13 @@
                     </Anchors>							
                     <TexCoords left="0.25" right="0.5" top="0.1203125" bottom="0.4140625"/><!-- top="0.0703125" bottom="0.4140625"-->
                 </Texture>
+            </Layer>
+			<Layer level="ARTWORK" textureSubLevel="1">
+				<Texture parentKey="Tick" inherits="GreenCheckMarkTemplate">
+					<Anchors>
+						<Anchor point="BOTTOMRIGHT" relativePoint="BOTTOMRIGHT" x="-7" y="7"/>
+					</Anchors>
+				</Texture>
             </Layer>
 			<Layer level="ARTWORK">
 				<Texture parentKey="TagTexture" file="Interface\QuestFrame\QuestTypeIcons" hidden="true">
