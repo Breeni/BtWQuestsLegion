@@ -159,6 +159,7 @@ local function BtWQuests_CompareItems(a, b)
     end
 end
 
+local BtWQuests_GetItemSkip
 local BtWQuests_CheckItemRequirement
 local function BtWQuests_EvalRequirement(requirement, item, one)
     if type(requirement) == "boolean" then
@@ -169,7 +170,7 @@ local function BtWQuests_EvalRequirement(requirement, item, one)
 
             local filtered = {}
             for _, v in ipairs(requirement) do
-                if v.restrictions == nil or BtWQuests_EvalRequirement(v.restrictions, v) then
+                if not BtWQuests_GetItemSkip(v) then
                     table.insert(filtered, v)
                 end
             end
@@ -356,7 +357,7 @@ local function BtWQuests_GetItemVisible(item)
     end
 end
 
-local function BtWQuests_GetItemSkip(item)
+BtWQuests_GetItemSkip = function (item)
     if item.restrictions and not BtWQuests_EvalRequirement(item.restrictions, item) then
         return true
     end
