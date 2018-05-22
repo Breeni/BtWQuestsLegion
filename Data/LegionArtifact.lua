@@ -1,6 +1,6 @@
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER] = {
     name = BtWQuests_GetQuestName(43533),
-    category = 1,
+    category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
         {
