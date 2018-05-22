@@ -953,7 +953,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT] = {
     },
 }
 
-
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
     name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -965,18 +964,6 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
     },
     -- buttonImage = 1041999,
     items = {
-        -- {
-            -- type = "chain",
-            -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-        -- },
-        -- {
-            -- type = "chain",
-            -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-        -- },
-        -- {
-            -- type = "chain",
-            -- id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-        -- },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN,
@@ -991,3 +978,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
+})

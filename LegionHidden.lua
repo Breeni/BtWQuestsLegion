@@ -273,7 +273,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE] = {
         },
     },
 }
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA] = {
     name = "Uuna",
     category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
@@ -565,3 +564,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_HIDDEN] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
+})

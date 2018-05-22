@@ -889,9 +889,6 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR] = {
     },
     -- buttonImage = 1041999,
     items = {
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY,
-        -- BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN,
@@ -906,3 +903,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+})
