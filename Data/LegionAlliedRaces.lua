@@ -11,7 +11,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI] = {
     prerequisites = {
         {
             type = "expansion",
-            expansion = 7,
+            expansion = BTWQUESTS_EXPANSION_BFA,
         },
         {
             type = "achievement",
@@ -75,7 +75,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_VOID_ELF] = {
     prerequisites = {
         {
             type = "expansion",
-            expansion = 7,
+            expansion = BTWQUESTS_EXPANSION_BFA,
         },
         {
             type = "achievement",
@@ -130,7 +130,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_NIGHTBORNE] = {
     prerequisites = {
         {
             type = "expansion",
-            expansion = 7,
+            expansion = BTWQUESTS_EXPANSION_BFA,
         },
         {
             type = "achievement",
@@ -203,7 +203,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN] = {
     prerequisites = {
         {
             type = "expansion",
-            expansion = 7,
+            expansion = BTWQUESTS_EXPANSION_BFA,
         },
         {
             type = "achievement",
