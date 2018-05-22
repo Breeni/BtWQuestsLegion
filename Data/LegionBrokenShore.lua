@@ -533,3 +533,8 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_BROKENSHORE] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
+})
