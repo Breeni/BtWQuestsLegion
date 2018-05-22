@@ -167,7 +167,14 @@ local function BtWQuests_EvalRequirement(requirement, item, one)
         if requirement[1] ~= nil then
             one = one and true or false -- Should we only require 1 item to be true
 
+            local filtered = {}
             for _, v in ipairs(requirement) do
+                if v.restrictions == nil or BtWQuests_EvalRequirement(v.restrictions, v) then
+                    table.insert(filtered, v)
+                end
+            end
+
+            for _, v in ipairs(filtered) do
                 if BtWQuests_CheckItemRequirement(v) == one then
                     return one
                 end
@@ -585,7 +592,7 @@ function BtWQuests_IsChainActive(chainID)
     
     local active, completed = false, false
     if chain.completed then
-        completed = BtWQuests_EvalRequirement(chain.completed, chain, true)
+        completed = BtWQuests_EvalRequirement(chain.completed, chain)
     end
     if not completed then
         if chain.prerequisites then
@@ -610,7 +617,7 @@ function BtWQuests_IsChainCompleted(chainID)
     
     local completed = false
     if chain.completed then
-        completed = BtWQuests_EvalRequirement(chain.completed, chain, true)
+        completed = BtWQuests_EvalRequirement(chain.completed, chain)
     end
     
     return completed
@@ -907,7 +914,7 @@ function BtWQuests_GetChainItem(item)
         visible = BtWQuests_EvalRequirement(visible, item)
         
         if status == nil then
-            completed = BtWQuests_EvalRequirement(completed, item, true)
+            completed = BtWQuests_EvalRequirement(completed, item)
             
             if completed then
                 active = false
