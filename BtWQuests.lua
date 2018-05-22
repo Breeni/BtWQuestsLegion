@@ -160,18 +160,20 @@ local function BtWQuests_CompareItems(a, b)
 end
 
 local BtWQuests_CheckItemRequirement
-local function BtWQuests_EvalRequirement(requirement, item)
+local function BtWQuests_EvalRequirement(requirement, item, one)
     if type(requirement) == "boolean" then
         return requirement
     elseif type(requirement) == "table" then
         if requirement[1] ~= nil then
+            one = one and true or false -- Should we only require 1 item to be true
+
             for _, v in ipairs(requirement) do
-                if BtWQuests_CheckItemRequirement(v) then
-                    return true
+                if BtWQuests_CheckItemRequirement(v) == one then
+                    return one
                 end
             end
             
-            return false
+            return not one
         else
             return BtWQuests_CheckItemRequirement(requirement)
         end
@@ -464,7 +466,7 @@ local function BtWQuests_GetCategoryItem(item)
         onClick = onClick or function (self)
             if not ChatEdit_TryInsertChatLink(self.userdata.link) then
                 BtWQuestsNav_AddChainButton(self.id, self.userdata.name)
-                
+
                 BtWQuests_SetCurrentChain(self.id)
                 BtWQuests_DisplayChain()
                 
@@ -583,11 +585,11 @@ function BtWQuests_IsChainActive(chainID)
     
     local active, completed = false, false
     if chain.completed then
-        completed = BtWQuests_EvalRequirement(chain.completed, chain)
+        completed = BtWQuests_EvalRequirement(chain.completed, chain, true)
     end
     if not completed then
         if chain.prerequisites then
-            active = BtWQuests_EvalRequirement(chain.prerequisites)
+            active = BtWQuests_EvalRequirement(chain.prerequisites, chain)
         else
             active = true -- Assumed a chain with out prerequisites is active
         end
@@ -608,7 +610,7 @@ function BtWQuests_IsChainCompleted(chainID)
     
     local completed = false
     if chain.completed then
-        completed = BtWQuests_EvalRequirement(chain.completed, chain)
+        completed = BtWQuests_EvalRequirement(chain.completed, chain, true)
     end
     
     return completed
@@ -641,7 +643,7 @@ function BtWQuests_GetChainByID(chainID)
     
     local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, BtWQuests_EvalText(chain.name, chain))
     return chainID, BtWQuests_EvalText(chain.name, chain), link, chain.expansion, chain.category, chain.buttonImage, chain.prerequisites and #chain.prerequisites or 0, chain.items and #chain.items or 0
-end -- , active, completed
+end
 
 function BtWQuests_GetQuestName(questID)
     if not questID then
@@ -905,7 +907,7 @@ function BtWQuests_GetChainItem(item)
         visible = BtWQuests_EvalRequirement(visible, item)
         
         if status == nil then
-            completed = BtWQuests_EvalRequirement(completed, item)
+            completed = BtWQuests_EvalRequirement(completed, item, true)
             
             if completed then
                 active = false
