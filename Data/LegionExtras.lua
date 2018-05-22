@@ -1,6 +1,6 @@
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
     name = BTWQUESTS_EPILOGUE,
-    category = 0,
+    category = nil,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
         {
@@ -250,7 +250,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_LOST_MAIL] = {
     name = "Lost Mail",
-    category = 0,
+    category = nil,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
         type = "quest",
