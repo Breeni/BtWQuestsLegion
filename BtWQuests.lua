@@ -28,6 +28,15 @@ local BTWQUESTS_EXPANSION_DATA = {
         r = 1.0, g = 0.8, b = 0.0
     },
 }
+local ExpansionEnumToEJTierDataTableId = {
+	[LE_EXPANSION_CLASSIC] = 1,
+	[LE_EXPANSION_BURNING_CRUSADE] = 2,
+	[LE_EXPANSION_WRATH_OF_THE_LICH_KING] = 3,
+	[LE_EXPANSION_CATACLYSM] = 4,
+	[LE_EXPANSION_MISTS_OF_PANDARIA] = 5,
+	[LE_EXPANSION_WARLORDS_OF_DRAENOR] = 6,
+	[LE_EXPANSION_LEGION] = 7,
+}
 
 local professionsMap = {
 	[129] = BTWQUESTS_PROFESSION_FIRST_AID,
@@ -59,7 +68,7 @@ end
 
 local BTWQUESTS_NUM_ITEMS_PER_ROW = 4;
 
-local BtWQuests_CurrentExpansion = BTWQUESTS_EXPANSION_LEGION
+local BtWQuests_CurrentExpansion = nil
 local BtWQuests_CurrentCategory = nil
 local BtWQuests_CurrentChain = nil
 
@@ -81,6 +90,21 @@ end
 
 function BtWQuests_GetExpansionInfo(index)
     return EJ_GetTierInfo(index + 1)
+end
+
+-- EJSuggestTab_GetPlayerTierIndex from Blizzard_EncounterJournal.lua
+function BtWQuests_GuessExpansion()
+	local playerLevel = UnitLevel("player");
+	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
+	local minDiff = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEVEL_CURRENT];
+	for tierId, tierLevel in pairs(MAX_PLAYER_LEVEL_TABLE) do
+		local diff = tierLevel - playerLevel;
+		if ( diff > 0 and diff < minDiff ) then
+			expansionId = tierId;
+			minDiff = diff;
+		end
+	end
+    return ExpansionEnumToEJTierDataTableId[expansionId];
 end
 
 function BtWQuests_GetCurrentCategory()
@@ -300,7 +324,13 @@ BtWQuests_CheckItemRequirement = function (item, skipAlternatives)
             return standing >= item.standing
         end
     elseif item.type == "achievement" then
-        if item.anyone then
+        if item.criteria then
+            if item.completed == false then
+                return not select(3, GetAchievementCriteriaInfo(item.id, item.criteria))
+            else
+                return select(3, GetAchievementCriteriaInfo(item.id, item.criteria))
+            end
+        elseif item.anyone then
             if item.completed == false then
                 return not select(4, GetAchievementInfo(item.id))
             else
@@ -331,6 +361,10 @@ BtWQuests_CheckItemRequirement = function (item, skipAlternatives)
 end
 
 BtWQuests_GetItemName = function (item)
+    if item == nil then
+        return "Unnamed"
+    end
+
     if item.name then
         return BtWQuests_EvalText(item.name, item)
     end
@@ -358,20 +392,29 @@ BtWQuests_GetItemName = function (item)
             return string.format(name or BTWQUESTS_REPUTATION_STANDING, standingText, factionName)
         end
     elseif item.type == "achievement" then
-        return select(2, GetAchievementInfo(item.id))
+        if item.criteria then
+            return string.format("%s: %s", select(2, GetAchievementInfo(item.id)), select(1, GetAchievementCriteriaInfo(item.id, item.criteria)))
+        else
+            return select(2, GetAchievementInfo(item.id))
+        end
     elseif item.type == "profession" then
         if professionsMap[item.id] ~= nil then
             return professionsMap[item.id]
         end
 
         return item.id
+    elseif item.type ~= nil then
+        assert(false, "Invalid item type: " .. item.type)
     else
-        assert(item.type ~= nil, "Invalid item type: " .. item.type)
         return "Unnamed"
     end
 end
 
 local function BtWQuests_GetItemVisible(item)
+    if item == nil then
+        return true
+    end
+
     if item.visible ~= nil then
         return BtWQuests_EvalRequirement(item.visible, item)
     end
@@ -388,6 +431,10 @@ local function BtWQuests_GetItemVisible(item)
 end
 
 BtWQuests_GetItemSkip = function (item)
+    if item == nil then
+        return false
+    end
+
     if item.restrictions and not BtWQuests_EvalRequirement(item.restrictions, item) then
         return true
     end
@@ -1098,6 +1145,7 @@ function BtWQuests_OnLoad(self)
     self.Tooltip:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
     self.Tooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
     
+    BtWQuests_SetCurrentExpansion(BtWQuests_GuessExpansion())
     local expansion = BtWQuests_GetCurrentExpansion()
 	local tierData = BTWQUESTS_EXPANSION_DATA[expansion];
 	local questSelect = BtWQuests.QuestSelect;
@@ -1485,8 +1533,10 @@ function BtWQuests_DisplayChain(scrollTo)
         temp = temp - 1
     end
     
-    scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
-    
+    if temp > 0 then
+        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
+    end
+
     if scrollTo ~= false then
         if scrollToButton == nil then
             scrollToButton = scrollToButtonAside
@@ -1501,8 +1551,10 @@ function BtWQuests_DisplayChain(scrollTo)
             scrollToButton = scrollFrame["item"..temp]
         end
         
-        chain.scroll:UpdateScrollChildRect()
-        chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        if scrollToButton then
+            chain.scroll:UpdateScrollChildRect()
+            chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        end
     end
 end
 
