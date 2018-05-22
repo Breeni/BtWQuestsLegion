@@ -141,7 +141,28 @@ function BtWQuests_SelectFromLink(link, scrollTo)
     return false
 end
 
-local function BtWQuests_CheckRequirement(item)
+local function BtWQuests_CheckRequirement(item, skipAlternatives)
+    if (item.type == "quest" or item.type == "chain") and item.alternatives ~= nil and not skipAlternatives then
+        if BtWQuests_CheckRequirement(item, true) then
+            return true
+        end
+
+        for _,alternative in ipairs(item.alternatives) do
+            if type(alternative) == "table" then
+                if BtWQuests_CheckRequirement(alternative) then
+                    return true
+                end
+            else
+                if BtWQuests_CheckRequirement({
+                    type = item.type,
+                    id = alternative,
+                }) then
+                    return true
+                end
+            end
+        end
+    end
+
     if item.type == "quest" then
         if item.active == true then
             return BtWQuests_IsQuestActive(item.id)
@@ -725,10 +746,46 @@ function BtWQuests_EvalChainItem(item)
             tagID = tagID or quest.tagID
             
             active = active == nil and function (item)
-                return BtWQuests_IsQuestActive(item.id)
+                if BtWQuests_IsQuestActive(item.id) then
+                    return true
+                end
+
+                if item.alternatives ~= nil then
+                    for _,alternative in ipairs(item.alternatives) do
+                        if type(alternative) == "table" then
+                            if BtWQuests_IsQuestActive(alternative.id) then
+                                return true
+                            end
+                        else
+                            if BtWQuests_IsQuestActive(alternative) then
+                                return true
+                            end
+                        end
+                    end
+                end
+
+                return false
             end or active
             completed = completed == nil and function (item)
-                return BtWQuests_IsQuestCompleted(item.id)
+                if BtWQuests_IsQuestCompleted(item.id) then
+                    return true
+                end
+
+                if item.alternatives ~= nil then
+                    for _,alternative in ipairs(item.alternatives) do
+                        if type(alternative) == "table" then
+                            if BtWQuests_IsQuestCompleted(alternative.id) then
+                                return true
+                            end
+                        else
+                            if BtWQuests_IsQuestCompleted(alternative) then
+                                return true
+                            end
+                        end
+                    end
+                end
+
+                return false
             end or completed
             
             onClick = onClick or function (self)
