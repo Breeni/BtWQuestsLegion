@@ -18,8 +18,8 @@
         <Color r="0.937" g="0.796" b="0" a="1"/>
 	</Texture>
 	<Texture name="UI-BtWQuests-NavBorder" file="Interface\FrameGeneral\UI-Frame" virtual="true">
-		<Size x="21" y="33"/>
-		<TexCoords left="0.625" right="0.7890625" top="0.0078125" bottom="0.265625"/>
+		<Size x="22" y="33"/>
+		<TexCoords left="0.625" right="0.796875" top="0.0078125" bottom="0.265625"/>
 	</Texture>
     
 	<Frame name="BtWQuestsLineTemplate" virtual="true">
@@ -283,14 +283,22 @@
 		</Layers>
 		<Frames>
 			<Button name="$parentNavBack" parentKey="back">
-				<Size x="32" y="32"/>
+				<Size x="22" y="22"/>
 				<Anchors>
-					<Anchor point="LEFT" relativeKey="$parent.NavBorderLeft" relativePoint="LEFT" x="5" y="5"/>
+					<Anchor point="LEFT" relativeKey="$parent.NavBorderLeft" relativePoint="LEFT" x="10" y="5"/>
 				</Anchors>
-				<DisabledTexture file="Interface\Addons\BtWQuests\UI-Frame-BackButton-Disabled"/>
-				<NormalTexture file="Interface\Addons\BtWQuests\UI-Frame-BackButton-Up"/>
-				<PushedTexture file="Interface\Addons\BtWQuests\UI-Frame-BackButton-Down"/>
-				<HighlightTexture file="Interface\Buttons\UI-Panel-MinimizeButton-Highlight" alphaMode="ADD"/>
+				<DisabledTexture file="Interface\Addons\BtWQuests\UI-Frame-BackButton-Disabled">
+					<TexCoords left="0.125" right="0.8125" top="0.125" bottom="0.8125"/>
+				</DisabledTexture>
+				<NormalTexture file="Interface\Addons\BtWQuests\UI-Frame-BackButton-Up">
+					<TexCoords left="0.125" right="0.8125" top="0.125" bottom="0.8125"/>
+				</NormalTexture>
+				<PushedTexture file="Interface\Addons\BtWQuests\UI-Frame-BackButton-Down">
+					<TexCoords left="0.125" right="0.8125" top="0.125" bottom="0.8125"/>
+				</PushedTexture>
+				<HighlightTexture file="Interface\Buttons\UI-Panel-MinimizeButton-Highlight" alphaMode="ADD">
+					<TexCoords left="0.125" right="0.8125" top="0.125" bottom="0.8125"/>
+				</HighlightTexture>
 				<Scripts>
 					<OnLoad>
 						self:Disable();
@@ -299,14 +307,22 @@
 				</Scripts>
 			</Button>
 			<Button name="$parentNavForward" parentKey="forward">
-				<Size x="32" y="32"/>
+				<Size x="22" y="22"/>
 				<Anchors>
-					<Anchor point="LEFT" relativeTo="$parentNavBack" relativePoint="RIGHT" x="-10"/>
+					<Anchor point="LEFT" relativeTo="$parentNavBack" relativePoint="RIGHT" x="0"/>
 				</Anchors>
-				<DisabledTexture file="Interface\Addons\BtWQuests\UI-Frame-ForwardButton-Disabled"/>
-				<NormalTexture file="Interface\Addons\BtWQuests\UI-Frame-ForwardButton-Up"/>
-				<PushedTexture file="Interface\Addons\BtWQuests\UI-Frame-ForwardButton-Down"/>
-				<HighlightTexture file="Interface\Buttons\UI-Panel-MinimizeButton-Highlight" alphaMode="ADD"/>
+				<DisabledTexture file="Interface\Addons\BtWQuests\UI-Frame-ForwardButton-Disabled">
+					<TexCoords left="0.125" right="0.8125" top="0.125" bottom="0.8125"/>
+				</DisabledTexture>
+				<NormalTexture file="Interface\Addons\BtWQuests\UI-Frame-ForwardButton-Up">
+					<TexCoords left="0.125" right="0.8125" top="0.125" bottom="0.8125"/>
+				</NormalTexture>
+				<PushedTexture file="Interface\Addons\BtWQuests\UI-Frame-ForwardButton-Down">
+					<TexCoords left="0.125" right="0.8125" top="0.125" bottom="0.8125"/>
+				</PushedTexture>
+				<HighlightTexture file="Interface\Buttons\UI-Panel-MinimizeButton-Highlight" alphaMode="ADD">
+					<TexCoords left="0.125" right="0.8125" top="0.125" bottom="0.8125"/>
+				</HighlightTexture>
 				<Scripts>
 					<OnLoad>
 						self:Disable();
