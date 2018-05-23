@@ -1307,7 +1307,9 @@ function BtWQuests_OnLoad(self)
     self:SetAttribute("UIPanelLayout-whileDead", true)
     
 	BtWQuestsTitleText:SetText(BTWQUESTS_QUEST_JOURNAL);
-	SetPortraitToTexture(BtWQuestsPortrait, "Interface\\QuestFrame\\UI-QuestLog-BookIcon");
+    SetPortraitToTexture(BtWQuestsPortrait, "Interface\\QuestFrame\\UI-QuestLog-BookIcon");
+    
+    BtWQuestsTopBorder:SetPoint("TOPLEFT", BtWQuests.NavBorderRight, "TOPRIGHT", 0, 0);
     
     self.Tooltip:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
     self.Tooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
@@ -1331,7 +1333,7 @@ function BtWQuests_OnLoad(self)
             BtWQuestsHistory_AddCurrent()
 		end,
 	}
-	NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
+    NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
     
     -- BtWQuests_ListCategories()
     
