@@ -1,11 +1,18 @@
 ## Interface: 70300
 ## Title: BtWQuests
-## Version: 0.12.3
+## Version: 0.12.4
 ## Notes: 
 ## Author: Breen
 ## SavedVariablesPerCharacter: BtWQuests_Settings
 
 Data/Data.lua
+Data/Classic.lua
+Data/BurningCrusade.lua
+Data/Wrath.lua
+Data/Cataclysm.lua
+Data/Mists.lua
+Data/Warlords.lua
+Data/Legion.lua
 
 Data/Localization.lua
 
@@ -25,9 +32,6 @@ Data/Quests.ruRU.lua
 Data/Quests.zhCN.lua
 Data/Quests.zhTW.lua
 
-Data/Legion.lua
-Data/LegionArtifact.lua
-Data/LegionOrderhall.lua
 Data/LegionDeathKnight.lua
 Data/LegionDemonHunter.lua
 Data/LegionDruid.lua
@@ -40,6 +44,8 @@ Data/LegionRogue.lua
 Data/LegionShaman.lua
 Data/LegionWarlock.lua
 Data/LegionWarror.lua
+Data/LegionArtifact.lua
+Data/LegionOrderhall.lua
 Data/LegionAzsuna.lua
 Data/LegionValSharah.lua
 Data/LegionHighMountain.lua
@@ -50,3 +56,4 @@ Data/LegionArgus.lua
 Data/LegionProfessions.lua
 Data/LegionHidden.lua
 Data/LegionAlliedRaces.lua
+Data/LegionExtras.lua

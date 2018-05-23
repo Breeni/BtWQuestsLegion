@@ -335,8 +335,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
         },
     },
 }
-
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL] = {
     name = C_Garrison.GetFollowerInfo(986).name,
     category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
@@ -481,7 +479,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL] = {
         },
     },
 }
--- /dump C_Garrison.GetBasicMissionInfo(1502)
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ORDERHALL] = {
     name = BTWQUESTS_ORDERHALL,
@@ -498,6 +495,11 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ORDERHALL] = {
         },
     },
 }
+
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
+})
 
 BtWQuests_Missions[1502] = {
     name = "There is no Brawlers Guild",

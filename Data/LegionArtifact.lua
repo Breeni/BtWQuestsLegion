@@ -1,6 +1,6 @@
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER] = {
     name = BtWQuests_GetQuestName(43533),
-    category = 1,
+    category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
         {
@@ -3099,7 +3099,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
     },
 }
 
-
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ARTIFACT] = {
     name = BTWQUESTS_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -3297,3 +3296,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ARTIFACT] = {
     },
 }
 
+table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
+})

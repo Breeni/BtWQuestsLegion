@@ -1,12 +1,32 @@
-local EJ_TIER_DATA =
-{
-	[1] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Classic", r = 1.0, g = 0.8, b = 0.0 },
-	[2] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-BurningCrusade", r = 0.6, g = 0.8, b = 0.0 },
-	[3] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-WrathoftheLichKing", r = 0.2, g = 0.8, b = 1.0 },
-	[4] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Cataclysm", r = 1.0, g = 0.4, b = 0.0 },
-	[5] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-MistsofPandaria", r = 0.0, g = 0.6, b = 0.2 },
-	[6] = { backgroundTexture = "Interface\\ENCOUNTERJOURNAL\\UI-EJ-WarlordsofDraenor", r = 0.82, g = 0.55, b = 0.1 },
-	[7] = { backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Legion", r = 1.0, g = 0.8, b = 0.0 },
+local BTWQUESTS_EXPANSION_DATA = {
+	[BTWQUESTS_EXPANSION_CLASSIC] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Classic",
+        r = 1.0, g = 0.8, b = 0.0
+    },
+	[BTWQUESTS_EXPANSION_BURNING_CRUSADE] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-BurningCrusade",
+        r = 0.6, g = 0.8, b = 0.0
+    },
+	[BTWQUESTS_EXPANSION_WRATH_OF_THE_LICH_KING] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-WrathoftheLichKing",
+        r = 0.2, g = 0.8, b = 1.0
+    },
+	[BTWQUESTS_EXPANSION_CATACLYSM] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Cataclysm",
+        r = 1.0, g = 0.4, b = 0.0
+    },
+	[BTWQUESTS_EXPANSION_MISTS_OF_PANDARIA] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-MistsofPandaria",
+        r = 0.0, g = 0.6, b = 0.2
+    },
+	[BTWQUESTS_EXPANSION_WARLORDS_OF_DRAENOR] = {
+        backgroundTexture = "Interface\\ENCOUNTERJOURNAL\\UI-EJ-WarlordsofDraenor",
+        r = 0.82, g = 0.55, b = 0.1
+    },
+	[BTWQUESTS_EXPANSION_LEGION] = {
+        backgroundTexture = "Interface\\EncounterJournal\\UI-EJ-Legion",
+        r = 1.0, g = 0.8, b = 0.0
+    },
 }
 
 local professionsMap = {
@@ -37,9 +57,9 @@ local function ArrayContains(a, item)
     return false
 end
 
-local EJ_NUM_INSTANCE_PER_ROW = 4;
+local BTWQUESTS_NUM_ITEMS_PER_ROW = 4;
 
-local BtWQuests_CurrentExpansion = 7
+local BtWQuests_CurrentExpansion = nil
 local BtWQuests_CurrentCategory = nil
 local BtWQuests_CurrentChain = nil
 
@@ -48,11 +68,35 @@ function BtWQuests_GetCurrentExpansion()
 end
 
 function BtWQuests_SetCurrentExpansion(value)
-    if not (value >= 1 and value <= 7) then
-        value = 7
+    if not (value >= BTWQUESTS_EXPANSION_CLASSIC and value <= BTWQUESTS_EXPANSION_LEGION) then
+        value = BTWQUESTS_EXPANSION_LEGION
     end
     
     BtWQuests_CurrentExpansion = value
+end
+
+function BtWQuests_GetExpansionCount()
+    return EJ_GetNumTiers()
+end
+
+function BtWQuests_GetExpansionInfo(index)
+    return EJ_GetTierInfo(index + 1)
+end
+
+function BtWQuests_GuessExpansion()
+	local playerLevel = UnitLevel("player");
+	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
+	local minDiff = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEVEL_CURRENT];
+	for tierId, tierLevel in pairs(MAX_PLAYER_LEVEL_TABLE) do
+        if BtWQuests_Expansions[tierId] ~= nil then
+            local diff = tierLevel - playerLevel;
+            if ( diff > 0 and diff < minDiff ) then
+                expansionId = tierId;
+                minDiff = diff;
+            end
+        end
+	end
+	return expansionId;
 end
 
 function BtWQuests_GetCurrentCategory()
@@ -238,7 +282,92 @@ function BtWQuestsHistory_Forward()
     end
 end
 
-local function BtWQuests_CheckRequirement(item)
+local function BtWQuests_CompareItems(a, b)
+    if a.type ~= b.type then
+        return false
+    end
+    
+    if a.type == "chain" or a.type == "quest" or a.type == "achievement" or a.type == "mission" then
+        return a.id == b.id
+    elseif a.type == "faction" then
+        return a.faction == b.faction
+    elseif a.type == "class" then
+        return a.class == b.class
+    elseif a.type == "level" then
+        return a.level == b.level
+    else
+        return false
+    end
+end
+
+local BtWQuests_GetItemSkip
+local BtWQuests_CheckItemRequirement
+local function BtWQuests_EvalRequirement(requirement, item, one)
+    if type(requirement) == "boolean" then
+        return requirement
+    elseif type(requirement) == "table" then
+        if requirement[1] ~= nil then
+            one = one and true or false -- Should we only require 1 item to be true
+
+            local filtered = {}
+            for _, v in ipairs(requirement) do
+                if not BtWQuests_GetItemSkip(v) then
+                    table.insert(filtered, v)
+                end
+            end
+
+            for _, v in ipairs(filtered) do
+                if BtWQuests_CheckItemRequirement(v) == one then
+                    return one
+                end
+            end
+            
+            return not one
+        else
+            return BtWQuests_CheckItemRequirement(requirement)
+        end
+    elseif type(requirement) == "function" then
+        return requirement(item)
+    end
+    
+    assert(requirement == nil, "Invalid requirement type " .. type(requirement))
+end
+
+local BtWQuests_GetItemName
+local function BtWQuests_EvalText(text, item)
+    if text == nil then
+        return "Unnamed"
+    elseif type(text) == "function" then
+        return tostring(text(item))
+    elseif type(text) == "table" then
+        return BtWQuests_GetItemName(text)
+    end
+    
+    return tostring(text)
+end
+
+BtWQuests_CheckItemRequirement = function (item, skipAlternatives)
+    if (item.type == "quest" or item.type == "chain") and item.alternatives ~= nil and not skipAlternatives then
+        if BtWQuests_CheckItemRequirement(item, true) then
+            return true
+        end
+
+        for _,alternative in ipairs(item.alternatives) do
+            if type(alternative) == "table" then
+                if BtWQuests_CheckItemRequirement(alternative) then
+                    return true
+                end
+            else
+                if BtWQuests_CheckItemRequirement({
+                    type = item.type,
+                    id = alternative,
+                }) then
+                    return true
+                end
+            end
+        end
+    end
+
     if item.type == "quest" then
         if item.active == true then
             return BtWQuests_IsQuestActive(item.id)
@@ -248,14 +377,20 @@ local function BtWQuests_CheckRequirement(item)
             return BtWQuests_IsQuestCompleted(item.id)
         end
     elseif item.type == "chain" then
-        if BtWQuests_Chains[item.id].completed == nil then
-            return false
-        end
-        
-        if BtWQuests_Chains[item.id].completed[1] ~= nil then
-            return BtWQuests_CheckRequirements(BtWQuests_Chains[item.id].completed)
+        if item.active == true then
+            return BtWQuests_IsChainActive(item.id)
+        elseif item.active == false then
+            return not BtWQuests_IsChainActive(item.id)
         else
-            return BtWQuests_CheckRequirement(BtWQuests_Chains[item.id].completed)
+            return BtWQuests_IsChainCompleted(item.id)
+        end
+    elseif item.type == "category" then
+        if item.active == true then
+            return BtWQuests_IsCategoryActive(item.id)
+        elseif item.active == false then
+            return not BtWQuests_IsCategoryActive(item.id)
+        else
+            return BtWQuests_IsCategoryCompleted(item.id)
         end
     elseif item.type == "faction" then
         return item.faction == UnitFactionGroup("player")
@@ -278,7 +413,13 @@ local function BtWQuests_CheckRequirement(item)
             return standing >= item.standing
         end
     elseif item.type == "achievement" then
-        if item.anyone then
+        if item.criteria then
+            if item.completed == false then
+                return not select(3, GetAchievementCriteriaInfo(item.id, item.criteria))
+            else
+                return select(3, GetAchievementCriteriaInfo(item.id, item.criteria))
+            end
+        elseif item.anyone then
             if item.completed == false then
                 return not select(4, GetAchievementInfo(item.id))
             else
@@ -308,41 +449,21 @@ local function BtWQuests_CheckRequirement(item)
     end
 end
 
-local function BtWQuests_CheckRequirements(list)
-    for i=1, #list do
-        if (list[i].restrictions == nil or BtWQuests_CheckRequirements(list[i].restrictions)) and not BtWQuests_CheckRequirement(list[i]) then
-            return false
-        end
+BtWQuests_GetItemName = function (item)
+    if item == nil then
+        return "Unnamed"
     end
-    
-    return true
-end
 
-local function BtWQuests_FindValidItem(list)
-    for i=1, #list do
-        if not list[i].restrictions or BtWQuests_CheckRequirements(list[i].restrictions) then
-            return list[i]
-        end
-    end
-    
-    return nil
-end
-
-local function BtWQuests_GetItemName(item)
     if item.name then
-        if type(item.name) == "function" then
-            return item.name()
-        elseif type(item.name) == "table" then
-            return BtWQuests_GetItemName(item.name)
-        end
-        
-        return item.name
+        return BtWQuests_EvalText(item.name, item)
     end
 
     if item.type == "quest" then
         return BtWQuests_GetItemName(BtWQuests_Quests[item.id])
     elseif item.type == "chain" then
         return BtWQuests_GetItemName(BtWQuests_Chains[item.id])
+    elseif item.type == "category" then
+        return BtWQuests_GetItemName(BtWQuests_Category[item.id])
     elseif item.type == "mission" then
         return BtWQuests_GetItemName(BtWQuests_Missions[item.id])
     elseif item.type == "level" then
@@ -360,27 +481,30 @@ local function BtWQuests_GetItemName(item)
             return string.format(name or BTWQUESTS_REPUTATION_STANDING, standingText, factionName)
         end
     elseif item.type == "achievement" then
-        return select(2, GetAchievementInfo(item.id))
+        if item.criteria then
+            return string.format("%s: %s", select(2, GetAchievementInfo(item.id)), select(1, GetAchievementCriteriaInfo(item.id, item.criteria)))
+        else
+            return select(2, GetAchievementInfo(item.id))
+        end
     elseif item.type == "profession" then
         if professionsMap[item.id] ~= nil then
             return professionsMap[item.id]
         end
 
         return item.id
-    elseif item.type ~= nil then
-        assert(false, "Invalid item type: " .. item.type)
+    else
+        assert(item.type ~= nil, "Invalid item type: " .. item.type)
+        return "Unnamed"
     end
 end
 
 local function BtWQuests_GetItemVisible(item)
+    if item == nil then
+        return true
+    end
+
     if item.visible ~= nil then
-        if type(item.visible) == "table" then
-            return BtWQuests_CheckRequirements(item.visible)
-        elseif type(item.visible) == "function" then
-            return item:visible()
-        else
-            return item.visible
-        end
+        return BtWQuests_EvalRequirement(item.visible, item)
     end
 
     if item.type == "quest" then
@@ -394,8 +518,12 @@ local function BtWQuests_GetItemVisible(item)
     end
 end
 
-local function BtWQuests_GetItemSkip(item)
-    if item.restrictions and not BtWQuests_CheckRequirements(item.restrictions) then
+BtWQuests_GetItemSkip = function (item)
+    if item == nil then
+        return false
+    end
+
+    if item.restrictions and not BtWQuests_EvalRequirement(item.restrictions, item) then
         return true
     end
 
@@ -410,7 +538,7 @@ local function BtWQuests_GetItemSkip(item)
     end
 end
 
-local BtWQuests_GetItemCompleted = BtWQuests_CheckRequirement
+local BtWQuests_GetItemCompleted = BtWQuests_CheckItemRequirement
 
 --- Get the correct data for a Category or Chain Button
 -- @param item
@@ -420,26 +548,6 @@ local BtWQuests_GetItemCompleted = BtWQuests_CheckRequirement
 local function BtWQuests_GetItem(item)
     return BtWQuests_GetItemName(item), BtWQuests_GetItemVisible(item), BtWQuests_GetItemSkip(item), BtWQuests_GetItemCompleted(item)
 end
-
-
-local function BtWQuests_CompareItems(a, b)
-    if a.type ~= b.type then
-        return false
-    end
-    
-    if a.type == "chain" or a.type == "quest" or a.type == "achievement" or a.type == "mission" then
-        return a.id == b.id
-    elseif a.type == "faction" then
-        return a.faction == b.faction
-    elseif a.type == "class" then
-        return a.class == b.class
-    elseif a.type == "level" then
-        return a.level == b.level
-    else
-        return false
-    end
-end
-
 
 local function BtWQuests_CompareChainItemByIndex(index, b)
     local chainID = BtWQuests_GetCurrentChain()
@@ -457,8 +565,28 @@ local function BtWQuests_CompareChainItemByIndex(index, b)
     end
 end
 
+function BtWQuests_GetCategoryName(categoryID)
+    if not categoryID then
+        return nil
+    end
+    
+    local category = BtWQuests_Category[categoryID]
+    if not category then
+        return nil
+    end
+    
+    return BtWQuests_EvalText(category.name, category)
+end
+
 function BtWQuests_IsCategoryCompleted(categoryID)
+    if not categoryID then
+        return nil
+    end
+
     local category = BtWQuests_Categories[categoryID]
+    if not category then
+        return nil
+    end
     
     for _,v in ipairs(category.items) do
         if v.type == 'chain' then
@@ -495,19 +623,15 @@ local function BtWQuests_GetCategoryItem(item)
     end
         
     if item.type == "chain" then
-        local chain = BtWQuests_Chains[item.id]
-        assert(chain ~= nil, "Could not find chain with id " .. tostring(item.id))
+        local chain = BtWQuests_Chains[item.id] or {}
+
+        -- assert(chain ~= nil, "Could not find chain with id " .. tostring(item.id))
         
-        local chainName = chain.name
-        if type(chainName) == "function" then
-            chainName = chainName(chain)
-        end
-        
-        if hidden == nil and chain.restrictions and not BtWQuests_CheckRequirements(chain.restrictions) then
+        if hidden == nil and chain.restrictions and not BtWQuests_EvalRequirement(chain.restrictions, chain) then
             hidden = true
         end
         
-        name = name or chainName
+        name = name or chain.name
         category = category or chain.category
         expansion = expansion or chain.expansion
         buttonImage = buttonImage or chain.buttonImage
@@ -517,7 +641,7 @@ local function BtWQuests_GetCategoryItem(item)
                 BtWQuestsHistory_UpdateCurrent()
     
                 BtWQuestsNav_AddChainButton(self.id, self.userdata.name)
-                
+
                 BtWQuests_SetCurrentChain(self.id)
                 BtWQuests_DisplayChain()
                 
@@ -534,20 +658,21 @@ local function BtWQuests_GetCategoryItem(item)
             BtWQuestsTooltip:Hide();
         end
         
-        userdata.name = userdata.name or name
-        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, chainName)
+        -- userdata.name = userdata.name or name
+        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(chain.name, chain))
     elseif item.type == "category" then
-        local chain = BtWQuests_Categories[item.id]
-        assert(chain ~= nil)
+        local category = BtWQuests_Categories[item.id] or {}
+
+        -- assert(category ~= nil)
         
-        if hidden == nil and chain.restrictions and not BtWQuests_CheckRequirements(chain.restrictions) then
+        if hidden == nil and category.restrictions and not BtWQuests_EvalRequirement(category.restrictions, category) then
             hidden = true
         end
         
-        name = name or chain.name
-        category = category or chain.parent
-        expansion = expansion or chain.expansion
-        buttonImage = buttonImage or chain.buttonImage
+        name = name or category.name
+        category = category or category.parent
+        expansion = expansion or category.expansion
+        buttonImage = buttonImage or category.buttonImage
         
         onClick = onClick or function (self)
             if not ChatEdit_TryInsertChatLink(self.userdata.link) then
@@ -570,11 +695,13 @@ local function BtWQuests_GetCategoryItem(item)
             
         end
         
-        userdata.name = userdata.name or name
-        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, chain.name)
+        -- userdata.name = userdata.name or name
+        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(category.name, category))
     else
         assert(false, "Invalid item type: " .. item.type)
     end
+        
+    name = BtWQuests_EvalText(name, item)
     
     return item.type, item.id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata
 end
@@ -596,7 +723,6 @@ local function BtWQuests_GetCategoryItemByIndex(index, parentCategoryID)
     end
 end
 
-local categoryID, name, link, expansion, parent, buttonImage, numItems
 function BtWQuests_GetCategoryByID(categoryID)
     if not categoryID then
         return nil
@@ -607,8 +733,21 @@ function BtWQuests_GetCategoryByID(categoryID)
         return nil
     end
     
-    local link = format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", categoryID, category.name)
-    return categoryID, category.name, link, category.expansion, category.parent, category.buttonImage, category.items and #category.items or 0
+    local link = format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", categoryID, BtWQuests_EvalText(category.name, category))
+    return categoryID, BtWQuests_EvalText(category.name, category), link, category.expansion, category.parent, category.buttonImage, category.items and #category.items or 0
+end
+
+function BtWQuests_GetChainName(chainID)
+    if not chainID then
+        return nil
+    end
+    
+    local chain = BtWQuests_Chains[chainID]
+    if not chain then
+        return nil
+    end
+    
+    return BtWQuests_EvalText(chain.name, chain)
 end
 
 function BtWQuests_IsChainActive(chainID)
@@ -627,15 +766,11 @@ function BtWQuests_IsChainActive(chainID)
     
     local active, completed = false, false
     if chain.completed then
-        if chain.completed[1] ~= nil then
-            completed = BtWQuests_CheckRequirements(chain.completed)
-        else
-            completed = BtWQuests_CheckRequirement(chain.completed)
-        end
+        completed = BtWQuests_EvalRequirement(chain.completed, chain)
     end
     if not completed then
         if chain.prerequisites then
-            active = BtWQuests_CheckRequirements(chain.prerequisites)
+            active = BtWQuests_EvalRequirement(chain.prerequisites, chain)
         else
             active = true -- Assumed a chain with out prerequisites is active
         end
@@ -656,11 +791,7 @@ function BtWQuests_IsChainCompleted(chainID)
     
     local completed = false
     if chain.completed then
-        if chain.completed[1] ~= nil then
-            completed = BtWQuests_CheckRequirements(chain.completed)
-        else
-            completed = BtWQuests_CheckRequirement(chain.completed)
-        end
+        completed = BtWQuests_EvalRequirement(chain.completed, chain)
     end
     
     return completed
@@ -690,22 +821,9 @@ function BtWQuests_GetChainByID(chainID)
     if not chain then
         return nil
     end
-
-    name = chain.name
-    if type(name) == "function" then
-        name = name(item)
-    end
     
-    local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, name)
-    return chainID, name, link, chain.expansion, chain.category, chain.buttonImage, chain.prerequisites and #chain.prerequisites or 0, chain.items and #chain.items or 0
-end -- , active, completed
-
-function BtWQuests_IsQuestActive(questID)
-    return GetQuestLogIndexByID(questID) > 0
-end
-
-function BtWQuests_IsQuestCompleted(questID)
-    return IsQuestFlaggedCompleted(questID)
+    local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, BtWQuests_EvalText(chain.name, chain))
+    return chainID, BtWQuests_EvalText(chain.name, chain), link, chain.expansion, chain.category, chain.buttonImage, chain.prerequisites and #chain.prerequisites or 0, chain.items and #chain.items or 0
 end
 
 function BtWQuests_GetQuestName(questID)
@@ -715,15 +833,18 @@ function BtWQuests_GetQuestName(questID)
     
     local quest = BtWQuests_Quests[questID]
     if not quest then
-        quest = {name = 'Unnamed'}
-    end
-        
-    local questName = quest.name
-    if type(questName) == "function" then
-        questName = questName(quest)
+        return nil
     end
     
-    return questName
+    return BtWQuests_EvalText(quest.name, quest)
+end
+
+function BtWQuests_IsQuestActive(questID)
+    return GetQuestLogIndexByID(questID) > 0
+end
+
+function BtWQuests_IsQuestCompleted(questID)
+    return IsQuestFlaggedCompleted(questID)
 end
 
 function BtWQuests_GetQuestByID(questID)
@@ -733,57 +854,22 @@ function BtWQuests_GetQuestByID(questID)
     
     local quest = BtWQuests_Quests[questID]
     if not quest then
-        quest = {name = 'Unnamed'}
-    end
-        
-    local questName = quest.name
-    if type(questName) == "function" then
-        questName = questName(quest)
+        return nil
     end
     
     local link = format("\124cffffff00\124Hquest:%d:%d:%d:255\124h[%s]\124h\124r", tonumber(questID), quest.level or -1, quest.requiredLevel or -1, BtWQuests_EvalText(quest.name, quest))
-    return tonumber(questID), questName, (quest.link or link), quest.difficulty, quest.tagID
-end
-
-function BtWQuests_EvalText(text, item)
-    if type(text) == "function" then
-        return tostring(text(item))
-    end
-    
-    return tostring(text)
-end
-
-function BtWQuests_EvalRequirement(requirement, item)
-    if type(requirement) == "boolean" then
-        return requirement
-    elseif type(requirement) == "table" then
-        if requirement[1] ~= nil then
-            for _, v in ipairs(requirement) do
-                if BtWQuests_CheckRequirement(v) then
-                    return true
-                end
-            end
-            
-            return false
-        else
-            return BtWQuests_CheckRequirement(requirement)
-        end
-    elseif type(requirement) == "function" then
-        return requirement(item)
-    end
-    
-    assert(requirement == nil, "Invalid requirement type " .. type(requirement))
+    return tonumber(questID), BtWQuests_EvalText(quest.name, quest), (quest.link or link), quest.difficulty, quest.tagID
 end
 
 -- skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata
-function BtWQuests_EvalChainItem(item)
+function BtWQuests_GetChainItem(item)
     if not item then
         return nil
     end
     
     if item[1] ~= nil then -- This is a list on chain items, we want the first one that doesnt return true for skip
         for _, v in ipairs(item) do
-            local result = {BtWQuests_EvalChainItem(v)}
+            local result = {BtWQuests_GetChainItem(v)}
             
             if result[1] ~= true then
                 return unpack(result)
@@ -799,7 +885,7 @@ function BtWQuests_EvalChainItem(item)
         local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, active, completed, onClick, onEnter, onLeave, userdata = nil, item.name, item.visible or true, item.x, item.y, item.atlas, item.breadcrumb, item.aside, item.difficulty, item.tagID, item.status, item.active, item.completed, item.onClick, item.onEnter, item.onLeave, (item.userdata or {})
         
         if skip == nil and item.restrictions then
-            skip = not BtWQuests_CheckRequirements(item.restrictions)
+            skip = not BtWQuests_EvalRequirement(item.restrictions, item)
         end
 
         if skip then
@@ -807,16 +893,12 @@ function BtWQuests_EvalChainItem(item)
         end
         
         if item.type == "quest" then
-            local quest = BtWQuests_Quests[item.id]
+            local quest = BtWQuests_Quests[item.id] or {}
             
-            if not quest then
-                quest = {name = 'Unnamed'}
-            end
-            
-            assert(type(quest) == "table", "Error finding quest with id " .. tostring(item.id))
+            -- assert(type(quest) == "table", "Error finding quest with id " .. tostring(item.id))
         
             if skip == nil and quest.restrictions then
-                skip = not BtWQuests_CheckRequirements(quest.restrictions)
+                skip = not BtWQuests_EvalRequirement(quest.restrictions, quest)
             end
 
             if skip then
@@ -830,39 +912,93 @@ function BtWQuests_EvalChainItem(item)
             tagID = tagID or quest.tagID
             
             active = active == nil and function (item)
-                return BtWQuests_IsQuestActive(item.id)
+                if BtWQuests_IsQuestActive(item.id) then
+                    return true
+                end
+
+                if item.alternatives ~= nil then
+                    for _,alternative in ipairs(item.alternatives) do
+                        if type(alternative) == "table" then
+                            if BtWQuests_IsQuestActive(alternative.id) then
+                                return true
+                            end
+                        else
+                            if BtWQuests_IsQuestActive(alternative) then
+                                return true
+                            end
+                        end
+                    end
+                end
+
+                return false
             end or active
             completed = completed == nil and function (item)
-                return BtWQuests_IsQuestCompleted(item.id)
+                if BtWQuests_IsQuestCompleted(item.id) then
+                    return true
+                end
+
+                if item.alternatives ~= nil then
+                    for _,alternative in ipairs(item.alternatives) do
+                        if type(alternative) == "table" then
+                            if BtWQuests_IsQuestCompleted(alternative.id) then
+                                return true
+                            end
+                        else
+                            if BtWQuests_IsQuestCompleted(alternative) then
+                                return true
+                            end
+                        end
+                    end
+                end
+
+                return false
             end or completed
             
-            onClick = onClick or function (self)
-                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link) then
+            if BtWQuests_Quests[item.id] ~= nil then -- For secret quests
+                onClick = onClick or function (self)
+                    if ChatEdit_TryInsertChatLink(self.userdata.link) then
+                        return
+                    end
+
+                    if IsModifiedClick("QUESTWATCHTOGGLE") then
+                        local questLogIndex = GetQuestLogIndexByID(self.userdata.id)
+
+                        if questLogIndex then
+                            if IsQuestWatched(questLogIndex) then
+                                RemoveQuestWatch(questLogIndex)
+                            else
+                                AddQuestWatch(questLogIndex, true)
+                            end
+
+                            return
+                        end
+                    end
+
+                    if BtWQuests_SelectFromLink(self.userdata.link) then
+                        return
+                    end
+
                     BtWQuestsTooltip:Hide();
                 end
-            end
-            onEnter = onEnter or function (self)
-                BtWQuestsTooltip_AnchorTo(self)
-                BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
-            end
-            onLeave = onLeave or function (self)
-                BtWQuestsTooltip:Hide();
-                GameTooltip:Hide()
+                onEnter = onEnter or function (self)
+                    BtWQuestsTooltip_AnchorTo(self)
+                    BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
+                end
+                onLeave = onLeave or function (self)
+                    BtWQuestsTooltip:Hide();
+                    GameTooltip:Hide()
+                end
             end
             
+            userdata.id = item.id
             userdata.link = format("\124cffffff00\124Hquest:%d:%d:%d:255\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, quest.requiredLevel or -1, BtWQuests_EvalText(quest.name, quest))
-            -- userdata.link = format("\124cffffff00\124Hquest:%d:%d\124h[%s]\124h\124r", tonumber(item.id), quest.level or -1, BtWQuests_EvalText(quest.name, quest))
         elseif item.type == "mission" then
-            local mission = BtWQuests_Missions[item.id]
+            local mission = BtWQuests_Missions[item.id] or {}
             
-            if not mission then
-                mission = {name = 'Unnamed'}
-            end
-            
-            assert(type(mission) == "table", "Error finding mission with id " .. tostring(item.id))
+            -- assert(type(mission) == "table", "Error finding mission with id " .. tostring(item.id))
         
             if skip == nil and mission.restrictions then
-                skip = not BtWQuests_CheckRequirements(mission.restrictions)
+                skip = not BtWQuests_EvalRequirement(mission.restrictions, mission)
             end
 
             if skip then
@@ -882,12 +1018,12 @@ function BtWQuests_EvalChainItem(item)
             end or active
             breadcrumb = true
         elseif item.type == "chain" then
-            local chain = BtWQuests_Chains[item.id]
+            local chain = BtWQuests_Chains[item.id] or {}
             
-            assert(type(chain) == "table", "Error finding chain with id " .. tostring(item.id))
+            -- assert(type(chain) == "table", "Error finding chain with id " .. tostring(item.id))
         
             if skip == nil and chain.restrictions then
-                skip = not BtWQuests_CheckRequirements(chain.restrictions)
+                skip = not BtWQuests_EvalRequirement(chain.restrictions, chain)
             end
 
             if skip then
@@ -902,7 +1038,7 @@ function BtWQuests_EvalChainItem(item)
             
             active = active == nil and function (item)
                 if chain.prerequisites ~= nil then
-                    return BtWQuests_CheckRequirements(chain.prerequisites)
+                    return BtWQuests_EvalRequirement(chain.prerequisites, chain)
                 end
 
                 return true
@@ -924,6 +1060,47 @@ function BtWQuests_EvalChainItem(item)
             end
             
             userdata.link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(chain.name, chain))
+        elseif item.type == "category" then
+            local category = BtWQuests_Category[item.id] or {}
+            
+            if skip == nil and category.restrictions then
+                skip = not BtWQuests_EvalRequirement(category.restrictions, chain)
+            end
+
+            if skip then
+                return true
+            end
+        
+            visible = visible == nil and category.visible or visible
+            
+            name = name or category.name
+            difficulty = difficulty or category.difficulty
+            tagID = tagID or category.tagID
+            
+            active = active == nil and function (item)
+                if category.prerequisites ~= nil then
+                    return BtWQuests_EvalRequirement(category.prerequisites, chain)
+                end
+
+                return true
+            end or active
+            completed = completed == nil and category.completed or completed
+            
+            onClick = onClick or function (self)
+                if not ChatEdit_TryInsertChatLink(self.userdata.link) and not BtWQuests_SelectFromLink(self.userdata.link, self.userdata.scrollTo) then
+                    BtWQuestsTooltip:Hide();
+                end
+            end
+            onEnter = onEnter or function (self)
+                BtWQuestsTooltip_AnchorTo(self)
+                BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
+            end
+            onLeave = onLeave or function (self)
+                BtWQuestsTooltip:Hide();
+                GameTooltip:Hide()
+            end
+            
+            userdata.link = format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(category.name, category))
         elseif item.type == "reputation" then
             local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
             local gender = UnitSex("player")
@@ -985,7 +1162,7 @@ function BtWQuests_GetChainItemByIndex(index)
     end
     
     if BtWQuests_Chains[chainID].items then
-        return BtWQuests_EvalChainItem(BtWQuests_Chains[chainID].items[index])
+        return BtWQuests_GetChainItem(BtWQuests_Chains[chainID].items[index])
     end
 end
 
@@ -1064,11 +1241,12 @@ function BtWQuests_OnLoad(self)
     self.Tooltip:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
     self.Tooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
     
+    BtWQuests_SetCurrentExpansion(BtWQuests_GuessExpansion())
     local expansion = BtWQuests_GetCurrentExpansion()
-	local tierData = EJ_TIER_DATA[expansion];
+	local tierData = BTWQUESTS_EXPANSION_DATA[expansion];
 	local questSelect = BtWQuests.QuestSelect;
 	questSelect.bg:SetTexture(tierData.backgroundTexture);
-	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, EJ_GetTierInfo(BtWQuests_GetCurrentExpansion()));
+	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
     
 	local homeData = {
 		name = HOME,
@@ -1218,8 +1396,8 @@ function BtWQuests_ListCategories()
             if not categoryButton then -- create button
                 categoryButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."category"..index, scrollFrame, "BtWQuestsCategoryButtonTemplate");
                 scrollFrame["category"..index] = categoryButton;
-                if mod(index-1, EJ_NUM_INSTANCE_PER_ROW) == 0 then
-                    categoryButton:SetPoint("TOP", scrollFrame["category"..(index-EJ_NUM_INSTANCE_PER_ROW)], "BOTTOM", 0, -15);
+                if mod(index-1, BTWQUESTS_NUM_ITEMS_PER_ROW) == 0 then
+                    categoryButton:SetPoint("TOP", scrollFrame["category"..(index-BTWQUESTS_NUM_ITEMS_PER_ROW)], "BOTTOM", 0, -15);
                 else
                     categoryButton:SetPoint("LEFT", scrollFrame["category"..(index-1)], "RIGHT", 15, 0);
                 end
@@ -1460,8 +1638,10 @@ function BtWQuests_DisplayChain(scrollTo)
         temp = temp - 1
     end
     
-    scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
-    
+    if temp > 0 then
+        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
+    end
+
     if scrollTo ~= false then
         if scrollToButton == nil then
             scrollToButton = scrollToButtonAside
@@ -1476,8 +1656,10 @@ function BtWQuests_DisplayChain(scrollTo)
             scrollToButton = scrollFrame["item"..temp]
         end
         
-        chain.scroll:UpdateScrollChildRect()
-        chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        if scrollToButton then
+            chain.scroll:UpdateScrollChildRect()
+            chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        end
     end
 end
 
@@ -1964,25 +2146,27 @@ end
 
 function BtWQuestsExpansionDropDown_Initialize(self, level)
 	local info = UIDropDownMenu_CreateInfo();
-	local numTiers = EJ_GetNumTiers();
-	local currTier = BtWQuests_GetCurrentExpansion();
-	for i=1,numTiers do
-		info.text = EJ_GetTierInfo(i);
-		info.func = BtWQuestsExpansionDropDown_Select
-		info.checked = i == currTier;
-		info.arg1 = i;
-		UIDropDownMenu_AddButton(info, level)
+	local numTiers = BtWQuests_GetExpansionCount();
+	local current = BtWQuests_GetCurrentExpansion();
+    for i=0,numTiers - 1 do
+        if BtWQuests_Expansions[i] ~= nil or i == current then
+            info.text = BtWQuests_GetExpansionInfo(i);
+            info.func = BtWQuestsExpansionDropDown_Select
+            info.checked = i == current;
+            info.arg1 = i;
+            UIDropDownMenu_AddButton(info, level)
+        end
 	end
 end
 
 function BtWQuestsExpansionDropDown_Select(_, expansion)
 	BtWQuests_SetCurrentExpansion(expansion);
 
-	local tierData = EJ_TIER_DATA[expansion];
+	local tierData = BTWQUESTS_EXPANSION_DATA[expansion];
 	local questSelect = BtWQuests.QuestSelect;
 	questSelect.bg:SetTexture(tierData.backgroundTexture);
 
-	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, EJ_GetTierInfo(BtWQuests_GetCurrentExpansion()));
+	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
 
     NavBar_Reset(BtWQuests.navBar)
     
