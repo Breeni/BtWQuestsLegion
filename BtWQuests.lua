@@ -98,9 +98,14 @@ function BtWQuests_GetCurrentCategory()
 end
 
 function BtWQuests_SetCurrentCategory(categoryID)
-    BtWQuests_CurrentCategory = tonumber(categoryID)
-    BtWQuests_CurrentChain = nil
-    BtWQuests_CurrentExpansion = select(4, BtWQuests_GetCategoryByID(BtWQuests_CurrentChain))
+    if categoryID == nil then
+        BtWQuests_CurrentCategory = nil
+        BtWQuests_CurrentChain = nil
+    else
+        BtWQuests_CurrentCategory = tonumber(categoryID)
+        BtWQuests_CurrentChain = nil
+        BtWQuests_CurrentExpansion = select(4, BtWQuests_GetCategoryByID(BtWQuests_CurrentChain))
+    end
 end
 
 function BtWQuests_SelectCategory(id)
