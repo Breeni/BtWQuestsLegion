@@ -68,35 +68,29 @@ function BtWQuests_GetCurrentExpansion()
 end
 
 function BtWQuests_SetCurrentExpansion(value)
+    value = tonumber(value)
     if not (value >= BTWQUESTS_EXPANSION_CLASSIC and value <= BTWQUESTS_EXPANSION_LEGION) then
         value = BTWQUESTS_EXPANSION_LEGION
     end
     
     BtWQuests_CurrentExpansion = value
+    BtWQuests_CurrentCategory = nil
+    BtWQuests_CurrentChain = nil
 end
 
-function BtWQuests_GetExpansionCount()
-    return EJ_GetNumTiers()
-end
+function BtWQuests_SelectExpansion(id)
+    BtWQuestsHistory_UpdateCurrent()
+    
+    local id = tonumber(id)
+    
+    BtWQuests_SetCurrentExpansion(id)
+    
+    NavBar_Reset(BtWQuests.navBar)
+    
+    BtWQuests:Show()
+    BtWQuests_ListCategories()
 
-function BtWQuests_GetExpansionInfo(index)
-    return EJ_GetTierInfo(index + 1)
-end
-
-function BtWQuests_GuessExpansion()
-	local playerLevel = UnitLevel("player");
-	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
-	local minDiff = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEVEL_CURRENT];
-	for tierId, tierLevel in pairs(MAX_PLAYER_LEVEL_TABLE) do
-        if BtWQuests_Expansions[tierId] ~= nil then
-            local diff = tierLevel - playerLevel;
-            if ( diff > 0 and diff < minDiff ) then
-                expansionId = tierId;
-                minDiff = diff;
-            end
-        end
-	end
-	return expansionId;
+    BtWQuestsHistory_AddCurrent()
 end
 
 function BtWQuests_GetCurrentCategory()
@@ -104,11 +98,19 @@ function BtWQuests_GetCurrentCategory()
 end
 
 function BtWQuests_SetCurrentCategory(categoryID)
-    BtWQuests_CurrentCategory = tonumber(categoryID)
-    BtWQuests_CurrentChain = nil
+    if categoryID == nil then
+        BtWQuests_CurrentCategory = nil
+        BtWQuests_CurrentChain = nil
+    else
+        BtWQuests_CurrentCategory = tonumber(categoryID)
+        BtWQuests_CurrentChain = nil
+        BtWQuests_CurrentExpansion = select(4, BtWQuests_GetCategoryByID(BtWQuests_CurrentChain))
+    end
 end
 
 function BtWQuests_SelectCategory(id)
+    BtWQuestsHistory_UpdateCurrent()
+    
     local id = tonumber(id)
     
     BtWQuests_SetCurrentCategory(id)
@@ -118,6 +120,8 @@ function BtWQuests_SelectCategory(id)
     
     BtWQuests:Show()
     BtWQuests_ListCategories()
+
+    BtWQuestsHistory_AddCurrent()
 end
 
 function BtWQuests_GetCurrentChain()
@@ -126,10 +130,12 @@ end
 
 function BtWQuests_SetCurrentChain(chainID)
     BtWQuests_CurrentChain = tonumber(chainID)
-    BtWQuests_CurrentCategory = select(5, BtWQuests_GetChainByID(BtWQuests_CurrentChain))
+    _, _, _, BtWQuests_CurrentExpansion, BtWQuests_CurrentCategory = BtWQuests_GetChainByID(BtWQuests_CurrentChain)
 end
 
 function BtWQuests_SelectChain(id, scrollTo)
+    BtWQuestsHistory_UpdateCurrent()
+    
     local id = tonumber(id)
     
     BtWQuests_SetCurrentChain(id)
@@ -139,6 +145,8 @@ function BtWQuests_SelectChain(id, scrollTo)
     
     BtWQuests:Show()
     BtWQuests_DisplayChain(scrollTo)
+    
+    BtWQuestsHistory_AddCurrent()
 end
 
 function BtWQuests_SelectFromLink(link, scrollTo)
@@ -169,10 +177,14 @@ function BtWQuests_SelectFromLink(link, scrollTo)
     elseif type == "btwquests" then
         local _, _, subtype, id = string.find(text, "^([^:]*):(%d+)")
         
-        assert(subtype == "category" or subtype == "chain")
+        assert(subtype == "expansion" or subtype == "category" or subtype == "chain")
         
-        if subtype == "category" then
-            BtWQuests_SelectCategory(id)
+        if subtype == "expansion" then
+            BtWQuests_SelectExpansion(id, scrollTo)
+            
+            return true
+        elseif subtype == "category" then
+            BtWQuests_SelectCategory(id, scrollTo)
             
             return true
         elseif subtype == "chain" then
@@ -183,6 +195,16 @@ function BtWQuests_SelectFromLink(link, scrollTo)
     end
     
     return false
+end
+
+function BtWQuests_SelectItem(item, scrollTo)
+    if item.type == "expansion" then
+        BtWQuests_SelectExpansion(item.id, scrollTo or item.scrollTo)
+    elseif item.type == "category" then
+        BtWQuests_SelectCategory(item.id, scrollTo or item.scrollTo)
+    elseif item.type == "chain" then
+        BtWQuests_SelectChain(item.id, scrollTo or item.scrollTo)
+    end
 end
 
 local function BtWQuests_CompareItems(a, b)
@@ -200,6 +222,135 @@ local function BtWQuests_CompareItems(a, b)
         return a.level == b.level
     else
         return false
+    end
+end
+
+function BtWQuests_GetExpansionCount()
+    return EJ_GetNumTiers()
+end
+
+function BtWQuests_GetExpansionInfo(index)
+    return EJ_GetTierInfo(index + 1)
+end
+
+function BtWQuests_GuessExpansion()
+	local playerLevel = UnitLevel("player");
+	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
+	local minDiff = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEVEL_CURRENT];
+	for tierId, tierLevel in pairs(MAX_PLAYER_LEVEL_TABLE) do
+        if BtWQuests_Expansions[tierId] ~= nil then
+            local diff = tierLevel - playerLevel;
+            if ( diff > 0 and diff < minDiff ) then
+                expansionId = tierId;
+                minDiff = diff;
+            end
+        end
+	end
+	return expansionId;
+end
+
+function BtWQuestsHistory_Buttons()
+    BtWQuestsNavBack:SetEnabled(BtWQuests.HistoryIndex > 1)
+    BtWQuestsNavForward:SetEnabled(BtWQuests.HistoryIndex < #BtWQuests.History)
+end
+
+function BtWQuestsHistory_GetCurrent()
+    if BtWQuests.Chain:IsShown() then
+        return {
+            type = "chain",
+            id = BtWQuests_GetCurrentChain(),
+            scrollTo = {
+                type = "coords",
+                x = BtWQuestsChainFrameScrollFrame:GetHorizontalScroll(),
+                y = BtWQuestsChainFrameScrollFrame:GetVerticalScroll(),
+            }
+        };
+    elseif BtWQuests_GetCurrentCategory() ~= nil then
+        return {
+            type = "category",
+            id = BtWQuests_GetCurrentCategory(),
+            scrollTo = {
+                type = "coords",
+                x = BtWQuestsQuestSelectScrollFrame:GetHorizontalScroll(),
+                y = BtWQuestsQuestSelectScrollFrame:GetVerticalScroll(),
+            }
+        };
+    else
+        return {
+            type = "expansion",
+            id = BtWQuests_GetCurrentExpansion(),
+            scrollTo = {
+                type = "coords",
+                x = BtWQuestsQuestSelectScrollFrame:GetHorizontalScroll(),
+                y = BtWQuestsQuestSelectScrollFrame:GetVerticalScroll(),
+            }
+        };
+    end
+end
+
+function BtWQuestsHistory_AddCurrent()
+    BtWQuests.HistoryIndex = BtWQuests.HistoryIndex + 1
+    
+    while BtWQuests.History[BtWQuests.HistoryIndex] do
+        table.remove(BtWQuests.History, BtWQuests.HistoryIndex)
+    end
+
+    table.insert(BtWQuests.History, BtWQuestsHistory_GetCurrent());
+    
+    BtWQuestsHistory_Buttons()
+end
+
+function BtWQuestsHistory_UpdateCurrent()
+    BtWQuests.History[BtWQuests.HistoryIndex] = BtWQuestsHistory_GetCurrent();
+end
+
+function BtWQuestsHistory_SetCurrent()
+    local item = BtWQuests.History[BtWQuests.HistoryIndex]
+    
+    if item.type == "chain" then
+        BtWQuests_SetCurrentChain(item.id)
+        
+        NavBar_Reset(BtWQuests.navBar)
+        BtWQuestsNav_AddChainButtonParents(item.id)
+        
+        BtWQuests_DisplayChain(item.scrollTo)
+    elseif item.type == "category" then
+        BtWQuests_SetCurrentCategory(item.id)
+        
+        NavBar_Reset(BtWQuests.navBar)
+        BtWQuestsNav_AddCategoryButtonParents(item.id)
+        
+        BtWQuests_ListCategories(item.scrollTo)
+    elseif item.type == "expansion" then
+        BtWQuests_SetCurrentExpansion(item.id)
+
+        NavBar_Reset(BtWQuests.navBar)
+
+        BtWQuests_ListCategories(item.scrollTo)
+    end
+end
+
+function BtWQuestsHistory_Back()
+    if BtWQuests.HistoryIndex > 1 then
+        BtWQuestsHistory_UpdateCurrent()
+        
+        BtWQuests.HistoryIndex = BtWQuests.HistoryIndex - 1
+        
+        BtWQuestsHistory_SetCurrent()
+    
+        BtWQuestsHistory_Buttons()
+    end
+end
+
+function BtWQuestsHistory_Forward()
+    if BtWQuests.HistoryIndex < #BtWQuests.History then
+        BtWQuestsHistory_UpdateCurrent()
+        
+        BtWQuests.HistoryIndex = BtWQuests.HistoryIndex + 1
+        
+        BtWQuestsHistory_SetCurrent()
+    
+        BtWQuestsHistory_Buttons()
     end
 end
 
@@ -469,6 +620,28 @@ local function BtWQuests_CompareChainItemByIndex(index, b)
     end
 end
 
+local function BtWQuests_CompareCategoryItemByIndex(index, b)
+    local a
+    local categoryID = BtWQuests_GetCurrentCategory()
+    if chainID == nil then
+        local expansionID = BtWQuests_GetCurrentExpansion()
+        
+        if BtWQuests_Expansions[expansionID] == nil then
+            return false
+        end
+
+        a = BtWQuests_Expansions[expansionID][index]
+    else
+        a = BtWQuests_Categories[categoryID].items[index]
+    end
+    
+    if not a then
+        return nil
+    end
+    
+    return BtWQuests_CompareItems(a, b)
+end
+
 function BtWQuests_GetCategoryName(categoryID)
     if not categoryID then
         return nil
@@ -542,10 +715,14 @@ local function BtWQuests_GetCategoryItem(item)
         
         onClick = onClick or function (self)
             if not ChatEdit_TryInsertChatLink(self.userdata.link) then
+                BtWQuestsHistory_UpdateCurrent()
+    
                 BtWQuestsNav_AddChainButton(self.id, self.userdata.name)
 
                 BtWQuests_SetCurrentChain(self.id)
                 BtWQuests_DisplayChain()
+                
+                BtWQuestsHistory_AddCurrent()
                 
                 PlaySound(SOUNDKIT.IG_SPELLBOOK_OPEN);
             end
@@ -576,10 +753,14 @@ local function BtWQuests_GetCategoryItem(item)
         
         onClick = onClick or function (self)
             if not ChatEdit_TryInsertChatLink(self.userdata.link) then
+                BtWQuestsHistory_UpdateCurrent()
+    
                 BtWQuestsNav_AddCategoryButton(self.id, self.userdata.name)
                 
                 BtWQuests_SetCurrentCategory(self.id)
                 BtWQuests_ListCategories()
+                
+                BtWQuestsHistory_AddCurrent()
                 
                 PlaySound(SOUNDKIT.IG_SPELLBOOK_OPEN);
             end
@@ -609,7 +790,7 @@ local function BtWQuests_GetCategoryItemByIndex(index, parentCategoryID)
             return BtWQuests_GetCategoryItem(BtWQuests_Categories[parentCategoryID].items[index])
         end
     else
-        expansion = BtWQuests_GetCurrentExpansion()
+        local expansion = BtWQuests_GetCurrentExpansion()
         
         if BtWQuests_Expansions[expansion] == nil then
             return nil
@@ -1132,7 +1313,9 @@ function BtWQuests_OnLoad(self)
     self:SetAttribute("UIPanelLayout-whileDead", true)
     
 	BtWQuestsTitleText:SetText(BTWQUESTS_QUEST_JOURNAL);
-	SetPortraitToTexture(BtWQuestsPortrait, "Interface\\QuestFrame\\UI-QuestLog-BookIcon");
+    SetPortraitToTexture(BtWQuestsPortrait, "Interface\\QuestFrame\\UI-QuestLog-BookIcon");
+    
+    BtWQuestsTopBorder:SetPoint("TOPLEFT", BtWQuests.NavBorderRight, "TOPRIGHT", 0, 0);
     
     self.Tooltip:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
     self.Tooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
@@ -1147,14 +1330,22 @@ function BtWQuests_OnLoad(self)
 	local homeData = {
 		name = HOME,
 		OnClick = function()
+            BtWQuestsHistory_UpdateCurrent()
+    
 			BtWQuests_SetCurrentCategory(nil)
             
             BtWQuests_ListCategories()
+
+            BtWQuestsHistory_AddCurrent()
 		end,
 	}
-	NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
+    NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
     
     -- BtWQuests_ListCategories()
+    
+    self.HistoryIndex = 0
+    self.History = {}
+    BtWQuestsHistory_AddCurrent()
     
 	-- LDB launcher
 	local LDB = LibStub and LibStub("LibDataBroker-1.1", true)
@@ -1248,31 +1439,34 @@ function BtWQuestsChainFrameScrollFrame_OnUpdate(self)
 end
 
 function BtWQuests_ZoomOut()
-    if #BtWQuests.navBar.navList == 1 then
-        return
-    end
+    BtWQuestsHistory_Back()
     
-    local parent = BtWQuests.navBar.navList[#BtWQuests.navBar.navList-1].data.id
-    if parent then
-        NavBar_OpenTo(BtWQuests.navBar, parent)
-        BtWQuests_SetCurrentCategory(parent)
-    else
-        NavBar_Reset(BtWQuests.navBar)
-        BtWQuests_SetCurrentCategory(nil)
-    end
+    -- if #BtWQuests.navBar.navList == 1 then
+        -- return
+    -- end
+    
+    -- local parent = BtWQuests.navBar.navList[#BtWQuests.navBar.navList-1].data.id
+    -- if parent then
+        -- NavBar_OpenTo(BtWQuests.navBar, parent)
+        -- BtWQuests_SetCurrentCategory(parent)
+    -- else
+        -- NavBar_Reset(BtWQuests.navBar)
+        -- BtWQuests_SetCurrentCategory(nil)
+    -- end
     
     BtWQuestsTooltip:Hide();
 
-    BtWQuests_ListCategories()
+    -- BtWQuests_ListCategories()
 end
 
-function BtWQuests_ListCategories()
+function BtWQuests_ListCategories(scrollTo)
 	local questSelect = BtWQuests.QuestSelect;
     
 	BtWQuests.Chain:Hide();
 	questSelect:Show();
     
 	local scrollFrame = questSelect.scroll.child;
+    local scrollToButton
     
 	local i = 1;
 	local index = 1;
@@ -1308,6 +1502,12 @@ function BtWQuests_ListCategories()
             
             categoryButton:Show();
 
+            if type(scrollTo) == "number" and index == scrollTo then
+                scrollToButton = categoryButton
+            elseif type(scrollTo) == "table" and BtWQuests_CompareCategoryItemByIndex(index, scrollTo) then
+                scrollToButton = categoryButton
+            end
+
             index = index + 1;
         end
         
@@ -1321,6 +1521,17 @@ function BtWQuests_ListCategories()
         
         index = index + 1;
         categoryButton = scrollFrame["category"..index];
+    end
+
+    if scrollTo ~= nil and scrollTo.type == "coords" then
+        questSelect.scroll:UpdateScrollChildRect()
+        -- questSelect.scroll:SetHorizontalScroll(scrollTo.x)
+        questSelect.scroll:SetVerticalScroll(scrollTo.y)
+    elseif scrollTo ~= false then
+        if scrollToButton then
+            questSelect.scroll:UpdateScrollChildRect()
+            questSelect.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        end
     end
 end
 
@@ -1529,7 +1740,11 @@ function BtWQuests_DisplayChain(scrollTo)
         scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     end
 
-    if scrollTo ~= false then
+    if scrollTo ~= nil and scrollTo.type == "coords" then
+        chain.scroll:UpdateScrollChildRect()
+        -- chain.scroll:SetHorizontalScroll(scrollTo.x)
+        chain.scroll:SetVerticalScroll(scrollTo.y)
+    elseif scrollTo ~= false then
         if scrollToButton == nil then
             scrollToButton = scrollToButtonAside
         end
@@ -1906,15 +2121,23 @@ end
 -- [[ Navbar ]]
 
 function BtWQuestsNav_SelectChain(self, ...)
+    BtWQuestsHistory_UpdateCurrent()
+        
     BtWQuests_SetCurrentChain(-self.id)
     
     BtWQuests_DisplayChain()
+    
+    BtWQuestsHistory_AddCurrent()
 end
 
 function BtWQuestsNav_SelectCategory(self, ...)
+    BtWQuestsHistory_UpdateCurrent()
+        
     BtWQuests_SetCurrentCategory(self.id)
 
     BtWQuests_ListCategories()
+    
+    BtWQuestsHistory_AddCurrent()
 end
 
 function BtWQuestsNav_SelectSister(self, index, navBar, ...)
