@@ -68,35 +68,29 @@ function BtWQuests_GetCurrentExpansion()
 end
 
 function BtWQuests_SetCurrentExpansion(value)
+    value = tonumber(value)
     if not (value >= BTWQUESTS_EXPANSION_CLASSIC and value <= BTWQUESTS_EXPANSION_LEGION) then
         value = BTWQUESTS_EXPANSION_LEGION
     end
     
     BtWQuests_CurrentExpansion = value
+    BtWQuests_CurrentCategory = nil
+    BtWQuests_CurrentChain = nil
 end
 
-function BtWQuests_GetExpansionCount()
-    return EJ_GetNumTiers()
-end
+function BtWQuests_SelectExpansion(id)
+    BtWQuestsHistory_UpdateCurrent()
+    
+    local id = tonumber(id)
+    
+    BtWQuests_SetCurrentExpansion(id)
+    
+    NavBar_Reset(BtWQuests.navBar)
+    
+    BtWQuests:Show()
+    BtWQuests_ListCategories()
 
-function BtWQuests_GetExpansionInfo(index)
-    return EJ_GetTierInfo(index + 1)
-end
-
-function BtWQuests_GuessExpansion()
-	local playerLevel = UnitLevel("player");
-	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
-	local minDiff = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEVEL_CURRENT];
-	for tierId, tierLevel in pairs(MAX_PLAYER_LEVEL_TABLE) do
-        if BtWQuests_Expansions[tierId] ~= nil then
-            local diff = tierLevel - playerLevel;
-            if ( diff > 0 and diff < minDiff ) then
-                expansionId = tierId;
-                minDiff = diff;
-            end
-        end
-	end
-	return expansionId;
+    BtWQuestsHistory_AddCurrent()
 end
 
 function BtWQuests_GetCurrentCategory()
@@ -106,6 +100,7 @@ end
 function BtWQuests_SetCurrentCategory(categoryID)
     BtWQuests_CurrentCategory = tonumber(categoryID)
     BtWQuests_CurrentChain = nil
+    BtWQuests_CurrentExpansion = select(4, BtWQuests_GetCategoryByID(BtWQuests_CurrentChain))
 end
 
 function BtWQuests_SelectCategory(id)
@@ -130,7 +125,7 @@ end
 
 function BtWQuests_SetCurrentChain(chainID)
     BtWQuests_CurrentChain = tonumber(chainID)
-    BtWQuests_CurrentCategory = select(5, BtWQuests_GetChainByID(BtWQuests_CurrentChain))
+    _, _, _, BtWQuests_CurrentExpansion, BtWQuests_CurrentCategory = BtWQuests_GetChainByID(BtWQuests_CurrentChain)
 end
 
 function BtWQuests_SelectChain(id, scrollTo)
@@ -177,10 +172,14 @@ function BtWQuests_SelectFromLink(link, scrollTo)
     elseif type == "btwquests" then
         local _, _, subtype, id = string.find(text, "^([^:]*):(%d+)")
         
-        assert(subtype == "category" or subtype == "chain")
+        assert(subtype == "expansion" or subtype == "category" or subtype == "chain")
         
-        if subtype == "category" then
-            BtWQuests_SelectCategory(id)
+        if subtype == "expansion" then
+            BtWQuests_SelectExpansion(id, scrollTo)
+            
+            return true
+        elseif subtype == "category" then
+            BtWQuests_SelectCategory(id, scrollTo)
             
             return true
         elseif subtype == "chain" then
@@ -193,9 +192,95 @@ function BtWQuests_SelectFromLink(link, scrollTo)
     return false
 end
 
+function BtWQuests_SelectItem(item, scrollTo)
+    if item.type == "expansion" then
+        BtWQuests_SelectExpansion(item.id, scrollTo or item.scrollTo)
+    elseif item.type == "category" then
+        BtWQuests_SelectCategory(item.id, scrollTo or item.scrollTo)
+    elseif item.type == "chain" then
+        BtWQuests_SelectChain(item.id, scrollTo or item.scrollTo)
+    end
+end
+
+local function BtWQuests_CompareItems(a, b)
+    if a.type ~= b.type then
+        return false
+    end
+    
+    if a.type == "chain" or a.type == "quest" or a.type == "achievement" or a.type == "mission" then
+        return a.id == b.id
+    elseif a.type == "faction" then
+        return a.faction == b.faction
+    elseif a.type == "class" then
+        return a.class == b.class
+    elseif a.type == "level" then
+        return a.level == b.level
+    else
+        return false
+    end
+end
+
+function BtWQuests_GetExpansionCount()
+    return EJ_GetNumTiers()
+end
+
+function BtWQuests_GetExpansionInfo(index)
+    return EJ_GetTierInfo(index + 1)
+end
+
+function BtWQuests_GuessExpansion()
+	local playerLevel = UnitLevel("player");
+	local expansionId = LE_EXPANSION_LEVEL_CURRENT;
+	local minDiff = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEVEL_CURRENT];
+	for tierId, tierLevel in pairs(MAX_PLAYER_LEVEL_TABLE) do
+        if BtWQuests_Expansions[tierId] ~= nil then
+            local diff = tierLevel - playerLevel;
+            if ( diff > 0 and diff < minDiff ) then
+                expansionId = tierId;
+                minDiff = diff;
+            end
+        end
+	end
+	return expansionId;
+end
+
 function BtWQuestsHistory_Buttons()
     BtWQuestsNavBack:SetEnabled(BtWQuests.HistoryIndex > 1)
     BtWQuestsNavForward:SetEnabled(BtWQuests.HistoryIndex < #BtWQuests.History)
+end
+
+function BtWQuestsHistory_GetCurrent()
+    if BtWQuests.Chain:IsShown() then
+        return {
+            type = "chain",
+            id = BtWQuests_GetCurrentChain(),
+            scrollTo = {
+                type = "coords",
+                x = BtWQuestsChainFrameScrollFrame:GetHorizontalScroll(),
+                y = BtWQuestsChainFrameScrollFrame:GetVerticalScroll(),
+            }
+        };
+    elseif BtWQuests_GetCurrentCategory() ~= nil then
+        return {
+            type = "category",
+            id = BtWQuests_GetCurrentCategory(),
+            scrollTo = {
+                type = "coords",
+                x = BtWQuestsQuestSelectScrollFrame:GetHorizontalScroll(),
+                y = BtWQuestsQuestSelectScrollFrame:GetVerticalScroll(),
+            }
+        };
+    else
+        return {
+            type = "expansion",
+            id = BtWQuests_GetCurrentExpansion(),
+            scrollTo = {
+                type = "coords",
+                x = BtWQuestsQuestSelectScrollFrame:GetHorizontalScroll(),
+                y = BtWQuestsQuestSelectScrollFrame:GetVerticalScroll(),
+            }
+        };
+    end
 end
 
 function BtWQuestsHistory_AddCurrent()
@@ -205,56 +290,38 @@ function BtWQuestsHistory_AddCurrent()
         table.remove(BtWQuests.History, BtWQuests.HistoryIndex)
     end
 
-    if BtWQuests.Chain:IsShown() then
-        table.insert(BtWQuests.History, {
-            id = -BtWQuests_GetCurrentChain(),
-            x = BtWQuestsChainFrameScrollFrame:GetHorizontalScroll(),
-            y = BtWQuestsChainFrameScrollFrame:GetVerticalScroll(),
-        });
-    else
-        table.insert(BtWQuests.History, {
-            id = BtWQuests_GetCurrentCategory()
-        });
-    end
+    table.insert(BtWQuests.History, BtWQuestsHistory_GetCurrent());
     
     BtWQuestsHistory_Buttons()
 end
 
 function BtWQuestsHistory_UpdateCurrent()
-    if BtWQuests.Chain:IsShown() then
-        BtWQuests.History[BtWQuests.HistoryIndex] = {
-            id = -BtWQuests_GetCurrentChain(),
-            x = BtWQuestsChainFrameScrollFrame:GetHorizontalScroll(),
-            y = BtWQuestsChainFrameScrollFrame:GetVerticalScroll(),
-        };
-    else
-        BtWQuests.History[BtWQuests.HistoryIndex] = {
-            id = BtWQuests_GetCurrentCategory()
-        };
-    end
+    BtWQuests.History[BtWQuests.HistoryIndex] = BtWQuestsHistory_GetCurrent();
 end
 
 function BtWQuestsHistory_SetCurrent()
     local item = BtWQuests.History[BtWQuests.HistoryIndex]
     
-    if item.id == nil then
-        BtWQuests_SetCurrentCategory(nil)
+    if item.type == "chain" then
+        BtWQuests_SetCurrentChain(item.id)
+        
         NavBar_Reset(BtWQuests.navBar)
-        BtWQuests_ListCategories()
-    elseif item.id > 0 then
+        BtWQuestsNav_AddChainButtonParents(item.id)
+        
+        BtWQuests_DisplayChain(item.scrollTo)
+    elseif item.type == "category" then
         BtWQuests_SetCurrentCategory(item.id)
         
         NavBar_Reset(BtWQuests.navBar)
         BtWQuestsNav_AddCategoryButtonParents(item.id)
         
-        BtWQuests_ListCategories()
-    else
-        BtWQuests_SetCurrentChain(-item.id)
-        
+        BtWQuests_ListCategories(item.scrollTo)
+    elseif item.type == "expansion" then
+        BtWQuests_SetCurrentExpansion(item.id)
+
         NavBar_Reset(BtWQuests.navBar)
-        BtWQuestsNav_AddChainButtonParents(-item.id)
-        
-        BtWQuests_DisplayChain(item.y)
+
+        BtWQuests_ListCategories(item.scrollTo)
     end
 end
 
@@ -279,24 +346,6 @@ function BtWQuestsHistory_Forward()
         BtWQuestsHistory_SetCurrent()
     
         BtWQuestsHistory_Buttons()
-    end
-end
-
-local function BtWQuests_CompareItems(a, b)
-    if a.type ~= b.type then
-        return false
-    end
-    
-    if a.type == "chain" or a.type == "quest" or a.type == "achievement" or a.type == "mission" then
-        return a.id == b.id
-    elseif a.type == "faction" then
-        return a.faction == b.faction
-    elseif a.type == "class" then
-        return a.class == b.class
-    elseif a.type == "level" then
-        return a.level == b.level
-    else
-        return false
     end
 end
 
@@ -565,6 +614,28 @@ local function BtWQuests_CompareChainItemByIndex(index, b)
     end
 end
 
+local function BtWQuests_CompareCategoryItemByIndex(index, b)
+    local a
+    local categoryID = BtWQuests_GetCurrentCategory()
+    if chainID == nil then
+        local expansionID = BtWQuests_GetCurrentExpansion()
+        
+        if BtWQuests_Expansions[expansionID] == nil then
+            return false
+        end
+
+        a = BtWQuests_Expansions[expansionID][index]
+    else
+        a = BtWQuests_Categories[categoryID].items[index]
+    end
+    
+    if not a then
+        return nil
+    end
+    
+    return BtWQuests_CompareItems(a, b)
+end
+
 function BtWQuests_GetCategoryName(categoryID)
     if not categoryID then
         return nil
@@ -713,7 +784,7 @@ local function BtWQuests_GetCategoryItemByIndex(index, parentCategoryID)
             return BtWQuests_GetCategoryItem(BtWQuests_Categories[parentCategoryID].items[index])
         end
     else
-        expansion = BtWQuests_GetCurrentExpansion()
+        local expansion = BtWQuests_GetCurrentExpansion()
         
         if BtWQuests_Expansions[expansion] == nil then
             return nil
@@ -1264,8 +1335,9 @@ function BtWQuests_OnLoad(self)
     
     -- BtWQuests_ListCategories()
     
-    self.History = {{}}
-    self.HistoryIndex = 1
+    self.HistoryIndex = 0
+    self.History = {}
+    BtWQuestsHistory_AddCurrent()
     
 	-- LDB launcher
 	local LDB = LibStub and LibStub("LibDataBroker-1.1", true)
@@ -1379,13 +1451,14 @@ function BtWQuests_ZoomOut()
     -- BtWQuests_ListCategories()
 end
 
-function BtWQuests_ListCategories()
+function BtWQuests_ListCategories(scrollTo)
 	local questSelect = BtWQuests.QuestSelect;
     
 	BtWQuests.Chain:Hide();
 	questSelect:Show();
     
 	local scrollFrame = questSelect.scroll.child;
+    local scrollToButton
     
 	local i = 1;
 	local index = 1;
@@ -1421,6 +1494,12 @@ function BtWQuests_ListCategories()
             
             categoryButton:Show();
 
+            if type(scrollTo) == "number" and index == scrollTo then
+                scrollToButton = categoryButton
+            elseif type(scrollTo) == "table" and BtWQuests_CompareCategoryItemByIndex(index, scrollTo) then
+                scrollToButton = categoryButton
+            end
+
             index = index + 1;
         end
         
@@ -1434,6 +1513,17 @@ function BtWQuests_ListCategories()
         
         index = index + 1;
         categoryButton = scrollFrame["category"..index];
+    end
+
+    if scrollTo ~= nil and scrollTo.type == "coords" then
+        questSelect.scroll:UpdateScrollChildRect()
+        -- questSelect.scroll:SetHorizontalScroll(scrollTo.x)
+        questSelect.scroll:SetVerticalScroll(scrollTo.y)
+    elseif scrollTo ~= false then
+        if scrollToButton then
+            questSelect.scroll:UpdateScrollChildRect()
+            questSelect.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
+        end
     end
 end
 
@@ -1642,7 +1732,11 @@ function BtWQuests_DisplayChain(scrollTo)
         scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     end
 
-    if scrollTo ~= false then
+    if scrollTo ~= nil and scrollTo.type == "coords" then
+        chain.scroll:UpdateScrollChildRect()
+        -- chain.scroll:SetHorizontalScroll(scrollTo.x)
+        chain.scroll:SetVerticalScroll(scrollTo.y)
+    elseif scrollTo ~= false then
         if scrollToButton == nil then
             scrollToButton = scrollToButtonAside
         end
