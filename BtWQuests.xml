@@ -22,6 +22,131 @@
 		<TexCoords left="0.625" right="0.796875" top="0.0078125" bottom="0.265625"/>
 	</Texture>
     
+	<Frame name="BarDropDownMenuTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="144" y="32"/>
+		</Size>
+		<Layers>
+			<Layer level="OVERLAY">
+				<Texture name="$parentLeft" file="Interface\FrameGeneral\UI-Frame">
+					<Size x="23" y="33"/>
+					<Anchors>
+						<Anchor point="TOPLEFT" x="0" y="0"/>
+					</Anchors>
+					<TexCoords left="0.625" right="0.8046875" top="0.0078125" bottom="0.265625"/>>
+				</Texture>
+				<Texture name="$parentMiddle" inherits="_UI-Frame-TitleTile">
+					<Size>
+						<AbsDimension x="100" y="28"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parentLeft" relativePoint="TOPRIGHT"/>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentRight" file="Interface\FrameGeneral\UI-Frame">
+					<Size x="23" y="33"/>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parentMiddle" relativePoint="TOPRIGHT"/>
+					</Anchors>
+					<TexCoords left="0.625" right="0.8046875" top="0.0078125" bottom="0.265625"/>>
+				</Texture>
+			</Layer>
+			<Layer level="ARTWORK">
+				<FontString parentKey="Text" name="$parentText" inherits="GameFontHighlightSmall" wordwrap="false" justifyH="LEFT">
+					<Size>
+						<AbsDimension x="0" y="10"/>
+					</Size>
+					<Anchors>
+						<Anchor point="LEFT" relativeTo="$parentLeft" relativePoint="RIGHT" x="0" y="4"/>
+					</Anchors>
+				</FontString>
+			</Layer>
+			<Layer level="OVERLAY">
+				<Texture parentKey="Icon" name="$parentIcon" hidden="true">
+					<Size>
+						<AbsDimension x="16" y="16"/>
+					</Size>
+					<Anchors>
+						<Anchor point="LEFT">
+							<Offset x="16" y="3"/>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button parentKey="Button" name="$parentButton" motionScriptsWhileDisabled="true" >
+				<Size>
+					<AbsDimension x="24" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPRIGHT" relativeTo="$parentRight">
+						<Offset>
+							<AbsDimension x="11" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnter>
+						local parent = self:GetParent();
+						local myscript = parent:GetScript("OnEnter");
+						if(myscript ~= nil) then
+							myscript(parent);
+						end
+					</OnEnter>
+					<OnLeave>
+						local parent = self:GetParent();
+						local myscript = parent:GetScript("OnLeave");
+						if(myscript ~= nil) then
+							myscript(parent);
+						end
+					</OnLeave>
+					<OnClick>
+						ToggleDropDownMenu(nil, nil, self:GetParent());
+						PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
+					</OnClick>
+				</Scripts>
+				<NormalTexture name="$parentNormalTexture" file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Up">
+					<Size>
+						<AbsDimension x="24" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="RIGHT"/>
+					</Anchors>
+				</NormalTexture>
+				<PushedTexture name="$parentPushedTexture" file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Down">
+					<Size>
+						<AbsDimension x="24" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="RIGHT"/>
+					</Anchors>
+				</PushedTexture>
+				<DisabledTexture name="$parentDisabledTexture" file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Disabled">
+					<Size>
+						<AbsDimension x="24" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="RIGHT"/>
+					</Anchors>
+				</DisabledTexture>
+				<HighlightTexture name="$parentHighlightTexture" file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD">
+					<Size>
+						<AbsDimension x="24" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="RIGHT"/>
+					</Anchors>
+				</HighlightTexture>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnHide>
+				CloseDropDownMenus();
+			</OnHide>
+		</Scripts>
+	</Frame>
+
 	<Frame name="BtWQuestsLineTemplate" virtual="true">
 		<Layers>
 			<Layer level="BACKGROUND" textureSubLevel="-3">
@@ -330,6 +455,19 @@
 					<OnClick function="BtWQuestsHistory_Forward" />
 				</Scripts>
 			</Button>
+
+			<Frame name="$parentCharacterDropDown" parentKey="CharacterDropDown" inherits="BarDropDownMenuTemplate">
+				<Size x="156" y="32"/>
+				<Anchors>
+					<Anchor point="TOPRIGHT" relativeTo="$parentTopRightCorner" relativePoint="TOPLEFT" x="0" y="0"/>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						UIDropDownMenu_SetWidth(self, 156, 23 * 2);
+						UIDropDownMenu_Initialize(self, BtWQuestsCharacterDropDown_Initialize);
+					</OnShow>
+				</Scripts>
+			</Frame>
             
 			<Frame name="$parentNavBar" inherits="NavBarTemplate" parentKey="navBar">
 				<Size x="500" y="34"/>

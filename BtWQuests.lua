@@ -59,6 +59,10 @@ end
 
 local BTWQUESTS_NUM_ITEMS_PER_ROW = 4;
 
+local BtWQuests_CharactersMap = {}
+local BtWQuests_Character = nil -- Current Character
+local BtWQuests_CharacterIsPlayer = false
+
 local BtWQuests_CurrentExpansion = nil
 local BtWQuests_CurrentCategory = nil
 local BtWQuests_CurrentChain = nil
@@ -104,7 +108,7 @@ function BtWQuests_SetCurrentCategory(categoryID)
     else
         BtWQuests_CurrentCategory = tonumber(categoryID)
         BtWQuests_CurrentChain = nil
-        BtWQuests_CurrentExpansion = select(4, BtWQuests_GetCategoryByID(BtWQuests_CurrentChain))
+        BtWQuests_CurrentExpansion = select(4, BtWQuests_GetCategoryByID(BtWQuests_CurrentCategory))
     end
 end
 
@@ -247,6 +251,57 @@ function BtWQuests_GuessExpansion()
         end
 	end
 	return expansionId;
+end
+
+function BtWQuests_IsFaction(faction)
+    return BtWQuests_Character.faction == faction
+end
+
+function BtWQuests_IsRace(race)
+    return BtWQuests_Character.race == race
+end
+
+function BtWQuests_IsClass(class)
+    return BtWQuests_Character.class == class
+end
+
+function BtWQuests_InClasses(classes)
+    return ArrayContains(classes, BtWQuests_Character.class)
+end
+
+function BtWQuests_AtleastLevel(level)
+    return BtWQuests_Character.level >= level
+end
+
+function BtWQuests_GetFactionInfoByID(faction)
+    local factionName = GetFactionInfoByID(faction)
+    local standing, barMin, barMax, value = unpack(BtWQuests_Character.reputations[faction])
+
+    return factionName, standing, barMin, barMax, value
+end
+
+function BtWQuests_GetSex()
+    return BtWQuests_Character.sex
+end
+
+function BtWQuests_HasProfession(profession)
+    return BtWQuests_Character.professions[profession] and true or false
+end
+
+function BtWQuests_IsQuestActive(questID)
+    if BtWQuests_CharacterIsPlayer then
+        return GetQuestLogIndexByID(questID) > 0
+    else
+        return BtWQuests_Character.questsActive[questID] and true or false
+    end
+end
+
+function BtWQuests_IsQuestCompleted(questID)
+    if BtWQuests_CharacterIsPlayer then
+        return IsQuestFlaggedCompleted(questID)
+    else
+        return BtWQuests_Character.questsCompleted[questID] and true or false
+    end
 end
 
 function BtWQuestsHistory_Buttons()
@@ -447,18 +502,24 @@ BtWQuests_CheckItemRequirement = function (item, skipAlternatives)
             return BtWQuests_IsCategoryCompleted(item.id)
         end
     elseif item.type == "faction" then
-        return item.faction == UnitFactionGroup("player")
+        return BtWQuests_IsFaction(item.faction)
+        -- return item.faction == UnitFactionGroup("player")
     elseif item.type == "class" then
-        return item.class == select(3, UnitClass("player"))
+        return BtWQuests_IsClass(item.class)
+        -- return item.class == select(3, UnitClass("player"))
     elseif item.type == "classes" then
-        return ArrayContains(item.classes, select(3, UnitClass("player")))
+        return BtWQuests_InClasses(item.classes)
+        -- return ArrayContains(item.classes, select(3, UnitClass("player")))
     elseif item.type == "level" then
-        return UnitLevel("player") >= item.level
+        return BtWQuests_AtleastLevel(item.level)
+        -- return UnitLevel("player") >= item.level
     elseif item.type == "expansion" then
         return GetAccountExpansionLevel() >= item.expansion
     elseif item.type == "reputation" then
-        local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
-        local gender = UnitSex("player")
+        local factionName, standing, barMin, barMax, value = BtWQuests_GetFactionInfoByID(item.faction)
+        local gender = BtWQuests_GetSex()
+        -- local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
+        -- local gender = UnitSex("player")
         local standingText = getglobal("FACTION_STANDING_LABEL" .. item.standing .. (gender == 3 and "_FEMALE" or ""))
         
         if item.amount ~= nil then
@@ -489,13 +550,14 @@ BtWQuests_CheckItemRequirement = function (item, skipAlternatives)
     elseif item.type == "mount" then
         return select(11, C_MountJournal.GetMountInfoByID(item.id))
     elseif item.type == "profession" then
-        local professions = {GetProfessions()}
-        for _,index in ipairs(professions) do
-            if select(7, GetProfessionInfo(index)) == item.id then
-                return true
-            end
-        end
-        return false
+        return BtWQuests_HasProfession(item.id)
+        -- local professions = {GetProfessions()}
+        -- for _,index in ipairs(professions) do
+        --     if select(7, GetProfessionInfo(index)) == item.id then
+        --         return true
+        --     end
+        -- end
+        -- return false
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
     else
@@ -915,13 +977,13 @@ function BtWQuests_GetQuestName(questID)
     return BtWQuests_EvalText(quest.name, quest)
 end
 
-function BtWQuests_IsQuestActive(questID)
-    return GetQuestLogIndexByID(questID) > 0
-end
+-- function BtWQuests_IsQuestActive(questID)
+--     return GetQuestLogIndexByID(questID) > 0
+-- end
 
-function BtWQuests_IsQuestCompleted(questID)
-    return IsQuestFlaggedCompleted(questID)
-end
+-- function BtWQuests_IsQuestCompleted(questID)
+--     return IsQuestFlaggedCompleted(questID)
+-- end
 
 function BtWQuests_GetQuestByID(questID)
     if not questID then
@@ -1302,6 +1364,7 @@ end
 tinsert(UISpecialFrames, "BtWQuests") 
 function BtWQuests_OnLoad(self)
     self:RegisterEvent("ADDON_LOADED")
+    self:RegisterEvent("QUEST_LOG_UPDATE")
     -- self:RegisterEvent("VARIABLES_LOADED")
     
     self:SetAttribute("UIPanelLayout-defined", true)
@@ -1315,6 +1378,7 @@ function BtWQuests_OnLoad(self)
     SetPortraitToTexture(BtWQuestsPortrait, "Interface\\QuestFrame\\UI-QuestLog-BookIcon");
     
     BtWQuestsTopBorder:SetPoint("TOPLEFT", BtWQuests.NavBorderRight, "TOPRIGHT", 0, 0);
+    BtWQuestsTopBorder:SetPoint("TOPRIGHT", BtWQuests.CharacterDropDown, "TOPLEFT", 0, 0);
     
     self.Tooltip:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
     self.Tooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
@@ -1324,7 +1388,13 @@ function BtWQuests_OnLoad(self)
 	local tierData = BTWQUESTS_EXPANSION_DATA[expansion];
 	local questSelect = BtWQuests.QuestSelect;
 	questSelect.bg:SetTexture(tierData.backgroundTexture);
-	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
+    UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
+    
+    local name = UnitName("player")
+    local realm = GetRealmName()
+    self.CharacterDropDown.xOffset = 8
+    self.CharacterDropDown.yOffset = 15
+    UIDropDownMenu_SetText(self.CharacterDropDown, name .. "-" .. realm)
     
 	local homeData = {
 		name = HOME,
@@ -1385,6 +1455,82 @@ function BtWQuests_OnEvent(self, event, ...)
             else
                 BtWQuestsMinimapButton_Reposition(BtWQuests_Settings.minimapAngle)
             end
+
+            local name = UnitName("player")
+            local realm = GetRealmName()
+            if BtWQuests_Characters == nil then
+                BtWQuests_Characters = {}
+            end
+            
+            for _,character in ipairs(BtWQuests_Characters) do
+                if BtWQuests_CharactersMap[character.realm] == nil then
+                    BtWQuests_CharactersMap[character.realm] = {}
+                end
+
+                BtWQuests_CharactersMap[character.realm][character.name] = character
+
+                if character.realm == realm and character.name == name then
+                    BtWQuests_Character = character
+                    BtWQuests_CharacterIsPlayer = true
+                end
+            end
+
+            if BtWQuests_CharactersMap[realm] == nil or BtWQuests_CharactersMap[realm][name] == nil then
+                local character = {
+                    ["realm"] = realm,
+                    ["name"] = name,
+                }
+
+                if BtWQuests_CharactersMap[character.realm] == nil then
+                    BtWQuests_CharactersMap[character.realm] = {}
+                end
+
+                BtWQuests_CharactersMap[character.realm][character.name] = character
+                table.insert(BtWQuests_Characters, character)
+                BtWQuests_Character = character
+                BtWQuests_CharacterIsPlayer = true
+            end
+        end
+    elseif event == "QUEST_LOG_UPDATE" then
+        -- Update quest log info for current character
+        if BtWQuests_CharacterIsPlayer then
+            local questLog = {}
+            local numEntries = GetNumQuestLogEntries()
+            for i=1,numEntries do
+                local questID = select(8, GetQuestLogTitle(i));
+
+                if questID ~= nil then
+                    questLog[questID] = true
+                end
+            end
+
+            local reputations = {}
+            local numEntries = GetNumFactions()
+            for i=1,numEntries do
+                local _, _, standing, barMin, barMax, barValue, _, _, _, _, _, _, _, factionID = GetFactionInfo(i)
+                if factionID ~= nil then
+                    reputations[factionID] = { standing, barMin, barMax, barValue }
+                end
+            end
+
+            local professions = {}
+            
+            local professionIndexes = {GetProfessions()}
+            for _,index in ipairs(professionIndexes) do
+                professions[select(7, GetProfessionInfo(index))] = true
+            end
+
+
+            BtWQuests_Character.questsActive = questLog
+            BtWQuests_Character.questsCompleted = GetQuestsCompleted()
+
+            BtWQuests_Character.faction = UnitFactionGroup("player")
+            BtWQuests_Character.sex = UnitSex("player")
+            BtWQuests_Character.class = select(3, UnitClass("player"))
+            BtWQuests_Character.race = select(2, UnitRace("player"))
+            BtWQuests_Character.level = UnitLevel("player")
+            BtWQuests_Character.professions = professions
+            BtWQuests_Character.reputations = reputations
         end
     end
 end
@@ -2240,6 +2386,42 @@ function BtWQuestsNav_AddChainButton(id, name)
         sisters = sisters,
     }
     NavBar_AddButton(BtWQuests.navBar, buttonData);
+end
+
+
+-- [[ Character Dropdown ]]
+function BtWQuestsCharacterDropDown_Initialize(self, level)
+    local name = UnitName("player")
+    local realm = GetRealmName()
+
+	local info = UIDropDownMenu_CreateInfo();
+    info.text = name .. "-" .. realm;
+    info.func = BtWQuestsCharacterDropDown_Select
+    info.checked = BtWQuests_Character.realm == realm and BtWQuests_Character.name == name;
+    info.arg1 = BtWQuests_CharactersMap[realm][name];
+    UIDropDownMenu_AddButton(info, level)
+
+    for _,character in ipairs(BtWQuests_Characters) do
+        if character.name ~= name or character.realm ~= realm then
+            info.text = character.name .. "-" .. character.realm;
+            info.func = BtWQuestsCharacterDropDown_Select
+            info.checked = BtWQuests_Character.realm == character.realm and BtWQuests_Character.name == character.name;
+            info.arg1 = character;
+            UIDropDownMenu_AddButton(info, level)
+        end
+    end
+end
+
+function BtWQuestsCharacterDropDown_Select(self, character)
+    local name = UnitName("player")
+    local realm = GetRealmName()
+
+    BtWQuests_Character = character
+    BtWQuests_CharacterIsPlayer = (character.realm == realm and character.name == name)
+
+    UIDropDownMenu_SetText(BtWQuests.CharacterDropDown, character.name .. "-" .. character.realm);
+    
+    BtWQuests_OnShow(BtWQuests)
 end
 
 

@@ -3,6 +3,7 @@
 ## Version: 0.12.5
 ## Notes: 
 ## Author: Breen
+## SavedVariables: BtWQuests_Characters
 ## SavedVariablesPerCharacter: BtWQuests_Settings
 
 Data/Data.lua
