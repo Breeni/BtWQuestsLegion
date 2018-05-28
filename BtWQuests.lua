@@ -984,14 +984,6 @@ function BtWQuests_GetQuestName(questID)
     return BtWQuests_EvalText(quest.name, quest)
 end
 
--- function BtWQuests_IsQuestActive(questID)
---     return GetQuestLogIndexByID(questID) > 0
--- end
-
--- function BtWQuests_IsQuestCompleted(questID)
---     return IsQuestFlaggedCompleted(questID)
--- end
-
 function BtWQuests_GetQuestByID(questID)
     if not questID then
         return nil

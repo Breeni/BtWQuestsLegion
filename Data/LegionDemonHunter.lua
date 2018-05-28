@@ -939,7 +939,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40817) or IsQuestFlaggedCompleted(40818))
+                return not (BtWQuests_IsQuestCompleted(40817) or BtWQuests_IsQuestCompleted(40818))
             end,
             breadcrumb = true,
             x = 2,
@@ -952,7 +952,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40817) or IsQuestFlaggedCompleted(40818))
+                return not (BtWQuests_IsQuestCompleted(40817) or BtWQuests_IsQuestCompleted(40818))
             end,
             breadcrumb = true,
             x = 4,
@@ -967,7 +967,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40817)
+                return BtWQuests_IsQuestCompleted(40817)
             end,
             breadcrumb = true,
             x = 3,
@@ -980,7 +980,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40818)
+                return BtWQuests_IsQuestCompleted(40818)
             end,
             breadcrumb = true,
             x = 3,

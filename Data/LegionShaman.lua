@@ -203,7 +203,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(41329) or IsQuestFlaggedCompleted(41328) or IsQuestFlaggedCompleted(41330))
+                return not (BtWQuests_IsQuestCompleted(41329) or BtWQuests_IsQuestCompleted(41328) or BtWQuests_IsQuestCompleted(41330))
             end,
             breadcrumb = true,
             x = 1,
@@ -216,7 +216,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(41329) or IsQuestFlaggedCompleted(41328) or IsQuestFlaggedCompleted(41330))
+                return not (BtWQuests_IsQuestCompleted(41329) or BtWQuests_IsQuestCompleted(41328) or BtWQuests_IsQuestCompleted(41330))
             end,
             breadcrumb = true,
             x = 3,
@@ -229,7 +229,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(41329) or IsQuestFlaggedCompleted(41328) or IsQuestFlaggedCompleted(41330))
+                return not (BtWQuests_IsQuestCompleted(41329) or BtWQuests_IsQuestCompleted(41328) or BtWQuests_IsQuestCompleted(41330))
             end,
             breadcrumb = true,
             x = 5,
@@ -243,7 +243,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
             visible = function (self)
-                return IsQuestFlaggedCompleted(41329)
+                return BtWQuests_IsQuestCompleted(41329)
             end,
             breadcrumb = true,
             x = 3,
@@ -256,7 +256,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
             visible = function (self)
-                return IsQuestFlaggedCompleted(41328)
+                return BtWQuests_IsQuestCompleted(41328)
             end,
             breadcrumb = true,
             x = 3,
@@ -269,7 +269,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
             visible = function (self)
-                return IsQuestFlaggedCompleted(41330)
+                return BtWQuests_IsQuestCompleted(41330)
             end,
             breadcrumb = true,
             x = 3,
