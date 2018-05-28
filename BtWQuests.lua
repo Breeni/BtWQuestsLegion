@@ -1489,6 +1489,14 @@ function BtWQuests_OnEvent(self, event, ...)
                 table.insert(BtWQuests_Characters, character)
                 BtWQuests_Character = character
                 BtWQuests_CharacterIsPlayer = true
+
+                table.sort(BtWQuests_Characters, function (a, b)
+                    if a.name == b.name then
+                        return a.realm < b.realm
+                    end
+    
+                    return a.name < b.name
+                end)
             end
         end
     elseif event == "QUEST_LOG_UPDATE" then
