@@ -533,7 +533,7 @@
 					</Layer>
 				</Layers>
 				<Frames>
-					<Frame name="$parentExpansionDropDown" parentKey="ExpansionDropDown" inherits="UIDropDownMenuTemplate" hidden="true">
+					<Frame name="$parentExpansionDropDown" parentKey="ExpansionDropDown" inherits="UIDropDownMenuTemplate">
 						<Size x="156" y="32"/>
 						<Anchors>
 							<Anchor point="TOPRIGHT" x="0" y="-10"/>

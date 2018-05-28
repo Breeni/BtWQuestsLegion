@@ -91,6 +91,11 @@ function BtWQuests_SelectExpansion(id)
     
     NavBar_Reset(BtWQuests.navBar)
     
+	local tierData = BTWQUESTS_EXPANSION_DATA[BtWQuests_GetCurrentExpansion()];
+	local questSelect = BtWQuests.QuestSelect;
+	questSelect.bg:SetTexture(tierData.backgroundTexture);
+	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
+
     BtWQuests:Show()
     BtWQuests_ListCategories()
 
@@ -122,6 +127,11 @@ function BtWQuests_SelectCategory(id)
     NavBar_Reset(BtWQuests.navBar)
     BtWQuestsNav_AddCategoryButtonParents(id)
     
+	local tierData = BTWQUESTS_EXPANSION_DATA[BtWQuests_GetCurrentExpansion()];
+	local questSelect = BtWQuests.QuestSelect;
+	questSelect.bg:SetTexture(tierData.backgroundTexture);
+	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
+
     BtWQuests:Show()
     BtWQuests_ListCategories()
 
@@ -147,6 +157,11 @@ function BtWQuests_SelectChain(id, scrollTo)
     NavBar_Reset(BtWQuests.navBar)
     BtWQuestsNav_AddChainButtonParents(id)
     
+	local tierData = BTWQUESTS_EXPANSION_DATA[BtWQuests_GetCurrentExpansion()];
+	local questSelect = BtWQuests.QuestSelect;
+	questSelect.bg:SetTexture(tierData.backgroundTexture);
+	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
+
     BtWQuests:Show()
     BtWQuests_DisplayChain(scrollTo)
     
@@ -372,6 +387,11 @@ function BtWQuestsHistory_SetCurrent()
         
         NavBar_Reset(BtWQuests.navBar)
         BtWQuestsNav_AddChainButtonParents(item.id)
+    
+        local tierData = BTWQUESTS_EXPANSION_DATA[BtWQuests_GetCurrentExpansion()];
+        local questSelect = BtWQuests.QuestSelect;
+        questSelect.bg:SetTexture(tierData.backgroundTexture);
+        UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
         
         BtWQuests_DisplayChain(item.scrollTo)
     elseif item.type == "category" then
@@ -379,12 +399,22 @@ function BtWQuestsHistory_SetCurrent()
         
         NavBar_Reset(BtWQuests.navBar)
         BtWQuestsNav_AddCategoryButtonParents(item.id)
+    
+        local tierData = BTWQUESTS_EXPANSION_DATA[BtWQuests_GetCurrentExpansion()];
+        local questSelect = BtWQuests.QuestSelect;
+        questSelect.bg:SetTexture(tierData.backgroundTexture);
+        UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
         
         BtWQuests_ListCategories(item.scrollTo)
     elseif item.type == "expansion" then
         BtWQuests_SetCurrentExpansion(item.id)
 
         NavBar_Reset(BtWQuests.navBar)
+    
+        local tierData = BTWQUESTS_EXPANSION_DATA[BtWQuests_GetCurrentExpansion()];
+        local questSelect = BtWQuests.QuestSelect;
+        questSelect.bg:SetTexture(tierData.backgroundTexture);
+        UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
 
         BtWQuests_ListCategories(item.scrollTo)
     end
@@ -613,8 +643,9 @@ BtWQuests_GetItemName = function (item)
         end
 
         return item.id
+    elseif item.type ~= nil then
+        assert(false, "Invalid item type: " .. item.type)
     else
-        assert(item.type ~= nil, "Invalid item type: " .. item.type)
         return "Unnamed"
     end
 end
@@ -2456,18 +2487,7 @@ function BtWQuestsExpansionDropDown_Initialize(self, level)
 end
 
 function BtWQuestsExpansionDropDown_Select(_, expansion)
-	BtWQuests_SetCurrentExpansion(expansion);
-
-	local tierData = BTWQUESTS_EXPANSION_DATA[expansion];
-	local questSelect = BtWQuests.QuestSelect;
-	questSelect.bg:SetTexture(tierData.backgroundTexture);
-
-	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
-
-    NavBar_Reset(BtWQuests.navBar)
-    
-    BtWQuests_SetCurrentCategory()
-    BtWQuests_ListCategories()
+	BtWQuests_SelectExpansion(expansion);
 end
 
 
