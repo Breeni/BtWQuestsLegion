@@ -2429,7 +2429,13 @@ function BtWQuestsCharacterDropDown_Select(self, character)
 
     UIDropDownMenu_SetText(BtWQuests.CharacterDropDown, character.name .. "-" .. character.realm);
     
-    BtWQuests_OnShow(BtWQuests)
+    if BtWQuests_CurrentChain ~= nil then
+        BtWQuests_SelectChain(BtWQuests_CurrentChain)
+    elseif BtWQuests_CurrentCategory ~= nil then
+        BtWQuests_SelectCategory(BtWQuests_CurrentCategory)
+    elseif BtWQuests_CurrentExpansion ~= nil then
+        BtWQuests_SelectExpansion(BtWQuests_CurrentExpansion)
+    end
 end
 
 
