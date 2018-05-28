@@ -2184,8 +2184,6 @@ function BtWQuestsNav_AddCategoryButton(id, name, parent)
     if name == nil then
         _, name, _, _, parent = BtWQuests_GetCategoryByID(id)
     end
-
-    print("BtWQuestsNav_AddCategoryButton", id, name, parent)
     
     local sisters = {}
     local index = 1
@@ -2218,8 +2216,6 @@ function BtWQuestsNav_AddChainButton(id, name, parent)
     if name == nil then
         _, name, _, _, parent = BtWQuests_GetChainByID(id)
     end
-
-    print("BtWQuestsNav_AddCategoryButton", id, name, parent)
     
     local sisters = {}
     local index = 1
