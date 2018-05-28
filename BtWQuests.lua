@@ -289,13 +289,18 @@ function BtWQuestsHistory_GetCurrent()
 end
 
 function BtWQuestsHistory_AddCurrent()
-    BtWQuests.HistoryIndex = BtWQuests.HistoryIndex + 1
+    local last = BtWQuests.History[BtWQuests.HistoryIndex]
+    local current = BtWQuestsHistory_GetCurrent()
     
-    while BtWQuests.History[BtWQuests.HistoryIndex] do
-        table.remove(BtWQuests.History, BtWQuests.HistoryIndex)
-    end
+    if last == nil or current.type ~= last.type or current.id ~= last.id then
+        BtWQuests.HistoryIndex = BtWQuests.HistoryIndex + 1
 
-    table.insert(BtWQuests.History, BtWQuestsHistory_GetCurrent());
+        while BtWQuests.History[BtWQuests.HistoryIndex] do
+            table.remove(BtWQuests.History, BtWQuests.HistoryIndex)
+        end
+
+        table.insert(BtWQuests.History, current);
+    end
     
     BtWQuestsHistory_Buttons()
 end
