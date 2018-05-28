@@ -783,7 +783,9 @@ local function BtWQuests_GetCategoryItem(item)
 end
 
 local function BtWQuests_GetCategoryItemByIndex(index, parentCategoryID)
-    local parentCategoryID = parentCategoryID or BtWQuests_GetCurrentCategory()
+    if parentCategoryID == true then
+        parentCategoryID = BtWQuests_GetCurrentCategory()
+    end
     if parentCategoryID ~= nil then
         if BtWQuests_Categories[parentCategoryID].items then
             return BtWQuests_GetCategoryItem(BtWQuests_Categories[parentCategoryID].items[index])
@@ -1469,7 +1471,7 @@ function BtWQuests_ListCategories(scrollTo)
     
 	local i = 1;
 	local index = 1;
-	local itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i);
+	local itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
 	while id do
         if not hidden then
             local categoryButton = scrollFrame["category"..index];
@@ -1511,7 +1513,7 @@ function BtWQuests_ListCategories(scrollTo)
         end
         
         i = i + 1;
-        itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i);
+        itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
     end
     
     categoryButton = scrollFrame["category"..index];
@@ -2165,7 +2167,7 @@ function BtWQuestsNav_AddCategoryButtonParents(id)
         BtWQuestsNav_AddCategoryButtonParents(parent)
     end
     
-    BtWQuestsNav_AddCategoryButton(id, name)
+    BtWQuestsNav_AddCategoryButton(id, name, parent)
 end
 
 function BtWQuestsNav_AddChainButtonParents(id)
@@ -2175,17 +2177,19 @@ function BtWQuestsNav_AddChainButtonParents(id)
         BtWQuestsNav_AddCategoryButtonParents(parent)
     end
     
-    BtWQuestsNav_AddChainButton(id, name)
+    BtWQuestsNav_AddChainButton(id, name, parent)
 end
 
-function BtWQuestsNav_AddCategoryButton(id, name)
+function BtWQuestsNav_AddCategoryButton(id, name, parent)
     if name == nil then
-        _, name = BtWQuests_GetCategoryByID(id)
+        _, name, _, _, parent = BtWQuests_GetCategoryByID(id)
     end
+
+    print("BtWQuestsNav_AddCategoryButton", id, name, parent)
     
     local sisters = {}
     local index = 1
-	local sisterType, sisterId, sisterName, hidden = BtWQuests_GetCategoryItemByIndex(index);
+	local sisterType, sisterId, sisterName, hidden = BtWQuests_GetCategoryItemByIndex(index, parnet);
     while sisterId do
         if not hidden then
             table.insert(sisters, {
@@ -2197,7 +2201,7 @@ function BtWQuestsNav_AddCategoryButton(id, name)
         end
         
         index = index + 1
-        sisterType, sisterId, sisterName, hidden = BtWQuests_GetCategoryItemByIndex(index);
+        sisterType, sisterId, sisterName, hidden = BtWQuests_GetCategoryItemByIndex(index, parent);
     end
     
     local buttonData = {
@@ -2210,14 +2214,16 @@ function BtWQuestsNav_AddCategoryButton(id, name)
     NavBar_AddButton(BtWQuests.navBar, buttonData);
 end
 
-function BtWQuestsNav_AddChainButton(id, name)
+function BtWQuestsNav_AddChainButton(id, name, parent)
     if name == nil then
-        _, name = BtWQuests_GetChainByID(id)
+        _, name, _, _, parent = BtWQuests_GetChainByID(id)
     end
+
+    print("BtWQuestsNav_AddCategoryButton", id, name, parent)
     
     local sisters = {}
     local index = 1
-	local sisterType, sisterId, sisterName, hidden = BtWQuests_GetCategoryItemByIndex(index);
+	local sisterType, sisterId, sisterName, hidden = BtWQuests_GetCategoryItemByIndex(index, parent);
     while sisterId do
         if not hidden then
             table.insert(sisters, {
@@ -2229,7 +2235,7 @@ function BtWQuestsNav_AddChainButton(id, name)
         end
         
         index = index + 1
-        sisterType, sisterId, sisterName, hidden = BtWQuests_GetCategoryItemByIndex(index);
+        sisterType, sisterId, sisterName, hidden = BtWQuests_GetCategoryItemByIndex(index, parent);
     end
     
     local buttonData = {
