@@ -12,11 +12,11 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD] = {
         {
             visible = false,
             onEval = function (self)
-                if IsQuestFlaggedCompleted(40715) and IsQuestFlaggedCompleted(40722) then -- First Artifact
+                if BtWQuests_IsQuestCompleted(40715) and BtWQuests_IsQuestCompleted(40722) then -- First Artifact
                     return true
-                elseif IsQuestFlaggedCompleted(43962) and IsQuestFlaggedCompleted(40723) then -- Second Artifact
+                elseif BtWQuests_IsQuestCompleted(43962) and BtWQuests_IsQuestCompleted(40723) then -- Second Artifact
                     return true
-                elseif IsQuestFlaggedCompleted(44401) and IsQuestFlaggedCompleted(40724) then -- Third Artifact
+                elseif BtWQuests_IsQuestCompleted(44401) and BtWQuests_IsQuestCompleted(40724) then -- Third Artifact
                     return true
                 end
             end
@@ -181,7 +181,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
             restrictions = {
                 {
                     onEval = function (self)
-                        return not(IsQuestFlaggedCompleted(40722) or IsQuestFlaggedCompleted(40723) or IsQuestFlaggedCompleted(40724))
+                        return not(BtWQuests_IsQuestCompleted(40722) or BtWQuests_IsQuestCompleted(40723) or BtWQuests_IsQuestCompleted(40724))
                     end
                 }
             },
@@ -197,7 +197,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
             restrictions = {
                 {
                     onEval = function (self)
-                        return not(IsQuestFlaggedCompleted(40722) or IsQuestFlaggedCompleted(40723) or IsQuestFlaggedCompleted(40724))
+                        return not(BtWQuests_IsQuestCompleted(40722) or BtWQuests_IsQuestCompleted(40723) or BtWQuests_IsQuestCompleted(40724))
                     end
                 }
             },
@@ -213,7 +213,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
             restrictions = {
                 {
                     onEval = function (self)
-                        return not(IsQuestFlaggedCompleted(40722) or IsQuestFlaggedCompleted(40723) or IsQuestFlaggedCompleted(40724))
+                        return not(BtWQuests_IsQuestCompleted(40722) or BtWQuests_IsQuestCompleted(40723) or BtWQuests_IsQuestCompleted(40724))
                     end
                 }
             },
@@ -232,7 +232,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
             restrictions = {
                 {
                     onEval = function (self)
-                        return IsQuestFlaggedCompleted(40722)
+                        return BtWQuests_IsQuestCompleted(40722)
                     end
                 }
             },
@@ -248,7 +248,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
             restrictions = {
                 {
                     onEval = function (self)
-                        return IsQuestFlaggedCompleted(40723)
+                        return BtWQuests_IsQuestCompleted(40723)
                     end
                 }
             },
@@ -264,7 +264,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
             restrictions = {
                 {
                     onEval = function (self)
-                        return IsQuestFlaggedCompleted(40724)
+                        return BtWQuests_IsQuestCompleted(40724)
                     end
                 }
             },
