@@ -997,6 +997,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_BRAZIE_FARMSTEAD] =
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS] = {
 	name = GetMapNameByID(24),
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
+	restrictions = {
+		type = "faction",
+		faction = "Horde"
+	},
 	items = {
 		{
 			type = "chain",
