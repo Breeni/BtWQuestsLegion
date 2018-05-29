@@ -889,7 +889,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
     range = {98, 110},
     items = {
         {
-            parts = {
+            variations = {
                 {
                     type = "quest",
                     id = 39386,
