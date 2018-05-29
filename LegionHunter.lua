@@ -190,7 +190,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                return not (BtWQuests_IsQuestCompleted(40621) or BtWQuests_IsQuestCompleted(40620) or BtWQuests_IsQuestCompleted(40619))
             end,
             breadcrumb = true,
             x = 1,
@@ -203,7 +203,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                return not (BtWQuests_IsQuestCompleted(40621) or BtWQuests_IsQuestCompleted(40620) or BtWQuests_IsQuestCompleted(40619))
             end,
             breadcrumb = true,
             x = 3,
@@ -216,7 +216,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                return not (BtWQuests_IsQuestCompleted(40621) or BtWQuests_IsQuestCompleted(40620) or BtWQuests_IsQuestCompleted(40619))
             end,
             breadcrumb = true,
             x = 5,
@@ -230,7 +230,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "quest",
             id = 41009,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                return not (BtWQuests_IsQuestCompleted(40621) or BtWQuests_IsQuestCompleted(40620) or BtWQuests_IsQuestCompleted(40619))
             end,
             x = 1,
             y = 4,
@@ -242,7 +242,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "quest",
             id = 40952,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                return not (BtWQuests_IsQuestCompleted(40621) or BtWQuests_IsQuestCompleted(40620) or BtWQuests_IsQuestCompleted(40619))
             end,
             x = 3,
             y = 4,
@@ -254,7 +254,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "quest",
             id = 41008,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40621) or IsQuestFlaggedCompleted(40620) or IsQuestFlaggedCompleted(40619))
+                return not (BtWQuests_IsQuestCompleted(40621) or BtWQuests_IsQuestCompleted(40620) or BtWQuests_IsQuestCompleted(40619))
             end,
             x = 5,
             y = 4,
@@ -272,7 +272,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40621)
+                return BtWQuests_IsQuestCompleted(40621)
             end,
             breadcrumb = true,
             x = 3,
@@ -285,7 +285,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40620)
+                return BtWQuests_IsQuestCompleted(40620)
             end,
             breadcrumb = true,
             x = 3,
@@ -298,7 +298,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40619)
+                return BtWQuests_IsQuestCompleted(40619)
             end,
             breadcrumb = true,
             x = 3,
@@ -312,7 +312,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "quest",
             id = 41009,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40621)
+                return BtWQuests_IsQuestCompleted(40621)
             end,
             x = 3,
             y = 4,
@@ -324,7 +324,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "quest",
             id = 40952,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40620)
+                return BtWQuests_IsQuestCompleted(40620)
             end,
             x = 3,
             y = 4,
@@ -336,7 +336,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             type = "quest",
             id = 41008,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40619)
+                return BtWQuests_IsQuestCompleted(40619)
             end,
             x = 3,
             y = 4,

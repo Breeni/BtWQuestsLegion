@@ -194,7 +194,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40640) or IsQuestFlaggedCompleted(40639) or IsQuestFlaggedCompleted(40638))
+                return not (BtWQuests_IsQuestCompleted(40640) or BtWQuests_IsQuestCompleted(40639) or BtWQuests_IsQuestCompleted(40638))
             end,
             breadcrumb = true,
             x = 1,
@@ -207,7 +207,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40640) or IsQuestFlaggedCompleted(40639) or IsQuestFlaggedCompleted(40638))
+                return not (BtWQuests_IsQuestCompleted(40640) or BtWQuests_IsQuestCompleted(40639) or BtWQuests_IsQuestCompleted(40638))
             end,
             breadcrumb = true,
             x = 3,
@@ -220,7 +220,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40640) or IsQuestFlaggedCompleted(40639) or IsQuestFlaggedCompleted(40638))
+                return not (BtWQuests_IsQuestCompleted(40640) or BtWQuests_IsQuestCompleted(40639) or BtWQuests_IsQuestCompleted(40638))
             end,
             breadcrumb = true,
             x = 5,
@@ -234,7 +234,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40640)
+                return BtWQuests_IsQuestCompleted(40640)
             end,
             breadcrumb = true,
             x = 3,
@@ -247,7 +247,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40639)
+                return BtWQuests_IsQuestCompleted(40639)
             end,
             breadcrumb = true,
             x = 3,
@@ -260,7 +260,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40638)
+                return BtWQuests_IsQuestCompleted(40638)
             end,
             breadcrumb = true,
             x = 3,
