@@ -1342,8 +1342,8 @@ function BtWQuests_GetChainItem(item)
         end
         
         return true -- We didnt find a valid item so skip this list
-    elseif item.parts ~= nil then
-        local part = {BtWQuests_GetChainItem(item.parts)}
+    elseif item.variations ~= nil then
+        local part = {BtWQuests_GetChainItem(item.variations)}
 
         local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = BtWQuests_EvalChainItem(item)
 
@@ -1405,11 +1405,11 @@ function BtWQuests_GetChainItemConnectorsByIndex(index)
             if item.connections then
                 return unpack(item.connections)
             end
-        elseif item.parts ~= nil then
-            for i = 1, #item.parts do
-                if not BtWQuests_GetItemSkip(item.parts[i]) then
-                    if item.parts[i].connections then
-                        return unpack(item.parts[i].connections)
+        elseif item.variations ~= nil then
+            for i = 1, #item.variations do
+                if not BtWQuests_GetItemSkip(item.variations[i]) then
+                    if item.variations[i].connections then
+                        return unpack(item.variations[i].connections)
                     end
                 end
             end
