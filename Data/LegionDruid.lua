@@ -355,7 +355,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                return not (BtWQuests_IsQuestCompleted(40781) or BtWQuests_IsQuestCompleted(40701) or BtWQuests_IsQuestCompleted(40702) or BtWQuests_IsQuestCompleted(40703))
             end,
             breadcrumb = true,
             x = 0,
@@ -368,7 +368,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                return not (BtWQuests_IsQuestCompleted(40781) or BtWQuests_IsQuestCompleted(40701) or BtWQuests_IsQuestCompleted(40702) or BtWQuests_IsQuestCompleted(40703))
             end,
             breadcrumb = true,
             x = 2,
@@ -381,7 +381,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                return not (BtWQuests_IsQuestCompleted(40781) or BtWQuests_IsQuestCompleted(40701) or BtWQuests_IsQuestCompleted(40702) or BtWQuests_IsQuestCompleted(40703))
             end,
             breadcrumb = true,
             x = 4,
@@ -394,7 +394,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40781) or IsQuestFlaggedCompleted(40701) or IsQuestFlaggedCompleted(40702) or IsQuestFlaggedCompleted(40703))
+                return not (BtWQuests_IsQuestCompleted(40781) or BtWQuests_IsQuestCompleted(40701) or BtWQuests_IsQuestCompleted(40702) or BtWQuests_IsQuestCompleted(40703))
             end,
             breadcrumb = true,
             x = 6,
@@ -409,7 +409,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40781)
+                return BtWQuests_IsQuestCompleted(40781)
             end,
             breadcrumb = true,
             x = 3,
@@ -422,7 +422,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40701)
+                return BtWQuests_IsQuestCompleted(40701)
             end,
             breadcrumb = true,
             x = 3,
@@ -435,7 +435,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40702)
+                return BtWQuests_IsQuestCompleted(40702)
             end,
             breadcrumb = true,
             x = 3,
@@ -448,7 +448,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40703)
+                return BtWQuests_IsQuestCompleted(40703)
             end,
             breadcrumb = true,
             x = 3,

@@ -213,7 +213,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40709) or IsQuestFlaggedCompleted(40708) or IsQuestFlaggedCompleted(40707))
+                return not (BtWQuests_IsQuestCompleted(40709) or BtWQuests_IsQuestCompleted(40708) or BtWQuests_IsQuestCompleted(40707))
             end,
             breadcrumb = true,
             x = 1,
@@ -226,7 +226,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40709) or IsQuestFlaggedCompleted(40708) or IsQuestFlaggedCompleted(40707))
+                return not (BtWQuests_IsQuestCompleted(40709) or BtWQuests_IsQuestCompleted(40708) or BtWQuests_IsQuestCompleted(40707))
             end,
             breadcrumb = true,
             x = 3,
@@ -239,7 +239,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40709) or IsQuestFlaggedCompleted(40708) or IsQuestFlaggedCompleted(40707))
+                return not (BtWQuests_IsQuestCompleted(40709) or BtWQuests_IsQuestCompleted(40708) or BtWQuests_IsQuestCompleted(40707))
             end,
             breadcrumb = true,
             x = 5,
@@ -254,7 +254,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40709)
+                return BtWQuests_IsQuestCompleted(40709)
             end,
             breadcrumb = true,
             x = 3,
@@ -267,7 +267,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40708)
+                return BtWQuests_IsQuestCompleted(40708)
             end,
             breadcrumb = true,
             x = 3,
@@ -280,7 +280,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40707)
+                return BtWQuests_IsQuestCompleted(40707)
             end,
             breadcrumb = true,
             x = 3,
