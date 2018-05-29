@@ -483,26 +483,74 @@ BtWQuests_CheckItemRequirement = function (item, skipAlternatives)
     end
 
     if item.type == "quest" then
-        if item.active == true then
+        if item.status ~= nil then
+            for _,status in ipairs(item.status) do
+                if status == "active" and BtWQuests_IsQuestActive(item.id) then
+                    return true
+                elseif status == "completed" and BtWQuests_IsQuestCompleted(item.id) then
+                    return true
+                elseif status == "notactive" and not BtWQuests_IsQuestActive(item.id) then
+                    return true
+                elseif status == "notcompleted" and not BtWQuests_IsQuestCompleted(item.id) then
+                    return true
+                end
+            end
+
+            return false
+        elseif item.active == true then
             return BtWQuests_IsQuestActive(item.id)
         elseif item.active == false then
             return not BtWQuests_IsQuestActive(item.id)
+        elseif item.completed == false then
+            return not BtWQuests_IsQuestCompleted(item.id)
         else
             return BtWQuests_IsQuestCompleted(item.id)
         end
     elseif item.type == "chain" then
-        if item.active == true then
+        if item.status ~= nil then
+            for _,status in ipairs(item.status) do
+                if status == "active" and BtWQuests_IsChainActive(item.id) then
+                    return true
+                elseif status == "completed" and BtWQuests_IsChainCompleted(item.id) then
+                    return true
+                elseif status == "notactive" and not BtWQuests_IsChainActive(item.id) then
+                    return true
+                elseif status == "notcompleted" and not BtWQuests_IsChainCompleted(item.id) then
+                    return true
+                end
+            end
+
+            return false
+        elseif item.active == true then
             return BtWQuests_IsChainActive(item.id)
         elseif item.active == false then
             return not BtWQuests_IsChainActive(item.id)
+        elseif item.completed == false then
+            return not BtWQuests_IsChainCompleted(item.id)
         else
             return BtWQuests_IsChainCompleted(item.id)
         end
     elseif item.type == "category" then
-        if item.active == true then
+        if item.status ~= nil then
+            for _,status in ipairs(item.status) do
+                if status == "active" and BtWQuests_IsCategoryActive(item.id) then
+                    return true
+                elseif status == "completed" and BtWQuests_IsCategoryCompleted(item.id) then
+                    return true
+                elseif status == "notactive" and not BtWQuests_IsCategoryActive(item.id) then
+                    return true
+                elseif status == "notcompleted" and not BtWQuests_IsCategoryCompleted(item.id) then
+                    return true
+                end
+            end
+
+            return false
+        elseif item.active == true then
             return BtWQuests_IsCategoryActive(item.id)
         elseif item.active == false then
             return not BtWQuests_IsCategoryActive(item.id)
+        elseif item.completed == false then
+            return not BtWQuests_IsCategoryCompleted(item.id)
         else
             return BtWQuests_IsCategoryCompleted(item.id)
         end
