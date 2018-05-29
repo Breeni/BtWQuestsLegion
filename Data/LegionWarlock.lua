@@ -202,7 +202,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
+                return not (BtWQuests_IsQuestCompleted(40686) or BtWQuests_IsQuestCompleted(40687) or BtWQuests_IsQuestCompleted(40688))
             end,
             breadcrumb = true,
             x = 1,
@@ -215,7 +215,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
+                return not (BtWQuests_IsQuestCompleted(40686) or BtWQuests_IsQuestCompleted(40687) or BtWQuests_IsQuestCompleted(40688))
             end,
             breadcrumb = true,
             x = 3,
@@ -228,7 +228,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40686) or IsQuestFlaggedCompleted(40687) or IsQuestFlaggedCompleted(40688))
+                return not (BtWQuests_IsQuestCompleted(40686) or BtWQuests_IsQuestCompleted(40687) or BtWQuests_IsQuestCompleted(40688))
             end,
             breadcrumb = true,
             x = 5,
@@ -243,7 +243,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40686)
+                return BtWQuests_IsQuestCompleted(40686)
             end,
             breadcrumb = true,
             x = 3,
@@ -256,7 +256,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40687)
+                return BtWQuests_IsQuestCompleted(40687)
             end,
             breadcrumb = true,
             x = 3,
@@ -269,7 +269,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
             visible = function (self)
-                return IsQuestFlaggedCompleted(40688)
+                return BtWQuests_IsQuestCompleted(40688)
             end,
             breadcrumb = true,
             x = 3,

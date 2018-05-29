@@ -889,48 +889,28 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
     range = {98, 110},
     items = {
         {
-            {
-                type = "quest",
-                id = 39386,
-                restrictions = {
-                    {
+            variations = {
+                {
+                    type = "quest",
+                    id = 39386,
+                    restrictions = {
                         type = "quest",
                         id = 39386,
-                    }
+                        status = {'active', 'completed'}
+                    },
                 },
-                x = 3,
-                y = 0,
-                connections = {
-                    2,
-                },
+                {
+                    name = "Go to Razik Gazbolt",
+                    breadcrumb = true,
+                    onClick = function ()
+                        BtWQuests_ShowMapWithWaypoint(1024, 0, 0.5763, 0.5661, "Razik Gazbolt")
+                    end,
+                }
             },
-            {
-                type = "quest",
-                id = 39386,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 39386,
-                        active = true,
-                    }
-                },
-                x = 3,
-                y = 0,
-                connections = {
-                    2,
-                },
-            },
-            {
-                name = "Go to Razik Gazbolt",
-                breadcrumb = true,
-                onClick = function ()
-                    BtWQuests_ShowMapWithWaypoint(1024, 0, 0.5763, 0.5661, "Razik Gazbolt")
-                end,
-                x = 3,
-                y = 0,
-                connections = {
-                    2,
-                },
+            x = 3,
+            y = 0,
+            connections = {
+                2,
             },
         },
         {

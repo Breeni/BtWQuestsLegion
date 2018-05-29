@@ -219,7 +219,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40842) or IsQuestFlaggedCompleted(40843) or IsQuestFlaggedCompleted(40844))
+                return not (BtWQuests_IsQuestCompleted(40842) or BtWQuests_IsQuestCompleted(40843) or BtWQuests_IsQuestCompleted(40844))
             end,
             breadcrumb = true,
             x = 1,
@@ -232,7 +232,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40842) or IsQuestFlaggedCompleted(40843) or IsQuestFlaggedCompleted(40844))
+                return not (BtWQuests_IsQuestCompleted(40842) or BtWQuests_IsQuestCompleted(40843) or BtWQuests_IsQuestCompleted(40844))
             end,
             breadcrumb = true,
             x = 3,
@@ -245,7 +245,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
             visible = function (self)
-                return not (IsQuestFlaggedCompleted(40842) or IsQuestFlaggedCompleted(40843) or IsQuestFlaggedCompleted(40844))
+                return not (BtWQuests_IsQuestCompleted(40842) or BtWQuests_IsQuestCompleted(40843) or BtWQuests_IsQuestCompleted(40844))
             end,
             breadcrumb = true,
             x = 5,
