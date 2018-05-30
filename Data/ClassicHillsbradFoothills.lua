@@ -3,9 +3,25 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_AZURELODEMINE] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {1, 60},
+    prerequisites = {
+        {
+            type = "level",
+            level = 15,
+        },
+    },
 	completed = {
-		type = "quest",
-		id = 28146,
+		{
+			type = "quest",
+			id = 28096,
+		},
+		{
+			type = "quest",
+			id = 28144,
+		},
+		{
+			type = "quest",
+			id = 28146,
+		},
 	},
 	items = {
 		-- Lead-ins
@@ -271,6 +287,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_SLUDGEFIELDS] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {1, 60},
+    prerequisites = {
+        {
+            type = "level",
+            level = 15,
+        },
+    },
 	completed = {
 		type = "quest",
 		id = 28237,
@@ -413,6 +435,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_STORMPIKE] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {1, 60},
+    prerequisites = {
+        {
+            type = "level",
+            level = 15,
+        },
+    },
 	completed = {
 		type = "quest",
 		id = 28616,
@@ -606,6 +634,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_EASTPOINTTOWER] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {1, 60},
+    prerequisites = {
+        {
+            type = "level",
+            level = 15,
+        },
+    },
 	completed = {
 		type = "quest",
 		id = 28647,
@@ -728,6 +762,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_SOUTHSHORE] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {1, 60},
+    prerequisites = {
+        {
+            type = "level",
+            level = 15,
+        },
+    },
 	completed = {
 		{
 			type = "quest",
@@ -859,6 +899,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_TARREN_MILL] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {1, 60},
+    prerequisites = {
+        {
+            type = "level",
+            level = 15,
+        },
+    },
 	completed = {
 		{
 			type = "quest",
@@ -924,6 +970,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_BRAZIE_FARMSTEAD] =
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {1, 60},
+    prerequisites = {
+        {
+            type = "level",
+            level = 15,
+        },
+    },
 	completed = {
 		type = "quest",
 		id = 28748,
