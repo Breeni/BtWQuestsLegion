@@ -13839,4 +13839,186 @@ BtWQuests_Quests = {
         level = 55,
         requiredLevel = 51,
     },
+
+    
+	[26298] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Hunt for Yenniku",
+	},
+	[26407] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Mosh'Ogg Handiwork",
+	},
+	[26299] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Headhunting",
+	},
+	[26300] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Nezzliok Will Know",
+	},
+	[26317] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "A Lashtail Hatchling",
+	},
+	[43179] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Kirin Tor of Dalaran",
+	},
+	[46935] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Shadow of the Sentinax",
+	},
+	[26321] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "I Think She's Hungry",
+	},
+	[9457] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "An Unusual Patron",
+	},
+	[26323] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Favored Skull",
+	},
+	[26278] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Defense of Grom'gol: Raptor Risk",
+	},
+	[26330] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Who's a Big Troll?",
+	},
+	[26279] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Defense of Grom'gol: Ogre Oppression",
+	},
+	[26338] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Population Con-Troll",
+	},
+	[42422] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Wardens",
+	},
+	[9436] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "Bloodscalp Insight",
+	},
+	[26281] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Defense of Grom'gol: Trollish Thievery",
+	},
+	[26280] = {
+		requiredLevel = 110,
+		level = 110,
+		name = "The Defense of Grom'gol: Murloc Menace",
+	},
+	[26350] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Priestess Hu'rala",
+	},
+	[26301] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Speaking with Nezzliok",
+	},
+	[26332] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Skullsplitter Mojo",
+	},
+	[26334] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Bloodlord Mandokir",
+	},
+	[26404] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Above My Pay Grade",
+	},
+	[26399] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Mosh'Ogg Bounty",
+	},
+	[26302] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Chasing Yenniku's Fate",
+	},
+	[26303] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Mind's Eye",
+	},
+	[26351] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mind Vision",
+	},
+	[26359] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "See Raptor",
+	},
+	[26352] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Cozzle's Plan",
+	},
+	[26403] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Venture Company Mining",
+	},
+	[26305] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Saving Yenniku",
+	},
+	[26400] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Universal Key",
+	},
+	[26360] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mind Control",
+	},
+	[26405] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Zul'Mamwe Mambo",
+	},
+	[26304] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Nighttime in the Jungle",
+	},
+	[26362] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Be Raptor",
+	},
 }

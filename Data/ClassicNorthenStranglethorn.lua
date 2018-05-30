@@ -17,7 +17,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_OHGANANKA] = {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING,
+            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_ALLIANCE,
         },
     },
     completed = {
@@ -28,7 +28,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_OHGANANKA] = {
     items = {
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING,
+            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_ALLIANCE,
             x = 4,
             y = 0,
             connections = {
@@ -222,7 +222,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_REBEL_CAMP] = {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING,
+            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_ALLIANCE,
             x = 0,
             y = 1,
         },
@@ -325,12 +325,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_NESINGWARY] = {
     end,
     category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        {
-            type = "faction",
-            faction = "Alliance",
-        },
-    },
     prerequisites = {
         {
             type = "level",
@@ -558,7 +552,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_NESINGWARY] = {
         },
     },
 }
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING] = {
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_ALLIANCE] = {
     name = "Hatchling",
     category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
@@ -695,6 +689,383 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING] = {
         },
     },
 }
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_YENNIKU] = {
+    name = function ()
+        return GetAchievementCriteriaInfo(4906, 2)
+    end,
+    category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+    expansion = BTWQUESTS_EXPANSION_CLASSIC,
+    restrictions = {
+        type = "faction",
+        faction = "Horde",
+    },
+    prerequisites = {
+        {
+            type = "level",
+            level = 25,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 26305,
+    },
+    range = {25,60},
+    items = {
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 28688,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 28688,
+                            status = {'active', 'completed'}
+                        }
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 26417,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 26417,
+                            status = {'active', 'completed'}
+                        }
+                    },
+                },
+                {
+                    name = "Go to Commander Aggro'gosh",
+                    breadcrumb = true,
+                    onClick = function ()
+                        BtWQuests_ShowMapWithWaypoint(37, 0, 0.3843, 0.5049, "Commander Aggro'gosh")
+                    end,
+                },
+            },
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26278,
+            x = 3,
+            y = 1,
+            connections = {
+                2, 3,
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_HORDE,
+            x = 6,
+            y = 1,
+        },
+
+        
+        {
+            type = "quest",
+            id = 26280,
+            x = 1,
+            y = 2,
+            connections = {
+                3, 4,
+            },
+        },
+        {
+            type = "quest",
+            id = 26279,
+            x = 3,
+            y = 2,
+            connections = {
+                2, 3,
+            },
+        },
+        {
+            type = "quest",
+            id = 26407,
+            x = 5,
+            y = 2,
+        },
+
+        
+        {
+            type = "quest",
+            id = 26281,
+            x = 1,
+            y = 3,
+        },
+        {
+            type = "quest",
+            id = 26298,
+            x = 3,
+            y = 3,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 9436,
+            x = 5,
+            y = 3,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 26299,
+            x = 3,
+            y = 4,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 9457,
+            x = 5,
+            y = 4,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 26300,
+            x = 3,
+            y = 5,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_NESINGWARY,
+            x = 5,
+            y = 5,
+        },
+        {
+            type = "quest",
+            id = 26301,
+            x = 3,
+            y = 6,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26302,
+            x = 3,
+            y = 7,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 26399,
+            x = 1,
+            y = 8,
+            connections = {
+                3, 4, 5,
+            },
+        },
+        {
+            type = "quest",
+            id = 26303,
+            x = 3,
+            y = 8,
+            connections = {
+                5,
+            },
+        },
+        {
+            type = "quest",
+            id = 26404,
+            x = 5,
+            y = 8,
+        },
+        {
+            type = "quest",
+            id = 26400,
+            x = 0,
+            y = 9,
+        },
+        {
+            type = "quest",
+            id = 26403,
+            x = 2,
+            y = 9,
+        },
+        {
+            type = "quest",
+            id = 26352,
+            x = 4,
+            y = 9,
+        },
+        {
+            type = "quest",
+            id = 26305,
+            x = 6,
+            y = 9,
+        },
+        {
+            type = "quest",
+            id = 26304,
+            x = 2,
+            y = 10,
+        },
+    },
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_HORDE] = {
+    name = "Hatchling",
+    category = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+    expansion = BTWQUESTS_EXPANSION_CLASSIC,
+    restrictions = {
+        type = "faction",
+        faction = "Horde",
+    },
+    prerequisites = {
+        {
+            type = "level",
+            level = 25,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 26362,
+    },
+    range = {25,60},
+    items = {
+        {
+            type = "quest",
+            id = 26317,
+            x = 3,
+            y = 1,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26321,
+            x = 3,
+            y = 2,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26323,
+            x = 3,
+            y = 3,
+            connections = {
+                1, 2,
+            },
+        },
+        
+        {
+            type = "quest",
+            id = 26338,
+            x = 2,
+            y = 4,
+        },
+        {
+            type = "quest",
+            id = 26330,
+            x = 4,
+            y = 4,
+            connections = {
+                1,
+            },
+        },
+        
+        {
+            type = "quest",
+            id = 26332,
+            x = 3,
+            y = 5,
+            connections = {
+                1,
+            },
+        },
+
+        {
+            type = "quest",
+            id = 26334,
+            x = 3,
+            y = 6,
+            connections = {
+                1,
+            },
+        },
+
+        {
+            type = "quest",
+            id = 26350,
+            x = 3,
+            y = 7,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26351,
+            x = 3,
+            y = 8,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26359,
+            x = 3,
+            y = 9,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26360,
+            x = 3,
+            y = 10,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 26405,
+            x = 2,
+            y = 11,
+        },
+        {
+            type = "quest",
+            id = 26362,
+            x = 4,
+            y = 11,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26386,
+            x = 3,
+            y = 12,
+        },
+    },
+}
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN] = {
     name = GetMapNameByID(37),
@@ -706,11 +1077,19 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN] = {
         },
         {
             type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_YENNIKU,
+        },
+        {
+            type = "chain",
             id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_NESINGWARY,
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING,
+            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_ALLIANCE,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_HORDE,
         },
         {
             type = "chain",
