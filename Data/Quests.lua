@@ -14021,4 +14021,804 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Be Raptor",
 	},
+	[42421] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Nightfallen",
+	},
+	[48729] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ataxon",
+	},
+	[44892] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Snowfeather Swarm!",
+	},
+	[43193] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Calamitous Intent",
+	},
+	[41307] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "All That Glitters",
+	},
+	[26209] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Murder Was The Case That They Gave Me",
+	},
+	[26378] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: Westfall!",
+	},
+	[26362] = {
+		["requiredLevel"] = 31,
+		["level"] = 31,
+		["name"] = "Be Raptor",
+	},
+	[37031] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "Sigil of the Black Hand (Mythic)",
+	},
+	[47554] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Intercepting the Legion's Plans",
+	},
+	[43618] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "WANTED: Gurbog da Basher",
+	},
+	[49133] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antorus, the Burning Throne: The Heart of Argus",
+	},
+	[26304] = {
+		["requiredLevel"] = 31,
+		["level"] = 31,
+		["name"] = "Nighttime in the Jungle",
+	},
+	[46932] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Tad More Corruption",
+	},
+	[39500] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "Well of Souls",
+	},
+	[39502] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "The Fel Spire",
+	},
+	[49032] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antorus, the Burning Throne: Dark Passage",
+	},
+	[12491] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Direbrew's Dire Brew",
+	},
+	[43807] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Withered Wrangling: Ambervale",
+	},
+	[45180] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "An Island of War",
+	},
+	[48300] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Soulhunter",
+	},
+	[45383] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Nighthold: Talisman of the Shal'dorei",
+	},
+	[26405] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Zul'Mamwe Mambo",
+	},
+	[49472] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Titanic Effort",
+	},
+	[42233] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Highmountain Tribes",
+	},
+	[46206] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Whispers of a Frightened World",
+	},
+	[42422] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Wardens",
+	},
+	[39501] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "Well of Souls",
+	},
+	[49293] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Invasion Onslaught",
+	},
+	[47594] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "I'll Take Those, Thanks!",
+	},
+	[49014] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Burning Throne",
+	},
+	[41865] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Neltharion's Lair: Mother of Stone",
+	},
+	[44891] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "2v2 Weekly Quest",
+	},
+	[48799] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Fuel of a Doomed World",
+	},
+	[45840] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Assault on Highmountain",
+	},
+	[48299] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antoran High Command",
+	},
+	[44909] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "RBG Weekly",
+	},
+	[33134] = {
+		["requiredLevel"] = 90,
+		["level"] = 90,
+		["name"] = "Warforged Seals",
+	},
+	[46293] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Deadmines, Part Three?",
+	},
+	[44720] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Call to Action",
+	},
+	[45159] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Cubic Conundrum",
+	},
+	[47114] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Tomb of Sargeras: The Tomb's Mistress",
+	},
+	[41320] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Pry It From Their Cold, Feral Claws",
+	},
+	[49134] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antorus, the Burning Throne: The Heart of Argus",
+	},
+	[47120] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Tomb of Sargeras: Free The Tormented",
+	},
+	[49075] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antorus, the Burning Throne: Dark Passage",
+	},
+	[49077] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Moments of Reflection",
+	},
+	[45173] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Desperate Times",
+	},
+	[26386] = {
+		["requiredLevel"] = 32,
+		["level"] = 32,
+		["name"] = "Surkhan",
+	},
+	[42170] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Dreamweavers",
+	},
+	[46187] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Larthogg",
+	},
+	[44908] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "3v3 Weekly Quest",
+	},
+	[44400] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Assault on Violet Hold: Purple Pain",
+	},
+	[41077] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Munitions Testing",
+	},
+	[42630] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Bolas Bastion",
+	},
+	[49473] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Titanic Effort",
+	},
+	[28562] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: Westfall!",
+	},
+	[42421] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Nightfallen",
+	},
+	[48729] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ataxon",
+	},
+	[44892] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Snowfeather Swarm!",
+	},
+	[43193] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Calamitous Intent",
+	},
+	[41307] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "All That Glitters",
+	},
+	[28562] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: Westfall!",
+	},
+	[49473] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Titanic Effort",
+	},
+	[26362] = {
+		["requiredLevel"] = 31,
+		["level"] = 31,
+		["name"] = "Be Raptor",
+	},
+	[37031] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "Sigil of the Black Hand (Mythic)",
+	},
+	[47554] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Intercepting the Legion's Plans",
+	},
+	[42630] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Bolas Bastion",
+	},
+	[49133] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antorus, the Burning Throne: The Heart of Argus",
+	},
+	[26304] = {
+		["requiredLevel"] = 31,
+		["level"] = 31,
+		["name"] = "Nighttime in the Jungle",
+	},
+	[46932] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Tad More Corruption",
+	},
+	[39500] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "Well of Souls",
+	},
+	[39502] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "The Fel Spire",
+	},
+	[41077] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Munitions Testing",
+	},
+	[44400] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Assault on Violet Hold: Purple Pain",
+	},
+	[44908] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "3v3 Weekly Quest",
+	},
+	[45180] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "An Island of War",
+	},
+	[46187] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Larthogg",
+	},
+	[42170] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Dreamweavers",
+	},
+	[26386] = {
+		["requiredLevel"] = 32,
+		["level"] = 32,
+		["name"] = "Surkhan",
+	},
+	[26378] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: Westfall!",
+	},
+	[49293] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Invasion Onslaught",
+	},
+	[49077] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Moments of Reflection",
+	},
+	[45383] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Nighthold: Talisman of the Shal'dorei",
+	},
+	[49014] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Burning Throne",
+	},
+	[46206] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Whispers of a Frightened World",
+	},
+	[47594] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "I'll Take Those, Thanks!",
+	},
+	[47120] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Tomb of Sargeras: Free The Tormented",
+	},
+	[41865] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Neltharion's Lair: Mother of Stone",
+	},
+	[44891] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "2v2 Weekly Quest",
+	},
+	[48799] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Fuel of a Doomed World",
+	},
+	[45840] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Assault on Highmountain",
+	},
+	[48299] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antoran High Command",
+	},
+	[49134] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antorus, the Burning Throne: The Heart of Argus",
+	},
+	[44720] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Call to Action",
+	},
+	[47114] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Tomb of Sargeras: The Tomb's Mistress",
+	},
+	[45159] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Cubic Conundrum",
+	},
+	[46293] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Deadmines, Part Three?",
+	},
+	[44909] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "RBG Weekly",
+	},
+	[41320] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Pry It From Their Cold, Feral Claws",
+	},
+	[26209] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Murder Was The Case That They Gave Me",
+	},
+	[33134] = {
+		["requiredLevel"] = 90,
+		["level"] = 90,
+		["name"] = "Warforged Seals",
+	},
+	[49075] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antorus, the Burning Throne: Dark Passage",
+	},
+	[39501] = {
+		["requiredLevel"] = 100,
+		["level"] = 100,
+		["name"] = "Well of Souls",
+	},
+	[45173] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Desperate Times",
+	},
+	[42422] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Wardens",
+	},
+	[42233] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Highmountain Tribes",
+	},
+	[26405] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Zul'Mamwe Mambo",
+	},
+	[49472] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Titanic Effort",
+	},
+	[48300] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Soulhunter",
+	},
+	[43807] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Withered Wrangling: Ambervale",
+	},
+	[12491] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Direbrew's Dire Brew",
+	},
+	[49032] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Antorus, the Burning Throne: Dark Passage",
+	},
+	[43618] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "WANTED: Gurbog da Basher",
+	},
+	[26292] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "To Moonbrook!",
+	},
+	[26287] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Westfall Brigade",
+	},
+	[26288] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Jango Spothide",
+	},
+	[26297] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Dawning of a New Day",
+	},
+	[26270] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "You Have Our Thanks",
+	},
+	[26295] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Propaganda",
+	},
+	[26348] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Coast Isn't Clear",
+	},
+	[26349] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Coastal Menace",
+	},
+	[26287] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Westfall Brigade",
+	},
+	[26288] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Jango Spothide",
+	},
+	[26289] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Find Agent Kearnen",
+	},
+	[26290] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Secrets of the Tower",
+	},
+	[26228] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Livin' the Life",
+	},
+	[26229] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "\"I TAKE Candle!\"",
+	},
+	[26230] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Feast or Famine",
+	},
+	[26295] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Propaganda",
+	},
+	[184] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Furlbrow's Deed",
+	},
+	[26297] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Dawning of a New Day",
+	},
+	[26236] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Shakedown at the Saldean's",
+	},
+	[26237] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Times are Tough",
+	},
+	[26241] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Westfall Stew",
+	},
+	[26370] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Return to Sentinel Hill",
+	},
+	[26371] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Legend of Captain Grayson",
+	},
+	[26252] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Heart of the Watcher",
+	},
+	[26319] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Secrets Revealed",
+	},
+	[26761] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Threat to the Kingdom",
+	},
+	[26322] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Rise of the Brotherhood",
+	},
+	[26266] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hope for the People",
+	},
+	[26356] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Captain Sanders' Hidden Treasure",
+	},
+	[26355] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Captain Sanders' Hidden Treasure",
+	},
+	[26270] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "You Have Our Thanks",
+	},
+	[26271] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Feeding the Hungry and the Hopeless",
+	},
+	[26354] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Captain Sanders' Hidden Treasure",
+	},
+	[26353] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Captain Sanders' Hidden Treasure",
+	},
+	[3861] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "CLUCK!",
+	},
+	[26291] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Big Trouble in Moonbrook",
+	},
+	[26213] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hot On the Trail: The Riverpaw Clan",
+	},
+	[26214] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hot On the Trail: Murlocs",
+	},
+	[26215] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Meet Two-Shoed Lou",
+	},
+	[26296] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Evidence Collection",
+	},
+	[26292] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "To Moonbrook!",
+	},
+	[26286] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "In Defense of Westfall",
+	},
+	[26257] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "It's Alive!",
+	},
+	[26320] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Vision of the Past",
+	},
+	[26347] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Keeper of the Flame",
+	},
+	[26232] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lou's Parting Thoughts",
+	},
 }

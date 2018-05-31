@@ -40,6 +40,7 @@ Data/ClassicHillsbradFoothills.lua
 Data/ClassicNorthenStranglethorn.lua
 Data/ClassicWesternPlaguelands.lua
 Data/ClassicEasternPlaguelands.lua
+Data/ClassicWestfall.lua
 
 Data/LegionDeathKnight.lua
 Data/LegionDemonHunter.lua
