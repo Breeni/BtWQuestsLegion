@@ -953,6 +953,33 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET,
             aside = true,
+            visible = {
+                {
+                    type = "quest",
+                    id = 40170,
+                    restrictions = {
+                        type = "quest",
+                        id = 39417,
+                        status = {'notcompleted'}
+                    },
+                    status = {'notactive'}
+                },
+                {
+                    type = "quest",
+                    id = 40170,
+                    restrictions = {
+                        type = "quest",
+                        id = 39417,
+                        status = {'notcompleted'}
+                    },
+                    status = {'notcompleted'}
+                }
+            },
+            active = {
+                type = "quest",
+                id = 39417,
+                status = {'active', 'completed'}
+            },
             x = 3,
             y = 3,
         },
@@ -976,6 +1003,23 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
                     {
                         type = "quest",
                         id = 39417,
+                        active = true,
+                    }
+                },
+                x = 2,
+                y = 0,
+                connections = {
+                    2,
+                },
+            },
+            {
+                type = "quest",
+                id = 40217,
+                restrictions = {
+                    {
+                        type = "quest",
+                        id = 40217,
+                        active = true,
                     }
                 },
                 x = 2,
@@ -991,7 +1035,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
                     {
                         type = "quest",
                         id = 39417,
-                        active = true,
                     }
                 },
                 x = 2,
@@ -1007,22 +1050,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
                     {
                         type = "quest",
                         id = 40217,
-                    }
-                },
-                x = 2,
-                y = 0,
-                connections = {
-                    2,
-                },
-            },
-            {
-                type = "quest",
-                id = 40217,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40217,
-                        active = true,
                     }
                 },
                 x = 2,
@@ -1143,6 +1170,33 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK,
             aside = true,
+            visible = {
+                {
+                    type = "quest",
+                    id = 39670,
+                    restrictions = {
+                        type = "quest",
+                        id = 39386,
+                        status = {'notcompleted'}
+                    },
+                    status = {'notactive'}
+                },
+                {
+                    type = "quest",
+                    id = 39670,
+                    restrictions = {
+                        type = "quest",
+                        id = 39386,
+                        status = {'notcompleted'}
+                    },
+                    status = {'notcompleted'}
+                }
+            },
+            active = {
+                type = "quest",
+                id = 39386,
+                status = {'active', 'completed'}
+            },
             x = 2,
             y = 5,
         },
@@ -1150,6 +1204,37 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY,
             aside = true,
+            visible = {
+                {
+                    type = "quest",
+                    id = 40047,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40244,
+                            status = {'notcompleted'}
+                        }
+                    },
+                    status = {'notactive'}
+                },
+                {
+                    type = "quest",
+                    id = 40047,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40244,
+                            status = {'notcompleted'}
+                        }
+                    },
+                    status = {'notcompleted'}
+                },
+            },
+            active = {
+                type = "quest",
+                id = 40244,
+                status = {'active', 'completed'}
+            },
             x = 4,
             y = 5,
         },
