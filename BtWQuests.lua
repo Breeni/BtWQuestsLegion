@@ -1433,14 +1433,13 @@ function BtWQuests_GetChainItemConnectorsByIndex(index)
                     end
                 end
             end
-            if item.connections then
-                return unpack(item.connections)
-            end
         elseif item.variations ~= nil then
             for i = 1, #item.variations do
                 if not BtWQuests_GetItemSkip(item.variations[i]) then
                     if item.variations[i].connections then
                         return unpack(item.variations[i].connections)
+                    elseif item.connections then
+                        return unpack(item.connections)
                     end
                 end
             end
