@@ -134,7 +134,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_REDRIDGEMOUNTAINS_THEGNOLLOFFENSIVE] = 
 			y = 2,
 		},
 		{
-			name = "Kill Gnolls",
+            name = "Kill Gnolls",
+            breadcrumb = true,
             aside = true,
 			x = 1,
 			y = 3,
