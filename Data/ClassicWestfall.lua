@@ -1,9 +1,3 @@
-BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CRIMESCENEINVESTIGATION = 11201
-BTWQUESTS_CHAIN_CLASSIC_WESTFALL_INVESTIGATINGTHESHADOWS = 11202
-BTWQUESTS_CHAIN_CLASSIC_WESTFALL_THEDEFIASBROTHERHOODREBORN = 11203
-BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CHAIN1 = 11204
-BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CHAIN2 = 11205
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CRIMESCENEINVESTIGATION] = {
 	name = GetAchievementCriteriaInfo(4903, 1),
 	category = BTWQUESTS_CATEGORY_CLASSIC_WESTFALL,
@@ -429,15 +423,34 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_THEDEFIASBROTHERHOODREBORN] = 
                 1,
             },
 		},
-		{
+		{ -- Not a standard breadcrumb quest, can be completed even if the next quest has been taken or completed
 			type = "quest",
 			id = 26761,
+            aside = true,
 			x = 3,
 			y = 5,
 			connections = {
-                
+                1,
             },
 		},
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_REDRIDGEMOUNTAINS_THEGNOLLOFFENSIVE,
+            aside = true,
+            active = {
+                {
+                    type = "quest",
+                    id = 26761,
+                },
+                {
+                    type = "quest",
+                    id = 26510,
+                    status = {'active', 'completed'},
+                }
+            },
+            x = 3,
+            y = 6
+        },
 	}
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CHAIN1] = {

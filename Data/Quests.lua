@@ -14821,4 +14821,454 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Lou's Parting Thoughts",
 	},
+	[26271] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Feeding the Hungry and the Hopeless",
+	},
+	[28563] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: Redridge Mountains!",
+	},
+	[41638] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Work Order: Leystone Gauntlets",
+	},
+	[26287] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Westfall Brigade",
+	},
+	[26289] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Find Agent Kearnen",
+	},
+	[26291] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Big Trouble in Moonbrook",
+	},
+	[26295] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Propaganda",
+	},
+	[26297] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Dawning of a New Day",
+	},
+	[26561] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Krakauer",
+	},
+	[26563] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Return of the Bravo Company",
+	},
+	[26692] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Shadowhide Extinction",
+	},
+	[3861] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "CLUCK!",
+	},
+	[26569] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Surveying Equipment",
+	},
+	[26571] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Weapons of War",
+	},
+	[26319] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Secrets Revealed",
+	},
+	[26708] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "AHHHHHHHHHHHH! AHHHHHHHHH!!!",
+	},
+	[26714] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Darkblaze, Brood of the Worldbreaker",
+	},
+	[184] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Furlbrow's Deed",
+	},
+	[26214] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hot On the Trail: Murlocs",
+	},
+	[26726] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Triumphant Return",
+	},
+	[26347] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Keeper of the Flame",
+	},
+	[45203] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Battle for the Ruins",
+	},
+	[26353] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Captain Sanders' Hidden Treasure",
+	},
+	[26355] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Captain Sanders' Hidden Treasure",
+	},
+	[26230] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Feast or Famine",
+	},
+	[26232] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lou's Parting Thoughts",
+	},
+	[26236] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Shakedown at the Saldean's",
+	},
+	[26365] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: Redridge Mountains!",
+	},
+	[26371] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Legend of Captain Grayson",
+	},
+	[26504] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Wanted: Redridge Gnolls",
+	},
+	[26252] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Heart of the Watcher",
+	},
+	[26508] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Nida's Necklace",
+	},
+	[26510] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "We Must Prepare!",
+	},
+	[26512] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Tuning the Gnomecorder",
+	},
+	[26514] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Canyon Romp",
+	},
+	[26266] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hope for the People",
+	},
+	[26270] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "You Have Our Thanks",
+	},
+	[26286] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "In Defense of Westfall",
+	},
+	[26288] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Jango Spothide",
+	},
+	[26544] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "They've Wised Up...",
+	},
+	[26292] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "To Moonbrook!",
+	},
+	[26296] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Evidence Collection",
+	},
+	[26520] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Saving Foreman Oslow",
+	},
+	[26519] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "He Who Controls the Ettins",
+	},
+	[26560] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Jorgensen",
+	},
+	[26562] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "And Last But Not Least... Danforth",
+	},
+	[26651] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "To Win a War, You Gotta Become War",
+	},
+	[26693] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Dark Tower",
+	},
+	[26568] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "This Ain't My War",
+	},
+	[26570] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Render's Army",
+	},
+	[26694] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Grand Magus Doane",
+	},
+	[26320] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Vision of the Past",
+	},
+	[46165] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Kazruul",
+	},
+	[26640] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Unspeakable Atrocities",
+	},
+	[26639] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Point of Contact: Brubaker",
+	},
+	[26349] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Coastal Menace",
+	},
+	[26638] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hunting the Hunters",
+	},
+	[26713] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Showdown at Stonewatch",
+	},
+	[26637] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Bravo Company Field Kit: Chloroform",
+	},
+	[26636] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Bravo Company Field Kit: Camouflage",
+	},
+	[26668] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Detonation",
+	},
+	[26213] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hot On the Trail: The Riverpaw Clan",
+	},
+	[26215] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Meet Two-Shoed Lou",
+	},
+	[26586] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "In Search of Bravo Company",
+	},
+	[26511] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lake Everstill Clean Up",
+	},
+	[26348] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Coast Isn't Clear",
+	},
+	[26587] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Breaking Out is Hard to Do",
+	},
+	[26506] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Franks and Beans",
+	},
+	[26354] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Captain Sanders' Hidden Treasure",
+	},
+	[26356] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Captain Sanders' Hidden Treasure",
+	},
+	[26607] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "They Drew First Blood",
+	},
+	[26573] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "His Heart Must Be In It",
+	},
+	[26616] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "It's Never Over",
+	},
+	[26237] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Times are Tough",
+	},
+	[26290] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Secrets of the Tower",
+	},
+	[26241] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Westfall Stew",
+	},
+	[26370] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Return to Sentinel Hill",
+	},
+	[26228] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Livin' the Life",
+	},
+	[26229] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "\"I TAKE Candle!\"",
+	},
+	[26503] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Still Assessing the Threat",
+	},
+	[26505] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Parker's Report",
+	},
+	[26761] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Threat to the Kingdom",
+	},
+	[26509] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "An Unwelcome Guest",
+	},
+	[26257] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "It's Alive!",
+	},
+	[26513] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Like a Fart in the Wind",
+	},
+	[26567] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "John J. Keeshan",
+	},
+	[26545] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Yowler Must Die!",
+	},
+	[26646] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Prisoners of War",
+	},
+	[26322] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Rise of the Brotherhood",
+	},
+	[45838] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Assault on Azsuna",
+	},
 }

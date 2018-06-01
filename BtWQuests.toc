@@ -41,6 +41,7 @@ Data/ClassicNorthenStranglethorn.lua
 Data/ClassicWesternPlaguelands.lua
 Data/ClassicEasternPlaguelands.lua
 Data/ClassicWestfall.lua
+Data/ClassicRedridgeMountains.lua
 
 Data/LegionDeathKnight.lua
 Data/LegionDemonHunter.lua
