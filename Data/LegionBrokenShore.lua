@@ -1,3 +1,5 @@
+local MAP_ID = 1021
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
     name = select(2, GetAchievementInfo(11546)),
     category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
@@ -515,7 +517,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_A_FOUND_MEMENTO] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_BROKENSHORE] = {
-    name = GetMapNameByID(1021),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1616106,
     items = {
@@ -538,3 +540,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
+}
