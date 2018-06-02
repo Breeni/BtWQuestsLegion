@@ -1,3 +1,5 @@
+local MAP_ID = 1017
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_ALLIANCE] = {
     name = GetAchievementCriteriaInfo(10790, 1),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
@@ -1836,7 +1838,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_STORMHEIM] = {
-    name = GetMapNameByID(1017),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1537284,
     items = {
@@ -1903,3 +1905,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
+}

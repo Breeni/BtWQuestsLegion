@@ -1,3 +1,5 @@
+local MAP_ID = 1024
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE] = {
     name = GetAchievementCriteriaInfo(10059, 1),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
@@ -1403,7 +1405,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN] = {
-    name = GetMapNameByID(1024),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1411854,
     items = {
@@ -1458,3 +1460,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
+}
