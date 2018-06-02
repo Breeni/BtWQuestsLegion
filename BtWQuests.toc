@@ -42,6 +42,7 @@ Data/ClassicWesternPlaguelands.lua
 Data/ClassicEasternPlaguelands.lua
 Data/ClassicWestfall.lua
 Data/ClassicRedridgeMountains.lua
+Data/ClassicLochModan.lua
 
 Data/LegionDeathKnight.lua
 Data/LegionDemonHunter.lua
