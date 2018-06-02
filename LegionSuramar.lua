@@ -1,3 +1,5 @@
+local MAP_ID = 1033
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING] = {
     name = BtWQuests_GetQuestName(43943),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
@@ -3227,7 +3229,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_SURAMAR] = {
-    name = GetMapNameByID(1033),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
     items = {
@@ -3382,3 +3384,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
+}

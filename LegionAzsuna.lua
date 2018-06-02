@@ -1,3 +1,6 @@
+local MAP_ID = 1015
+local ACHIEVEMENT_ID = 10763
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES] = {
     name = GetAchievementCriteriaInfo(10763, 1),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
@@ -956,7 +959,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
-    name = GetMapNameByID(1015),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1498157,
     items = {
@@ -999,3 +1002,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
+}

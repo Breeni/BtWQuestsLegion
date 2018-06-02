@@ -1,3 +1,8 @@
+local MAP_ID = 1184
+local MACAREE_MAP_ID = 1170
+local ANTORAN_MAP_ID = 1171
+local KROKUUN_MAP_ID = 1135
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS] = {
     name = GetAchievementCriteriaInfo(12066, 1),
     category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
@@ -1253,7 +1258,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ARGUS] = {
-    name = GetMapNameByID(1184),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1718211,
     items = {
@@ -1280,3 +1285,12 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
+}
+
+BtWQuests_MapIDToItem[MACAREE_MAP_ID] = BtWQuests_MapIDToItem[MAP_ID]
+BtWQuests_MapIDToItem[ANTORAN_MAP_ID] = BtWQuests_MapIDToItem[MAP_ID]
+BtWQuests_MapIDToItem[KROKUUN_MAP_ID] = BtWQuests_MapIDToItem[MAP_ID]

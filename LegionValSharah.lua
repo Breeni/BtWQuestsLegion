@@ -1,3 +1,5 @@
+local MAP_ID = 1018
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION] = {
     name = BTWQUESTS_INTRODUCTION,
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
@@ -1166,3 +1168,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
+}

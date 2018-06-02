@@ -29,3 +29,6 @@ BtWQuests_Chains = {}
 BtWQuests_Quests = {}
 
 BtWQuests_Missions = {}
+
+-- A table with Map IDs as the key and an item as the value
+BtWQuests_MapIDToItem = {}
