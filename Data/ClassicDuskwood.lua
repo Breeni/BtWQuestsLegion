@@ -1,3 +1,5 @@
+local MAP_ID = 34
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD] = {
     name = GetAchievementCriteriaInfo(12430, 5),
     category = BTWQUESTS_CATEGORY_CLASSIC_DUSKWOOD,
@@ -771,7 +773,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DUSKWOOD_MORLADIM] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_DUSKWOOD] = {
-    name = GetMapNameByID(34),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         type = "faction",
@@ -805,3 +807,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
     type = "category",
     id = BTWQUESTS_CATEGORY_CLASSIC_DUSKWOOD,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_DUSKWOOD,
+}

@@ -1,3 +1,5 @@
+local MAP_ID = 673
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_ZULGURUB] = {
     name = GetAchievementCriteriaInfo(4905, 1),
     category = BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN,
@@ -802,7 +804,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BLOODSAIL] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN] = {
-    name = GetMapNameByID(673),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     items = {
         {
@@ -828,3 +830,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
     type = "category",
     id = BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN,
+}

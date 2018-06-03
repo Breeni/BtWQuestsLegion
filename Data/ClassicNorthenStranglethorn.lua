@@ -1,3 +1,5 @@
+local MAP_ID = 37
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_OHGANANKA] = {
     name = function ()
         return GetAchievementCriteriaInfo(4906, 1)
@@ -1068,7 +1070,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_HORDE]
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN] = {
-    name = GetMapNameByID(37),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     items = {
         {
@@ -1102,3 +1104,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
     type = "category",
     id = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_STRANGLETHORN,
+}

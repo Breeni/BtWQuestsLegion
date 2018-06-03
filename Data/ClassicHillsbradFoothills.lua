@@ -1,3 +1,5 @@
+local MAP_ID = 24
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_AZURELODEMINE] = {
 	name = GetAchievementCriteriaInfo(4895, 4),
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
@@ -1089,3 +1091,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
     type = "category",
     id = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
+}

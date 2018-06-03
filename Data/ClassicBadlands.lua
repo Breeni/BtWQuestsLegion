@@ -1,3 +1,5 @@
+local MAP_ID = 17
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_RHEA] = {
 	name = GetAchievementCriteriaInfo(4900, 1),
 	category = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
@@ -573,7 +575,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_BADLANDS_OTHER_HORDE] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_BADLANDS] = {
-	name = GetMapNameByID(17),
+	name = GetMapNameByID(MAP_ID),
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	items = {
 		{
@@ -615,3 +617,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
     type = "category",
     id = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_BADLANDS,
+}

@@ -1,3 +1,5 @@
+local MAP_ID = 22
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST] = {
     name = GetAchievementCriteriaInfo(4893, 1),
     category = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
@@ -711,7 +713,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_STEAD] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS] = {
-    name = GetMapNameByID(22),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     items = {
         {
@@ -737,3 +739,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
     type = "category",
     id = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
+}

@@ -1,3 +1,5 @@
+local MAP_ID = 23
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PALADIN_PALS] = {
     name = GetAchievementCriteriaInfo(4892, 1),
     category = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
@@ -1133,7 +1135,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PLAGUEWOOD] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS] = {
-    name = GetMapNameByID(23),
+    name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     items = {
         {
@@ -1175,3 +1177,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
     type = "category",
     id = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
+}

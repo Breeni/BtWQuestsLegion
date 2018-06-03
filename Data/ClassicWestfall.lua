@@ -1,3 +1,5 @@
+local MAP_ID = 39
+
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CRIMESCENEINVESTIGATION] = {
 	name = GetAchievementCriteriaInfo(4903, 1),
 	category = BTWQUESTS_CATEGORY_CLASSIC_WESTFALL,
@@ -435,7 +437,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_THEDEFIASBROTHERHOODREBORN] = 
 		},
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_REDRIDGEMOUNTAINS_THEGNOLLOFFENSIVE,
+            id = BTWQUESTS_CHAIN_CLASSIC_REDRIDGE_MOUNTAINS_THEGNOLLOFFENSIVE,
             aside = true,
             active = {
                 {
@@ -606,7 +608,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CHAIN2] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_WESTFALL] = {
-	name = GetMapNameByID(39),
+	name = GetMapNameByID(MAP_ID),
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	items = {
 		{
@@ -636,3 +638,8 @@ table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_CLASSIC], {
     type = "category",
     id = BTWQUESTS_CATEGORY_CLASSIC_WESTFALL,
 })
+
+BtWQuests_MapIDToItem[MAP_ID] = {
+    type = "category",
+    id = BTWQUESTS_CATEGORY_CLASSIC_WESTFALL,
+}
