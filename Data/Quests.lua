@@ -16536,11 +16536,6 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Looking for Lurkers",
 	},
-	[26146] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Explorers' League Document (6 of 6)",
-	},
 	[26668] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
@@ -17130,5 +17125,105 @@ BtWQuests_Quests = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "Out of Gnoll-where",
+	},
+	[301] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Report to Ironforge",
+	},
+	[13661] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Heartfelt Appreciation",
+	},
+	[27028] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hornet Hunting",
+	},
+	[26145] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Trogg Threat",
+	},
+	[26146] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "In Defense of the King's Lands",
+	},
+	[27030] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Foxtails By The Handful",
+	},
+	[13655] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Explorers' League Document (2 of 6)",
+	},
+	[13648] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "WANTED: The Dark Iron Spy",
+	},
+	[13656] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Explorers' League Document (1 of 6)",
+	},
+	[26863] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Filthy Paws",
+	},
+	[13657] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Explorers' League Document (3 of 6)",
+	},
+	[13658] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Explorers' League Document (4 of 6)",
+	},
+	[26929] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Load of Croc",
+	},
+	[26860] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Thelsamar Blood Sausages",
+	},
+	[13659] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Explorers' League Document (6 of 6)",
+	},
+	[26846] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Nasty Exploit",
+	},
+	[26131] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Reinforcements for Loch Modan",
+	},
+	[13660] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Explorers' League Document (5 of 6)",
+	},
+	[26932] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Buzz Off",
+	},
+	[26147] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Bigger and Uglier",
 	},
 }
