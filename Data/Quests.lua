@@ -17226,4 +17226,379 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Bigger and Uglier",
 	},
+	[25005] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Speak with Sevren",
+	},
+	[27039] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Dangerous Intentions",
+	},
+	[25009] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "At War With The Scarlet Crusade",
+	},
+	[25011] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "To Bigger and Better Things",
+	},
+	[27045] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Waiting to Exsanguinate",
+	},
+	[27180] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Honor the Dead",
+	},
+	[27438] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Great Escape",
+	},
+	[27065] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Warchief's Fleet",
+	},
+	[27194] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Cornered and Crushed!",
+	},
+	[27577] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "7th Legion Battle Plans",
+	},
+	[27073] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Give 'em Hell!",
+	},
+	[26964] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Silverpine Forest!",
+	},
+	[27474] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Breaking the Barrier",
+	},
+	[27476] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Dalar Dawnweaver",
+	},
+	[27478] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Relios the Relic Keeper",
+	},
+	[27099] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "No Escape",
+	},
+	[27484] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Only One May Enter",
+	},
+	[27232] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Waters Run Red...",
+	},
+	[26992] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Agony Abounds",
+	},
+	[26998] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Iterating Upon Success",
+	},
+	[27510] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Wolf in Bear's Clothing",
+	},
+	[27512] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Transdimensional Warfare: Chapter I",
+	},
+	[27518] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Transdimensional Warfare: Chapter III",
+	},
+	[27542] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Taking the Battlefront",
+	},
+	[27290] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "To Forsaken Forward Command",
+	},
+	[25006] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Grasp Weakens",
+	},
+	[27548] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lessons in Fear",
+	},
+	[25010] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Deadly New Ally",
+	},
+	[25012] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Take to the Skies",
+	},
+	[26417] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Northern Stranglethorn: The Fallen Empire",
+	},
+	[27181] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Excising the Taint",
+	},
+	[27056] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Belmont's Report",
+	},
+	[27574] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "I Never Forget a Face",
+	},
+	[27195] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Nowhere to Run",
+	},
+	[27580] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Sowing Discord",
+	},
+	[25046] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Daughter's Embrace",
+	},
+	[27082] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Playing Dirty",
+	},
+	[27594] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "On Her Majesty's Secret Service",
+	},
+	[27342] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "In Time, All Will Be Revealed",
+	},
+	[26965] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Warchief Cometh",
+	},
+	[27475] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Unyielding Servitors",
+	},
+	[27096] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Orcs are in Order",
+	},
+	[27098] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lordaeron",
+	},
+	[27483] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Practical Vengeance",
+	},
+	[27231] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Reinforcements from Fenris",
+	},
+	[26989] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Gilneas Liberation Front",
+	},
+	[26995] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Guts and Gore",
+	},
+	[27575] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "From the Belly of the Beast",
+	},
+	[27550] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Pyrewood's Fall",
+	},
+	[27601] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Cities in Dust",
+	},
+	[28688] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Northern Stranglethorn!",
+	},
+	[27513] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Transdimensional Warfare: Chapter II",
+	},
+	[28568] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Silverpine Forest!",
+	},
+	[27094] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Deeper into Darkness",
+	},
+	[27480] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ley Energies",
+	},
+	[27097] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Rise, Forsaken",
+	},
+	[27193] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Seek and Destroy",
+	},
+	[27069] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Steel Thunder",
+	},
+	[27088] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "It's Only Poisonous if You Ingest It",
+	},
+	[27226] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hair of the Dog",
+	},
+	[25007] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "East... Always to the East",
+	},
+	[27547] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Of No Consequence",
+	},
+	[27093] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lost in the Darkness",
+	},
+	[27472] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Rise, Godfrey",
+	},
+	[27095] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Skitterweb Menace",
+	},
+	[27345] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The F.C.D.",
+	},
+	[27333] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Losing Ground",
+	},
+	[27350] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Break in Communications: Rutsak's Guard",
+	},
+	[27360] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Vengeance for Our Soldiers",
+	},
+	[27349] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Break in Communications: Dreadwatch Outpost",
+	},
+	[27364] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "On Whose Orders?",
+	},
+	[27401] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "What Tomorrow Brings",
+	},
+	[27423] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Resistance is Futile",
+	},
+	[27406] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Man Named Godfrey",
+	},
+	[27405] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Fall Back!",
+	},
 }
