@@ -2377,7 +2377,7 @@ function BtWQuestsNav_Here()
     local mapID = GetCurrentMapAreaID()
     local item = BtWQuests_MapIDToItem[mapID]
 
-    if item == nil then
+    if item == nil or BtWQuests_GetItemSkip(item) then
         BtWQuestsNavHere:Disable()
         return
     end
@@ -2389,6 +2389,10 @@ function BtWQuestsNav_UpdateHere()
     SetMapToCurrentZone()
     local mapID = GetCurrentMapAreaID()
     local item = BtWQuests_MapIDToItem[mapID]
+
+    if BtWQuests_GetItemSkip(item) then
+        item = nil
+    end
 
     BtWQuestsNavHere:SetEnabled(item ~= nil)
 end
