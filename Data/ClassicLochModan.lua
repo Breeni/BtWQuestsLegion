@@ -1,37 +1,25 @@
 local MAP_ID = 35
 local ACHIEVEMENT_ID = 4899
 
-BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN = 109
-
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_ROAD_TO_THELSAMAR = 10901
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_AXIS_OF_AWFUL = 10902
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_TWILIGHT_THREATS = 10903
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE = 10904
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1 = 10900001
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN2 = 10900002
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN3 = 10900003
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN4 = 10900004
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN5 = 10900005
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN6 = 10900006
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN7 = 10900007
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN8 = 10900008
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN9 = 10900009
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_OTHER_BOTH = 10900
-BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_OTHER_ALLIANCE = 10908
-
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_ROAD_TO_THELSAMAR] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 1),
 	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		{
 			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN8,
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1,
 		},
 		{
 			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1,
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN2,
 		},
 		{
 			type = "quest",
@@ -53,13 +41,13 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_ROAD_TO_THELSAMAR] = {
 	items = {
 		{
 			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN8,
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1,
 			x = 2,
 			y = 0,
 		},
 		{
 			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1,
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN2,
 			x = 4,
 			y = 0,
 		},
@@ -168,7 +156,13 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_AXIS_OF_AWFUL] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 2),
 	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 26868,
@@ -301,7 +295,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_AXIS_OF_AWFUL] = {
 		},
 		{
 			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN6,
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN3,
 			aside = true,
 			x = 3,
 			y = 8,
@@ -312,19 +306,123 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_TWILIGHT_THREATS] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 3),
 	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+		{
+			type = "quest",
+			id = 27033,
+			name = function ()
+				return string.format("%s until %s", BtWQuests_GetChainName(BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE), BtWQuests_GetQuestName(27033))
+			end
+		}
+	},
 	completed = {
 		type = "quest",
 		id = 27116,
 	},
 	items = {
+		{
+			type = "chain",
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE,
+			completed = {
+				type = "quest",
+				id = 27033,
+			},
+			x = 3,
+			y = 0,
+			connections = {
+                1,
+            },
+		},
+
+		{
+			type = "quest",
+			id = 27034,
+			x = 3,
+			y = 1,
+			connections = {
+                1,
+            },
+		},
+		{
+			type = "quest",
+			id = 27035,
+			x = 3,
+			y = 2,
+			connections = {
+                1,
+            },
+		},
+		{
+			type = "quest",
+			id = 27074,
+			x = 3,
+			y = 3,
+			connections = {
+                1, 2,
+            },
+		},
+
+		
+		{
+			type = "quest",
+			id = 27075,
+			x = 2,
+			y = 4,
+			connections = {
+                2,
+            },
+		},
+		{
+			type = "quest",
+			id = 27077,
+			x = 4,
+			y = 4,
+			connections = {
+                1,
+            },
+		},
+		{
+			type = "quest",
+			id = 27078,
+			x = 3,
+			y = 5,
+			connections = {
+                1,
+            },
+		},
+		{
+			type = "quest",
+			id = 27115,
+			x = 3,
+			y = 6,
+			connections = {
+                1,
+            },
+		},
+		{
+			type = "quest",
+			id = 27116,
+			x = 3,
+			y = 7,
+		},
 	}
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 4),
 	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 27033,
@@ -499,90 +597,140 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE] = {
 			x = 6,
 			y = 3,
 		},
+
 		{
-			type = "quest",
-			id = 27034,
+			type = "chain",
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_TWILIGHT_THREATS,
 			x = 4,
 			y = 4,
-			connections = {
-                1,
-            },
-		},
-		{
-			type = "quest",
-			id = 27035,
-			x = 4,
-			y = 5,
-			connections = {
-                1,
-            },
-		},
-		{
-			type = "quest",
-			id = 27074,
-			x = 4,
-			y = 6,
-			connections = {
-                1, 2,
-            },
-		},
-
-		
-		{
-			type = "quest",
-			id = 27075,
-			x = 3,
-			y = 7,
-			connections = {
-                2,
-            },
-		},
-		{
-			type = "quest",
-			id = 27077,
-			x = 5,
-			y = 7,
-			connections = {
-                1,
-            },
-		},
-		{
-			type = "quest",
-			id = 27078,
-			x = 4,
-			y = 8,
-			connections = {
-                1,
-            },
-		},
-		{
-			type = "quest",
-			id = 27115,
-			x = 4,
-			y = 9,
-			connections = {
-                1,
-            },
-		},
-		{
-			type = "quest",
-			id = 27116,
-			x = 4,
-			y = 10,
-			connections = {
-                
-            },
 		},
 	}
 }
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1] = {
 	name = {
 		type = "quest",
+		id = 26855
+	},
+	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
+	expansion = BTWQUESTS_EXPANSION_CLASSIC,
+	range = {10, 60},
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
+	completed = {
+		type = "quest",
+		id = 26855,
+	},
+	items = {
+		{
+			variations = {
+				{
+					type = "quest",
+					id = 26131,
+					restrictions = {
+						{
+							type = "quest",
+							id = 26131,
+							status = {'active'},
+						}
+					},
+				},
+				{
+					type = "quest",
+					id = 28567,
+					restrictions = {
+						{
+							type = "quest",
+							id = 28567,
+							status = {'active', 'completed'},
+						}
+					},
+				},
+				{
+					name = "Go to Pilot Hammerfoot",
+					breadcrumb = true,
+					onClick = function ()
+						BtWQuests_ShowMapWithWaypoint(35, 0, 0.1401, 0.5649, "Pilot Hammerfoot")
+					end,
+				}
+			},
+			x = 3,
+			y = 0,
+			connections = {
+				1,
+			},
+		},
+		{
+			type = "quest",
+			id = 26854,
+			x = 3,
+			y = 1,
+			connections = {
+                1,
+            },
+		},
+		{
+			type = "quest",
+			id = 26855,
+			x = 3,
+			y = 2,
+			connections = {
+                1,
+            },
+		},
+		{
+			type = "chain",
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN2,
+			aside = true,
+            visible = {
+                {
+                    type = "quest",
+                    id = 26145,
+                    restrictions = {
+                        type = "quest",
+                        id = 13635,
+                        status = {'notcompleted'}
+                    },
+                    status = {'notactive'}
+                },
+                {
+                    type = "quest",
+                    id = 26145,
+                    restrictions = {
+                        type = "quest",
+                        id = 13635,
+                        status = {'notcompleted'}
+                    },
+                    status = {'notcompleted'}
+                }
+            },
+            active = {
+                type = "quest",
+                id = 13635,
+                status = {'active', 'completed'}
+            },
+			x = 3,
+			y = 3,
+		},
+	}
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN2] = {
+	name = {
+		type = "quest",
 		id = 26148,
 	},
 	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 26148,
@@ -691,78 +839,24 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1] = {
 		},
 	}
 }
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN2] = {
-	name = "After the Ambush",
-	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
-	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
-	completed = {
-		type = "quest",
-		id = 454,
-	},
-	items = {
-		{
-			type = "quest",
-			id = 273,
-			x = 3,
-			y = 1,
-			connections = {
-                1,
-            },
-		},
-		{
-			type = "quest",
-			id = 454,
-			x = 3,
-			y = 2,
-			connections = {
-                
-            },
-		},
-	}
-}
 BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN3] = {
-	name = "Defcon: Bobcat",
-	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
-	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
-	completed = {
+	name = {
 		type = "quest",
-		id = 27026,
+		id = 13639,
 	},
-	items = {
-	}
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN4] = {
-	name = "Vyrin's Revenge",
 	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
-	completed = {
-		type = "quest",
-		id = 27037,
+	range = {10, 60},
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+		{
+			type = "chain",
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_AXIS_OF_AWFUL,
+		},
 	},
-	items = {
-	}
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN5] = {
-	name = "Kobold and Kobolder",
-	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
-	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
-	completed = {
-		type = "quest",
-		id = 26844,
-	},
-	items = {
-
-	}
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN6] = {
-	name = "Keep Your Hands Off The Goods!",
-	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
-	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
 	completed = {
 		{
 			type = "quest",
@@ -775,12 +869,47 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN6] = {
 	},
 	items = {
 		{
+			type = "chain",
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_AXIS_OF_AWFUL,
+			x = 3,
+			y = 0,
+			connections = {
+                1,
+            },
+		},
+		{
 			type = "quest",
 			id = 13639,
 			x = 3,
 			y = 1,
 			connections = {
-                1,
+                3,
+            },
+		},
+		{
+			name = "Go to Stolen Explorers' League Document",
+			onClick = function ()
+				BtWQuests_ShowMapWithWaypoint(35, 0, 0.6170, 0.7318, "Stolen Explorers' League Document")
+			end,
+			breadcrumb = true,
+			aside = true,
+			x = 5,
+			y = 1,
+			connections = {
+                3,
+            },
+		},
+		{
+			name = "Go to Stolen Explorers' League Document",
+			onClick = function ()
+				BtWQuests_ShowMapWithWaypoint(35, 0, 0.6811, 0.6614, "Stolen Explorers' League Document")
+			end,
+			breadcrumb = true,
+			aside = true,
+			x = 1,
+			y = 2,
+			connections = {
+                3,
             },
 		},
 		{
@@ -789,8 +918,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN6] = {
 			x = 3,
 			y = 2,
 			connections = {
-                2,
+                3,
             },
+		},
+		{
+			type = "quest",
+			id = 13657,
+			aside = true,
+			x = 5,
+			y = 2,
 		},
 		{
 			type = "quest",
@@ -832,172 +968,16 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN6] = {
 		}
 	}
 }
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN7] = {
-	name = "Joining the Hunt",
-	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
-	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
-	completed = {
-		type = "quest",
-		id = 13647,
-	},
-	items = {
-	}
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_OTHER_BOTH] = {
-	name = "Other Both",
-	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
-	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
-	completed = {
-		type = "quest",
-		id = 0,
-	},
-	items = {
-	}
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_OTHER_ALLIANCE] = {
-	name = "Other Alliance",
-	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
-	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
-	completed = {
-		type = "quest",
-		id = 0,
-	},
-	items = {
-		{-- Breadcrumb
-			type = "quest",
-			id = 26131,
-			x = 0,
-			y = 0,
-			connections = {
-                
-            },
-		},
-		{-- Missing
-			type = "quest",
-			id = 301,
-			x = 4,
-			y = 1,
-			connections = {
-                
-            },
-		},
-		{ -- Document 3 of 6
-			type = "quest",
-			id = 13657,
-			x = 0,
-			y = 3,
-			connections = {
-                
-            },
-		},
-		{
-			type = "quest",
-			id = 13661,
-			x = 6,
-			y = 3,
-			connections = {
-                
-            },
-		},
-	}
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN8] = {
-	name = {
-		type = "quest",
-		id = 26855
-	},
-	category = BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN,
-	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {10, 60},
-	completed = {
-		type = "quest",
-		id = 26855,
-	},
-	items = {
-		{
-			variations = {
-				{
-					type = "quest",
-					id = 28567,
-					restrictions = {
-						{
-							type = "quest",
-							id = 26805,
-							status = {'active', 'completed'},
-						}
-					},
-				},
-				{
-					name = "Go to Pilot Hammerfoot",
-					breadcrumb = true,
-					onClick = function ()
-						BtWQuests_ShowMapWithWaypoint(35, 0, 0.1401, 0.5649, "Pilot Hammerfoot")
-					end,
-				}
-			},
-			x = 3,
-			y = 0,
-			connections = {
-				1,
-			},
-		},
-		{
-			type = "quest",
-			id = 26854,
-			x = 3,
-			y = 1,
-			connections = {
-                1,
-            },
-		},
-		{
-			type = "quest",
-			id = 26855,
-			x = 3,
-			y = 2,
-			connections = {
-                1,
-            },
-		},
-		{
-			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1,
-			aside = true,
-            visible = {
-                {
-                    type = "quest",
-                    id = 26145,
-                    restrictions = {
-                        type = "quest",
-                        id = 13635,
-                        status = {'notcompleted'}
-                    },
-                    status = {'notactive'}
-                },
-                {
-                    type = "quest",
-                    id = 26145,
-                    restrictions = {
-                        type = "quest",
-                        id = 13635,
-                        status = {'notcompleted'}
-                    },
-                    status = {'notcompleted'}
-                }
-            },
-            active = {
-                type = "quest",
-                id = 13635,
-                status = {'active', 'completed'}
-            },
-			x = 3,
-			y = 3,
-		},
-	}
-}
+
+-- {
+-- 	type = "quest",
+-- 	id = 13661,
+-- 	x = 6,
+-- 	y = 3,
+-- 	connections = {
+		
+-- 	},
+-- },
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN] = {
 	name = GetMapNameByID(MAP_ID),
@@ -1006,11 +986,11 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN] = {
 	items = {
 		{
 			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN8,
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1,
 		},
 		{
 			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN1,
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN2,
 		},
 
 		{
@@ -1023,44 +1003,15 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN] = {
 		},
 		{
 			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_TWILIGHT_THREATS,
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN3,
 		},
 		{
 			type = "chain",
 			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE,
 		},
-
 		{
 			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN2,
-		},
-		{
-			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN3,
-		},
-		{
-			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN4,
-		},
-		{
-			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN5,
-		},
-		{
-			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN6,
-		},
-		{
-			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN7,
-		},
-		{
-			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_OTHER_BOTH,
-		},
-		{
-			type = "chain",
-			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_OTHER_ALLIANCE,
+			id = BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_TWILIGHT_THREATS,
 		},
 	}
 }
