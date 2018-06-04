@@ -907,7 +907,15 @@ function BtWQuests_GetChainPrerequisiteByID(chainID, index)
     local chain = BtWQuests_Chains[chainID]
     assert(type(chain) == "table", "Error finding chain with id " .. tostring(chainID))
     
-    local prerequisite = chain.prerequisites[index]
+    local prerequisite
+    if chain.prerequisites ~= nil then
+        if chain.prerequisites[1] ~= nil then
+            prerequisite = chain.prerequisites[index]
+        elseif index == 1 then
+            prerequisite = chain.prerequisites
+        end
+    end
+
     assert(type(prerequisite) == "table")
     
     return BtWQuests_GetItem(prerequisite)
@@ -923,9 +931,18 @@ function BtWQuests_GetChainByID(chainID)
     if not chain then
         return nil
     end
+
+    local numPrerequisite = 0
+    if chain.prerequisites ~= nil then
+        if chain.prerequisites[1] ~= nil then
+            numPrerequisite = #chain.prerequisites
+        else
+            numPrerequisite = 1
+        end
+    end
     
     local link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", chainID, BtWQuests_EvalText(chain.name, chain))
-    return chainID, BtWQuests_EvalText(chain.name, chain), link, chain.expansion, chain.category, chain.buttonImage, chain.prerequisites and #chain.prerequisites or 0, chain.items and #chain.items or 0
+    return chainID, BtWQuests_EvalText(chain.name, chain), link, chain.expansion, chain.category, chain.buttonImage, numPrerequisite, chain.items and #chain.items or 0
 end
 
 function BtWQuests_GetQuestName(questID)
