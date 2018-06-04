@@ -424,8 +424,26 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE] = {
 		},
 	},
 	completed = {
-		type = "quest",
-		id = 27033,
+		{
+			type = "quest",
+			id = 27028,
+		},
+		{
+			type = "quest",
+			id = 27030,
+		},
+		{
+			type = "quest",
+			id = 27026,
+		},
+		{
+			type = "quest",
+			id = 27033,
+		},
+		{
+			type = "quest",
+			id = 27037,
+		},
 	},
 	items = {
 		{
@@ -495,14 +513,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE] = {
 		{
 			type = "quest",
 			id = 27028,
-			aside = true,
 			x = 0,
 			y = 1,
 		},
 		{
 			type = "quest",
 			id = 27025,
-			aside = true,
 			x = 2,
 			y = 1,
 			connections = {
@@ -532,19 +548,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE] = {
 		{
 			type = "quest",
 			id = 27030,
-			aside = true,
 			x = 0,
 			y = 2,
 		},
 		{
 			type = "quest",
 			id = 27026,
-			aside = true,
 			x = 2,
 			y = 2,
 		},
-
-
 		{
 			type = "quest",
 			id = 27032,
@@ -578,10 +590,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE] = {
 			x = 2,
 			y = 3,
 		},
-
-
-
-
 		{
 			type = "quest",
 			id = 27033,
@@ -597,6 +605,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_THE_FARSTRIDER_LODGE] = {
 			x = 6,
 			y = 3,
 		},
+
 
 		{
 			type = "chain",
