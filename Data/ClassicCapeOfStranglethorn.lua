@@ -5,10 +5,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_ZULGURUB] = {
     category = BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
-        {
-            type = "faction",
-            faction = "Alliance",
-        },
+        type = "faction",
+        faction = "Alliance",
     },
     prerequisites = {
         {
@@ -806,6 +804,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BLOODSAIL] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN] = {
     name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
+    restrictions = {
+        type = "faction",
+        faction = "Alliance",
+    },
     items = {
         {
             type = "chain",

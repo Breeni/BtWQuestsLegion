@@ -4,7 +4,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_AZURELODEMINE] = {
 	name = GetAchievementCriteriaInfo(4895, 4),
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {15, 60},
     prerequisites = {
         {
             type = "level",
@@ -288,7 +288,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_SLUDGEFIELDS] = {
 	name = GetAchievementCriteriaInfo(4895, 1),
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {15, 60},
     prerequisites = {
         {
             type = "level",
@@ -436,7 +436,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_STORMPIKE] = {
 	name = GetAchievementCriteriaInfo(4895, 2),
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {15, 60},
     prerequisites = {
         {
             type = "level",
@@ -635,7 +635,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_EASTPOINTTOWER] = {
 	name = GetAchievementCriteriaInfo(4895, 3),
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {15, 60},
     prerequisites = {
         {
             type = "level",
@@ -763,7 +763,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_SOUTHSHORE] = {
 	name = BtWQuests_GetQuestName(28251),
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {15, 60},
     prerequisites = {
         {
             type = "level",
@@ -900,7 +900,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_TARREN_MILL] = {
 	name = "Tarren Mill",
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {15, 60},
     prerequisites = {
         {
             type = "level",
@@ -971,7 +971,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_HILLSBRAD_FOOTHILLS_BRAZIE_FARMSTEAD] =
 	name = "Brazie Farmstead",
 	category = BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {15, 60},
     prerequisites = {
         {
             type = "level",

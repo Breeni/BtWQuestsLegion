@@ -1137,6 +1137,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PLAGUEWOOD] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS] = {
     name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
+    restrictions = {
+        type = "faction",
+        faction = "Alliance",
+    },
     items = {
         {
             type = "chain",

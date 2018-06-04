@@ -991,7 +991,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_LOCH_MODAN_CHAIN3] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_LOCH_MODAN] = {
 	name = GetMapNameByID(MAP_ID),
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	buttonImage = 1498157,
+	restrictions = {
+		{
+			type = "faction",
+			faction = "Alliance",
+		}
+	},
 	items = {
 		{
 			type = "chain",

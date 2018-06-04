@@ -4,7 +4,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CRIMESCENEINVESTIGATION] = {
 	name = GetAchievementCriteriaInfo(4903, 1),
 	category = BTWQUESTS_CATEGORY_CLASSIC_WESTFALL,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
     prerequisites = {
         {
             type = "level",
@@ -208,7 +208,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_INVESTIGATINGTHESHADOWS] = {
 	name = GetAchievementCriteriaInfo(4903, 2),
 	category = BTWQUESTS_CATEGORY_CLASSIC_WESTFALL,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
     prerequisites = {
         {
             type = "level",
@@ -364,7 +364,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_THEDEFIASBROTHERHOODREBORN] = 
 	name = GetAchievementCriteriaInfo(4903, 3),
 	category = BTWQUESTS_CATEGORY_CLASSIC_WESTFALL,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
     prerequisites = {
         {
             type = "level",
@@ -462,7 +462,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CHAIN1] = {
 	},
 	category = BTWQUESTS_CATEGORY_CLASSIC_WESTFALL,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
     prerequisites = {
         {
             type = "level",
@@ -610,6 +610,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTFALL_CHAIN2] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_WESTFALL] = {
 	name = GetMapNameByID(MAP_ID),
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
+	restrictions = {
+		{
+			type = "faction",
+			faction = "Alliance",
+		}
+	},
 	items = {
 		{
 			type = "chain",

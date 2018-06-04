@@ -715,6 +715,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_STEAD] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS] = {
     name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
+    restrictions = {
+        type = "faction",
+        faction = "Alliance",
+    },
     items = {
         {
             type = "chain",

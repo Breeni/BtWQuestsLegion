@@ -843,7 +843,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_SILVERPINE_FOREST_ON_THE_BATTLEFRONT] =
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_SILVERPINE_FOREST] = {
 	name = GetMapNameByID(MAP_ID),
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	buttonImage = 1498157,
+	restrictions = {
+		type = "faction",
+		faction = "Horde",
+	},
 	items = {
 		{
 			type = "chain",
