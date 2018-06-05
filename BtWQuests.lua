@@ -279,6 +279,10 @@ function BtWQuests_IsRace(race)
     return BtWQuests_Character.race == race
 end
 
+function BtWQuests_InRaces(races)
+    return ArrayContains(races, BtWQuests_Character.race)
+end
+
 function BtWQuests_IsClass(class)
     return BtWQuests_Character.class == class
 end
@@ -471,6 +475,10 @@ BtWQuests_CheckItemRequirement = function (item, skipAlternatives)
     elseif item.type == "classes" then
         return BtWQuests_InClasses(item.classes)
         -- return ArrayContains(item.classes, select(3, UnitClass("player")))
+    elseif item.type == "race" then
+        return BtWQuests_IsRace(item.race)
+    elseif item.type == "races" then
+        return BtWQuests_InRaces(item.races)
     elseif item.type == "level" then
         return BtWQuests_AtleastLevel(item.level)
         -- return UnitLevel("player") >= item.level
