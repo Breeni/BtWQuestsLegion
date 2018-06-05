@@ -18246,4 +18246,9 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "The Captain's Logs",
 	},
+	[24463] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Probing into Ashenvale",
+	},
 }

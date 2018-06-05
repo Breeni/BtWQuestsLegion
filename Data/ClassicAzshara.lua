@@ -43,7 +43,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_DEFENDING_ORGRIMMAR] = {
 					name = "Go to Labor Captain Grabbit",
 					breadcrumb = true,
 					onClick = function ()
-						BtWQuests_ShowMapWithWaypoint(181, 0, 0.2700, 0.7708, "Labor Captain Grabbit")
+						BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.2700, 0.7708, "Labor Captain Grabbit")
 					end,
 				}
 			},
@@ -191,7 +191,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_REDIRECTING_THE_LEY_LINES] = {
 					name = "Go to Horzak Zignibble",
 					breadcrumb = true,
 					onClick = function ()
-						BtWQuests_ShowMapWithWaypoint(181, 0, 0.2915, 0.6624, "Horzak Zignibble")
+						BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.2915, 0.6624, "Horzak Zignibble")
 					end,
 					connections = {
 						2, 3,
@@ -208,7 +208,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_REDIRECTING_THE_LEY_LINES] = {
 			name = "Go to Foreman Fisk",
 			breadcrumb = true,
 			onClick = function ()
-				BtWQuests_ShowMapWithWaypoint(181, 0, 0.2908, 0.6629, "Foreman Fisk")
+				BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.2908, 0.6629, "Foreman Fisk")
 			end,
 			x = 5,
 			y = 0,
@@ -335,7 +335,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_REDIRECTING_THE_LEY_LINES] = {
 			x = 3,
 			y = 9,
 			connections = {
-                1, 2,
+                1, 2, 3,
             },
 		},
 
@@ -457,8 +457,15 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_SISTERS_OF_THE_SEA] = {
 		{
 			type = "chain",
 			id = BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN1,
+			completed = {
+				type = "quest",
+				id = 14295,
+			},
 			x = 3,
 			y = 0,
+			connections = {
+                2,
+            },
 		},
 		{
 			type = "quest",
@@ -530,7 +537,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_SUBJECT_NINE_FROM_SPACE] = {
 					name = "Go to Assistant Greely",
 					breadcrumb = true,
 					onClick = function ()
-						BtWQuests_ShowMapWithWaypoint(181, 0, 0.5041, 0.7429, "Assistant Greely")
+						BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.5041, 0.7429, "Assistant Greely")
 					end,
 				}
 			},
@@ -581,10 +588,23 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_RAREST_SUBSTANCE_ON_AZEROTH
 	},
 	items = {
 		{
+			type = "chain",
+			id = BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN1,
+			completed = {
+				type = "quest",
+				id = 14310,
+			},
+			x = 3,
+			y = 0,
+			connections = {
+                1, 2,
+            },
+		},
+		{
 			type = "quest",
 			id = 14370,
 			x = 2,
-			y = 0,
+			y = 1,
 			connections = {
                 2,
             },
@@ -593,7 +613,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_RAREST_SUBSTANCE_ON_AZEROTH
 			type = "quest",
 			id = 14371,
 			x = 4,
-			y = 0,
+			y = 1,
 			connections = {
                 1,
             },
@@ -602,7 +622,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_RAREST_SUBSTANCE_ON_AZEROTH
 			type = "quest",
 			id = 14377,
 			x = 3,
-			y = 1,
+			y = 2,
 			connections = {
                 2,
             },
@@ -612,13 +632,13 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_RAREST_SUBSTANCE_ON_AZEROTH
 			id = 14383,
 			aside = true,
 			x = 1,
-			y = 2,
+			y = 3,
 		},
 		{
 			type = "quest",
 			id = 14385,
 			x = 3,
-			y = 2,
+			y = 3,
 			connections = {
                 1,
             },
@@ -627,7 +647,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_RAREST_SUBSTANCE_ON_AZEROTH
 			type = "quest",
 			id = 14388,
 			x = 3,
-			y = 3,
+			y = 4,
 			connections = {
                 1,
             },
@@ -637,21 +657,21 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_RAREST_SUBSTANCE_ON_AZEROTH
 			id = 24458,
 			aside = true,
 			x = 3,
-			y = 4,
+			y = 5,
 		},
 		{
 			type = "chain",
 			id = BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_BEST_APPRENTICE,
 			aside = true,
 			x = 2,
-			y = 5,
+			y = 6,
 		},
 		{
 			type = "chain",
 			id = BTWQUESTS_CHAIN_CLASSIC_AZSHARA_HEART_OF_ARKKOROC,
 			aside = true,
 			x = 4,
-			y = 5,
+			y = 6,
 		},
 	}
 }
@@ -671,6 +691,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_HEART_OF_ARKKOROC] = {
 		id = 24449,
 	},
 	items = {
+		{
+			type = "chain",
+			id = BTWQUESTS_CHAIN_CLASSIC_AZSHARA_REDIRECTING_THE_LEY_LINES,
+			completed = {
+				type = "quest",
+				id = 24453,
+			},
+			x = 3,
+			y = 0,
+			connections = {
+                2,
+            },
+		},
 		{
 			type = "chain",
 			id = BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_BEST_APPRENTICE,
@@ -802,6 +835,18 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_BEST_APPRENTICE] = {
 		id = 14392,
 	},
 	items = {
+		{
+			name = "Go to Teemo",
+			breadcrumb = true,
+			onClick = function ()
+				BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.5933, 0.5074, "Teemo")
+			end,
+			x = 3,
+			y = 0,
+			connections = {
+				2,
+			},
+		},
 		{
 			type = "chain",
 			id = BTWQUESTS_CHAIN_CLASSIC_AZSHARA_HEART_OF_ARKKOROC,
@@ -1090,7 +1135,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_CONQUEST_OF_AZSHARA] = {
 			name = "Go to Chawg",
 			breadcrumb = true,
 			onClick = function ()
-				BtWQuests_ShowMapWithWaypoint(181, 0, 0.1401, 0.6484, "Chawg")
+				BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.1401, 0.6484, "Chawg")
 			end,
 			x = 0,
 			y = 0,
@@ -1113,7 +1158,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_CONQUEST_OF_AZSHARA] = {
 					name = "Go to Chawg",
 					breadcrumb = true,
 					onClick = function ()
-						BtWQuests_ShowMapWithWaypoint(181, 0, 0.1401, 0.6484, "Chawg")
+						BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.1401, 0.6484, "Chawg")
 					end,
 					connections = {
 						3, 4,
@@ -1130,7 +1175,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_CONQUEST_OF_AZSHARA] = {
 			name = "Go to Andorel Sunsworn",
 			breadcrumb = true,
 			onClick = function ()
-				BtWQuests_ShowMapWithWaypoint(181, 0, 0.1385, 0.6449, "Andorel Sunsworn")
+				BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.1385, 0.6449, "Andorel Sunsworn")
 			end,
 			x = 6,
 			y = 0,
@@ -1230,10 +1275,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_CONQUEST_OF_AZSHARA] = {
 
 		{
 			type = "quest",
-			id = 34463,
+			id = 24463,
 			aside = true,
 			x = 3,
-			y = 5,
+			y = 6,
 		},
 	}
 }
@@ -1261,7 +1306,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN1] = {
 			name = "Go to Twistex Happytongs",
 			breadcrumb = true,
 			onClick = function ()
-				BtWQuests_ShowMapWithWaypoint(181, 0, 0.4506, 0.7549, "Twistex Happytongs")
+				BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.4506, 0.7549, "Twistex Happytongs")
 			end,
 			x = 1,
 			y = 0,
@@ -1284,7 +1329,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN1] = {
 					name = "Go to Assistant Greely",
 					breadcrumb = true,
 					onClick = function ()
-						BtWQuests_ShowMapWithWaypoint(181, 0, 0.5041, 0.7429, "Assistant Greely")
+						BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.5041, 0.7429, "Assistant Greely")
 					end,
 				}
 			},
@@ -1298,7 +1343,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN1] = {
 			name = "Go to Bombardier Captain Smooks",
 			breadcrumb = true,
 			onClick = function ()
-				BtWQuests_ShowMapWithWaypoint(181, 0, 0.5222, 0.7424, "Bombardier Captain Smooks")
+				BtWQuests_ShowMapWithWaypoint(MAP_ID, 0, 0.5222, 0.7424, "Bombardier Captain Smooks")
 			end,
 			x = 5,
 			y = 0,
