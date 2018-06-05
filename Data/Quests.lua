@@ -17601,4 +17601,649 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Fall Back!",
 	},
+	[14310] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Segmentation Fault: Core Dumped",
+	},
+	[14322] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Bad Science! Bad!",
+	},
+	[14324] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Full of Hot Water",
+	},
+	[26293] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Machines of War",
+	},
+	[14340] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Dressed to Impress",
+	},
+	[26337] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Beating the Market",
+	},
+	[26608] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Negotiations Terminated",
+	},
+	[26361] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Smoot's Samophlange",
+	},
+	[14370] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mysterious Azsharite",
+	},
+	[14117] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Eyes of Ashenvale",
+	},
+	[14127] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Return of the Highborne?",
+	},
+	[14129] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Runaway Shredder!",
+	},
+	[25648] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Beyond Durotar",
+	},
+	[14388] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Azsharite Experiment Number Two",
+	},
+	[14390] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Easy is Boring",
+	},
+	[14392] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Farewell, Minnow",
+	},
+	[14408] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Nine's Plan",
+	},
+	[14155] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Arborcide",
+	},
+	[24433] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Let Them Feast on Fear",
+	},
+	[24437] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "First Come, First Served",
+	},
+	[14165] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Stone Cold",
+	},
+	[14422] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Raptor Raptor Rocket",
+	},
+	[24449] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Shore Leave",
+	},
+	[24453] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Private Chat",
+	},
+	[14428] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Amberwind's Journal",
+	},
+	[14430] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hacking the Construct",
+	},
+	[14432] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Pale Brew",
+	},
+	[14442] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "My Favorite Subject",
+	},
+	[24497] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Airborne Again",
+	},
+	[25266] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Emissary",
+	},
+	[14197] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Quota to Meet",
+	},
+	[26294] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Weapons of Mass Dysfunction",
+	},
+	[14201] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Thousand Stories in the Sand",
+	},
+	[14462] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Where's My Head?",
+	},
+	[14464] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lightning Strike Assassination",
+	},
+	[14468] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Another Warm Body",
+	},
+	[14470] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Military Breakthrough",
+	},
+	[14472] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "In The Face!",
+	},
+	[14476] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Rigged to Blow",
+	},
+	[14478] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Operation Fishgut",
+	},
+	[14480] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Extermination",
+	},
+	[14484] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Head of the Snake",
+	},
+	[26358] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ready the Air Force",
+	},
+	[26374] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ready the Ground Troops",
+	},
+	[14249] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Shear Will",
+	},
+	[14261] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ice Cold",
+	},
+	[28717] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Twilight Highlands!",
+	},
+	[14267] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Investigating the Sea Shrine",
+	},
+	[14271] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Report to Twocrush",
+	},
+	[24430] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Blacken the Skies",
+	},
+	[24434] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Commando Drop",
+	},
+	[14295] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Sisters of the Sea",
+	},
+	[14297] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Pro-liberation",
+	},
+	[14299] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Xylem's Asylum",
+	},
+	[24458] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Hello to Arms",
+	},
+	[25243] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "She Loves Me, She Loves Me NOT!",
+	},
+	[25251] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Final Confrontation",
+	},
+	[14323] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Absorbent",
+	},
+	[25275] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Report to the Labor Captain",
+	},
+	[28849] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Twilight Skies",
+	},
+	[14345] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Wash Out",
+	},
+	[26335] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ready the Navy",
+	},
+	[14371] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Gigantic Snack",
+	},
+	[14118] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Venison for the Troops",
+	},
+	[14377] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Befriending Giants",
+	},
+	[14128] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Return of the Highborne?",
+	},
+	[14130] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Friends Come In All Colors",
+	},
+	[14132] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "That's Just Rude!",
+	},
+	[14389] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Wasn't It Obvious?",
+	},
+	[14391] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Turning the Tables",
+	},
+	[14146] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Defend the Gates!",
+	},
+	[14407] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Azshara Blues",
+	},
+	[14413] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Pinnacle of Learning",
+	},
+	[24435] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mop Up",
+	},
+	[24439] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Conquest of Azshara",
+	},
+	[14423] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Dozercism",
+	},
+	[24455] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Rapid Deployment",
+	},
+	[14429] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Arcane De-Construction",
+	},
+	[14431] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Blackmaw Scar",
+	},
+	[24467] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Fade to Black",
+	},
+	[14435] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Blackmaw Doublecross",
+	},
+	[24479] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Trial of Shadow",
+	},
+	[14190] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Perfect Prism",
+	},
+	[14192] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Prismbreak",
+	},
+	[26539] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Stalled Negotiations",
+	},
+	[14202] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Survey the Lakeshore",
+	},
+	[26324] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Where Is My Warfleet?",
+	},
+	[14471] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "First Degree Mortar",
+	},
+	[14475] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Grounded!",
+	},
+	[14477] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Push the Button!",
+	},
+	[14479] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "There Are Many Like It",
+	},
+	[14226] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Trouble Under Foot",
+	},
+	[14485] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ticker Required",
+	},
+	[14487] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Still Beating Heart",
+	},
+	[26372] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Pre-Flight Checklist",
+	},
+	[14161] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Basilisk Bashin'",
+	},
+	[26388] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Twilight Skies",
+	},
+	[14162] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Report to Horzak",
+	},
+	[14250] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Renewable Resource",
+	},
+	[25265] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Victory!",
+	},
+	[25267] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Message for Saurfang",
+	},
+	[26549] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Madness",
+	},
+	[14258] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mortar the Point",
+	},
+	[14263] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Waste of Thyme",
+	},
+	[14262] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "To Gut a Fish",
+	},
+	[14296] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Watch Your Step",
+	},
+	[14424] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Need More Science",
+	},
+	[14469] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hand-me-downs",
+	},
+	[14270] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Keystone Shard",
+	},
+	[14433] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Diplomacy by Another Means",
+	},
+	[14385] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Azsharite Experiment Number One",
+	},
+	[14209] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Gunk in the Trunk",
+	},
+	[14131] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Little Pick-me-up",
+	},
+	[28496] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Azshara!",
+	},
+	[14194] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Refleshification",
+	},
+	[14486] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Handling the Goods",
+	},
+	[24478] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Trial of Frost",
+	},
+	[14230] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Manual Labor",
+	},
+	[24436] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Halo Drops",
+	},
+	[14215] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Memories of the Dead",
+	},
+	[14216] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mystery of the Sarcen Stone",
+	},
+	[24448] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Field Promotion",
+	},
+	[24452] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Profitability Scouting",
+	},
+	[14300] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Trial of Fire",
+	},
+	[14383] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Terrible Tinkers of the Ruined Reaches",
+	},
+	[25244] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "What Kind of Name is Candy, Anyway?",
+	},
+	[14135] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Up a Tree",
+	},
+	[14308] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "When Science Attacks",
+	},
+	[14134] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Captain's Logs",
+	},
 }
