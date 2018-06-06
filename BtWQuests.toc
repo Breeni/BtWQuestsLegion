@@ -34,6 +34,7 @@ Data/Quests.ruRU.lua
 Data/Quests.zhCN.lua
 Data/Quests.zhTW.lua
 
+Data/ClassicDarkshore.lua
 Data/ClassicCapeOfStranglethorn.lua
 Data/ClassicDuskwood.lua
 Data/ClassicHillsbradFoothills.lua
