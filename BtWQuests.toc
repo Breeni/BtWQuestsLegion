@@ -34,18 +34,18 @@ Data/Quests.ruRU.lua
 Data/Quests.zhCN.lua
 Data/Quests.zhTW.lua
 
+Data/ClassicAzshara.lua
 Data/ClassicDarkshore.lua
-Data/ClassicCapeOfStranglethorn.lua
-Data/ClassicDuskwood.lua
-Data/ClassicHillsbradFoothills.lua
-Data/ClassicNorthenStranglethorn.lua
-Data/ClassicWesternPlaguelands.lua
-Data/ClassicEasternPlaguelands.lua
-Data/ClassicWestfall.lua
-Data/ClassicRedridgeMountains.lua
 Data/ClassicLochModan.lua
 Data/ClassicSilverpineForest.lua
-Data/ClassicAzshara.lua
+Data/ClassicWestfall.lua
+Data/ClassicHillsbradFoothills.lua
+Data/ClassicRedridgeMountains.lua
+Data/ClassicDuskwood.lua
+Data/ClassicNorthenStranglethorn.lua
+Data/ClassicCapeOfStranglethorn.lua
+Data/ClassicWesternPlaguelands.lua
+Data/ClassicEasternPlaguelands.lua
 
 Data/LegionDeathKnight.lua
 Data/LegionDemonHunter.lua

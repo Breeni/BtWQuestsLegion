@@ -5,7 +5,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_DEFENDING_ORGRIMMAR] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 1),
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 14155,
@@ -170,7 +182,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_REDIRECTING_THE_LEY_LINES] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 2),
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 14216,
@@ -442,8 +466,18 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_SISTERS_OF_THE_SEA] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 3),
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
 	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
 		{
 			type = "quest",
 			id = 14258,
@@ -516,7 +550,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_SUBJECT_NINE_FROM_SPACE] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 4),
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 14422,
@@ -571,8 +617,18 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_RAREST_SUBSTANCE_ON_AZEROTH
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 5),
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
 	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
 		{
 			type = "quest",
 			id = 14308,
@@ -679,8 +735,18 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_HEART_OF_ARKKOROC] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 6),
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
 	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
 		{
 			type = "quest",
 			id = 24453,
@@ -829,7 +895,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_BEST_APPRENTICE] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 7),
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 14392,
@@ -1125,7 +1203,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_CONQUEST_OF_AZSHARA] = {
 	name = GetAchievementCriteriaInfo(ACHIEVEMENT_ID, 8),
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 24439,
@@ -1286,7 +1376,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN1] = {
 	name = "Southern Rocketway Exchange",
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		{
 			type = "quest",
@@ -1450,7 +1552,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN2] = {
 	},
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 14435,
@@ -1495,7 +1609,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN3] = {
 	name = "Hacking the Construct",
 	category = BTWQUESTS_CATEGORY_CLASSIC_AZSHARA,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	range = {1, 60},
+	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
+	prerequisites = {
+		{
+			type = "level",
+			level = 10,
+		},
+	},
 	completed = {
 		type = "quest",
 		id = 14430,
@@ -1534,7 +1660,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN3] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_AZSHARA] = {
 	name = GetMapNameByID(MAP_ID),
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
-	buttonImage = 1498157,
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Horde",
+        },
+    },
 	items = {
 		{
 			type = "chain",

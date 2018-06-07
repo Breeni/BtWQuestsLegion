@@ -6,6 +6,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_GREAT_ANIMAL_SPIRIT] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	prerequisites = {
 		{
 			type = "level",
@@ -270,6 +276,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_SHATTERSPEAR] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	prerequisites = {
 		{
 			type = "level",
@@ -432,6 +444,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_EYE_OF_ALL_STORMS] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	prerequisites = {
 		{
 			type = "level",
@@ -643,6 +661,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_DEVOURER] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	prerequisites = {
 		{
 			type = "level",
@@ -734,6 +758,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_CONSUMED_BY_MADNESS] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	prerequisites = {
 		{
 			type = "level",
@@ -797,6 +827,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_BATTLE_FOR_DARKSHORE] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	prerequisites = {
 		{
 			type = "level",
@@ -969,6 +1005,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_CHAIN1] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	prerequisites = {
 		{
 			type = "level",
@@ -1072,6 +1114,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_CHAIN2] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	prerequisites = {
 		{
 			type = "level",
@@ -1147,6 +1195,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_OTHER_ALLIANCE] = {
 	category = BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE,
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	range = {10, 60},
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	completed = {
 		type = "quest",
 		id = 0,
@@ -1212,6 +1266,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_OTHER_ALLIANCE] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE] = {
 	name = GetMapNameByID(MAP_ID),
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
+    restrictions = {
+        {
+            type = "faction",
+            faction = "Alliance",
+        },
+    },
 	items = {
 		{
 			type = "chain",

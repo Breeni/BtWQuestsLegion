@@ -552,7 +552,7 @@ BtWQuests_GetItemName = function (item)
     elseif item.type == "mission" then
         return BtWQuests_GetItemName(BtWQuests_Missions[item.id])
     elseif item.type == "level" then
-        return string.format(BTWQUESTS_LEVEL_TO, item.level)
+        return string.format(BTWQUESTS_LEVEL, item.level)
     elseif item.type == "expansion" then
         return _G['BTWQUESTS_EXPANSION_NAME' .. item.expansion]
     elseif item.type == "reputation" then
@@ -1224,7 +1224,7 @@ function BtWQuests_EvalChainItem(item)
         
         status = completed and "complete" or "active"
     elseif item.type == "level" then
-        name = string.format(name or BTWQUESTS_LEVEL_TO, item.level)
+        name = string.format(name or BTWQUESTS_LEVEL, item.level)
         local completed = UnitLevel("player") >= item.level
         
         status = completed and "complete" or "active"
