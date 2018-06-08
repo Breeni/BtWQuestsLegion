@@ -1841,6 +1841,10 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_CHAIN7] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_BARRENS] = {
 	name = GetMapNameByID(MAP_ID),
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
+	restrictions = {
+		type = "faction",
+		faction = "Horde"
+	},
 	items = {
 		{
 			type = "chain",
