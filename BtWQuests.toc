@@ -37,6 +37,7 @@ Data/Quests.zhTW.lua
 Data/ClassicAzshara.lua
 Data/ClassicDarkshore.lua
 Data/ClassicLochModan.lua
+Data/ClassicNorthernBarrens.lua
 Data/ClassicSilverpineForest.lua
 Data/ClassicWestfall.lua
 Data/ClassicHillsbradFoothills.lua

@@ -19296,5 +19296,465 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "The Twilight's Hammer",
 	},
+	[845] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Zhevra",
+	},
+	[869] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "To Track a Thief",
+	},
+	[877] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Stagnant Oasis",
+	},
+	[14034] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Club Foote",
+	},
+	[29087] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Sludge Investigation",
+	},
+	[29089] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Sludge Beast!",
+	},
+	[14038] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Love it or Limpet",
+	},
+	[29095] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Report to Thork",
+	},
+	[14042] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ammo Kerblammo",
+	},
+	[870] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Forgotten Pools",
+	},
+	[14046] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Baron's Demands",
+	},
+	[29109] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mor'shan Caravan Pick-Up",
+	},
+	[29111] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mor'shan Caravan Delivery",
+	},
+	[14049] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Most Unusual Map",
+	},
+	[14050] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Gazlowe's Fortune",
+	},
+	[4021] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Counterattack!",
+	},
+	[14052] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Take it up with Tony",
+	},
+	[14056] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Glomp is Sitting On It",
+	},
+	[14057] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Guns. We Need Guns.",
+	},
+	[28877] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "They Call Him Swiftdagger. He Kills Harpies.",
+	},
+	[855] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Centaur Bracers",
+	},
+	[863] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Escape",
+	},
+	[871] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "In Defense of Far Watch",
+	},
+	[14063] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mutiny, Mon!",
+	},
+	[895] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "WANTED: Cap'n Garvey",
+	},
+	[903] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hunting the Huntress",
+	},
+	[14066] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Investigate the Wreckage",
+	},
+	[14067] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Stolen Silver",
+	},
+	[14068] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Waptor Twapping",
+	},
+	[29026] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Wenikee Boltbucket",
+	},
+	[14072] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Flushing Out Verog",
+	},
+	[14073] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Deathgate's Reinforcements",
+	},
+	[848] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Fungal Spores",
+	},
+	[13567] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Spirit of the Stag",
+	},
+	[13949] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Crossroads Caravan Pickup",
+	},
+	[872] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Far Watch Offensive",
+	},
+	[880] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Altered Beings",
+	},
+	[5041] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Supplies for the Crossroads",
+	},
+	[13961] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Drag it Out of Them",
+	},
+	[13963] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "By Hook Or By Crook",
+	},
+	[865] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "It's Gotta be the Horn",
+	},
+	[9267] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mending Old Wounds",
+	},
+	[881] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Echeyakee",
+	},
+	[13968] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Tortusk Takedown",
+	},
+	[13969] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Grol'dom's Missing Kodo",
+	},
+	[905] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Into the Raptor's Den",
+	},
+	[13971] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Kodo's Return",
+	},
+	[29086] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Competition Schmompetition",
+	},
+	[29088] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hyena Extermination",
+	},
+	[29090] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Burning Threat",
+	},
+	[13975] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Crossroads Caravan Delivery",
+	},
+	[29094] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Short Way Home",
+	},
+	[850] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Kolkar Leaders",
+	},
+	[858] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ignition",
+	},
+	[29110] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mor'shan Caravan Rescue",
+	},
+	[29112] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Demon Seed",
+	},
+	[13988] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Growing Problem",
+	},
+	[13991] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Purloined Payroll",
+	},
+	[13992] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Little Diversion",
+	},
+	[14003] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Samophlange Repair",
+	},
+	[29024] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Samophlange",
+	},
+	[851] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Verog the Dervish",
+	},
+	[29023] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Samophlange",
+	},
+	[867] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Harpy Raiders",
+	},
+	[875] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Harpy Lieutenants",
+	},
+	[13999] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Who's Shroomin' Who?",
+	},
+	[29015] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Miner's Fortune",
+	},
+	[899] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Consumed by Hatred",
+	},
+	[29022] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Samophlange",
+	},
+	[29021] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Samophlange",
+	},
+	[14004] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Return to Samophlanger",
+	},
+	[13878] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Through Fire and Flames",
+	},
+	[14006] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Read the Manual",
+	},
+	[14045] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Find Baron Longshore",
+	},
+	[26642] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Preserving the Barrens",
+	},
+	[28494] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Northern Barrens!",
+	},
+	[844] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Plainstrider Menace",
+	},
+	[852] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hezrul Bloodmark",
+	},
+	[840] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Conscript of the Horde",
+	},
+	[25264] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ak'Zeloth",
+	},
+	[876] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Serena Bloodfeather",
+	},
+	[25263] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Arnak Fireblade",
+	},
+	[13970] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Animal Services",
+	},
+	[13998] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "In Fungus We Trust",
+	},
+	[13995] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "King of Centaur Mountain",
+	},
+	[887] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Southsea Freebooters",
+	},
+	[26769] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Raging River Ride",
+	},
+	[891] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Captain's Vengeance",
+	},
+	[13514] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Ancients' Ire",
+	},
+	[29027] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Nugget Slugs",
+	},
+	[13973] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Grol'dom Militia",
+	},
+	[26878] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Disciples of Naralex",
+	},
 }
 
