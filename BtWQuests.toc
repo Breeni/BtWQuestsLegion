@@ -43,6 +43,7 @@ Data/ClassicWestfall.lua
 Data/ClassicHillsbradFoothills.lua
 Data/ClassicRedridgeMountains.lua
 Data/ClassicDuskwood.lua
+Data/ClassicWetlands.lua
 Data/ClassicNorthenStranglethorn.lua
 Data/ClassicCapeOfStranglethorn.lua
 Data/ClassicWesternPlaguelands.lua

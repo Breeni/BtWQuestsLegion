@@ -19756,5 +19756,290 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Disciples of Naralex",
 	},
+	[26980] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Swiftgear Station",
+	},
+	[25721] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Fight the Flood",
+	},
+	[25722] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Sedimentary, My Dear",
+	},
+	[25849] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "When Archaeology Attacks",
+	},
+	[25850] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Strike the Earth!",
+	},
+	[25725] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Fenbush Berries",
+	},
+	[25726] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Dumpy Job",
+	},
+	[25727] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Drungeld Glowerglare",
+	},
+	[25854] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "I'll Call Him Bitey",
+	},
+	[25855] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Gizmos and Gadgets",
+	},
+	[28565] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: Wetlands!",
+	},
+	[25857] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hunting Horrorjaw",
+	},
+	[25733] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Get Out Of Here, Stalkers",
+	},
+	[25734] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Down In Thelgen Rock",
+	},
+	[25735] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Incendicite Ore",
+	},
+	[25736] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Floodsurge Core",
+	},
+	[25926] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Mired in Hatred",
+	},
+	[25927] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Threat of Flame",
+	},
+	[25802] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Reclaiming Goods",
+	},
+	[25803] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Search Continues",
+	},
+	[25867] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Gnoll Escape",
+	},
+	[25805] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Return the Statuette",
+	},
+	[25817] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Cursed Crew",
+	},
+	[26189] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Angerfang Menace",
+	},
+	[26127] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Twilight's Hammer Revealed",
+	},
+	[25939] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "For Peat's Sake",
+	},
+	[25818] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lifting the Curse",
+	},
+	[25815] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Third Fleet",
+	},
+	[25816] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Cursed to Roam",
+	},
+	[26195] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Who Wards The Greenwarden",
+	},
+	[26196] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Longbraid the Grim",
+	},
+	[25819] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Eye of Paleth",
+	},
+	[25820] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Mother's Worries",
+	},
+	[25856] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Crocolisk Hides",
+	},
+	[26137] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Checking on the Boys",
+	},
+	[26327] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Anvilmar the Hero",
+	},
+	[26139] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Into Arathi",
+	},
+	[25853] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Tooling Around",
+	},
+	[25211] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Cleaning Hovel",
+	},
+	[25801] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Claws from the Deep",
+	},
+	[25800] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "When Life Gives You Crabs",
+	},
+	[26120] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Crazed Dragonmaw",
+	},
+	[26095] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Stromgarde Badges",
+	},
+	[25865] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Mosshide Job",
+	},
+	[28573] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: Arathi Highlands!",
+	},
+	[25770] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Keg Run",
+	},
+	[26128] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Battle of Thandol Span",
+	},
+	[25868] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Yorla Darksnare",
+	},
+	[25395] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Stolen Keg",
+	},
+	[26981] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Whelgar's Retreat",
+	},
+	[25804] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Search More Hovels",
+	},
+	[25866] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Dark Iron Trappers",
+	},
+	[25777] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Onwards to Menethil",
+	},
+	[26093] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Northfold Manor",
+	},
+	[25864] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Dinosaur Crisis",
+	},
+	[25780] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Assault on Menethil Keep",
+	},
+	[25723] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Thresh Out of Luck",
+	},
 }
 
