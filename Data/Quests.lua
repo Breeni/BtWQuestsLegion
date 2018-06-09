@@ -20041,5 +20041,235 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Thresh Out of Luck",
 	},
+	[26033] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Trol'kalar",
+	},
+	[26035] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Worth Its Weight in Gold",
+	},
+	[28619] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Arathi Highlands!",
+	},
+	[26037] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Trelane's Defenses",
+	},
+	[26038] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Attack on the Tower",
+	},
+	[26039] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Princess Trapped",
+	},
+	[26041] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Stones of Binding",
+	},
+	[26042] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Breaking the Keystone",
+	},
+	[26107] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Raising Spirits",
+	},
+	[26108] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Guile of the Raptor",
+	},
+	[26110] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Just Like Old Times",
+	},
+	[26049] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Princess Unleashed",
+	},
+	[26050] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Goggle Boggle",
+	},
+	[26429] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Crush the Witherbark",
+	},
+	[28572] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Arathi Highlands!",
+	},
+	[26116] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Kinelory Strikes",
+	},
+	[26117] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "For Southshore",
+	},
+	[26055] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Drowned Sorrows",
+	},
+	[26628] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Death From Below",
+	},
+	[26909] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Stone Shards",
+	},
+	[26428] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "To Steal From Thieves",
+	},
+	[26336] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Shakes O'Breen",
+	},
+	[26113] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Quae and Kinelory",
+	},
+	[26053] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Clearing the Highlands",
+	},
+	[26036] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Wand over Fist",
+	},
+	[26114] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Quae Trusts You",
+	},
+	[26346] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Myzrael's Tale",
+	},
+	[26079] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Wanted!  Otto and Falconcrest",
+	},
+	[26051] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Sunken Treasure",
+	},
+	[26081] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Alina's Reward",
+	},
+	[26052] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Speak to Shakes",
+	},
+	[26083] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hello Lolo",
+	},
+	[26084] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hammerfall",
+	},
+	[26022] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "First Blood",
+	},
+	[26023] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Forsaken Trollbane",
+	},
+	[26024] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Wanted!  Marez Cowl",
+	},
+	[26025] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Traitor Orc",
+	},
+	[26341] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Stone Shards",
+	},
+	[26027] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Call to Arms",
+	},
+	[26911] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Myzrael's Tale",
+	},
+	[26029] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Real Threat",
+	},
+	[26030] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Sigil of Strom",
+	},
+	[26031] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Sigil of Thoradin",
+	},
+	[26032] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Sigil of Arathor",
+	},
+	[26912] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Princess Unleashed",
+	},
+	[26943] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Home Sweet Gnome",
+	},
 }
 
