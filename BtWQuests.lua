@@ -1682,7 +1682,7 @@ function BtWQuests_ListCategories(scrollTo)
         categoryButton = scrollFrame["category"..index];
     end
 
-    if scrollTo ~= nil and scrollTo.type == "coords" then
+    if type(scrollTo) == "table" and scrollTo.type == "coords" then
         questSelect.scroll:UpdateScrollChildRect()
         -- questSelect.scroll:SetHorizontalScroll(scrollTo.x)
         questSelect.scroll:SetVerticalScroll(scrollTo.y)
@@ -1899,7 +1899,7 @@ function BtWQuests_DisplayChain(scrollTo)
         scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     end
 
-    if scrollTo ~= nil and scrollTo.type == "coords" then
+    if type(scrollTo) == "table" and scrollTo.type == "coords" then
         chain.scroll:UpdateScrollChildRect()
         -- chain.scroll:SetHorizontalScroll(scrollTo.x)
         chain.scroll:SetVerticalScroll(scrollTo.y)
