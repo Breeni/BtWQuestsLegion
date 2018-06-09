@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -69,7 +69,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_VOID_ELF] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -124,7 +124,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_NIGHTBORNE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
     prerequisites = {
@@ -197,7 +197,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
     prerequisites = {

@@ -218,12 +218,8 @@ local function BtWQuests_CompareItems(a, b)
         return false
     end
     
-    if a.type == "chain" or a.type == "quest" or a.type == "achievement" or a.type == "mission" then
+    if a.type == "chain" or a.type == "quest" or a.type == "achievement" or a.type == "mission" or a.type == "faction" or a.type == "race" or a.type == "class" then
         return a.id == b.id
-    elseif a.type == "faction" then
-        return a.faction == b.faction
-    elseif a.type == "class" then
-        return a.class == b.class
     elseif a.type == "level" then
         return a.level == b.level
     else
@@ -262,6 +258,10 @@ end
 
 function BtWQuests_IsRace(race)
     return BtWQuests_Character.race == race
+end
+
+function BtWQuests_InRaces(races)
+    return ArrayContains(races, BtWQuests_Character.race)
 end
 
 function BtWQuests_IsClass(class)
@@ -448,24 +448,26 @@ BtWQuests_CheckItemRequirement = function (item, skipAlternatives)
             return BtWQuests_IsCategoryCompleted(item.id)
         end
     elseif item.type == "faction" then
-        return BtWQuests_IsFaction(item.faction)
-        -- return item.faction == UnitFactionGroup("player")
+        return BtWQuests_IsFaction(item.id)
+    elseif item.type == "race" then
+        if item.id == nil and item.ids ~= nil then
+            return BtWQuests_InRaces(item.ids)
+        else
+            return BtWQuests_IsRace(item.id)
+        end
     elseif item.type == "class" then
-        return BtWQuests_IsClass(item.class)
-        -- return item.class == select(3, UnitClass("player"))
-    elseif item.type == "classes" then
-        return BtWQuests_InClasses(item.classes)
-        -- return ArrayContains(item.classes, select(3, UnitClass("player")))
+        if item.id == nil and item.ids ~= nil then
+            return BtWQuests_InClasses(item.ids)
+        else
+            return BtWQuests_IsClass(item.id)
+        end
     elseif item.type == "level" then
         return BtWQuests_AtleastLevel(item.level)
-        -- return UnitLevel("player") >= item.level
     elseif item.type == "expansion" then
         return GetAccountExpansionLevel() >= item.expansion
     elseif item.type == "reputation" then
         local factionName, standing, barMin, barMax, value = BtWQuests_GetFactionInfoByID(item.faction)
         local gender = BtWQuests_GetSex()
-        -- local factionName, _, standing, barMin, _, value = GetFactionInfoByID(item.id)
-        -- local gender = UnitSex("player")
         local standingText = getglobal("FACTION_STANDING_LABEL" .. item.standing .. (gender == 3 and "_FEMALE" or ""))
         
         if item.amount ~= nil then
@@ -497,13 +499,6 @@ BtWQuests_CheckItemRequirement = function (item, skipAlternatives)
         return select(11, C_MountJournal.GetMountInfoByID(item.id))
     elseif item.type == "profession" then
         return BtWQuests_HasProfession(item.id)
-        -- local professions = {GetProfessions()}
-        -- for _,index in ipairs(professions) do
-        --     if select(7, GetProfessionInfo(index)) == item.id then
-        --         return true
-        --     end
-        -- end
-        -- return false
     elseif item.type ~= nil then
         assert(false, "Invalid item type: " .. item.type)
     else
@@ -529,7 +524,7 @@ BtWQuests_GetItemName = function (item)
     elseif item.type == "mission" then
         return BtWQuests_GetItemName(BtWQuests_Missions[item.id])
     elseif item.type == "level" then
-        return string.format(BTWQUESTS_LEVEL_TO, item.level)
+        return string.format(BTWQUESTS_LEVEL, item.level)
     elseif item.type == "expansion" then
         return _G['BTWQUESTS_EXPANSION_NAME' .. item.expansion]
     elseif item.type == "reputation" then
@@ -1200,7 +1195,7 @@ function BtWQuests_EvalChainItem(item)
         
         status = completed and "complete" or "active"
     elseif item.type == "level" then
-        name = string.format(name or BTWQUESTS_LEVEL_TO, item.level)
+        name = string.format(name or BTWQUESTS_LEVEL, item.level)
         local completed = UnitLevel("player") >= item.level
         
         status = completed and "complete" or "active"

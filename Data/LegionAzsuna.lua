@@ -779,7 +779,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 }
             },
             aside = true,
@@ -792,7 +792,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 }
             },
             aside = true,

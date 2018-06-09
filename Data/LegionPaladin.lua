@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PALADIN,
+            id = BTWQUESTS_CLASS_ID_PALADIN,
         },
     },
     completed = {
@@ -39,7 +39,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PALADIN,
+            id = BTWQUESTS_CLASS_ID_PALADIN,
         },
     },
     completed = {
@@ -91,7 +91,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PALADIN,
+            id = BTWQUESTS_CLASS_ID_PALADIN,
         },
     },
     completed = {
@@ -161,7 +161,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PALADIN,
+            id = BTWQUESTS_CLASS_ID_PALADIN,
         },
     },
     completed = {
@@ -744,7 +744,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PALADIN,
+            id = BTWQUESTS_CLASS_ID_PALADIN,
         },
     },
     completed = {
@@ -870,7 +870,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PALADIN,
+            id = BTWQUESTS_CLASS_ID_PALADIN,
         },
     },
     prerequisites = {
@@ -1005,7 +1005,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PALADIN,
+            id = BTWQUESTS_CLASS_ID_PALADIN,
         },
     },
     prerequisites = {
@@ -1098,7 +1098,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PALADIN,
+            id = BTWQUESTS_CLASS_ID_PALADIN,
         }
     },
     -- buttonImage = 1041999,
