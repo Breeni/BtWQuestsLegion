@@ -21,7 +21,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 },
             },
             userdata = {
@@ -42,7 +42,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 },
             },
             x = 3,
@@ -57,7 +57,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 },
             },
             x = 3,
@@ -71,8 +71,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             id = 44009,
             restrictions = {
                 {
-                    type = "classes",
-                    classes = {
+                    type = "class",
+                    ids = {
                         BTWQUESTS_CLASS_ID_WARRIOR,
                         BTWQUESTS_CLASS_ID_HUNTER,
                         BTWQUESTS_CLASS_ID_ROGUE,
@@ -125,7 +125,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 },
             },
             userdata = {
@@ -216,8 +216,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             id = 44481,
             restrictions = {
                 {
-                    type = "classes",
-                    classes = {
+                    type = "class",
+                    ids = {
                         BTWQUESTS_CLASS_ID_WARRIOR,
                         BTWQUESTS_CLASS_ID_PALADIN,
                         BTWQUESTS_CLASS_ID_HUNTER,
@@ -253,8 +253,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             id = 44496,
             restrictions = {
                 {
-                    type = "classes",
-                    classes = {
+                    type = "class",
+                    ids = {
                         BTWQUESTS_CLASS_ID_WARRIOR,
                         BTWQUESTS_CLASS_ID_PALADIN,
                         BTWQUESTS_CLASS_ID_HUNTER,
@@ -291,7 +291,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
                 },
             },
             x = 3,
@@ -347,7 +347,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
         },
@@ -358,7 +358,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
         },

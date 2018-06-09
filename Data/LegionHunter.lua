@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_HUNTER,
+            id = BTWQUESTS_CLASS_ID_HUNTER,
         },
     },
     completed = {
@@ -48,7 +48,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_HUNTER,
+            id = BTWQUESTS_CLASS_ID_HUNTER,
         },
     },
     completed = {
@@ -100,7 +100,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_HUNTER,
+            id = BTWQUESTS_CLASS_ID_HUNTER,
         },
     },
     completed = {
@@ -143,7 +143,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_HUNTER,
+            id = BTWQUESTS_CLASS_ID_HUNTER,
         },
     },
     completed = {
@@ -954,7 +954,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_HUNTER,
+            id = BTWQUESTS_CLASS_ID_HUNTER,
         },
     },
     completed = {
@@ -1085,7 +1085,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_HUNTER,
+            id = BTWQUESTS_CLASS_ID_HUNTER,
         },
     },
     completed = {
@@ -1127,7 +1127,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_HUNTER,
+            id = BTWQUESTS_CLASS_ID_HUNTER,
         }
     },
     -- buttonImage = 1041999,

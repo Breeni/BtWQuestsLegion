@@ -7,7 +7,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -244,7 +244,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -386,7 +386,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -497,7 +497,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_STEAD] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -717,7 +717,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS] = {
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         type = "faction",
-        faction = "Alliance",
+        id = BTWQUESTS_FACTION_ID_ALLIANCE,
     },
     items = {
         {

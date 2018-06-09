@@ -28,7 +28,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_FAR_WATCH] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -184,7 +184,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_GROLDOM_FARM] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -351,7 +351,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_DEFEATING_THE_KOLKAR] 
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -428,7 +428,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_MYSTERIES_OF_THE_OASES
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -618,7 +618,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_RATCHET] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -848,7 +848,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_NOZZLEPOTS_OUTPOST] = 
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1067,7 +1067,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_INSPIRATION_AND_HOPE] 
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1188,7 +1188,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_CHAIN1] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1297,7 +1297,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_CHAIN2] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1407,7 +1407,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_CHAIN3] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1603,7 +1603,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_CHAIN4] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1686,7 +1686,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_CHAIN5] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1737,7 +1737,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_CHAIN6] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1788,7 +1788,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_BARRENS_CHAIN7] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1843,7 +1843,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_NORTHERN_BARRENS] = {
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	restrictions = {
 		type = "faction",
-		faction = "Horde"
+		id = BTWQUESTS_FACTION_ID_HORDE
 	},
 	items = {
 		{

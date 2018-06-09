@@ -21,7 +21,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -36,7 +36,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -53,7 +53,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -68,7 +68,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -85,7 +85,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -100,7 +100,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -119,7 +119,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 2,
@@ -134,7 +134,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 2,
@@ -151,7 +151,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 4,
@@ -166,7 +166,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 4,

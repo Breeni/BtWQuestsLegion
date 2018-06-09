@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PRIEST,
+            id = BTWQUESTS_CLASS_ID_PRIEST,
         },
     },
     completed = {
@@ -93,7 +93,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PRIEST,
+            id = BTWQUESTS_CLASS_ID_PRIEST,
         },
     },
     completed = {
@@ -154,7 +154,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PRIEST,
+            id = BTWQUESTS_CLASS_ID_PRIEST,
         },
     },
     completed = {
@@ -179,7 +179,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PRIEST,
+            id = BTWQUESTS_CLASS_ID_PRIEST,
         },
     },
     completed = {
@@ -802,7 +802,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PRIEST,
+            id = BTWQUESTS_CLASS_ID_PRIEST,
         },
     },
     completed = {
@@ -939,7 +939,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PRIEST,
+            id = BTWQUESTS_CLASS_ID_PRIEST,
         },
     },
     prerequisites = {
@@ -987,7 +987,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_PRIEST,
+            id = BTWQUESTS_CLASS_ID_PRIEST,
         }
     },
     -- buttonImage = 1041999,

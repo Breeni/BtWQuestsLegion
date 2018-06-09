@@ -9,7 +9,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_GREAT_ANIMAL_SPIRIT] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	prerequisites = {
@@ -31,7 +31,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_GREAT_ANIMAL_SPIRIT] = {
 					restrictions = {
 						{
 							type = "race",
-							race = BTWQUESTS_RACE_ID_WORGEN,
+							id = BTWQUESTS_RACE_ID_WORGEN,
 						},
 					},
 				},
@@ -279,7 +279,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_SHATTERSPEAR] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	prerequisites = {
@@ -447,7 +447,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_EYE_OF_ALL_STORMS] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	prerequisites = {
@@ -664,7 +664,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_DEVOURER] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	prerequisites = {
@@ -761,7 +761,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_CONSUMED_BY_MADNESS] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	prerequisites = {
@@ -830,7 +830,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_THE_BATTLE_FOR_DARKSHORE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	prerequisites = {
@@ -1008,7 +1008,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_CHAIN1] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	prerequisites = {
@@ -1117,7 +1117,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_CHAIN2] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	prerequisites = {
@@ -1198,7 +1198,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_DARKSHORE_OTHER_ALLIANCE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	completed = {
@@ -1269,7 +1269,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_DARKSHORE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
 	items = {

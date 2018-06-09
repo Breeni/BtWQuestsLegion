@@ -7,7 +7,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_ALLIANCE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     completed = {
@@ -91,7 +91,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_ALLIANCE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -201,7 +201,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_HORDE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
     completed = {
@@ -284,7 +284,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
     prerequisites = {
@@ -377,7 +377,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
         },
@@ -387,7 +387,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
         },
@@ -422,7 +422,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -437,7 +437,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -569,7 +569,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -584,7 +584,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -601,7 +601,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -616,7 +616,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -643,7 +643,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -658,7 +658,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -675,7 +675,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 aside = true,
@@ -688,7 +688,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 aside = true,
@@ -704,7 +704,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 1,
@@ -717,7 +717,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 1,
@@ -731,7 +731,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -746,7 +746,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -763,7 +763,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -778,7 +778,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -795,7 +795,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -810,7 +810,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -1200,7 +1200,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
         },
@@ -1210,7 +1210,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
         },
@@ -1233,7 +1233,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -1248,7 +1248,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -1267,7 +1267,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 2,
@@ -1282,7 +1282,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 2,
@@ -1299,7 +1299,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 4,
@@ -1314,7 +1314,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 4,
@@ -1331,7 +1331,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 6,
@@ -1343,7 +1343,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 6,
@@ -1359,7 +1359,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -1374,7 +1374,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -1398,7 +1398,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 4,
@@ -1413,7 +1413,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 4,
@@ -1432,7 +1432,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -1447,7 +1447,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -1464,7 +1464,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -1476,7 +1476,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS] 
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,

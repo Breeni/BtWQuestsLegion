@@ -638,7 +638,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_REDRIDGE_MOUNTAINS] = {
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	restrictions = {
 		type = "faction",
-		faction = "Alliance",
+		id = BTWQUESTS_FACTION_ID_ALLIANCE,
 	},
 	items = {
 		{

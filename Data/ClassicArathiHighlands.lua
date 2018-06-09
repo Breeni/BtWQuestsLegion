@@ -106,7 +106,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_ARATHI_HIGHLANDS_GALENS_FALL] = {
 	range = {25, 60},
 	restrictions = {
 		type = "faction",
-		faction = "Horde",
+		id = BTWQUESTS_FACTION_ID_HORDE,
 	},
 	prerequisites = {
 		{
@@ -343,7 +343,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_ARATHI_HIGHLANDS_HAMMERFALL] = {
 	range = {25, 60},
 	restrictions = {
 		type = "faction",
-		faction = "Horde",
+		id = BTWQUESTS_FACTION_ID_HORDE,
 	},
 	prerequisites = {
 		{
@@ -486,7 +486,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_ARATHI_HIGHLANDS_REFUGE_POINT] = {
 	range = {25, 60},
 	restrictions = {
 		type = "faction",
-		faction = "Alliance",
+		id = BTWQUESTS_FACTION_ID_ALLIANCE,
 	},
 	prerequisites = {
 		{
@@ -652,7 +652,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_ARATHI_HIGHLANDS_MYZRAELS_POINT] = {
 	range = {25, 60},
 	restrictions = {
 		type = "faction",
-		faction = "Alliance",
+		id = BTWQUESTS_FACTION_ID_ALLIANCE,
 	},
 	prerequisites = {
 		{
@@ -740,7 +740,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_ARATHI_HIGHLANDS_CHAIN1] = {
 	range = {25, 60},
 	restrictions = {
 		type = "faction",
-		faction = "Alliance",
+		id = BTWQUESTS_FACTION_ID_ALLIANCE,
 	},
 	prerequisites = {
 		{
@@ -822,7 +822,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_ARATHI_HIGHLANDS_CHAIN2] = {
 	range = {25, 60},
 	restrictions = {
 		type = "faction",
-		faction = "Alliance",
+		id = BTWQUESTS_FACTION_ID_ALLIANCE,
 	},
 	prerequisites = {
 		{
@@ -899,7 +899,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_ARATHI_HIGHLANDS_CHAIN3] = {
 	range = {25, 60},
 	restrictions = {
 		type = "faction",
-		faction = "Alliance",
+		id = BTWQUESTS_FACTION_ID_ALLIANCE,
 	},
 	prerequisites = {
 		{

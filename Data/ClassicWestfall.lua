@@ -613,7 +613,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_WESTFALL] = {
 	restrictions = {
 		{
 			type = "faction",
-			faction = "Alliance",
+			id = BTWQUESTS_FACTION_ID_ALLIANCE,
 		}
 	},
 	items = {

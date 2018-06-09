@@ -501,7 +501,7 @@ BtWQuests_Quests = {
         restrictions = {
             {
                 type = "faction",
-                faction = "Alliance",
+                id = BTWQUESTS_FACTION_ID_ALLIANCE,
             },
         },
     },
@@ -512,7 +512,7 @@ BtWQuests_Quests = {
         restrictions = {
             {
                 type = "faction",
-                faction = "Horde",
+                id = BTWQUESTS_FACTION_ID_HORDE,
             },
         },
     },
@@ -1707,8 +1707,8 @@ BtWQuests_Quests = {
         requiredLevel = 110,
         restrictions = {
             {
-                type = "classes",
-                classes = {1,2,3,4,5,6,7,8,9,10,11},
+                type = "class",
+                ids = {1,2,3,4,5,6,7,8,9,10,11},
             },
         },
     },
@@ -4092,7 +4092,7 @@ BtWQuests_Quests = {
         restrictions = {
             {
                 type = "faction",
-                faction = "Alliance",
+                id = BTWQUESTS_FACTION_ID_ALLIANCE,
             },
         },
     },
@@ -4103,7 +4103,7 @@ BtWQuests_Quests = {
         restrictions = {
             {
                 type = "faction",
-                faction = "Horde",
+                id = BTWQUESTS_FACTION_ID_HORDE,
             },
         },
     },

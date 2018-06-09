@@ -9,7 +9,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_OHGANANKA] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -131,7 +131,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_REBEL_CAMP] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -561,7 +561,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_ALLIAN
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -699,7 +699,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_YENNIKU] = {
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         type = "faction",
-        faction = "Horde",
+        id = BTWQUESTS_FACTION_ID_HORDE,
     },
     prerequisites = {
         {
@@ -931,7 +931,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_NORTHERN_STRANGLETHORN_HATCHLING_HORDE]
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         type = "faction",
-        faction = "Horde",
+        id = BTWQUESTS_FACTION_ID_HORDE,
     },
     prerequisites = {
         {

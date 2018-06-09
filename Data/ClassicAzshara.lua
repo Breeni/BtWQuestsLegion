@@ -9,7 +9,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_DEFENDING_ORGRIMMAR] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -30,7 +30,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_DEFENDING_ORGRIMMAR] = {
 					id = 25275,
 					restrictions = {
 						type = "race",
-						race = BTWQUESTS_RACE_ID_GOBLIN,
+						id = BTWQUESTS_RACE_ID_GOBLIN,
 					},
 				},
 				{
@@ -186,7 +186,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_REDIRECTING_THE_LEY_LINES] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -470,7 +470,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_SISTERS_OF_THE_SEA] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -554,7 +554,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_SUBJECT_NINE_FROM_SPACE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -621,7 +621,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_RAREST_SUBSTANCE_ON_AZEROTH
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -739,7 +739,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_HEART_OF_ARKKOROC] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -899,7 +899,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_BEST_APPRENTICE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1207,7 +1207,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_THE_CONQUEST_OF_AZSHARA] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1380,7 +1380,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN1] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1556,7 +1556,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN2] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1613,7 +1613,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_AZSHARA_CHAIN3] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	prerequisites = {
@@ -1663,7 +1663,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_AZSHARA] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
 	items = {

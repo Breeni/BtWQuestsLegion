@@ -1053,7 +1053,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_HILLSBRAD_FOOTHILLS] = {
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	restrictions = {
 		type = "faction",
-		faction = "Horde"
+		id = BTWQUESTS_FACTION_ID_HORDE
 	},
 	items = {
 		{

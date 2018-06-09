@@ -7,7 +7,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PALADIN_PALS] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -112,7 +112,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -312,7 +312,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_LIGHTS_SHIELD_TOWER
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -429,7 +429,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_LIGHTS_HOPE_CHAPEL]
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -581,7 +581,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_TYRS_HAND] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -736,7 +736,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_CRUSADE] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -857,7 +857,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_JOURNEYS_END] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -1039,7 +1039,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PLAGUEWOOD] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -1139,7 +1139,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS] = {
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         type = "faction",
-        faction = "Alliance",
+        id = BTWQUESTS_FACTION_ID_ALLIANCE,
     },
     items = {
         {

@@ -845,7 +845,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_SILVERPINE_FOREST] = {
 	expansion = BTWQUESTS_EXPANSION_CLASSIC,
 	restrictions = {
 		type = "faction",
-		faction = "Horde",
+		id = BTWQUESTS_FACTION_ID_HORDE,
 	},
 	items = {
 		{

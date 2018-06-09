@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_ROGUE,
+            id = BTWQUESTS_CLASS_ID_ROGUE,
         },
     },
     completed = {
@@ -81,7 +81,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_ROGUE,
+            id = BTWQUESTS_CLASS_ID_ROGUE,
         },
     },
     completed = {
@@ -115,7 +115,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_ROGUE,
+            id = BTWQUESTS_CLASS_ID_ROGUE,
         },
     },
     completed = {
@@ -176,7 +176,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_ROGUE,
+            id = BTWQUESTS_CLASS_ID_ROGUE,
         },
     },
     completed = {
@@ -820,7 +820,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_ROGUE,
+            id = BTWQUESTS_CLASS_ID_ROGUE,
         },
     },
     completed = {
@@ -862,7 +862,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -877,7 +877,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -895,7 +895,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 1,
@@ -910,7 +910,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 1,
@@ -926,7 +926,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -941,7 +941,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -979,7 +979,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -994,7 +994,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -1024,7 +1024,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -1039,7 +1039,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -1055,7 +1055,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -1070,7 +1070,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -1086,7 +1086,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -1101,7 +1101,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -1117,7 +1117,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -1132,7 +1132,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -1163,7 +1163,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_ROGUE,
+            id = BTWQUESTS_CLASS_ID_ROGUE,
         },
     },
     prerequisites = {
@@ -1203,7 +1203,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -1215,7 +1215,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -1230,7 +1230,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_ROGUE,
+            id = BTWQUESTS_CLASS_ID_ROGUE,
         }
     },
     -- buttonImage = 1041999,

@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARLOCK,
+            id = BTWQUESTS_CLASS_ID_WARLOCK,
         },
     },
     completed = {
@@ -75,7 +75,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARLOCK,
+            id = BTWQUESTS_CLASS_ID_WARLOCK,
         },
     },
     completed = {
@@ -118,7 +118,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARLOCK,
+            id = BTWQUESTS_CLASS_ID_WARLOCK,
         },
     },
     completed = {
@@ -161,7 +161,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARLOCK,
+            id = BTWQUESTS_CLASS_ID_WARLOCK,
         },
     },
     completed = {
@@ -726,7 +726,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARLOCK,
+            id = BTWQUESTS_CLASS_ID_WARLOCK,
         },
     },
     completed = {
@@ -845,7 +845,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARLOCK,
+            id = BTWQUESTS_CLASS_ID_WARLOCK,
         },
     },
     prerequisites = {
@@ -940,7 +940,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARLOCK,
+            id = BTWQUESTS_CLASS_ID_WARLOCK,
         }
     },
     -- buttonImage = 1041999,

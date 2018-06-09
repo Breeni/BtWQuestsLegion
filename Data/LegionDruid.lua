@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DRUID,
+            id = BTWQUESTS_CLASS_ID_DRUID,
         },
     },
     completed = {
@@ -84,7 +84,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DRUID,
+            id = BTWQUESTS_CLASS_ID_DRUID,
         },
     },
     completed = {
@@ -145,7 +145,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DRUID,
+            id = BTWQUESTS_CLASS_ID_DRUID,
         },
     },
     completed = {
@@ -224,7 +224,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DRUID,
+            id = BTWQUESTS_CLASS_ID_DRUID,
         },
     },
     completed = {
@@ -294,7 +294,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DRUID,
+            id = BTWQUESTS_CLASS_ID_DRUID,
         },
     },
     completed = {
@@ -921,7 +921,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DRUID,
+            id = BTWQUESTS_CLASS_ID_DRUID,
         },
     },
     completed = {
@@ -1094,7 +1094,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DRUID,
+            id = BTWQUESTS_CLASS_ID_DRUID,
         },
     },
     prerequisites = {
@@ -1151,7 +1151,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DRUID,
+            id = BTWQUESTS_CLASS_ID_DRUID,
         }
     },
     -- buttonImage = 1041999,

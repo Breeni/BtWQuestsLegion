@@ -6,7 +6,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_ZULGURUB] = {
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         type = "faction",
-        faction = "Alliance",
+        id = BTWQUESTS_FACTION_ID_ALLIANCE,
     },
     prerequisites = {
         {
@@ -266,7 +266,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_PIRATES] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -454,7 +454,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BOOTY_BAY] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -699,7 +699,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_CAPE_OF_STRANGLETHORN_BLOODSAIL] = {
     restrictions = {
         {
             type = "faction",
-            faction = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     prerequisites = {
@@ -806,7 +806,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_CAPE_OF_STRANGLETHORN] = {
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         type = "faction",
-        faction = "Alliance",
+        id = BTWQUESTS_FACTION_ID_ALLIANCE,
     },
     items = {
         {
