@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_SHAMAN,
+            id = BTWQUESTS_CLASS_ID_SHAMAN,
         },
     },
     completed = {
@@ -48,7 +48,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_SHAMAN,
+            id = BTWQUESTS_CLASS_ID_SHAMAN,
         },
     },
     completed = {
@@ -127,7 +127,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_SHAMAN,
+            id = BTWQUESTS_CLASS_ID_SHAMAN,
         },
     },
     completed = {
@@ -170,7 +170,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_SHAMAN,
+            id = BTWQUESTS_CLASS_ID_SHAMAN,
         },
     },
     completed = {
@@ -763,7 +763,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_SHAMAN,
+            id = BTWQUESTS_CLASS_ID_SHAMAN,
         },
     },
     completed = {
@@ -935,7 +935,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_SHAMAN,
+            id = BTWQUESTS_CLASS_ID_SHAMAN,
         },
     },
     completed = {
@@ -968,7 +968,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_SHAMAN,
+            id = BTWQUESTS_CLASS_ID_SHAMAN,
         }
     },
     -- buttonImage = 1041999,

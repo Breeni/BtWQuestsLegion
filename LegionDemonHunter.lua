@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
         },
     },
     completed = {
@@ -387,7 +387,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                     },
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -406,7 +406,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                     },
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -425,7 +425,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                     },
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -444,7 +444,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                     },
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -461,7 +461,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -476,7 +476,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -493,7 +493,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -508,7 +508,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -525,7 +525,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -540,7 +540,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -557,7 +557,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -572,7 +572,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -589,7 +589,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Alliance",
+                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
                 x = 3,
@@ -604,7 +604,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE] = {
                 restrictions = {
                     {
                         type = "faction",
-                        faction = "Horde",
+                        id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
                 x = 3,
@@ -639,7 +639,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
         },
     },
     completed = {
@@ -748,7 +748,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
         },
     },
     completed = {
@@ -858,7 +858,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
         },
     },
     completed = {
@@ -1759,7 +1759,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
         },
     },
     completed = {
@@ -1904,7 +1904,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
         },
     },
     prerequisites = {
@@ -1943,7 +1943,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+            id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
         }
     },
     -- buttonImage = 1041999,

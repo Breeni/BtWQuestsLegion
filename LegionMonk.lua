@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MONK,
+            id = BTWQUESTS_CLASS_ID_MONK,
         },
     },
     completed = {
@@ -75,7 +75,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MONK,
+            id = BTWQUESTS_CLASS_ID_MONK,
         },
     },
     completed = {
@@ -127,7 +127,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MONK,
+            id = BTWQUESTS_CLASS_ID_MONK,
         },
     },
     completed = {
@@ -152,7 +152,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MONK,
+            id = BTWQUESTS_CLASS_ID_MONK,
         },
     },
     completed = {
@@ -690,7 +690,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MONK,
+            id = BTWQUESTS_CLASS_ID_MONK,
         },
     },
     completed = {
@@ -818,7 +818,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MONK,
+            id = BTWQUESTS_CLASS_ID_MONK,
         },
     },
     prerequisites = {
@@ -938,7 +938,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MONK,
+            id = BTWQUESTS_CLASS_ID_MONK,
         }
     },
     -- buttonImage = 1041999,

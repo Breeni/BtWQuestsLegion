@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MAGE,
+            id = BTWQUESTS_CLASS_ID_MAGE,
         },
     },
     completed = {
@@ -84,7 +84,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MAGE,
+            id = BTWQUESTS_CLASS_ID_MAGE,
         },
     },
     completed = {
@@ -127,7 +127,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MAGE,
+            id = BTWQUESTS_CLASS_ID_MAGE,
         },
     },
     completed = {
@@ -188,7 +188,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MAGE,
+            id = BTWQUESTS_CLASS_ID_MAGE,
         },
     },
     completed = {
@@ -752,7 +752,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MAGE,
+            id = BTWQUESTS_CLASS_ID_MAGE,
         },
     },
     completed = {
@@ -940,7 +940,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ANNOYING_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MAGE,
+            id = BTWQUESTS_CLASS_ID_MAGE,
         },
     },
     completed = {
@@ -1010,7 +1010,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MAGE,
+            id = BTWQUESTS_CLASS_ID_MAGE,
         },
     },
     prerequisites = {
@@ -1087,7 +1087,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_MAGE,
+            id = BTWQUESTS_CLASS_ID_MAGE,
         }
     },
     -- buttonImage = 1041999,

@@ -103,7 +103,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             x = 3,
@@ -118,7 +118,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
                 }
             },
             x = 3,
@@ -133,7 +133,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 }
             },
             x = 3,
@@ -148,7 +148,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             x = 3,
@@ -163,7 +163,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             x = 3,
@@ -178,7 +178,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             x = 3,
@@ -193,7 +193,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             x = 3,
@@ -208,7 +208,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             x = 3,
@@ -223,7 +223,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             x = 3,
@@ -238,7 +238,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             x = 3,
@@ -253,7 +253,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             x = 3,
@@ -268,7 +268,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             x = 3,

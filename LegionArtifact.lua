@@ -379,8 +379,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
         {
-            type = "classes",
-            classes = {
+            type = "class",
+            ids = {
                 BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 BTWQUESTS_CLASS_ID_DEMONHUNTER,
                 BTWQUESTS_CLASS_ID_HUNTER,
@@ -455,7 +455,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             aside = true,
@@ -470,7 +470,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             aside = true,
@@ -487,7 +487,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
                 }
             },
             aside = true,
@@ -504,7 +504,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             aside = true,
@@ -519,7 +519,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             aside = true,
@@ -536,7 +536,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             aside = true,
@@ -551,7 +551,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             aside = true,
@@ -568,7 +568,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             aside = true,
@@ -583,7 +583,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             aside = true,
@@ -599,7 +599,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             x = 3,
@@ -614,7 +614,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
                 }
             },
             x = 2,
@@ -629,7 +629,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             x = 5,
@@ -644,7 +644,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             x = 5,
@@ -659,7 +659,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             x = 1,
@@ -729,8 +729,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
         {
-            type = "classes",
-            classes = {
+            type = "class",
+            ids = {
                 BTWQUESTS_CLASS_ID_PALADIN,
                 BTWQUESTS_CLASS_ID_MAGE,
                 BTWQUESTS_CLASS_ID_ROGUE,
@@ -805,7 +805,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             aside = true,
@@ -820,7 +820,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             aside = true,
@@ -837,7 +837,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             aside = true,
@@ -852,7 +852,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             aside = true,
@@ -869,7 +869,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             aside = true,
@@ -884,7 +884,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             aside = true,
@@ -901,7 +901,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             aside = true,
@@ -916,7 +916,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             aside = true,
@@ -933,7 +933,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             aside = true,
@@ -948,7 +948,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             aside = true,
@@ -964,7 +964,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             x = 5,
@@ -979,7 +979,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             x = 1,
@@ -994,7 +994,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             x = 1,
@@ -1009,7 +1009,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             x = 3,
@@ -1024,7 +1024,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             x = 3,
@@ -1112,8 +1112,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
         {
-            type = "classes",
-            classes = {
+            type = "class",
+            ids = {
                 BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 BTWQUESTS_CLASS_ID_DEMONHUNTER,
                 BTWQUESTS_CLASS_ID_DRUID,
@@ -1190,7 +1190,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             aside = true,
@@ -1205,7 +1205,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             aside = true,
@@ -1222,7 +1222,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
                 }
             },
             aside = true,
@@ -1239,7 +1239,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -1254,7 +1254,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -1269,7 +1269,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -1286,7 +1286,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             aside = true,
@@ -1301,7 +1301,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             aside = true,
@@ -1318,7 +1318,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             aside = true,
@@ -1333,7 +1333,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             aside = true,
@@ -1350,7 +1350,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             aside = true,
@@ -1365,7 +1365,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             aside = true,
@@ -1381,7 +1381,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             x = 1,
@@ -1396,7 +1396,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEMONHUNTER,
+                    id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
                 }
             },
             x = 4,
@@ -1411,7 +1411,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             x = 4,
@@ -1426,7 +1426,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             x = 1,
@@ -1441,7 +1441,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             x = 3,
@@ -1456,7 +1456,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             x = 5,
@@ -1526,8 +1526,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
         {
-            type = "classes",
-            classes = {
+            type = "class",
+            ids = {
                 BTWQUESTS_CLASS_ID_DRUID,
                 BTWQUESTS_CLASS_ID_PALADIN,
                 BTWQUESTS_CLASS_ID_PRIEST,
@@ -1602,7 +1602,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -1617,7 +1617,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -1632,7 +1632,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -1649,7 +1649,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             aside = true,
@@ -1664,7 +1664,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             aside = true,
@@ -1681,7 +1681,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             aside = true,
@@ -1696,7 +1696,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             aside = true,
@@ -1713,7 +1713,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             aside = true,
@@ -1728,7 +1728,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             aside = true,
@@ -1745,7 +1745,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             aside = true,
@@ -1760,7 +1760,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             aside = true,
@@ -1776,7 +1776,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             x = 6,
@@ -1791,7 +1791,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PALADIN,
+                    id = BTWQUESTS_CLASS_ID_PALADIN,
                 }
             },
             x = 1,
@@ -1806,7 +1806,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             x = 3,
@@ -1821,7 +1821,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             x = 3,
@@ -1836,7 +1836,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             x = 5,
@@ -1924,8 +1924,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
         {
-            type = "classes",
-            classes = {
+            type = "class",
+            ids = {
                 BTWQUESTS_CLASS_ID_HUNTER,
                 BTWQUESTS_CLASS_ID_PRIEST,
                 BTWQUESTS_CLASS_ID_MONK,
@@ -1998,7 +1998,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             aside = true,
@@ -2013,7 +2013,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             aside = true,
@@ -2030,7 +2030,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             aside = true,
@@ -2045,7 +2045,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             aside = true,
@@ -2062,7 +2062,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             aside = true,
@@ -2077,7 +2077,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             aside = true,
@@ -2094,7 +2094,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             aside = true,
@@ -2109,7 +2109,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             aside = true,
@@ -2125,7 +2125,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             x = 1,
@@ -2140,7 +2140,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             x = 1,
@@ -2155,7 +2155,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MONK,
+                    id = BTWQUESTS_CLASS_ID_MONK,
                 }
             },
             x = 5,
@@ -2170,7 +2170,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             x = 5,
@@ -2258,8 +2258,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
         {
-            type = "classes",
-            classes = {
+            type = "class",
+            ids = {
                 BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 BTWQUESTS_CLASS_ID_DRUID,
                 BTWQUESTS_CLASS_ID_MAGE,
@@ -2336,7 +2336,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             aside = true,
@@ -2351,7 +2351,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             aside = true,
@@ -2368,7 +2368,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -2383,7 +2383,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -2398,7 +2398,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -2415,7 +2415,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             aside = true,
@@ -2430,7 +2430,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             aside = true,
@@ -2447,7 +2447,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             aside = true,
@@ -2462,7 +2462,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             aside = true,
@@ -2479,7 +2479,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             aside = true,
@@ -2494,7 +2494,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             aside = true,
@@ -2511,7 +2511,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             aside = true,
@@ -2526,7 +2526,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             aside = true,
@@ -2542,7 +2542,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_SHAMAN,
+                    id = BTWQUESTS_CLASS_ID_SHAMAN,
                 }
             },
             x = 1,
@@ -2557,7 +2557,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             x = 2,
@@ -2572,7 +2572,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             x = 3,
@@ -2587,7 +2587,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARRIOR,
+                    id = BTWQUESTS_CLASS_ID_WARRIOR,
                 }
             },
             x = 3,
@@ -2602,7 +2602,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_ROGUE,
+                    id = BTWQUESTS_CLASS_ID_ROGUE,
                 }
             },
             x = 3,
@@ -2617,7 +2617,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                    id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
                 }
             },
             x = 5,
@@ -2705,8 +2705,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
         {
-            type = "classes",
-            classes = {
+            type = "class",
+            ids = {
                 BTWQUESTS_CLASS_ID_DRUID,
                 BTWQUESTS_CLASS_ID_HUNTER,
                 BTWQUESTS_CLASS_ID_PRIEST,
@@ -2781,7 +2781,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -2796,7 +2796,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -2811,7 +2811,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             aside = true,
@@ -2828,7 +2828,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             aside = true,
@@ -2843,7 +2843,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             aside = true,
@@ -2860,7 +2860,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             aside = true,
@@ -2875,7 +2875,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             aside = true,
@@ -2892,7 +2892,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             aside = true,
@@ -2907,7 +2907,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             aside = true,
@@ -2924,7 +2924,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             aside = true,
@@ -2939,7 +2939,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             aside = true,
@@ -2955,7 +2955,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_WARLOCK,
+                    id = BTWQUESTS_CLASS_ID_WARLOCK,
                 }
             },
             x = 1,
@@ -2970,7 +2970,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_DRUID,
+                    id = BTWQUESTS_CLASS_ID_DRUID,
                 },
             },
             x = 0,
@@ -2985,7 +2985,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_MAGE,
+                    id = BTWQUESTS_CLASS_ID_MAGE,
                 }
             },
             x = 5,
@@ -3000,7 +3000,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_HUNTER,
+                    id = BTWQUESTS_CLASS_ID_HUNTER,
                 }
             },
             x = 3,
@@ -3015,7 +3015,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS] = {
             restrictions = {
                 {
                     type = "class",
-                    class = BTWQUESTS_CLASS_ID_PRIEST,
+                    id = BTWQUESTS_CLASS_ID_PRIEST,
                 }
             },
             x = 5,

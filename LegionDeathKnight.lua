@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
     prerequisites = {
@@ -44,7 +44,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
     completed = {
@@ -69,7 +69,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
     completed = {
@@ -139,7 +139,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
     prerequisites = {
@@ -748,7 +748,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
     completed = {
@@ -893,7 +893,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
     prerequisites = {
@@ -959,7 +959,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+            id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         }
     },
     -- buttonImage = 1041999,

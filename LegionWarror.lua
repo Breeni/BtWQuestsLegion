@@ -5,7 +5,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARRIOR,
+            id = BTWQUESTS_CLASS_ID_WARRIOR,
         },
     },
     completed = {
@@ -30,7 +30,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARRIOR,
+            id = BTWQUESTS_CLASS_ID_WARRIOR,
         },
     },
     completed = {
@@ -55,7 +55,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARRIOR,
+            id = BTWQUESTS_CLASS_ID_WARRIOR,
         },
     },
     completed = {
@@ -80,7 +80,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARRIOR,
+            id = BTWQUESTS_CLASS_ID_WARRIOR,
         },
     },
     completed = {
@@ -95,7 +95,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -110,7 +110,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -125,7 +125,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -140,7 +140,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -600,7 +600,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARRIOR,
+            id = BTWQUESTS_CLASS_ID_WARRIOR,
         },
     },
     completed = {
@@ -697,7 +697,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -712,7 +712,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -727,7 +727,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -742,7 +742,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -757,7 +757,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -772,7 +772,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -796,7 +796,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Alliance",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
                 },
             },
             x = 3,
@@ -811,7 +811,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER] = {
             restrictions = {
                 {
                     type = "faction",
-                    faction = "Horde",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
                 },
             },
             x = 3,
@@ -836,7 +836,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARRIOR,
+            id = BTWQUESTS_CLASS_ID_WARRIOR,
         },
     },
     prerequisites = {
@@ -884,7 +884,7 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR] = {
     restrictions = {
         {
             type = "class",
-            class = BTWQUESTS_CLASS_ID_WARRIOR,
+            id = BTWQUESTS_CLASS_ID_WARRIOR,
         }
     },
     -- buttonImage = 1041999,
