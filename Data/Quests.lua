@@ -20271,5 +20271,375 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Home Sweet Gnome",
 	},
+	[26523] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "All That Skitters",
+	},
+	[26525] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Venomous Secrets",
+	},
+	[26529] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Fang of Shadra",
+	},
+	[26531] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Summoning Shadra",
+	},
+	[26406] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Fang of Shadra",
+	},
+	[26283] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Prime Slime",
+	},
+	[26418] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Shell of Shadra",
+	},
+	[26547] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "A Mangy Threat",
+	},
+	[26430] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Revantusk Village",
+	},
+	[26432] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Fall of Jintha'Alor",
+	},
+	[26307] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Death to the Vilebranch",
+	},
+	[26309] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Dark Vessels",
+	},
+	[648] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Rescue OOX-17/TN!",
+	},
+	[26462] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Wicked Revantusk",
+	},
+	[26210] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Gammerita, Mon!",
+	},
+	[26212] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lard Lost His Lunch",
+	},
+	[26224] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hunt the Savages",
+	},
+	[27625] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "In Defense of Quel'Danil",
+	},
+	[26357] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Faces of Evil",
+	},
+	[26486] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "99 Bottles of Booze on the Beach",
+	},
+	[26490] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Prime Slime",
+	},
+	[26238] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Savage Dwarves",
+	},
+	[26240] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Stomp To My Beat",
+	},
+	[26369] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hunt the Keeper",
+	},
+	[26498] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Death to the Vilebranch",
+	},
+	[26381] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Eye of Shadra",
+	},
+	[26387] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Starvation Diet",
+	},
+	[26516] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "It's Ours Now",
+	},
+	[26518] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Heads Up",
+	},
+	[26268] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Skulk Rock Supplies",
+	},
+	[26524] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Dark Vessels",
+	},
+	[26526] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hunt the Keeper",
+	},
+	[26528] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Eye of Shadra",
+	},
+	[26530] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Shell of Shadra",
+	},
+	[26532] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Shadra the Venom Queen",
+	},
+	[28574] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: The Hinterlands!",
+	},
+	[26419] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Shadra the Venom Queen",
+	},
+	[26548] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Out to the Front",
+	},
+	[26558] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Summoning Shadra",
+	},
+	[26306] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Start Taking Back",
+	},
+	[26308] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "It's Ours Now",
+	},
+	[26310] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "All That Skitters",
+	},
+	[27725] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Quel'Danil Lodge",
+	},
+	[3721] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "An OOX of Your Own",
+	},
+	[26211] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Snapjaws, Mon!",
+	},
+	[26546] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Razorbeak Friends",
+	},
+	[26542] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: The Hinterlands!",
+	},
+	[351] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Find OOX-17/TN!",
+	},
+	[26643] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Starvation Diet",
+	},
+	[26223] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Stalking the Stalkers",
+	},
+	[26225] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Pupellyverbos Port",
+	},
+	[26641] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Can't Make An Omelette Without...",
+	},
+	[26483] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Gan'dranda",
+	},
+	[26485] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Snapjaws, Lad!",
+	},
+	[485] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Find OOX-09/HL!",
+	},
+	[25476] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Rescue OOX-22/FE!",
+	},
+	[25475] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Find OOX-22/FE!",
+	},
+	[26366] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Heads Up",
+	},
+	[26368] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Venomous Secrets",
+	},
+	[26497] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Vilebranch Scum",
+	},
+	[26363] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Summit of Fate",
+	},
+	[27626] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Highvale Documents",
+	},
+	[26496] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Down with the Vilebranch",
+	},
+	[26492] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Skulk Rock Supplies",
+	},
+	[26491] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Skulk Rock Clean-Up",
+	},
+	[26382] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Can't Make An Omelette Without...",
+	},
+	[26384] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Darkcleric Marnal",
+	},
+	[26367] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ongo'longo's Revenge",
+	},
+	[26515] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ongo'longo's Revenge",
+	},
+	[26517] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Summit of Fate",
+	},
+	[26263] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Thornar Thunderclash",
+	},
+	[26267] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Skulk Rock Clean-Up",
+	},
+	[836] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Rescue OOX-09/HL!",
+	},
+	[26521] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Faces of Evil",
+	},
 }
 

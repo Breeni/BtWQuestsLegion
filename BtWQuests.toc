@@ -47,6 +47,7 @@ Data/ClassicWetlands.lua
 Data/ClassicArathiHighlands.lua
 Data/ClassicNorthenStranglethorn.lua
 Data/ClassicCapeOfStranglethorn.lua
+Data/ClassicHinterlands.lua
 Data/ClassicWesternPlaguelands.lua
 Data/ClassicEasternPlaguelands.lua
 
