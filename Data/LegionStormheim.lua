@@ -34,11 +34,11 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_ALLIANCE] = {
         },
         {
             type = "quest",
-            id = 39864,
+            id = 44700,
             visible = {
                 {
                     type = "quest",
-                    id = 39864,
+                    id = 44700,
                     active = true,
                 }
             },
