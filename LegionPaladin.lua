@@ -430,7 +430,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN] = {
         },
         {
             type = "quest",
-            id = 42968,
+            id = 42885,
+            alternatives = {42966, 42967, 42968},
             x = 3,
             y = 15,
             connections = {
