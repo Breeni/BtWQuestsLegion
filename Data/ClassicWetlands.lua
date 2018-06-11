@@ -554,7 +554,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WETLANDS_CHAIN1] = {
     },
 	completed = {
 		type = "quest",
-		id = 25734,
+		id = 25770,
 	},
 	items = {
         {
