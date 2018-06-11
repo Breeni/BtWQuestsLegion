@@ -16741,4 +16741,9 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+	[27206] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Alas, Andorhal",
+	},
 }
