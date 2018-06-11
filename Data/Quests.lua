@@ -1691,7 +1691,7 @@ BtWQuests_Quests = {
         restrictions = {
             {
                 type = "class",
-                class = 12,
+                id = 12,
             },
         },
     },
@@ -2560,11 +2560,6 @@ BtWQuests_Quests = {
         name = "Seat of the Triumvirate: The Crest of Knowledge",
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [49224] = {
-        name = "The Netherlight Crucible",
         level = 110,
         requiredLevel = 110,
     },
@@ -3792,11 +3787,6 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [44043] = {
-        name = "Continuing the Legend",
-        level = -1,
-        requiredLevel = 102,
-    },
     [42385] = {
         name = "Lending a Hand",
         level = -1,
@@ -3879,11 +3869,6 @@ BtWQuests_Quests = {
     },
     [42928] = {
         name = "Silkweave Bandages",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42929] = {
-        name = "Highmountain Salmon",
         level = -1,
         requiredLevel = 103,
     },
@@ -4917,16 +4902,6 @@ BtWQuests_Quests = {
         name = "Silver Hand Knights",
         level = -1,
         requiredLevel = 103,
-    },
-    [44250] = {
-        name = "Champion of the Light",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44218] = {
-        name = "Champion Armaments",
-        level = -1,
-        requiredLevel = 110,
     },
     [43486] = {
         name = "Cracking the Codex",
@@ -14076,11 +14051,6 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "WANTED: Gurbog da Basher",
 	},
-	[49133] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Antorus, the Burning Throne: The Heart of Argus",
-	},
 	[26304] = {
 		["requiredLevel"] = 31,
 		["level"] = 31,
@@ -14100,11 +14070,6 @@ BtWQuests_Quests = {
 		["requiredLevel"] = 100,
 		["level"] = 100,
 		["name"] = "The Fel Spire",
-	},
-	[49032] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Antorus, the Burning Throne: Dark Passage",
 	},
 	[12491] = {
 		["requiredLevel"] = 110,
@@ -14136,11 +14101,6 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Zul'Mamwe Mambo",
 	},
-	[49472] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "A Titanic Effort",
-	},
 	[42233] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
@@ -14161,35 +14121,15 @@ BtWQuests_Quests = {
 		["level"] = 100,
 		["name"] = "Well of Souls",
 	},
-	[49293] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Invasion Onslaught",
-	},
 	[47594] = {
 		["requiredLevel"] = 100,
 		["level"] = 100,
 		["name"] = "I'll Take Those, Thanks!",
 	},
-	[49014] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Burning Throne",
-	},
-	[41865] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Neltharion's Lair: Mother of Stone",
-	},
 	[44891] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "2v2 Weekly Quest",
-	},
-	[48799] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Fuel of a Doomed World",
 	},
 	[45840] = {
 		["requiredLevel"] = 110,
@@ -14226,35 +14166,15 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Cubic Conundrum",
 	},
-	[47114] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Tomb of Sargeras: The Tomb's Mistress",
-	},
 	[41320] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "Pry It From Their Cold, Feral Claws",
 	},
-	[49134] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Antorus, the Burning Throne: The Heart of Argus",
-	},
 	[47120] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "Tomb of Sargeras: Free The Tormented",
-	},
-	[49075] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Antorus, the Burning Throne: Dark Passage",
-	},
-	[49077] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Moments of Reflection",
 	},
 	[45173] = {
 		["requiredLevel"] = 110,
@@ -14296,11 +14216,6 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Bolas Bastion",
 	},
-	[49473] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "A Titanic Effort",
-	},
 	[28562] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
@@ -14336,11 +14251,6 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Hero's Call: Westfall!",
 	},
-	[49473] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "A Titanic Effort",
-	},
 	[26362] = {
 		["requiredLevel"] = 31,
 		["level"] = 31,
@@ -14360,11 +14270,6 @@ BtWQuests_Quests = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "Bolas Bastion",
-	},
-	[49133] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Antorus, the Burning Throne: The Heart of Argus",
 	},
 	[26304] = {
 		["requiredLevel"] = 31,
@@ -14426,25 +14331,10 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Hero's Call: Westfall!",
 	},
-	[49293] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Invasion Onslaught",
-	},
-	[49077] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Moments of Reflection",
-	},
 	[45383] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "The Nighthold: Talisman of the Shal'dorei",
-	},
-	[49014] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Burning Throne",
 	},
 	[46206] = {
 		["requiredLevel"] = 110,
@@ -14461,20 +14351,10 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Tomb of Sargeras: Free The Tormented",
 	},
-	[41865] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Neltharion's Lair: Mother of Stone",
-	},
 	[44891] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "2v2 Weekly Quest",
-	},
-	[48799] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Fuel of a Doomed World",
 	},
 	[45840] = {
 		["requiredLevel"] = 110,
@@ -14486,20 +14366,10 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Antoran High Command",
 	},
-	[49134] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Antorus, the Burning Throne: The Heart of Argus",
-	},
 	[44720] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "A Call to Action",
-	},
-	[47114] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Tomb of Sargeras: The Tomb's Mistress",
 	},
 	[45159] = {
 		["requiredLevel"] = 110,
@@ -14531,11 +14401,6 @@ BtWQuests_Quests = {
 		["level"] = 90,
 		["name"] = "Warforged Seals",
 	},
-	[49075] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Antorus, the Burning Throne: Dark Passage",
-	},
 	[39501] = {
 		["requiredLevel"] = 100,
 		["level"] = 100,
@@ -14561,11 +14426,6 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Zul'Mamwe Mambo",
 	},
-	[49472] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "A Titanic Effort",
-	},
 	[48300] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
@@ -14580,11 +14440,6 @@ BtWQuests_Quests = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "Direbrew's Dire Brew",
-	},
-	[49032] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Antorus, the Burning Throne: Dark Passage",
 	},
 	[43618] = {
 		["requiredLevel"] = 110,
@@ -18071,11 +17926,6 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Still Beating Heart",
 	},
-	[26372] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Pre-Flight Checklist",
-	},
 	[14161] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
@@ -18426,11 +18276,6 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "The Slumbering Ancients",
 	},
-	[48502] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Naroua, King of the Forest",
-	},
 	[13518] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
@@ -18736,11 +18581,6 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Unearthed Knowledge",
 	},
-	[48502] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Naroua, King of the Forest",
-	},
 	[13582] = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
@@ -19010,11 +18850,6 @@ BtWQuests_Quests = {
 		["requiredLevel"] = 110,
 		["level"] = 110,
 		["name"] = "Aroom's Farewell",
-	},
-	[48502] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Naroua, King of the Forest",
 	},
 	[13831] = {
 		["requiredLevel"] = 110,
