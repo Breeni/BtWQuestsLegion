@@ -2538,7 +2538,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER] = {
         
         {
             type = "quest",
-            id = 47050,
+            id = 45123,
             restrictions = {
                 {
                     type = "class",
