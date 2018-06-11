@@ -5,6 +5,246 @@ if GetLocale() ~= "koKR" then
 end
 
 BtWQuests_Quests = {
+    [184] = {
+        name = "펄브라우의 땅문서",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [185] = {
+        name = "호랑이 사냥하기",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [186] = {
+        name = "호랑이 추적하기",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [187] = {
+        name = "호랑이 사냥의 고수",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [188] = {
+        name = "호랑이 사냥의 달인",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [190] = {
+        name = "퓨마 사냥하기",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [191] = {
+        name = "퓨마 추적하기",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [192] = {
+        name = "퓨마 사냥의 고수",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [193] = {
+        name = "퓨마 사냥의 달인",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [194] = {
+        name = "랩터 사냥하기",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [195] = {
+        name = "랩터 추적하기",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [196] = {
+        name = "랩터 사냥의 고수",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [197] = {
+        name = "랩터 사냥의 달인",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [208] = {
+        name = "나 이런 사냥꾼이야!",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [309] = {
+        name = "화약을 지켜라",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [583] = {
+        name = "정글 탐험",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [840] = {
+        name = "호드의 징병",
+        level = 10,
+        requiredLevel = 10,
+    },
+    [844] = {
+        name = "초원타조의 위협",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [845] = {
+        name = "얼룩말",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [848] = {
+        name = "버섯 포자",
+        level = 15,
+        requiredLevel = 10,
+    },
+    [850] = {
+        name = "콜카르 지도자",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [851] = {
+        name = "광신자 베로그",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [852] = {
+        name = "헤즈룰 블러드마크",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [855] = {
+        name = "켄타우로스의 팔보호구",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [858] = {
+        name = "시동",
+        level = 18,
+        requiredLevel = 13,
+    },
+    [863] = {
+        name = "탈출",
+        level = 18,
+        requiredLevel = 13,
+    },
+    [865] = {
+        name = "랩터 뿔",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [867] = {
+        name = "하피의 습격",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [869] = {
+        name = "도둑 추적",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [870] = {
+        name = "잊혀진 웅덩이",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [871] = {
+        name = "서슬갈기 방어 작전",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [872] = {
+        name = "서슬갈기 공격 작전",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [875] = {
+        name = "하피 부대장",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [876] = {
+        name = "붉은깃털 세레나",
+        level = 18,
+        requiredLevel = 12,
+    },
+    [877] = {
+        name = "죽은 오아시스",
+        level = 16,
+        requiredLevel = 10,
+    },
+    [880] = {
+        name = "변화된 생물",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [881] = {
+        name = "에체야키",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [887] = {
+        name = "남쪽바다 해적단",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [891] = {
+        name = "선장의 복수",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [895] = {
+        name = "가비 선장 현상 수배",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [899] = {
+        name = "타오르는 증오",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [903] = {
+        name = "암사자 사냥",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [905] = {
+        name = "랩터 둥지로",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [4021] = {
+        name = "반격!",
+        level = 20,
+        requiredLevel = 11,
+    },
+    [5041] = {
+        name = "십자로의 보급품",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [5713] = {
+        name = "한 방에 한 놈씩",
+        level = 15,
+        requiredLevel = 10,
+    },
+    [9436] = {
+        name = "붉은머리 부족에게 한 수 배우기",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [9457] = {
+        name = "예상치 못한 방문객",
+        level = 26,
+        requiredLevel = 24,
+    },
     [11997] = {
         name = "얼음에 갇힌 검",
         level = -1,
@@ -15,10 +255,5160 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [13504] = {
+        name = "뾰족창 부족의 일꾼들",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13505] = {
+        name = "명가의 유산",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13506] = {
+        name = "걱정의 이유",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13507] = {
+        name = "병력 차단",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13508] = {
+        name = "신속한 대응",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13509] = {
+        name = "전투 보급품",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13510] = {
+        name = "때맞춘 구원의 손길",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13511] = {
+        name = "마지막 소원",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13512] = {
+        name = "전략적 공격",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13513] = {
+        name = "임박한 최후",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13514] = {
+        name = "고대정령의 분노",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13515] = {
+        name = "위협의 종결",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13518] = {
+        name = "마지막 생존자들",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [13519] = {
+        name = "황혼의 망치단",
+        level = 13,
+        requiredLevel = 13,
+    },
+    [13520] = {
+        name = "바다의 은혜",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [13521] = {
+        name = "윙윙상자 413",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [13522] = {
+        name = "물 정령의 위협",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [13523] = {
+        name = "파도를 잠재워라",
+        level = 13,
+        requiredLevel = 13,
+    },
+    [13525] = {
+        name = "검은나무 일족에게 무슨 일이?",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13526] = {
+        name = "곰발풀",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13527] = {
+        name = "알 수 없는 존재의 먹이",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13528] = {
+        name = "윙윙상자 723",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13529] = {
+        name = "타락의 근원",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13537] = {
+        name = "맛있는 농어",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13542] = {
+        name = "바람에 맞서다",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13543] = {
+        name = "망치단의 일원 처단",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13544] = {
+        name = "곰의 축복",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13545] = {
+        name = "정화된 형제들",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13546] = {
+        name = "파멸자",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13547] = {
+        name = "영혼을 위한 노래",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13554] = {
+        name = "어둠 속의 빛",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13557] = {
+        name = "행운의 전도사",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13558] = {
+        name = "폭풍을 부르는 자",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [13560] = {
+        name = "얕은 바다",
+        level = 13,
+        requiredLevel = 8,
+    },
+    [13561] = {
+        name = "명가의 위안",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13562] = {
+        name = "바샬아란의 마지막 불꽃",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13563] = {
+        name = "사랑은 영원히",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13564] = {
+        name = "실종된 친구",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13565] = {
+        name = "신중함의 교훈",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13566] = {
+        name = "의식을 위한 재료",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13567] = {
+        name = "수사슴의 영",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13568] = {
+        name = "달표범의 영",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13569] = {
+        name = "교감의 의식",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13570] = {
+        name = "아우버다인의 기억",
+        level = 15,
+        requiredLevel = 10,
+    },
+    [13572] = {
+        name = "비취불꽃 화로",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13573] = {
+        name = "말퓨리온의 귀환",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13575] = {
+        name = "핏줄 속에 흐르는 대지",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13576] = {
+        name = "상부상조",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13577] = {
+        name = "마지막 올빼미야수",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [13578] = {
+        name = "아룸의 작별 인사",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13579] = {
+        name = "아메스아란의 수호자",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13580] = {
+        name = "파도에 잦아드는 분노",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13581] = {
+        name = "검은나무 일족의 맹세",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13582] = {
+        name = "엘룬의 불꽃",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13583] = {
+        name = "올빼미야수의 맹세",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [13584] = {
+        name = "대지를 안정시키는 일",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [13585] = {
+        name = "수호의 맹세",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13586] = {
+        name = "에메랄드의 꿈",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13587] = {
+        name = "깨어나는 악몽",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13588] = {
+        name = "폭풍우의 눈",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13589] = {
+        name = "뾰족창 부족의 침략",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13590] = {
+        name = "최전선에서",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13591] = {
+        name = "위협적인 동맹",
+        level = 15,
+        requiredLevel = 10,
+    },
+    [13596] = {
+        name = "황혼의 계획서",
+        level = 13,
+        requiredLevel = 13,
+    },
+    [13597] = {
+        name = "엉겅퀴곰의 영",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13598] = {
+        name = "고약한 치료제",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13599] = {
+        name = "잔혹발톱의 귀환",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13601] = {
+        name = "살아남은 이들을 위하여",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13605] = {
+        name = "마지막 피난민",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13635] = {
+        name = "남부 관문 상황 보고서",
+        level = 11,
+        requiredLevel = 10,
+    },
+    [13636] = {
+        name = "스톰파이크의 명령서",
+        level = 13,
+        requiredLevel = 12,
+    },
+    [13639] = {
+        name = "물자 공급 재개",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [13647] = {
+        name = "사냥의 시작",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [13648] = {
+        name = "현상 수배: 검은무쇠 첩자",
+        level = 12,
+        requiredLevel = 8,
+    },
+    [13650] = {
+        name = "유물 조사",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [13655] = {
+        name = "탐험가 연맹 문서 (6장 중 2장)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13656] = {
+        name = "탐험가 연맹 문서 (6장 중 1장)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13657] = {
+        name = "탐험가 연맹 문서 (6장 중 3장)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13658] = {
+        name = "탐험가 연맹 문서 (6장 중 4장)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13659] = {
+        name = "탐험가 연맹 문서 (6장 중 6장)",
+        level = 17,
+        requiredLevel = 8,
+    },
+    [13660] = {
+        name = "탐험가 연맹 문서 (6장 중 5장)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13831] = {
+        name = "위험한 독극물",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13844] = {
+        name = "알살락스의 폐허를 노리는 손",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13878] = {
+        name = "타오르는 불길",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [13881] = {
+        name = "잠식",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13882] = {
+        name = "생명의 씨앗",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13885] = {
+        name = "어둠해안을 지키는 자",
+        level = 19,
+        requiredLevel = 16,
+    },
+    [13891] = {
+        name = "어둠해안을 삼키는 자",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13892] = {
+        name = "비밀스러운 잠입",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13893] = {
+        name = "소고스와 크론",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13895] = {
+        name = "잠자는 고대정령",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13896] = {
+        name = "드러난 지식",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13897] = {
+        name = "어둠해안 전투",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13898] = {
+        name = "되돌아오는 파도",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [13899] = {
+        name = "어둠비늘 일족의 장군",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [13900] = {
+        name = "아즈샤라를 위한 공물",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [13902] = {
+        name = "공격 준비",
+        level = 18,
+        requiredLevel = 17,
+    },
+    [13907] = {
+        name = "유적의 불청객들",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13909] = {
+        name = "표류물 건지기?",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13910] = {
+        name = "새로운 터전",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13911] = {
+        name = "넋이 나간 발굴조사단장",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13912] = {
+        name = "물속의 비밀",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13918] = {
+        name = "티탄의 장치",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13925] = {
+        name = "작은 생명의 지킴이",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13940] = {
+        name = "꿈의 바깥으로",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13948] = {
+        name = "상부 정찰",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13949] = {
+        name = "십자로 짐마차 타기",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [13953] = {
+        name = "나가의 침범",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13961] = {
+        name = "포로 생포",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13963] = {
+        name = "인정사정 볼 것 없다",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13968] = {
+        name = "토르터스크",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13969] = {
+        name = "그롤돔의 잃어버린 코도",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13970] = {
+        name = "코도를 살려라",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13971] = {
+        name = "돌아온 코도",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13973] = {
+        name = "그롤돔 민병대",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13975] = {
+        name = "십자로 짐마차 배달",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [13988] = {
+        name = "커지는 문제",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13991] = {
+        name = "도둑맞은 급료",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13992] = {
+        name = "작은 혼란",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [13995] = {
+        name = "켄타우로스 산의 왕",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [13998] = {
+        name = "버섯 배양체 연구",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13999] = {
+        name = "기록 전달",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [14003] = {
+        name = "사모플랜지 수리",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14004] = {
+        name = "사모플랜지 전달",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14006] = {
+        name = "사모플랜지 설명서",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14034] = {
+        name = "성가신 함선",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14038] = {
+        name = "함선 폭파",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14042] = {
+        name = "탄약 폭파",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14045] = {
+        name = "남작 롱쇼어를 찾아라",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14046] = {
+        name = "남작의 요구",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14049] = {
+        name = "정말 이상한 지도",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14050] = {
+        name = "가즈로의 보물",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14052] = {
+        name = "토니의 반란",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14056] = {
+        name = "수전노 처치",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14057] = {
+        name = "반란군을 위한 무기",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14063] = {
+        name = "반란이다!",
+        level = 17,
+        requiredLevel = 14,
+    },
+    [14066] = {
+        name = "도난당한 마차 조사",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [14067] = {
+        name = "없어진 은화",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [14068] = {
+        name = "앱터 사냥",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14072] = {
+        name = "베로그 추방",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [14073] = {
+        name = "데스게이트의 증원군",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [14117] = {
+        name = "잿빛 골짜기의 눈",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [14118] = {
+        name = "사슴 고기 수집",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [14127] = {
+        name = "명가의 귀환?",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [14128] = {
+        name = "명가의 귀환?",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [14129] = {
+        name = "날뛰는 벌목기",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14130] = {
+        name = "다양한 친구",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14131] = {
+        name = "사소한 부탁",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14132] = {
+        name = "너무나 무례해!",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14134] = {
+        name = "감독관의 통나무",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14135] = {
+        name = "나무 위의 위협",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14146] = {
+        name = "성문을 방어하라!",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14155] = {
+        name = "나무 처리 전문",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14161] = {
+        name = "바실리스크 혼내주기",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14162] = {
+        name = "호자크에게 보고",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14165] = {
+        name = "차갑게 굳어버렸다",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14190] = {
+        name = "완벽한 프리즘",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14192] = {
+        name = "프리즘 탈착",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14194] = {
+        name = "육체 되돌리기",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14197] = {
+        name = "할당량 준수",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14201] = {
+        name = "모래 속에 묻힌 무수한 이야기",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14202] = {
+        name = "호숫가 조사",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14209] = {
+        name = "엔진실의 오물",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14215] = {
+        name = "망자의 기억",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14216] = {
+        name = "신비로운 사암 벽돌",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14226] = {
+        name = "발밑의 문제",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14230] = {
+        name = "교본 작업",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14249] = {
+        name = "깃털 수집",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14250] = {
+        name = "쓰고 또 쓰고",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14258] = {
+        name = "포격 지원",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14261] = {
+        name = "차갑게 얼려라",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14262] = {
+        name = "나가의 위협",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14263] = {
+        name = "흐드러진 백리향",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14267] = {
+        name = "바다 제단 조사",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14270] = {
+        name = "쐐기돌 조각",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14271] = {
+        name = "투크러쉬에게 보고하기",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14295] = {
+        name = "바다 마녀",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14296] = {
+        name = "제대로 밟기",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14297] = {
+        name = "일꾼 구출작전",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14299] = {
+        name = "실렘의 실마리",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14300] = {
+        name = "불의 시험",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14308] = {
+        name = "과학의 습격",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14310] = {
+        name = "기능 결함: 핵 분리",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14322] = {
+        name = "해로운 과학",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14323] = {
+        name = "흡수력이 끝내줘요",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14324] = {
+        name = "펄펄 끓는 물",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14340] = {
+        name = "마음을 움직이는 의상",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14345] = {
+        name = "완전한 실패",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14370] = {
+        name = "신비로운 아즈샤리트",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14371] = {
+        name = "거인의 간식",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14377] = {
+        name = "거인과 친해지기",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14383] = {
+        name = "버려진 착륙장의 골칫거리들",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [14385] = {
+        name = "첫 번째 아즈샤리트 실험",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [14388] = {
+        name = "두 번째 아즈샤리트 실험",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [14389] = {
+        name = "분명하지 않은가요?",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14390] = {
+        name = "쉬운 일은 시시한 법",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14391] = {
+        name = "형세 역전",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14392] = {
+        name = "잘 가라, 작은 존재여",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14407] = {
+        name = "아즈샤라의 푸른 빛",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14408] = {
+        name = "9번 실험체의 계획",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [14413] = {
+        name = "배움의 봉우리",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14422] = {
+        name = "랩터 전용 로켓",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [14423] = {
+        name = "불도저 퇴마의식",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14424] = {
+        name = "또 다른 과학의 손길",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14428] = {
+        name = "앰버윈드의 일지",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [14429] = {
+        name = "비전 해체",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [14430] = {
+        name = "피조물 조작하기",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [14431] = {
+        name = "검은아귀의 흉터",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14432] = {
+        name = "신비한 음료",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14433] = {
+        name = "또 다른 외교 수단",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14435] = {
+        name = "검은아귀의 배신",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14442] = {
+        name = "가장 귀중한 실험체",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14462] = {
+        name = "처치의 증거",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14464] = {
+        name = "번개같이 움직여서 정확하게 암살하기",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14468] = {
+        name = "새로운 잡일꾼",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14469] = {
+        name = "물려받기",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14470] = {
+        name = "돌파 작전",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14471] = {
+        name = "일등급 박격포 사수",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14472] = {
+        name = "정면으로 응수!",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14475] = {
+        name = "꼼짝 못해!",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14476] = {
+        name = "폭파 준비",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14477] = {
+        name = "단추를 눌러라!",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14478] = {
+        name = "작전명 생선 가르기",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [14479] = {
+        name = "즐거운 로켓 여행",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [14480] = {
+        name = "박멸",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [14484] = {
+        name = "뱀의 머리",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [14485] = {
+        name = "티커가 필요해",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [14486] = {
+        name = "상품 운반",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [14487] = {
+        name = "아직도 고동치는 심장",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [24430] = {
+        name = "하늘을 뒤덮어라",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24433] = {
+        name = "공포의 향연",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24434] = {
+        name = "특수부대 투하",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24435] = {
+        name = "해안 청소",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [24436] = {
+        name = "거룩한 낙하",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [24437] = {
+        name = "빠른 사람이 임자",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [24439] = {
+        name = "아즈샤라 정복",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24448] = {
+        name = "야전 진급",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [24449] = {
+        name = "상륙 허가",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [24452] = {
+        name = "돈 냄새를 쫓아서",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [24453] = {
+        name = "사적인 대화",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [24455] = {
+        name = "신속 배치",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [24458] = {
+        name = "강력한 신무기",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [24463] = {
+        name = "잿빛 골짜기 조사",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24467] = {
+        name = "암흑으로...",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [24478] = {
+        name = "서리의 시험",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [24479] = {
+        name = "암흑의 시험",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [24497] = {
+        name = "다시 하늘로",
+        level = 20,
+        requiredLevel = 18,
+    },
     [24707] = {
         name = "맥시밀리언의 노래",
         level = 55,
         requiredLevel = 51,
+    },
+    [25118] = {
+        name = "거미 처치",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [25211] = {
+        name = "오두막 청소",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25235] = {
+        name = "벌골의 야만족",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25275] = {
+        name = "작업 감독관에게 보고",
+        level = 11,
+        requiredLevel = 1,
+    },
+    [25395] = {
+        name = "도난당한 맥주통",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25648] = {
+        name = "듀로타를 떠나서",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [25721] = {
+        name = "홍수와의 싸움",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25722] = {
+        name = "침전물 조사",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25723] = {
+        name = "트레샤돈 고기 수집",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25725] = {
+        name = "넌출월귤",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25726] = {
+        name = "망원경달린 수준기",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25727] = {
+        name = "드룬겔트 글로워글레어",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25733] = {
+        name = "동굴거미 처치",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25734] = {
+        name = "텔겐 바위굴",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25735] = {
+        name = "발연 광석",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25736] = {
+        name = "홍수쇄도 핵",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25770] = {
+        name = "에일 맥주통 전달",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25777] = {
+        name = "메네실로",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25780] = {
+        name = "메네실 요새 공격",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [25800] = {
+        name = "인생이 우울할 때",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25801] = {
+        name = "멀록과 고블러",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25802] = {
+        name = "뱃짐 되찾기",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25803] = {
+        name = "계속되는 수색",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25804] = {
+        name = "다른 멀록 소굴 수색",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25805] = {
+        name = "조각상 돌려주기",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25815] = {
+        name = "제3함대",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25816] = {
+        name = "배회의 저주",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25817] = {
+        name = "저주받은 선원",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25818] = {
+        name = "저주 풀기",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [25819] = {
+        name = "팔레스의 눈",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [25820] = {
+        name = "어머니의 걱정",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25849] = {
+        name = "화석 뼈 수집",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25850] = {
+        name = "정령 처치!",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25853] = {
+        name = "고고학자의 도구",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25854] = {
+        name = "새끼 랩터가 좋아!",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25855] = {
+        name = "잃어버린 장치",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25856] = {
+        name = "악어 가죽",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25857] = {
+        name = "공포턱 사냥",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25864] = {
+        name = "고원랩터 처치",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25865] = {
+        name = "이끼가죽 놀 처치",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25866] = {
+        name = "검은무쇠 덫사냥꾼",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25867] = {
+        name = "놀 대피 작전",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25868] = {
+        name = "욜라 다크스네어",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25926] = {
+        name = "증오로 가득 찬 늪",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [25927] = {
+        name = "불길의 위협",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [25939] = {
+        name = "늪지대를 위해",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26022] = {
+        name = "첫 번째 피",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26023] = {
+        name = "포세이큰 트롤베인",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26024] = {
+        name = "마레즈 코울 현상 수배!",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26025] = {
+        name = "배신자 오크",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26027] = {
+        name = "전장으로",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26029] = {
+        name = "거대한 위협",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26030] = {
+        name = "스트롬의 인장",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26031] = {
+        name = "소라딘의 인장",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26032] = {
+        name = "아라소르의 인장",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26033] = {
+        name = "트롤칼라",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26035] = {
+        name = "마법 재료 구하기",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26036] = {
+        name = "마법지팡이 회수",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26037] = {
+        name = "트렐레인의 방어 장치",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26038] = {
+        name = "탑 공격",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26039] = {
+        name = "함정에 빠진 공주",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26041] = {
+        name = "마법진의 돌",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26042] = {
+        name = "쐐기돌 깨기",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26049] = {
+        name = "해방된 공주",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26050] = {
+        name = "고글 보글",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26051] = {
+        name = "가라앉은 보물",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26052] = {
+        name = "선장과 대화하기",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26053] = {
+        name = "고원 청소",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26055] = {
+        name = "비통한 마음",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26079] = {
+        name = "오토와 팰컨크레스트 현상 수배!",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26081] = {
+        name = "앨리나의 포상",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26083] = {
+        name = "안녕 롤로",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26084] = {
+        name = "망치 주둔지",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26093] = {
+        name = "북부습곡 장원",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26095] = {
+        name = "스트롬가드 휘장",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26107] = {
+        name = "기운 북돋기",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26108] = {
+        name = "랩터의 기민함",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26110] = {
+        name = "그때 그 시절",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26113] = {
+        name = "쿠에와 키넬로리",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26114] = {
+        name = "쿠에는 당신을 믿는다",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26116] = {
+        name = "키넬로리 돌격",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26117] = {
+        name = "남녘해안을 위해",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26120] = {
+        name = "광기에 빠진 용아귀 부족",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26127] = {
+        name = "정체가 드러난 황혼의 망치단",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26128] = {
+        name = "탄돌 교각 전투",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26131] = {
+        name = "모단 호수를 위한 증원군",
+        level = 10,
+        requiredLevel = 10,
+    },
+    [26137] = {
+        name = "산악경비대원들을 찾아라",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [26139] = {
+        name = "아라시로",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26145] = {
+        name = "트로그의 위협",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26146] = {
+        name = "왕국 수호",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26147] = {
+        name = "더 크고 못생긴 것들",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26148] = {
+        name = "결정적인 공격",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26176] = {
+        name = "텔사마로",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26189] = {
+        name = "성난송곳니 용아귀 부족의 위협",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26195] = {
+        name = "신록수호자",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26196] = {
+        name = "결의의 롱브레이드",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26209] = {
+        name = "그들이 내게 준 사건은 살인사건이었다",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26210] = {
+        name = "감메리타!",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26211] = {
+        name = "바닷물 무쇠턱거북!",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26212] = {
+        name = "잃어버린 라드의 점심",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26213] = {
+        name = "불타는 대수사선: 갈퀴발 일족",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [26214] = {
+        name = "불타는 대수사선: 멀록",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26215] = {
+        name = "쌍신발 루를 소개합니다",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26223] = {
+        name = "은빛갈기늑대 추적",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26224] = {
+        name = "포악한 올빼미야수 사냥",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26225] = {
+        name = "퍼플리버보스 포트",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26228] = {
+        name = "모두가 꿈꾸는 삶",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26229] = {
+        name = "\"나 양초 가져간다!\"",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26230] = {
+        name = "풍요로움이냐 궁핍이냐",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [26232] = {
+        name = "루의 깜박이는 기억",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [26236] = {
+        name = "살딘 농장 수사",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26237] = {
+        name = "고난의 시대",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26238] = {
+        name = "야만 드워프",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26240] = {
+        name = "북소리에 맞춰",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26241] = {
+        name = "서부정통 스튜",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26252] = {
+        name = "보초의 심장",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26257] = {
+        name = "골렘이 살아있다!",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [26263] = {
+        name = "토르나 썬더클래쉬",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26266] = {
+        name = "사람들을 위한 희망",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26267] = {
+        name = "굼벵이 바위굴 청소하기",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26268] = {
+        name = "굼벵이 바위굴의 보급품",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26269] = {
+        name = "가시덤불 골짜기의 푸른 언덕",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26270] = {
+        name = "감사의 뜻을 표합니다",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [26271] = {
+        name = "배고프고 절망적인 자들에게 희망을",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26278] = {
+        name = "그롬골 수비: 랩터의 위협",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26279] = {
+        name = "그룸골 수비: 오우거의 공격",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26280] = {
+        name = "그롬골 수비: 멀록의 습격",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26281] = {
+        name = "그롬골 수비: 트롤의 약탈",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26283] = {
+        name = "태고의 수액괴물",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26286] = {
+        name = "서부 몰락지대 수비",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26287] = {
+        name = "서부 몰락지대 여단",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26288] = {
+        name = "장고 스팟하이드",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [26289] = {
+        name = "첩보원 켈넌을 찾아서",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [26290] = {
+        name = "탑의 비밀",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [26291] = {
+        name = "달빛시내 마을의 큰 문제",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [26292] = {
+        name = "달빛시내 마을로!",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26295] = {
+        name = "선전물",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26296] = {
+        name = "증거 수집",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26297] = {
+        name = "새 시대의 조짐",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26298] = {
+        name = "예니쿠 수색",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26299] = {
+        name = "인간사냥꾼",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26300] = {
+        name = "네즐뤼크가 알아내리",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26301] = {
+        name = "네즐뤼크와의 대화",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26302] = {
+        name = "예니쿠의 생사를 찾아서",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26303] = {
+        name = "마음의 눈",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [26304] = {
+        name = "밀림의 밤",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26305] = {
+        name = "예니쿠 구출",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26306] = {
+        name = "복수의 서막",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26307] = {
+        name = "썩은가지 부족에 죽음을",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26308] = {
+        name = "이제 우리의 것",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26309] = {
+        name = "어둠의 용기",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26310] = {
+        name = "기어 다니는 것들",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26317] = {
+        name = "아기 채찍꼬리랩터",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26319] = {
+        name = "밝혀진 비밀",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26320] = {
+        name = "과거의 환영",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26321] = {
+        name = "배가 고파요",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26322] = {
+        name = "결사단의 부활",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26323] = {
+        name = "선택받은 해골",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26327] = {
+        name = "영웅 타르가스 앤빌마",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26330] = {
+        name = "덩치 큰 트롤은 누구?",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26332] = {
+        name = "백골가루 모조",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26334] = {
+        name = "혈군주 만도키르",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26336] = {
+        name = "셰익스 오브린",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26338] = {
+        name = "트롤 인구 조절",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26340] = {
+        name = "사냥",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26341] = {
+        name = "바위 결정",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26343] = {
+        name = "수요와 공급",
+        level = 26,
+        requiredLevel = 25,
+    },
+    [26344] = {
+        name = "무쇠턱악어 껍질",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26345] = {
+        name = "엑셀시어",
+        level = 28,
+        requiredLevel = 25,
+    },
+    [26346] = {
+        name = "미즈라엘의 전설",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26347] = {
+        name = "불꽃을 지키는 자",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26348] = {
+        name = "남아 있는 위험",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26349] = {
+        name = "해안의 위협",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26350] = {
+        name = "여사제 후랄라",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26351] = {
+        name = "마음의 눈",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26352] = {
+        name = "코즐의 계획",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26353] = {
+        name = "선장 샌더스의 숨겨진 보물",
+        level = 13,
+        requiredLevel = 9,
+    },
+    [26354] = {
+        name = "샌더스 선장의 숨겨진 보물",
+        level = 13,
+        requiredLevel = 9,
+    },
+    [26355] = {
+        name = "샌더스 선장의 숨겨진 보물",
+        level = 13,
+        requiredLevel = 9,
+    },
+    [26356] = {
+        name = "샌더스 선장의 숨겨진 보물",
+        level = 13,
+        requiredLevel = 9,
+    },
+    [26357] = {
+        name = "악마의 얼굴",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26359] = {
+        name = "랩터 보기",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26360] = {
+        name = "정신 지배",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26362] = {
+        name = "랩터 되기",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26363] = {
+        name = "운명의 꼭대기",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26365] = {
+        name = "영웅의 부름: 붉은마루 산맥!",
+        level = 15,
+        requiredLevel = 14,
+    },
+    [26366] = {
+        name = "가면 만들기",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26367] = {
+        name = "옹고롱고의 복수",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26368] = {
+        name = "치명적인 비밀",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26369] = {
+        name = "수호자 사냥",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26370] = {
+        name = "감시의 언덕으로 돌아가기",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26371] = {
+        name = "선장 그레이슨의 전설",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26378] = {
+        name = "영웅의 부름: 서부 몰락지대!",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [26381] = {
+        name = "샤드라 눈",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26382] = {
+        name = "쌀이 있어야 밥을 짓지...",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26383] = {
+        name = "변화의 파도를 뚫고",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [26384] = {
+        name = "어둠성직자 마날",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26385] = {
+        name = "변화의 파도를 뚫고",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [26386] = {
+        name = "수르칸",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26387] = {
+        name = "절식 요법",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26399] = {
+        name = "모쉬오그 노획물",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26400] = {
+        name = "만능 열쇠",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26403] = {
+        name = "투자개발회사 채광",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26404] = {
+        name = "내 능력 밖의 물건",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26405] = {
+        name = "줄맘웨 맘보",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26406] = {
+        name = "샤드라 송곳니",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26407] = {
+        name = "모쉬오그 수제품",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26417] = {
+        name = "북부 가시덤불: 타락한 제국",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26418] = {
+        name = "샤드라 껍질",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26419] = {
+        name = "맹독 여왕거미 샤드라",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26428] = {
+        name = "도둑들에게서 훔쳐라",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26429] = {
+        name = "마른나무껍질 부족을 처단하라",
+        level = 30,
+        requiredLevel = 28,
+    },
+    [26430] = {
+        name = "깨진엄니 마을",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26432] = {
+        name = "진타알로의 몰락",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26462] = {
+        name = "사악한 깨진엄니 트롤",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26483] = {
+        name = "간드란다",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26485] = {
+        name = "바닷물 무쇠턱거북!",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26486] = {
+        name = "해변에 있는 99개의 술병",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26490] = {
+        name = "태고의 수액괴물",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26491] = {
+        name = "굼벵이 바위굴 청소",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26492] = {
+        name = "굼벵이 바위굴의 보급품",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26496] = {
+        name = "썩은가지 부족 격퇴",
+        level = 33,
+        requiredLevel = 29,
+    },
+    [26497] = {
+        name = "썩은가지 부족 쓰레기들",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26498] = {
+        name = "썩은가지 부족에 죽음을",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26503] = {
+        name = "위협에 대처하는 자세",
+        level = 15,
+        requiredLevel = 14,
+    },
+    [26504] = {
+        name = "현상 수배: 붉은마루 놀",
+        level = 15,
+        requiredLevel = 14,
+    },
+    [26505] = {
+        name = "파커의 보고서",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26506] = {
+        name = "소시지와 콩 요리",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26508] = {
+        name = "니다의 목걸이",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26509] = {
+        name = "불청객",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26510] = {
+        name = "준비 완료!",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26511] = {
+        name = "영원고요 호수 청소",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26512] = {
+        name = "노움특제전송기 조정",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26513] = {
+        name = "바람 속 방귀처럼",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26514] = {
+        name = "협곡 탐색",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26515] = {
+        name = "옹고롱고의 복수",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26516] = {
+        name = "이제 우리의 것",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26517] = {
+        name = "운명의 꼭대기",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26518] = {
+        name = "가면 만들기",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26519] = {
+        name = "거인을 조종하는 자",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26520] = {
+        name = "현장감독 오슬로 구하기",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26521] = {
+        name = "악마의 얼굴",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26523] = {
+        name = "기어 다니는 것들",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26524] = {
+        name = "어둠의 용기",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26525] = {
+        name = "치명적인 비밀",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26526] = {
+        name = "수호자 사냥",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26528] = {
+        name = "샤드라 눈",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26529] = {
+        name = "샤드라 송곳니",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26530] = {
+        name = "샤드라 껍질",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26531] = {
+        name = "샤드라 소환",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26532] = {
+        name = "맹독 여왕거미 샤드라",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26542] = {
+        name = "영웅의 부름: 동부 내륙지!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26544] = {
+        name = "오크의 침공 계획",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26545] = {
+        name = "요울러 처치",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26546] = {
+        name = "뾰족부리그리핀 친구들",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26547] = {
+        name = "병든 위협 요인",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26548] = {
+        name = "전선으로",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26558] = {
+        name = "샤드라 소환",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26560] = {
+        name = "요르겐센 구출",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26561] = {
+        name = "크라카우어 구출",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26562] = {
+        name = "마지막으로... 댄포스 구출",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26563] = {
+        name = "불곰 중대의 귀환",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26567] = {
+        name = "존 J. 키샨",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26568] = {
+        name = "당신들만의 전쟁",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26569] = {
+        name = "측량 장비",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26570] = {
+        name = "약탈의 부대",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26571] = {
+        name = "전쟁 무기",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26573] = {
+        name = "키샨의 마음 끌어들이기",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26586] = {
+        name = "불곰 중대를 찾아서",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26587] = {
+        name = "탈옥은 어려워",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26593] = {
+        name = "겁쟁이",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26594] = {
+        name = "맥킨리에게 돌아가기",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26595] = {
+        name = "빚 사냥꾼",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26597] = {
+        name = "가시덤불의 열병",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26599] = {
+        name = "선장의 상자",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26600] = {
+        name = "거인의 만찬",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26601] = {
+        name = "큰망치 모크라쉬",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26602] = {
+        name = "크면 클수록 맛있는 요리",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26603] = {
+        name = "병에 든 쪽지",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26604] = {
+        name = "공주 푸바를 보호하는 방법",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26605] = {
+        name = "내 소중한 아가들",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26606] = {
+        name = "무클라의 최후",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26607] = {
+        name = "누가 시작한 전쟁인가",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26609] = {
+        name = "붉은해적단",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26610] = {
+        name = "붉은해적단의 음모",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26611] = {
+        name = "남작이 알아야 할 사실",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26612] = {
+        name = "공격의 내막",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26613] = {
+        name = "코담배를 찾아서",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26614] = {
+        name = "잃어버린 눈",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26616] = {
+        name = "끝나지 않는 전쟁",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26617] = {
+        name = "늙은 뱃사람",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26618] = {
+        name = "늑대의 위협",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26620] = {
+        name = "양념 늑대 케밥",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26623] = {
+        name = "갈색 게살 케이크",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26624] = {
+        name = "붉은해적단에 들어가는 법",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26627] = {
+        name = "은둔자",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26628] = {
+        name = "나가의 공격",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26629] = {
+        name = "충성의 증명",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26631] = {
+        name = "해적이 된 첫날",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26633] = {
+        name = "갑판 닦기",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26634] = {
+        name = "해적들의 고질병",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26635] = {
+        name = "포탄 줍기",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26636] = {
+        name = "불곰 중대 야전 장비: 위장 도구",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26637] = {
+        name = "불곰 중대 야전 장비: 마취제",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26638] = {
+        name = "사냥꾼 사냥",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26639] = {
+        name = "브루베이커 접촉",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26640] = {
+        name = "눈 뜨고 볼 수 없는 참상",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26641] = {
+        name = "쌀이 있어야 밥을 짓지...",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26642] = {
+        name = "불모의 땅을 보호하라",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [26643] = {
+        name = "절식 요법",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26644] = {
+        name = "끌리는 제안",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26645] = {
+        name = "어둠의 순찰대",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26646] = {
+        name = "전쟁 포로 구출",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26647] = {
+        name = "낡아빠진 대포",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26648] = {
+        name = "철천지 원수",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26649] = {
+        name = "돈에 이끌려",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26650] = {
+        name = "아가씨의 행운호",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26651] = {
+        name = "전쟁에서 승리하려면, 전쟁의 화신이 되어라",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26652] = {
+        name = "유령의 머리 가닥",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26653] = {
+        name = "어둠골에서 입수할 묘한 물건",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26654] = {
+        name = "유령의 빗 돌려주기",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26655] = {
+        name = "머리 가닥 전달",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26660] = {
+        name = "좀비 독주",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26661] = {
+        name = "썩은 꽃 모으기",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26662] = {
+        name = "난폭파도 해적단",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26663] = {
+        name = "내부의 자원",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26664] = {
+        name = "조작된 반란",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26665] = {
+        name = "무법항의 부름",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26666] = {
+        name = "스탈반의 전설",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26667] = {
+        name = "도둑맞은 편지",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26668] = {
+        name = "폭파",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26669] = {
+        name = "어둠 속에 숨겨진 문서",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26670] = {
+        name = "롤랜드 광산",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26671] = {
+        name = "스탈반 미스트맨틀의 운명",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26672] = {
+        name = "상처뿐인 진실",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26674] = {
+        name = "미스트맨틀의 복수",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26676] = {
+        name = "좀비 독주 배달",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26677] = {
+        name = "구울 허수아비",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26678] = {
+        name = "두배주",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26679] = {
+        name = "레빌가즈에게 돌아가기",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26680] = {
+        name = "오우거 도적 떼",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26681] = {
+        name = "시장에게 보내는 편지",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26683] = {
+        name = "별 관측",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26684] = {
+        name = "광기 어린 구울",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26685] = {
+        name = "오우거의 외눈안경",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26686] = {
+        name = "걸어 다니는 해골",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26688] = {
+        name = "숲 속의 늑대인간",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26689] = {
+        name = "오염된 과수원",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26690] = {
+        name = "송곳니투사와 타락전사",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26691] = {
+        name = "숲 속의 늑대인간",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26692] = {
+        name = "잿빛가죽 일족 멸종",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [26693] = {
+        name = "어둠의 탑",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [26694] = {
+        name = "대학자 도운",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [26695] = {
+        name = "출항 준비",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26697] = {
+        name = "난폭파도 해적단 최후의 항해",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26698] = {
+        name = "시혼 찾기",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26699] = {
+        name = "난폭파도 해적단 몰아내기",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26700] = {
+        name = "아가씨의 (빛바랜) 행운",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26703] = {
+        name = "붉은해적단의 최후",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26707] = {
+        name = "죽음의 풀",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26708] = {
+        name = "아아아아아! 아아아아아!",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [26713] = {
+        name = "돌망루 요새의 결전",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [26714] = {
+        name = "검은불꽃, 세계파괴자의 후손",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [26717] = {
+        name = "요르겐 늑대인간",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26719] = {
+        name = "해리스에게 배달",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26720] = {
+        name = "치료할 수 없는 저주",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26721] = {
+        name = "지터스의 부탁",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26722] = {
+        name = "여기 묻히다",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26723] = {
+        name = "모벤트 펠의 운명",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26724] = {
+        name = "숨어 있는 리치",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26725] = {
+        name = "빛의 인도를 따라",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26726] = {
+        name = "자유의 대가",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [26727] = {
+        name = "장의사의 복수",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26728] = {
+        name = "영웅의 부름: 그늘숲!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [26729] = {
+        name = "물의 정령",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26730] = {
+        name = "굳이 바다까지 가지 않아도...",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26731] = {
+        name = "나이아스의 제단",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26732] = {
+        name = "나쁜 약",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26733] = {
+        name = "표본 대조",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26734] = {
+        name = "광기의 원천",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26735] = {
+        name = "쿠르젠의 운명",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26736] = {
+        name = "광기를 모면하다",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26737] = {
+        name = "쿠르젠의 남은 부하 처리",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26738] = {
+        name = "방금 태어났어요",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26739] = {
+        name = "배가 고파요",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26740] = {
+        name = "크라젝의 요리 냄비",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26742] = {
+        name = "붉은머리 부족에게 한 수 배우기",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26743] = {
+        name = "붉은머리 부족에게 신성한 것",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26744] = {
+        name = "깊은 뿌리",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26745] = {
+        name = "선택받은 해골",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26746] = {
+        name = "개코가 필요한 일",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26747] = {
+        name = "신체 표본",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26748] = {
+        name = "혈군주 만도키르",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26749] = {
+        name = "여사제 타알리아",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26751] = {
+        name = "트롤 인구 조절",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26753] = {
+        name = "망자의 전당",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26754] = {
+        name = "모벤트 파멸의 불꽃",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26760] = {
+        name = "달을 향한 울부짖음",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26761] = {
+        name = "왕국에 대한 위협",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26763] = {
+        name = "투자개발회사 채광",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26765] = {
+        name = "하사관 칼레브에게 돌아가기",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26769] = {
+        name = "대단한 뱃놀이",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26772] = {
+        name = "마음의 눈",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26773] = {
+        name = "랩터 보기",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26774] = {
+        name = "정신 지배",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26775] = {
+        name = "랩터 되기",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26776] = {
+        name = "갈리리",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26777] = {
+        name = "영혼 달래기",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26778] = {
+        name = "망자의 비명",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26779] = {
+        name = "줄맘웨 맘보",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26780] = {
+        name = "밀림의 밤",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26781] = {
+        name = "마음의 눈",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26782] = {
+        name = "모쉬오그 노획물",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26785] = {
+        name = "무리의 일원",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26787] = {
+        name = "곰곰이 곰을 생각하라",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26793] = {
+        name = "오래된 무덤",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26794] = {
+        name = "모건 래디모어",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26795] = {
+        name = "모르라딤",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26796] = {
+        name = "살아남은 딸",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26797] = {
+        name = "딸의 사랑",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26805] = {
+        name = "가시덤불 곶으로!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26808] = {
+        name = "메이위키",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26809] = {
+        name = "뒷거래",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26810] = {
+        name = "추방자 제거",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26811] = {
+        name = "트롤의 구멍을 지나",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26812] = {
+        name = "대여사제 제클릭",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26813] = {
+        name = "줄구룹으로 뛰어들다",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26814] = {
+        name = "대사제 베녹시스",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26815] = {
+        name = "잔질의 비법",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26816] = {
+        name = "재앙의 조제식",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26817] = {
+        name = "순수함 그 자체",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26818] = {
+        name = "호화로운 모피",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26819] = {
+        name = "아키리스 묶음",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26820] = {
+        name = "그냥 바닥에 버려둘 물건이라면...",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26821] = {
+        name = "에어윈 밴텀플랙스",
+        level = 32,
+        requiredLevel = 26,
+    },
+    [26822] = {
+        name = "아무짝에도 쓸모없는 놈들",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26823] = {
+        name = "심한 거드름",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26824] = {
+        name = "결론: 확인 불가",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26825] = {
+        name = "\"영약쟁이\" 다스크 곱피즐",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26838] = {
+        name = "대책없는 반란군",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26842] = {
+        name = "갑자기 나타난 놀",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26843] = {
+        name = "작지만 영리한 지도자",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26844] = {
+        name = "동굴쥐 일족 처치",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26845] = {
+        name = "책임자 처치",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26846] = {
+        name = "고약한 수작",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26854] = {
+        name = "실종된 조종사",
+        level = 11,
+        requiredLevel = 10,
+    },
+    [26855] = {
+        name = "조종사의 복수",
+        level = 11,
+        requiredLevel = 10,
+    },
+    [26860] = {
+        name = "텔사마 선지 소시지",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26863] = {
+        name = "더러운 앞발",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26864] = {
+        name = "산악경비대 카드렐에게로",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26868] = {
+        name = "경악의 축",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26878] = {
+        name = "나랄렉스의 제자",
+        level = 16,
+        requiredLevel = 15,
+    },
+    [26909] = {
+        name = "바위 결정",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26911] = {
+        name = "미즈라엘의 전설",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26912] = {
+        name = "해방된 공주",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26927] = {
+        name = "갑자기 나타난 멀록들",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26928] = {
+        name = "냄새나는 계획",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26929] = {
+        name = "악어 턱 모으기",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26932] = {
+        name = "대머리수리 처치",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [26935] = {
+        name = "북마루 벌목지",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26943] = {
+        name = "즐거운 노움 집",
+        level = 26,
+        requiredLevel = 26,
+    },
+    [26953] = {
+        name = "드루이드 젠키키",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26954] = {
+        name = "색다른 접근방법",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26955] = {
+        name = "젠키키와 이교도들",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [26956] = {
+        name = "박이나 파내라는 게 아니라...",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26957] = {
+        name = "고향으로의 기나긴 여정",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [26961] = {
+        name = "조각상 모으기",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26964] = {
+        name = "대족장의 명령: 은빛소나무 숲!",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [26965] = {
+        name = "대족장의 등장",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26980] = {
+        name = "날쌘톱니 기지",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26981] = {
+        name = "웰가르의 은거지",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26989] = {
+        name = "길니아스 해방전선",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26992] = {
+        name = "만발하는 고통",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26995] = {
+        name = "내장과 피",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26998] = {
+        name = "예행연습",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26999] = {
+        name = "역병지대의 새로운 시대",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27000] = {
+        name = "요령 익히기",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27001] = {
+        name = "이제는 전쟁이야!",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27002] = {
+        name = "대영주와의 만남",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27011] = {
+        name = "붉은소나무 절도범",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27012] = {
+        name = "놀의 결의",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27013] = {
+        name = "절박한 상황",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27016] = {
+        name = "재미있는 멧돼지 사냥",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27017] = {
+        name = "잃어버린 과거의 추억",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27025] = {
+        name = "걸을 때 따끔!",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27026] = {
+        name = "경계 태세: 붉은스라소니",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27028] = {
+        name = "말벌 사냥",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27030] = {
+        name = "여우 꼬리 수집",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27031] = {
+        name = "날개 달린 도토리",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [27032] = {
+        name = "하늘을 나는 기계타조",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27033] = {
+        name = "하늘타조의 마음",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27034] = {
+        name = "아들의 사춘기",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27035] = {
+        name = "황혼의 망치단의 유물",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27036] = {
+        name = "바이린의 복수",
+        level = 17,
+        requiredLevel = 14,
+    },
+    [27037] = {
+        name = "바이린의 복수",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27039] = {
+        name = "위험한 계획",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [27045] = {
+        name = "흩뿌려진 암살자의 피",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [27053] = {
+        name = "가론의 흉가 역병 가마솥",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27054] = {
+        name = "무모한 행위",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27055] = {
+        name = "테올렌 크라스티노브의 수련생들",
+        level = 39,
+        requiredLevel = 36,
+    },
+    [27056] = {
+        name = "벨몬트의 보고서",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [27057] = {
+        name = "치유사의 처소로 귀환",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [27065] = {
+        name = "대족장의 함대",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27069] = {
+        name = "강철 천둥",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27073] = {
+        name = "지옥을 맛봐라!",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27074] = {
+        name = "황혼의 망치단과 싸워라",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27075] = {
+        name = "초갈의 종복들",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27077] = {
+        name = "혼돈을 움켜쥐며",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27078] = {
+        name = "고르크레시",
+        level = 19,
+        requiredLevel = 14,
+    },
+    [27082] = {
+        name = "더러운 임무",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27088] = {
+        name = "삼키면 독약",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27093] = {
+        name = "어둠 속에 길을 잃다",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27094] = {
+        name = "어둠 속으로 더 깊이",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [27095] = {
+        name = "땅거미의 위협",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27096] = {
+        name = "오크, 준비 완료!",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [27097] = {
+        name = "일어나라, 포세이큰",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27098] = {
+        name = "로데론",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27099] = {
+        name = "피난민 소탕",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27115] = {
+        name = "안도에게로",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27116] = {
+        name = "모단 호수의 바람",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27151] = {
+        name = "탤런 폴드링의 유물",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27152] = {
+        name = "놀들의 비정상적인 행동",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27153] = {
+        name = "하스글렌의 선량한 주민들",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27154] = {
+        name = "학자 비스프 처치",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27155] = {
+        name = "자수",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27156] = {
+        name = "이제야 오셨군",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27157] = {
+        name = "Drudges... <Sigh>",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [27158] = {
+        name = "안돌할 전투",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27159] = {
+        name = "호드보다는 스컬지를",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27160] = {
+        name = "전쟁 기계",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27161] = {
+        name = "끝없는 흐름",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27162] = {
+        name = "스칼로맨스의 지도자",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27163] = {
+        name = "강대한 들창엄니",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27164] = {
+        name = "소환사 아라즈",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27165] = {
+        name = "짧은 승리감",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27166] = {
+        name = "깃털 수집",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27167] = {
+        name = "극심한 굶주림",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27168] = {
+        name = "떠나지 못하는 자들",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27169] = {
+        name = "우서 경의 축복",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27170] = {
+        name = "버려진 납골당",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27171] = {
+        name = "매복이다!",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27172] = {
+        name = "고통의 흉가",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27173] = {
+        name = "이것이 우리 군대다",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27174] = {
+        name = "전투 훈련",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27175] = {
+        name = "치유사의 처소",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27180] = {
+        name = "망자의 명예",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27181] = {
+        name = "오염원 박멸",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27193] = {
+        name = "탐색과 격멸",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27194] = {
+        name = "추적하여 전멸시켜라!",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27195] = {
+        name = "도주로 차단",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27197] = {
+        name = "전투 재개!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27198] = {
+        name = "아군 지원",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27199] = {
+        name = "재에서 재로",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27201] = {
+        name = "발키르의 침략",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27202] = {
+        name = "동족상잔의 비극",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27204] = {
+        name = "아라드네",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27205] = {
+        name = "포세이큰의 타락",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27226] = {
+        name = "화끈한 치료제",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27231] = {
+        name = "펜리스의 지원군",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27232] = {
+        name = "붉게 물든 호수",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27290] = {
+        name = "포세이큰 전방 지휘소로",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27333] = {
+        name = "전세 악화",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27342] = {
+        name = "시간이 지나면 모두 드러나리라",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27345] = {
+        name = "포세이큰 통신 단말기",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27349] = {
+        name = "통신 두절: 공포망루 전초기지",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27350] = {
+        name = "통신 두절: 루트삭의 경비소",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27360] = {
+        name = "병사들을 위한 복수",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [27364] = {
+        name = "누구 명령으로?",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [27367] = {
+        name = "기드윈 골드브레이즈",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27368] = {
+        name = "딱 갇혔어요",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27369] = {
+        name = "뇌물 바치기",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27370] = {
+        name = "타레나 선스트라이크",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27371] = {
+        name = "가장 잘하는 일",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27372] = {
+        name = "피오나에게 줄 선물",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27373] = {
+        name = "희망의 빛 예배당으로!",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27381] = {
+        name = "길동무",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27382] = {
+        name = "거친 길",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27383] = {
+        name = "꼬마 파멜라",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27384] = {
+        name = "파멜라의 인형",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27385] = {
+        name = "카를린 삼촌",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27386] = {
+        name = "이상한 역사가",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27387] = {
+        name = "다로우골의 악당들",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27388] = {
+        name = "다로우골의 영웅들",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27389] = {
+        name = "다로우골의 약탈자들",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27390] = {
+        name = "다로우골 전투",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27391] = {
+        name = "숨겨진 보물",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27392] = {
+        name = "이건 비밀인데요...",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27401] = {
+        name = "내일이 찾아오면",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [27405] = {
+        name = "후퇴하라!",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [27406] = {
+        name = "고드프리라는 이름의 사람",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [27420] = {
+        name = "회복의 첫걸음",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27421] = {
+        name = "죽음 속 생명",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27422] = {
+        name = "포위된 도시",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27423] = {
+        name = "헛된 저항",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [27432] = {
+        name = "추방자 잴다르",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27438] = {
+        name = "최후의 탈출",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [27448] = {
+        name = "계속되는 여행",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27449] = {
+        name = "명예와 힘",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27450] = {
+        name = "프레더릭의 생선 생각",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27451] = {
+        name = "이유 있는 살육",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27452] = {
+        name = "어둠의 의복",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27453] = {
+        name = "촉매",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27454] = {
+        name = "새발의 피",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27455] = {
+        name = "남자들은 다 그래",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27456] = {
+        name = "먹을거리 모으기",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27457] = {
+        name = "적절한 연합",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27458] = {
+        name = "스모키와 붕대",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27459] = {
+        name = "빛의 결사단",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27460] = {
+        name = "연착륙",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27461] = {
+        name = "수도회당 탈환",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27462] = {
+        name = "병영 탈환",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27463] = {
+        name = "어린 시절의 꿈",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27464] = {
+        name = "은빛십자군의 부름: 납골당의 시험",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27465] = {
+        name = "은빛십자군의 부름: 맹독의 숲",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27466] = {
+        name = "은빛십자군의 부름: 노스데일",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27467] = {
+        name = "영원한 안식을",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27472] = {
+        name = "일어나라, 고드프리",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [27474] = {
+        name = "보호막 파괴",
+        level = 17,
+        requiredLevel = 14,
+    },
+    [27475] = {
+        name = "항복하지 않는 시종",
+        level = 17,
+        requiredLevel = 14,
+    },
+    [27476] = {
+        name = "달라 돈위버",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27477] = {
+        name = "뚱뚱보 괴물",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27478] = {
+        name = "유물 수호자 렐리오스",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27479] = {
+        name = "타당한 분노",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27480] = {
+        name = "지맥의 힘",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27481] = {
+        name = "지구라트 밖으로",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27482] = {
+        name = "화염 속으로",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27483] = {
+        name = "실용적인 복수",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27484] = {
+        name = "오직 하나만이 들어가리라",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27487] = {
+        name = "지하군주 익스라",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27488] = {
+        name = "조급함",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27489] = {
+        name = "원망할 사람은 하나 뿐",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27510] = {
+        name = "곰의 탈을 쓴 늑대",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27512] = {
+        name = "차원 전쟁: 1장",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27513] = {
+        name = "차원 전쟁: 2장",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27518] = {
+        name = "차원 전쟁: 3장",
+        level = 19,
+        requiredLevel = 14,
+    },
+    [27521] = {
+        name = "쓰레기와 악당의 비참한 둥지",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27522] = {
+        name = "극단적인 심문 방법",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27523] = {
+        name = "혐오스러운 그늘날개",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27524] = {
+        name = "맹목적인 분노",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27525] = {
+        name = "스트라솔름의 수호자",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27526] = {
+        name = "기드윈의 운명",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27527] = {
+        name = "여행의 끝",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27528] = {
+        name = "스컬지 덩어리",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27529] = {
+        name = "다로우골의 병사들",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27530] = {
+        name = "시체 괴물",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27531] = {
+        name = "역병 차단을 위한 연구",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27532] = {
+        name = "역병숲 경비탑",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27533] = {
+        name = "도살장보다 끔찍한 운명",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27534] = {
+        name = "아우구스투스의 회계장부",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27535] = {
+        name = "아주 약간 정신이 나간 사람",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27539] = {
+        name = "해골 수집가",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27542] = {
+        name = "최후의 진군",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27544] = {
+        name = "불굴의 세나리온",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27547] = {
+        name = "하찮은 임무",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27548] = {
+        name = "무시무시한 교훈",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27550] = {
+        name = "장작나무 마을의 몰락",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27551] = {
+        name = "남작부인의 서신",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27574] = {
+        name = "얼굴을 잊어버리지 않는 사람",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27575] = {
+        name = "야수의 뱃속을 빠져나와",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27577] = {
+        name = "7군단 전투 계획서",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27580] = {
+        name = "불화의 씨를 뿌리고",
+        level = 20,
+        requiredLevel = 15,
+    },
+    [27594] = {
+        name = "여왕폐하 대작전",
+        level = 20,
+        requiredLevel = 15,
+    },
+    [27601] = {
+        name = "먼지가 된 도시",
+        level = 20,
+        requiredLevel = 15,
+    },
+    [27612] = {
+        name = "내부 공략",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27613] = {
+        name = "암살자",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27614] = {
+        name = "붉은십자군의 유물",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27615] = {
+        name = "분노의 화신",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27616] = {
+        name = "사냥꾼 레오폴드",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27617] = {
+        name = "타락의 힘은 사라지고",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27618] = {
+        name = "은빛십자군의 격변",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27619] = {
+        name = "사령관 마잔",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27620] = {
+        name = "쥐새끼처럼",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27625] = {
+        name = "쿠엘다닐 수비",
+        level = 35,
+        requiredLevel = 30,
+    },
+    [27626] = {
+        name = "깊은골짜기 문서",
+        level = 35,
+        requiredLevel = 30,
+    },
+    [27725] = {
+        name = "쿠엘다닐 오두막",
+        level = 34,
+        requiredLevel = 30,
+    },
+    [27746] = {
+        name = "먼지의 제국",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28089] = {
+        name = "대족장의 명령: 언덕마루 구릉지!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28096] = {
+        name = "체험, 고위 장교의 삶!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28111] = {
+        name = "청금석 소동",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28114] = {
+        name = "영광스러운 수확",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28115] = {
+        name = "죽을 때가 가까운",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28138] = {
+        name = "인간 포획",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28144] = {
+        name = "작은 좀도둑들!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28146] = {
+        name = "해안가의 별미!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28154] = {
+        name = "오물아가미의 지느러미발, 아니면...",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28156] = {
+        name = "깊은 광산 속의 구출",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28168] = {
+        name = "진흙 농장 문제",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28189] = {
+        name = "옳은 일",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28192] = {
+        name = "아무도 살아나갈 수 없다",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28196] = {
+        name = "언덕마루 전투 일지",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28197] = {
+        name = "보안 유지가 핵심",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28199] = {
+        name = "과학을 위하여!",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28206] = {
+        name = "길 잃은 작은 소녀",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28209] = {
+        name = "라이던에게 자유를",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28230] = {
+        name = "최우선 과제",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28231] = {
+        name = "별보라를 위해",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28235] = {
+        name = "번사이드 처치",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28237] = {
+        name = "이 땅에 만연한 질병",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28251] = {
+        name = "남녘해안의 문제",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28324] = {
+        name = "치사율 연구",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28325] = {
+        name = "녹색 운동",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28329] = {
+        name = "화난 역병 진흙괴물",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28330] = {
+        name = "구린내 추적",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28331] = {
+        name = "헬쿨라 마력봉",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28332] = {
+        name = "헬쿨라의 명령",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28344] = {
+        name = "록타르가 어떤 놈을 요리해줄까?",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28345] = {
+        name = "*꼬르륵* 도와줘! *꼬르륵*",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28348] = {
+        name = "스톰파이크와의 만남",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28354] = {
+        name = "카샤는 다시 날아오르리",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28355] = {
+        name = "끔찍한 작은 생명체",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28375] = {
+        name = "속죄의 길",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28397] = {
+        name = "이건 꿈에도 몰랐겠지...",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28400] = {
+        name = "호드의 영웅들!",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28484] = {
+        name = "문제의 핵심",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28485] = {
+        name = "설인 군주 예티무스",
+        level = 25,
+        requiredLevel = 21,
+    },
+    [28487] = {
+        name = "험버트의 사적인 문제",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28489] = {
+        name = "순록 샌드위치",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28490] = {
+        name = "영웅의 부름: 어둠해안!",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28494] = {
+        name = "대족장의 명령: 북부 불모의 땅!",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28495] = {
+        name = "싸움의 가능성",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28496] = {
+        name = "대족장의 명령: 아즈샤라!",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28505] = {
+        name = "안돌할 전투",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28506] = {
+        name = "스톰파이크 전진 기지",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28529] = {
+        name = "공허의 기록",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [28538] = {
+        name = "밴시의 비명",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28556] = {
+        name = "손가락 부러뜨리기",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28562] = {
+        name = "영웅의 부름: 서부 몰락지대!",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28563] = {
+        name = "영웅의 부름: 붉은마루 산맥!",
+        level = 15,
+        requiredLevel = 14,
+    },
+    [28564] = {
+        name = "영웅의 부름: 그늘숲!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28565] = {
+        name = "영웅의 부름: 저습지!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28566] = {
+        name = "대학살",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28567] = {
+        name = "영웅의 부름: 모단 호수!",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28568] = {
+        name = "대족장의 명령: 은빛소나무 숲!",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28571] = {
+        name = "대족장의 명령: 언덕마루 구릉지!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28572] = {
+        name = "대족장의 명령: 아라시 고원!",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28573] = {
+        name = "영웅의 부름: 아라시 고원!",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28574] = {
+        name = "대족장의 명령: 동부 내륙지!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [28576] = {
+        name = "영웅의 부름: 서부 역병지대!",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28587] = {
+        name = "서리늑대 부족의 지원",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28600] = {
+        name = "명예 문제",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28603] = {
+        name = "잠입 임무",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28604] = {
+        name = "기만과 속임수",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28605] = {
+        name = "압도",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28616] = {
+        name = "스톰파이크의 종말",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28617] = {
+        name = "꽃의 힘",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28619] = {
+        name = "대족장의 명령: 아라시 고원!",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28620] = {
+        name = "동부경비 탑",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28634] = {
+        name = "멸종",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28635] = {
+        name = "언덕마루의 유령",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28636] = {
+        name = "드워프들의 침묵",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28643] = {
+        name = "던홀드 도전: 제피로스",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28644] = {
+        name = "던홀드 도전: 테라큘라",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28645] = {
+        name = "던홀드 도전: 맹독령",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28646] = {
+        name = "던홀드 도전: 인페르누스",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28647] = {
+        name = "던홀드 도전: D-1000",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28688] = {
+        name = "대족장의 명령: 북부 가시덤불!",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28699] = {
+        name = "영웅의 부름: 북부 가시덤불!",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28702] = {
+        name = "영웅의 부름: 가시덤불 곶!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [28733] = {
+        name = "평온초 대 구울",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28744] = {
+        name = "구울은 내 곡물을 싫어해",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28747] = {
+        name = "누군가 설치한 호박 폭탄",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28748] = {
+        name = "앞마당의 저주",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28749] = {
+        name = "안돌할 전투",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28755] = {
+        name = "은빛 성기사단 연대기",
+        level = 46,
+        requiredLevel = 42,
+    },
+    [28756] = {
+        name = "뼈 돌연변이",
+        level = 42,
+        requiredLevel = 40,
+    },
+    [29015] = {
+        name = "광부의 보석",
+        level = 16,
+        requiredLevel = 10,
+    },
+    [29021] = {
+        name = "사모플랜지",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29022] = {
+        name = "사모플랜지",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29023] = {
+        name = "사모플랜지",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29024] = {
+        name = "사모플랜지",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29026] = {
+        name = "웨니키 볼트버킷",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29027] = {
+        name = "용접용 철괴",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29086] = {
+        name = "경쟁 같은 소리 하고 있네",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29087] = {
+        name = "진흙 늪 조사",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29088] = {
+        name = "하이에나 박멸",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29089] = {
+        name = "진흙 괴생물체!",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29090] = {
+        name = "불타는 칼날단의 위협",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29094] = {
+        name = "집으로의 짧은 여정",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29095] = {
+        name = "톨크에게 보고",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29109] = {
+        name = "몰샨 짐마차 타기",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [29110] = {
+        name = "몰샨 짐마차 구조",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [29111] = {
+        name = "몰샨 짐마차 배달",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [29112] = {
+        name = "악마의 씨앗",
+        level = 17,
+        requiredLevel = 15,
     },
     [32442] = {
         name = "임박한 위험",

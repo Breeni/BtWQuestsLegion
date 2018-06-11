@@ -5,6 +5,246 @@ if GetLocale() ~= "zhTW" then
 end
 
 BtWQuests_Quests = {
+    [184] = {
+        name = "法布隆的地契",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [185] = {
+        name = "獵虎大師",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [186] = {
+        name = "獵虎大師",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [187] = {
+        name = "獵虎大師",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [188] = {
+        name = "獵虎大師",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [190] = {
+        name = "獵豹大師",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [191] = {
+        name = "獵豹大師",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [192] = {
+        name = "獵豹大師",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [193] = {
+        name = "獵豹大師",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [194] = {
+        name = "迅猛龍專精",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [195] = {
+        name = "追蹤迅猛龍",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [196] = {
+        name = "迅猛龍專精",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [197] = {
+        name = "迅猛龍獵手大師",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [208] = {
+        name = "王牌獵人",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [309] = {
+        name = "護送貨物",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [583] = {
+        name = "歡迎來到叢林",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [840] = {
+        name = "部落的新兵",
+        level = 10,
+        requiredLevel = 10,
+    },
+    [844] = {
+        name = "平原陸行鳥的威脅",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [845] = {
+        name = "角斑馬",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [848] = {
+        name = "真菌孢子",
+        level = 15,
+        requiredLevel = 10,
+    },
+    [850] = {
+        name = "科卡爾的首領",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [851] = {
+        name = "狂熱的維羅戈",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [852] = {
+        name = "赫茲盧爾·血印",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [855] = {
+        name = "半人馬護腕",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [858] = {
+        name = "點火裝置",
+        level = 18,
+        requiredLevel = 13,
+    },
+    [863] = {
+        name = "逃跑",
+        level = 18,
+        requiredLevel = 13,
+    },
+    [865] = {
+        name = "一定是角",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [867] = {
+        name = "鷹身劫掠者",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [869] = {
+        name = "跟蹤竊賊",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [870] = {
+        name = "遺忘之池",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [871] = {
+        name = "保衛前沿哨所",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [872] = {
+        name = "前沿哨所進攻部隊",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [875] = {
+        name = "鷹身人副官",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [876] = {
+        name = "塞瑞娜·血羽",
+        level = 18,
+        requiredLevel = 12,
+    },
+    [877] = {
+        name = "死水綠洲",
+        level = 16,
+        requiredLevel = 10,
+    },
+    [880] = {
+        name = "變異的生物",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [881] = {
+        name = "埃其亞基",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [887] = {
+        name = "南海海盜",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [891] = {
+        name = "船長的復仇",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [895] = {
+        name = "懸賞:葛瑞威船長",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [899] = {
+        name = "復仇的怒火",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [903] = {
+        name = "獵殺雌獅",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [905] = {
+        name = "進入迅猛龍圍欄",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [4021] = {
+        name = "人馬無雙!",
+        level = 20,
+        requiredLevel = 11,
+    },
+    [5041] = {
+        name = "十字路口的補給物資",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [5713] = {
+        name = "一擊必殺",
+        level = 15,
+        requiredLevel = 10,
+    },
+    [9436] = {
+        name = "洞悉血頂習性",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [9457] = {
+        name = "稀有的庇護人",
+        level = 26,
+        requiredLevel = 24,
+    },
     [11997] = {
         name = "霜凍之炎",
         level = -1,
@@ -15,10 +255,5160 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [13504] = {
+        name = "碎矛苦力",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13505] = {
+        name = "精靈貴族遺跡",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13506] = {
+        name = "擔心的理由",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13507] = {
+        name = "削減人力",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13508] = {
+        name = "快速反應",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13509] = {
+        name = "戰爭物資",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13510] = {
+        name = "及時趕到",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13511] = {
+        name = "苦澀的願望",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13512] = {
+        name = "戰略攻擊",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13513] = {
+        name = "邊緣",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13514] = {
+        name = "古樹的憤怒",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13515] = {
+        name = "終結威脅",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13518] = {
+        name = "最後一波倖存者",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [13519] = {
+        name = "暮光之錘",
+        level = 13,
+        requiredLevel = 13,
+    },
+    [13520] = {
+        name = "大海的恩賜",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [13521] = {
+        name = "傳聲盒413號",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [13522] = {
+        name = "水的威脅",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [13523] = {
+        name = "逆抗潮水",
+        level = 13,
+        requiredLevel = 13,
+    },
+    [13525] = {
+        name = "黑木熊怪出了什麼事？",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13526] = {
+        name = "熊掌草",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13527] = {
+        name = "人各有所好",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13528] = {
+        name = "傳聲盒723號",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13529] = {
+        name = "腐化的源頭",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13537] = {
+        name = "石斑滋味",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13542] = {
+        name = "與風對抗",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13543] = {
+        name = "破錘",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13544] = {
+        name = "熊之祝福",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13545] = {
+        name = "將苦楚淨化",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13546] = {
+        name = "污染者",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13547] = {
+        name = "誘導魂靈",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13554] = {
+        name = "黑暗中的解藥",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13557] = {
+        name = "幸運使者",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13558] = {
+        name = "喚雷",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [13560] = {
+        name = "不這麼深的大海",
+        level = 13,
+        requiredLevel = 8,
+    },
+    [13561] = {
+        name = "撫慰精靈貴族",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13562] = {
+        name = "巴莎蘭的最終烈焰",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13563] = {
+        name = "永誌不渝",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13564] = {
+        name = "失蹤的伴侶",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13565] = {
+        name = "二度被移除",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13566] = {
+        name = "儀式的材料",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13567] = {
+        name = "雄鹿之靈",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13568] = {
+        name = "月巡虎之靈",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13569] = {
+        name = "結合儀式",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13570] = {
+        name = "紀念奧伯丁",
+        level = 15,
+        requiredLevel = 10,
+    },
+    [13572] = {
+        name = "碧火火盆",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13573] = {
+        name = "瑪法里恩再臨",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13575] = {
+        name = "土地在他們血脈之中",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13576] = {
+        name = "互相幫助",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13577] = {
+        name = "最後的梟獸",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [13578] = {
+        name = "厄羅姆的道別",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13579] = {
+        name = "亞米薩蘭的守護者",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13580] = {
+        name = "安撫元素",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13581] = {
+        name = "黑木的誓約",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13582] = {
+        name = "伊露恩之火",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13583] = {
+        name = "梟獸的誓言",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [13584] = {
+        name = "安撫大地",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [13585] = {
+        name = "誓言保護",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13586] = {
+        name = "翡翠夢境",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13587] = {
+        name = "清醒的夢魘",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13588] = {
+        name = "萬千風暴之眼",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13589] = {
+        name = "碎矛入侵者",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13590] = {
+        name = "前線",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13591] = {
+        name = "叫人不安的關聯",
+        level = 15,
+        requiredLevel = 10,
+    },
+    [13596] = {
+        name = "暮光計畫書",
+        level = 13,
+        requiredLevel = 13,
+    },
+    [13597] = {
+        name = "薊熊之靈",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13598] = {
+        name = "難受的療法",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13599] = {
+        name = "銳爪的回歸",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13601] = {
+        name = "幫助難民",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13605] = {
+        name = "最後的難民",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13635] = {
+        name = "南門形勢報告",
+        level = 11,
+        requiredLevel = 10,
+    },
+    [13636] = {
+        name = "雷矛的命令",
+        level = 13,
+        requiredLevel = 12,
+    },
+    [13639] = {
+        name = "挖掘場補給",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [13647] = {
+        name = "加入獵殺",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [13648] = {
+        name = "懸賞:黑鐵間諜",
+        level = 12,
+        requiredLevel = 8,
+    },
+    [13650] = {
+        name = "把你的手拿開!",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [13655] = {
+        name = "探險者協會文件(2-6頁)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13656] = {
+        name = "探險者協會文件(1-6頁)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13657] = {
+        name = "探險者協會文件(3-6頁)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13658] = {
+        name = "探險者協會文件(4-6頁)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13659] = {
+        name = "探險者協會文件(6-6頁)",
+        level = 17,
+        requiredLevel = 8,
+    },
+    [13660] = {
+        name = "探險者協會文件(5-6頁)",
+        level = 16,
+        requiredLevel = 8,
+    },
+    [13831] = {
+        name = "令人擔憂的處方",
+        level = 11,
+        requiredLevel = 8,
+    },
+    [13844] = {
+        name = "奧薩拉克斯的戰利品",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13878] = {
+        name = "越過火焰",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [13881] = {
+        name = "遭到疾病吞噬",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13882] = {
+        name = "生命種子",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13885] = {
+        name = "保衛黑海岸",
+        level = 19,
+        requiredLevel = 16,
+    },
+    [13891] = {
+        name = "黑海岸的吞噬者",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13892] = {
+        name = "不留痕跡",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13893] = {
+        name = "索苟斯和克羅恩",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13895] = {
+        name = "蟄伏的古樹",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13896] = {
+        name = "發掘知識",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13897] = {
+        name = "黑海岸之戰",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13898] = {
+        name = "潮流反噬",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [13899] = {
+        name = "黑鱗督軍",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [13900] = {
+        name = "給艾薩拉的貢品",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [13902] = {
+        name = "準備進攻",
+        level = 18,
+        requiredLevel = 17,
+    },
+    [13907] = {
+        name = "淨空廢墟",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13909] = {
+        name = "有廢棄殘骸嗎？",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13910] = {
+        name = "新家",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13911] = {
+        name = "精神恍惚的探勘家",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13912] = {
+        name = "沉沒的真相",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13918] = {
+        name = "泰坦終端",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13925] = {
+        name = "一點預防",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [13940] = {
+        name = "脫離夢境",
+        level = 17,
+        requiredLevel = 13,
+    },
+    [13948] = {
+        name = "加緊管制",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13949] = {
+        name = "護送路口商隊",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [13953] = {
+        name = "納迦參戰",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [13961] = {
+        name = "把它拖出來",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13963] = {
+        name = "不擇手段",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13968] = {
+        name = "拿下突獠",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13969] = {
+        name = "格羅多姆遺失的科多獸",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13970] = {
+        name = "動物服務",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13971] = {
+        name = "科多獸回家",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13973] = {
+        name = "格羅多姆民兵",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [13975] = {
+        name = "路口商隊護送",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [13988] = {
+        name = "增長的問題",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [13991] = {
+        name = "被偷的薪水",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [13992] = {
+        name = "轉移一點注意力",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [13995] = {
+        name = "半人馬山之王",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [13998] = {
+        name = "對真菌有信心",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [13999] = {
+        name = "誰灌誰迷湯?",
+        level = 14,
+        requiredLevel = 10,
+    },
+    [14003] = {
+        name = "修復主動式負載平衡器",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14004] = {
+        name = "回到平衡器那裡",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14006] = {
+        name = "閱讀說明書",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14034] = {
+        name = "打昏富特",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14038] = {
+        name = "愛它或炸了它",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14042] = {
+        name = "彈藥劈哩啪啦碰",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14045] = {
+        name = "找出朗紹爾男爵",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14046] = {
+        name = "男爵的要求",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14049] = {
+        name = "最不尋常的地圖",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14050] = {
+        name = "加茲魯維的財寶",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14052] = {
+        name = "和東尼同陣線",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14056] = {
+        name = "古隆普坐在上面",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14057] = {
+        name = "槍。我們需要槍。",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14063] = {
+        name = "叛變吧，大夥!",
+        level = 17,
+        requiredLevel = 14,
+    },
+    [14066] = {
+        name = "調查殘骸",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [14067] = {
+        name = "被偷走的銀幣",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [14068] = {
+        name = "迅猛龍陷阱",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [14072] = {
+        name = "現出維羅戈",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [14073] = {
+        name = "死門援軍",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [14117] = {
+        name = "梣谷之眼",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [14118] = {
+        name = "部隊野味",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [14127] = {
+        name = "精靈貴族的回歸?",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [14128] = {
+        name = "精靈貴族的回歸?",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [14129] = {
+        name = "失控的伐木機!",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14130] = {
+        name = "各式各樣的朋友",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14131] = {
+        name = "來點提神的",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14132] = {
+        name = "太失禮了",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14134] = {
+        name = "隊長的日誌",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14135] = {
+        name = "在樹上",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14146] = {
+        name = "守衛大門!",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14155] = {
+        name = "除木行動",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14161] = {
+        name = "痛扁石化蜥蜴",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14162] = {
+        name = "向荷札克回報",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14165] = {
+        name = "冷血者",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14190] = {
+        name = "完美的稜鏡",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14192] = {
+        name = "破鏡",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14194] = {
+        name = "重新血肉化",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14197] = {
+        name = "搶達配額",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [14201] = {
+        name = "沙中的萬千傳說",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14202] = {
+        name = "測量湖岸",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14209] = {
+        name = "槽中頑垢",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14215] = {
+        name = "亡者的記憶",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14216] = {
+        name = "薩森石之謎",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14226] = {
+        name = "腳下的麻煩",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14230] = {
+        name = "手冊工作",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14249] = {
+        name = "除毛之心",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14250] = {
+        name = "再生性資源",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14258] = {
+        name = "定點轟擊",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14261] = {
+        name = "冰鎮龍群",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14262] = {
+        name = "剖開魚腹",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14263] = {
+        name = "百里香荒野",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14267] = {
+        name = "調查海洋神殿",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14270] = {
+        name = "拱心石裂片",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14271] = {
+        name = "向雙碾回報",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14295] = {
+        name = "海中姊妹",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14296] = {
+        name = "當心你的腳步",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14297] = {
+        name = "解放主義",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14299] = {
+        name = "賽倫收容所",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14300] = {
+        name = "火之試煉",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14308] = {
+        name = "科學的攻擊",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14310] = {
+        name = "總結段錯誤:拋除核心",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14322] = {
+        name = "科學壞壞!壞壞!",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14323] = {
+        name = "吸收",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14324] = {
+        name = "裝滿熱水",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14340] = {
+        name = "服裝是第一印象",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14345] = {
+        name = "筋疲力竭",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14370] = {
+        name = "神秘的艾薩拉水晶",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14371] = {
+        name = "巨大點心",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14377] = {
+        name = "親近巨人",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14383] = {
+        name = "廢墟海岸的不入流技工",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [14385] = {
+        name = "艾薩拉水晶實驗計畫一",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [14388] = {
+        name = "艾薩拉水晶實驗計畫二",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [14389] = {
+        name = "不是很明顯嗎?",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14390] = {
+        name = "簡單就是無聊",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14391] = {
+        name = "逆轉情勢",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14392] = {
+        name = "再見了，小魚",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [14407] = {
+        name = "艾薩拉之藍",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14408] = {
+        name = "實驗體九號的計畫",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [14413] = {
+        name = "學習的山巔",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [14422] = {
+        name = "迅猛迅猛火箭",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [14423] = {
+        name = "推土機主義",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [14424] = {
+        name = "需要更高科技",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14428] = {
+        name = "琥珀風的日誌",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [14429] = {
+        name = "秘法解構",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [14430] = {
+        name = "入侵傀儡",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [14431] = {
+        name = "黑喉之疤",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14432] = {
+        name = "無味的酒",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14433] = {
+        name = "另一種外交途徑",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14435] = {
+        name = "黑喉的背叛",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [14442] = {
+        name = "我最喜歡的物件",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [14462] = {
+        name = "我的頭在哪裡?",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14464] = {
+        name = "閃擊暗殺",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14468] = {
+        name = "又一個新兵",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14469] = {
+        name = "接續使用",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14470] = {
+        name = "軍事突破",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14471] = {
+        name = "初級迫擊砲",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14472] = {
+        name = "打臉!",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [14475] = {
+        name = "禁錮!",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14476] = {
+        name = "設定爆炸",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14477] = {
+        name = "按下按鈕!",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [14478] = {
+        name = "魚腸行動",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [14479] = {
+        name = "像這樣的還很多",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [14480] = {
+        name = "殲滅",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [14484] = {
+        name = "殺蛇要砍頭",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [14485] = {
+        name = "需要提克爾",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [14486] = {
+        name = "處理貨品",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [14487] = {
+        name = "跳動的心臟",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [24430] = {
+        name = "遮蔽天空",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24433] = {
+        name = "賜他們恐懼的饗宴",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24434] = {
+        name = "空降突擊隊",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24435] = {
+        name = "掃蕩",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [24436] = {
+        name = "天使降臨",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [24437] = {
+        name = "先到先得",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [24439] = {
+        name = "征服艾薩拉",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24448] = {
+        name = "戰地晉升",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [24449] = {
+        name = "上岸假期",
+        level = 17,
+        requiredLevel = 12,
+    },
+    [24452] = {
+        name = "有利可圖的偵察行動",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [24453] = {
+        name = "與大兵聊天",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [24455] = {
+        name = "急速部署",
+        level = 16,
+        requiredLevel = 12,
+    },
+    [24458] = {
+        name = "向武器說哈囉",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [24463] = {
+        name = "探入梣谷",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [24467] = {
+        name = "潛入黑幕",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [24478] = {
+        name = "霜之試煉",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [24479] = {
+        name = "暗影試煉",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [24497] = {
+        name = "再次空降",
+        level = 20,
+        requiredLevel = 18,
+    },
     [24707] = {
         name = "瑪克西米利安頌",
         level = 55,
         requiredLevel = 51,
+    },
+    [25118] = {
+        name = "尋找潛伏者",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [25211] = {
+        name = "打掃屋舍",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25235] = {
+        name = "粗俗的沃古爾",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25275] = {
+        name = "向工人隊長回報",
+        level = 11,
+        requiredLevel = 1,
+    },
+    [25395] = {
+        name = "遭竊的酒桶",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25648] = {
+        name = "杜洛塔之外",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [25721] = {
+        name = "對抗洪水",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25722] = {
+        name = "親愛的沉積物",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25723] = {
+        name = "倒楣的蛇頸龍",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25725] = {
+        name = "沼澤莓",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25726] = {
+        name = "矮子的工作",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25727] = {
+        name = "莊格爾德·怒瞪",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25733] = {
+        name = "滾出這裡，潛獵者",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25734] = {
+        name = "進入瑟根石",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25735] = {
+        name = "火岩礦石",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25736] = {
+        name = "湧流之核",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25770] = {
+        name = "送酒",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [25777] = {
+        name = "前進米奈希爾",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [25780] = {
+        name = "襲擊米奈希爾城堡",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [25800] = {
+        name = "當生命給你螃蟹",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25801] = {
+        name = "海中的魚人",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25802] = {
+        name = "奪回雕像",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25803] = {
+        name = "繼續搜尋",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25804] = {
+        name = "搜尋雕像",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25805] = {
+        name = "歸還雕像",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [25815] = {
+        name = "第三艦隊",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25816] = {
+        name = "蔓延的詛咒",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25817] = {
+        name = "被詛咒的船員",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25818] = {
+        name = "解除詛咒",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [25819] = {
+        name = "帕雷斯之眼",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [25820] = {
+        name = "母親的憂慮",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [25849] = {
+        name = "考古學的反撲",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25850] = {
+        name = "擊打土地!",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25853] = {
+        name = "四處兜風",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25854] = {
+        name = "我要叫牠咬咬",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25855] = {
+        name = "齒輪與器具",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25856] = {
+        name = "鱷魚皮",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25857] = {
+        name = "獵殺懼顎",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25864] = {
+        name = "恐龍危機",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25865] = {
+        name = "蘚皮豺狼人",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25866] = {
+        name = "黑鐵陷捕者",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25867] = {
+        name = "豺狼人逃脫",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25868] = {
+        name = "尤拉·暗陷",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [25926] = {
+        name = "仇恨的泥淖",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [25927] = {
+        name = "火焰的威脅",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [25939] = {
+        name = "為了泥炭",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26022] = {
+        name = "第一滴血",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26023] = {
+        name = "被遺忘的托爾貝恩",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26024] = {
+        name = "通緝:瑪雷茲·考爾",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26025] = {
+        name = "獸人叛徒",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26027] = {
+        name = "短兵相接",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26029] = {
+        name = "真正的威脅",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26030] = {
+        name = "激流堡符印",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26031] = {
+        name = "索拉丁符印",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26032] = {
+        name = "阿拉索符印",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26033] = {
+        name = "托爾卡拉",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26035] = {
+        name = "證明實力",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26036] = {
+        name = "特雷萊恩的符咒魔杖",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26037] = {
+        name = "特雷萊恩的防禦",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26038] = {
+        name = "進攻高塔",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26039] = {
+        name = "受困的公主",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26041] = {
+        name = "禁錮之石",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26042] = {
+        name = "打開鑰匙之石",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26049] = {
+        name = "釋放公主",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26050] = {
+        name = "潛水鏡之亂",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26051] = {
+        name = "水下寶藏",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26052] = {
+        name = "與沙克斯對話",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26053] = {
+        name = "掃蕩高地",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26055] = {
+        name = "船長的復仇",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26079] = {
+        name = "通緝:奧圖和法庫雷斯特",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26081] = {
+        name = "奧麗娜的獎勵",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26083] = {
+        name = "哈囉魯魯",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26084] = {
+        name = "落錘鎮",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26093] = {
+        name = "諾斯弗德農場",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26095] = {
+        name = "激流堡徽章",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26107] = {
+        name = "振奮精神",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26108] = {
+        name = "迅猛龍的狡詐",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26110] = {
+        name = "就像往日一般",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26113] = {
+        name = "奎艾和基恩洛",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26114] = {
+        name = "奎艾的信任",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26116] = {
+        name = "基恩洛出擊",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26117] = {
+        name = "為了南海鎮",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26120] = {
+        name = "瘋狂的龍喉",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26127] = {
+        name = "揭發暮光之錘",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26128] = {
+        name = "薩多爾大橋之戰",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26131] = {
+        name = "增援洛克莫丹",
+        level = 10,
+        requiredLevel = 10,
+    },
+    [26137] = {
+        name = "看看那些小夥子",
+        level = 20,
+        requiredLevel = 18,
+    },
+    [26139] = {
+        name = "深入阿拉希",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26145] = {
+        name = "穴居怪的威脅",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26146] = {
+        name = "保衛國王的領土",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26147] = {
+        name = "更大更醜",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26148] = {
+        name = "果斷的一擊",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26176] = {
+        name = "往塞爾薩瑪去",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26189] = {
+        name = "怒牙的威脅",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26195] = {
+        name = "綠意守望者的保護者",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26196] = {
+        name = "布萊德·長鬚",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26209] = {
+        name = "謀殺案調查",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26210] = {
+        name = "加莫里塔!",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26211] = {
+        name = "鉗嘴龜!",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26212] = {
+        name = "拉爾德的午餐",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26213] = {
+        name = "重要線索:河爪氏族",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [26214] = {
+        name = "重要線索:魚人",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26215] = {
+        name = "認識老好人羅伍",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26223] = {
+        name = "銀鬃潛獵者",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26224] = {
+        name = "野蠻的梟獸",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26225] = {
+        name = "紫葡萄酒",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26228] = {
+        name = "享受生活",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26229] = {
+        name = "「我就是要拿蠟燭!」",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26230] = {
+        name = "大吃或是餓肚子",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [26232] = {
+        name = "勞的離別感想",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [26236] = {
+        name = "搜查薩丁",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26237] = {
+        name = "世道艱苦",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26238] = {
+        name = "野蠻的矮人",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26240] = {
+        name = "跟著我的拍子",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26241] = {
+        name = "西部荒野燉肉",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26252] = {
+        name = "看守者之心",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26257] = {
+        name = "它活了!",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [26263] = {
+        name = "索爾納爾·雷鏘",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26266] = {
+        name = "眾人的喜願",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26267] = {
+        name = "清理隱匿石",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26268] = {
+        name = "隱匿石補給",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26269] = {
+        name = "荊棘谷的青山",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26270] = {
+        name = "我們感激你",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [26271] = {
+        name = "施捨於飢餓和無望的人",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26278] = {
+        name = "格羅姆高保衛戰:迅猛龍危機",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26279] = {
+        name = "格羅姆高保衛戰:巨魔的逼迫",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26280] = {
+        name = "格羅姆高保衛戰:魚人威脅",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26281] = {
+        name = "格羅姆高保衛戰:食人妖竊盜事件",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26283] = {
+        name = "頭號軟泥怪",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26286] = {
+        name = "堅守西部荒野",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26287] = {
+        name = "西部荒野民兵團",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26288] = {
+        name = "詹戈·汙皮",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [26289] = {
+        name = "找出密探吉爾妮",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [26290] = {
+        name = "塔中秘密",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [26291] = {
+        name = "月溪鎮的大麻煩",
+        level = 14,
+        requiredLevel = 11,
+    },
+    [26292] = {
+        name = "到月溪鎮去!",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26295] = {
+        name = "宣傳計畫",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26296] = {
+        name = "收集證據",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26297] = {
+        name = "全新一天的黎明",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26298] = {
+        name = "耶尼庫的下落",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26299] = {
+        name = "獵頭行動",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26300] = {
+        name = "奈茲里奧克會知道",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26301] = {
+        name = "和奈茲里奧克談談",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26302] = {
+        name = "追查耶尼庫的命運",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26303] = {
+        name = "心靈之眼",
+        level = 28,
+        requiredLevel = 24,
+    },
+    [26304] = {
+        name = "在叢林的夜晚",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26305] = {
+        name = "拯救耶尼庫",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26306] = {
+        name = "開始奪回",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26307] = {
+        name = "邪枝之死",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26308] = {
+        name = "現在是我們的了",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26309] = {
+        name = "黑暗之瓶",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26310] = {
+        name = "蜘蜘蛛蛛",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26317] = {
+        name = "小鞭尾迅猛龍",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26319] = {
+        name = "發掘秘密",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26320] = {
+        name = "過去的幻象",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26321] = {
+        name = "我想她餓了",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26322] = {
+        name = "兄弟會的崛起",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26323] = {
+        name = "最珍愛的骷髏頭",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26327] = {
+        name = "大英雄安威瑪",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26330] = {
+        name = "誰是食人妖老大？",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26332] = {
+        name = "劈顱食人妖魔精",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26334] = {
+        name = "血領主曼多基爾",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26336] = {
+        name = "沙克斯·奧布里",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26338] = {
+        name = "食人妖人口控管",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26340] = {
+        name = "獵殺",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26341] = {
+        name = "石頭裂片",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26343] = {
+        name = "供與求",
+        level = 26,
+        requiredLevel = 25,
+    },
+    [26344] = {
+        name = "收集鱷魚皮",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26345] = {
+        name = "刨花皮靴",
+        level = 28,
+        requiredLevel = 25,
+    },
+    [26346] = {
+        name = "密斯賴爾的故事",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26347] = {
+        name = "火炬的守護者",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26348] = {
+        name = "海岸的威脅",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26349] = {
+        name = "海岸上的威脅",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26350] = {
+        name = "女祭師胡瑞拉",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26351] = {
+        name = "心靈幻象",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26352] = {
+        name = "考茲爾的計畫",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26353] = {
+        name = "桑德斯船長的寶藏",
+        level = 13,
+        requiredLevel = 9,
+    },
+    [26354] = {
+        name = "桑德斯船長的寶藏",
+        level = 13,
+        requiredLevel = 9,
+    },
+    [26355] = {
+        name = "桑德斯船長的寶藏",
+        level = 13,
+        requiredLevel = 9,
+    },
+    [26356] = {
+        name = "桑德斯船長的寶藏",
+        level = 13,
+        requiredLevel = 9,
+    },
+    [26357] = {
+        name = "邪惡之臉",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26359] = {
+        name = "看見迅猛龍",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26360] = {
+        name = "精神控制",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26362] = {
+        name = "成為迅猛龍",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26363] = {
+        name = "命運之巔",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26365] = {
+        name = "英雄的召喚：赤脊山！",
+        level = 15,
+        requiredLevel = 14,
+    },
+    [26366] = {
+        name = "抬頭",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26367] = {
+        name = "翁戈隆戈的復仇",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26368] = {
+        name = "惡毒的秘密",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26369] = {
+        name = "獵殺守衛者",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26370] = {
+        name = "回到哨兵嶺",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26371] = {
+        name = "葛瑞森船長的傳說",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26378] = {
+        name = "英雄的召喚：西部荒野！",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [26381] = {
+        name = "沙德拉之眼",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26382] = {
+        name = "煎蛋餅不能沒有...",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26383] = {
+        name = "突破改變的浪濤",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [26384] = {
+        name = "黑暗牧師馬爾諾",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26385] = {
+        name = "突破改變的浪濤",
+        level = 10,
+        requiredLevel = 8,
+    },
+    [26386] = {
+        name = "蘇爾可汗",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26387] = {
+        name = "飢餓食譜",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26399] = {
+        name = "莫什奧格贈物",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26400] = {
+        name = "萬能鑰匙",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26403] = {
+        name = "風險投資公司的採礦行為",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26404] = {
+        name = "超出我的薪資",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26405] = {
+        name = "祖瑪維曼波",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26406] = {
+        name = "沙德拉之牙",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26407] = {
+        name = "莫什奧格手工藝品",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26417] = {
+        name = "北荊棘谷:殞落帝國",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26418] = {
+        name = "沙德拉之殼",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26419] = {
+        name = "劇毒之后沙德拉",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26428] = {
+        name = "以偷制偷",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26429] = {
+        name = "擊潰枯木",
+        level = 30,
+        requiredLevel = 28,
+    },
+    [26430] = {
+        name = "惡齒村",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26432] = {
+        name = "辛薩羅的隕落",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26462] = {
+        name = "無良惡齒",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26483] = {
+        name = "甘德蘭達",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26485] = {
+        name = "鉗嘴龜，小子!",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26486] = {
+        name = "海邊的九十九瓶酒",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26490] = {
+        name = "頭號軟泥怪",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26491] = {
+        name = "清理隱匿石",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26492] = {
+        name = "隱匿石補給",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26496] = {
+        name = "擊倒邪枝",
+        level = 33,
+        requiredLevel = 29,
+    },
+    [26497] = {
+        name = "邪枝敗類",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26498] = {
+        name = "邪枝食人妖的死期",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26503] = {
+        name = "還在審時度勢",
+        level = 15,
+        requiredLevel = 14,
+    },
+    [26504] = {
+        name = "懸賞:赤脊山豺狼人",
+        level = 15,
+        requiredLevel = 14,
+    },
+    [26505] = {
+        name = "派克的報告",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26506] = {
+        name = "法蘭克斯煨豆",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26508] = {
+        name = "尼達的項鍊",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26509] = {
+        name = "一位不速之客",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26510] = {
+        name = "做好萬全準備!",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26511] = {
+        name = "肅清止水湖",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26512] = {
+        name = "調整地精自動紀錄器",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26513] = {
+        name = "風中一陣屁，來得快去得快",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26514] = {
+        name = "峽谷快樂行",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26515] = {
+        name = "翁戈隆戈的復仇",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26516] = {
+        name = "現在是我們的了",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26517] = {
+        name = "命運之巔",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26518] = {
+        name = "抬頭",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26519] = {
+        name = "控制雙頭巨人的傢伙",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26520] = {
+        name = "拯救工頭奧斯洛",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26521] = {
+        name = "邪惡之臉",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26523] = {
+        name = "蜘蜘蛛蛛",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26524] = {
+        name = "黑暗之瓶",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26525] = {
+        name = "惡毒的秘密",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26526] = {
+        name = "獵殺守衛者",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26528] = {
+        name = "沙德拉之眼",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26529] = {
+        name = "沙德拉之牙",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26530] = {
+        name = "沙德拉之殼",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26531] = {
+        name = "召喚沙德拉",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26532] = {
+        name = "劇毒之后沙德拉",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26542] = {
+        name = "英雄的召喚：辛特蘭！",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26544] = {
+        name = "他們變聰明了...",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26545] = {
+        name = "猶勒一定得死!",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26546] = {
+        name = "鋒喙獅鷲獸朋友",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26547] = {
+        name = "癩皮的威脅",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26548] = {
+        name = "戰爭前線",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26558] = {
+        name = "召喚沙德拉",
+        level = 35,
+        requiredLevel = 32,
+    },
+    [26560] = {
+        name = "喬更森",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26561] = {
+        name = "克洛克考爾",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26562] = {
+        name = "最後但同樣重要的...丹佛斯",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26563] = {
+        name = "第二連隊歸來",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26567] = {
+        name = "約翰·J·基沙恩",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26568] = {
+        name = "非我之戰",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26569] = {
+        name = "勘察設備",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26570] = {
+        name = "撕裂者大軍",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26571] = {
+        name = "戰爭的武器",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26573] = {
+        name = "激勵人心",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26586] = {
+        name = "尋找第二連隊",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26587] = {
+        name = "闖關沒那麼簡單",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [26593] = {
+        name = "嚇唬病鬼",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26594] = {
+        name = "向麥克基雷回報",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26595] = {
+        name = "殺人討債",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26597] = {
+        name = "荊棘谷熱疫",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26599] = {
+        name = "船長的箱子",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26600] = {
+        name = "巨人的大餐",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26601] = {
+        name = "『斬擊者』摩卡什",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26602] = {
+        name = "巨大的一餐",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26603] = {
+        name = "瓶中信",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26604] = {
+        name = "保衛王家公主普巴爾",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26605] = {
+        name = "汙穢的小爪子",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26606] = {
+        name = "穆克拉的末日",
+        level = 33,
+        requiredLevel = 30,
+    },
+    [26607] = {
+        name = "第一滴血",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26609] = {
+        name = "血帆海盜",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26610] = {
+        name = "血帆叛亂",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26611] = {
+        name = "得讓大財主知道",
+        level = 32,
+        requiredLevel = 31,
+    },
+    [26612] = {
+        name = "攻擊行動細節",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26613] = {
+        name = "鼻煙",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26614] = {
+        name = "海盜的眼睛",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26616] = {
+        name = "沒完沒了",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26617] = {
+        name = "老海員",
+        level = 32,
+        requiredLevel = 30,
+    },
+    [26618] = {
+        name = "惡狼成群",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26620] = {
+        name = "烤狼肉串",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26623] = {
+        name = "黑蟹蛋糕",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26624] = {
+        name = "血帆搏感情",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26627] = {
+        name = "隱士",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26628] = {
+        name = "水下伏兵",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26629] = {
+        name = "忠誠所在",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26631] = {
+        name = "海盜生涯的第一天",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26633] = {
+        name = "刷甲板任務",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26634] = {
+        name = "許多海盜的劫數",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26635] = {
+        name = "砲彈游泳",
+        level = 33,
+        requiredLevel = 31,
+    },
+    [26636] = {
+        name = "第二連隊野戰包:軍事偽裝",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26637] = {
+        name = "第二連隊野戰包:麻醉藥",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26638] = {
+        name = "獵殺獵人",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26639] = {
+        name = "聯繫目標:布魯貝克",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26640] = {
+        name = "難以言喻的殘暴",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26641] = {
+        name = "煎蛋餅不能沒有...",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26642] = {
+        name = "保護貧瘠之地",
+        level = 12,
+        requiredLevel = 9,
+    },
+    [26643] = {
+        name = "飢餓食譜",
+        level = 34,
+        requiredLevel = 32,
+    },
+    [26644] = {
+        name = "引起注意",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26645] = {
+        name = "守夜人",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26646] = {
+        name = "戰俘",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26647] = {
+        name = "老式火砲",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26648] = {
+        name = "我們的死敵",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26649] = {
+        name = "掠奪的衝動",
+        level = 34,
+        requiredLevel = 31,
+    },
+    [26650] = {
+        name = "少女的好運號",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26651] = {
+        name = "為求勝戰，毫不留情",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26652] = {
+        name = "鬼魂的髮絲",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26653] = {
+        name = "來自夜色鎮的補給",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26654] = {
+        name = "歸還梳子",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26655] = {
+        name = "幽靈的髮絲",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26660] = {
+        name = "殭屍汁",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26661] = {
+        name = "收集腐敗之花",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26662] = {
+        name = "驟潮號船員",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26663] = {
+        name = "由內下沉",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26664] = {
+        name = "誣陷叛變",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26665] = {
+        name = "財寶時刻",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26666] = {
+        name = "斯塔文的傳說",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26667] = {
+        name = "失竊的信",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26668] = {
+        name = "引爆",
+        level = 18,
+        requiredLevel = 16,
+    },
+    [26669] = {
+        name = "在黑暗的角落裡",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26670] = {
+        name = "羅蘭之墓",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26671] = {
+        name = "斯塔文·密斯特曼托的命運",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26672] = {
+        name = "挖掘真相",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26674] = {
+        name = "密斯特曼托的復仇",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26676] = {
+        name = "送交殭屍汁",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26677] = {
+        name = "食屍鬼假人",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26678] = {
+        name = "雙份蘭姆酒",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26679] = {
+        name = "回訪里維加茲",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26680] = {
+        name = "巨魔盜賊",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26681] = {
+        name = "給鎮長的字條",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26683] = {
+        name = "觀星",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26684] = {
+        name = "瘋狂的食屍鬼",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [26685] = {
+        name = "上等玻璃",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26686] = {
+        name = "行走的骨骸",
+        level = 21,
+        requiredLevel = 18,
+    },
+    [26688] = {
+        name = "森林裡的狼人",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26689] = {
+        name = "爛果園",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26690] = {
+        name = "邪惡而汙穢",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26691] = {
+        name = "森林裡的狼人",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26692] = {
+        name = "滅絕影皮",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [26693] = {
+        name = "暗之塔",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [26694] = {
+        name = "大魔導師度恩",
+        level = 19,
+        requiredLevel = 17,
+    },
+    [26695] = {
+        name = "準備起飛",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26697] = {
+        name = "驟潮號最後的航程",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26698] = {
+        name = "尋找海角",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26699] = {
+        name = "扭轉驟潮",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26700] = {
+        name = "少女的好(壞)運",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26703] = {
+        name = "血帆的末日",
+        level = 35,
+        requiredLevel = 31,
+    },
+    [26707] = {
+        name = "致命之藤",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26708] = {
+        name = "啊啊啊啊啊！啊啊啊啊！！！",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [26713] = {
+        name = "石望決戰",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [26714] = {
+        name = "暗炎，碎界者一族",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [26717] = {
+        name = "猶根狼人",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26719] = {
+        name = "送件給哈里斯先生",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26720] = {
+        name = "無法移除的詛咒",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26721] = {
+        name = "基特斯蟲",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26722] = {
+        name = "埋藏",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26723] = {
+        name = "摩本特·費爾的命運",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26724] = {
+        name = "潛伏的巫妖",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26725] = {
+        name = "聖光的指引",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26726] = {
+        name = "凱旋",
+        level = 20,
+        requiredLevel = 17,
+    },
+    [26727] = {
+        name = "藏屍者的復仇",
+        level = 22,
+        requiredLevel = 19,
+    },
+    [26728] = {
+        name = "英雄的召喚：暮色森林！",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [26729] = {
+        name = "水元素",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26730] = {
+        name = "把魚人帶出海洋",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26731] = {
+        name = "奈亞斯祭壇",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26732] = {
+        name = "庫爾森的藥物",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26733] = {
+        name = "控制樣本",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26734] = {
+        name = "瘋狂的來源",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26735] = {
+        name = "庫爾森的命運",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26736] = {
+        name = "逃過瘋狂",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26737] = {
+        name = "阻止庫爾森的殘黨",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26738] = {
+        name = "正剛孵化",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26739] = {
+        name = "我想她餓了",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26740] = {
+        name = "克拉茲克的烹調鍋",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26742] = {
+        name = "洞悉血頂習性",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26743] = {
+        name = "血頂族的神聖生物",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26744] = {
+        name = "深入起源",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26745] = {
+        name = "最珍愛的骷髏頭",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26746] = {
+        name = "專門嗅這些東西的鼻子",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26747] = {
+        name = "活體標本",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26748] = {
+        name = "血領主曼多基爾",
+        level = 26,
+        requiredLevel = 24,
+    },
+    [26749] = {
+        name = "女牧師撒亞莉雅",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26751] = {
+        name = "食人妖人口控管",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26753] = {
+        name = "亡者大廳",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26754] = {
+        name = "摩本特的剋星",
+        level = 25,
+        requiredLevel = 22,
+    },
+    [26760] = {
+        name = "嚎月",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26761] = {
+        name = "王國的威脅",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26763] = {
+        name = "風險投資公司的採礦行為",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26765] = {
+        name = "向卡雷布下士回報",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26769] = {
+        name = "怒河之旅",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26772] = {
+        name = "心靈幻象",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26773] = {
+        name = "看見迅猛龍",
+        level = 27,
+        requiredLevel = 24,
+    },
+    [26774] = {
+        name = "精神控制",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26775] = {
+        name = "成為迅猛龍",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26776] = {
+        name = "加利瑞",
+        level = 29,
+        requiredLevel = 24,
+    },
+    [26777] = {
+        name = "安撫魂靈",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26778] = {
+        name = "死者的危機",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26779] = {
+        name = "祖瑪維曼波",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26780] = {
+        name = "在叢林的夜晚",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26781] = {
+        name = "心靈之眼",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26782] = {
+        name = "莫什奧格贈物",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26785] = {
+        name = "狼群之一",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [26787] = {
+        name = "熊的腦海裡",
+        level = 24,
+        requiredLevel = 22,
+    },
+    [26793] = {
+        name = "飽經風霜的墓碑",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26794] = {
+        name = "摩根·拉迪莫爾",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26795] = {
+        name = "摩拉迪姆",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26796] = {
+        name = "倖存的女兒",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26797] = {
+        name = "女兒的愛",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [26805] = {
+        name = "前往海角!",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26808] = {
+        name = "梅維基",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26809] = {
+        name = "後門的勾當",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26810] = {
+        name = "殲滅流亡者",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26811] = {
+        name = "穿越食人妖洞穴",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26812] = {
+        name = "高階祭司耶克里克",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26813] = {
+        name = "鎮壓祖爾格拉布",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26814] = {
+        name = "高階祭司溫諾希斯",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26815] = {
+        name = "贊吉爾的秘密",
+        level = 31,
+        requiredLevel = 29,
+    },
+    [26816] = {
+        name = "災難的配方",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26817] = {
+        name = "完美純淨",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26818] = {
+        name = "長毛絨皮草",
+        level = 30,
+        requiredLevel = 26,
+    },
+    [26819] = {
+        name = "一捆海蛇草",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26820] = {
+        name = "如果他們不想撿...",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26821] = {
+        name = "艾爾溫·班塔弗拉斯",
+        level = 32,
+        requiredLevel = 26,
+    },
+    [26822] = {
+        name = "該死的滑石走狗",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26823] = {
+        name = "放不進口袋的大小",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26824] = {
+        name = "結果:無可結論",
+        level = 32,
+        requiredLevel = 29,
+    },
+    [26825] = {
+        name = "達斯克『水壺』唾嘶",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [26838] = {
+        name = "毫無線索的叛亂",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [26842] = {
+        name = "哪來的豺狼人",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26843] = {
+        name = "小而巧指揮官",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26844] = {
+        name = "狗頭人和幕後黑手",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26845] = {
+        name = "這裡誰負責?",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26846] = {
+        name = "討厭的剝削者",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26854] = {
+        name = "失蹤的駕駛員",
+        level = 11,
+        requiredLevel = 10,
+    },
+    [26855] = {
+        name = "駕駛員的復仇",
+        level = 11,
+        requiredLevel = 10,
+    },
+    [26860] = {
+        name = "塞爾薩瑪血腸",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [26863] = {
+        name = "骯髒的爪子",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26864] = {
+        name = "豺狼人的前鋒",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [26868] = {
+        name = "可怕的莖",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26878] = {
+        name = "納拉雷克斯侍徒",
+        level = 16,
+        requiredLevel = 15,
+    },
+    [26909] = {
+        name = "石頭裂片",
+        level = 29,
+        requiredLevel = 27,
+    },
+    [26911] = {
+        name = "密斯賴爾的故事",
+        level = 27,
+        requiredLevel = 25,
+    },
+    [26912] = {
+        name = "釋放公主",
+        level = 28,
+        requiredLevel = 26,
+    },
+    [26927] = {
+        name = "突然間，魚人!",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [26928] = {
+        name = "聞起來是個計畫",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26929] = {
+        name = "一堆鱷魚",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [26932] = {
+        name = "滾到一邊去",
+        level = 15,
+        requiredLevel = 13,
+    },
+    [26935] = {
+        name = "北山伐木場",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26943] = {
+        name = "家，甜蜜的地精",
+        level = 26,
+        requiredLevel = 26,
+    },
+    [26953] = {
+        name = "德魯伊贊基奇",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26954] = {
+        name = "不同的方式",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26955] = {
+        name = "贊基奇與教徒們",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [26956] = {
+        name = "我不是說你是個挖地的...",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [26957] = {
+        name = "返家路迢迢",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [26961] = {
+        name = "收集塑像",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [26964] = {
+        name = "大酋長的命令：銀松森林！",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [26965] = {
+        name = "大酋長駕到",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26980] = {
+        name = "迅輪崗哨",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26981] = {
+        name = "維爾加的避難所",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [26989] = {
+        name = "吉爾尼斯解放戰線",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26992] = {
+        name = "痛苦無邊",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26995] = {
+        name = "腸與血",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26998] = {
+        name = "再次成功",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [26999] = {
+        name = "瘟疫之地的新紀元",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27000] = {
+        name = "基礎訓練",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27001] = {
+        name = "這意味著戰爭(圍捕野生蜘蛛)",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27002] = {
+        name = "大領主的召見",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27011] = {
+        name = "紅松竊賊",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27012] = {
+        name = "一個豺狼人的決心",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27013] = {
+        name = "千鈞一髮",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27016] = {
+        name = "獵豬之樂",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27017] = {
+        name = "來自失落過去的回憶",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27025] = {
+        name = "工作的時候刺兩下",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27026] = {
+        name = "防務戒備:山貓",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27028] = {
+        name = "狩獵黃蜂",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27030] = {
+        name = "一把狐狸尾",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27031] = {
+        name = "翅膀狂",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [27032] = {
+        name = "鳥就對了",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27033] = {
+        name = "機械空行鳥之心",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27034] = {
+        name = "他正值這年紀",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27035] = {
+        name = "起身對抗",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27036] = {
+        name = "維林的報復",
+        level = 17,
+        requiredLevel = 14,
+    },
+    [27037] = {
+        name = "維林的報復",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [27039] = {
+        name = "危險的意圖",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [27045] = {
+        name = "等待除血",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [27053] = {
+        name = "蓋羅恩農場的瘟疫之鍋",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27054] = {
+        name = "絕望的行動",
+        level = 38,
+        requiredLevel = 36,
+    },
+    [27055] = {
+        name = "卡斯迪諾夫的學生",
+        level = 39,
+        requiredLevel = 36,
+    },
+    [27056] = {
+        name = "貝爾蒙特的報告",
+        level = 11,
+        requiredLevel = 9,
+    },
+    [27057] = {
+        name = "返回崗哨",
+        level = 38,
+        requiredLevel = 35,
+    },
+    [27065] = {
+        name = "大酋長的艦隊",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27069] = {
+        name = "鋼鐵雷霆",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27073] = {
+        name = "送他們下地獄吧!",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27074] = {
+        name = "與暮光之錘戰鬥",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27075] = {
+        name = "丘加利的僕人",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27077] = {
+        name = "趁亂而入",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27078] = {
+        name = "戈克雷什",
+        level = 19,
+        requiredLevel = 14,
+    },
+    [27082] = {
+        name = "骯髒的手段",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27088] = {
+        name = "只有吞下才有毒",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27093] = {
+        name = "迷失在黑暗中",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27094] = {
+        name = "深入黑暗",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [27095] = {
+        name = "蛛網的威脅",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [27096] = {
+        name = "待命的獸人",
+        level = 13,
+        requiredLevel = 10,
+    },
+    [27097] = {
+        name = "醒來吧，被遺忘者",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27098] = {
+        name = "羅德隆",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27099] = {
+        name = "無路可逃",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27115] = {
+        name = "安多的召喚",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27116] = {
+        name = "洛克莫丹之風",
+        level = 18,
+        requiredLevel = 15,
+    },
+    [27151] = {
+        name = "泰蘭·弗丁的遺產",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27152] = {
+        name = "怪異的舉動...即便是豺狼人",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27153] = {
+        name = "壁爐谷的好人",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27154] = {
+        name = "逮捕畢斯普",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27155] = {
+        name = "自首",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27156] = {
+        name = "時候到了!",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27157] = {
+        name = "Drudges... <Sigh>",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [27158] = {
+        name = "安多哈爾之戰",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27159] = {
+        name = "先天譴...後部落",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27160] = {
+        name = "戰爭機器",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27161] = {
+        name = "無限之流",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27162] = {
+        name = "通靈學院人",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27163] = {
+        name = "蠻力",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27164] = {
+        name = "『召喚者』阿拉基",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27165] = {
+        name = "暫時的勝利",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27166] = {
+        name = "裝上羽毛!",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27167] = {
+        name = "巨大的飢餓",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27168] = {
+        name = "放不了手",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27169] = {
+        name = "烏瑟的祝福",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27170] = {
+        name = "被遺棄的墓穴",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27171] = {
+        name = "有埋伏!",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27172] = {
+        name = "苦痛鬼屋",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27173] = {
+        name = "這就是我們的軍隊",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [27174] = {
+        name = "戰鬥訓練",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [27175] = {
+        name = "治癒者崗哨",
+        level = 37,
+        requiredLevel = 35,
+    },
+    [27180] = {
+        name = "逝者的榮耀",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27181] = {
+        name = "進行感染",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27193] = {
+        name = "搜索與摧毀",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27194] = {
+        name = "逼進死角、徹底擊垮!",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27195] = {
+        name = "無處可逃",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27197] = {
+        name = "戰火重新點燃",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27198] = {
+        name = "支援部隊",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27199] = {
+        name = "塵歸塵",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27201] = {
+        name = "華爾琪入侵",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27202] = {
+        name = "兄弟鬩牆",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27204] = {
+        name = "亞拉登",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27205] = {
+        name = "被遺忘者的墮落",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27226] = {
+        name = "水手的毛髮",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27231] = {
+        name = "芬里斯的援軍",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27232] = {
+        name = "湖水已被染紅...",
+        level = 13,
+        requiredLevel = 11,
+    },
+    [27290] = {
+        name = "前往被遺忘者前線指揮營地",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27333] = {
+        name = "節節敗退",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27342] = {
+        name = "時間將揭露一切",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27345] = {
+        name = "被遺忘者通訊裝置",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27349] = {
+        name = "失去通訊:恐懼守望前哨站",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27350] = {
+        name = "失去通訊:路特沙克之衛",
+        level = 14,
+        requiredLevel = 12,
+    },
+    [27360] = {
+        name = "為我們的士兵報仇",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [27364] = {
+        name = "誰的命令？",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [27367] = {
+        name = "基德溫·金辮",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27368] = {
+        name = "只是被打包了而已",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27369] = {
+        name = "給輪子上油",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27370] = {
+        name = "塔瑞納爾·日擊",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27371] = {
+        name = "我最會幹的事",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27372] = {
+        name = "給菲歐娜的禮物",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27373] = {
+        name = "繼續向聖光之願禮拜堂前進",
+        level = 40,
+        requiredLevel = 39,
+    },
+    [27381] = {
+        name = "旅伴",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27382] = {
+        name = "艱苦的路",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27383] = {
+        name = "小帕米拉",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27384] = {
+        name = "帕米拉的洋娃娃",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27385] = {
+        name = "卡林叔叔",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27386] = {
+        name = "古怪的歷史學家",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27387] = {
+        name = "達隆郡的惡魔",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27388] = {
+        name = "達隆郡的英雄",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27389] = {
+        name = "達隆郡的掠奪者",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27390] = {
+        name = "達隆郡的戰鬥",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27391] = {
+        name = "隱藏的寶藏",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27392] = {
+        name = "我不該告訴你這些",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27401] = {
+        name = "明日吉凶難測",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [27405] = {
+        name = "撤退!",
+        level = 15,
+        requiredLevel = 12,
+    },
+    [27406] = {
+        name = "名叫高佛雷的男人",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [27420] = {
+        name = "拖延不可避免的毀滅",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27421] = {
+        name = "死亡中的生命",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27422] = {
+        name = "圍城",
+        level = 45,
+        requiredLevel = 44,
+    },
+    [27423] = {
+        name = "抵抗是沒用的",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [27432] = {
+        name = "『流亡者』塞達爾",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27438] = {
+        name = "大逃亡",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [27448] = {
+        name = "旅程繼續",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27449] = {
+        name = "榮譽與力量",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27450] = {
+        name = "弗德瑞克的魚之幻想曲",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27451] = {
+        name = "殺戮的理由",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27452] = {
+        name = "黑暗裝束",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27453] = {
+        name = "催化",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27454] = {
+        name = "只要加入一滴滴",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27455] = {
+        name = "男兒本色",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27456] = {
+        name = "收集一些蟲(蟲們)",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27457] = {
+        name = "結盟好時機",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27458] = {
+        name = "煙鬼和繃帶",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27459] = {
+        name = "聖光兄弟會",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27460] = {
+        name = "輕緩著陸",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27461] = {
+        name = "攻下修道院",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27462] = {
+        name = "攻下兵營",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27463] = {
+        name = "青少年的夢想",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27464] = {
+        name = "銀白召喚:地穴試煉",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27465] = {
+        name = "銀白召喚:劇毒林地",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27466] = {
+        name = "銀白召喚:北谷",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27467] = {
+        name = "埋入刀刃",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27472] = {
+        name = "起來吧，高佛雷",
+        level = 16,
+        requiredLevel = 13,
+    },
+    [27474] = {
+        name = "打破屏障",
+        level = 17,
+        requiredLevel = 14,
+    },
+    [27475] = {
+        name = "頑固的僕從",
+        level = 17,
+        requiredLevel = 14,
+    },
+    [27476] = {
+        name = "達拉爾·織曦者",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27477] = {
+        name = "肥仔",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27478] = {
+        name = "聖物守衛者瑞利歐斯",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27479] = {
+        name = "正義的憤慨",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27480] = {
+        name = "啟動能量",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27481] = {
+        name = "通靈塔外",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27482] = {
+        name = "烈焰之中",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27483] = {
+        name = "實際的復仇",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27484] = {
+        name = "只有一個能進去",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27487] = {
+        name = "地底領主伊克斯拉爾",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27488] = {
+        name = "沒耐性",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27489] = {
+        name = "責無旁貸",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27510] = {
+        name = "披著熊皮的狼",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27512] = {
+        name = "超次元之戰:第一章",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27513] = {
+        name = "超次元之戰:第二章",
+        level = 18,
+        requiredLevel = 14,
+    },
+    [27518] = {
+        name = "超次元之戰:第三章",
+        level = 19,
+        requiredLevel = 14,
+    },
+    [27521] = {
+        name = "鄙惡者巢穴",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27522] = {
+        name = "給他們點教訓",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27523] = {
+        name = "暮翼蝠，我多麼痛恨你",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27524] = {
+        name = "盲目的憤怒",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27525] = {
+        name = "斯坦索姆守護者",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27526] = {
+        name = "基德溫的命運揭示",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27527] = {
+        name = "旅途之末",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27528] = {
+        name = "天譴之眾",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27529] = {
+        name = "達隆郡的防衛者",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27530] = {
+        name = "屍獸",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27531] = {
+        name = "反瘟疫研究",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27532] = {
+        name = "病木林哨塔",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27533] = {
+        name = "比屠殺更慘的命運",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27534] = {
+        name = "奧古斯圖斯的帳本",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27535] = {
+        name = "只是有點瘋癲",
+        level = 44,
+        requiredLevel = 41,
+    },
+    [27539] = {
+        name = "丟進顱骨堆",
+        level = 44,
+        requiredLevel = 39,
+    },
+    [27542] = {
+        name = "奪取戰線",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27544] = {
+        name = "堅毅的塞納里奧議會",
+        level = 41,
+        requiredLevel = 39,
+    },
+    [27547] = {
+        name = "無足輕重",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27548] = {
+        name = "恐懼的課程",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27550] = {
+        name = "焚木村的傾頹",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27551] = {
+        name = "男爵夫人的書信",
+        level = 45,
+        requiredLevel = 39,
+    },
+    [27574] = {
+        name = "忘不了的面孔",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27575] = {
+        name = "從野獸腹內重生",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27577] = {
+        name = "第七軍團作戰計畫",
+        level = 19,
+        requiredLevel = 15,
+    },
+    [27580] = {
+        name = "挑撥離間",
+        level = 20,
+        requiredLevel = 15,
+    },
+    [27594] = {
+        name = "女王密使",
+        level = 20,
+        requiredLevel = 15,
+    },
+    [27601] = {
+        name = "塵湮之城",
+        level = 20,
+        requiredLevel = 15,
+    },
+    [27612] = {
+        name = "從內部取勝",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27613] = {
+        name = "刺客",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27614] = {
+        name = "血色回收",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27615] = {
+        name = "施怒者",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27616] = {
+        name = "獵人",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27617] = {
+        name = "回復聖潔",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27618] = {
+        name = "銀白動盪",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27619] = {
+        name = "指揮官",
+        level = 42,
+        requiredLevel = 39,
+    },
+    [27620] = {
+        name = "有如鼠輩",
+        level = 43,
+        requiredLevel = 39,
+    },
+    [27625] = {
+        name = "保衛奎爾丹尼",
+        level = 35,
+        requiredLevel = 30,
+    },
+    [27626] = {
+        name = "高原文件",
+        level = 35,
+        requiredLevel = 30,
+    },
+    [27725] = {
+        name = "奎爾丹尼小屋",
+        level = 34,
+        requiredLevel = 30,
+    },
+    [27746] = {
+        name = "下流的帝國",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28089] = {
+        name = "大酋長的命令：希爾斯布萊德丘陵！",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28096] = {
+        name = "核心機構歡迎你",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28111] = {
+        name = "碧玉礦坑的麻煩",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28114] = {
+        name = "大豐收",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28115] = {
+        name = "年老體衰",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28138] = {
+        name = "人類橫行",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28144] = {
+        name = "偷偷摸摸的小怪物!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28146] = {
+        name = "沿岸好味道!",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28154] = {
+        name = "泥鰓的蹼之類的...",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28156] = {
+        name = "礦坑深處救援",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28168] = {
+        name = "淤泥農場的麻煩",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28189] = {
+        name = "做正確的事",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28192] = {
+        name = "沒人能活著出去",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28196] = {
+        name = "希爾斯布萊德之戰",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28197] = {
+        name = "謹慎是關鍵",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28199] = {
+        name = "為了科學!",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28206] = {
+        name = "小女孩不見了",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28209] = {
+        name = "讓林度恩自由",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28230] = {
+        name = "緊急協定",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28231] = {
+        name = "為了閃閃",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28235] = {
+        name = "伯恩賽德必須死",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28237] = {
+        name = "大地上的荒疫",
+        level = 21,
+        requiredLevel = 19,
+    },
+    [28251] = {
+        name = "南海鎮的麻煩",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28324] = {
+        name = "致命研究",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28325] = {
+        name = "綠色生活",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28329] = {
+        name = "憤怒的低級泡泡",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28330] = {
+        name = "穢物的蹤跡",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28331] = {
+        name = "赫爾庫拉的施予魔棒",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28332] = {
+        name = "赫爾庫拉的命令",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28344] = {
+        name = "你可以聞出他在煮什麼嗎?",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28345] = {
+        name = "*嗝*救命!*咕嚕咕嚕*",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28348] = {
+        name = "雷矛集結地",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28354] = {
+        name = "卡沙會再飛起來的",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28355] = {
+        name = "可怕的小東西",
+        level = 22,
+        requiredLevel = 20,
+    },
+    [28375] = {
+        name = "通往贖罪之路",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28397] = {
+        name = "他們料想不到的...",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28400] = {
+        name = "部落的英雄!",
+        level = 23,
+        requiredLevel = 20,
+    },
+    [28484] = {
+        name = "問題核心",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28485] = {
+        name = "『雪人之王』耶堤穆斯",
+        level = 25,
+        requiredLevel = 21,
+    },
+    [28487] = {
+        name = "亨伯特的個人問題",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28489] = {
+        name = "鹿肉堡",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28490] = {
+        name = "英雄的召喚：黑海岸！",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28494] = {
+        name = "大酋長的命令：北貧瘠之地！",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28495] = {
+        name = "一戰的機會",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28496] = {
+        name = "大酋長的命令：艾薩拉！",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28505] = {
+        name = "安多哈爾之戰",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28506] = {
+        name = "雷矛的行進",
+        level = 23,
+        requiredLevel = 21,
+    },
+    [28529] = {
+        name = "虛無的文字",
+        level = 12,
+        requiredLevel = 10,
+    },
+    [28538] = {
+        name = "女妖的哭嚎",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28556] = {
+        name = "壯士斷腕",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28562] = {
+        name = "英雄的召喚：西部荒野！",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28563] = {
+        name = "英雄的召喚：赤脊山！",
+        level = 15,
+        requiredLevel = 14,
+    },
+    [28564] = {
+        name = "英雄的召喚：暮色森林！",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28565] = {
+        name = "英雄的召喚：溼地！",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28566] = {
+        name = "大屠殺",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28567] = {
+        name = "英雄的召喚：洛克莫丹！",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28568] = {
+        name = "大酋長的命令：銀松森林！",
+        level = 10,
+        requiredLevel = 9,
+    },
+    [28571] = {
+        name = "大酋長的命令：希爾斯布萊德丘陵！",
+        level = 20,
+        requiredLevel = 19,
+    },
+    [28572] = {
+        name = "大酋長的命令：阿拉希高地！",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28573] = {
+        name = "英雄的召喚：阿拉希高地！",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28574] = {
+        name = "大酋長的命令：辛特蘭！",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [28576] = {
+        name = "英雄的召喚：西瘟疫之地！",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28587] = {
+        name = "霜狼的援助",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28600] = {
+        name = "忠誠問題",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28603] = {
+        name = "滲透",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28604] = {
+        name = "欺騙和詭計",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28605] = {
+        name = "支配",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28616] = {
+        name = "雷矛的末日",
+        level = 24,
+        requiredLevel = 21,
+    },
+    [28617] = {
+        name = "花朵的力量",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28619] = {
+        name = "大酋長的命令：阿拉希高地！",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28620] = {
+        name = "東點哨塔",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28634] = {
+        name = "滅絕",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28635] = {
+        name = "希爾斯布萊德鬧鬼事件",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28636] = {
+        name = "矮人的沉默",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28643] = {
+        name = "敦霍爾德的挑戰:賽佛路斯",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28644] = {
+        name = "敦霍爾德的挑戰:泰拉古拉",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28645] = {
+        name = "敦霍爾德的挑戰:血毒",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28646] = {
+        name = "敦霍爾德的挑戰:因弗努斯",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28647] = {
+        name = "敦霍爾德的挑戰:D-1000",
+        level = 25,
+        requiredLevel = 23,
+    },
+    [28688] = {
+        name = "大酋長的命令：北荊棘谷！",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28699] = {
+        name = "英雄的召喚：北荊棘谷！",
+        level = 25,
+        requiredLevel = 24,
+    },
+    [28702] = {
+        name = "英雄的召喚：荊棘谷海角！",
+        level = 30,
+        requiredLevel = 29,
+    },
+    [28733] = {
+        name = "基礎植物學",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28744] = {
+        name = "殭屍討厭我的植物",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28747] = {
+        name = "誰來放個南瓜炸彈",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28748] = {
+        name = "亡者草地",
+        level = -1,
+        requiredLevel = 20,
+    },
+    [28749] = {
+        name = "安多哈爾之戰",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28755] = {
+        name = "白銀之手年鑑",
+        level = 46,
+        requiredLevel = 42,
+    },
+    [28756] = {
+        name = "畸形枯骨",
+        level = 42,
+        requiredLevel = 40,
+    },
+    [29015] = {
+        name = "礦工的寶貝",
+        level = 16,
+        requiredLevel = 10,
+    },
+    [29021] = {
+        name = "負載平衡器",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29022] = {
+        name = "負載平衡器",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29023] = {
+        name = "負載平衡器",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29024] = {
+        name = "負載平衡器",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29026] = {
+        name = "維妮·布特巴克",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29027] = {
+        name = "高強度齒輪",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29086] = {
+        name = "惡性競爭",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29087] = {
+        name = "淤泥的調查",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29088] = {
+        name = "滅絕土狼",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29089] = {
+        name = "淤泥獸!",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29090] = {
+        name = "燃燒的威脅",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29094] = {
+        name = "回家的捷徑",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29095] = {
+        name = "回報給索克",
+        level = 16,
+        requiredLevel = 14,
+    },
+    [29109] = {
+        name = "護送莫爾杉商隊",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [29110] = {
+        name = "莫爾杉商隊救援",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [29111] = {
+        name = "莫爾杉商隊快遞",
+        level = 17,
+        requiredLevel = 15,
+    },
+    [29112] = {
+        name = "惡魔之種",
+        level = 17,
+        requiredLevel = 15,
     },
     [32442] = {
         name = "危險逼近",
