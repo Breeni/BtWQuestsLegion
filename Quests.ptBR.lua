@@ -5,195 +5,28 @@ if GetLocale() ~= "ptBR" then
 end
 
 BtWQuests_Quests = {
-    [43496] = {
-        name = "Poder interior",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40668] = {
-        name = "Olho de Azshara: o coração de Zin-Azshari",
-        difficulty = "mythic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43514] = {
-        name = "Um passado de arrogância",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43517] = {
-        name = "Bosque Corenegro: poder caído",
-        difficulty = "mythic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43518] = {
-        name = "Treva temperante",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43519] = {
-        name = "Força lúcida",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43581] = {
-        name = "A sabedoria da paciência",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43520] = {
-        name = "O Pesadelo Esmeralda: em pesadelos",
-        difficulty = "normal",
-        tagID = QUEST_TAG_RAID,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43521] = {
-        name = "Essência de Poder",
-        difficulty = "normal",
-        tagID = QUEST_TAG_RAID,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43522] = {
-        name = "Consumo essencial",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43527] = {
-        name = "Salvando a Guarda",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43523] = {
-        name = "Dívida paga",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40673] = {
-        name = "Conhecimento perdido",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43525] = {
-        name = "Câmara das Guardiãs: pegando emprestado sem pedir",
-        difficulty = "mythic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40675] = {
-        name = "O Arcâneo: rito do capitão",
-        difficulty = "mythic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43524] = {
-        name = "Pátio das Estrelas: perfeição literária",
-        difficulty = "mythic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40678] = {
-        name = "Poder pervertido",
-        tagID = QUEST_TAG_GROUP,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43526] = {
-        name = "Um verdadeiro teste",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40603] = {
-        name = "Procurando as Valkiras",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40608] = {
-        name = "A marca",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40613] = {
-        name = "Gorja das Almas: recuperando o Svalngard",
-        difficulty = "mythic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40614] = {
-        name = "Um banquete digno de Odyn",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40672] = {
-        name = "Covil de Neltharion: apresentação é tudo",
-        difficulty = "mythic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40615] = {
-        name = "Salões da Bravura: bênção de Odyn",
-        difficulty = "mythic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43528] = {
-        name = "Planejando o ataque",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43531] = {
-        name = "Fortaleza Noturna adentro",
-        difficulty = "normal",
-        tagID = QUEST_TAG_RAID,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43530] = {
-        name = "Baluarte da Noite: ilusões de grandeza",
-        difficulty = "normal",
-        tagID = QUEST_TAG_RAID,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43532] = {
-        name = "Baluarte da Noite: chamado da escuridão",
-        difficulty = "normal",
-        tagID = QUEST_TAG_RAID,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43533] = {
-        name = "Equilíbrio de poder",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [38834] = {
-        name = "Ao Combate",
+    [11997] = {
+        name = "A chama congelada",
         level = -1,
         requiredLevel = 98,
     },
-    [37653] = {
-        name = "Almas Demoníacas",
+    [12103] = {
+        name = "Antes da tempestade",
         level = -1,
         requiredLevel = 98,
     },
-    [37658] = {
-        name = "A Reativação das Proteções",
-        level = -1,
-        requiredLevel = 98,
+    [24707] = {
+        name = "A canção de Maximiliano",
+        level = 55,
+        requiredLevel = 51,
     },
-    [37660] = {
-        name = "A Foice das Almas",
+    [32442] = {
+        name = "Perigo iminente",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [36811] = {
+        name = "A Retomada de Faronaar",
         level = -1,
         requiredLevel = 98,
     },
@@ -202,8 +35,28 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [36811] = {
-        name = "A Retomada de Faronaar",
+    [37256] = {
+        name = "Eles Vieram do Mar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37257] = {
+        name = "Nossos Ossos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37447] = {
+        name = "O sangue de demônios",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [37448] = {
+        name = "Um plano simples",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [37449] = {
+        name = "Revelações Sinistras",
         level = -1,
         requiredLevel = 98,
     },
@@ -212,33 +65,203 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [37466] = {
+        name = "A academia partida",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37467] = {
+        name = "O Desfile do Fracasso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37468] = {
+        name = "Na Academia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37469] = {
+        name = "A Pedramar: Estilhaçada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37470] = {
+        name = "A Cabeça da Cobra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37486] = {
+        name = "Nar'thalas Continua Sofrendo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37492] = {
+        name = "Uma Longa Caminhada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37494] = {
+        name = "Sob o manto das trevas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [37495] = {
+        name = "A Pilhagem do Covil",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37496] = {
+        name = "Infiltrando-se na Arena Naufragada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37497] = {
+        name = "No Rastro da Pedramar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37507] = {
+        name = "Chefe Baleião no Comando",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37510] = {
+        name = "O Campeão de Profúnduro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37518] = {
+        name = "Os Salões Assombrados",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37528] = {
+        name = "Cutucar Gigante com Vara Curta",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37530] = {
+        name = "Salve-se",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37536] = {
+        name = "Injeção de Moral",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37538] = {
+        name = "Primeiro Round",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37542] = {
+        name = "Não Há Tempo para Testes",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37565] = {
+        name = "A Arma Certa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37566] = {
+        name = "O Príncipe Vai Cair",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37653] = {
+        name = "Almas Demoníacas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37654] = {
+        name = "Lei Marítima",
+        level = -1,
+        requiredLevel = 98,
+    },
     [37656] = {
         name = "Maquinações Vis",
         level = -1,
         requiredLevel = 98,
     },
-    [37449] = {
-        name = "Revelações Sinistras",
+    [37657] = {
+        name = "Tornando o mundo seguro para o lucro",
         level = -1,
         requiredLevel = 98,
     },
-    [38443] = {
-        name = "Jornada Rumo ao Repouso",
+    [37658] = {
+        name = "A Reativação das Proteções",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37659] = {
+        name = "O Baú do Capitão",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37660] = {
+        name = "A Foice das Almas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37666] = {
+        name = "Provocando uma briga",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [37678] = {
+        name = "Metendo a cara nos livros",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37689] = {
+        name = "O impostor",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [37690] = {
+        name = "Os Memoriados",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37727] = {
+        name = "O Magíster da Mixologia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37728] = {
+        name = "Apresentação É Tudo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37729] = {
+        name = "Prova surpresa: Desenho de runas avançado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37730] = {
+        name = "As Chaves da Diretora",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37733] = {
+        name = "Príncipe Farondis",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37736] = {
+        name = "Vestido com Classe",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37779] = {
+        name = "Meridiano da vida",
         level = -1,
         requiredLevel = 98,
     },
     [37853] = {
         name = "A Morte do Ancião",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37991] = {
-        name = "Agapanthus",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42271] = {
-        name = "Os últimos suspiros",
         level = -1,
         requiredLevel = 98,
     },
@@ -252,8 +275,8 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [37859] = {
-        name = "Os Consumidos",
+    [37857] = {
+        name = "Runas Sabe o Caminho",
         level = -1,
         requiredLevel = 98,
     },
@@ -262,28 +285,8 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [37957] = {
-        name = "Runas, o Humilhado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37857] = {
-        name = "Runas Sabe o Caminho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37959] = {
-        name = "O Retorno da Fome",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37963] = {
-        name = "Aqueles além da redenção",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37960] = {
-        name = "Linha do Meridiano: Diga Não",
+    [37859] = {
+        name = "Os Consumidos",
         level = -1,
         requiredLevel = 98,
     },
@@ -302,6 +305,36 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [37957] = {
+        name = "Runas, o Humilhado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37959] = {
+        name = "O Retorno da Fome",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37960] = {
+        name = "Linha do Meridiano: Diga Não",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37963] = {
+        name = "Aqueles além da redenção",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37965] = {
+        name = "Uma safra maculada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [37991] = {
+        name = "Agapanthus",
+        level = -1,
+        requiredLevel = 98,
+    },
     [38014] = {
         name = "Refestelando-se com o dragão",
         level = -1,
@@ -312,247 +345,43 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [42567] = {
-        name = "Condenado a fenecer",
+    [38035] = {
+        name = "Convocação real",
         level = -1,
         requiredLevel = 98,
     },
-    [42756] = {
-        name = "Fim da fome",
+    [38036] = {
+        name = "Suprimento dos céus",
         level = -1,
         requiredLevel = 98,
     },
-    [37690] = {
-        name = "Os Memoriados",
+    [38052] = {
+        name = "Fogo no céu",
         level = -1,
         requiredLevel = 98,
     },
-    [37256] = {
-        name = "Eles Vieram do Mar",
+    [38053] = {
+        name = "Você não bateria em mim, bateria?",
         level = -1,
         requiredLevel = 98,
     },
-    [37733] = {
-        name = "Príncipe Farondis",
+    [38057] = {
+        name = "A legião perdida",
         level = -1,
         requiredLevel = 98,
     },
-    [37257] = {
-        name = "Nossos Ossos",
+    [38058] = {
+        name = "Para-raios",
         level = -1,
         requiredLevel = 98,
     },
-    [37497] = {
-        name = "No Rastro da Pedramar",
+    [38059] = {
+        name = "Tá formigando tudo",
         level = -1,
         requiredLevel = 98,
     },
-    [37486] = {
-        name = "Nar'thalas Continua Sofrendo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37467] = {
-        name = "O Desfile do Fracasso",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37468] = {
-        name = "Na Academia",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37736] = {
-        name = "Vestido com Classe",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37678] = {
-        name = "Metendo a cara nos livros",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37518] = {
-        name = "Os Salões Assombrados",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42370] = {
-        name = "Uso básico de varinhas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42371] = {
-        name = "Sala de estudos: pesquisa sobre combate",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37729] = {
-        name = "Prova surpresa: Desenho de runas avançado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37730] = {
-        name = "As Chaves da Diretora",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37469] = {
-        name = "A Pedramar: Estilhaçada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37530] = {
-        name = "Salve-se",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37470] = {
-        name = "A Cabeça da Cobra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38286] = {
-        name = "Olho de Azshara: ira de Azshara",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42213] = {
-        name = "Olho de Azshara: a Pedramar de Golganneth",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38407] = {
-        name = "Engarrafado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37496] = {
-        name = "Infiltrando-se na Arena Naufragada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37507] = {
-        name = "Chefe Baleião no Comando",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37542] = {
-        name = "Não Há Tempo para Testes",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37528] = {
-        name = "Cutucar Gigante com Vara Curta",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37510] = {
-        name = "O Campeão de Profúnduro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37536] = {
-        name = "Injeção de Moral",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37538] = {
-        name = "Primeiro Round",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37565] = {
-        name = "A Arma Certa",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37566] = {
-        name = "O Príncipe Vai Cair",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38857] = {
-        name = "Um Favor para o Sr. Grilhão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37654] = {
-        name = "Lei Marítima",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37657] = {
-        name = "Tornando o mundo seguro para o lucro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37659] = {
-        name = "O Baú do Capitão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40794] = {
-        name = "A sina do Vingança da Rainha",
-        level = -1,
-        requiredLevel = 98,
-        restrictions = {
-            {
-                type = "faction",
-                id = BTWQUESTS_FACTION_ID_ALLIANCE,
-            },
-        },
-    },
-    [42244] = {
-        name = "A Sina do Vingança da Rainha",
-        level = -1,
-        requiredLevel = 98,
-        restrictions = {
-            {
-                type = "faction",
-                id = BTWQUESTS_FACTION_ID_HORDE,
-            },
-        },
-    },
-    [39731] = {
-        name = "A Floresta Tranquila",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39861] = {
-        name = "Atando os Fios Soltos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38305] = {
-        name = "Cenarius, o Guardião do Bosque",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38384] = {
-        name = "O Chamado da Natureza",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38382] = {
-        name = "Arquidruida do Vale",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39383] = {
-        name = "Desonrado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39384] = {
-        name = "O Corruptor",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40573] = {
-        name = "O Senhor do Pesadelo",
+    [38060] = {
+        name = "Sinal amplificado",
         level = -1,
         requiredLevel = 98,
     },
@@ -561,33 +390,8 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [38455] = {
-        name = "Pelursos Pancadas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38922] = {
-        name = "Peludinho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38246] = {
-        name = "O Chamado Totêmico",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38146] = {
-        name = "As Contas do Chefe",
-        level = -1,
-        requiredLevel = 98,
-    },
     [38143] = {
         name = "O Despertar da Arquidruidesa",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38145] = {
-        name = "Fora do Sonho",
         level = -1,
         requiredLevel = 98,
     },
@@ -596,18 +400,38 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
+    [38145] = {
+        name = "Fora do Sonho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38146] = {
+        name = "As Contas do Chefe",
+        level = -1,
+        requiredLevel = 98,
+    },
     [38147] = {
         name = "Sonhos Emaranhados",
         level = -1,
         requiredLevel = 98,
     },
-    [38381] = {
-        name = "Arquidruida da História",
+    [38148] = {
+        name = "O Retorno ao Bosque",
         level = -1,
         requiredLevel = 98,
     },
-    [38235] = {
-        name = "Duro Feito Rocha",
+    [38203] = {
+        name = "Vinhedo Challiane",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38206] = {
+        name = "A ronda",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38210] = {
+        name = "As antigas provações",
         level = -1,
         requiredLevel = 98,
     },
@@ -616,8 +440,49 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [38148] = {
-        name = "O Retorno ao Bosque",
+    [38232] = {
+        name = "Lacaio! Mate-os!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38235] = {
+        name = "Duro Feito Rocha",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38237] = {
+        name = "Isso ESTÁ no meu contrato.",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38246] = {
+        name = "O Chamado Totêmico",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38286] = {
+        name = "Olho de Azshara: ira de Azshara",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38305] = {
+        name = "Cenarius, o Guardião do Bosque",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38307] = {
+        name = "O chamado da Chefe Guerreira",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38312] = {
+        name = "O lança-gancho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38318] = {
+        name = "Olha, mãe, sem asas!",
         level = -1,
         requiredLevel = 98,
     },
@@ -631,7866 +496,8 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [38377] = {
-        name = "A Rainha Esmeralda",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38641] = {
-        name = "O Templo de Eluna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38662] = {
-        name = "Lágrimas da deusa",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38655] = {
-        name = "A Raiz do Problema",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38663] = {
-        name = "Os dados foram lançados",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38595] = {
-        name = "A fúria de Malfurion",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38582] = {
-        name = "A velhos amigos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38753] = {
-        name = "O Rastro do Demônio",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41056] = {
-        name = "Amor Perdido",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41708] = {
-        name = "Lado Escuro da Lua",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38671] = {
-        name = "Perdido no toque de retirada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41707] = {
-        name = "Vermegarras pérfidas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43576] = {
-        name = "Reagrupar no refúgio",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41724] = {
-        name = "O Coração do Pesadelo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43241] = {
-        name = "Fluxo do pesadelo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38684] = {
-        name = "Lendo as folhas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41893] = {
-        name = "Entregue à corrupção",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43702] = {
-        name = "Amaciamento do alvo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38687] = {
-        name = "Tão perto que já dá para tocar",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38743] = {
-        name = "O Destino de Val'sharah",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40567] = {
-        name = "Bosque Corenegro: entre no Pesadelo",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40890] = {
-        name = "As Lágrimas de Eluna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38643] = {
-        name = "Uma Aldeia em Perigo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38645] = {
-        name = "Os Filhos da Noite",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38644] = {
-        name = "As Fazendas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38647] = {
-        name = "Pelo Milho!",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38646] = {
-        name = "Um Colírio para os Olhos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39117] = {
-        name = "Bico Fechado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38691] = {
-        name = "A Missão de Jared",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38718] = {
-        name = "Kur'talos Cristacorvo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38714] = {
-        name = "O Rastro de Maiev",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38715] = {
-        name = "O Guarda do Corvo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38717] = {
-        name = "Prisão Corvo Negro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38724] = {
-        name = "Amor Fraternal",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38719] = {
-        name = "Liberdade aos Illidari",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38721] = {
-        name = "O Tenente da Torre",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38889] = {
-        name = "Adoção do Adorável",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39015] = {
-        name = "Rabugento",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44555] = {
-        name = "A descoberta de Hadggar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39986] = {
-        name = "Mensagem mágica",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39987] = {
-        name = "Trilha de ecos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40008] = {
-        name = "A única saída é por dentro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40123] = {
-        name = "O pacto dos Filhos da Noite",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40009] = {
-        name = "Sede Arcana",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42229] = {
-        name = "Shal'Aran",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44672] = {
-        name = "Mana Ancestral",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40011] = {
-        name = "Oficina de Oculeth",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40747] = {
-        name = "A delicada arte da telemancia",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40748] = {
-        name = "Segurança de rede",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40830] = {
-        name = "Quase lá",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44691] = {
-        name = "Trabalho faminto",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40956] = {
-        name = "A pesquisa mostra que...",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40012] = {
-        name = "Um velho aliado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41149] = {
-        name = "Um esforço recompensador",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40326] = {
-        name = "Lembranças espalhadas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41702] = {
-        name = "Escrito em pedra",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41704] = {
-        name = "Cobaia 16",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41760] = {
-        name = "O legado de Kel'danath",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40010] = {
-        name = "Acessando os meridianos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41028] = {
-        name = "Rede de energia",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41138] = {
-        name = "Alimentando Shal'Aran",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40368] = {
-        name = "Com Poder da Tartaruga",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40348] = {
-        name = "Alguma coisa na água",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40370] = {
-        name = "O expurgo dos não limpos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41762] = {
-        name = "Simpatizantes entre os Shal'dorei",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41834] = {
-        name = "As máscaras que usamos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41989] = {
-        name = "Sangue do meu sangue",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42079] = {
-        name = "Baile de máscaras",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42147] = {
-        name = "Primeiro contato",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43811] = {
-        name = "Teleportador da Propriedade dos Lunastre ativo!",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40324] = {
-        name = "Comunhão arcana",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40325] = {
-        name = "Cenas de uma lembrança",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42224] = {
-        name = "Coberto pela Sombraluna",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42225] = {
-        name = "O rompimento dos selos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42226] = {
-        name = "O Discordante de Sombraluna",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42227] = {
-        name = "Fenda adentro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42228] = {
-        name = "A cidade secreta",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42230] = {
-        name = "O fardo do andarilho do vale",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44636] = {
-        name = "A formação de um exército",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43943] = {
-        name = "Treinamento do Exército dos Fenecidos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44561] = {
-        name = "Semente da esperança",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41877] = {
-        name = "Lady Lunastre",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [40746] = {
-        name = "Uma das pessoas",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [41148] = {
-        name = "Compaixão para todos",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [40947] = {
-        name = "Entrega especial",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [40745] = {
-        name = "Mudança de turno",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42722] = {
-        name = "Amigos enjaulados",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44051] = {
-        name = "Potencial desperdiçado",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42486] = {
-        name = "Pequenina perdida",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42487] = {
-        name = "Amigos do lado de fora",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42489] = {
-        name = "Gavetas de Thalyssra",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42488] = {
-        name = "Lar de Thalyssra",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [41878] = {
-        name = "A gondoleira",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40727] = {
-        name = "Ao longo dos cursos d'água",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42828] = {
-        name = "Mariposas na luz",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42829] = {
-        name = "Abrindo caminho",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42832] = {
-        name = "Os frutos do nosso trabalho",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42833] = {
-        name = "Como é feito: Vinho Arcano",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42834] = {
-        name = "Concentração intensa",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42835] = {
-        name = "Do jeito antigo",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42837] = {
-        name = "Equilíbrio para dar e vender",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42836] = {
-        name = "Sabotar a sedasa",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42838] = {
-        name = "Reversão",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [44084] = {
-        name = "Vingança por Margaux",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42839] = {
-        name = "Procure os desagradáveis",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [43969] = {
-        name = "Ajuda contratada",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42840] = {
-        name = "Se as palavras não funcionam...",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42841] = {
-        name = "Um grande golpe",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [43352] = {
-        name = "Segurança dos bens",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42792] = {
-        name = "Faça a sua marca",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [44052] = {
-        name = "E eles estremecerão",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43309] = {
-        name = "A oportunidade perfeita",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43311] = {
-        name = "Ou contra nós",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43315] = {
-        name = "A morte lhe cai bem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43313] = {
-        name = "Dizem rumores",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43310] = {
-        name = "Ou você está conosco",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43312] = {
-        name = "Ameaças veladas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44040] = {
-        name = "Voto de confiança",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43317] = {
-        name = "Na sacola",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43318] = {
-        name = "O campeão de Ly'leth",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44053] = {
-        name = "Amizade colorida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42490] = {
-        name = "O Arcâneo: abrindo o Arcâneo",
-        difficulty = "heroic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 113,
-        requiredLevel = 110,
-    },
-    [43314] = {
-        name = "Pátio das Estrelas: cuidado com a fúria de um elfo paciente",
-        difficulty = "heroic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 113,
-        requiredLevel = 110,
-    },
-    [42491] = {
-        name = "O Arcâneo: conhecimento há muito enterrado",
-        difficulty = "heroic",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 113,
-        requiredLevel = 110,
-    },
-    [44562] = {
-        name = "Ficando forte",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43813] = {
-        name = "Teleportador do Santuário da Ordem online!",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44152] = {
-        name = "Uma crise crescente",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43361] = {
-        name = "Fragmentos do desastre",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43360] = {
-        name = "As Damastilhas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44156] = {
-        name = "Outra Arcan'dor se fecha...",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40125] = {
-        name = "Ramo de Arcan'dor",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43362] = {
-        name = "O Pesadelo Esmeralda: do que os sonhos são feitos",
-        difficulty = "lfr",
-        tagID = QUEST_TAG_RAID,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43502] = {
-        name = "Uma mudança de estações",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43562] = {
-        name = "Dando nosso melhor",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43563] = {
-        name = "Projetor Efêmero Manavento",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43564] = {
-        name = "Controle de fluxo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43565] = {
-        name = "Trazendo o sinalizador de volta",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43566] = {
-        name = "Progresso fenecido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43567] = {
-        name = "Tudo ou nada",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43568] = {
-        name = "Arcan'dor, o presente do mago ancião",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43569] = {
-        name = "Pedido de Arluin",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45260] = {
-        name = "Um dia de cada vez",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38649] = {
-        name = "Silêncio na cidade",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38695] = {
-        name = "Sanções severas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38692] = {
-        name = "Se me atacar, eu vou atacar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38720] = {
-        name = "Sem motivo para ficar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38694] = {
-        name = "Reagrupar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42889] = {
-        name = "Estamos indo de volta para casa",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44955] = {
-        name = "Visitante em Shal'Aran",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45261] = {
-        name = "Continuando a cura",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44722] = {
-        name = "Desertora desiludida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44724] = {
-        name = "Pessoas desaparecidas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44723] = {
-        name = "Assim como eu",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44725] = {
-        name = "Mantido como refém",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44726] = {
-        name = "Mercado de almas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44727] = {
-        name = "Contrabando!",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44814] = {
-        name = "Refúgio minguante",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45262] = {
-        name = "Uma mensagem de Ly'leth",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44742] = {
-        name = "O destino do taberneiro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44752] = {
-        name = "Triangulação das essências",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44753] = {
-        name = "Para todo mundo ver",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44754] = {
-        name = "Lua brilhante",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44756] = {
-        name = "Símbolo do Lírio Crepuscular",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45316] = {
-        name = "Estabilidade em Suramar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45263] = {
-        name = "Lanche antes da reunião",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40391] = {
-        name = "Leve-me ao seu líder",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44844] = {
-        name = "O fim do portal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44843] = {
-        name = "Diga tchau, cristal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44834] = {
-        name = "Nulificado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44842] = {
-        name = "Escudo contra feitiço",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43810] = {
-        name = "Direto aos negócios",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44831] = {
-        name = "Passeio pelo Passeio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41916] = {
-        name = "Um futuro melhor",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44845] = {
-        name = "Queda de braço",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45265] = {
-        name = "Rebelião faminta",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44743] = {
-        name = "As ordens de Tyrande",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44870] = {
-        name = "Bocas para alimentar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44858] = {
-        name = "Você trolla como eu trollo?",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44928] = {
-        name = "Tem alguma coisa errada...",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44861] = {
-        name = "Armas ao rebeldes",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44827] = {
-        name = "Exército popular",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44829] = {
-        name = "Precisamos de armas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44830] = {
-        name = "Aprendendo com os mortos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44790] = {
-        name = "Julgamento demoníaco",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45266] = {
-        name = "Frente unida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44739] = {
-        name = "Prontos para a batalha",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44738] = {
-        name = "Todo o poder dos elfos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44740] = {
-        name = "Ponto de reagrupamento",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45317] = {
-        name = "Combate em todos os frontes",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45267] = {
-        name = "Antes do cerco",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44736] = {
-        name = "Portões do Baluarte da Noite",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44822] = {
-        name = "Investigação temporal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45209] = {
-        name = "Aqueles olhos videntes",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44832] = {
-        name = "A escolta e a passagem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44833] = {
-        name = "O poder da barreira",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45268] = {
-        name = "O conselheiro e o arcanista",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44918] = {
-        name = "Uma mensagem dos nossos inimigos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44919] = {
-        name = "O desafio dos nossos inimigos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45063] = {
-        name = "Os experimentos com almavil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45062] = {
-        name = "Resistência à prisão",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45067] = {
-        name = "Vastidão telemântica",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45065] = {
-        name = "Sondagem da cidade",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45066] = {
-        name = "Instabilidade experimental",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45064] = {
-        name = "Chega de Vilanescos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45269] = {
-        name = "O gosto da liberdade",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44964] = {
-        name = "Só vou deixar isso aqui",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44719] = {
-        name = "A invasão do Sacrário",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45417] = {
-        name = "O Baluarte da Noite: senhor do Concílio das Sombras",
-        difficulty = "lfr",
-        tagID = QUEST_TAG_RAID,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45372] = {
-        name = "Destino dos Filhos da Noite",
-        difficulty = "lfr",
-        tagID = QUEST_TAG_RAID,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44489] = {
-        name = "Lyana Umbramágoa",
-        level = 110,
-        requiredLevel = 110,
-        restrictions = {
-            {
-                type = "class",
-                class = 12,
-            },
-        },
-    },
-    [40297] = {
-        name = "Lyana Umbramágoa",
-        level = 110,
-        requiredLevel = 110,
-        restrictions = {
-            {
-                type = "class",
-                ids = {1,2,3,4,5,6,7,8,9,10,11},
-            },
-        },
-    },
-    [40307] = {
-        name = "Circunstâncias de Glaive",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40898] = {
-        name = "Carne Fresca",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44490] = {
-        name = "Asatemível, o Devorador",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40328] = {
-        name = "Uma sina pior do que morrer",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40929] = {
-        name = "Símbolos de poder",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41097] = {
-        name = "Estilhaço de Vorgos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41098] = {
-        name = "Estilhaço de Kozak",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40412] = {
-        name = "Azoran tem que morrer",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41575] = {
-        name = "Teleportador Almavil ativado!",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43594] = {
-        name = "Fonte do Meridiano: Salões do Eclipse",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41452] = {
-        name = "Frenesi felino",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41453] = {
-        name = "Vínculo fraterno",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41462] = {
-        name = "Mas que pés grandes você tem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41197] = {
-        name = "Tá miauchando com cara de bobo?",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41463] = {
-        name = "Perdido no caminho",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41464] = {
-        name = "Nunca, jamais",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41467] = {
-        name = "A opção que nos resta",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41473] = {
-        name = "Casco Vermelho, o Ancião",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41474] = {
-        name = "Adubo para o futuro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41475] = {
-        name = "Forcados e presas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41478] = {
-        name = "A bênção final",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41479] = {
-        name = "Adversários naturais",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41485] = {
-        name = "Resgate de Sileluna",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41480] = {
-        name = "Observador de Mana",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41469] = {
-        name = "Volte ao Retiro do Bosque de Ferro.",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41494] = {
-        name = "Nossos bosques têm mais vida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40883] = {
-        name = "Destino do guarda",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40949] = {
-        name = "Penúltimo recurso",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41030] = {
-        name = "Reivindicação de signo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40963] = {
-        name = "Pegue eles na garra",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40968] = {
-        name = "Reaver o Poder Roubado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41109] = {
-        name = "Aguardando vingança",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41108] = {
-        name = "Despeje a morte sobre eles",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40964] = {
-        name = "A Fissura",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40967] = {
-        name = "Pouca coisa de valor",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41032] = {
-        name = "Impeça os Perscrutadores de Feitiços",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40965] = {
-        name = "Plante minas, plante devastação",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40969] = {
-        name = "O Destino de Tece-estrelas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40970] = {
-        name = "O orquestrador de nossa morte",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40971] = {
-        name = "Distração irresistível",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40972] = {
-        name = "A resistência final da Guarda da Lua",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43808] = {
-        name = "Teleportador da Guarda da Lua ativado!",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40266] = {
-        name = "O conselheiro perdido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40744] = {
-        name = "Uma receita ancestral",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40227] = {
-        name = "Más intenções",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40300] = {
-        name = "Truques do ofício",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40306] = {
-        name = "O último capítulo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40578] = {
-        name = "Prestando Respeito",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40315] = {
-        name = "Fim da linha",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40319] = {
-        name = "O ingrediente final",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40321] = {
-        name = "Redenção dos Penacanto",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40308] = {
-        name = "Fragmentos da memória",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43809] = {
-        name = "Tel'anor'eportador ativado!",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40907] = {
-        name = "Retirando obstáculos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40908] = {
-        name = "Volte já, jarl",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40332] = {
-        name = "Fogueira na praia",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40320] = {
-        name = "Elo de irmãos de sangue",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40331] = {
-        name = "Mordida da Sashj'tar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40334] = {
-        name = "Tônico do pescador",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41034] = {
-        name = "Explorando os mares",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40927] = {
-        name = "A última esperança de Jandvik",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41426] = {
-        name = "Contra a vontade",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41709] = {
-        name = "Juntando as pontas soltas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41410] = {
-        name = "Pó seco",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41409] = {
-        name = "Na hora certa",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41606] = {
-        name = "Procurando Brytag",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40364] = {
-        name = "A maldição da bolha",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41618] = {
-        name = "O guardião dos mares",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41425] = {
-        name = "Inimigos submersos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41001] = {
-        name = "Acabe com as Sashj'tar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41499] = {
-        name = "Lula fora d'água",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40336] = {
-        name = "Quem com Senhora das Marés fere",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41215] = {
-        name = "Eles se tornam os caçados",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42223] = {
-        name = "Fazendo o reconhecimento da Mata Carmesim",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40617] = {
-        name = "Escolha uma estrada e não olhe para trás",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41230] = {
-        name = "Armadilha evoluída",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41216] = {
-        name = "A Lei da Selva",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41231] = {
-        name = "Predador-alfa",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43582] = {
-        name = "Parque Shalássico",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47221] = {
-        name = "A mão do destino",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [47835] = {
-        name = "A mão do destino",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [47222] = {
-        name = "Mar adentro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [47867] = {
-        name = "Mar adentro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [47223] = {
-        name = "O êxodo da Luz",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [47224] = {
-        name = "A Vindicaar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48440] = {
-        name = "Noite adentro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46938] = {
-        name = "Sozinho no abismo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47589] = {
-        name = "Fúria íntegra",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46297] = {
-        name = "Poder Subjugador",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48483] = {
-        name = "Faça o bem sem olhar a quem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47627] = {
-        name = "Vingança",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47641] = {
-        name = "Sinais de resistência",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46732] = {
-        name = "O truque do profeta",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46816] = {
-        name = "Encontro marcado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46839] = {
-        name = "Das trevas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46840] = {
-        name = "Prisioneiros nunca mais",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46841] = {
-        name = "Redução de ameaça",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46842] = {
-        name = "Um golpe no coração",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46843] = {
-        name = "Retorno à Vindicaar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48500] = {
-        name = "Um momento de trégua",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47431] = {
-        name = "Reunindo a Luz",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46213] = {
-        name = "Cristais vendidos separadamente",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40238] = {
-        name = "Uma equação sinistra",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47541] = {
-        name = "Prevenir é melhor que remediar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47508] = {
-        name = "Atire quando quiser",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47771] = {
-        name = "Atrás do Tirolongo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47526] = {
-        name = "Preparando o armamento pesado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47754] = {
-        name = "Levemente tostado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47653] = {
-        name = "O retorno da Luz",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47743] = {
-        name = "Filho da Luz e da Sombra",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [49143] = {
-        name = "Essência da Mãe da Luz",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47287] = {
-        name = "O Núcleo Matricial da Vindicaar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48559] = {
-        name = "Uma oferta de Luz",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48199] = {
-        name = "Coração Ardente",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48200] = {
-        name = "Ganhando terreno",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48201] = {
-        name = "Reforços no Ponto de Apoio da Luz",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48202] = {
-        name = "Reforçar o Covil Velado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47473] = {
-        name = "Avaliando a resistência",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48929] = {
-        name = "Avaliando a resistência",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47889] = {
-        name = "O Mensageiro chama",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47890] = {
-        name = "Visões do tormento",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47891] = {
-        name = "Notícias ruins",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47892] = {
-        name = "Ataque à cidadela",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47986] = {
-        name = "Cicatrizes do passado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47987] = {
-        name = "Medidas preventivas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47988] = {
-        name = "Teoria do caos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47991] = {
-        name = "Maquinações sombrias",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47990] = {
-        name = "Um toque de vileza",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47989] = {
-        name = "Arautos do apocalipse",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47992] = {
-        name = "Alvorada da justiça",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47993] = {
-        name = "Senhor do Pináculo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47994] = {
-        name = "Criando um vínculo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48081] = {
-        name = "A ruína flutuante",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46815] = {
-        name = "Mac'Aree, a Joia de Argus",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46818] = {
-        name = "Indefesos e apavorados",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46834] = {
-        name = "Khazaduum, o Primeiro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47066] = {
-        name = "Consagração do solo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46941] = {
-        name = "O caminho à frente",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47686] = {
-        name = "Um começo nada humilde",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47882] = {
-        name = "Conservação de magia",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47688] = {
-        name = "Espécies invasivas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47883] = {
-        name = "A mais longa vigília",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47689] = {
-        name = "Desafio do Guarda-pórtico: Tenacidade",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47685] = {
-        name = "Desafio do Guarda-pórtico: Astúcia",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47687] = {
-        name = "Desafio do Guarda-pórtico: Maestria",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47690] = {
-        name = "O legado do Profanador",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48107] = {
-        name = "O Signo do Despertar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48461] = {
-        name = "Onde eles menos esperam",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48344] = {
-        name = "Problema à vista",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47691] = {
-        name = "Organização sem fins proféticos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47854] = {
-        name = "Ira dos Altos-exarcas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47995] = {
-        name = "Operação secreta",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47853] = {
-        name = "Manobras de flanqueamento",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48345] = {
-        name = "Forças de Talgath",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47855] = {
-        name = "O que podia ter sido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47856] = {
-        name = "Por todo o universo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47416] = {
-        name = "A sombra do Triunvirato",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47238] = {
-        name = "Sede do Triunvirato",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40761] = {
-        name = "Sussurros de Oronaar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47101] = {
-        name = "Preces de Arkhaan",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47180] = {
-        name = "A loucura pulsante",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47100] = {
-        name = "A dor de Arkhaan",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47183] = {
-        name = "O plano de Arkhaan",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47184] = {
-        name = "O perigo de Arkhaan",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47203] = {
-        name = "Lavando a roupa suja",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47217] = {
-        name = "Fontes da escuridão",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47218] = {
-        name = "A incursão da Guarda Sombria",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47219] = {
-        name = "Pronta para a próxima",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47220] = {
-        name = "Um sinal na escuridão",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48560] = {
-        name = "Uma oferta de Sombra",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47654] = {
-        name = "Sede do Triunvirato: O Brasão do Conhecimento",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [49224] = {
-        name = "O Crisol de Eterluz",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46730] = {
-        name = "Exércitos da Queda da Legião",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46734] = {
-        name = "Ataque à Costa Partida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47067] = {
-        name = "Em busca do conhecimento perdido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46286] = {
-        name = "Suprimentos da Queda da Legião",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46832] = {
-        name = "Marco de Aalgen",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46845] = {
-        name = "Sítio da Vingança",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46499] = {
-        name = "Aranhas, é?",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46501] = {
-        name = "Roubando covas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46509] = {
-        name = "Saqueando a tumba",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46510] = {
-        name = "Cemitério de navios",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46511] = {
-        name = "Nós somos caçadores de tesouro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46666] = {
-        name = "O filão",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46245] = {
-        name = "Começar construção",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46772] = {
-        name = "A Torre dos Magos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46773] = {
-        name = "O Centro de Comando",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46774] = {
-        name = "O Disruptor Etéreo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46244] = {
-        name = "Altar da Égide",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46247] = {
-        name = "Defendendo as Ilhas Partidas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47137] = {
-        name = "Campeões de Queda da Legião",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46251] = {
-        name = "Treta etérea",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47139] = {
-        name = "Marca da Sentinax",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46248] = {
-        name = "Profecia infalível",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46252] = {
-        name = "Infestação intolerável",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46769] = {
-        name = "Fazendo a limpa",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46250] = {
-        name = "Cortar a cabeça...",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46249] = {
-        name = "Liderando a causa",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46246] = {
-        name = "Acabe com eles",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45379] = {
-        name = "Mestre dos Tesouros Iks'reeged",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40714] = {
-        name = "Chamado à guerra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40715] = {
-        name = "Um pacto de necessidade",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40740] = {
-        name = "Os Mortos e os Condenados",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38990] = {
-        name = "O Chamado da Coroa de Gelo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40930] = {
-        name = "Apocalipse",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40931] = {
-        name = "Seguindo a maldição",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40932] = {
-        name = "Perturbando o passado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40933] = {
-        name = "Uma tarefa horrível",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40934] = {
-        name = "Os Cavalgantes Negros",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40935] = {
-        name = "Clamor por vingança",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39757] = {
-        name = "Mantendo-se em vantagem",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39761] = {
-        name = "Entalhes avançados em runas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39832] = {
-        name = "Planos e preparativos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39799] = {
-        name = "Nossa próxima jogada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42449] = {
-        name = "Retorno dos Quatro Cavaleiros",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44550] = {
-        name = "Chamada ao Áquerus",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43264] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [39818] = {
-        name = "Campeão: Nazgrim",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [39816] = {
-        name = "Campeão: Thassarian",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43265] = {
-        name = "Espalhe a notícia",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43266] = {
-        name = "Recrutando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43267] = {
-        name = "Tropas em campo",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43539] = {
-        name = "Salanar, o Cavalgante",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43268] = {
-        name = "Dando uma garibada",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42533] = {
-        name = "O reino em ruínas",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42534] = {
-        name = "Nossos inimigos mais antigos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42535] = {
-        name = "Morte... e decomposição",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42536] = {
-        name = "Regicídio",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42537] = {
-        name = "O rei se ergue",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44243] = {
-        name = "Campeão: Thoras Matatroll",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42708] = {
-        name = "Um pedido pessoal",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44244] = {
-        name = "Campeão: Koltirus Tecemorte",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43899] = {
-        name = "Montarias dos malditos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44082] = {
-        name = "Cavaleiros da Lâmina de Ébano",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43571] = {
-        name = "Covil de Neltharion: trança do hipomonarca",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43572] = {
-        name = "Bosque Corenegro: o açoite do pesadelo",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44217] = {
-        name = "Armadura digna de um senhor da morte",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42818] = {
-        name = "O ataque escarlate",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42882] = {
-        name = "O massacre escarlate",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42821] = {
-        name = "Erguer um exército",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42823] = {
-        name = "O comandante escarlate",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42824] = {
-        name = "Ressurge a zelote",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44245] = {
-        name = "Campeão: Alta-inquisidora Cristalba",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43573] = {
-        name = "Apoiando o esforço de guerra",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43928] = {
-        name = "Agregando angústia",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44690] = {
-        name = "Sede de sangue",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44286] = {
-        name = "Câmara das Guardiãs: uma obra-prima de carne",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44246] = {
-        name = "Campeão: Pançapodre",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44282] = {
-        name = "Olho de Azshara: A alma congelada",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44247] = {
-        name = "Campeão: Amal'thazad",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43574] = {
-        name = "Gorja das Almas: malho dos mortos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43686] = {
-        name = "O Quarto Cavaleiro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44248] = {
-        name = "Campeão: Dárion Mograine",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43407] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39261] = {
-        name = "O Chamado dos Illidari",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40814] = {
-        name = "O Poder da Sobrevivência",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41120] = {
-        name = "Acordos Escusos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41121] = {
-        name = "A Qualquer Custo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41119] = {
-        name = "A Caçada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40247] = {
-        name = "Pedindo um favor",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41803] = {
-        name = "Pedindo um favor",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41804] = {
-        name = "Peça e você receberá",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41806] = {
-        name = "Fale novamente com Jace",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41807] = {
-        name = "Estabelecendo uma conexão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40249] = {
-        name = "A Vingança Será Nossa",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41863] = {
-        name = "A vingança será nossa",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42869] = {
-        name = "Vigília Eterna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42872] = {
-        name = "Protegendo o caminho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41033] = {
-        name = "O Retorno a Mardum",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41037] = {
-        name = "Poder descontrolado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41062] = {
-        name = "Espólios da Vitória",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41064] = {
-        name = "Forja Maldita dos Nathrezim",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44087] = {
-        name = "Volte ao Martelo Vil",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42671] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42677] = {
-        name = "Coisas que Gaardoun precisa",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42679] = {
-        name = "Guerreiros alquebrados",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42681] = {
-        name = "Loramus, é você?",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42683] = {
-        name = "Melhorias demoníacas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42682] = {
-        name = "Atavios Adicionais",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [37447] = {
-        name = "O sangue de demônios",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42510] = {
-        name = "Alma imortal",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42522] = {
-        name = "Líder dos Illidari",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42593] = {
-        name = "O caminho arcano",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42594] = {
-        name = "Mova-se como ninguém",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42921] = {
-        name = "Confronto no Templo Negro",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42665] = {
-        name = "Nas nossas fileiras",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42131] = {
-        name = "Visitantes inesperados",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42731] = {
-        name = "Trabalhando com as Guardiãs",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42801] = {
-        name = "De volta, de preto",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42787] = {
-        name = "Lidando diretamente com o problema",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42735] = {
-        name = "Malace nas Terras Vraikalen",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42736] = {
-        name = "Arruinando as runas",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42737] = {
-        name = "Arruinando as runas: Rollo Runskel",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42739] = {
-        name = "Arruinando as runas: Sábio das Runas Floki",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42738] = {
-        name = "Arruinando as runas: Senhor das Runas Ragnar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42749] = {
-        name = "Estranhos parceiros",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42752] = {
-        name = "Câmara das Guardiãs: invasão da câmara",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42775] = {
-        name = "O eixo do plano",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42776] = {
-        name = "Dois valorosos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42669] = {
-        name = "Preparativos para a invasão",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42802] = {
-        name = "Protegendo Mardum",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42808] = {
-        name = "Novos adeptos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44213] = {
-        name = "Você estará preparado!",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44694] = {
-        name = "Uma batalha de cada vez",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42733] = {
-        name = "Um combustível muito especial",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42732] = {
-        name = "Glaives de Guerra mais letais",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42754] = {
-        name = "Ativando a propulsão",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42810] = {
-        name = "A oferta final",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42920] = {
-        name = "A invasão de Niskara",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42132] = {
-        name = "E, finalmente...",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43186] = {
-        name = "Eu sou o assassino!",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44214] = {
-        name = "Mais uma coisinha...",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43412] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40643] = {
-        name = "Uma evocação da Clareira da Lua",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41106] = {
-        name = "Chamado das Selvas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40644] = {
-        name = "A Estrada Onírica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40645] = {
-        name = "Para o Bosque Onírico",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40646] = {
-        name = "Armas lendárias",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40783] = {
-        name = "A Foice de Eluna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40784] = {
-        name = "O lugar de direito",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40785] = {
-        name = "Um inimigo nas trevas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40834] = {
-        name = "Seguindo a maldição",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40835] = {
-        name = "Perturbando o passado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40837] = {
-        name = "A caçada do Vento Morto",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40838] = {
-        name = "Os Cavalgantes Negros",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42428] = {
-        name = "O altar de Ashamane",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42438] = {
-        name = "Sementes de renovação",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42439] = {
-        name = "Ajuda aos Druidas das Cinzas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42440] = {
-        name = "O santuário em perigo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42430] = {
-        name = "As presas de Ashamane",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41468] = {
-        name = "Dama da Garra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41782] = {
-        name = "Para as colinas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41783] = {
-        name = "Oferenda caídas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41790] = {
-        name = "A primeira provação de Ursol",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41791] = {
-        name = "A segunda provação de Ursol",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41792] = {
-        name = "A terceira provação de Ursol",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40647] = {
-        name = "Quando sonhos viram pesadelos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40649] = {
-        name = "Encontro com Mylune",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41422] = {
-        name = "Preparativos necessários",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41449] = {
-        name = "Junte-se à Sonhadora",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41436] = {
-        name = "Em sono profundo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41690] = {
-        name = "Reconciliação",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41689] = {
-        name = "Purificação da Árvore Mãe",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41918] = {
-        name = "O sonhador retorna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40651] = {
-        name = "A Semente das Eras",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41332] = {
-        name = "Ascensão no Círculo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40652] = {
-        name = "Boato dos ventos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40653] = {
-        name = "Deixando rastros",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42516] = {
-        name = "Poder crescente",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42583] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [40650] = {
-        name = "Campeã: Zen'tabra",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42096] = {
-        name = "Campeão: Naralex",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42584] = {
-        name = "Irmã Lilith",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42585] = {
-        name = "Recrutando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42586] = {
-        name = "Defesa da clareira",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [41413] = {
-        name = "O que poderia dar errado?",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42588] = {
-        name = "Expansão",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42032] = {
-        name = "Amostra do Pesadelo",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42031] = {
-        name = "Crescimento terrível",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42033] = {
-        name = "Refúgio de Malorne",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42034] = {
-        name = "Pegada do Pesadelo",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42035] = {
-        name = "Rastreamento do inimigo",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42036] = {
-        name = "Ídolo das Selvas",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42038] = {
-        name = "Campeão: Broll Mantursino",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42039] = {
-        name = "Campeã: Sylendra Verdecanto",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42037] = {
-        name = "Reunião dos Tece-sonhos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43991] = {
-        name = "Os protetores",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [40654] = {
-        name = "Druidas da Garra",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44077] = {
-        name = "Olho de Azshara: essência do equilíbrio",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44076] = {
-        name = "Bosque Corenegro: essência do recrescimento",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44075] = {
-        name = "Salões da Bravura: essência da ferocidade",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44074] = {
-        name = "Covil de Neltharion: essência da tenacidade",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44232] = {
-        name = "O bosque provê",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42040] = {
-        name = "O caminho para Nordrassil",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42042] = {
-        name = "Pequenininhos!",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42043] = {
-        name = "Limpeza geral",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42044] = {
-        name = "Um sonho de matar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42045] = {
-        name = "Comungando com Malorne",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42046] = {
-        name = "Um novo começo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42048] = {
-        name = "Campeão: Mylune",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42047] = {
-        name = "Campeão: Hamuul Runetotem",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43365] = {
-        name = "O ciclo continua",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42719] = {
-        name = "Olho de Azshara: purificando a Estrada Onírica",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42129] = {
-        name = "O Pingente de Luz Estelar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42049] = {
-        name = "Energizando o portal",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42365] = {
-        name = "Foco das energias",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42051] = {
-        name = "Entre no Pesadelo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43368] = {
-        name = "Campeã: Asaluz",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42050] = {
-        name = "Defensores do sonho",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42053] = {
-        name = "A Guerra dos Antigos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42055] = {
-        name = "O retorno do Semideus",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42056] = {
-        name = "Campeão: Remulos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43409] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42041] = {
-        name = "Resistindo ao Pesadelo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42054] = {
-        name = "Arquimonde, o Corruptor",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43403] = {
-        name = "Defendendo as ilhas",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42432] = {
-        name = "O Pesadelo Esmeralda: o Pesadelo Esmeralda",
-        difficulty = "lfr",
-        tagID = QUEST_TAG_RAID,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41047] = {
-        name = "Infusa em poder",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40958] = {
-        name = "Assuntos estratégicos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40959] = {
-        name = "A campanha começa",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42519] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [40957] = {
-        name = "Uma mão direita forte",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42409] = {
-        name = "Campeão: Loren Casco Feroz",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42523] = {
-        name = "Fazendo contato",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42524] = {
-        name = "Recrutando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42525] = {
-        name = "Tropas em campo",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42526] = {
-        name = "Dando uma garibada",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42384] = {
-        name = "Relatório dos Batedores",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [44257] = {
-        name = "Uma estrela cadente",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44009] = {
-        name = "Uma estrela cadente",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44004] = {
-        name = "Arauto da Luz",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43705] = {
-        name = "A resistência final de Nobambo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43483] = {
-        name = "Aniquilação Vil",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44153] = {
-        name = "O fardo da Luz",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44043] = {
-        name = "A lenda continua",
-        level = -1,
-        requiredLevel = 102,
-    },
-    [42385] = {
-        name = "Dando uma mão",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42386] = {
-        name = "Mais e mais problemas",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42387] = {
-        name = "Cilada para um assassino",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42388] = {
-        name = "Evocações urgentes",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42390] = {
-        name = "Recrutando Rexxar",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42389] = {
-        name = "Chamando Hilaire pra casa",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42391] = {
-        name = "Mordida da fera",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42411] = {
-        name = "Campeã: Senhora das Feras Hilaire",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42393] = {
-        name = "Retorno para casa",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43335] = {
-        name = "Habilidades de sobrevivência",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42392] = {
-        name = "Sobreviva à noite",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42410] = {
-        name = "Campeão: Rexxar",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42395] = {
-        name = "Problemas com sinais",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42394] = {
-        name = "Proteção Oculta",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42134] = {
-        name = "Recrutando mais tropas",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42436] = {
-        name = "Ajudando os nossos aliados",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42928] = {
-        name = "Bandagem de tramasseda",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42929] = {
-        name = "Salmão Altamontês",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42930] = {
-        name = "Costelões de Caça",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44233] = {
-        name = "Por aqui",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42403] = {
-        name = "Caçadores de Alta Montanha",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42397] = {
-        name = "Barão e o guarda-caça",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42413] = {
-        name = "Campeão: Rosarães Guima",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42414] = {
-        name = "Campeão: Addie Chiabrejo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42398] = {
-        name = "Despertar dos sentidos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42412] = {
-        name = "Campeão: Guarda-caça Blake",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42399] = {
-        name = "Pronto para trabalhar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42400] = {
-        name = "Magos desaparecidos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42401] = {
-        name = "O aroma da magia",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42404] = {
-        name = "Auxílio ao Arquimago",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42689] = {
-        name = "Conhecendo nosso inimigo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42691] = {
-        name = "Isca de Verme-meridiano",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42406] = {
-        name = "Para domar a fera",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42407] = {
-        name = "A natureza da fera",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42402] = {
-        name = "Solicitando reforços",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42405] = {
-        name = "Informando aos aliados",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42654] = {
-        name = "Bosque Corenegro: Carvalho do Pesadelo",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42655] = {
-        name = "Minério submarino",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43182] = {
-        name = "O recipiente desaparecido",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42408] = {
-        name = "Reagentes necessários",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44680] = {
-        name = "Liderando pelo exemplo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42656] = {
-        name = "Armamento Lazúli",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42657] = {
-        name = "Encontro no Vale Garralua",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42658] = {
-        name = "Encantamentos delicados",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42133] = {
-        name = "Entrega em menos de um dia",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42659] = {
-        name = "Em defesa de Dalaran",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42415] = {
-        name = "Campeã: Halduron Asaluz",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43423] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40832] = {
-        name = "Chamado dos destronados",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40839] = {
-        name = "A sombra final",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40840] = {
-        name = "Uma lâmina digna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42501] = {
-        name = "Serviço completo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42502] = {
-        name = "Sem refúgio",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42503] = {
-        name = "Decifrador de códigos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42539] = {
-        name = "Capa e Espada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42568] = {
-        name = "Preparação",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42504] = {
-        name = "A lâmina oculta",
-        level = -1,
-        requiredLevel = 98,
-        restrictions = {
-            {
-                type = "faction",
-                id = BTWQUESTS_FACTION_ID_ALLIANCE,
-            },
-        },
-    },
-    [42627] = {
-        name = "A lâmina oculta",
-        level = -1,
-        requiredLevel = 98,
-        restrictions = {
-            {
-                type = "faction",
-                id = BTWQUESTS_FACTION_ID_HORDE,
-            },
-        },
-    },
-    [40847] = {
-        name = "Um acordo amistoso",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40849] = {
-        name = "Os Alfanjes do Terror",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41919] = {
-        name = "As sombras revelam",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41920] = {
-        name = "Uma questão de classe",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41921] = {
-        name = "Aproximando",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41922] = {
-        name = "Traidor!",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41924] = {
-        name = "Presas do Devorador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40950] = {
-        name = "Em honra ao sucesso",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40994] = {
-        name = "As ferramentas certas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40995] = {
-        name = "Injetando poder",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43007] = {
-        name = "Volte à Câmara das Sombras",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42139] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42140] = {
-        name = "Uma colmeia ainda mais ignóbil de escória e vilania",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43013] = {
-        name = "Escola de ladinagem",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43014] = {
-        name = "Wolfe, o malvado",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43015] = {
-        name = "O que Winstone sugerir",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43958] = {
-        name = "Corpo de delito",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43829] = {
-        name = "Espião vs. Espião",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [44041] = {
-        name = "A verdade sangrenta",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44116] = {
-        name = "Mistério na Baía Citrina",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44155] = {
-        name = "Busca de pistas",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [40997] = {
-        name = "Eficiência letal",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40996] = {
-        name = "Delegando deveres",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44117] = {
-        name = "O tempo voa quando estamos bebendo rum!",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44177] = {
-        name = "Segredos obscuros e negócios sombrios",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44183] = {
-        name = "Campeão: Lorde Jorach Corvoforte",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43841] = {
-        name = "Convença o velho Yancey",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43852] = {
-        name = "Bucaneiros de fino trato",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44181] = {
-        name = "Campeão: Almirante de Frota Tethys",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42684] = {
-        name = "Despistando a AVIN",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43468] = {
-        name = "Sangue para Wolfe",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43253] = {
-        name = "Gorja das Almas: antigas lendas vraikalen",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43249] = {
-        name = "O Olho do Corvo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43250] = {
-        name = "Rumo ao Paço",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44252] = {
-        name = "Uma bainha para cada espada",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42730] = {
-        name = "O pedido rasoável de Nublacuca",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44178] = {
-        name = "Uma poção particularmente potente",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44180] = {
-        name = "Campeão: Marin Nublacuca",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43251] = {
-        name = "Em busca do Olho",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43252] = {
-        name = "Inquietação eterna",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42678] = {
-        name = "O Castelo Corvo Negro: o Castelo Corvo Negro",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42680] = {
-        name = "Decifrando a carta",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42800] = {
-        name = "Campeã: Valira Sanguinar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43469] = {
-        name = "Onde será que está Mathias?",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43470] = {
-        name = "Podando o jardim",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43479] = {
-        name = "O Mundo não é o bastante",
-        tagID = QUEST_TAG_GROUP,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43485] = {
-        name = "Uma distração ardente",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43508] = {
-        name = "O mestre espião cativo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [37666] = {
-        name = "Provocando uma briga",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [37448] = {
-        name = "Um plano simples",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [37494] = {
-        name = "Sob o manto das trevas",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [37689] = {
-        name = "O impostor",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43723] = {
-        name = "Campeão: Taoshi",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43724] = {
-        name = "Campeão: Mestre Mathias Shaw",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44215] = {
-        name = "Mais uma coisinha...",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43422] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40716] = {
-        name = "O sexto",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40729] = {
-        name = "O novo sangue",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40684] = {
-        name = "O Tomo dos Implementos Pestilentos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40495] = {
-        name = "Ulthalesh, a Ceifadora do Vento Morto",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40588] = {
-        name = "Seguindo a maldição",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40604] = {
-        name = "Perturbando o passado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40606] = {
-        name = "Naquela direção",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40611] = {
-        name = "O destino do Vento Morto",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40623] = {
-        name = "Os Cavalgantes Negros",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42128] = {
-        name = "Reagentes do ritual",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42168] = {
-        name = "Olhando para a escuridão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42125] = {
-        name = "Sussurros Sombrios",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43100] = {
-        name = "Encontre o cetro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43153] = {
-        name = "Um olho no cetro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43254] = {
-        name = "Arruinando o ritual",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40712] = {
-        name = "O poder possuído",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40731] = {
-        name = "O Coração de Chagamedo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40823] = {
-        name = "Reconstruindo o Concílio",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40824] = {
-        name = "Caminho dos Chagamedo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44099] = {
-        name = "Um amigo em comum",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42608] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42603] = {
-        name = "Informação a qualquer custo",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [41797] = {
-        name = "Recrutando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42602] = {
-        name = "Tropas em campo",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42601] = {
-        name = "Dando uma garibada",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42097] = {
-        name = "Vasculhando os arquivos",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [41759] = {
-        name = "Uma aliada improvável",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [39179] = {
-        name = "Bandido da Pedra-sangrenta",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [39389] = {
-        name = "Fome de Sangue",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [39142] = {
-        name = "Teste de teoria",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [40218] = {
-        name = "Dívida paga",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41767] = {
-        name = "Um resgate ousado",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41798] = {
-        name = "Precisa-se de mais tropas",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41752] = {
-        name = "Campeão: Zinnin Smythe",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41753] = {
-        name = "Campeã: Jubeka Quebrassombra",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42100] = {
-        name = "Potencializando a alma",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44254] = {
-        name = "Mirando para o oblívio",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42098] = {
-        name = "Castelo Corvo Negro: uma alma não reclamada",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41768] = {
-        name = "Sinalizador de alma",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41769] = {
-        name = "Nesto Doido, o alquimista",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41781] = {
-        name = "Pastoreando bodes",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41780] = {
-        name = "Destino e agonia",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41784] = {
-        name = "Com os dias contados",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41754] = {
-        name = "Campeão: Shinfel Jura de Praga",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41751] = {
-        name = "Campeã: Kira Iralma",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44682] = {
-        name = "Poder incomparável",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42660] = {
-        name = "Câmara das Guardiãs: questões do coração",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42103] = {
-        name = "Deixe se alimentar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42102] = {
-        name = "Alguém de valor",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41785] = {
-        name = "Procurando Crepistala",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41788] = {
-        name = "Arrancando uma confissão",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41787] = {
-        name = "A bagunça dos outros",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41793] = {
-        name = "Guadalupe emprestada",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41755] = {
-        name = "Campeã: Guadalupe Crepistala",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41795] = {
-        name = "Evocando as irmãs",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41756] = {
-        name = "Campeã: Gêmeas Eredar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41796] = {
-        name = "Escolhendo um Sexto",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43414] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41541] = {
-        name = "Expedição animal",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41574] = {
-        name = "Trovão roubado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42158] = {
-        name = "A Oficina do Criador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42185] = {
-        name = "Nunca cace sozinho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41540] = {
-        name = "Encontro com o mensageiro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40392] = {
-        name = "Chamado do Atirador Perito",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40419] = {
-        name = "Missão de resgate",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41542] = {
-        name = "Preparativos para a caça",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39427] = {
-        name = "A bênção do Espírito de Águia",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40385] = {
-        name = "A Lança nas Sombras",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38710] = {
-        name = "Uma reunião urgente",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40408] = {
-        name = "Armas Lendárias",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42231] = {
-        name = "O paladino misterioso",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42120] = {
-        name = "O Punho de Prata",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42000] = {
-        name = "Em busca da verdade",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42002] = {
-        name = "Para Nortúndria",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42005] = {
-        name = "O fim da saga",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42017] = {
-        name = "Santuário da Guarda Fiel",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42770] = {
-        name = "Em busca de orientação",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42772] = {
-        name = "Solo sagrado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42771] = {
-        name = "Mantendo a paz",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42773] = {
-        name = "A Luz Revela",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42774] = {
-        name = "A esperança não morre",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38376] = {
-        name = "A busca pelo grão-lorde",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38576] = {
-        name = "Nós nos encontraremos na Esperança da Luz",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38566] = {
-        name = "Uma força unida",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39722] = {
-        name = "A forja de novas forças",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38933] = {
-        name = "Questões de logística",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39756] = {
-        name = "Um plano sensato",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39696] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42846] = {
-        name = "A matriarca de sangue",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42847] = {
-        name = "Tempestades sombrias",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42848] = {
-        name = "Recrutando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42849] = {
-        name = "Ira e justiça",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42866] = {
-        name = "Um sinal celeste",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42867] = {
-        name = "Reunião do Punho de Prata",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42919] = {
-        name = "O legado do rebento",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42968] = {
-        name = "Comando do Grão-lorde",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42967] = {
-        name = "Comando do Grão-lorde",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42885] = {
-        name = "Comando do Grão-lorde",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42886] = {
-        name = "Para Faronaar",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42887] = {
-        name = "Isso que é retribuição",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43462] = {
-        name = "Mama Ozram",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42888] = {
-        name = "Orbes de comunicação",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42890] = {
-        name = "O Códice do Comando",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42852] = {
-        name = "Campeã: Justicar Julia Celeste",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42851] = {
-        name = "Campeão: Vindicante Boros",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43494] = {
-        name = "Cavaleiros do Punho de Prata",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44250] = {
-        name = "Campeão da Luz",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44218] = {
-        name = "Armamentos de campeão",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43486] = {
-        name = "Quebrando o códice",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43487] = {
-        name = "Ataque ao Castelo Violeta: o Léxico Vil",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43488] = {
-        name = "Sangue do nosso inimigo",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43535] = {
-        name = "Tradução: Perigo!",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43493] = {
-        name = "Castelo Corvo Negro: Senhor Cristacorvo",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43489] = {
-        name = "Para a Passagem Brasavil",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43490] = {
-        name = "O rastro de Aponi",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43491] = {
-        name = "Aliados da Luz",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43540] = {
-        name = "A mente do inimigo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43541] = {
-        name = "Unidos como um",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43492] = {
-        name = "Campeã: Aponi Crina Clara",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43934] = {
-        name = "Um novo caminho",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43933] = {
-        name = "Campeão: Delas Presaluna",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43699] = {
-        name = "Defensores do mundo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43698] = {
-        name = "Pedralúmen",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43534] = {
-        name = "Sangue de Sargeras",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43700] = {
-        name = "Uma luz na escuridão",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43697] = {
-        name = "Guerreiros da Luz",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43424] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43785] = {
-        name = "Campeão: Arator, o Redentor",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43701] = {
-        name = "Campeão: Lothráxion",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40569] = {
-        name = "A lenda das dunas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40633] = {
-        name = "Rumo à Aventura!",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40634] = {
-        name = "Trovão nas areias",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40570] = {
-        name = "Para o paraíso",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41003] = {
-        name = "O presente do imperador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42762] = {
-        name = "O Companheiro do Andarilho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42766] = {
-        name = "O enigma do barril",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42767] = {
-        name = "O enigma da terra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42957] = {
-        name = "Jornada ao oriente",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42868] = {
-        name = "O desafio do Rei Macaco",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42765] = {
-        name = "Provação no templo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41035] = {
-        name = "A súplica do Tempestavil",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41036] = {
-        name = "O prêmio do senhor do medo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41085] = {
-        name = "A arma de um mago",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40267] = {
-        name = "Uma mensagem inesperada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40270] = {
-        name = "O caminho da expiação",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [11997] = {
-        name = "A chama congelada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42001] = {
-        name = "Aluneth, o Grande Cajado de Magna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42006] = {
-        name = "Uma nova ameaça",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42007] = {
-        name = "Um inimigo esquecido",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42008] = {
-        name = "Olhos do dragão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42009] = {
-        name = "Controlando o Arcano",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42010] = {
-        name = "Arcano liberado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42011] = {
-        name = "A Câmara do Nexus",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42452] = {
-        name = "Procurando Ébano Gélido",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42455] = {
-        name = "Gemas de Alodi",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42476] = {
-        name = "O Sítio de Vento Morto",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42477] = {
-        name = "Daio, o Decrépito",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42479] = {
-        name = "O Caça-magos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41114] = {
-        name = "O retorno do campeão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41125] = {
-        name = "Potencial desbloqueado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41112] = {
-        name = "O grande Akazamzarak",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41113] = {
-        name = "Viagem de primeira classe",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41124] = {
-        name = "O renascimento do Tirisgarde",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41141] = {
-        name = "O dever de um conjurador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42663] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42685] = {
-        name = "Campeã: Arquimaga Modera",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42662] = {
-        name = "Campeão: Arquimago Kalec",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42703] = {
-        name = "Feitiçaria técnica",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42126] = {
-        name = "Arquimaga Omniara",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42127] = {
-        name = "Acumulando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42696] = {
-        name = "Dando uma guaribada",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42433] = {
-        name = "Magia Ancestral",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42418] = {
-        name = "Um visitante inesperado",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42434] = {
-        name = "Uma operação sigilosa",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42435] = {
-        name = "Prepare-se para ser assimilado",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42166] = {
-        name = "O que está acontecendo aqui?",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42206] = {
-        name = "Momento de superioridade",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42149] = {
-        name = "Certos conhecimentos não deveriam ser compartilhados",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42171] = {
-        name = "Saída final",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42222] = {
-        name = "Relato da Sociedade Empírea",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42706] = {
-        name = "Campeã: Esara Verrinde",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42705] = {
-        name = "Campeão: Ravandwyr",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44098] = {
-        name = "Recrutamento de aprendizes",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42451] = {
-        name = "Plano de Kalec",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44240] = {
-        name = "Laranja é o novo roxo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42954] = {
-        name = "Um pequeno favor",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42955] = {
-        name = "O jeito certo das coisas",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42956] = {
-        name = "O pacote de Ari",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42959] = {
-        name = "Três é um número de sorte",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42704] = {
-        name = "Campeão: Destruidor Arcano",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44689] = {
-        name = "O poder do Tirisgarde",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42508] = {
-        name = "Não é um dragão sem dente",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42521] = {
-        name = "O inimigo de meu inimigo...",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42494] = {
-        name = "Mais que um mero comerciante de comida",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42702] = {
-        name = "Campeão: Millhouse Manavento",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42493] = {
-        name = "Ruína imineeeeeente!",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42520] = {
-        name = "Uma perda terrível",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42707] = {
-        name = "Olho de Azshara: um suplício mágico",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42940] = {
-        name = "Quando a vontade não falta, abre-se um caminho",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42734] = {
-        name = "Óculus adentro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42917] = {
-        name = "Campeão: Arquimago Vargoth",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42914] = {
-        name = "Campeão: Meryl Tempestavil",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43415] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40705] = {
-        name = "Assuntos sacerdotais",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40706] = {
-        name = "Uma lenda que você pode sustentar",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40710] = {
-        name = "Lâmina no crepúsculo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41957] = {
-        name = "A súplica do vindicante",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41966] = {
-        name = "A casa chama",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41967] = {
-        name = "Saído das trevas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41993] = {
-        name = "Salvação das Alturas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42074] = {
-        name = "Retorno da Luz",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41625] = {
-        name = "A Ira da Luz",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41626] = {
-        name = "Uma nova ameaça",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41627] = {
-        name = "Um inimigo esquecido",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41628] = {
-        name = "Olhos do dragão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41629] = {
-        name = "Controlando o fogo sagrado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41630] = {
-        name = "Deflagrar julgamento",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41632] = {
-        name = "Uma dádiva do tempo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40938] = {
-        name = "A Luz e o Caos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41015] = {
-        name = "Artefatos exigem artífices",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41017] = {
-        name = "Potencializando o seu artefato",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41019] = {
-        name = "Ações em Azeroth",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43270] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43271] = {
-        name = "Campeã: Calia Menethil",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43272] = {
-        name = "Campeã: Alta-sacerdotisa Ishanah",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43275] = {
-        name = "Recrutando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43276] = {
-        name = "Tropas em campo",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43277] = {
-        name = "Dando uma garibada",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43371] = {
-        name = "Ajudando as linhas de frente",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43372] = {
-        name = "Sussurros no caos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43373] = {
-        name = "O melhor e mais brilhante",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43374] = {
-        name = "Controle mental Murloc",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43375] = {
-        name = "Um suprimento amplo",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43376] = {
-        name = "Mitigando o problema",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42137] = {
-        name = "Campeã: Yalia Sábio Sussurro",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42138] = {
-        name = "Campeão: Zabra Gatta",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43378] = {
-        name = "Olho de Azshara: olhando através das lentes",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43379] = {
-        name = "A visão de Velen",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43851] = {
-        name = "Precisa-se de mais tropas",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43384] = {
-        name = "Runas demoníacas",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43377] = {
-        name = "Salões da Bravura: a luz de dentro",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43383] = {
-        name = "Despertando a Luz",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43380] = {
-        name = "Campeã: Sol",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43385] = {
-        name = "Infiltrando nossos inimigos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44251] = {
-        name = "Palavra de Poder: Armadura",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43386] = {
-        name = "Enviado da ofensiva",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43387] = {
-        name = "Redenção escarlate",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43388] = {
-        name = "Liberação apóstata",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43389] = {
-        name = "Convidados inesperados",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43381] = {
-        name = "Campeã: Protetora Mariella",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43390] = {
-        name = "Sombras esquecidas",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43391] = {
-        name = "Segredos do caos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43392] = {
-        name = "Caos adentro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43382] = {
-        name = "Campeã: Natália Selina",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43394] = {
-        name = "Cruzando linhas da Legião",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43396] = {
-        name = "A mente do inimigo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43395] = {
-        name = "Aliados da Luz",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43397] = {
-        name = "Unidos como um",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43797] = {
-        name = "Ajuda ao Conclave",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43400] = {
-        name = "Pedralumem",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43399] = {
-        name = "Fortificando o templo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43832] = {
-        name = "Elixires de ajuda",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43401] = {
-        name = "Uma luz na escuridão",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43398] = {
-        name = "Campeão: Alonso Faol",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43402] = {
-        name = "Sumo Sacerdote de Eterluz",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43420] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42814] = {
-        name = "Uma missão importante",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41052] = {
-        name = "Um pedido desesperado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40579] = {
-        name = "Armas Lendárias",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41105] = {
-        name = "A Espada dos Reis",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40043] = {
-        name = "O caçador de heróis",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39191] = {
-        name = "Legado do Quebragelo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39530] = {
-        name = "A forja",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39192] = {
-        name = "A Forja de Odyn",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39214] = {
-        name = "O Olho de Odyn",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40585] = {
-        name = "E assim começa a guerra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42597] = {
-        name = "Convocação de Odyn",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42484] = {
-        name = "A ascensão do Primeiro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42598] = {
-        name = "Campeões da Fortaleza Celeste",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42606] = {
-        name = "Campeã: Finna Bjornsdottir",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42605] = {
-        name = "Campeão: Ragnvald Filho de Draco",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42607] = {
-        name = "Capitão Stahlstrom",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42609] = {
-        name = "Recrutando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42610] = {
-        name = "Tropas em campo",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42611] = {
-        name = "Einar, o Lança-runa",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42193] = {
-        name = "O Gjallarhorn",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42650] = {
-        name = "Quebre os vínculos",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42651] = {
-        name = "A promessa de Svergan",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42107] = {
-        name = "No rastro do grande verme",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42614] = {
-        name = "Campeão: Svergan Manto Tempestuoso",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42110] = {
-        name = "Ao topo!",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42204] = {
-        name = "Jorhuttam",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43585] = {
-        name = "Preparativos de guerra",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43975] = {
-        name = "Recrutamento de damas escudeiras",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44255] = {
-        name = "Machadinha quando nasce...",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43586] = {
-        name = "Gorja das Almas: mensagem para Helya",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44667] = {
-        name = "Vontade dos Valarjares",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42918] = {
-        name = "Runas demoníacas",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42616] = {
-        name = "Campeão: Dvalen Runaferro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42618] = {
-        name = "Campeão: Thorim",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43506] = {
-        name = "Castelo Corvo Negro: poder maior",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43577] = {
-        name = "Capturando o portal",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42974] = {
-        name = "O destino de Hodir",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42619] = {
-        name = "Campeão: Hodir",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43425] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39746] = {
-        name = "Um círculo intacto",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43334] = {
-        name = "A Tormenta Vindoura",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43338] = {
-        name = "O códice de Ra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39771] = {
-        name = "A Voz do Trovão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43644] = {
-        name = "Às profundezas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43645] = {
-        name = "Na trilha da Falaondas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40341] = {
-        name = "Trono das Marés: poder de Azshara",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42931] = {
-        name = "Onde Cai o Martelo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42932] = {
-        name = "O que a Petramáter sabe",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42933] = {
-        name = "O trogg que assolou a terra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42935] = {
-        name = "O resgate dos dracos de pedra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42936] = {
-        name = "Jogada apertada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42937] = {
-        name = "Surra em Pedragulha",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40224] = {
-        name = "O Martelo nas profundezas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40225] = {
-        name = "Um anel reforjado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40276] = {
-        name = "A voragem atrai",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41510] = {
-        name = "Azeroth precisa de você",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44544] = {
-        name = "Chamado da Harmonia Telúrica",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42188] = {
-        name = "Nobambo aguarda",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42114] = {
-        name = "Ritual das Marés",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42383] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42198] = {
-        name = "Campeã: Tempestária Mylra",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42197] = {
-        name = "Campeão: Duque Hidráxis",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42141] = {
-        name = "Evocador Morn",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42142] = {
-        name = "Recrutando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [41741] = {
-        name = "Tropas em campo",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [41740] = {
-        name = "Dando uma guaribada",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42184] = {
-        name = "Missão: diplomacia elemental",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [44101] = {
-        name = "Suprimento largado",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [42977] = {
-        name = "Servo do Perseguidor dos Ventos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43002] = {
-        name = "Lâmina sagrada do Perseguidor dos Ventos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41770] = {
-        name = "Pelos céus",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41771] = {
-        name = "Recarregando a lâmina",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41776] = {
-        name = "Retorno do Senhor dos Ventos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41742] = {
-        name = "Campeão: Celestos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41743] = {
-        name = "Campeão: Nobambo",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44465] = {
-        name = "Recrutando arautos da terra",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42986] = {
-        name = "Inimigos do ar",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42996] = {
-        name = "O Pilar da Voragem: ar",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42983] = {
-        name = "Essência mistral",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42984] = {
-        name = "Olho de Azshara: o Cetro das Tempestades",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [44253] = {
-        name = "Uma visão do triunfo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41901] = {
-        name = "Profecia do Senhor do Vento",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42200] = {
-        name = "Missão: Investigando o Geodomo",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41775] = {
-        name = "A grande Petramáter",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42068] = {
-        name = "O retorno do Crepúsculo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41777] = {
-        name = "Destruindo o culto",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41897] = {
-        name = "O plano do mestre",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41898] = {
-        name = "Liberando os elementos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41899] = {
-        name = "Mantenha na prisão!",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42065] = {
-        name = "O Mestre do Crepúsculo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41900] = {
-        name = "Uma promessa da Terra",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41746] = {
-        name = "Campeão: Muln Terrafúria",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41747] = {
-        name = "Campeão: Avalanchion",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42208] = {
-        name = "Retorno às Terras do Fogo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41772] = {
-        name = "Ascendente das Chamas",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42988] = {
-        name = "Emenda-mundo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42995] = {
-        name = "Fome de sangue",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43003] = {
-        name = "Fale novamente com Janai",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42990] = {
-        name = "Covil de Neltharion: o amuleto terrano",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41773] = {
-        name = "O comando do Senhor do Fogo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41934] = {
-        name = "A marca da danação",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41888] = {
-        name = "Aliança de chama",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41744] = {
-        name = "Campeão: Rehgar Fúria da Terra",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41745] = {
-        name = "Campeão: Scaldius",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43418] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [46791] = {
-        name = "Levado pelo vento",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46792] = {
-        name = "Junção das tempestades",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46260] = {
-        name = "Mesclar-se às sombras",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46827] = {
-        name = "Mesclar-se às sombras",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45833] = {
-        name = "A baía dos piratas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45571] = {
-        name = "Um pouco de espionagem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45835] = {
-        name = "Ordens falsas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45573] = {
-        name = "Erga-se",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45576] = {
-        name = "Erga-se",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45836] = {
-        name = "O chamado de Jorach",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46326] = {
-        name = "O chamado de Jorach",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45628] = {
-        name = "Desta vez, deixe uma trilha",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45629] = {
-        name = "Desta vez, deixe uma trilha",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45073] = {
-        name = "Saque e pilhagem!",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45848] = {
-        name = "Digno de um pirata",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44758] = {
-        name = "Qual é o pó?",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46059] = {
-        name = "Campeã: Tess Greymane",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46058] = {
-        name = "Campeã: Lilian Voss",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46103] = {
-        name = "Infiltradores medonhos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46089] = {
-        name = "Bem debaixo do nariz",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45524] = {
-        name = "O herdeiro esquecido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44782] = {
-        name = "Longe de olhares curiosos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45525] = {
-        name = "Perguntas sem resposta",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44821] = {
-        name = "Em sérios apuros",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46340] = {
-        name = "Os portões estão fechados",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46744] = {
-        name = "Poder maior para ameaças maiores",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45522] = {
-        name = "Silenciar os parlaossos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47000] = {
-        name = "O chamado do Conselho",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45523] = {
-        name = "Domar o Drekirjar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45486] = {
-        name = "A rainha relutante",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46765] = {
-        name = "Costa Partida: Investigando a Legião",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45526] = {
-        name = "A fúria da Deusa-Rainha",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46079] = {
-        name = "Ajuda às linhas de frente",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46080] = {
-        name = "Aquietando os espíritos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46082] = {
-        name = "O retorno de Cantonegro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46106] = {
-        name = "Arrancando as cabeças",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46107] = {
-        name = "Fonte da corrupção",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46035] = {
-        name = "O fim do perigo reanimado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46200] = {
-        name = "Assunto resolvido... por ora...",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45415] = {
-        name = "Entre mundos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45414] = {
-        name = "Confirmando suspeitas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45843] = {
-        name = "Prenúncios sombrios",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45413] = {
-        name = "Coletando informações",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45416] = {
-        name = "O retorno do grão-lorde",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45193] = {
-        name = "Um passo atrás",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45188] = {
-        name = "A sabedoria do Conselho",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45190] = {
-        name = "Onde é mais fina",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45185] = {
-        name = "Mensagem das sombras",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45187] = {
-        name = "Segredos dos esgotos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45192] = {
-        name = "Runas dilacerantes",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46127] = {
-        name = "Dando jeito nos gêmeos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46327] = {
-        name = "Negociando com as sombras",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45916] = {
-        name = "O acólito ameaçado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45917] = {
-        name = "Seguindo o cheiro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46065] = {
-        name = "Inimigo impossível",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45125] = {
-        name = "Se metendo com demônios",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45126] = {
-        name = "Sedução improvável",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45127] = {
-        name = "Amantes de vil sorte",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44925] = {
-        name = "Fechando o olho",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44920] = {
-        name = "Ordem de encantamentos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44924] = {
-        name = "O arquimago pressionado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46177] = {
-        name = "A um portal de distância",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44915] = {
-        name = "Visual profissional",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45564] = {
-        name = "Os pássaros ardentes",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45587] = {
-        name = "A ameaça dos Totem Vil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45575] = {
-        name = "Vila dos corruptores",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45627] = {
-        name = "Queda do Totem Vil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45726] = {
-        name = "O pântano maculado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45841] = {
-        name = "Relatório triunfante",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45796] = {
-        name = "Destruindo o ninho",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47052] = {
-        name = "Retribuição: O destino dos Mareskárnio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45482] = {
-        name = "Arcano: Destino dos Mareskárnio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47051] = {
-        name = "Assassinato: O destino dos Mareskárnio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47050] = {
-        name = "Aperfeiçoamento: O destino dos Mareskárnio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47049] = {
-        name = "Demonologia: O destino dos Mareskárnio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47018] = {
-        name = "Domínio das Feras: Ribombos perto de Totem Vil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45560] = {
-        name = "Destruição: Ribombos perto de Totem Vil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47020] = {
-        name = "Disciplina: Ribombos perto de Totem Vil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47019] = {
-        name = "Andarilho do Vento: Ribombos perto de Totem Vil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46078] = {
-        name = "Sagrado: A investigação de Bradensbrook",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47003] = {
-        name = "Restauração: A investigação de Bradensbrook",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47004] = {
-        name = "Restauração: A investigação de Bradensbrook",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47005] = {
-        name = "Tecelão da Névoa: A investigação de Bradensbrook",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47006] = {
-        name = "Sagrado: A investigação de Bradensbrook",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44914] = {
-        name = "Armas: O aprendiz larápio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47046] = {
-        name = "Gélido: O aprendiz larápio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47043] = {
-        name = "Devastação: O aprendiz larápio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47048] = {
-        name = "Subterfúgio: O aprendiz larápio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47047] = {
-        name = "Sobrevivência: O aprendiz larápio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45182] = {
-        name = "Gelo: O gêmeo do mal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47037] = {
-        name = "Equilíbrio: O gêmeo do mal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47039] = {
-        name = "Precisão: O gêmeo do mal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47041] = {
-        name = "Suplício: O gêmeo do mal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47042] = {
-        name = "Sombra: O gêmeo do mal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45412] = {
-        name = "Proteção: Ajuda dos Illidari",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46314] = {
-        name = "Vingança: Procurando Kor'vas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47022] = {
-        name = "Proteção: Ajuda dos Illidari",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47023] = {
-        name = "Guardião: Ajuda dos Illidari",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47024] = {
-        name = "Mestre Cervejeiro: Ajuda dos Illidari",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47025] = {
-        name = "Sangue: Ajuda dos Illidari",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45123] = {
-        name = "Elemental: A tolice de Levia Lourenço",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47059] = {
-        name = "Feral: A tolice de Levia Lourenço",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47055] = {
-        name = "Fire: The Folly of Levia Laurence",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47056] = {
-        name = "Fúria: A tolice de Levia Lourenço",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47058] = {
-        name = "Fora da Lei: A tolice de Levia Lourenço",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47057] = {
-        name = "Profano: A tolice de Levia Lourenço",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45842] = {
-        name = "Dádiva dos Seis",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45861] = {
-        name = "Dádiva dos Seis",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45862] = {
-        name = "Dádiva dos Seis",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45863] = {
-        name = "Dádiva dos Seis",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45864] = {
-        name = "Dádiva dos Seis",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45865] = {
-        name = "Dádiva dos Seis",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45866] = {
-        name = "Dádiva dos Seis",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46812] = {
-        name = "Segredos dracônicos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46813] = {
-        name = "A Geleira Perdida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46719] = {
-        name = "A mensagem de Amal'thazad",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46720] = {
-        name = "Memórias congeladas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44775] = {
-        name = "O pico dos ossos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44783] = {
-        name = "Dos ossos, eles se erguem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45331] = {
-        name = "Retorno a Áquerus",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45399] = {
-        name = "Rachando os sveldrek",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45243] = {
-        name = "Nas asas de Daumyr",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46050] = {
-        name = "Campeã: Minerva Melancorvo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44787] = {
-        name = "A Madre-osso",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45240] = {
-        name = "Fazendo preparativos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45103] = {
-        name = "Agora cavalgamos!",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45398] = {
-        name = "Dominando poder",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46305] = {
-        name = "Chama de Thorim",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44337] = {
-        name = "Que a deusa zele por você",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44479] = {
-        name = "Legado dos Cristacorvo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44448] = {
-        name = "Na casa de luz e sombras",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44464] = {
-        name = "Os despertares",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44466] = {
-        name = "Um caminho incerto",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45177] = {
-        name = "O Baluarte da Noite",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44480] = {
-        name = "Na casa do meu pai",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44481] = {
-        name = "Destino não cumprido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44497] = {
-        name = "Destino não cumprido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45176] = {
-        name = "Provação da Bravura: o único e futuro Lorde das Sombras",
-        difficulty = "lfr",
-        tagID = QUEST_TAG_RAID,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45175] = {
-        name = "Prisma da alma dos Illidari",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45174] = {
-        name = "A caçada por Illidan Tempesfúria",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45329] = {
-        name = "Operação: Portais",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45330] = {
-        name = "Grupo de batedores",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45301] = {
-        name = "Assumindo o comando",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45339] = {
-        name = "Defesa do Martelo Vil",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45385] = {
-        name = "Precisamos estar preparados!",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45798] = {
-        name = "War'zuul, o Provocador",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46159] = {
-        name = "Mensagem urgente",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45391] = {
-        name = "Campeã: Lady S'theno",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46725] = {
-        name = "Falta de energia",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46266] = {
-        name = "O retorno do assassino",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45764] = {
-        name = "Restaurando o equilíbrio",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46334] = {
-        name = "Um olho só... e vil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45532] = {
-        name = "Ordens da mãe",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44888] = {
-        name = "Graça de Aviana",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46674] = {
-        name = "A preservação da natureza",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46044] = {
-        name = "Campeã: Tessália Corvina",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46675] = {
-        name = "Rastreando um demônio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45498] = {
-        name = "Deixa quieto",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44921] = {
-        name = "Lobo solitário",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44869] = {
-        name = "Terror da Garra",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44877] = {
-        name = "Ataque ao Galinheiro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45425] = {
-        name = "Vínculo do bosque",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46676] = {
-        name = "Toque da natureza",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45426] = {
-        name = "Avanço da natureza",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45528] = {
-        name = "As tumbas conspurcadas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46924] = {
-        name = "O conto do lobo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46677] = {
-        name = "Todo cardo tem espinhos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46319] = {
-        name = "Você não pode tirar o céu de mim",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46318] = {
-        name = "Defesa de Aviana",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46317] = {
-        name = "O chamado da Garra",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45554] = {
-        name = "Assumindo o controle",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45555] = {
-        name = "Feras aviltadas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45556] = {
-        name = "Pronto para atacar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45557] = {
-        name = "Consequências sobrenaturais",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46060] = {
-        name = "Salvação",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45551] = {
-        name = "Efeitos devastadores",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45552] = {
-        name = "Feridas reconfortantes",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46235] = {
-        name = "Ambiente reforçado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45553] = {
-        name = "O chamado da Caçanoite",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46048] = {
-        name = "Campeã: Caçanoite Syrenne",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46336] = {
-        name = "Bilhete dourado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46337] = {
-        name = "Noite das Selvas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [41008] = {
-        name = "De caçador para caçador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41009] = {
-        name = "De caçador para caçador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41415] = {
-        name = "O chamado do caçador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40952] = {
-        name = "De caçador para caçador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40953] = {
-        name = "Nas asas das águias",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40384] = {
-        name = "As necessidades dos caçadores",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44090] = {
-        name = "Juras de lealdade",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [40955] = {
-        name = "Juramento de serviço",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40618] = {
-        name = "Armas lendárias",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41053] = {
-        name = "Altar da Caça Eterna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40954] = {
-        name = "O Caminho Oculto",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [45404] = {
-        name = "Pânico na cervejaria",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45442] = {
-        name = "Não me sinto bem",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46320] = {
-        name = "Esperança de cura",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45459] = {
-        name = "Atacando a Legião",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45790] = {
-        name = "Campeã: Almai",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45574] = {
-        name = "Ingredientes vis",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45440] = {
-        name = "Uma situação fervilhante",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45545] = {
-        name = "Lançamento de barril",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45771] = {
-        name = "Uma hora para tudo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45449] = {
-        name = "Alquimista Korlya",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46349] = {
-        name = "Lírios para Ryuli",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46342] = {
-        name = "Retorno ao Pico Partido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46350] = {
-        name = "O julgamento de Ban-Lu",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46343] = {
-        name = "O rastro de Ban-Lu",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46344] = {
-        name = "Sorte-sim do Fu Tum",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46353] = {
-        name = "Mestre quem?",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46346] = {
-        name = "A sombra de Ban-Lu",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46347] = {
-        name = "Tirando os Sha do caminho",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46348] = {
-        name = "O rio de Ban-Lu",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46341] = {
-        name = "A história de Ban-Lu",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46705] = {
-        name = "Retaliação",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46335] = {
-        name = "A Câmara do Tirisgarde",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45251] = {
-        name = "Redundância",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46338] = {
-        name = "Solução criativa",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46339] = {
-        name = "Guardião da Chave Orlis",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46000] = {
-        name = "Armando Dalaran",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45630] = {
-        name = "Servant to No One",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46345] = {
-        name = "Dentro da colmeia",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44766] = {
-        name = "Plano B",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44768] = {
-        name = "Oficina de Nyell",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46722] = {
-        name = "Nada nas minhas mangas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46351] = {
-        name = "O segredo do negócio é o segredo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46290] = {
-        name = "O retorno do Arquimago",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46043] = {
-        name = "Campeão: Aethas Fendessol",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45207] = {
-        name = "O aprendiz filho da noite",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46724] = {
-        name = "Campeão: O Grande Akazamzarak",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46723] = {
-        name = "Na toca do coelho",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45614] = {
-        name = "Lady Remor'za",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45615] = {
-        name = "Achado não é roubado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45437] = {
-        name = "Situação de urgência",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45586] = {
-        name = "Amplificação de escudo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44770] = {
-        name = "Segredos dos Shal'dorei",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45354] = {
-        name = "Dispersão dos discos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45846] = {
-        name = "Gelado até a alma",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45845] = {
-        name = "Queimando por dentro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45847] = {
-        name = "Perto de casa",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45844] = {
-        name = "A ocupação de Antônidas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42423] = {
-        name = "Retiro do Arquimago Vargoth",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42424] = {
-        name = "Seguir os passos",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42416] = {
-        name = "O Conselho está em deliberação",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42187] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42210] = {
-        name = "Pergaminhos do conhecimento",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [40793] = {
-        name = "Questão de planejamento",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40636] = {
-        name = "Preparar para atacar",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41905] = {
-        name = "Notícias do Monastério de Tian",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [40698] = {
-        name = "Pureza de formato",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42191] = {
-        name = "Dando uma garibada",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [40795] = {
-        name = "A luta tem início",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [12103] = {
-        name = "Antes da tempestade",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41945] = {
-        name = "Tianji, praticante do método do boi",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [40236] = {
-        name = "A Luz da Alvorada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42186] = {
-        name = "Poder crescente",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [41946] = {
-        name = "Acumulando tropas",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [41039] = {
-        name = "Conhecimento roubado",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41087] = {
-        name = "Cerva Tempestuosa",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [43359] = {
-        name = "Uma arma heroica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [32442] = {
-        name = "Perigo iminente",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41730] = {
-        name = "Ataque desesperado",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43151] = {
-        name = "Fazendo negócios",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41038] = {
-        name = "A mestre do hidromel",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41907] = {
-        name = "Apropriações",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41040] = {
-        name = "Salões da Bravura: o mestre cervejeiro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41909] = {
-        name = "Rastreamento dos Mareskárnio",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41910] = {
-        name = "Fonte de Freya",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41849] = {
-        name = "O Punho de Ferro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41850] = {
-        name = "O mestre de espadas",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41851] = {
-        name = "Segurando a onda",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41728] = {
-        name = "A defesa do Monastério de Tian",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [43062] = {
-        name = "Mais treinamento",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41854] = {
-        name = "Tijolo por tijolo",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41731] = {
-        name = "Tempestade, Terra e Fogo",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41732] = {
-        name = "A Mão de Keletress",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41733] = {
-        name = "Reconstruindo a Ordem",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41911] = {
-        name = "Lúpulo amarantino",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41086] = {
-        name = "Um mundo pacífico",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41736] = {
-        name = "Campeão: Angus Punho de Ferro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41737] = {
-        name = "Campeão: Hiro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41738] = {
-        name = "Campeão: Sylara Cantaço",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41739] = {
-        name = "Campeã: Aegira",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41729] = {
-        name = "Atraso na destruição",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41059] = {
-        name = "Salões da Bravura: caldeirão de Odyn",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41852] = {
-        name = "Monge nenhum abandonado",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41853] = {
-        name = "Dá zero pro Hiro",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46034] = {
-        name = "Campeã: Aelthalyste",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45345] = {
-        name = "Duendes traquinas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45788] = {
-        name = "O mensageiro aguarda",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45346] = {
-        name = "Espécimes vacilantes",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45789] = {
-        name = "A câmara sucumbida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45347] = {
-        name = "Criando uma cura",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45348] = {
-        name = "Segurança",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45349] = {
-        name = "Rumo à Costa Partida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45342] = {
-        name = "Administrando ajuda",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45350] = {
-        name = "Combatendo o contágio",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45343] = {
-        name = "Um contágio curioso",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46145] = {
-        name = "Ambiente estéril",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45344] = {
-        name = "Amostra da fonte",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42844] = {
-        name = "Poder crescente",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [42850] = {
-        name = "Dar uma guaribada",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [39654] = {
-        name = "Odyn e os Valarjares",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43604] = {
-        name = "Gorja das Almas: lâmina quebrada de Ymiron",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42815] = {
-        name = "De volta à Costa Partida",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38904] = {
-        name = "De volta à Costa Partida",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42194] = {
-        name = "Honra roubada",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43750] = {
-        name = "O chamado da batalha",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43090] = {
-        name = "Juramento de Ulduar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42202] = {
-        name = "Vingança, um prato que se come frio",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [42989] = {
-        name = "Ma'haat, o Indomável",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [42997] = {
-        name = "O Pilar da Voragem: terra",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41335] = {
-        name = "Os elementos chamam...",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [45794] = {
-        name = "Informando o Conselho",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46020] = {
-        name = "Contenção do cristal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45024] = {
-        name = "O fim do culto",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45025] = {
-        name = "Roubando a fonte de poder",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45026] = {
-        name = "Gastando energia vil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45027] = {
-        name = "Rumo à Costa Partida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45028] = {
-        name = "O destino de Kanrethad",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45021] = {
-        name = "Respostas desconhecidas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46047] = {
-        name = "Campeão: Kanrethad Ebanez",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40821] = {
-        name = "Poder esmagador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [46241] = {
-        name = "Os lacaios de Hel'nurath",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46243] = {
-        name = "Corcel Iracundo de Zoroth",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46238] = {
-        name = "Se você construir",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46240] = {
-        name = "Movido a sangue",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46242] = {
-        name = "O chamado do senhor do medo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46237] = {
-        name = "Carta de Trazangre",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46239] = {
-        name = "Vil até o cerne",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46259] = {
-        name = "O dilema da neromante",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45770] = {
-        name = "Perturbação nas sombras",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46071] = {
-        name = "O martelo de Dalaran",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45143] = {
-        name = "O julgamento aguarda",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46045] = {
-        name = "Campeão: Nerus Presa Lunar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46074] = {
-        name = "Do couro ao lendário",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46070] = {
-        name = "Preparativos em andamento",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45145] = {
-        name = "Relíquias da família Presa Lunar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46083] = {
-        name = "Antes, algumas coisinhas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45146] = {
-        name = "Leitura rúnica",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46069] = {
-        name = "Digno do título",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45147] = {
-        name = "Destruição da Pedravil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45890] = {
-        name = "Ancestrais e inimigos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45148] = {
-        name = "Quebrador de Juramento",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44496] = {
-        name = "Destino não cumprido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45149] = {
-        name = "Quebrando a maldição do crescente",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [43273] = {
-        name = "Espalhe a notícia",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [44100] = {
-        name = "Devidas apresentações",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [43393] = {
-        name = "Sombras nascentes",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44849] = {
-        name = "Recrutamento",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46267] = {
-        name = "O retorno do Senhor da Batalha",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44850] = {
-        name = "Armando o exército",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45128] = {
-        name = "Reencontro glorioso",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [44889] = {
-        name = "Gerenciamento de recursos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46207] = {
-        name = "A Provação da Raiva",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46208] = {
-        name = "Convite divino",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46173] = {
-        name = "Planejamento tático",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45648] = {
-        name = "Desaparecido em ação: Lorde Darius Crowley",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45634] = {
-        name = "Kvaldir a postos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45649] = {
-        name = "Missão: busca e resgate",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45650] = {
-        name = "Operação Raiva Vil",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45118] = {
-        name = "O berrante de Helya",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45876] = {
-        name = "Campeão: Lorde Darius Crowley",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45834] = {
-        name = "Almas roubadas",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45652] = {
-        name = "Um \"humilde\" pedido",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45765] = {
-        name = "Irmãos e irmãs",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45706] = {
-        name = "O poder de milhares",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46057] = {
-        name = "Campeã: Magatha Temível Totem",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45767] = {
-        name = "Núcleos elementais",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44800] = {
-        name = "Contra a vontade de Magatha",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45723] = {
-        name = "A ira da Bruxa Má",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45971] = {
-        name = "Fenômeno infernal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45724] = {
-        name = "Serpentes e pedras",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46258] = {
-        name = "A calmaria após a tempestade",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45725] = {
-        name = "Rompendo os grilhões",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45763] = {
-        name = "Rompimento demoníaco",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45769] = {
-        name = "Conflagração",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [45883] = {
-        name = "A ofensa do Senhor do Fogo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40730] = {
-        name = "Redistribuição",
-        level = 113,
-        requiredLevel = 110,
-    },
-    [38035] = {
-        name = "Convocação real",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39735] = {
-        name = "Trommheim",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39864] = {
-        name = "Trommheim",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44700] = {
-        name = "Stormheim",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44701] = {
-        name = "Stormheim",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38206] = {
-        name = "A ronda",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39800] = {
-        name = "Gambito de Greymane",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38312] = {
-        name = "O lança-gancho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39590] = {
-        name = "À frente da competição",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39848] = {
-        name = "Troca desesperada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40003] = {
-        name = "Contenção de Torrente",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39122] = {
-        name = "O fim do novo começo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38412] = {
-        name = "Sobre o luar de inverno",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39059] = {
-        name = "A Captura da Banshee",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39063] = {
-        name = "Escudos e segredos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38817] = {
-        name = "Restos régios",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39837] = {
-        name = "Tarefa indigna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39591] = {
-        name = "A provação da bravura",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39595] = {
-        name = "Sangue e ouro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39853] = {
-        name = "A vitória é eterna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39857] = {
-        name = "A nêmesis eterna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38210] = {
-        name = "As antigas provações",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40004] = {
-        name = "Ataque à Coluna Dorsal",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38778] = {
-        name = "Vire as chaves",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38405] = {
-        name = "Proteção contra a tempestade",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40568] = {
-        name = "Fúria da Tempestade",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38413] = {
-        name = "Asas da liberdade",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38036] = {
-        name = "Suprimento dos céus",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39060] = {
-        name = "Contágio combustível",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38810] = {
-        name = "O fungo que sonha",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38052] = {
-        name = "Fogo no céu",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38818] = {
-        name = "O julgamento final",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38060] = {
-        name = "Sinal amplificado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39592] = {
-        name = "A provação da vontade",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39850] = {
-        name = "Fenda",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39092] = {
-        name = "Tornando-se o ascendente",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38342] = {
-        name = "Outro Caminho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38473] = {
-        name = "Vontade dos Thorignir",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40001] = {
-        name = "Batendo na porta da bravura",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40005] = {
-        name = "A Salvação de Trommheim",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38624] = {
-        name = "Trovoada!",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39652] = {
-        name = "Onde os dragões dominam",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39791] = {
-        name = "Descansem em paz",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39803] = {
-        name = "As Provações Prosseguem",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38410] = {
-        name = "À prova de arpoadas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38414] = {
-        name = "Coração de Dragão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39061] = {
-        name = "Sussurros da escuridão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38811] = {
-        name = "Dia do julgamento",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38815] = {
-        name = "O despertar da Dama Escudeira",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38057] = {
-        name = "A legião perdida",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38823] = {
-        name = "As runas que prendem",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39593] = {
-        name = "O vigia despedaçado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39597] = {
-        name = "A bênção dos vigias",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39855] = {
-        name = "Pagamento em sangue vital",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38339] = {
-        name = "Alga errada não está certa",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38347] = {
-        name = "Alga furtiva acontecendo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40002] = {
-        name = "Destino Familiar",
-        level = -1,
-        requiredLevel = 98,
-    },
     [38324] = {
         name = "Algo além de alga",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40078] = {
-        name = "Um fardo pesado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39594] = {
-        name = "A provação do poder",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39472] = {
-        name = "Arranque o coração",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39788] = {
-        name = "A vingança da Mata Rúnica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39062] = {
-        name = "Para Skold-Ashil",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39796] = {
-        name = "Rumo a Haustvald",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38053] = {
-        name = "Você não bateria em mim, bateria?",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39804] = {
-        name = "Falando em Ossos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38059] = {
-        name = "Tá formigando tudo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39851] = {
-        name = "Aliança na morte",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39849] = {
-        name = "Iluminando o caminho",
         level = -1,
         requiredLevel = 98,
     },
@@ -8499,23 +506,8 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [38808] = {
-        name = "Bjornharta",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38558] = {
-        name = "O Tal Cristal",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38816] = {
-        name = "A chacina dos Parlaossos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38058] = {
-        name = "Para-raios",
+    [38332] = {
+        name = "O Senhor dos Patrulheiros",
         level = -1,
         requiredLevel = 98,
     },
@@ -8524,437 +516,18 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [38616] = {
-        name = "Ninguém me escama, ninguém me quer",
+    [38339] = {
+        name = "Alga errada não está certa",
         level = -1,
         requiredLevel = 98,
     },
-    [38318] = {
-        name = "Olha, mãe, sem asas!",
+    [38342] = {
+        name = "Outro Caminho",
         level = -1,
         requiredLevel = 98,
     },
-    [39405] = {
-        name = "Histórias de batalha",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40072] = {
-        name = "Salões da Bravura: obtendo a égide",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40961] = {
-        name = "A Fonte de Dalaran",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [40960] = {
-        name = "Pérola luminosa",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41010] = {
-        name = "Frenesi de Peixe",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [42692] = {
-        name = "Filhos de Nar'thalas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42694] = {
-        name = "De volta dos mortos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37779] = {
-        name = "Meridiano da vida",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37728] = {
-        name = "Apresentação É Tudo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42693] = {
-        name = "Você nunca sabe até usar a clarividência",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37466] = {
-        name = "A academia partida",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37727] = {
-        name = "O Magíster da Mixologia",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37492] = {
-        name = "Uma Longa Caminhada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37495] = {
-        name = "A Pilhagem do Covil",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42220] = {
-        name = "Marinheiros náufragos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42268] = {
-        name = "Marinheiros náufragos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42104] = {
-        name = "O Hipomonarca se aproxima",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40594] = {
-        name = "A justiça vem de cima",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39588] = {
-        name = "Eles pagarão com sangue",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38915] = {
-        name = "A batalha da Chapada Nevada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39025] = {
-        name = "Os punhos do Hipomonarca",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39027] = {
-        name = "Dargrul e o martelo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39777] = {
-        name = "Contra o relógio",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39661] = {
-        name = "Caverna Fontevita",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38907] = {
-        name = "Os guardiões do martelo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38909] = {
-        name = "Subida para um terreno elevado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38911] = {
-        name = "A tribo dos Crina Corrente",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38913] = {
-        name = "A tribo dos Chifre Celeste",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39860] = {
-        name = "Rito de Sangue",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39043] = {
-        name = "O Enclave Mordepedra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39990] = {
-        name = "A guerra de Huln: Reforços",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39614] = {
-        name = "Peixe fora d'água",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39490] = {
-        name = "Infestação",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39429] = {
-        name = "Ataque às Terras das Bruxas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39776] = {
-        name = "A batalha dos vermes",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39496] = {
-        name = "O fluir do rio",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39498] = {
-        name = "Águas Bravias",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39374] = {
-        name = "Audiência com Torok",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39862] = {
-        name = "Cercolesk",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42088] = {
-        name = "Removendo o Boneco de Neve",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40388] = {
-        name = "A guerra de Huln: Cantonegro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39992] = {
-        name = "A guerra de Huln: Os Nathrezim",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39321] = {
-        name = "As três",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40520] = {
-        name = "Para ver o passado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39577] = {
-        name = "Um segredo ancestral",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39579] = {
-        name = "A Porta dos Fundos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39455] = {
-        name = "Caverna da Prova de Sangue",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39488] = {
-        name = "Equilíbrio dos Elementos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39575] = {
-        name = "O Caminho de Huln",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39272] = {
-        name = "Plantações Envenenadas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40219] = {
-        name = "A despeito do Asa da Morte",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39780] = {
-        name = "O Hipomonarca",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39026] = {
-        name = "Os drogbar",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39988] = {
-        name = "A guerra de Huln: Tempesfúria",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40112] = {
-        name = "A guerra de Huln: O favorito de Malorne",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39983] = {
-        name = "A guerra de Huln: A chegada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40167] = {
-        name = "A história de Huln",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38910] = {
-        name = "Rocas x águias",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38912] = {
-        name = "A tribo dos Totem de Sangue",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39733] = {
-        name = "A Montanha Solitária",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38916] = {
-        name = "Os segredos da Alta Montanha",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40515] = {
-        name = "Uma caminhada com os espíritos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39487] = {
-        name = "Fúria de Cristal",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39489] = {
-        name = "Invasores na caverna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39491] = {
-        name = "Ormgul, o Pestilento",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39426] = {
-        name = "Dívida de sangue",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39873] = {
-        name = "Mau pressentimento",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39425] = {
-        name = "Cristal Pedrescura",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39373] = {
-        name = "Quem tem pena de bruxa velha?",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39391] = {
-        name = "Rochas de Estimação",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39381] = {
-        name = "Missões perigosas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39316] = {
-        name = "Taurens Presos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39318] = {
-        name = "Lambendo as feridas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39372] = {
-        name = "Bruxa do Bosque",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39322] = {
-        name = "A Bruxa-Rainha",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39387] = {
-        name = "Os Céus de Alta Montanha",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39578] = {
-        name = "Briga de Titãs",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39580] = {
-        name = "A Grande Chefe",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39456] = {
-        name = "Aliados inesperados",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39277] = {
-        name = "Borrifando geral",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42512] = {
-        name = "Alta Montanha resiste",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39781] = {
-        name = "Covil de Neltharion",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38332] = {
-        name = "O Senhor dos Patrulheiros",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39698] = {
-        name = "A ronda",
+    [38347] = {
+        name = "Alga furtiva acontecendo",
         level = -1,
         requiredLevel = 98,
     },
@@ -8968,11 +541,6 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [38307] = {
-        name = "O chamado da Chefe Guerreira",
-        level = -1,
-        requiredLevel = 98,
-    },
     [38360] = {
         name = "O destino do Correventos",
         level = -1,
@@ -8983,13 +551,78 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [39801] = {
-        name = "A Frota Estilhaçada",
+    [38362] = {
+        name = "Troféu macabro",
         level = -1,
         requiredLevel = 98,
     },
-    [38362] = {
-        name = "Troféu macabro",
+    [38372] = {
+        name = "Irmãs Ignóbeis",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38376] = {
+        name = "A busca pelo grão-lorde",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38377] = {
+        name = "A Rainha Esmeralda",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38381] = {
+        name = "Arquidruida da História",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38382] = {
+        name = "Arquidruida do Vale",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38384] = {
+        name = "O Chamado da Natureza",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38405] = {
+        name = "Proteção contra a tempestade",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38407] = {
+        name = "Engarrafado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38410] = {
+        name = "À prova de arpoadas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38412] = {
+        name = "Sobre o luar de inverno",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38413] = {
+        name = "Asas da liberdade",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38414] = {
+        name = "Coração de Dragão",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38443] = {
+        name = "Jornada Rumo ao Repouso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38455] = {
+        name = "Pelursos Pancadas",
         level = -1,
         requiredLevel = 98,
     },
@@ -8998,83 +631,58 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 98,
     },
-    [38618] = {
-        name = "Sobre o luar de inverno",
+    [38460] = {
+        name = "Vamos Fazer um Acordo",
         level = -1,
         requiredLevel = 98,
     },
-    [38613] = {
-        name = "Olha, mãe, sem asas!",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38615] = {
-        name = "À prova de arpoadas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38617] = {
-        name = "Outro caminho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38612] = {
-        name = "O lança-gancho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38614] = {
-        name = "Proteção contra a tempestade",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38611] = {
+    [38473] = {
         name = "Vontade dos Thorignir",
         level = -1,
         requiredLevel = 98,
     },
-    [39385] = {
-        name = "Um presente para Greymane",
-        level = -1,
-        requiredLevel = 98,
+    [38499] = {
+        name = "Novos minérios estranhos",
+        level = 100,
+        requiredLevel = 100,
     },
-    [38872] = {
-        name = "A ordem da Dama Sombria",
-        level = -1,
-        requiredLevel = 98,
+    [38500] = {
+        name = "Maestria em Forja Meridional",
+        level = 102,
+        requiredLevel = 102,
     },
-    [39154] = {
-        name = "Para Skold-Ashil",
-        level = -1,
-        requiredLevel = 98,
+    [38501] = {
+        name = "Martelagem espiródia",
+        level = 100,
+        requiredLevel = 100,
     },
-    [39153] = {
-        name = "Dilema Trilhamedo",
-        level = -1,
-        requiredLevel = 98,
+    [38502] = {
+        name = "Os métodos dos noctívoros",
+        level = 100,
+        requiredLevel = 100,
     },
-    [38878] = {
-        name = "Escudos e segredos",
-        level = -1,
-        requiredLevel = 98,
+    [38505] = {
+        name = "Engenheiros: não são TÃO inúteis assim",
+        level = 102,
+        requiredLevel = 102,
     },
-    [38873] = {
-        name = "Sai do convés!",
-        level = -1,
-        requiredLevel = 98,
+    [38506] = {
+        name = "Arranhão de galinha",
+        level = 102,
+        requiredLevel = 102,
     },
-    [39155] = {
-        name = "Tornando-se o ascendente",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38882] = {
-        name = "Uma nova vida para os mortos-vivos",
-        level = -1,
-        requiredLevel = 98,
+    [38507] = {
+        name = "Os segredos da Forja Meridional",
+        level = 102,
+        requiredLevel = 102,
     },
     [38513] = {
         name = "Os ferreiros de Alta Montanha",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [38514] = {
+        name = "Você não é digno",
         level = 104,
         requiredLevel = 104,
     },
@@ -9083,73 +691,13 @@ BtWQuests_Quests = {
         level = 102,
         requiredLevel = 102,
     },
-    [38519] = {
-        name = "Peso cinza",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [38523] = {
-        name = "Ferraduras de Pedra de Meridiano",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [38525] = {
-        name = "Membro da equipe",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [44449] = {
-        name = "Têmpera avançada",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39726] = {
-        name = "... E a bigorna",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [38531] = {
-        name = "Maestria de pedra de meridiano",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38533] = {
-        name = "Conhecimento Tribal",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39681] = {
-        name = "As propriedades da pedra de meridiano",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [38559] = {
-        name = "Digno da pedra",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38563] = {
-        name = "Colhedores de flor e bebedores de poção",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [38502] = {
-        name = "Os métodos dos noctívoros",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [38506] = {
-        name = "Arranhão de galinha",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [38514] = {
-        name = "Você não é digno",
-        level = 104,
-        requiredLevel = 104,
-    },
     [38518] = {
         name = "De um mestre para outro",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [38519] = {
+        name = "Peso cinza",
         level = 104,
         requiredLevel = 104,
     },
@@ -9158,13 +706,28 @@ BtWQuests_Quests = {
         level = 106,
         requiredLevel = 106,
     },
+    [38523] = {
+        name = "Ferraduras de Pedra de Meridiano",
+        level = 106,
+        requiredLevel = 106,
+    },
     [38524] = {
         name = "Forjavil Nal'ryssa",
         level = 110,
         requiredLevel = 110,
     },
+    [38525] = {
+        name = "Membro da equipe",
+        level = 110,
+        requiredLevel = 110,
+    },
     [38526] = {
         name = "Ferreiro frito",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38527] = {
+        name = "A técnica de Nal'ryssa",
         level = 110,
         requiredLevel = 110,
     },
@@ -9178,169 +741,1607 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
-    [39729] = {
-        name = "O conhecimento do Corvo Negro",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [48053] = {
-        name = "Levantar âncora",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [39680] = {
-        name = "Entre o martelo e...",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [38833] = {
-        name = "A arte do demonaço",
+    [38531] = {
+        name = "Maestria de pedra de meridiano",
         level = 110,
         requiredLevel = 110,
     },
     [38532] = {
         name = "Gorja das Almas: martelada da tempestade",
         difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
-    [39699] = {
-        name = "Forja meridional chifre de ferro",
-        level = 104,
-        requiredLevel = 104,
+    [38533] = {
+        name = "Conhecimento Tribal",
+        level = 110,
+        requiredLevel = 110,
     },
-    [38499] = {
-        name = "Novos minérios estranhos",
-        level = 100,
-        requiredLevel = 100,
+    [38558] = {
+        name = "O Tal Cristal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38559] = {
+        name = "Digno da pedra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38563] = {
+        name = "Colhedores de flor e bebedores de poção",
+        level = 102,
+        requiredLevel = 102,
     },
     [38564] = {
         name = "Uma ótima troca",
         level = 108,
         requiredLevel = 108,
     },
+    [38566] = {
+        name = "Uma força unida",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38576] = {
+        name = "Nós nos encontraremos na Esperança da Luz",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38582] = {
+        name = "A velhos amigos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38595] = {
+        name = "A fúria de Malfurion",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38611] = {
+        name = "Vontade dos Thorignir",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38612] = {
+        name = "O lança-gancho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38613] = {
+        name = "Olha, mãe, sem asas!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38614] = {
+        name = "Proteção contra a tempestade",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38615] = {
+        name = "À prova de arpoadas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38616] = {
+        name = "Ninguém me escama, ninguém me quer",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38617] = {
+        name = "Outro caminho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38618] = {
+        name = "Sobre o luar de inverno",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38624] = {
+        name = "Trovoada!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38641] = {
+        name = "O Templo de Eluna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38643] = {
+        name = "Uma Aldeia em Perigo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38644] = {
+        name = "As Fazendas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38645] = {
+        name = "Os Filhos da Noite",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38646] = {
+        name = "Um Colírio para os Olhos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38647] = {
+        name = "Pelo Milho!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38649] = {
+        name = "Silêncio na cidade",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38655] = {
+        name = "A Raiz do Problema",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38656] = {
+        name = "A Marca do Demônio",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38662] = {
+        name = "Lágrimas da deusa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38663] = {
+        name = "Os dados foram lançados",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38671] = {
+        name = "Perdido no toque de retirada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38672] = {
+        name = "A Fuga",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38684] = {
+        name = "Lendo as folhas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38687] = {
+        name = "Tão perto que já dá para tocar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38689] = {
+        name = "Infusão Vil",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38690] = {
+        name = "A Ascensão dos Illidari",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38691] = {
+        name = "A Missão de Jared",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38692] = {
+        name = "Se me atacar, eu vou atacar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38694] = {
+        name = "Reagrupar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38695] = {
+        name = "Sanções severas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38710] = {
+        name = "Uma reunião urgente",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38711] = {
+        name = "O Sinete da Guardiã",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38714] = {
+        name = "O Rastro de Maiev",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38715] = {
+        name = "O Guarda do Corvo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38716] = {
+        name = "Castelo Corvo Negro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38717] = {
+        name = "Prisão Corvo Negro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38718] = {
+        name = "Kur'talos Cristacorvo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38719] = {
+        name = "Liberdade aos Illidari",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38720] = {
+        name = "Sem motivo para ficar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38721] = {
+        name = "O Tenente da Torre",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38723] = {
+        name = "Detenha Gul'dan!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [38724] = {
+        name = "Amor Fraternal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38725] = {
+        name = "A Creche Nefasta",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38727] = {
+        name = "Interrompa o Bombardeio",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38728] = {
+        name = "A Pedra-chave",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38729] = {
+        name = "O Retorno ao Templo Negro",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38743] = {
+        name = "O Destino de Val'sharah",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38748] = {
+        name = "Ruínas de Shala'nir",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38753] = {
+        name = "O Rastro do Demônio",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38759] = {
+        name = "Libertação",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38765] = {
+        name = "O Exército Illidari: Shivarra",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38766] = {
+        name = "Antes que nos Destruam",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [38778] = {
+        name = "Vire as chaves",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38808] = {
+        name = "Bjornharta",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38810] = {
+        name = "O fungo que sonha",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38811] = {
+        name = "Dia do julgamento",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38813] = {
+        name = "Ordens para os Capitães",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38815] = {
+        name = "O despertar da Dama Escudeira",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38816] = {
+        name = "A chacina dos Parlaossos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38817] = {
+        name = "Restos régios",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38818] = {
+        name = "O julgamento final",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38819] = {
+        name = "Eles São Legião",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [38823] = {
+        name = "As runas que prendem",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38833] = {
+        name = "A arte do demonaço",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38834] = {
+        name = "Ao Combate",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38842] = {
+        name = "Uma dragoleta incomoda muita gente",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38857] = {
+        name = "Um Favor para o Sr. Grilhão",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38862] = {
+        name = "Folhacardo Afanador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38872] = {
+        name = "A ordem da Dama Sombria",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38873] = {
+        name = "Sai do convés!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38878] = {
+        name = "Escudos e segredos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38882] = {
+        name = "Uma nova vida para os mortos-vivos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38904] = {
+        name = "De volta à Costa Partida",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38907] = {
+        name = "Os guardiões do martelo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38909] = {
+        name = "Subida para um terreno elevado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38910] = {
+        name = "Rocas x águias",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38911] = {
+        name = "A tribo dos Crina Corrente",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38912] = {
+        name = "A tribo dos Totem de Sangue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38913] = {
+        name = "A tribo dos Chifre Celeste",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38915] = {
+        name = "A batalha da Chapada Nevada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38916] = {
+        name = "Os segredos da Alta Montanha",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38922] = {
+        name = "Peludinho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38933] = {
+        name = "Questões de logística",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [38944] = {
+        name = "Que a costura comece",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [38945] = {
+        name = "É pra ser fácil... né?",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [38946] = {
+        name = "Consultando os moradores da região",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [38947] = {
+        name = "Categute Rúnico",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [38948] = {
+        name = "Tempos difíceis",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [38949] = {
+        name = "Então você acha que pode costurar",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [38950] = {
+        name = "O alfaiate caprichoso",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [38951] = {
+        name = "Uma agulha necessária",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [38952] = {
+        name = "Precisão meticulosa",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [38953] = {
+        name = "Costura avançada",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [38954] = {
+        name = "Cadê Lyndras?",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [38955] = {
+        name = "Entrando na linha",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [38956] = {
+        name = "Cadê Lyndras de novo?",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [38957] = {
+        name = "Em busca de inspiração",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [38958] = {
+        name = "A cor certa",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [38959] = {
+        name = "Deixados para trás",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [38960] = {
+        name = "Forro íntimo",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [38961] = {
+        name = "Olho de Azshara: o noctívoro depravado",
+        difficulty = "normal",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [38962] = {
+        name = "O caminho para Suramar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38963] = {
+        name = "A lição final?",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [38964] = {
+        name = "Cadê Lyndras agora?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38965] = {
+        name = "Ataque ao Castelo Violeta: castelo adentro",
+        difficulty = "normal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38966] = {
+        name = "Métodos secretos de tecer seda",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38967] = {
+        name = "A conexão dos Filhos da Noite",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38968] = {
+        name = "Prova de lealdade",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38969] = {
+        name = "Mestre da Tramasseda",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38970] = {
+        name = "O Tear da Graça da Rainha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38975] = {
+        name = "Inspire-me!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [38990] = {
+        name = "O Chamado da Coroa de Gelo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39015] = {
+        name = "Rabugento",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39025] = {
+        name = "Os punhos do Hipomonarca",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39026] = {
+        name = "Os drogbar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39027] = {
+        name = "Dargrul e o martelo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39029] = {
+        name = "Defender o Templo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39043] = {
+        name = "O Enclave Mordepedra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39047] = {
+        name = "O Chamado dos Illidari",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39049] = {
+        name = "De Olho no Prêmio",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39050] = {
+        name = "Encontro com a Rainha",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39051] = {
+        name = "A Qualquer Custo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39059] = {
+        name = "A Captura da Banshee",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39060] = {
+        name = "Contágio combustível",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39061] = {
+        name = "Sussurros da escuridão",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39062] = {
+        name = "Para Skold-Ashil",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39063] = {
+        name = "Escudos e segredos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39092] = {
+        name = "Tornando-se o ascendente",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39117] = {
+        name = "Bico Fechado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39122] = {
+        name = "O fim do novo começo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39123] = {
+        name = "Um leão por dia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39124] = {
+        name = "Caça ao alce",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39142] = {
+        name = "Teste de teoria",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [39153] = {
+        name = "Dilema Trilhamedo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39154] = {
+        name = "Para Skold-Ashil",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39155] = {
+        name = "Tornando-se o ascendente",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39178] = {
+        name = "Um alce à solta",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39179] = {
+        name = "Bandido da Pedra-sangrenta",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [39191] = {
+        name = "Legado do Quebragelo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39192] = {
+        name = "A Forja de Odyn",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39214] = {
+        name = "O Olho de Odyn",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39247] = {
+        name = "A Caçada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39261] = {
+        name = "O Chamado dos Illidari",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39262] = {
+        name = "Conceda-me Visão Além do Alcance",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39272] = {
+        name = "Plantações Envenenadas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39277] = {
+        name = "Borrifando geral",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39279] = {
+        name = "Ataque a Mardum",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39316] = {
+        name = "Taurens Presos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39318] = {
+        name = "Lambendo as feridas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39321] = {
+        name = "As três",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39322] = {
+        name = "A Bruxa-Rainha",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39325] = {
+        name = "Prepare a sua mistura",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [39326] = {
+        name = "Cargas perdidas",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [39327] = {
+        name = "Deixe que o escriba faz isso",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [39328] = {
+        name = "Conhecimento Ancestral",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [39329] = {
+        name = "Queimador adormecido",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [39330] = {
+        name = "Caça no meridiano",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [39331] = {
+        name = "Olho de Azshara: escolha as rolhas",
+        difficulty = "normal",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [39332] = {
+        name = "Aguardente dos pelursos",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [39333] = {
+        name = "Uma bureta imprecisa",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [39334] = {
+        name = "Não fra(s)queje",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [39335] = {
+        name = "Covil de Neltharion: pó poderoso",
+        difficulty = "normal",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [39336] = {
+        name = "Precisamos de mais pó!",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [39337] = {
+        name = "Filtro esquecido",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39338] = {
+        name = "Devolva o filtro",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39339] = {
+        name = "Um crisol frágil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39340] = {
+        name = "Revestindo o crisol",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39341] = {
+        name = "Câmara das Guardiãs: a bile do demônio",
+        difficulty = "normal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39342] = {
+        name = "O preço do mercado negro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39343] = {
+        name = "Câmara das Guardiãs: Tubos de Vidro Espirais",
+        difficulty = "normal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39344] = {
+        name = "Buretas clandestinas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39345] = {
+        name = "Peritos em calibragem",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39346] = {
+        name = "Testando a calibragem",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39347] = {
+        name = "Concentrando nossos esforços",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39348] = {
+        name = "Salões da Bravura: o ingrediente principal",
+        difficulty = "normal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39349] = {
+        name = "Castelo Corvo Negro: pesado, mas útil",
+        difficulty = "normal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39350] = {
+        name = "Gorja das Almas: esperança em Helheim",
+        difficulty = "normal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39351] = {
+        name = "O Pesadelo Esmeralda: fogo raivoso",
+        difficulty = "lfr",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39372] = {
+        name = "Bruxa do Bosque",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39373] = {
+        name = "Quem tem pena de bruxa velha?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39374] = {
+        name = "Audiência com Torok",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39381] = {
+        name = "Missões perigosas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39383] = {
+        name = "Desonrado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39384] = {
+        name = "O Corruptor",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39385] = {
+        name = "Um presente para Greymane",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39386] = {
+        name = "Procurando um protótipo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39387] = {
+        name = "Os Céus de Alta Montanha",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39389] = {
+        name = "Fome de Sangue",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [39390] = {
+        name = "Um texto misterioso",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [39391] = {
+        name = "Rochas de Estimação",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39392] = {
+        name = "Caçando ursos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39393] = {
+        name = "Vale Garralua",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39405] = {
+        name = "Histórias de batalha",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39417] = {
+        name = "E esse Razik?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39425] = {
+        name = "Cristal Pedrescura",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39426] = {
+        name = "Dívida de sangue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39427] = {
+        name = "A bênção do Espírito de Águia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39429] = {
+        name = "Ataque às Terras das Bruxas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39430] = {
+        name = "Pedir um favor não é só para os fra(s)cos",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [39431] = {
+        name = "Remendando o filtro",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39437] = {
+        name = "Nas profundezas da caverna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39438] = {
+        name = "Guhruhlruhlruh",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39439] = {
+        name = "Relíquias Pedrescura",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39440] = {
+        name = "Tu maromba, lesk?",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39455] = {
+        name = "Caverna da Prova de Sangue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39456] = {
+        name = "Aliados inesperados",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39472] = {
+        name = "Arranque o coração",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39487] = {
+        name = "Fúria de Cristal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39488] = {
+        name = "Equilíbrio dos Elementos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39489] = {
+        name = "Invasores na caverna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39490] = {
+        name = "Infestação",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39491] = {
+        name = "Ormgul, o Pestilento",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39495] = {
+        name = "Esconderijo Exposto",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39496] = {
+        name = "O fluir do rio",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39498] = {
+        name = "Águas Bravias",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39515] = {
+        name = "A Vingança Será Minha!",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [39516] = {
+        name = "Que os Illidari Bradem seu Grito de Guerra!",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39530] = {
+        name = "A forja",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39575] = {
+        name = "O Caminho de Huln",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39577] = {
+        name = "Um segredo ancestral",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39578] = {
+        name = "Briga de Titãs",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39579] = {
+        name = "A Porta dos Fundos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39580] = {
+        name = "A Grande Chefe",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39588] = {
+        name = "Eles pagarão com sangue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39590] = {
+        name = "À frente da competição",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39591] = {
+        name = "A provação da bravura",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39592] = {
+        name = "A provação da vontade",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39593] = {
+        name = "O vigia despedaçado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39594] = {
+        name = "A provação do poder",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39595] = {
+        name = "Sangue e ouro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39597] = {
+        name = "A bênção dos vigias",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39602] = {
+        name = "Cadê Lyndras? Investigação no esgoto",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39605] = {
+        name = "Cadê Lyndras? Espiral descendente",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39614] = {
+        name = "Peixe fora d'água",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39645] = {
+        name = "Peritos em calibragem",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39652] = {
+        name = "Onde os dragões dominam",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39654] = {
+        name = "Odyn e os Valarjares",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39656] = {
+        name = "O ataque à matilha",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39661] = {
+        name = "Caverna Fontevita",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39663] = {
+        name = "Nas Asas do Morcevil",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [39667] = {
+        name = "Cadê Lyndras? Roubo da chama de meridiano",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39670] = {
+        name = "Tiro de dispersão de bichos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39680] = {
+        name = "Entre o martelo e...",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39681] = {
+        name = "As propriedades da pedra de meridiano",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [39682] = {
+        name = "O Grande Roubo de Morcevis",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39683] = {
+        name = "Forjado a Fogo",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39684] = {
+        name = "Sob os Holofotes",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39685] = {
+        name = "Congelado no Tempo",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39686] = {
+        name = "Até o Topo",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39688] = {
+        name = "Entre Nós e a Liberdade",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39689] = {
+        name = "Illidari, Nós Vamos Partir",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39690] = {
+        name = "Illidari, Nós Vamos Partir",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39691] = {
+        name = "O Chamado da Guerra",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39694] = {
+        name = "Entre Nós e a Liberdade",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39696] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39698] = {
+        name = "A ronda",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39699] = {
+        name = "Forja meridional chifre de ferro",
+        level = 104,
+        requiredLevel = 104,
+    },
     [39702] = {
         name = "Lenda do Castelo Corvo Negro",
         level = 108,
         requiredLevel = 108,
     },
-    [38505] = {
-        name = "Engenheiros: não são TÃO inúteis assim",
-        level = 102,
-        requiredLevel = 102,
+    [39722] = {
+        name = "A forja de novas forças",
+        level = -1,
+        requiredLevel = 98,
     },
-    [38507] = {
-        name = "Os segredos da Forja Meridional",
-        level = 102,
-        requiredLevel = 102,
+    [39726] = {
+        name = "... E a bigorna",
+        level = 108,
+        requiredLevel = 108,
     },
-    [38527] = {
-        name = "A técnica de Nal'ryssa",
-        level = 110,
-        requiredLevel = 110,
+    [39729] = {
+        name = "O conhecimento do Corvo Negro",
+        level = 108,
+        requiredLevel = 108,
     },
-    [38500] = {
-        name = "Maestria em Forja Meridional",
-        level = 102,
-        requiredLevel = 102,
+    [39731] = {
+        name = "A Floresta Tranquila",
+        level = -1,
+        requiredLevel = 98,
     },
-    [38501] = {
-        name = "Martelagem espiródia",
+    [39733] = {
+        name = "A Montanha Solitária",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39735] = {
+        name = "Trommheim",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39741] = {
+        name = "Nas nossas fileiras",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [39742] = {
+        name = "Câmara das Guardiãs",
         level = 100,
-        requiredLevel = 100,
+        requiredLevel = 98,
     },
-    [39883] = {
-        name = "Envolto em tradição",
-        level = 102,
-        requiredLevel = 102,
+    [39746] = {
+        name = "Um círculo intacto",
+        level = -1,
+        requiredLevel = 98,
     },
-    [39884] = {
-        name = "Indignos",
-        level = 104,
-        requiredLevel = 104,
+    [39756] = {
+        name = "Um plano sensato",
+        level = -1,
+        requiredLevel = 98,
     },
-    [39916] = {
-        name = "Reviravolta e traição",
-        level = 108,
-        requiredLevel = 108,
+    [39757] = {
+        name = "Mantendo-se em vantagem",
+        level = -1,
+        requiredLevel = 98,
     },
-    [39918] = {
-        name = "A sacerdotisa ausente",
-        level = 108,
-        requiredLevel = 108,
+    [39761] = {
+        name = "Entalhes avançados em runas",
+        level = -1,
+        requiredLevel = 98,
     },
-    [39889] = {
-        name = "Desencaminhados",
-        level = 104,
-        requiredLevel = 104,
+    [39771] = {
+        name = "A Voz do Trovão",
+        level = -1,
+        requiredLevel = 98,
     },
-    [40169] = {
-        name = "Encontro na encruzilhada",
-        level = 108,
-        requiredLevel = 108,
+    [39776] = {
+        name = "A batalha dos vermes",
+        level = -1,
+        requiredLevel = 98,
     },
-    [39891] = {
-        name = "Amaldiçoado, porém conveniente",
-        level = 108,
-        requiredLevel = 108,
+    [39777] = {
+        name = "Contra o relógio",
+        level = -1,
+        requiredLevel = 98,
     },
-    [39923] = {
-        name = "Até o núcleo",
-        level = 110,
-        requiredLevel = 110,
+    [39780] = {
+        name = "O Hipomonarca",
+        level = -1,
+        requiredLevel = 98,
     },
-    [40048] = {
-        name = "Fios dos mestres de marionetes",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [39920] = {
-        name = "Nas asas lazúli",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39907] = {
-        name = "Encantamentos élficos",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40130] = {
-        name = "Lavado",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39914] = {
-        name = "O último dever da Sentinela",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39910] = {
-        name = "O débito do druida",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39906] = {
-        name = "Preparativos para a batalha",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39905] = {
-        name = "A verdade inexorável",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [39903] = {
-        name = "Um lar encantador",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [39904] = {
-        name = "Salões da Bravura: a vingança da encantadora",
+    [39781] = {
+        name = "Covil de Neltharion",
         difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 106,
-        requiredLevel = 106,
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39786] = {
+        name = "Uma aposta rochosa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39787] = {
+        name = "Armando a aposta",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39788] = {
+        name = "A vingança da Mata Rúnica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39789] = {
+        name = "Comendo nossos lucros",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39791] = {
+        name = "Descansem em paz",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39792] = {
+        name = "Uma pilha de estantes",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39793] = {
+        name = "Só o melhor",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39796] = {
+        name = "Rumo a Haustvald",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39799] = {
+        name = "Nossa próxima jogada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39800] = {
+        name = "Gambito de Greymane",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39801] = {
+        name = "A Frota Estilhaçada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39803] = {
+        name = "As Provações Prosseguem",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39804] = {
+        name = "Falando em Ossos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39816] = {
+        name = "Campeão: Thassarian",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39818] = {
+        name = "Campeão: Nazgrim",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [39832] = {
+        name = "Planos e preparativos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39837] = {
+        name = "Tarefa indigna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39847] = {
+        name = "Assine isto",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39848] = {
+        name = "Troca desesperada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39849] = {
+        name = "Iluminando o caminho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39850] = {
+        name = "Fenda",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39851] = {
+        name = "Aliança na morte",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39853] = {
+        name = "A vitória é eterna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39855] = {
+        name = "Pagamento em sangue vital",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39857] = {
+        name = "A nêmesis eterna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39859] = {
+        name = "Bodes comedores de papel",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39860] = {
+        name = "Rito de Sangue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39861] = {
+        name = "Atando os Fios Soltos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39862] = {
+        name = "Cercolesk",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39864] = {
+        name = "Trommheim",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39867] = {
+        name = "Ninguém mim tira a razão!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39873] = {
+        name = "Mau pressentimento",
+        level = -1,
+        requiredLevel = 98,
     },
     [39874] = {
         name = "Uma noite encantada",
@@ -9385,65 +2386,1502 @@ BtWQuests_Quests = {
     [39882] = {
         name = "Bosque Corenegro: o glamour se foi",
         difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
         level = 104,
         requiredLevel = 104,
+    },
+    [39883] = {
+        name = "Envolto em tradição",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [39884] = {
+        name = "Indignos",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [39889] = {
+        name = "Desencaminhados",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [39891] = {
+        name = "Amaldiçoado, porém conveniente",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39903] = {
+        name = "Um lar encantador",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [39904] = {
+        name = "Salões da Bravura: a vingança da encantadora",
+        difficulty = "normal",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [39905] = {
+        name = "A verdade inexorável",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [39906] = {
+        name = "Preparativos para a batalha",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39907] = {
+        name = "Encantamentos élficos",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39910] = {
+        name = "O débito do druida",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39914] = {
+        name = "O último dever da Sentinela",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39916] = {
+        name = "Reviravolta e traição",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39918] = {
+        name = "A sacerdotisa ausente",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39920] = {
+        name = "Nas asas lazúli",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39921] = {
+        name = "Covil de Neltharion: bastão de Lazúli",
+        difficulty = "normal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39923] = {
+        name = "Até o núcleo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39931] = {
+        name = "Triturando plantas",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39932] = {
+        name = "Tinta de Peixe",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39933] = {
+        name = "O tubarão das cartas",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39934] = {
+        name = "Nossos Novos Aliados",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [39935] = {
+        name = "O preço do poder",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [39940] = {
+        name = "Runas de Poder",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [39943] = {
+        name = "O fardo da caça",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [39944] = {
+        name = "Mensagens Misteriosas",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [39945] = {
+        name = "Runas nas ruínas",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [39946] = {
+        name = "A ferramenta certa para o trabalho",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [39947] = {
+        name = "Nada tão complexo?",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [39948] = {
+        name = "A tinta flui",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [39949] = {
+        name = "Um escriba como você",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [39950] = {
+        name = "Um berloque estranho",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [39953] = {
+        name = "Salões da Bravura: visão de bravura",
+        difficulty = "normal",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [39954] = {
+        name = "Técnicas de trituração em massa",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39955] = {
+        name = "A trama se aprofunda",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39956] = {
+        name = "O legado transmitido",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39957] = {
+        name = "Tinta demoníaca",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39958] = {
+        name = "Flor da pele",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [39961] = {
+        name = "Uma revelação embaraçosa",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [39983] = {
+        name = "A guerra de Huln: A chegada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39986] = {
+        name = "Mensagem mágica",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39987] = {
+        name = "Trilha de ecos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [39988] = {
+        name = "A guerra de Huln: Tempesfúria",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39990] = {
+        name = "A guerra de Huln: Reforços",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [39992] = {
+        name = "A guerra de Huln: Os Nathrezim",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40000] = {
+        name = "Um verdadeiro caçador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40001] = {
+        name = "Batendo na porta da bravura",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40002] = {
+        name = "Destino Familiar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40003] = {
+        name = "Contenção de Torrente",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40004] = {
+        name = "Ataque à Coluna Dorsal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40005] = {
+        name = "A Salvação de Trommheim",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40008] = {
+        name = "A única saída é por dentro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40009] = {
+        name = "Sede Arcana",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40010] = {
+        name = "Acessando os meridianos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40011] = {
+        name = "Oficina de Oculeth",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40012] = {
+        name = "Um velho aliado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40043] = {
+        name = "O caçador de heróis",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40045] = {
+        name = "Gentileza gera gentileza",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40047] = {
+        name = "Baiacabum!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40048] = {
+        name = "Fios dos mestres de marionetes",
+        level = 100,
+        requiredLevel = 100,
+    },
+    [40049] = {
+        name = "Hora da larica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40051] = {
+        name = "Segredos Vis",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40052] = {
+        name = "Vraikal ancestral dominado",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40056] = {
+        name = "Nossos Novos Aliados",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40057] = {
+        name = "O preço do poder",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40058] = {
+        name = "Simbologia de defesa",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40059] = {
+        name = "Opostos se repelem",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40060] = {
+        name = "Contendo o demônio interior",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40061] = {
+        name = "Conhecer seu inimigo",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40063] = {
+        name = "Controle é essencial",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40072] = {
+        name = "Salões da Bravura: obtendo a égide",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40077] = {
+        name = "Começa a Invasão",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40078] = {
+        name = "Um fardo pesado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40102] = {
+        name = "Turma do Murquinho jovem",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40112] = {
+        name = "A guerra de Huln: O favorito de Malorne",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40120] = {
+        name = "Um destino obscuro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40123] = {
+        name = "O pacto dos Filhos da Noite",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40125] = {
+        name = "Ramo de Arcan'dor",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40130] = {
+        name = "Lavado",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40167] = {
+        name = "A história de Huln",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40169] = {
+        name = "Encontro na encruzilhada",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40170] = {
+        name = "O momento dos amadores",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40176] = {
+        name = "Da cabeça aos pés",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40177] = {
+        name = "Moça coureira",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40178] = {
+        name = "Oportunidade de vestimenta",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40179] = {
+        name = "Selvageria de Trommheim",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40180] = {
+        name = "Arma dura",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40181] = {
+        name = "Bandido de Corvo Negro",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40182] = {
+        name = "Bom demais pra ignorar",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40183] = {
+        name = "Além do limite",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40184] = {
+        name = "Curtimento taureno",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40185] = {
+        name = "Aguentar o fardo",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40186] = {
+        name = "Durabilidade drogbar",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40187] = {
+        name = "Elos da Corrente",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40188] = {
+        name = "Um prato que se come frio",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40189] = {
+        name = "Conhecimento das nagas",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40191] = {
+        name = "Histórias da manada",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40192] = {
+        name = "Garra da terra",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40194] = {
+        name = "Carga recuperada",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40195] = {
+        name = "Um resgate ousado",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40196] = {
+        name = "Ansiedades aventureiras",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40197] = {
+        name = "Os materiais necessários",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40198] = {
+        name = "Ratos!",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40199] = {
+        name = "Trabalhando as calças de couro",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40200] = {
+        name = "Laços de batalha",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40201] = {
+        name = "Brinquedinhos",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40202] = {
+        name = "A lição final",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40203] = {
+        name = "Força do passado",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40204] = {
+        name = "Evolução do passado",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40205] = {
+        name = "Respeito pelo passado",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40206] = {
+        name = "Uma Dívida Quitada",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40207] = {
+        name = "Escamas do arcano",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40208] = {
+        name = "Olho de Azshara: escamas do mar",
+        difficulty = "normal",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40209] = {
+        name = "Escamas da terra",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40210] = {
+        name = "Tempo bem gasto",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40211] = {
+        name = "Carne de demônio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40212] = {
+        name = "Extremidade errada da faca",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40213] = {
+        name = "Cães aos montes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40214] = {
+        name = "Curtimento vil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40216] = {
+        name = "Alma de caçadora",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40217] = {
+        name = "Uma oferta de munição",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40218] = {
+        name = "Dívida paga",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40219] = {
+        name = "A despeito do Asa da Morte",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40220] = {
+        name = "Dança espinhosa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40221] = {
+        name = "Abra suas Asalunas para Voar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40222] = {
+        name = "O Tomo da Mãe dos Diabretes",
+        level = 99,
+        requiredLevel = 98,
+    },
+    [40224] = {
+        name = "O Martelo nas profundezas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40225] = {
+        name = "Um anel reforjado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40227] = {
+        name = "Más intenções",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40228] = {
+        name = "Acompanhamento",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40229] = {
+        name = "Adentrando a escuridão",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40230] = {
+        name = "Ah, a cidade de Garrópolis!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40236] = {
+        name = "A Luz da Alvorada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40238] = {
+        name = "Uma equação sinistra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40244] = {
+        name = "O cara da fantasia",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40247] = {
+        name = "Pedindo um favor",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40249] = {
+        name = "A Vingança Será Nossa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40253] = {
+        name = "Detenha Gul'dan!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40254] = {
+        name = "Forjado a Fogo",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40255] = {
+        name = "Entre Nós e a Liberdade",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40256] = {
+        name = "Entre Nós e a Liberdade",
+        level = 100,
+        requiredLevel = 98,
     },
     [40265] = {
         name = "Um toque de magia",
         level = 106,
         requiredLevel = 106,
     },
-    [39921] = {
-        name = "Covil de Neltharion: bastão de Lazúli",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
+    [40266] = {
+        name = "O conselheiro perdido",
         level = 110,
         requiredLevel = 110,
     },
-    [40875] = {
-        name = "Indo pro lixo",
-        level = 106,
-        requiredLevel = 106,
+    [40267] = {
+        name = "Uma mensagem inesperada",
+        level = -1,
+        requiredLevel = 98,
     },
-    [40876] = {
-        name = "Bruxo, trapaça e um barril fumegante",
-        level = 106,
-        requiredLevel = 106,
+    [40270] = {
+        name = "O caminho da expiação",
+        level = -1,
+        requiredLevel = 98,
     },
-    [40877] = {
-        name = "Salões da Bravura: dedo nervoso",
+    [40276] = {
+        name = "A voragem atrai",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40297] = {
+        name = "Lyana Umbramágoa",
+        level = 110,
+        requiredLevel = 110,
+        restrictions = {
+            type = "class",
+            ids = {
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+            },
+        },
+    },
+    [40300] = {
+        name = "Truques do ofício",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40306] = {
+        name = "O último capítulo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40307] = {
+        name = "Circunstâncias de Glaive",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40308] = {
+        name = "Fragmentos da memória",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40315] = {
+        name = "Fim da linha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40319] = {
+        name = "O ingrediente final",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40320] = {
+        name = "Elo de irmãos de sangue",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40321] = {
+        name = "Redenção dos Penacanto",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40324] = {
+        name = "Comunhão arcana",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40325] = {
+        name = "Cenas de uma lembrança",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40326] = {
+        name = "Lembranças espalhadas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40327] = {
+        name = "Testando o metal",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40328] = {
+        name = "Uma sina pior do que morrer",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40331] = {
+        name = "Mordida da Sashj'tar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40332] = {
+        name = "Fogueira na praia",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40334] = {
+        name = "Tônico do pescador",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40336] = {
+        name = "Quem com Senhora das Marés fere",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40341] = {
+        name = "Trono das Marés: poder de Azshara",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40348] = {
+        name = "Alguma coisa na água",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40364] = {
+        name = "A maldição da bolha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40368] = {
+        name = "Com Poder da Tartaruga",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40370] = {
+        name = "O expurgo dos não limpos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40373] = {
+        name = "Uma Nova Direção",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40378] = {
+        name = "O Exército Illidari: Grislíngua",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40379] = {
+        name = "O Exército Illidari: Serpentália",
+        level = 98,
+        requiredLevel = 98,
+    },
+    [40384] = {
+        name = "As necessidades dos caçadores",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40385] = {
+        name = "A Lança nas Sombras",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40388] = {
+        name = "A guerra de Huln: Cantonegro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40391] = {
+        name = "Leve-me ao seu líder",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40392] = {
+        name = "Chamado do Atirador Perito",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40408] = {
+        name = "Armas Lendárias",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40412] = {
+        name = "Azoran tem que morrer",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40415] = {
+        name = "Tempo bem aproveitado",
         level = 108,
         requiredLevel = 108,
     },
-    [40878] = {
-        name = "Assault on Violet Hold: Cheating Death",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
+    [40419] = {
+        name = "Missão de resgate",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40495] = {
+        name = "Ulthalesh, a Ceifadora do Vento Morto",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40515] = {
+        name = "Uma caminhada com os espíritos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40520] = {
+        name = "Para ver o passado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40523] = {
+        name = "Amigos fascinantes",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40524] = {
+        name = "Anel familiar",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40525] = {
+        name = "Reunindo a banda",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40526] = {
+        name = "Últimos toques",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40527] = {
+        name = "Últimos toques",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40528] = {
+        name = "Últimos toques",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40529] = {
+        name = "Verdadeiro ultraje",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40530] = {
+        name = "De olho no lance",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40531] = {
+        name = "Rápida vingança",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40532] = {
+        name = "Passando das eliminatórias",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40533] = {
+        name = "Passando das eliminatórias",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40534] = {
+        name = "Passando das eliminatórias",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40535] = {
+        name = "O Levante dos Drogbares",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40536] = {
+        name = "Os lesks valem mais do que as joias",
+        level = 102,
+        requiredLevel = 102,
+    },
+    [40538] = {
+        name = "Lições de lapidação",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40539] = {
+        name = "Segundas intenções",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [40540] = {
+        name = "Cai pra dentro, lesk",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40541] = {
+        name = "A carga interior",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40542] = {
+        name = "Olhos de Nashal",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40543] = {
+        name = "Olhos de Nashal",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40544] = {
+        name = "Olhos de Nashal",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40545] = {
+        name = "Ah, porcaria!",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [40546] = {
+        name = "Mistérios da natureza",
+        level = 106,
+        requiredLevel = 106,
+    },
+    [40547] = {
+        name = "Para Dalaran, com amor",
         level = 108,
         requiredLevel = 108,
     },
-    [40879] = {
-        name = "Gigantes Autômatos",
+    [40556] = {
+        name = "Jalesk Precisa de Você",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [40559] = {
+        name = "Castelo Corvo Negro: a sabedoria do corvo",
+        difficulty = "normal",
         level = 110,
         requiredLevel = 110,
     },
-    [40880] = {
-        name = "Curto-circuito",
+    [40560] = {
+        name = "Gorja das Almas: arrebatamento",
+        difficulty = "normal",
         level = 110,
         requiredLevel = 110,
     },
-    [40881] = {
-        name = "Trapos de óleo para os ricos",
+    [40561] = {
+        name = "Salões da Bravura: joia dos céus",
+        difficulty = "normal",
         level = 110,
         requiredLevel = 110,
     },
-    [40882] = {
-        name = "Pátio das Estrelas: reajustando o coice",
-        difficulty = "heroic",
-        tagID = QUEST_TAG_DUNGEON,
+    [40562] = {
+        name = "Um toque pessoal",
         level = 110,
         requiredLevel = 110,
+    },
+    [40567] = {
+        name = "Bosque Corenegro: entre no Pesadelo",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40568] = {
+        name = "Fúria da Tempestade",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40569] = {
+        name = "A lenda das dunas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40570] = {
+        name = "Para o paraíso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40573] = {
+        name = "O Senhor do Pesadelo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40578] = {
+        name = "Prestando Respeito",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40579] = {
+        name = "Armas Lendárias",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40585] = {
+        name = "E assim começa a guerra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40588] = {
+        name = "Seguindo a maldição",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40594] = {
+        name = "A justiça vem de cima",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40603] = {
+        name = "Procurando as Valkiras",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40604] = {
+        name = "Perturbando o passado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40606] = {
+        name = "Naquela direção",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40608] = {
+        name = "A marca",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40611] = {
+        name = "O destino do Vento Morto",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40613] = {
+        name = "Gorja das Almas: recuperando o Svalngard",
+        difficulty = "mythic",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40614] = {
+        name = "Um banquete digno de Odyn",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40615] = {
+        name = "Salões da Bravura: bênção de Odyn",
+        difficulty = "mythic",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40617] = {
+        name = "Escolha uma estrada e não olhe para trás",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40618] = {
+        name = "Armas lendárias",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40623] = {
+        name = "Os Cavalgantes Negros",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40633] = {
+        name = "Rumo à Aventura!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40634] = {
+        name = "Trovão nas areias",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40636] = {
+        name = "Preparar para atacar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40643] = {
+        name = "Uma evocação da Clareira da Lua",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40644] = {
+        name = "A Estrada Onírica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40645] = {
+        name = "Para o Bosque Onírico",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40646] = {
+        name = "Armas lendárias",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40647] = {
+        name = "Quando sonhos viram pesadelos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40649] = {
+        name = "Encontro com Mylune",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40651] = {
+        name = "A Semente das Eras",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40652] = {
+        name = "Boato dos ventos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40653] = {
+        name = "Deixando rastros",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40654] = {
+        name = "Druidas da Garra",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [40668] = {
+        name = "Olho de Azshara: o coração de Zin-Azshari",
+        difficulty = "mythic",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40672] = {
+        name = "Covil de Neltharion: apresentação é tudo",
+        difficulty = "mythic",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40673] = {
+        name = "Conhecimento perdido",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40675] = {
+        name = "O Arcâneo: rito do capitão",
+        difficulty = "mythic",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40678] = {
+        name = "Poder pervertido",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [40684] = {
+        name = "O Tomo dos Implementos Pestilentos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40698] = {
+        name = "Pureza de formato",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40705] = {
+        name = "Assuntos sacerdotais",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40706] = {
+        name = "Uma lenda que você pode sustentar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40710] = {
+        name = "Lâmina no crepúsculo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40712] = {
+        name = "O poder possuído",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40714] = {
+        name = "Chamado à guerra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40715] = {
+        name = "Um pacto de necessidade",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40716] = {
+        name = "O sexto",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40727] = {
+        name = "Ao longo dos cursos d'água",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [40729] = {
+        name = "O novo sangue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40730] = {
+        name = "Redistribuição",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [40731] = {
+        name = "O Coração de Chagamedo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40740] = {
+        name = "Os Mortos e os Condenados",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40744] = {
+        name = "Uma receita ancestral",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40745] = {
+        name = "Mudança de turno",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [40746] = {
+        name = "Uma das pessoas",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [40747] = {
+        name = "A delicada arte da telemancia",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40748] = {
+        name = "Segurança de rede",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40761] = {
+        name = "Sussurros de Oronaar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40783] = {
+        name = "A Foice de Eluna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40784] = {
+        name = "O lugar de direito",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40785] = {
+        name = "Um inimigo nas trevas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40793] = {
+        name = "Questão de planejamento",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40794] = {
+        name = "A sina do Vingança da Rainha",
+        level = -1,
+        requiredLevel = 98,
+        restrictions = {
+            type = "faction",
+            id = "Alliance",
+        },
+    },
+    [40795] = {
+        name = "A luta tem início",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40814] = {
+        name = "O Poder da Sobrevivência",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40816] = {
+        name = "O Poder da Sobrevivência",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40819] = {
+        name = "Acordos Escusos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40821] = {
+        name = "Poder esmagador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40823] = {
+        name = "Reconstruindo o Concílio",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40824] = {
+        name = "Caminho dos Chagamedo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40830] = {
+        name = "Quase lá",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40832] = {
+        name = "Chamado dos destronados",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40834] = {
+        name = "Seguindo a maldição",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40835] = {
+        name = "Perturbando o passado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40837] = {
+        name = "A caçada do Vento Morto",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40838] = {
+        name = "Os Cavalgantes Negros",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40839] = {
+        name = "A sombra final",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40840] = {
+        name = "Uma lâmina digna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40847] = {
+        name = "Um acordo amistoso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40849] = {
+        name = "Os Alfanjes do Terror",
+        level = -1,
+        requiredLevel = 98,
     },
     [40854] = {
         name = "Possibilidades infinitas",
@@ -9460,15 +3898,10 @@ BtWQuests_Quests = {
         level = 100,
         requiredLevel = 98,
     },
-    [40545] = {
-        name = "Ah, porcaria!",
+    [40858] = {
+        name = "As peças faltantes",
         level = 100,
         requiredLevel = 98,
-    },
-    [46128] = {
-        name = "Hora de recarregar",
-        level = 110,
-        requiredLevel = 110,
     },
     [40859] = {
         name = "Tá na moda: Craniarmas!",
@@ -9550,405 +3983,580 @@ BtWQuests_Quests = {
         level = 106,
         requiredLevel = 106,
     },
-    [40858] = {
-        name = "As peças faltantes",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39945] = {
-        name = "Runas nas ruínas",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [39946] = {
-        name = "A ferramenta certa para o trabalho",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [39947] = {
-        name = "Nada tão complexo?",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [39948] = {
-        name = "A tinta flui",
+    [40875] = {
+        name = "Indo pro lixo",
         level = 106,
         requiredLevel = 106,
     },
-    [39949] = {
-        name = "Um escriba como você",
+    [40876] = {
+        name = "Bruxo, trapaça e um barril fumegante",
         level = 106,
         requiredLevel = 106,
     },
-    [39950] = {
-        name = "Um berloque estranho",
-        level = 106,
-        requiredLevel = 106,
+    [40877] = {
+        name = "Salões da Bravura: dedo nervoso",
+        level = 108,
+        requiredLevel = 108,
     },
-    [39953] = {
-        name = "Salões da Bravura: visão de bravura",
+    [40878] = {
+        name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 106,
-        requiredLevel = 106,
-    },
-    [39954] = {
-        name = "Técnicas de trituração em massa",
         level = 108,
         requiredLevel = 108,
     },
-    [39955] = {
-        name = "A trama se aprofunda",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39956] = {
-        name = "O legado transmitido",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40052] = {
-        name = "Vraikal ancestral dominado",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [39932] = {
-        name = "Tinta de Peixe",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39961] = {
-        name = "Uma revelação embaraçosa",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39931] = {
-        name = "Triturando plantas",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40056] = {
-        name = "Nossos Novos Aliados",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40057] = {
-        name = "O preço do poder",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [39934] = {
-        name = "Nossos Novos Aliados",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [39935] = {
-        name = "O preço do poder",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40060] = {
-        name = "Contendo o demônio interior",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40061] = {
-        name = "Conhecer seu inimigo",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [39847] = {
-        name = "Assine isto",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40063] = {
-        name = "Controle é essencial",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [39940] = {
-        name = "Runas de Poder",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40059] = {
-        name = "Opostos se repelem",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40058] = {
-        name = "Simbologia de defesa",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [39943] = {
-        name = "O fardo da caça",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [39944] = {
-        name = "Mensagens Misteriosas",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [39933] = {
-        name = "O tubarão das cartas",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [45163] = {
-        name = "Limpeza geral",
-        level = -1,
+    [40879] = {
+        name = "Gigantes Autômatos",
+        level = 110,
         requiredLevel = 110,
     },
-    [45312] = {
-        name = "Você venceu o Almôndega",
-        level = -1,
+    [40880] = {
+        name = "Curto-circuito",
+        level = 110,
         requiredLevel = 110,
     },
-    [45111] = {
-        name = "Todo mundo gosta de uma boa briga",
-        level = -1,
+    [40881] = {
+        name = "Trapos de óleo para os ricos",
+        level = 110,
         requiredLevel = 110,
     },
-    [45162] = {
-        name = "Nós trouxemos o martelo",
-        level = -1,
+    [40882] = {
+        name = "Pátio das Estrelas: reajustando o coice",
+        difficulty = "heroic",
+        level = 110,
         requiredLevel = 110,
     },
-    [45304] = {
-        name = "Ataque às trevas",
-        level = -1,
+    [40883] = {
+        name = "Destino do guarda",
+        level = 110,
         requiredLevel = 110,
     },
-    [38716] = {
-        name = "Castelo Corvo Negro",
+    [40890] = {
+        name = "As Lágrimas de Eluna",
         level = -1,
         requiredLevel = 98,
     },
-    [38711] = {
-        name = "O Sinete da Guardiã",
+    [40898] = {
+        name = "Carne Fresca",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40907] = {
+        name = "Retirando obstáculos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40908] = {
+        name = "Volte já, jarl",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40927] = {
+        name = "A última esperança de Jandvik",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40929] = {
+        name = "Símbolos de poder",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40930] = {
+        name = "Apocalipse",
         level = -1,
         requiredLevel = 98,
     },
-    [38748] = {
-        name = "Ruínas de Shala'nir",
+    [40931] = {
+        name = "Seguindo a maldição",
         level = -1,
         requiredLevel = 98,
     },
-    [38372] = {
-        name = "Irmãs Ignóbeis",
+    [40932] = {
+        name = "Perturbando o passado",
         level = -1,
         requiredLevel = 98,
     },
-    [39393] = {
-        name = "Vale Garralua",
+    [40933] = {
+        name = "Uma tarefa horrível",
         level = -1,
         requiredLevel = 98,
     },
-    [39029] = {
-        name = "Defender o Templo",
+    [40934] = {
+        name = "Os Cavalgantes Negros",
         level = -1,
         requiredLevel = 98,
     },
-    [50047] = {
-        name = "Amostras grátis",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50228] = {
-        name = "O sobrevivente do Crepúsculo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [49981] = {
-        name = "Testemunha da ferida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50229] = {
-        name = "Um tiquinho de pano",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50372] = {
-        name = "Pesquisa no deserto",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50373] = {
-        name = "Recém-chegado",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [49976] = {
-        name = "Dádivas dos Caídos",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50374] = {
-        name = "O sangue de Azeroth",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50049] = {
-        name = "O ponto de vista do mensageiro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50226] = {
-        name = "A fonte de poder",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50046] = {
-        name = "É sa-bo-ta-gem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50227] = {
-        name = "Larvas de baciada",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50371] = {
-        name = "Convocatórias a Ventobravo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [49982] = {
-        name = "Testemunha da ferida",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50341] = {
-        name = "Uma recente descoberta",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [49977] = {
-        name = "Convocação a Orgrimmar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48441] = {
-        name = "Restos no Desfiladeiro das Trevas",
+    [40935] = {
+        name = "Clamor por vingança",
         level = -1,
-        requiredLevel = 110,
+        requiredLevel = 98,
     },
-    [48442] = {
-        name = "Castelo Nath'raxas: Preparativos",
+    [40938] = {
+        name = "A Luz e o Caos",
         level = -1,
+        requiredLevel = 98,
+    },
+    [40947] = {
+        name = "Entrega especial",
+        level = 113,
         requiredLevel = 110,
     },
-    [48443] = {
-        name = "Castelo Nath'raxas: Missão de resgate",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48910] = {
-        name = "Suprimentos para Krokuun",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48446] = {
-        name = "Relíquias dos antigos eredares",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48447] = {
-        name = "Dispersão da Guarda Sombria",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48448] = {
-        name = "Desmantelando a máquina de guerra da Legião",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48542] = {
-        name = "Contra-ataque",
+    [40949] = {
+        name = "Penúltimo recurso",
         level = 110,
         requiredLevel = 110,
     },
-    [48544] = {
-        name = "Eita, ferro!",
+    [40950] = {
+        name = "Em honra ao sucesso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40952] = {
+        name = "De caçador para caçador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40953] = {
+        name = "Nas asas das águias",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40954] = {
+        name = "O Caminho Oculto",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40955] = {
+        name = "Juramento de serviço",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40956] = {
+        name = "A pesquisa mostra que...",
         level = 110,
         requiredLevel = 110,
     },
-    [48455] = {
-        name = "Problema Crepusculante",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48460] = {
-        name = "Os enlaçadores",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [47967] = {
-        name = "Laçada em Argus",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48601] = {
-        name = "Fogovil estilhaçado",
+    [40957] = {
+        name = "Uma mão direita forte",
         level = -1,
-        requiredLevel = 110,
+        requiredLevel = 101,
     },
-    [48912] = {
-        name = "Suprimentos para a campanha Antorana",
+    [40958] = {
+        name = "Assuntos estratégicos",
         level = -1,
-        requiredLevel = 110,
+        requiredLevel = 98,
     },
-    [48600] = {
-        name = "Lâmina cega",
+    [40959] = {
+        name = "A campanha começa",
         level = -1,
-        requiredLevel = 110,
+        requiredLevel = 98,
     },
-    [48634] = {
-        name = "Mais suprimentos para Krokuun",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48654] = {
-        name = "Sob Oronaar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48911] = {
-        name = "Inoculação de caos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48445] = {
-        name = "As Ruínas de Oronaar",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48636] = {
-        name = "Combustível para a campanha Antorana",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [48635] = {
-        name = "Mais inoculação de Caos",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41397] = {
-        name = "Uma grande encomenda",
+    [40960] = {
+        name = "Pérola luminosa",
         level = 110,
         requiredLevel = 98,
     },
-    [46278] = {
-        name = "Devolver ao remetente",
+    [40961] = {
+        name = "A Fonte de Dalaran",
         level = 110,
         requiredLevel = 98,
     },
-    [41394] = {
-        name = "Serviço com gentileza",
+    [40963] = {
+        name = "Pegue eles na garra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40964] = {
+        name = "A Fissura",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40965] = {
+        name = "Plante minas, plante devastação",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40967] = {
+        name = "Pouca coisa de valor",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40968] = {
+        name = "Reaver o Poder Roubado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40969] = {
+        name = "O Destino de Tece-estrelas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40970] = {
+        name = "O orquestrador de nossa morte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40971] = {
+        name = "Distração irresistível",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40972] = {
+        name = "A resistência final da Guarda da Lua",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [40976] = {
+        name = "Audiência com o Chefe Guerreiro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40982] = {
+        name = "Clarividência",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40983] = {
+        name = "Demônios entre eles",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40994] = {
+        name = "As ferramentas certas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40995] = {
+        name = "Injetando poder",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40996] = {
+        name = "Delegando deveres",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [40997] = {
+        name = "Eficiência letal",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41001] = {
+        name = "Acabe com as Sashj'tar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41002] = {
+        name = "Uma arma da Horda",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41003] = {
+        name = "O presente do imperador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41008] = {
+        name = "De caçador para caçador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41009] = {
+        name = "De caçador para caçador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41010] = {
+        name = "Frenesi de Peixe",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [41015] = {
+        name = "Artefatos exigem artífices",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41017] = {
+        name = "Potencializando o seu artefato",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41019] = {
+        name = "Ações em Azeroth",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41028] = {
+        name = "Rede de energia",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41030] = {
+        name = "Reivindicação de signo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41032] = {
+        name = "Impeça os Perscrutadores de Feitiços",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41033] = {
+        name = "O Retorno a Mardum",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41034] = {
+        name = "Explorando os mares",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41035] = {
+        name = "A súplica do Tempestavil",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41036] = {
+        name = "O prêmio do senhor do medo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41037] = {
+        name = "Poder descontrolado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41038] = {
+        name = "A mestre do hidromel",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41039] = {
+        name = "Conhecimento roubado",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41040] = {
+        name = "Salões da Bravura: o mestre cervejeiro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41047] = {
+        name = "Infusa em poder",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41052] = {
+        name = "Um pedido desesperado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41053] = {
+        name = "Altar da Caça Eterna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41056] = {
+        name = "Amor Perdido",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41059] = {
+        name = "Salões da Bravura: caldeirão de Odyn",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41060] = {
+        name = "Poder descontrolado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41062] = {
+        name = "Espólios da Vitória",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41064] = {
+        name = "Forja Maldita dos Nathrezim",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41066] = {
+        name = "O olhar do caçador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41067] = {
+        name = "O Tempo Urge",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41069] = {
+        name = "Direcione nossa Ira",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41070] = {
+        name = "Espólios da Vitória",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41085] = {
+        name = "A arma de um mago",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41086] = {
+        name = "Um mundo pacífico",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41087] = {
+        name = "Cerva Tempestuosa",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41096] = {
+        name = "O Tempo Urge",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41097] = {
+        name = "Estilhaço de Vorgos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41098] = {
+        name = "Estilhaço de Kozak",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41099] = {
+        name = "Direcione nossa Ira",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41105] = {
+        name = "A Espada dos Reis",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41106] = {
+        name = "Chamado das Selvas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41108] = {
+        name = "Despeje a morte sobre eles",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41109] = {
+        name = "Aguardando vingança",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41112] = {
+        name = "O grande Akazamzarak",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41113] = {
+        name = "Viagem de primeira classe",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41114] = {
+        name = "O retorno do campeão",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41119] = {
+        name = "A Caçada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41120] = {
+        name = "Acordos Escusos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41121] = {
+        name = "A Qualquer Custo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41124] = {
+        name = "O renascimento do Tirisgarde",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41125] = {
+        name = "Potencial desbloqueado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41138] = {
+        name = "Alimentando Shal'Aran",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41141] = {
+        name = "O dever de um conjurador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41148] = {
+        name = "Compaixão para todos",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [41149] = {
+        name = "Um esforço recompensador",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41197] = {
+        name = "Tá miauchando com cara de bobo?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41215] = {
+        name = "Eles se tornam os caçados",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41216] = {
+        name = "A Lei da Selva",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41221] = {
+        name = "O Retorno a Mardum",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41230] = {
+        name = "Armadilha evoluída",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41231] = {
+        name = "Predador-alfa",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41332] = {
+        name = "Ascensão no Círculo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41335] = {
+        name = "Os elementos chamam...",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41367] = {
+        name = "Encomenda prioritária",
         level = 110,
         requiredLevel = 98,
     },
@@ -9957,13 +4565,8 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 98,
     },
-    [50247] = {
-        name = "O correio não pode parar",
-        level = 110,
-        requiredLevel = 98,
-    },
-    [41367] = {
-        name = "Encomenda prioritária",
+    [41394] = {
+        name = "Serviço com gentileza",
         level = 110,
         requiredLevel = 98,
     },
@@ -9972,1096 +4575,563 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 98,
     },
-    [39390] = {
-        name = "Um texto misterioso",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [39350] = {
-        name = "Gorja das Almas: esperança em Helheim",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
+    [41397] = {
+        name = "Uma grande encomenda",
         level = 110,
-        requiredLevel = 110,
-    },
-    [39347] = {
-        name = "Concentrando nossos esforços",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39645] = {
-        name = "Peritos em calibragem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39326] = {
-        name = "Cargas perdidas",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [39325] = {
-        name = "Prepare a sua mistura",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [39327] = {
-        name = "Deixe que o escriba faz isso",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [39328] = {
-        name = "Conhecimento Ancestral",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [39329] = {
-        name = "Queimador adormecido",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [39330] = {
-        name = "Caça no meridiano",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [39331] = {
-        name = "Olho de Azshara: escolha as rolhas",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 102,
-        requiredLevel = 102,
-    },
-    [39332] = {
-        name = "Aguardente dos pelursos",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [39333] = {
-        name = "Uma bureta imprecisa",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [39334] = {
-        name = "Não fra(s)queje",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [39430] = {
-        name = "Pedir um favor não é só para os fra(s)cos",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [44112] = {
-        name = "Negócio dos sonhos",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39339] = {
-        name = "Um crisol frágil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39340] = {
-        name = "Revestindo o crisol",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39342] = {
-        name = "O preço do mercado negro",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39343] = {
-        name = "Câmara das Guardiãs: Tubos de Vidro Espirais",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39344] = {
-        name = "Buretas clandestinas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39345] = {
-        name = "Peritos em calibragem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39346] = {
-        name = "Testando a calibragem",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39348] = {
-        name = "Salões da Bravura: o ingrediente principal",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39349] = {
-        name = "Castelo Corvo Negro: pesado, mas útil",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39351] = {
-        name = "O Pesadelo Esmeralda: fogo raivoso",
-        difficulty = "lfr",
-        tagID = QUEST_TAG_RAID,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42081] = {
-        name = "Com o novo",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39338] = {
-        name = "Devolva o filtro",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39431] = {
-        name = "Remendando o filtro",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39335] = {
-        name = "Covil de Neltharion: pó poderoso",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 106,
-        requiredLevel = 106,
-    },
-    [39337] = {
-        name = "Filtro esquecido",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39336] = {
-        name = "Precisamos de mais pó!",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [39341] = {
-        name = "Câmara das Guardiãs: a bile do demônio",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40535] = {
-        name = "O Levante dos Drogbares",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40536] = {
-        name = "Os lesks valem mais do que as joias",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40538] = {
-        name = "Lições de lapidação",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [40539] = {
-        name = "Segundas intenções",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [40540] = {
-        name = "Cai pra dentro, lesk",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [40541] = {
-        name = "A carga interior",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [40542] = {
-        name = "Olhos de Nashal",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [40543] = {
-        name = "Olhos de Nashal",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [40544] = {
-        name = "Olhos de Nashal",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [40546] = {
-        name = "Mistérios da natureza",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [40547] = {
-        name = "Para Dalaran, com amor",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40525] = {
-        name = "Reunindo a banda",
-        level = 100,
         requiredLevel = 98,
     },
-    [42214] = {
-        name = "De boca aberta",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40529] = {
-        name = "Verdadeiro ultraje",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40530] = {
-        name = "De olho no lance",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40523] = {
-        name = "Amigos fascinantes",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40524] = {
-        name = "Anel familiar",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40556] = {
-        name = "Jalesk Precisa de Você",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40526] = {
-        name = "Últimos toques",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40527] = {
-        name = "Últimos toques",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40528] = {
-        name = "Últimos toques",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40558] = {
-        name = "Soquete em mim",
+    [41409] = {
+        name = "Na hora certa",
         level = 110,
         requiredLevel = 110,
     },
-    [40559] = {
-        name = "Castelo Corvo Negro: a sabedoria do corvo",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
+    [41410] = {
+        name = "Pó seco",
         level = 110,
         requiredLevel = 110,
     },
-    [40560] = {
-        name = "Gorja das Almas: arrebatamento",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
+    [41415] = {
+        name = "O chamado do caçador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41422] = {
+        name = "Preparativos necessários",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41425] = {
+        name = "Inimigos submersos",
         level = 110,
         requiredLevel = 110,
     },
-    [40561] = {
-        name = "Salões da Bravura: joia dos céus",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
+    [41426] = {
+        name = "Contra a vontade",
         level = 110,
         requiredLevel = 110,
     },
-    [40562] = {
-        name = "Um toque pessoal",
+    [41436] = {
+        name = "Em sono profundo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41449] = {
+        name = "Junte-se à Sonhadora",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41452] = {
+        name = "Frenesi felino",
         level = 110,
         requiredLevel = 110,
     },
-    [40532] = {
-        name = "Passando das eliminatórias",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40533] = {
-        name = "Passando das eliminatórias",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40534] = {
-        name = "Passando das eliminatórias",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40531] = {
-        name = "Rápida vingança",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [38947] = {
-        name = "Categute Rúnico",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [38951] = {
-        name = "Uma agulha necessária",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [38955] = {
-        name = "Entrando na linha",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [38959] = {
-        name = "Deixados para trás",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [38963] = {
-        name = "A lição final?",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [39602] = {
-        name = "Cadê Lyndras? Investigação no esgoto",
+    [41453] = {
+        name = "Vínculo fraterno",
         level = 110,
         requiredLevel = 110,
     },
-    [40178] = {
-        name = "Oportunidade de vestimenta",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40182] = {
-        name = "Bom demais pra ignorar",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40186] = {
-        name = "Durabilidade drogbar",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40194] = {
-        name = "Carga recuperada",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [40198] = {
-        name = "Ratos!",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [40202] = {
-        name = "A lição final",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40206] = {
-        name = "Uma Dívida Quitada",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40210] = {
-        name = "Tempo bem gasto",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [38944] = {
-        name = "Que a costura comece",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [38948] = {
-        name = "Tempos difíceis",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [38952] = {
-        name = "Precisão meticulosa",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [38956] = {
-        name = "Cadê Lyndras de novo?",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [38960] = {
-        name = "Forro íntimo",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [38964] = {
-        name = "Cadê Lyndras agora?",
+    [41462] = {
+        name = "Mas que pés grandes você tem",
         level = 110,
         requiredLevel = 110,
     },
-    [41889] = {
-        name = "Encanto com o passado",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [39667] = {
-        name = "Cadê Lyndras? Roubo da chama de meridiano",
+    [41463] = {
+        name = "Perdido no caminho",
         level = 110,
         requiredLevel = 110,
     },
-    [40179] = {
-        name = "Selvageria de Trommheim",
-        level = 100,
+    [41464] = {
+        name = "Nunca, jamais",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41467] = {
+        name = "A opção que nos resta",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41468] = {
+        name = "Dama da Garra",
+        level = -1,
         requiredLevel = 98,
     },
-    [40183] = {
-        name = "Além do limite",
-        level = 100,
+    [41469] = {
+        name = "Volte ao Retiro do Bosque de Ferro.",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41473] = {
+        name = "Casco Vermelho, o Ancião",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41474] = {
+        name = "Adubo para o futuro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41475] = {
+        name = "Forcados e presas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41478] = {
+        name = "A bênção final",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41479] = {
+        name = "Adversários naturais",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41480] = {
+        name = "Observador de Mana",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41485] = {
+        name = "Resgate de Sileluna",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41494] = {
+        name = "Nossos bosques têm mais vida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41499] = {
+        name = "Lula fora d'água",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41510] = {
+        name = "Azeroth precisa de você",
+        level = -1,
         requiredLevel = 98,
     },
-    [40187] = {
-        name = "Elos da Corrente",
-        level = 102,
-        requiredLevel = 102,
+    [41540] = {
+        name = "Encontro com o mensageiro",
+        level = -1,
+        requiredLevel = 98,
     },
-    [40191] = {
-        name = "Histórias da manada",
-        level = 104,
-        requiredLevel = 104,
+    [41541] = {
+        name = "Expedição animal",
+        level = -1,
+        requiredLevel = 98,
     },
-    [40195] = {
+    [41542] = {
+        name = "Preparativos para a caça",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41574] = {
+        name = "Trovão roubado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41575] = {
+        name = "Teleportador Almavil ativado!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41606] = {
+        name = "Procurando Brytag",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41618] = {
+        name = "O guardião dos mares",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41625] = {
+        name = "A Ira da Luz",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41626] = {
+        name = "Uma nova ameaça",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41627] = {
+        name = "Um inimigo esquecido",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41628] = {
+        name = "Olhos do dragão",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41629] = {
+        name = "Controlando o fogo sagrado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41630] = {
+        name = "Deflagrar julgamento",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41631] = {
+        name = "A Câmara do Nexus",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41632] = {
+        name = "Uma dádiva do tempo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41689] = {
+        name = "Purificação da Árvore Mãe",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41690] = {
+        name = "Reconciliação",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41702] = {
+        name = "Escrito em pedra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41704] = {
+        name = "Cobaia 16",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41707] = {
+        name = "Vermegarras pérfidas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41708] = {
+        name = "Lado Escuro da Lua",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41709] = {
+        name = "Juntando as pontas soltas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41724] = {
+        name = "O Coração do Pesadelo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41728] = {
+        name = "A defesa do Monastério de Tian",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41729] = {
+        name = "Atraso na destruição",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41730] = {
+        name = "Ataque desesperado",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41731] = {
+        name = "Tempestade, Terra e Fogo",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41732] = {
+        name = "A Mão de Keletress",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41733] = {
+        name = "Reconstruindo a Ordem",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41736] = {
+        name = "Campeão: Angus Punho de Ferro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41737] = {
+        name = "Campeão: Hiro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41738] = {
+        name = "Campeão: Sylara Cantaço",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41739] = {
+        name = "Campeã: Aegira",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41740] = {
+        name = "Dando uma guaribada",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41741] = {
+        name = "Tropas em campo",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41742] = {
+        name = "Campeão: Celestos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41743] = {
+        name = "Campeão: Nobambo",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41744] = {
+        name = "Campeão: Rehgar Fúria da Terra",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41745] = {
+        name = "Campeão: Scaldius",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41746] = {
+        name = "Campeão: Muln Terrafúria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41747] = {
+        name = "Campeão: Avalanchion",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41751] = {
+        name = "Campeã: Kira Iralma",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41752] = {
+        name = "Campeão: Zinnin Smythe",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41753] = {
+        name = "Campeã: Jubeka Quebrassombra",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41754] = {
+        name = "Campeão: Shinfel Jura de Praga",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41755] = {
+        name = "Campeã: Guadalupe Crepistala",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41756] = {
+        name = "Campeã: Gêmeas Eredar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41759] = {
+        name = "Uma aliada improvável",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41760] = {
+        name = "O legado de Kel'danath",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41762] = {
+        name = "Simpatizantes entre os Shal'dorei",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41764] = {
+        name = "Trilhando os mesmos passos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [41767] = {
         name = "Um resgate ousado",
-        level = 104,
-        requiredLevel = 104,
+        level = -1,
+        requiredLevel = 103,
     },
-    [40199] = {
-        name = "Trabalhando as calças de couro",
-        level = 106,
-        requiredLevel = 106,
+    [41768] = {
+        name = "Sinalizador de alma",
+        level = -1,
+        requiredLevel = 110,
     },
-    [40203] = {
-        name = "Força do passado",
-        level = 108,
-        requiredLevel = 108,
+    [41769] = {
+        name = "Nesto Doido, o alquimista",
+        level = -1,
+        requiredLevel = 110,
     },
-    [40207] = {
-        name = "Escamas do arcano",
-        level = 108,
-        requiredLevel = 108,
+    [41770] = {
+        name = "Pelos céus",
+        level = -1,
+        requiredLevel = 103,
     },
-    [40211] = {
-        name = "Carne de demônio",
+    [41771] = {
+        name = "Recarregando a lâmina",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41772] = {
+        name = "Ascendente das Chamas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41773] = {
+        name = "O comando do Senhor do Fogo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41775] = {
+        name = "A grande Petramáter",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41776] = {
+        name = "Retorno do Senhor dos Ventos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41777] = {
+        name = "Destruindo o culto",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41780] = {
+        name = "Destino e agonia",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41781] = {
+        name = "Pastoreando bodes",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41782] = {
+        name = "Para as colinas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41783] = {
+        name = "Oferenda caídas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41784] = {
+        name = "Com os dias contados",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41785] = {
+        name = "Procurando Crepistala",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41787] = {
+        name = "A bagunça dos outros",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41788] = {
+        name = "Arrancando uma confissão",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41790] = {
+        name = "A primeira provação de Ursol",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41791] = {
+        name = "A segunda provação de Ursol",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41792] = {
+        name = "A terceira provação de Ursol",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41793] = {
+        name = "Guadalupe emprestada",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41795] = {
+        name = "Evocando as irmãs",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41796] = {
+        name = "Escolhendo um Sexto",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41797] = {
+        name = "Recrutando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41798] = {
+        name = "Precisa-se de mais tropas",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41799] = {
+        name = "Lacaios da Escuridão",
         level = 110,
         requiredLevel = 110,
     },
-    [38945] = {
-        name = "É pra ser fácil... né?",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [38949] = {
-        name = "Então você acha que pode costurar",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [38953] = {
-        name = "Costura avançada",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [38957] = {
-        name = "Em busca de inspiração",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [38961] = {
-        name = "Olho de Azshara: o noctívoro depravado",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 108,
-        requiredLevel = 108,
-    },
-    [38965] = {
-        name = "Ataque ao Castelo Violeta: castelo adentro",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
+    [41800] = {
+        name = "Servos da Escuridão",
         level = 110,
         requiredLevel = 110,
     },
-    [40176] = {
-        name = "Da cabeça aos pés",
-        level = 100,
+    [41803] = {
+        name = "Pedindo um favor",
+        level = -1,
         requiredLevel = 98,
     },
-    [40180] = {
-        name = "Arma dura",
-        level = 100,
+    [41804] = {
+        name = "Peça e você receberá",
+        level = -1,
         requiredLevel = 98,
     },
-    [40184] = {
-        name = "Curtimento taureno",
-        level = 102,
-        requiredLevel = 102,
+    [41806] = {
+        name = "Fale novamente com Jace",
+        level = -1,
+        requiredLevel = 98,
     },
-    [40188] = {
-        name = "Um prato que se come frio",
-        level = 102,
-        requiredLevel = 102,
+    [41807] = {
+        name = "Estabelecendo uma conexão",
+        level = -1,
+        requiredLevel = 98,
     },
-    [40192] = {
-        name = "Garra da terra",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [40196] = {
-        name = "Ansiedades aventureiras",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [40200] = {
-        name = "Laços de batalha",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [40204] = {
-        name = "Evolução do passado",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40208] = {
-        name = "Olho de Azshara: escamas do mar",
-        difficulty = "normal",
-        tagID = QUEST_TAG_DUNGEON,
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40212] = {
-        name = "Extremidade errada da faca",
+    [41815] = {
+        name = "Maldição dos Necrotrevas",
         level = 110,
         requiredLevel = 110,
     },
-    [38946] = {
-        name = "Consultando os moradores da região",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [38950] = {
-        name = "O alfaiate caprichoso",
-        level = 100,
-        requiredLevel = 100,
-    },
-    [38954] = {
-        name = "Cadê Lyndras?",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [38958] = {
-        name = "A cor certa",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [38962] = {
-        name = "O caminho para Suramar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38966] = {
-        name = "Métodos secretos de tecer seda",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39605] = {
-        name = "Cadê Lyndras? Espiral descendente",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40415] = {
-        name = "Tempo bem aproveitado",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [38967] = {
-        name = "A conexão dos Filhos da Noite",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40214] = {
-        name = "Curtimento vil",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [40177] = {
-        name = "Moça coureira",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40181] = {
-        name = "Bandido de Corvo Negro",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40185] = {
-        name = "Aguentar o fardo",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40189] = {
-        name = "Conhecimento das nagas",
-        level = 102,
-        requiredLevel = 102,
-    },
-    [40327] = {
-        name = "Testando o metal",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [40197] = {
-        name = "Os materiais necessários",
-        level = 104,
-        requiredLevel = 104,
-    },
-    [40201] = {
-        name = "Brinquedinhos",
-        level = 106,
-        requiredLevel = 106,
-    },
-    [40205] = {
-        name = "Respeito pelo passado",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40209] = {
-        name = "Escamas da terra",
-        level = 108,
-        requiredLevel = 108,
-    },
-    [40213] = {
-        name = "Cães aos montes",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39958] = {
-        name = "Flor da pele",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [38969] = {
-        name = "Mestre da Tramasseda",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38968] = {
-        name = "Prova de lealdade",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38970] = {
-        name = "O Tear da Graça da Rainha",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39957] = {
-        name = "Tinta demoníaca",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [38237] = {
-        name = "Isso ESTÁ no meu contrato.",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42238] = {
-        name = "Demônio desaparecido",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38232] = {
-        name = "Lacaio! Mate-os!",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38460] = {
-        name = "Vamos Fazer um Acordo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [37965] = {
-        name = "Uma safra maculada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38203] = {
-        name = "Vinhedo Challiane",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42372] = {
-        name = "Passagem Brasavil",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42367] = {
-        name = "Arkethrax",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42369] = {
-        name = "Eles tão fazendo errado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42375] = {
-        name = "Estou de olho em você",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42368] = {
-        name = "Quantidade sobre qualidade",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42645] = {
-        name = "Derramamento de sangue ruim",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42640] = {
-        name = "O valor do conhecimento",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42635] = {
-        name = "O mistério de Dreyrgrot",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42639] = {
-        name = "Uma pedra de sangue",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42641] = {
-        name = "O que os Parlaossos enterraram",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40120] = {
-        name = "Um destino obscuro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42447] = {
-        name = "Dança com corvursos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42444] = {
-        name = "A luta da Penanegra",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42446] = {
-        name = "Penas chamuscadas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42445] = {
-        name = "Tributo de Nithogg",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39787] = {
-        name = "Armando a aposta",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39789] = {
-        name = "Comendo nossos lucros",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43331] = {
-        name = "Hora de coletar",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42483] = {
-        name = "Aposte tudo no vermelho",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39786] = {
-        name = "Uma aposta rochosa",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39792] = {
-        name = "Uma pilha de estantes",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39793] = {
-        name = "Só o melhor",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42748] = {
-        name = "Irmãs Esmeralda",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [43324] = {
-        name = "Fúria das ferujas",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [42747] = {
-        name = "Onde os coruscantes não têm vez",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42751] = {
-        name = "Aniquilador Lunar",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42750] = {
-        name = "Apanhador de Sonhos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42786] = {
-        name = "Restos grotescos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42884] = {
-        name = "Esforço dos Radaramas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42865] = {
-        name = "Capeta a pagar",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42857] = {
-        name = "Umidade nas bordas",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42883] = {
-        name = "Todos os capetas soltinhos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40220] = {
-        name = "Dança espinhosa",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38862] = {
-        name = "Folhacardo Afanador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40221] = {
-        name = "Abra suas Asalunas para Voar",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [46275] = {
-        name = "O coração do reino",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46282] = {
-        name = "O caminho do rei",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46272] = {
-        name = "Convocação à bastilha",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46274] = {
-        name = "Consolação do rei",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [46268] = {
-        name = "Lembrança encontrada",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [39670] = {
-        name = "Tiro de dispersão de bichos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39656] = {
-        name = "O ataque à matilha",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40000] = {
-        name = "Um verdadeiro caçador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39386] = {
-        name = "Procurando um protótipo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40049] = {
-        name = "Hora da larica",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40102] = {
-        name = "Turma do Murquinho jovem",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40230] = {
-        name = "Ah, a cidade de Garrópolis!",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40045] = {
-        name = "Gentileza gera gentileza",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40047] = {
-        name = "Baiacabum!",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40229] = {
-        name = "Adentrando a escuridão",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39440] = {
-        name = "Tu maromba, lesk?",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39439] = {
-        name = "Relíquias Pedrescura",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39438] = {
-        name = "Guhruhlruhlruh",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39437] = {
-        name = "Nas profundezas da caverna",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40217] = {
-        name = "Uma oferta de munição",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39417] = {
-        name = "E esse Razik?",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40170] = {
-        name = "O momento dos amadores",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40216] = {
-        name = "Alma de caçadora",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39392] = {
-        name = "Caçando ursos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39123] = {
-        name = "Um leão por dia",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39124] = {
-        name = "Caça ao alce",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39867] = {
-        name = "Ninguém mim tira a razão!",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39178] = {
-        name = "Um alce à solta",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40228] = {
-        name = "Acompanhamento",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39859] = {
-        name = "Bodes comedores de papel",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40244] = {
-        name = "O cara da fantasia",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [49787] = {
-        name = "A Terra Fantasma",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [49698] = {
-        name = "O Forjado a Luz",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [49266] = {
-        name = "Forja das Eras",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48962] = {
-        name = "Fissura de Telogrus",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [50071] = {
-        name = "Pela Luz!",
-        level = 110,
-        requiredLevel = 110,
-    },
-    [48067] = {
-        name = "Sombras no Penhasco do Trovão",
+    [41834] = {
+        name = "As máscaras que usamos",
         level = 110,
         requiredLevel = 110,
     },
@@ -11075,23 +5145,48 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
-    [41815] = {
-        name = "Maldição dos Necrotrevas",
-        level = 110,
+    [41849] = {
+        name = "O Punho de Ferro",
+        level = -1,
         requiredLevel = 110,
     },
-    [48079] = {
-        name = "Retorno a Alta Montanha",
-        level = 110,
+    [41850] = {
+        name = "O mestre de espadas",
+        level = -1,
         requiredLevel = 110,
     },
-    [49756] = {
-        name = "Forças das Trevas",
-        level = 110,
+    [41851] = {
+        name = "Segurando a onda",
+        level = -1,
         requiredLevel = 110,
     },
-    [49354] = {
-        name = "Lembrem-se da Nascente do Sol",
+    [41852] = {
+        name = "Monge nenhum abandonado",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41853] = {
+        name = "Dá zero pro Hiro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41854] = {
+        name = "Tijolo por tijolo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41863] = {
+        name = "A vingança será nossa",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41877] = {
+        name = "Lady Lunastre",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [41878] = {
+        name = "A gondoleira",
         level = 110,
         requiredLevel = 110,
     },
@@ -11100,63 +5195,3450 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
-    [41799] = {
-        name = "Lacaios da Escuridão",
+    [41888] = {
+        name = "Aliança de chama",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41889] = {
+        name = "Encanto com o passado",
+        level = 104,
+        requiredLevel = 104,
+    },
+    [41893] = {
+        name = "Entregue à corrupção",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41897] = {
+        name = "O plano do mestre",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41898] = {
+        name = "Liberando os elementos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41899] = {
+        name = "Mantenha na prisão!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41900] = {
+        name = "Uma promessa da Terra",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41901] = {
+        name = "Profecia do Senhor do Vento",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41905] = {
+        name = "Notícias do Monastério de Tian",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41907] = {
+        name = "Apropriações",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41909] = {
+        name = "Rastreamento dos Mareskárnio",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [41910] = {
+        name = "Fonte de Freya",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41911] = {
+        name = "Lúpulo amarantino",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41916] = {
+        name = "Um futuro melhor",
         level = 110,
         requiredLevel = 110,
     },
-    [41764] = {
-        name = "Trilhando os mesmos passos",
+    [41918] = {
+        name = "O sonhador retorna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41919] = {
+        name = "As sombras revelam",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41920] = {
+        name = "Uma questão de classe",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41921] = {
+        name = "Aproximando",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41922] = {
+        name = "Traidor!",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41924] = {
+        name = "Presas do Devorador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41934] = {
+        name = "A marca da danação",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [41945] = {
+        name = "Tianji, praticante do método do boi",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41946] = {
+        name = "Acumulando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [41957] = {
+        name = "A súplica do vindicante",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41966] = {
+        name = "A casa chama",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41967] = {
+        name = "Saído das trevas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [41989] = {
+        name = "Sangue do meu sangue",
         level = 110,
         requiredLevel = 110,
     },
-    [49973] = {
-        name = "A mansão de Thalyssra",
+    [41993] = {
+        name = "Salvação das Alturas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42000] = {
+        name = "Em busca da verdade",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42001] = {
+        name = "Aluneth, o Grande Cajado de Magna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42002] = {
+        name = "Para Nortúndria",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42005] = {
+        name = "O fim da saga",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42006] = {
+        name = "Uma nova ameaça",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42007] = {
+        name = "Um inimigo esquecido",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42008] = {
+        name = "Olhos do dragão",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42009] = {
+        name = "Controlando o Arcano",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42010] = {
+        name = "Arcano liberado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42011] = {
+        name = "A Câmara do Nexus",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42017] = {
+        name = "Santuário da Guarda Fiel",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42031] = {
+        name = "Crescimento terrível",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42032] = {
+        name = "Amostra do Pesadelo",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42033] = {
+        name = "Refúgio de Malorne",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42034] = {
+        name = "Pegada do Pesadelo",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42035] = {
+        name = "Rastreamento do inimigo",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42036] = {
+        name = "Ídolo das Selvas",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42037] = {
+        name = "Reunião dos Tece-sonhos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42038] = {
+        name = "Campeão: Broll Mantursino",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42039] = {
+        name = "Campeã: Sylendra Verdecanto",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42040] = {
+        name = "O caminho para Nordrassil",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42041] = {
+        name = "Resistindo ao Pesadelo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42042] = {
+        name = "Pequenininhos!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42043] = {
+        name = "Limpeza geral",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42044] = {
+        name = "Um sonho de matar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42045] = {
+        name = "Comungando com Malorne",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42046] = {
+        name = "Um novo começo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42047] = {
+        name = "Campeão: Hamuul Runetotem",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42048] = {
+        name = "Campeão: Mylune",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42049] = {
+        name = "Energizando o portal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42050] = {
+        name = "Defensores do sonho",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42051] = {
+        name = "Entre no Pesadelo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42053] = {
+        name = "A Guerra dos Antigos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42054] = {
+        name = "Arquimonde, o Corruptor",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42055] = {
+        name = "O retorno do Semideus",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42056] = {
+        name = "Campeão: Remulos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42065] = {
+        name = "O Mestre do Crepúsculo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42068] = {
+        name = "O retorno do Crepúsculo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42074] = {
+        name = "Retorno da Luz",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42079] = {
+        name = "Baile de máscaras",
         level = 110,
         requiredLevel = 110,
     },
-    [48433] = {
-        name = "Juntos, nós somos a Horda!",
+    [42081] = {
+        name = "Com o novo",
         level = 110,
         requiredLevel = 110,
     },
-    [48434] = {
-        name = "Como vai Chifre de Ébano?",
+    [42088] = {
+        name = "Removendo o Boneco de Neve",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42097] = {
+        name = "Vasculhando os arquivos",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42098] = {
+        name = "Castelo Corvo Negro: uma alma não reclamada",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42100] = {
+        name = "Potencializando a alma",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42102] = {
+        name = "Alguém de valor",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42103] = {
+        name = "Deixe se alimentar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42104] = {
+        name = "O Hipomonarca se aproxima",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42107] = {
+        name = "No rastro do grande verme",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42110] = {
+        name = "Ao topo!",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42114] = {
+        name = "Ritual das Marés",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42120] = {
+        name = "O Punho de Prata",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42125] = {
+        name = "Sussurros Sombrios",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42126] = {
+        name = "Arquimaga Omniara",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42127] = {
+        name = "Acumulando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42128] = {
+        name = "Reagentes do ritual",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42131] = {
+        name = "Visitantes inesperados",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42132] = {
+        name = "E, finalmente...",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42133] = {
+        name = "Entrega em menos de um dia",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42134] = {
+        name = "Recrutando mais tropas",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42137] = {
+        name = "Campeã: Yalia Sábio Sussurro",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42138] = {
+        name = "Campeão: Zabra Gatta",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42139] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42140] = {
+        name = "Uma colmeia ainda mais ignóbil de escória e vilania",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42141] = {
+        name = "Evocador Morn",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42142] = {
+        name = "Recrutando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42147] = {
+        name = "Primeiro contato",
         level = 110,
         requiredLevel = 110,
     },
-    [48185] = {
-        name = "Sombra do Sepulcro",
+    [42149] = {
+        name = "Certos conhecimentos não deveriam ser compartilhados",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42158] = {
+        name = "A Oficina do Criador",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42166] = {
+        name = "O que está acontecendo aqui?",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42168] = {
+        name = "Olhando para a escuridão",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42171] = {
+        name = "Saída final",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42184] = {
+        name = "Missão: diplomacia elemental",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42185] = {
+        name = "Nunca cace sozinho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42186] = {
+        name = "Poder crescente",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42187] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42188] = {
+        name = "Nobambo aguarda",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42191] = {
+        name = "Dando uma garibada",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42193] = {
+        name = "O Gjallarhorn",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42194] = {
+        name = "Honra roubada",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42200] = {
+        name = "Missão: Investigando o Geodomo",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42202] = {
+        name = "Vingança, um prato que se come frio",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42204] = {
+        name = "Jorhuttam",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42206] = {
+        name = "Momento de superioridade",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42208] = {
+        name = "Retorno às Terras do Fogo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42210] = {
+        name = "Pergaminhos do conhecimento",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42213] = {
+        name = "Olho de Azshara: a Pedramar de Golganneth",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42214] = {
+        name = "De boca aberta",
+        level = 100,
+        requiredLevel = 98,
+    },
+    [42220] = {
+        name = "Marinheiros náufragos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42222] = {
+        name = "Relato da Sociedade Empírea",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42223] = {
+        name = "Fazendo o reconhecimento da Mata Carmesim",
         level = 110,
         requiredLevel = 110,
     },
-    [48403] = {
-        name = "A Treva",
+    [42224] = {
+        name = "Coberto pela Sombraluna",
         level = 110,
         requiredLevel = 110,
     },
-    [49613] = {
-        name = "Luaprata",
+    [42225] = {
+        name = "O rompimento dos selos",
         level = 110,
         requiredLevel = 110,
     },
-    [49614] = {
-        name = "Os Filhos da Noite",
+    [42226] = {
+        name = "O Discordante de Sombraluna",
         level = 110,
         requiredLevel = 110,
     },
-    [48190] = {
-        name = "A Montanha de Huln",
+    [42227] = {
+        name = "Fenda adentro",
         level = 110,
         requiredLevel = 110,
     },
-    [48066] = {
-        name = "Um banquete para os nossos",
+    [42228] = {
+        name = "A cidade secreta",
         level = 110,
         requiredLevel = 110,
     },
-    [41800] = {
-        name = "Servos da Escuridão",
+    [42229] = {
+        name = "Shal'Aran",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42230] = {
+        name = "O fardo do andarilho do vale",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42231] = {
+        name = "O paladino misterioso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42238] = {
+        name = "Demônio desaparecido",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42244] = {
+        name = "A Sina do Vingança da Rainha",
+        level = -1,
+        requiredLevel = 98,
+        restrictions = {
+            type = "faction",
+            id = "Horde",
+        },
+    },
+    [42268] = {
+        name = "Marinheiros náufragos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42271] = {
+        name = "Os últimos suspiros",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42365] = {
+        name = "Foco das energias",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42367] = {
+        name = "Arkethrax",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42368] = {
+        name = "Quantidade sobre qualidade",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42369] = {
+        name = "Eles tão fazendo errado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42370] = {
+        name = "Uso básico de varinhas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42371] = {
+        name = "Sala de estudos: pesquisa sobre combate",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42372] = {
+        name = "Passagem Brasavil",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42375] = {
+        name = "Estou de olho em você",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42383] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42384] = {
+        name = "Relatório dos Batedores",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42385] = {
+        name = "Dando uma mão",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42386] = {
+        name = "Mais e mais problemas",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42387] = {
+        name = "Cilada para um assassino",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42388] = {
+        name = "Evocações urgentes",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42389] = {
+        name = "Chamando Hilaire pra casa",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42390] = {
+        name = "Recrutando Rexxar",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42391] = {
+        name = "Mordida da fera",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42392] = {
+        name = "Sobreviva à noite",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42393] = {
+        name = "Retorno para casa",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42394] = {
+        name = "Proteção Oculta",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42395] = {
+        name = "Problemas com sinais",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42397] = {
+        name = "Barão e o guarda-caça",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42398] = {
+        name = "Despertar dos sentidos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42399] = {
+        name = "Pronto para trabalhar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42400] = {
+        name = "Magos desaparecidos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42401] = {
+        name = "O aroma da magia",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42402] = {
+        name = "Solicitando reforços",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42403] = {
+        name = "Caçadores de Alta Montanha",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42404] = {
+        name = "Auxílio ao Arquimago",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42405] = {
+        name = "Informando aos aliados",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42406] = {
+        name = "Para domar a fera",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42407] = {
+        name = "A natureza da fera",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42408] = {
+        name = "Reagentes necessários",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42409] = {
+        name = "Campeão: Loren Casco Feroz",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42410] = {
+        name = "Campeão: Rexxar",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42411] = {
+        name = "Campeã: Senhora das Feras Hilaire",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42412] = {
+        name = "Campeão: Guarda-caça Blake",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42413] = {
+        name = "Campeão: Rosarães Guima",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42414] = {
+        name = "Campeão: Addie Chiabrejo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42415] = {
+        name = "Campeã: Halduron Asaluz",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42416] = {
+        name = "O Conselho está em deliberação",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42418] = {
+        name = "Um visitante inesperado",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42423] = {
+        name = "Retiro do Arquimago Vargoth",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42424] = {
+        name = "Seguir os passos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42428] = {
+        name = "O altar de Ashamane",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42430] = {
+        name = "As presas de Ashamane",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42432] = {
+        name = "O Pesadelo Esmeralda: o Pesadelo Esmeralda",
+        difficulty = "lfr",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42433] = {
+        name = "Magia Ancestral",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42434] = {
+        name = "Uma operação sigilosa",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42435] = {
+        name = "Prepare-se para ser assimilado",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42436] = {
+        name = "Ajudando os nossos aliados",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42438] = {
+        name = "Sementes de renovação",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42439] = {
+        name = "Ajuda aos Druidas das Cinzas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42440] = {
+        name = "O santuário em perigo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42444] = {
+        name = "A luta da Penanegra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42445] = {
+        name = "Tributo de Nithogg",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42446] = {
+        name = "Penas chamuscadas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42447] = {
+        name = "Dança com corvursos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42449] = {
+        name = "Retorno dos Quatro Cavaleiros",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42451] = {
+        name = "Plano de Kalec",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42452] = {
+        name = "Procurando Ébano Gélido",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42455] = {
+        name = "Gemas de Alodi",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42476] = {
+        name = "O Sítio de Vento Morto",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42477] = {
+        name = "Daio, o Decrépito",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42479] = {
+        name = "O Caça-magos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42483] = {
+        name = "Aposte tudo no vermelho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42484] = {
+        name = "A ascensão do Primeiro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42486] = {
+        name = "Pequenina perdida",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42487] = {
+        name = "Amigos do lado de fora",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42488] = {
+        name = "Lar de Thalyssra",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42489] = {
+        name = "Gavetas de Thalyssra",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42490] = {
+        name = "O Arcâneo: abrindo o Arcâneo",
+        difficulty = "heroic",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42491] = {
+        name = "O Arcâneo: conhecimento há muito enterrado",
+        difficulty = "heroic",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42493] = {
+        name = "Ruína imineeeeeente!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42494] = {
+        name = "Mais que um mero comerciante de comida",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42501] = {
+        name = "Serviço completo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42502] = {
+        name = "Sem refúgio",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42503] = {
+        name = "Decifrador de códigos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42504] = {
+        name = "A lâmina oculta",
+        level = -1,
+        requiredLevel = 98,
+        restrictions = {
+            type = "faction",
+            id = "Alliance",
+        },
+    },
+    [42508] = {
+        name = "Não é um dragão sem dente",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42510] = {
+        name = "Alma imortal",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42512] = {
+        name = "Alta Montanha resiste",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42516] = {
+        name = "Poder crescente",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42519] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42520] = {
+        name = "Uma perda terrível",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42521] = {
+        name = "O inimigo de meu inimigo...",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42522] = {
+        name = "Líder dos Illidari",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42523] = {
+        name = "Fazendo contato",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42524] = {
+        name = "Recrutando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42525] = {
+        name = "Tropas em campo",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42526] = {
+        name = "Dando uma garibada",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42533] = {
+        name = "O reino em ruínas",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42534] = {
+        name = "Nossos inimigos mais antigos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42535] = {
+        name = "Morte... e decomposição",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42536] = {
+        name = "Regicídio",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42537] = {
+        name = "O rei se ergue",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42539] = {
+        name = "Capa e Espada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42567] = {
+        name = "Condenado a fenecer",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42568] = {
+        name = "Preparação",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42583] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42584] = {
+        name = "Irmã Lilith",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42585] = {
+        name = "Recrutando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42586] = {
+        name = "Defesa da clareira",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42588] = {
+        name = "Expansão",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42593] = {
+        name = "O caminho arcano",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42594] = {
+        name = "Mova-se como ninguém",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42597] = {
+        name = "Convocação de Odyn",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42598] = {
+        name = "Campeões da Fortaleza Celeste",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42601] = {
+        name = "Dando uma garibada",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42602] = {
+        name = "Tropas em campo",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42603] = {
+        name = "Informação a qualquer custo",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42607] = {
+        name = "Capitão Stahlstrom",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42608] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42609] = {
+        name = "Recrutando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42610] = {
+        name = "Tropas em campo",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42611] = {
+        name = "Einar, o Lança-runa",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42614] = {
+        name = "Campeão: Svergan Manto Tempestuoso",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42616] = {
+        name = "Campeão: Dvalen Runaferro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42618] = {
+        name = "Campeão: Thorim",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42619] = {
+        name = "Campeão: Hodir",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42627] = {
+        name = "A lâmina oculta",
+        level = -1,
+        requiredLevel = 98,
+        restrictions = {
+            type = "faction",
+            id = "Horde",
+        },
+    },
+    [42634] = {
+        name = "Confronto no Templo Negro",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42635] = {
+        name = "O mistério de Dreyrgrot",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42639] = {
+        name = "Uma pedra de sangue",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42640] = {
+        name = "O valor do conhecimento",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42641] = {
+        name = "O que os Parlaossos enterraram",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42645] = {
+        name = "Derramamento de sangue ruim",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42650] = {
+        name = "Quebre os vínculos",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42651] = {
+        name = "A promessa de Svergan",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42654] = {
+        name = "Bosque Corenegro: Carvalho do Pesadelo",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42655] = {
+        name = "Minério submarino",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42656] = {
+        name = "Armamento Lazúli",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42657] = {
+        name = "Encontro no Vale Garralua",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42658] = {
+        name = "Encantamentos delicados",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42659] = {
+        name = "Em defesa de Dalaran",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42660] = {
+        name = "Câmara das Guardiãs: questões do coração",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42663] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42665] = {
+        name = "Nas nossas fileiras",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42666] = {
+        name = "Volte ao Martelo Vil",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42669] = {
+        name = "Preparativos para a invasão",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42670] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42671] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42677] = {
+        name = "Coisas que Gaardoun precisa",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42678] = {
+        name = "O Castelo Corvo Negro: o Castelo Corvo Negro",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42679] = {
+        name = "Guerreiros alquebrados",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42680] = {
+        name = "Decifrando a carta",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42681] = {
+        name = "Loramus, é você?",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42682] = {
+        name = "Atavios Adicionais",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42683] = {
+        name = "Melhorias demoníacas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42684] = {
+        name = "Despistando a AVIN",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42689] = {
+        name = "Conhecendo nosso inimigo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42691] = {
+        name = "Isca de Verme-meridiano",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42692] = {
+        name = "Filhos de Nar'thalas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42693] = {
+        name = "Você nunca sabe até usar a clarividência",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42694] = {
+        name = "De volta dos mortos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42696] = {
+        name = "Dando uma guaribada",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42702] = {
+        name = "Campeão: Millhouse Manavento",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42703] = {
+        name = "Feitiçaria técnica",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42704] = {
+        name = "Campeão: Destruidor Arcano",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42705] = {
+        name = "Campeão: Ravandwyr",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42706] = {
+        name = "Campeã: Esara Verrinde",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42707] = {
+        name = "Olho de Azshara: um suplício mágico",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42708] = {
+        name = "Um pedido pessoal",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42722] = {
+        name = "Amigos enjaulados",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42730] = {
+        name = "O pedido rasoável de Nublacuca",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42731] = {
+        name = "Trabalhando com as Guardiãs",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42732] = {
+        name = "Glaives de Guerra mais letais",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42733] = {
+        name = "Um combustível muito especial",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42734] = {
+        name = "Óculus adentro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42735] = {
+        name = "Malace nas Terras Vraikalen",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42736] = {
+        name = "Arruinando as runas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42737] = {
+        name = "Arruinando as runas: Rollo Runskel",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42738] = {
+        name = "Arruinando as runas: Senhor das Runas Ragnar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42739] = {
+        name = "Arruinando as runas: Sábio das Runas Floki",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42747] = {
+        name = "Onde os coruscantes não têm vez",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42748] = {
+        name = "Irmãs Esmeralda",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42749] = {
+        name = "Estranhos parceiros",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42750] = {
+        name = "Apanhador de Sonhos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42751] = {
+        name = "Aniquilador Lunar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42752] = {
+        name = "Câmara das Guardiãs: invasão da câmara",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42754] = {
+        name = "Ativando a propulsão",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42756] = {
+        name = "Fim da fome",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42762] = {
+        name = "O Companheiro do Andarilho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42765] = {
+        name = "Provação no templo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42766] = {
+        name = "O enigma do barril",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42767] = {
+        name = "O enigma da terra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42770] = {
+        name = "Em busca de orientação",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42771] = {
+        name = "Mantendo a paz",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42772] = {
+        name = "Solo sagrado",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42773] = {
+        name = "A Luz Revela",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42774] = {
+        name = "A esperança não morre",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42775] = {
+        name = "O eixo do plano",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42776] = {
+        name = "Dois valorosos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42786] = {
+        name = "Restos grotescos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42787] = {
+        name = "Lidando diretamente com o problema",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42792] = {
+        name = "Faça a sua marca",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42800] = {
+        name = "Campeã: Valira Sanguinar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42801] = {
+        name = "De volta, de preto",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42802] = {
+        name = "Protegendo Mardum",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42808] = {
+        name = "Novos adeptos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42809] = {
+        name = "A invasão de Niskara",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42810] = {
+        name = "A oferta final",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42814] = {
+        name = "Uma missão importante",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42815] = {
+        name = "De volta à Costa Partida",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42818] = {
+        name = "O ataque escarlate",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42821] = {
+        name = "Erguer um exército",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42823] = {
+        name = "O comandante escarlate",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42824] = {
+        name = "Ressurge a zelote",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42828] = {
+        name = "Mariposas na luz",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42829] = {
+        name = "Abrindo caminho",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42832] = {
+        name = "Os frutos do nosso trabalho",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42833] = {
+        name = "Como é feito: Vinho Arcano",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42834] = {
+        name = "Concentração intensa",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42835] = {
+        name = "Do jeito antigo",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42836] = {
+        name = "Sabotar a sedasa",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42837] = {
+        name = "Equilíbrio para dar e vender",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42838] = {
+        name = "Reversão",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42839] = {
+        name = "Procure os desagradáveis",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42840] = {
+        name = "Se as palavras não funcionam...",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42841] = {
+        name = "Um grande golpe",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [42844] = {
+        name = "Poder crescente",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42846] = {
+        name = "A matriarca de sangue",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42847] = {
+        name = "Tempestades sombrias",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42848] = {
+        name = "Recrutando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42849] = {
+        name = "Ira e justiça",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42850] = {
+        name = "Dar uma guaribada",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42851] = {
+        name = "Campeão: Vindicante Boros",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42852] = {
+        name = "Campeã: Justicar Julia Celeste",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42857] = {
+        name = "Umidade nas bordas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42865] = {
+        name = "Capeta a pagar",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42866] = {
+        name = "Um sinal celeste",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42867] = {
+        name = "Reunião do Punho de Prata",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42868] = {
+        name = "O desafio do Rei Macaco",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42869] = {
+        name = "Vigília Eterna",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42872] = {
+        name = "Protegendo o caminho",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42882] = {
+        name = "O massacre escarlate",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42883] = {
+        name = "Todos os capetas soltinhos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42884] = {
+        name = "Esforço dos Radaramas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42885] = {
+        name = "Comando do Grão-lorde",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42886] = {
+        name = "Para Faronaar",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42887] = {
+        name = "Isso que é retribuição",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42888] = {
+        name = "Orbes de comunicação",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42889] = {
+        name = "Estamos indo de volta para casa",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [42890] = {
+        name = "O Códice do Comando",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42914] = {
+        name = "Campeão: Meryl Tempestavil",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42917] = {
+        name = "Campeão: Arquimago Vargoth",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42918] = {
+        name = "Runas demoníacas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42919] = {
+        name = "O legado do rebento",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42920] = {
+        name = "A invasão de Niskara",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42921] = {
+        name = "Confronto no Templo Negro",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42931] = {
+        name = "Onde Cai o Martelo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42932] = {
+        name = "O que a Petramáter sabe",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42933] = {
+        name = "O trogg que assolou a terra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42935] = {
+        name = "O resgate dos dracos de pedra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42936] = {
+        name = "Jogada apertada",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42937] = {
+        name = "Surra em Pedragulha",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42940] = {
+        name = "Quando a vontade não falta, abre-se um caminho",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42954] = {
+        name = "Um pequeno favor",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42955] = {
+        name = "O jeito certo das coisas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42956] = {
+        name = "O pacote de Ari",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42957] = {
+        name = "Jornada ao oriente",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [42959] = {
+        name = "Três é um número de sorte",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42967] = {
+        name = "Comando do Grão-lorde",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42968] = {
+        name = "Comando do Grão-lorde",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [42974] = {
+        name = "O destino de Hodir",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42977] = {
+        name = "Servo do Perseguidor dos Ventos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42983] = {
+        name = "Essência mistral",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42984] = {
+        name = "Olho de Azshara: o Cetro das Tempestades",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42986] = {
+        name = "Inimigos do ar",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42988] = {
+        name = "Emenda-mundo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42989] = {
+        name = "Ma'haat, o Indomável",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42990] = {
+        name = "Covil de Neltharion: o amuleto terrano",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42995] = {
+        name = "Fome de sangue",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [42996] = {
+        name = "O Pilar da Voragem: ar",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [42997] = {
+        name = "O Pilar da Voragem: terra",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43002] = {
+        name = "Lâmina sagrada do Perseguidor dos Ventos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43003] = {
+        name = "Fale novamente com Janai",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43007] = {
+        name = "Volte à Câmara das Sombras",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43013] = {
+        name = "Escola de ladinagem",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43014] = {
+        name = "Wolfe, o malvado",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43015] = {
+        name = "O que Winstone sugerir",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43062] = {
+        name = "Mais treinamento",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43090] = {
+        name = "Juramento de Ulduar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43100] = {
+        name = "Encontre o cetro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43151] = {
+        name = "Fazendo negócios",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43153] = {
+        name = "Um olho no cetro",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43182] = {
+        name = "O recipiente desaparecido",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43186] = {
+        name = "Eu sou o assassino!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43241] = {
+        name = "Fluxo do pesadelo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43249] = {
+        name = "O Olho do Corvo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43250] = {
+        name = "Rumo ao Paço",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43251] = {
+        name = "Em busca do Olho",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43252] = {
+        name = "Inquietação eterna",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43253] = {
+        name = "Gorja das Almas: antigas lendas vraikalen",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43254] = {
+        name = "Arruinando o ritual",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43264] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43265] = {
+        name = "Espalhe a notícia",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43266] = {
+        name = "Recrutando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43267] = {
+        name = "Tropas em campo",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43268] = {
+        name = "Dando uma garibada",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43270] = {
+        name = "Ergam-se, campeões",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43273] = {
+        name = "Espalhe a notícia",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43275] = {
+        name = "Recrutando tropas",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43276] = {
+        name = "Tropas em campo",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43277] = {
+        name = "Dando uma garibada",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43309] = {
+        name = "A oportunidade perfeita",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43310] = {
+        name = "Ou você está conosco",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43311] = {
+        name = "Ou contra nós",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43312] = {
+        name = "Ameaças veladas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43313] = {
+        name = "Dizem rumores",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43314] = {
+        name = "Pátio das Estrelas: cuidado com a fúria de um elfo paciente",
+        difficulty = "heroic",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [43315] = {
+        name = "A morte lhe cai bem",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43317] = {
+        name = "Na sacola",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43318] = {
+        name = "O campeão de Ly'leth",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43324] = {
+        name = "Fúria das ferujas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43331] = {
+        name = "Hora de coletar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43334] = {
+        name = "A Tormenta Vindoura",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43335] = {
+        name = "Habilidades de sobrevivência",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43338] = {
+        name = "O códice de Ra",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43352] = {
+        name = "Segurança dos bens",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [43359] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43360] = {
+        name = "As Damastilhas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43361] = {
+        name = "Fragmentos do desastre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43362] = {
+        name = "O Pesadelo Esmeralda: do que os sonhos são feitos",
+        difficulty = "lfr",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43371] = {
+        name = "Ajudando as linhas de frente",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43372] = {
+        name = "Sussurros no caos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43373] = {
+        name = "O melhor e mais brilhante",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43374] = {
+        name = "Controle mental Murloc",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43375] = {
+        name = "Um suprimento amplo",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43376] = {
+        name = "Mitigando o problema",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43377] = {
+        name = "Salões da Bravura: a luz de dentro",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43378] = {
+        name = "Olho de Azshara: olhando através das lentes",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43379] = {
+        name = "A visão de Velen",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43380] = {
+        name = "Campeã: Sol",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43381] = {
+        name = "Campeã: Protetora Mariella",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43382] = {
+        name = "Campeã: Natália Selina",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43383] = {
+        name = "Despertando a Luz",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43384] = {
+        name = "Runas demoníacas",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43385] = {
+        name = "Infiltrando nossos inimigos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43386] = {
+        name = "Enviado da ofensiva",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43387] = {
+        name = "Redenção escarlate",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43388] = {
+        name = "Liberação apóstata",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43389] = {
+        name = "Convidados inesperados",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43390] = {
+        name = "Sombras esquecidas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43391] = {
+        name = "Segredos do caos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43392] = {
+        name = "Caos adentro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43393] = {
+        name = "Sombras nascentes",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43394] = {
+        name = "Cruzando linhas da Legião",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43395] = {
+        name = "Aliados da Luz",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43396] = {
+        name = "A mente do inimigo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43397] = {
+        name = "Unidos como um",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43398] = {
+        name = "Campeão: Alonso Faol",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43399] = {
+        name = "Fortificando o templo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43400] = {
+        name = "Pedralumem",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43401] = {
+        name = "Uma luz na escuridão",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43402] = {
+        name = "Sumo Sacerdote de Eterluz",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43403] = {
+        name = "Defendendo as ilhas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43407] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43409] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43412] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43414] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43415] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43418] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43420] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43422] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43423] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43424] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43425] = {
+        name = "Uma arma heroica",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43462] = {
+        name = "Mama Ozram",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43468] = {
+        name = "Sangue para Wolfe",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43469] = {
+        name = "Onde será que está Mathias?",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43470] = {
+        name = "Podando o jardim",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43479] = {
+        name = "O Mundo não é o bastante",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43485] = {
+        name = "Uma distração ardente",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43486] = {
+        name = "Quebrando o códice",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43487] = {
+        name = "Ataque ao Castelo Violeta: o Léxico Vil",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43488] = {
+        name = "Sangue do nosso inimigo",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43489] = {
+        name = "Para a Passagem Brasavil",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43490] = {
+        name = "O rastro de Aponi",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43491] = {
+        name = "Aliados da Luz",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43492] = {
+        name = "Campeã: Aponi Crina Clara",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43493] = {
+        name = "Castelo Corvo Negro: Senhor Cristacorvo",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43494] = {
+        name = "Cavaleiros do Punho de Prata",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43496] = {
+        name = "Poder interior",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43502] = {
+        name = "Uma mudança de estações",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43506] = {
+        name = "Castelo Corvo Negro: poder maior",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43508] = {
+        name = "O mestre espião cativo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43514] = {
+        name = "Um passado de arrogância",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43517] = {
+        name = "Bosque Corenegro: poder caído",
+        difficulty = "mythic",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43518] = {
+        name = "Treva temperante",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43519] = {
+        name = "Força lúcida",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43520] = {
+        name = "O Pesadelo Esmeralda: em pesadelos",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43521] = {
+        name = "Essência de Poder",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43522] = {
+        name = "Consumo essencial",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43523] = {
+        name = "Dívida paga",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43524] = {
+        name = "Pátio das Estrelas: perfeição literária",
+        difficulty = "mythic",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43525] = {
+        name = "Câmara das Guardiãs: pegando emprestado sem pedir",
+        difficulty = "mythic",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43526] = {
+        name = "Um verdadeiro teste",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43527] = {
+        name = "Salvando a Guarda",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43528] = {
+        name = "Planejando o ataque",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43530] = {
+        name = "Baluarte da Noite: ilusões de grandeza",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43531] = {
+        name = "Fortaleza Noturna adentro",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43532] = {
+        name = "Baluarte da Noite: chamado da escuridão",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43533] = {
+        name = "Equilíbrio de poder",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43534] = {
+        name = "Sangue de Sargeras",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43535] = {
+        name = "Tradução: Perigo!",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43539] = {
+        name = "Salanar, o Cavalgante",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43540] = {
+        name = "A mente do inimigo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43541] = {
+        name = "Unidos como um",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43562] = {
+        name = "Dando nosso melhor",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43563] = {
+        name = "Projetor Efêmero Manavento",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43564] = {
+        name = "Controle de fluxo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43565] = {
+        name = "Trazendo o sinalizador de volta",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43567] = {
+        name = "Tudo ou nada",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43568] = {
+        name = "Arcan'dor, o presente do mago ancião",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43569] = {
+        name = "Pedido de Arluin",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43571] = {
+        name = "Covil de Neltharion: trança do hipomonarca",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43572] = {
+        name = "Bosque Corenegro: o açoite do pesadelo",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43573] = {
+        name = "Apoiando o esforço de guerra",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43574] = {
+        name = "Gorja das Almas: malho dos mortos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43576] = {
+        name = "Reagrupar no refúgio",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43577] = {
+        name = "Capturando o portal",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43581] = {
+        name = "A sabedoria da paciência",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43582] = {
+        name = "Parque Shalássico",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43585] = {
+        name = "Preparativos de guerra",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43586] = {
+        name = "Gorja das Almas: mensagem para Helya",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43594] = {
+        name = "Fonte do Meridiano: Salões do Eclipse",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43604] = {
+        name = "Gorja das Almas: lâmina quebrada de Ymiron",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43644] = {
+        name = "Às profundezas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43645] = {
+        name = "Na trilha da Falaondas",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43686] = {
+        name = "O Quarto Cavaleiro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43697] = {
+        name = "Guerreiros da Luz",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43698] = {
+        name = "Pedralúmen",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43699] = {
+        name = "Defensores do mundo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43700] = {
+        name = "Uma luz na escuridão",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43701] = {
+        name = "Campeão: Lothráxion",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43702] = {
+        name = "Amaciamento do alvo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43705] = {
+        name = "A resistência final de Nobambo",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [43723] = {
+        name = "Campeão: Taoshi",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43724] = {
+        name = "Campeão: Mestre Mathias Shaw",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43750] = {
+        name = "O chamado da batalha",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43785] = {
+        name = "Campeão: Arator, o Redentor",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43797] = {
+        name = "Ajuda ao Conclave",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43808] = {
+        name = "Teleportador da Guarda da Lua ativado!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43809] = {
+        name = "Tel'anor'eportador ativado!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43810] = {
+        name = "Direto aos negócios",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43811] = {
+        name = "Teleportador da Propriedade dos Lunastre ativo!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43813] = {
+        name = "Teleportador do Santuário da Ordem online!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43829] = {
+        name = "Espião vs. Espião",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43832] = {
+        name = "Elixires de ajuda",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43841] = {
+        name = "Convença o velho Yancey",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43851] = {
+        name = "Precisa-se de mais tropas",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43852] = {
+        name = "Bucaneiros de fino trato",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43899] = {
+        name = "Montarias dos malditos",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43928] = {
+        name = "Agregando angústia",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43933] = {
+        name = "Campeão: Delas Presaluna",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43934] = {
+        name = "Um novo caminho",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43943] = {
+        name = "Treinamento do Exército dos Fenecidos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [43958] = {
+        name = "Corpo de delito",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [43969] = {
+        name = "Ajuda contratada",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [43975] = {
+        name = "Recrutamento de damas escudeiras",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [43991] = {
+        name = "Os protetores",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44004] = {
+        name = "Arauto da Luz",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44009] = {
+        name = "Uma estrela cadente",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44040] = {
+        name = "Voto de confiança",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44041] = {
+        name = "A verdade sangrenta",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44051] = {
+        name = "Potencial desperdiçado",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [44052] = {
+        name = "E eles estremecerão",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44053] = {
+        name = "Amizade colorida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44074] = {
+        name = "Covil de Neltharion: essência da tenacidade",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44075] = {
+        name = "Salões da Bravura: essência da ferocidade",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44076] = {
+        name = "Bosque Corenegro: essência do recrescimento",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44077] = {
+        name = "Olho de Azshara: essência do equilíbrio",
+        difficulty = "normal",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44082] = {
+        name = "Cavaleiros da Lâmina de Ébano",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44084] = {
+        name = "Vingança por Margaux",
+        level = 113,
+        requiredLevel = 110,
+    },
+    [44087] = {
+        name = "Volte ao Martelo Vil",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [44090] = {
+        name = "Juras de lealdade",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [44098] = {
+        name = "Recrutamento de aprendizes",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44099] = {
+        name = "Um amigo em comum",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [44100] = {
+        name = "Devidas apresentações",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [44112] = {
+        name = "Negócio dos sonhos",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [44116] = {
+        name = "Mistério na Baía Citrina",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44117] = {
+        name = "O tempo voa quando estamos bebendo rum!",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44152] = {
+        name = "Uma crise crescente",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44153] = {
+        name = "O fardo da Luz",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44155] = {
+        name = "Busca de pistas",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44156] = {
+        name = "Outra Arcan'dor se fecha...",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44161] = {
+        name = "Coisas que Gaardoun precisa",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [44177] = {
+        name = "Segredos obscuros e negócios sombrios",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44178] = {
+        name = "Uma poção particularmente potente",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44180] = {
+        name = "Campeão: Marin Nublacuca",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44181] = {
+        name = "Campeão: Almirante de Frota Tethys",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44183] = {
+        name = "Campeão: Lorde Jorach Corvoforte",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44214] = {
+        name = "Mais uma coisinha...",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44215] = {
+        name = "Mais uma coisinha...",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44217] = {
+        name = "Armadura digna de um senhor da morte",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44243] = {
+        name = "Campeão: Thoras Matatroll",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44244] = {
+        name = "Campeão: Koltirus Tecemorte",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44245] = {
+        name = "Campeão: Alta-inquisidora Cristalba",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44246] = {
+        name = "Campeão: Pançapodre",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44247] = {
+        name = "Campeão: Amal'thazad",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44248] = {
+        name = "Campeão: Dárion Mograine",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44252] = {
+        name = "Uma bainha para cada espada",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44257] = {
+        name = "Uma estrela cadente",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44282] = {
+        name = "Olho de Azshara: A alma congelada",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44286] = {
+        name = "Câmara das Guardiãs: uma obra-prima de carne",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44337] = {
+        name = "Que a deusa zele por você",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44448] = {
+        name = "Na casa de luz e sombras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44449] = {
+        name = "Têmpera avançada",
+        level = 108,
+        requiredLevel = 108,
+    },
+    [44463] = {
+        name = "Demônios entre eles",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44464] = {
+        name = "Os despertares",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44465] = {
+        name = "Recrutando arautos da terra",
+        level = -1,
+        requiredLevel = 103,
+    },
+    [44466] = {
+        name = "Um caminho incerto",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44471] = {
+        name = "Clarividência",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44473] = {
+        name = "Uma arma da aliança",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44479] = {
+        name = "Legado dos Cristacorvo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44480] = {
+        name = "Na casa do meu pai",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44481] = {
+        name = "Destino não cumprido",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44489] = {
+        name = "Lyana Umbramágoa",
+        level = 110,
+        requiredLevel = 110,
+        restrictions = {
+            type = "class",
+            id = 12,
+        },
+    },
+    [44490] = {
+        name = "Asatemível, o Devorador",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44496] = {
+        name = "Destino não cumprido",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44497] = {
+        name = "Destino não cumprido",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44544] = {
+        name = "Chamado da Harmonia Telúrica",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [44550] = {
+        name = "Chamada ao Áquerus",
+        level = -1,
+        requiredLevel = 101,
+    },
+    [44555] = {
+        name = "A descoberta de Hadggar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44561] = {
+        name = "Semente da esperança",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44562] = {
+        name = "Ficando forte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44636] = {
+        name = "A formação de um exército",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44663] = {
+        name = "No piscar dos olhos",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44667] = {
+        name = "Vontade dos Valarjares",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44672] = {
+        name = "Mana Ancestral",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44680] = {
+        name = "Liderando pelo exemplo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44682] = {
+        name = "Poder incomparável",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44689] = {
+        name = "O poder do Tirisgarde",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44690] = {
+        name = "Sede de sangue",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44691] = {
+        name = "Trabalho faminto",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44694] = {
+        name = "Uma batalha de cada vez",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44700] = {
+        name = "Stormheim",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44701] = {
+        name = "Stormheim",
+        level = -1,
+        requiredLevel = 98,
+    },
+    [44719] = {
+        name = "A invasão do Sacrário",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44722] = {
+        name = "Desertora desiludida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44723] = {
+        name = "Assim como eu",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44724] = {
+        name = "Pessoas desaparecidas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44725] = {
+        name = "Mantido como refém",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44726] = {
+        name = "Mercado de almas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44727] = {
+        name = "Contrabando!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44736] = {
+        name = "Portões do Baluarte da Noite",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44738] = {
+        name = "Todo o poder dos elfos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44739] = {
+        name = "Prontos para a batalha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44740] = {
+        name = "Ponto de reagrupamento",
         level = 110,
         requiredLevel = 110,
     },
@@ -11165,418 +8647,822 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
-    [38975] = {
-        name = "Inspire-me!",
+    [44742] = {
+        name = "O destino do taberneiro",
         level = 110,
         requiredLevel = 110,
     },
-    [38656] = {
-        name = "A Marca do Demônio",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38765] = {
-        name = "O Exército Illidari: Shivarra",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [40222] = {
-        name = "O Tomo da Mãe dos Diabretes",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [39279] = {
-        name = "Ataque a Mardum",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [39663] = {
-        name = "Nas Asas do Morcevil",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [40051] = {
-        name = "Segredos Vis",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [44463] = {
-        name = "Demônios entre eles",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39742] = {
-        name = "Câmara das Guardiãs",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39683] = {
-        name = "Forjado a Fogo",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40378] = {
-        name = "O Exército Illidari: Grislíngua",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [39689] = {
-        name = "Illidari, Nós Vamos Partir",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39691] = {
-        name = "O Chamado da Guerra",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [38813] = {
-        name = "Ordens para os Capitães",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [38689] = {
-        name = "Infusão Vil",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40077] = {
-        name = "Começa a Invasão",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [38819] = {
-        name = "Eles São Legião",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [39262] = {
-        name = "Conceda-me Visão Além do Alcance",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [39516] = {
-        name = "Que os Illidari Bradem seu Grito de Guerra!",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [38766] = {
-        name = "Antes que nos Destruam",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [38723] = {
-        name = "Detenha Gul'dan!",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [38725] = {
-        name = "A Creche Nefasta",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [38727] = {
-        name = "Interrompa o Bombardeio",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [38729] = {
-        name = "O Retorno ao Templo Negro",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [40373] = {
-        name = "Uma Nova Direção",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39682] = {
-        name = "O Grande Roubo de Morcevis",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39495] = {
-        name = "Esconderijo Exposto",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [39686] = {
-        name = "Até o Topo",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39688] = {
-        name = "Entre Nós e a Liberdade",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [44473] = {
-        name = "Uma arma da aliança",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44471] = {
-        name = "Clarividência",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40379] = {
-        name = "O Exército Illidari: Serpentália",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [39049] = {
-        name = "De Olho no Prêmio",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [38690] = {
-        name = "A Ascensão dos Illidari",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39050] = {
-        name = "Encontro com a Rainha",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [39684] = {
-        name = "Sob os Holofotes",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [38759] = {
-        name = "Libertação",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [38728] = {
-        name = "A Pedra-chave",
-        level = 99,
-        requiredLevel = 98,
-    },
-    [38672] = {
-        name = "A Fuga",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39685] = {
-        name = "Congelado no Tempo",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40256] = {
-        name = "Entre Nós e a Liberdade",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [39515] = {
-        name = "A Vingança Será Minha!",
-        level = 98,
-        requiredLevel = 98,
-    },
-    [41002] = {
-        name = "Uma arma da Horda",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40983] = {
-        name = "Demônios entre eles",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39690] = {
-        name = "Illidari, Nós Vamos Partir",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40976] = {
-        name = "Audiência com o Chefe Guerreiro",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40982] = {
-        name = "Clarividência",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44663] = {
-        name = "No piscar dos olhos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [38842] = {
-        name = "Uma dragoleta incomoda muita gente",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42809] = {
-        name = "A invasão de Niskara",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [41070] = {
-        name = "Espólios da Vitória",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [44161] = {
-        name = "Coisas que Gaardoun precisa",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [39047] = {
-        name = "O Chamado dos Illidari",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42670] = {
-        name = "Ergam-se, campeões",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [41096] = {
-        name = "O Tempo Urge",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42634] = {
-        name = "Confronto no Templo Negro",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [40816] = {
-        name = "O Poder da Sobrevivência",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41060] = {
-        name = "Poder descontrolado",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [42666] = {
-        name = "Volte ao Martelo Vil",
-        level = -1,
-        requiredLevel = 101,
-    },
-    [39741] = {
-        name = "Nas nossas fileiras",
-        level = -1,
-        requiredLevel = 103,
-    },
-    [41099] = {
-        name = "Direcione nossa Ira",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41066] = {
-        name = "O olhar do caçador",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41069] = {
-        name = "Direcione nossa Ira",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41221] = {
-        name = "O Retorno a Mardum",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [41067] = {
-        name = "O Tempo Urge",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [40819] = {
-        name = "Acordos Escusos",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39051] = {
-        name = "A Qualquer Custo",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39247] = {
-        name = "A Caçada",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [39694] = {
-        name = "Entre Nós e a Liberdade",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [41631] = {
-        name = "A Câmara do Nexus",
-        level = -1,
-        requiredLevel = 98,
-    },
-    [48453] = {
-        name = "Contra-ataque",
+    [44743] = {
+        name = "As ordens de Tyrande",
         level = 110,
         requiredLevel = 110,
     },
-    [46178] = {
-        name = "Bem debaixo do nariz",
+    [44752] = {
+        name = "Triangulação das essências",
         level = 110,
         requiredLevel = 110,
     },
-    [40254] = {
-        name = "Forjado a Fogo",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [45632] = {
-        name = "Desaparecido em ação: Eitrigg",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [40255] = {
-        name = "Entre Nós e a Liberdade",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [40253] = {
-        name = "Detenha Gul'dan!",
-        level = 100,
-        requiredLevel = 98,
-    },
-    [46324] = {
-        name = "Ordens falsas",
+    [44753] = {
+        name = "Para todo mundo ver",
         level = 110,
         requiredLevel = 110,
     },
-    [45873] = {
-        name = "Campeão: Eitrigg",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45633] = {
-        name = "Operação Raiva Vil",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [46322] = {
-        name = "A baía dos piratas",
+    [44754] = {
+        name = "Lua brilhante",
         level = 110,
         requiredLevel = 110,
     },
-    [45647] = {
-        name = "Missão: busca e resgate",
-        level = -1,
+    [44756] = {
+        name = "Símbolo do Lírio Crepuscular",
+        level = 110,
         requiredLevel = 110,
     },
-    [46323] = {
+    [44758] = {
         name = "Qual é o pó?",
         level = 110,
         requiredLevel = 110,
     },
-    [45644] = {
-        name = "Ah, Doloria, minha doce Doloria",
+    [44766] = {
+        name = "Plano B",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44768] = {
+        name = "Oficina de Nyell",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44770] = {
+        name = "Segredos dos Shal'dorei",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44775] = {
+        name = "O pico dos ossos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44782] = {
+        name = "Longe de olhares curiosos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44783] = {
+        name = "Dos ossos, eles se erguem",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44787] = {
+        name = "A Madre-osso",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44790] = {
+        name = "Julgamento demoníaco",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44800] = {
+        name = "Contra a vontade de Magatha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44814] = {
+        name = "Refúgio minguante",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44821] = {
+        name = "Em sérios apuros",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44822] = {
+        name = "Investigação temporal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44827] = {
+        name = "Exército popular",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44829] = {
+        name = "Precisamos de armas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44830] = {
+        name = "Aprendendo com os mortos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44831] = {
+        name = "Passeio pelo Passeio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44832] = {
+        name = "A escolta e a passagem",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44833] = {
+        name = "O poder da barreira",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44834] = {
+        name = "Nulificado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44842] = {
+        name = "Escudo contra feitiço",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44843] = {
+        name = "Diga tchau, cristal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44844] = {
+        name = "O fim do portal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44845] = {
+        name = "Queda de braço",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44849] = {
+        name = "Recrutamento",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44850] = {
+        name = "Armando o exército",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44858] = {
+        name = "Você trolla como eu trollo?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44861] = {
+        name = "Armas ao rebeldes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44869] = {
+        name = "Terror da Garra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44870] = {
+        name = "Bocas para alimentar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44877] = {
+        name = "Ataque ao Galinheiro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44888] = {
+        name = "Graça de Aviana",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44889] = {
+        name = "Gerenciamento de recursos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [44914] = {
+        name = "Armas: O aprendiz larápio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44915] = {
+        name = "Visual profissional",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44918] = {
+        name = "Uma mensagem dos nossos inimigos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44919] = {
+        name = "O desafio dos nossos inimigos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44920] = {
+        name = "Ordem de encantamentos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44921] = {
+        name = "Lobo solitário",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44924] = {
+        name = "O arquimago pressionado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44925] = {
+        name = "Fechando o olho",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44928] = {
+        name = "Tem alguma coisa errada...",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44955] = {
+        name = "Visitante em Shal'Aran",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [44964] = {
+        name = "Só vou deixar isso aqui",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45021] = {
+        name = "Respostas desconhecidas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45024] = {
+        name = "O fim do culto",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45025] = {
+        name = "Roubando a fonte de poder",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45026] = {
+        name = "Gastando energia vil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45027] = {
+        name = "Rumo à Costa Partida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45028] = {
+        name = "O destino de Kanrethad",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45062] = {
+        name = "Resistência à prisão",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45063] = {
+        name = "Os experimentos com almavil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45064] = {
+        name = "Chega de Vilanescos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45065] = {
+        name = "Sondagem da cidade",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45066] = {
+        name = "Instabilidade experimental",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45067] = {
+        name = "Vastidão telemântica",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45073] = {
+        name = "Saque e pilhagem!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45103] = {
+        name = "Agora cavalgamos!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45111] = {
+        name = "Todo mundo gosta de uma boa briga",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45118] = {
+        name = "O berrante de Helya",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45123] = {
+        name = "Elemental: A tolice de Levia Lourenço",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45125] = {
+        name = "Se metendo com demônios",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45126] = {
+        name = "Sedução improvável",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45127] = {
+        name = "Amantes de vil sorte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45128] = {
+        name = "Reencontro glorioso",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45143] = {
+        name = "O julgamento aguarda",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45145] = {
+        name = "Relíquias da família Presa Lunar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45146] = {
+        name = "Leitura rúnica",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45147] = {
+        name = "Destruição da Pedravil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45148] = {
+        name = "Quebrador de Juramento",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45149] = {
+        name = "Quebrando a maldição do crescente",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45162] = {
+        name = "Nós trouxemos o martelo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45163] = {
+        name = "Limpeza geral",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45174] = {
+        name = "A caçada por Illidan Tempesfúria",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45175] = {
+        name = "Prisma da alma dos Illidari",
+        difficulty = "normal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45176] = {
+        name = "Provação da Bravura: o único e futuro Lorde das Sombras",
+        difficulty = "lfr",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45177] = {
+        name = "O Baluarte da Noite",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45182] = {
+        name = "Gelo: O gêmeo do mal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45185] = {
+        name = "Mensagem das sombras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45187] = {
+        name = "Segredos dos esgotos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45188] = {
+        name = "A sabedoria do Conselho",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45190] = {
+        name = "Onde é mais fina",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45192] = {
+        name = "Runas dilacerantes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45193] = {
+        name = "Um passo atrás",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45207] = {
+        name = "O aprendiz filho da noite",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45209] = {
+        name = "Aqueles olhos videntes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45240] = {
+        name = "Fazendo preparativos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45243] = {
+        name = "Nas asas de Daumyr",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45251] = {
+        name = "Redundância",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45260] = {
+        name = "Um dia de cada vez",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45261] = {
+        name = "Continuando a cura",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45262] = {
+        name = "Uma mensagem de Ly'leth",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45263] = {
+        name = "Lanche antes da reunião",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45265] = {
+        name = "Rebelião faminta",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45266] = {
+        name = "Frente unida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45267] = {
+        name = "Antes do cerco",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45268] = {
+        name = "O conselheiro e o arcanista",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45269] = {
+        name = "O gosto da liberdade",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45301] = {
+        name = "Assumindo o comando",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45304] = {
+        name = "Ataque às trevas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45312] = {
+        name = "Você venceu o Almôndega",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45316] = {
+        name = "Estabilidade em Suramar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45317] = {
+        name = "Combate em todos os frontes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45329] = {
+        name = "Operação: Portais",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45330] = {
+        name = "Grupo de batedores",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45331] = {
+        name = "Retorno a Áquerus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45339] = {
+        name = "Defesa do Martelo Vil",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45342] = {
+        name = "Administrando ajuda",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45343] = {
+        name = "Um contágio curioso",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45344] = {
+        name = "Amostra da fonte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45345] = {
+        name = "Duendes traquinas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45346] = {
+        name = "Espécimes vacilantes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45347] = {
+        name = "Criando uma cura",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45348] = {
+        name = "Segurança",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45349] = {
+        name = "Rumo à Costa Partida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45350] = {
+        name = "Combatendo o contágio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45354] = {
+        name = "Dispersão dos discos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45372] = {
+        name = "Destino dos Filhos da Noite",
+        difficulty = "lfr",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45379] = {
+        name = "Mestre dos Tesouros Iks'reeged",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45385] = {
+        name = "Precisamos estar preparados!",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45391] = {
+        name = "Campeã: Lady S'theno",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45398] = {
+        name = "Dominando poder",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45399] = {
+        name = "Rachando os sveldrek",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45404] = {
+        name = "Pânico na cervejaria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45412] = {
+        name = "Proteção: Ajuda dos Illidari",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45413] = {
+        name = "Coletando informações",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45414] = {
+        name = "Confirmando suspeitas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45415] = {
+        name = "Entre mundos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45416] = {
+        name = "O retorno do grão-lorde",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45417] = {
+        name = "O Baluarte da Noite: senhor do Concílio das Sombras",
+        difficulty = "lfr",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45425] = {
+        name = "Vínculo do bosque",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45426] = {
+        name = "Avanço da natureza",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45437] = {
+        name = "Situação de urgência",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45440] = {
+        name = "Uma situação fervilhante",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45442] = {
+        name = "Não me sinto bem",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45449] = {
+        name = "Alquimista Korlya",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45459] = {
+        name = "Atacando a Legião",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45482] = {
+        name = "Arcano: Destino dos Mareskárnio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45486] = {
+        name = "A rainha relutante",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45498] = {
+        name = "Deixa quieto",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45522] = {
+        name = "Silenciar os parlaossos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45523] = {
+        name = "Domar o Drekirjar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45524] = {
+        name = "O herdeiro esquecido",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45525] = {
+        name = "Perguntas sem resposta",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45526] = {
+        name = "A fúria da Deusa-Rainha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45528] = {
+        name = "As tumbas conspurcadas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45532] = {
+        name = "Ordens da mãe",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45545] = {
+        name = "Lançamento de barril",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45551] = {
+        name = "Efeitos devastadores",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45552] = {
+        name = "Feridas reconfortantes",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45553] = {
+        name = "O chamado da Caçanoite",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45554] = {
+        name = "Assumindo o controle",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45555] = {
+        name = "Feras aviltadas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45556] = {
+        name = "Pronto para atacar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45557] = {
+        name = "Consequências sobrenaturais",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45560] = {
+        name = "Destruição: Ribombos perto de Totem Vil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45561] = {
+        name = "Procure-me",
         level = -1,
         requiredLevel = 110,
     },
@@ -11585,18 +9471,13 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
-    [45645] = {
-        name = "Bonita, linda e joiada",
-        level = -1,
+    [45564] = {
+        name = "Os pássaros ardentes",
+        level = 110,
         requiredLevel = 110,
     },
     [45565] = {
         name = "Mais treinamento",
-        level = -1,
-        requiredLevel = 110,
-    },
-    [45813] = {
-        name = "Onde estás, minha amada",
         level = -1,
         requiredLevel = 110,
     },
@@ -11615,14 +9496,1865 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
-    [45561] = {
-        name = "Procure-me",
+    [45571] = {
+        name = "Um pouco de espionagem",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45573] = {
+        name = "Erga-se",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45574] = {
+        name = "Ingredientes vis",
         level = -1,
         requiredLevel = 110,
     },
-    [24707] = {
-        name = "A canção de Maximiliano",
-        level = 55,
-        requiredLevel = 51,
+    [45575] = {
+        name = "Vila dos corruptores",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45576] = {
+        name = "Erga-se",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45586] = {
+        name = "Amplificação de escudo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45587] = {
+        name = "A ameaça dos Totem Vil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45614] = {
+        name = "Lady Remor'za",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45615] = {
+        name = "Achado não é roubado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45627] = {
+        name = "Queda do Totem Vil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45628] = {
+        name = "Desta vez, deixe uma trilha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45629] = {
+        name = "Desta vez, deixe uma trilha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45630] = {
+        name = "Servant to No One",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45632] = {
+        name = "Desaparecido em ação: Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45633] = {
+        name = "Operação Raiva Vil",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45634] = {
+        name = "Kvaldir a postos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45644] = {
+        name = "Ah, Doloria, minha doce Doloria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45645] = {
+        name = "Bonita, linda e joiada",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45647] = {
+        name = "Missão: busca e resgate",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45648] = {
+        name = "Desaparecido em ação: Lorde Darius Crowley",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45649] = {
+        name = "Missão: busca e resgate",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45650] = {
+        name = "Operação Raiva Vil",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45652] = {
+        name = "Um \"humilde\" pedido",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45706] = {
+        name = "O poder de milhares",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45723] = {
+        name = "A ira da Bruxa Má",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45724] = {
+        name = "Serpentes e pedras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45725] = {
+        name = "Rompendo os grilhões",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45726] = {
+        name = "O pântano maculado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45763] = {
+        name = "Rompimento demoníaco",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45764] = {
+        name = "Restaurando o equilíbrio",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45765] = {
+        name = "Irmãos e irmãs",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45767] = {
+        name = "Núcleos elementais",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45769] = {
+        name = "Conflagração",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45770] = {
+        name = "Perturbação nas sombras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45771] = {
+        name = "Uma hora para tudo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45788] = {
+        name = "O mensageiro aguarda",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45789] = {
+        name = "A câmara sucumbida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45790] = {
+        name = "Campeã: Almai",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45794] = {
+        name = "Informando o Conselho",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45796] = {
+        name = "Destruindo o ninho",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45798] = {
+        name = "War'zuul, o Provocador",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45813] = {
+        name = "Onde estás, minha amada",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45833] = {
+        name = "A baía dos piratas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45834] = {
+        name = "Almas roubadas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45835] = {
+        name = "Ordens falsas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45836] = {
+        name = "O chamado de Jorach",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45841] = {
+        name = "Relatório triunfante",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45842] = {
+        name = "Dádiva dos Seis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45843] = {
+        name = "Prenúncios sombrios",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45844] = {
+        name = "A ocupação de Antônidas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45845] = {
+        name = "Queimando por dentro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45846] = {
+        name = "Gelado até a alma",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45847] = {
+        name = "Perto de casa",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45848] = {
+        name = "Digno de um pirata",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45861] = {
+        name = "Dádiva dos Seis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45862] = {
+        name = "Dádiva dos Seis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45863] = {
+        name = "Dádiva dos Seis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45864] = {
+        name = "Dádiva dos Seis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45865] = {
+        name = "Dádiva dos Seis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45866] = {
+        name = "Dádiva dos Seis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45873] = {
+        name = "Campeão: Eitrigg",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45876] = {
+        name = "Campeão: Lorde Darius Crowley",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [45883] = {
+        name = "A ofensa do Senhor do Fogo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45890] = {
+        name = "Ancestrais e inimigos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45916] = {
+        name = "O acólito ameaçado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45917] = {
+        name = "Seguindo o cheiro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [45971] = {
+        name = "Fenômeno infernal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46000] = {
+        name = "Armando Dalaran",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46020] = {
+        name = "Contenção do cristal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46034] = {
+        name = "Campeã: Aelthalyste",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46035] = {
+        name = "O fim do perigo reanimado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46043] = {
+        name = "Campeão: Aethas Fendessol",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46044] = {
+        name = "Campeã: Tessália Corvina",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46045] = {
+        name = "Campeão: Nerus Presa Lunar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46047] = {
+        name = "Campeão: Kanrethad Ebanez",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46048] = {
+        name = "Campeã: Caçanoite Syrenne",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46050] = {
+        name = "Campeã: Minerva Melancorvo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46057] = {
+        name = "Campeã: Magatha Temível Totem",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46058] = {
+        name = "Campeã: Lilian Voss",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46059] = {
+        name = "Campeã: Tess Greymane",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46060] = {
+        name = "Salvação",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46065] = {
+        name = "Inimigo impossível",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46069] = {
+        name = "Digno do título",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46070] = {
+        name = "Preparativos em andamento",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46071] = {
+        name = "O martelo de Dalaran",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46074] = {
+        name = "Do couro ao lendário",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46078] = {
+        name = "Sagrado: A investigação de Bradensbrook",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46079] = {
+        name = "Ajuda às linhas de frente",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46080] = {
+        name = "Aquietando os espíritos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46082] = {
+        name = "O retorno de Cantonegro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46083] = {
+        name = "Antes, algumas coisinhas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46089] = {
+        name = "Bem debaixo do nariz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46103] = {
+        name = "Infiltradores medonhos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46106] = {
+        name = "Arrancando as cabeças",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46107] = {
+        name = "Fonte da corrupção",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46127] = {
+        name = "Dando jeito nos gêmeos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46128] = {
+        name = "Hora de recarregar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46145] = {
+        name = "Ambiente estéril",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46159] = {
+        name = "Mensagem urgente",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46173] = {
+        name = "Planejamento tático",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46177] = {
+        name = "A um portal de distância",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46178] = {
+        name = "Bem debaixo do nariz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46200] = {
+        name = "Assunto resolvido... por ora...",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46207] = {
+        name = "A Provação da Raiva",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46208] = {
+        name = "Convite divino",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46213] = {
+        name = "Cristais vendidos separadamente",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46235] = {
+        name = "Ambiente reforçado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46237] = {
+        name = "Carta de Trazangre",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46238] = {
+        name = "Se você construir",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46239] = {
+        name = "Vil até o cerne",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46240] = {
+        name = "Movido a sangue",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46241] = {
+        name = "Os lacaios de Hel'nurath",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46242] = {
+        name = "O chamado do senhor do medo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46243] = {
+        name = "Corcel Iracundo de Zoroth",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46245] = {
+        name = "Começar construção",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46246] = {
+        name = "Acabe com eles",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46247] = {
+        name = "Defendendo as Ilhas Partidas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46248] = {
+        name = "Profecia infalível",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46249] = {
+        name = "Liderando a causa",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46250] = {
+        name = "Cortar a cabeça...",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46251] = {
+        name = "Treta etérea",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46252] = {
+        name = "Infestação intolerável",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46258] = {
+        name = "A calmaria após a tempestade",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46259] = {
+        name = "O dilema da neromante",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46260] = {
+        name = "Mesclar-se às sombras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46266] = {
+        name = "O retorno do assassino",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46267] = {
+        name = "O retorno do Senhor da Batalha",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46268] = {
+        name = "Lembrança encontrada",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46272] = {
+        name = "Convocação à bastilha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46274] = {
+        name = "Consolação do rei",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46275] = {
+        name = "O coração do reino",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46278] = {
+        name = "Devolver ao remetente",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [46282] = {
+        name = "O caminho do rei",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46286] = {
+        name = "Suprimentos da Queda da Legião",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46290] = {
+        name = "O retorno do Arquimago",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46297] = {
+        name = "Poder Subjugador",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46305] = {
+        name = "Chama de Thorim",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46314] = {
+        name = "Vingança: Procurando Kor'vas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46317] = {
+        name = "O chamado da Garra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46318] = {
+        name = "Defesa de Aviana",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46319] = {
+        name = "Você não pode tirar o céu de mim",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46320] = {
+        name = "Esperança de cura",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46322] = {
+        name = "A baía dos piratas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46323] = {
+        name = "Qual é o pó?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46324] = {
+        name = "Ordens falsas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46326] = {
+        name = "O chamado de Jorach",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46327] = {
+        name = "Negociando com as sombras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46334] = {
+        name = "Um olho só... e vil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46335] = {
+        name = "A Câmara do Tirisgarde",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46336] = {
+        name = "Bilhete dourado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46337] = {
+        name = "Noite das Selvas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46338] = {
+        name = "Solução criativa",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46339] = {
+        name = "Guardião da Chave Orlis",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46340] = {
+        name = "Os portões estão fechados",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46341] = {
+        name = "A história de Ban-Lu",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46342] = {
+        name = "Retorno ao Pico Partido",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46343] = {
+        name = "O rastro de Ban-Lu",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46344] = {
+        name = "Sorte-sim do Fu Tum",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46345] = {
+        name = "Dentro da colmeia",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46346] = {
+        name = "A sombra de Ban-Lu",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46347] = {
+        name = "Tirando os Sha do caminho",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46348] = {
+        name = "O rio de Ban-Lu",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46349] = {
+        name = "Lírios para Ryuli",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46350] = {
+        name = "O julgamento de Ban-Lu",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46351] = {
+        name = "O segredo do negócio é o segredo",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46353] = {
+        name = "Mestre quem?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46499] = {
+        name = "Aranhas, é?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46501] = {
+        name = "Roubando covas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46509] = {
+        name = "Saqueando a tumba",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46510] = {
+        name = "Cemitério de navios",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46511] = {
+        name = "Nós somos caçadores de tesouro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46666] = {
+        name = "O filão",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46674] = {
+        name = "A preservação da natureza",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46675] = {
+        name = "Rastreando um demônio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46676] = {
+        name = "Toque da natureza",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46677] = {
+        name = "Todo cardo tem espinhos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46705] = {
+        name = "Retaliação",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46719] = {
+        name = "A mensagem de Amal'thazad",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46720] = {
+        name = "Memórias congeladas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46722] = {
+        name = "Nada nas minhas mangas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46723] = {
+        name = "Na toca do coelho",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46724] = {
+        name = "Campeão: O Grande Akazamzarak",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46725] = {
+        name = "Falta de energia",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [46730] = {
+        name = "Exércitos da Queda da Legião",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46732] = {
+        name = "O truque do profeta",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46734] = {
+        name = "Ataque à Costa Partida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46744] = {
+        name = "Poder maior para ameaças maiores",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46765] = {
+        name = "Costa Partida: Investigando a Legião",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46769] = {
+        name = "Fazendo a limpa",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46791] = {
+        name = "Levado pelo vento",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46792] = {
+        name = "Junção das tempestades",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46812] = {
+        name = "Segredos dracônicos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46813] = {
+        name = "A Geleira Perdida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46815] = {
+        name = "Mac'Aree, a Joia de Argus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46816] = {
+        name = "Encontro marcado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46818] = {
+        name = "Indefesos e apavorados",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46827] = {
+        name = "Mesclar-se às sombras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46832] = {
+        name = "Marco de Aalgen",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46834] = {
+        name = "Khazaduum, o Primeiro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46839] = {
+        name = "Das trevas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46840] = {
+        name = "Prisioneiros nunca mais",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46841] = {
+        name = "Redução de ameaça",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46842] = {
+        name = "Um golpe no coração",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46843] = {
+        name = "Retorno à Vindicaar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46845] = {
+        name = "Sítio da Vingança",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46924] = {
+        name = "O conto do lobo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46938] = {
+        name = "Sozinho no abismo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [46941] = {
+        name = "O caminho à frente",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47000] = {
+        name = "O chamado do Conselho",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47003] = {
+        name = "Restauração: A investigação de Bradensbrook",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47004] = {
+        name = "Restauração: A investigação de Bradensbrook",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47005] = {
+        name = "Tecelão da Névoa: A investigação de Bradensbrook",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47006] = {
+        name = "Sagrado: A investigação de Bradensbrook",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47018] = {
+        name = "Domínio das Feras: Ribombos perto de Totem Vil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47019] = {
+        name = "Andarilho do Vento: Ribombos perto de Totem Vil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47020] = {
+        name = "Disciplina: Ribombos perto de Totem Vil",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47022] = {
+        name = "Proteção: Ajuda dos Illidari",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47023] = {
+        name = "Guardião: Ajuda dos Illidari",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47024] = {
+        name = "Mestre Cervejeiro: Ajuda dos Illidari",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47025] = {
+        name = "Sangue: Ajuda dos Illidari",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47037] = {
+        name = "Equilíbrio: O gêmeo do mal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47039] = {
+        name = "Precisão: O gêmeo do mal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47041] = {
+        name = "Suplício: O gêmeo do mal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47042] = {
+        name = "Sombra: O gêmeo do mal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47043] = {
+        name = "Devastação: O aprendiz larápio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47046] = {
+        name = "Gélido: O aprendiz larápio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47047] = {
+        name = "Sobrevivência: O aprendiz larápio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47048] = {
+        name = "Subterfúgio: O aprendiz larápio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47049] = {
+        name = "Demonologia: O destino dos Mareskárnio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47050] = {
+        name = "Aperfeiçoamento: O destino dos Mareskárnio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47051] = {
+        name = "Assassinato: O destino dos Mareskárnio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47052] = {
+        name = "Retribuição: O destino dos Mareskárnio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47055] = {
+        name = "Fire: The Folly of Levia Laurence",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47056] = {
+        name = "Fúria: A tolice de Levia Lourenço",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47057] = {
+        name = "Profano: A tolice de Levia Lourenço",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47058] = {
+        name = "Fora da Lei: A tolice de Levia Lourenço",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47059] = {
+        name = "Feral: A tolice de Levia Lourenço",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47066] = {
+        name = "Consagração do solo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47100] = {
+        name = "A dor de Arkhaan",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47101] = {
+        name = "Preces de Arkhaan",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47137] = {
+        name = "Campeões de Queda da Legião",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47139] = {
+        name = "Marca da Sentinax",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47180] = {
+        name = "A loucura pulsante",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47183] = {
+        name = "O plano de Arkhaan",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47184] = {
+        name = "O perigo de Arkhaan",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47203] = {
+        name = "Lavando a roupa suja",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47217] = {
+        name = "Fontes da escuridão",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47218] = {
+        name = "A incursão da Guarda Sombria",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47219] = {
+        name = "Pronta para a próxima",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47220] = {
+        name = "Um sinal na escuridão",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47221] = {
+        name = "A mão do destino",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [47222] = {
+        name = "Mar adentro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [47223] = {
+        name = "O êxodo da Luz",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [47224] = {
+        name = "A Vindicaar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [47238] = {
+        name = "Sede do Triunvirato",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47287] = {
+        name = "O Núcleo Matricial da Vindicaar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47416] = {
+        name = "A sombra do Triunvirato",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47431] = {
+        name = "Reunindo a Luz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47473] = {
+        name = "Avaliando a resistência",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47508] = {
+        name = "Atire quando quiser",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47526] = {
+        name = "Preparando o armamento pesado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47541] = {
+        name = "Prevenir é melhor que remediar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47589] = {
+        name = "Fúria íntegra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47627] = {
+        name = "Vingança",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47641] = {
+        name = "Sinais de resistência",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47653] = {
+        name = "O retorno da Luz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47654] = {
+        name = "Sede do Triunvirato: O Brasão do Conhecimento",
+        difficulty = "normal",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47685] = {
+        name = "Desafio do Guarda-pórtico: Astúcia",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47686] = {
+        name = "Um começo nada humilde",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47687] = {
+        name = "Desafio do Guarda-pórtico: Maestria",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47688] = {
+        name = "Espécies invasivas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47689] = {
+        name = "Desafio do Guarda-pórtico: Tenacidade",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47690] = {
+        name = "O legado do Profanador",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47691] = {
+        name = "Organização sem fins proféticos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47743] = {
+        name = "Filho da Luz e da Sombra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47754] = {
+        name = "Levemente tostado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47771] = {
+        name = "Atrás do Tirolongo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47835] = {
+        name = "A mão do destino",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [47853] = {
+        name = "Manobras de flanqueamento",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47854] = {
+        name = "Ira dos Altos-exarcas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47855] = {
+        name = "O que podia ter sido",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47856] = {
+        name = "Por todo o universo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47867] = {
+        name = "Mar adentro",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [47882] = {
+        name = "Conservação de magia",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47883] = {
+        name = "A mais longa vigília",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47889] = {
+        name = "O Mensageiro chama",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47890] = {
+        name = "Visões do tormento",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47891] = {
+        name = "Notícias ruins",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47892] = {
+        name = "Ataque à cidadela",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47967] = {
+        name = "Laçada em Argus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47986] = {
+        name = "Cicatrizes do passado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47987] = {
+        name = "Medidas preventivas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47988] = {
+        name = "Teoria do caos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47989] = {
+        name = "Arautos do apocalipse",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47990] = {
+        name = "Um toque de vileza",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47991] = {
+        name = "Maquinações sombrias",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47992] = {
+        name = "Alvorada da justiça",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47993] = {
+        name = "Senhor do Pináculo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47994] = {
+        name = "Criando um vínculo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [47995] = {
+        name = "Operação secreta",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48066] = {
+        name = "Um banquete para os nossos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48067] = {
+        name = "Sombras no Penhasco do Trovão",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48079] = {
+        name = "Retorno a Alta Montanha",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48081] = {
+        name = "A ruína flutuante",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48107] = {
+        name = "O Signo do Despertar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48185] = {
+        name = "Sombra do Sepulcro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48190] = {
+        name = "A Montanha de Huln",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48199] = {
+        name = "Coração Ardente",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48200] = {
+        name = "Ganhando terreno",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48201] = {
+        name = "Reforços no Ponto de Apoio da Luz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48202] = {
+        name = "Reforçar o Covil Velado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48344] = {
+        name = "Problema à vista",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48345] = {
+        name = "Forças de Talgath",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48403] = {
+        name = "A Treva",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48433] = {
+        name = "Juntos, nós somos a Horda!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48434] = {
+        name = "Como vai Chifre de Ébano?",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48440] = {
+        name = "Noite adentro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48441] = {
+        name = "Restos no Desfiladeiro das Trevas",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48442] = {
+        name = "Castelo Nath'raxas: Preparativos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48443] = {
+        name = "Castelo Nath'raxas: Missão de resgate",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48445] = {
+        name = "As Ruínas de Oronaar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48446] = {
+        name = "Relíquias dos antigos eredares",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48447] = {
+        name = "Dispersão da Guarda Sombria",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48448] = {
+        name = "Desmantelando a máquina de guerra da Legião",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48453] = {
+        name = "Contra-ataque",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48455] = {
+        name = "Problema Crepusculante",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48460] = {
+        name = "Os enlaçadores",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48461] = {
+        name = "Onde eles menos esperam",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48483] = {
+        name = "Faça o bem sem olhar a quem",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48500] = {
+        name = "Um momento de trégua",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48542] = {
+        name = "Contra-ataque",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48544] = {
+        name = "Eita, ferro!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48559] = {
+        name = "Uma oferta de Luz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48560] = {
+        name = "Uma oferta de Sombra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48600] = {
+        name = "Lâmina cega",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48601] = {
+        name = "Fogovil estilhaçado",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48634] = {
+        name = "Mais suprimentos para Krokuun",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48635] = {
+        name = "Mais inoculação de Caos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48636] = {
+        name = "Combustível para a campanha Antorana",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48654] = {
+        name = "Sob Oronaar",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48910] = {
+        name = "Suprimentos para Krokuun",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48911] = {
+        name = "Inoculação de caos",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48912] = {
+        name = "Suprimentos para a campanha Antorana",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [48929] = {
+        name = "Avaliando a resistência",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [48962] = {
+        name = "Fissura de Telogrus",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49143] = {
+        name = "Essência da Mãe da Luz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49266] = {
+        name = "Forja das Eras",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49354] = {
+        name = "Lembrem-se da Nascente do Sol",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49613] = {
+        name = "Luaprata",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49614] = {
+        name = "Os Filhos da Noite",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49698] = {
+        name = "O Forjado a Luz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49756] = {
+        name = "Forças das Trevas",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49787] = {
+        name = "A Terra Fantasma",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49973] = {
+        name = "A mansão de Thalyssra",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49976] = {
+        name = "Dádivas dos Caídos",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49977] = {
+        name = "Convocação a Orgrimmar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49981] = {
+        name = "Testemunha da ferida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [49982] = {
+        name = "Testemunha da ferida",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50046] = {
+        name = "É sa-bo-ta-gem",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50047] = {
+        name = "Amostras grátis",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50049] = {
+        name = "O ponto de vista do mensageiro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50071] = {
+        name = "Pela Luz!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50226] = {
+        name = "A fonte de poder",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50227] = {
+        name = "Larvas de baciada",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50228] = {
+        name = "O sobrevivente do Crepúsculo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50229] = {
+        name = "Um tiquinho de pano",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50247] = {
+        name = "O correio não pode parar",
+        level = 110,
+        requiredLevel = 98,
+    },
+    [50341] = {
+        name = "Uma recente descoberta",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50371] = {
+        name = "Convocatórias a Ventobravo",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50372] = {
+        name = "Pesquisa no deserto",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50373] = {
+        name = "Recém-chegado",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50374] = {
+        name = "O sangue de Azeroth",
+        level = 110,
+        requiredLevel = 110,
     },
 }
