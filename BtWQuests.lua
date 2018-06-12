@@ -49,7 +49,10 @@ local BTWQUESTS_PROFESSION_MAP = {
 	[794] = BTWQUESTS_PROFESSION_ARCHAEOLOGY,
 };
 
-local BTWQUESTS_NUM_ITEMS_PER_ROW = 4;
+local BTWQUESTS_CATEGORY_ITEM_WIDTH = 174
+local BTWQUESTS_CATEGORY_ITEM_HEIGHT = 96
+local BTWQUESTS_CATEGORY_ITEM_PADDING = 12
+local BTWQUESTS_CATEGORY_NUM_ITEMS_PER_ROW = 4;
 
 local BtWQuests_CharactersMap = {}
 local BtWQuests_Character = nil -- Current Character
@@ -94,7 +97,7 @@ function BtWQuests_SelectExpansion(id)
     NavBar_Reset(BtWQuests.navBar)
     
     BtWQuests:Show()
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory()
 
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -125,7 +128,7 @@ function BtWQuests_SelectCategory(id)
     BtWQuestsNav_AddCategoryButtonParents(id)
     
     BtWQuests:Show()
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory()
 
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -150,7 +153,7 @@ function BtWQuests_SelectChain(id, scrollTo)
     BtWQuestsNav_AddChainButtonParents(id)
     
     BtWQuests:Show()
-    BtWQuests_DisplayChain(scrollTo)
+    BtWQuests_DisplayCurrentChain(scrollTo)
     
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -722,7 +725,7 @@ local function BtWQuests_GetCategoryItem(item)
                 BtWQuestsNav_AddChainButton(self.id, self.userdata.name)
 
                 BtWQuests_SetCurrentChain(self.id)
-                BtWQuests_DisplayChain()
+                BtWQuests_DisplayCurrentChain()
                 
                 BtWQuestsNav_AddCurrentToHistory()
                 
@@ -760,7 +763,7 @@ local function BtWQuests_GetCategoryItem(item)
                 BtWQuestsNav_AddCategoryButton(self.id, self.userdata.name)
                 
                 BtWQuests_SetCurrentCategory(self.id)
-                BtWQuests_ListCategories()
+                BtWQuests_DisplayCurrentCategory()
                 
                 BtWQuestsNav_AddCurrentToHistory()
                 
@@ -1398,14 +1401,15 @@ function BtWQuests_OnLoad(self)
     
 			BtWQuests_SetCurrentCategory(nil)
             
-            BtWQuests_ListCategories()
+            BtWQuests_DisplayCurrentCategory()
 
             BtWQuestsNav_AddCurrentToHistory()
 		end,
 	}
     NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
     
-    -- BtWQuests_ListCategories()
+    self.categoryItemPool = CreateFramePool("BUTTON", self.QuestSelect.scroll.child, "BtWQuestsCategoryButtonTemplate");
+    self.chainItemPool = CreateFramePool("BUTTON", self.Chain.scroll.child, "BtWQuestsChainItemButtonTemplate");
     
     self.HistoryIndex = 0
     self.History = {}
@@ -1548,9 +1552,9 @@ function BtWQuests_OnShow(self)
     BtWQuestsNav_UpdateHere()
     
     if BtWQuests.Chain:IsShown() then
-        BtWQuests_UpdateChain()
+        BtWQuests_UpdateCurrentChain()
     else
-        BtWQuests_ListCategories()
+        BtWQuests_DisplayCurrentCategory()
     end
 end
 
@@ -1575,7 +1579,7 @@ function BtWQuestsChainFrame_OnHide(self)
 end
 
 function BtWQuestsChainFrame_OnEvent(self, ...)
-    BtWQuests_UpdateChain()
+    BtWQuests_UpdateCurrentChain()
 end
 
 function BtWQuestsChainFrameScrollFrame_OnUpdate(self)
@@ -1595,25 +1599,11 @@ end
 function BtWQuests_ZoomOut()
     BtWQuestsNav_Back()
     
-    -- if #BtWQuests.navBar.navList == 1 then
-        -- return
-    -- end
-    
-    -- local parent = BtWQuests.navBar.navList[#BtWQuests.navBar.navList-1].data.id
-    -- if parent then
-        -- NavBar_OpenTo(BtWQuests.navBar, parent)
-        -- BtWQuests_SetCurrentCategory(parent)
-    -- else
-        -- NavBar_Reset(BtWQuests.navBar)
-        -- BtWQuests_SetCurrentCategory(nil)
-    -- end
-    
     BtWQuestsTooltip:Hide();
-
-    -- BtWQuests_ListCategories()
 end
 
-function BtWQuests_ListCategories(scrollTo)
+function BtWQuests_DisplayCurrentCategory(scrollTo)
+	BtWQuests.categoryItemPool:ReleaseAll();
 	local questSelect = BtWQuests.QuestSelect;
     
 	BtWQuests.Chain:Hide();
@@ -1622,21 +1612,19 @@ function BtWQuests_ListCategories(scrollTo)
 	local scrollFrame = questSelect.scroll.child;
     local scrollToButton
     
+    local startX = 12
+    local startY = -10
 	local i = 1;
 	local index = 1;
-	local itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
-	while id do
+    local itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
+    while id do
         if not hidden then
-            local categoryButton = scrollFrame["category"..index];
-            if not categoryButton then -- create button
-                categoryButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."category"..index, scrollFrame, "BtWQuestsCategoryButtonTemplate");
-                scrollFrame["category"..index] = categoryButton;
-                if mod(index-1, BTWQUESTS_NUM_ITEMS_PER_ROW) == 0 then
-                    categoryButton:SetPoint("TOP", scrollFrame["category"..(index-BTWQUESTS_NUM_ITEMS_PER_ROW)], "BOTTOM", 0, -15);
-                else
-                    categoryButton:SetPoint("LEFT", scrollFrame["category"..(index-1)], "RIGHT", 15, 0);
-                end
-            end
+            local categoryButton = BtWQuests.categoryItemPool:Acquire();
+
+            local x = startX + mod(index - 1, BTWQUESTS_CATEGORY_NUM_ITEMS_PER_ROW) * (BTWQUESTS_CATEGORY_ITEM_WIDTH + BTWQUESTS_CATEGORY_ITEM_PADDING)
+            local y = startY - floor((index - 1) / BTWQUESTS_CATEGORY_NUM_ITEMS_PER_ROW) * (BTWQUESTS_CATEGORY_ITEM_HEIGHT + BTWQUESTS_CATEGORY_ITEM_PADDING)
+            
+            categoryButton:SetPoint("TOPLEFT", x,  y);
 
             categoryButton.name:SetText(name);
             categoryButton.bgImage:SetTexture(buttonImage);
@@ -1668,14 +1656,6 @@ function BtWQuests_ListCategories(scrollTo)
         i = i + 1;
         itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
     end
-    
-    categoryButton = scrollFrame["category"..index];
-    while categoryButton do
-        categoryButton:Hide()
-        
-        index = index + 1;
-        categoryButton = scrollFrame["category"..index];
-    end
 
     if type(scrollTo) == "table" and scrollTo.type == "coords" then
         questSelect.scroll:UpdateScrollChildRect()
@@ -1689,7 +1669,7 @@ function BtWQuests_ListCategories(scrollTo)
     end
 end
 
-function BtWQuests_DisplayChain(scrollTo)
+function BtWQuests_DisplayCurrentChain(scrollTo)
 	local chain = BtWQuests.Chain;
     
 	BtWQuests.QuestSelect:Hide();
@@ -1919,8 +1899,7 @@ function BtWQuests_DisplayChain(scrollTo)
     end
 end
 
-
-function BtWQuests_UpdateChain(scroll)
+function BtWQuests_UpdateCurrentChain(scroll)
     local chain = BtWQuests.Chain
     
     if chain:IsShown() then
@@ -2343,20 +2322,20 @@ function BtWQuestsNav_SelectFromHistory()
         NavBar_Reset(BtWQuests.navBar)
         BtWQuestsNav_AddChainButtonParents(item.id)
         
-        BtWQuests_DisplayChain(item.scrollTo)
+        BtWQuests_DisplayCurrentChain(item.scrollTo)
     elseif item.type == "category" then
         BtWQuests_SetCurrentCategory(item.id)
         
         NavBar_Reset(BtWQuests.navBar)
         BtWQuestsNav_AddCategoryButtonParents(item.id)
         
-        BtWQuests_ListCategories(item.scrollTo)
+        BtWQuests_DisplayCurrentCategory(item.scrollTo)
     elseif item.type == "expansion" then
         BtWQuests_SetCurrentExpansion(item.id)
 
         NavBar_Reset(BtWQuests.navBar)
 
-        BtWQuests_ListCategories(item.scrollTo)
+        BtWQuests_DisplayCurrentCategory(item.scrollTo)
     end
 end
 
@@ -2417,7 +2396,7 @@ function BtWQuestsNav_SelectChain(self, ...)
         
     BtWQuests_SetCurrentChain(-self.id)
     
-    BtWQuests_DisplayChain()
+    BtWQuests_DisplayCurrentChain()
     
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -2427,7 +2406,7 @@ function BtWQuestsNav_SelectCategory(self, ...)
         
     BtWQuests_SetCurrentCategory(self.id)
 
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory()
     
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -2607,7 +2586,7 @@ function BtWQuestsExpansionDropDown_Select(_, expansion)
     NavBar_Reset(BtWQuests.navBar)
     
     BtWQuests_SetCurrentCategory()
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory()
 end
 
 
