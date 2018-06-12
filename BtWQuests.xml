@@ -21,6 +21,8 @@
 		<Size x="22" y="33"/>
 		<TexCoords left="0.625" right="0.796875" top="0.0078125" bottom="0.265625"/>
 	</Texture>
+	
+	<GameTooltip name="BtWQuestsTooltipTemplate" inherits="GameTooltipTemplate" mixin="BtWQuestsTooltipMixin" virtual="true"/>
     
 	<Frame name="BarDropDownMenuTemplate" virtual="true">
 		<Size>
@@ -678,61 +680,7 @@
                 </Scripts>
             </Frame>
 
-            <Frame name="$parentTooltip" parentKey="Tooltip" frameStrata="TOOLTIP" clampedToScreen="true" hidden="true">
-                <Size x="10" y="10"/>
-                <Backdrop bgFile="Interface\Tooltips\UI-Tooltip-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
-                    <EdgeSize>
-                        <AbsValue val="16"/>
-                    </EdgeSize>
-                    <TileSize>
-                        <AbsValue val="16"/>
-                    </TileSize>
-                    <BackgroundInsets>
-                        <AbsInset left="5" right="5" top="5" bottom="5"/>
-                    </BackgroundInsets>
-                </Backdrop>
-                <Layers>
-                    <Layer level="ARTWORK">
-                        <FontString parentKey="Title" inherits="GameFontNormalMed2">
-                            <Anchors>
-                                <Anchor point="TOPLEFT" x="10" y="-10"/>
-                            </Anchors>
-                        </FontString>
-                        <FontString parentKey="CompletedLabel" inherits="GameFontHighlight" text="BTWQUESTS_QUEST_CHAIN_COMPLETED">
-                            <Anchors>
-                                <Anchor point="TOPLEFT" relativeKey="$parent.Title" relativePoint="BOTTOMLEFT" x="0" y="-11"/>
-                            </Anchors>
-                        </FontString>
-                        <FontString parentKey="Description" inherits="GameFontHighlight" justifyH="LEFT">
-                            <Size x="220" y="0"/>
-                            <Anchors>
-                                <Anchor point="TOPLEFT" relativeKey="$parent.CompletedLabel" relativePoint="BOTTOMLEFT" x="0" y="-11"/>
-                            </Anchors>
-                        </FontString>
-                        <FontString parentKey="ProgressLabel" inherits="GameFontNormal" text="QUEST_TOOLTIP_REQUIREMENTS">
-                            <Anchors>
-                                <Anchor point="TOPLEFT" relativeKey="$parent.Description" relativePoint="BOTTOMLEFT" x="0" y="-11"/>
-                            </Anchors>
-                        </FontString>
-                        <!-- <FontString parentKey="ProgressCount" inherits="GameFontHighlightSmall"> -->
-                            <!-- <Anchors> -->
-                                <!-- <Anchor point="TOPLEFT" relativeKey="$parent.ProgressLabel" relativePoint="BOTTOMLEFT" x="0" y="-4"/> -->
-                            <!-- </Anchors> -->
-                        <!-- </FontString> -->
-                        <FontString parentKey="Line1" parentArray="Lines" inherits="GameFontHighlight">
-                            <Anchors>
-                                <Anchor point="TOP" relativeKey="$parent.ProgressLabel" relativePoint="BOTTOM" x="0" y="-4"/>
-                                <Anchor point="LEFT" x="10" y="0"/>
-                            </Anchors>
-                        </FontString>
-                        <Texture parentArray="CheckMarks" inherits="GreenCheckMarkTemplate">
-                            <Anchors>
-                                <Anchor point="RIGHT" relativeKey="$parent.Line1" relativePoint="LEFT" x="-4" y="-1"/>
-                            </Anchors>
-                        </Texture>
-                    </Layer>
-                </Layers>
-            </Frame>
+			<GameTooltip name="$parentTooltip" parentKey="Tooltip" inherits="BtWQuestsTooltipTemplate"/>
 		</Frames>
 		<Scripts>
 			<OnShow function="BtWQuests_OnShow"/>
