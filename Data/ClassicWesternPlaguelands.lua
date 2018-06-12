@@ -1,6 +1,6 @@
 local MAP_ID = 22
 
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST] = {
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST_ALLIANCE] = {
     name = GetAchievementCriteriaInfo(4893, 1),
     category = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
@@ -234,13 +234,163 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST] = {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE,
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_ALLIANCE,
             x = 3,
             y = 4,
         },
     },
 }
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE] = {
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST_HORDE] = {
+    name = GetAchievementCriteriaInfo(4893, 1),
+    category = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
+    expansion = BTWQUESTS_EXPANSION_CLASSIC,
+    restrictions = {
+        {
+            type = "faction",
+            id = BTWQUESTS_FACTION_ID_HORDE,
+        },
+    },
+    prerequisites = {
+        {
+            type = "level",
+            level = 35,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 26926,
+    },
+    range = {35,60},
+    items = {
+        {
+            variations = {
+				{
+					type = "quest",
+					id = 26920,
+					restrictions = {
+						type = "quest",
+						id = 26920,
+						status = {'active', 'completed'},
+					},
+				},
+				{
+					type = "quest",
+					id = 28508,
+					restrictions = {
+						type = "quest",
+						id = 28508,
+						status = {'active', 'completed'},
+					},
+				},
+				{
+					type = "quest",
+					id = 28575,
+					restrictions = {
+						type = "quest",
+						id = 28575,
+						status = {'active', 'completed'},
+					},
+				},
+				{
+					type = "quest",
+					id = 28750,
+					restrictions = {
+						type = "quest",
+						id = 28750,
+						status = {'active', 'completed'},
+					},
+				},
+                {
+                    name = "Go to Koltira Deathweaver",
+                    breadcrumb = true,
+                    onClick = function ()
+                        BtWQuests_ShowMapWithWaypoint(22, 0, 0.4777, 0.6521, "Koltira Deathweaver")
+                    end,
+                },
+            },
+            x = 3,
+            y = 0,
+            connections = {
+                2,
+            },
+        },
+
+        {
+            type = "quest",
+            id = 26922,
+            x = 1,
+            y = 1,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 26921,
+            x = 3,
+            y = 1,
+            connections = {
+                3,
+                4,
+            },
+        },
+        {
+            type = "quest",
+            id = 26923,
+            x = 5,
+            y = 1,
+            connections = {
+                2, 3,
+            },
+        },
+
+        {
+            type = "quest",
+            id = 26925,
+            x = 1,
+            y = 2,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 26924,
+            x = 3,
+            y = 2,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 27117,
+            x = 5,
+            y = 2,
+            connections = {
+                1,
+            },
+        },
+
+
+        {
+            type = "quest",
+            id = 26926,
+            x = 3,
+            y = 3,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_ALLIANCE,
+            x = 3,
+            y = 4,
+        },
+    },
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_ALLIANCE] = {
     name = GetAchievementCriteriaInfo(4893, 2),
     category = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
@@ -257,7 +407,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE] = {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST,
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST_ALLIANCE,
         },
     },
     completed = {
@@ -376,13 +526,121 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE] = {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND,
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND_ALLIANCE,
             x = 2,
             y = 8,
         },
     },
 }
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND] = {
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_HORDE] = {
+    name = GetAchievementCriteriaInfo(4893, 2),
+    category = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
+    expansion = BTWQUESTS_EXPANSION_CLASSIC,
+    restrictions = {
+        {
+            type = "faction",
+            id = BTWQUESTS_FACTION_ID_HORDE,
+        },
+    },
+    prerequisites = {
+        {
+            type = "level",
+            level = 35,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST_HORDE,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 26938,
+    },
+    range = {35,60},
+    items = {
+        {
+            type = "quest",
+            id = 26931,
+            x = 1,
+            y = 1,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 26934,
+            x = 3,
+            y = 1,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 26930,
+            x = 5,
+            y = 1,
+        },
+
+        {
+            type = "quest",
+            id = 26933,
+            x = 1,
+            y = 2,
+        },
+        {
+            type = "quest",
+            id = 26978,
+            x = 3,
+            y = 2,
+            connections = {
+                1, 2,
+            },
+        },
+
+        {
+            type = "quest",
+            id = 26936,
+            x = 3,
+            y = 3,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_STEAD,
+            x = 5,
+            y = 3,
+        },
+        {
+            type = "quest",
+            id = 26979,
+            x = 3,
+            y = 4,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26937,
+            x = 3,
+            y = 5,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 26938,
+            x = 3,
+            y = 6,
+        },
+    },
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND_ALLIANCE] = {
     name = GetAchievementCriteriaInfo(4893, 3),
     category = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
@@ -399,7 +657,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND] = {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE,
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_ALLIANCE,
         },
     },
     completed = {
@@ -410,7 +668,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND] = {
     items = {
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE,
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_ALLIANCE,
             x = 3,
             y = 0,
             connections = {
@@ -502,16 +760,128 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND] = {
         },
     },
 }
-BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_STEAD] = {
-    name = GetAchievementCriteriaInfo(4893, 4),
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND_HORDE] = {
+    name = GetAchievementCriteriaInfo(4893, 3),
     category = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
     restrictions = {
         {
             type = "faction",
-            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
+    prerequisites = {
+        {
+            type = "level",
+            level = 35,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_HORDE,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 27144,
+    },
+    range = {35,60},
+    items = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_HORDE,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            name = "Go to Damion Steel",
+            breadcrumb = true,
+            onClick = function ()
+                BtWQuests_ShowMapWithWaypoint(22, 0, 0.4925, 0.5314, "Damion Steel")
+            end,
+            x = 3,
+            y = 1,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 27083,
+            x = 3,
+            y = 2,
+            connections = {
+                1, 2, 3,
+            },
+        },
+        {
+            type = "quest",
+            id = 27084,
+            x = 1,
+            y = 3,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 27085,
+            x = 3,
+            y = 3,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 27086,
+            x = 5,
+            y = 3,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 27087,
+            x = 3,
+            y = 4,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 27089,
+            x = 3,
+            y = 5,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 27090,
+            x = 3,
+            y = 6,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 27144,
+            x = 3,
+            y = 7,
+        },
+    },
+}
+BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_STEAD] = {
+    name = GetAchievementCriteriaInfo(4893, 4),
+    category = BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS,
+    expansion = BTWQUESTS_EXPANSION_CLASSIC,
     prerequisites = {
         {
             type = "level",
@@ -728,22 +1098,30 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_STEAD] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_WESTERN_PLAGUELANDS] = {
     name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        type = "faction",
-        id = BTWQUESTS_FACTION_ID_ALLIANCE,
-    },
     items = {
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST,
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST_ALLIANCE,
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE,
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_FIRST_HORDE,
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND,
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_ALLIANCE,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_PEACE_HORDE,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND_ALLIANCE,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_WESTERN_PLAGUELANDS_SECOND_HORDE,
         },
         {
             type = "chain",

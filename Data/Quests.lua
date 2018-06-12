@@ -16746,4 +16746,144 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "Alas, Andorhal",
 	},
+	[26922] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Endless Flow",
+	},
+	[28750] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Battle for Andorhal",
+	},
+	[26923] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "War Machines",
+	},
+	[28508] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Battle for Andorhal",
+	},
+	[26920] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Battle for Andorhal",
+	},
+	[26921] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Scourge First... Alliance Later",
+	},
+	[28575] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Western Plaguelands!",
+	},
+	[26924] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Scholomancer",
+	},
+	[26925] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Araj the Summoner",
+	},
+	[27117] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Brute Strength",
+	},
+	[26930] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "After the Crusade",
+	},
+	[26934] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Latent Disease",
+	},
+	[26926] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Victory, For Now",
+	},
+	[26931] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Foxes and Hounds",
+	},
+	[26978] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Who Needs Cauldrons?",
+	},
+	[26933] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Foes Before Hoes",
+	},
+	[27086] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ashes to Ashes",
+	},
+	[27090] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Andorhal, Once and For All",
+	},
+	[27083] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Battle Resumes!",
+	},
+	[26937] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "When Death is Not Enough",
+	},
+	[26979] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Strange New Faces",
+	},
+	[26938] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Combat Training",
+	},
+	[27144] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Reckoning",
+	},
+	[27085] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Supporting the Troops",
+	},
+	[27089] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Ace in the Hole",
+	},
+	[27087] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lindsay Ravensun, Revealed",
+	},
+	[26936] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lower the Boom",
+	},
+	[27084] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Farmers' Militia",
+	},
 }
