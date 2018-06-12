@@ -96,7 +96,6 @@ function BtWQuests_SelectExpansion(id)
     
     NavBar_Reset(BtWQuests.navBar)
     
-    BtWQuests:Show()
     BtWQuests_DisplayCurrentCategory()
 
     BtWQuestsNav_AddCurrentToHistory()
@@ -127,7 +126,6 @@ function BtWQuests_SelectCategory(id)
     NavBar_Reset(BtWQuests.navBar)
     BtWQuestsNav_AddCategoryButtonParents(id)
     
-    BtWQuests:Show()
     BtWQuests_DisplayCurrentCategory()
 
     BtWQuestsNav_AddCurrentToHistory()
@@ -152,7 +150,6 @@ function BtWQuests_SelectChain(id, scrollTo)
     NavBar_Reset(BtWQuests.navBar)
     BtWQuestsNav_AddChainButtonParents(id)
     
-    BtWQuests:Show()
     BtWQuests_DisplayCurrentChain(scrollTo)
     
     BtWQuestsNav_AddCurrentToHistory()
@@ -1676,6 +1673,8 @@ function BtWQuests_DisplayCurrentCategory(scrollTo)
             questSelect.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
         end
     end
+    
+    ShowUIPanel(BtWQuests)
 end
 
 function BtWQuests_DisplayCurrentChain(scrollTo)
@@ -1893,6 +1892,8 @@ function BtWQuests_DisplayCurrentChain(scrollTo)
             chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
         end
     end
+
+    ShowUIPanel(BtWQuests)
 end
 
 function BtWQuests_UpdateCurrentChain(scroll)
