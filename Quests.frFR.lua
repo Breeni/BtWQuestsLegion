@@ -463,6 +463,7 @@ BtWQuests_Quests = {
     [38286] = {
         name = "L’Œil d’Azshara : le Courroux d’Azshara",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -749,6 +750,7 @@ BtWQuests_Quests = {
     [38532] = {
         name = "Gueule des âmes : martelé par la tempête",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1300,6 +1302,7 @@ BtWQuests_Quests = {
     [38961] = {
         name = "L’Œil d’Azshara : le souffrenuit dépravé",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -1321,6 +1324,7 @@ BtWQuests_Quests = {
     [38965] = {
         name = "Assaut sur le fort Pourpre : dans le fort",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1587,6 +1591,7 @@ BtWQuests_Quests = {
     [39331] = {
         name = "L’Œil d’Azshara : pour une poignée de bouchons",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 102,
         requiredLevel = 102,
     },
@@ -1608,6 +1613,7 @@ BtWQuests_Quests = {
     [39335] = {
         name = "Repaire de Neltharion : une puissante poudre",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -1639,6 +1645,7 @@ BtWQuests_Quests = {
     [39341] = {
         name = "Caveau des Gardiennes : la bile de démon",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1650,6 +1657,7 @@ BtWQuests_Quests = {
     [39343] = {
         name = "Caveau des Gardiennes : tubes courbes en verre",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1676,24 +1684,28 @@ BtWQuests_Quests = {
     [39348] = {
         name = "Salles des Valeureux : l’ingrédient principal",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39349] = {
         name = "Bastion du Freux : lourd mais utile",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39350] = {
         name = "Gueule des âmes : un espoir à Helheim",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39351] = {
         name = "Cauchemar d’émeraude : le feu de la rage",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -2180,6 +2192,7 @@ BtWQuests_Quests = {
     [39781] = {
         name = "Repaire de Neltharion",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -2386,6 +2399,7 @@ BtWQuests_Quests = {
     [39882] = {
         name = "Fourré Sombrecœur : une rupture consommée",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 104,
         requiredLevel = 104,
     },
@@ -2417,6 +2431,7 @@ BtWQuests_Quests = {
     [39904] = {
         name = "Salles des Valeureux : la vengeance de l’enchanteresse",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -2463,6 +2478,7 @@ BtWQuests_Quests = {
     [39921] = {
         name = "Repaire de Neltharion : bâtonnet d’azur",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -2544,6 +2560,7 @@ BtWQuests_Quests = {
     [39953] = {
         name = "Salles des Valeureux : valeureuses visions",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -2735,6 +2752,7 @@ BtWQuests_Quests = {
     [40072] = {
         name = "Salles des Valeureux : la quête de l’égide",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -2946,6 +2964,7 @@ BtWQuests_Quests = {
     [40208] = {
         name = "L’Œil d’Azshara : les écailles de la mer",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -3448,18 +3467,21 @@ BtWQuests_Quests = {
     [40559] = {
         name = "Bastion du Freux : la sagesse du Freux",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40560] = {
         name = "Gueule des âmes : esprit, es-tu là ?",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40561] = {
         name = "Salles des Valeureux : le joyau des cieux",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -3471,6 +3493,7 @@ BtWQuests_Quests = {
     [40567] = {
         name = "Fourré Sombrecœur : plongeon dans le Cauchemar",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -3547,6 +3570,7 @@ BtWQuests_Quests = {
     [40613] = {
         name = "Gueule des âmes : retrouver le Svalngard",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3558,6 +3582,7 @@ BtWQuests_Quests = {
     [40615] = {
         name = "Salles des Valeureux : la bénédiction d’Odyn",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3644,12 +3669,14 @@ BtWQuests_Quests = {
     [40668] = {
         name = "L’Œil d’Azshara : le cœur de Zin-Azshari",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40672] = {
         name = "Repaire de Neltharion : la présentation fait tout",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3661,11 +3688,13 @@ BtWQuests_Quests = {
     [40675] = {
         name = "L’Arcavia : le rite du capitaine",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40678] = {
         name = "Une puissance corrompue",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -4001,6 +4030,7 @@ BtWQuests_Quests = {
     [40878] = {
         name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -4022,6 +4052,7 @@ BtWQuests_Quests = {
     [40882] = {
         name = "Cour des Étoiles : atténuation du recul",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -5553,6 +5584,7 @@ BtWQuests_Quests = {
     [42098] = {
         name = "Bastion du Freux : une âme errante",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -6088,6 +6120,7 @@ BtWQuests_Quests = {
     [42432] = {
         name = "Cauchemar d’émeraude : le Cauchemar d’émeraude",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -6214,12 +6247,14 @@ BtWQuests_Quests = {
     [42490] = {
         name = "L’Arcavia : l’ouverture de l’Arcavia",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
     [42491] = {
         name = "L’Arcavia : un savoir depuis longtemps enseveli",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -6514,6 +6549,7 @@ BtWQuests_Quests = {
     [42654] = {
         name = "Fourré Sombrecœur : le chêne du Cauchemar",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -6585,6 +6621,7 @@ BtWQuests_Quests = {
     [42678] = {
         name = "Bastion du Freux : dans le bastion du Freux",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7336,6 +7373,7 @@ BtWQuests_Quests = {
     [43253] = {
         name = "Gueule des âmes : les anciennes légendes vrykules",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7422,6 +7460,7 @@ BtWQuests_Quests = {
     [43314] = {
         name = "Cour des Étoiles : tout vient à point à qui sait attendre",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -7488,6 +7527,7 @@ BtWQuests_Quests = {
     [43362] = {
         name = "Cauchemar d’émeraude : terreau onirique",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -7733,6 +7773,7 @@ BtWQuests_Quests = {
     },
     [43479] = {
         name = "Le monde ne suffit pas",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -7749,6 +7790,7 @@ BtWQuests_Quests = {
     [43487] = {
         name = "Assaut sur le fort Pourpre : le Gangrelexique",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -7780,6 +7822,7 @@ BtWQuests_Quests = {
     [43493] = {
         name = "Bastion du Freux : le seigneur Corvaltus",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7801,6 +7844,7 @@ BtWQuests_Quests = {
     [43506] = {
         name = "Bastion du Freux : une puissance accrue",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7817,6 +7861,7 @@ BtWQuests_Quests = {
     [43517] = {
         name = "Fourré Sombrecœur : puissance déchue",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7833,12 +7878,14 @@ BtWQuests_Quests = {
     [43520] = {
         name = "Cauchemar d’émeraude : en plein cauchemar",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43521] = {
         name = "L’essence du pouvoir",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -7855,12 +7902,14 @@ BtWQuests_Quests = {
     [43524] = {
         name = "Cour des Étoiles : la perfection littéraire",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [43525] = {
         name = "Caveau des Gardiennes : ce qui est à elles est à nous",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7882,18 +7931,21 @@ BtWQuests_Quests = {
     [43530] = {
         name = "Le palais Sacrenuit : folie des grandeurs",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43531] = {
         name = "Au cœur du palais Sacrenuit",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43532] = {
         name = "Le palais Sacrenuit : l’appel des ténèbres",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -7965,12 +8017,14 @@ BtWQuests_Quests = {
     [43571] = {
         name = "Repaire de Neltharion : tresse du roi d’en bas",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [43572] = {
         name = "Fourré Sombrecœur : le fouet cauchemardesque",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -8232,24 +8286,28 @@ BtWQuests_Quests = {
     [44074] = {
         name = "Repaire de Neltharion : essence de ténacité",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44075] = {
         name = "Salles des Valeureux : essence de férocité",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44076] = {
         name = "Fourré Sombrecœur : essence de rétablissement",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44077] = {
         name = "L’Œil d’Azshara : essence d’équilibre",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -9050,12 +9108,14 @@ BtWQuests_Quests = {
     [45175] = {
         name = "Le prisme d’âme des Illidari",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [45176] = {
         name = "Jugement des Valeureux : seigneur des ombres un jour, seigneur des ombres toujours",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -9267,6 +9327,7 @@ BtWQuests_Quests = {
     [45372] = {
         name = "Le sort des Sacrenuit",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -9328,6 +9389,7 @@ BtWQuests_Quests = {
     [45417] = {
         name = "Le palais Sacrenuit : seigneur du Conseil des ombres",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -10829,6 +10891,7 @@ BtWQuests_Quests = {
     [47654] = {
         name = "Siège du triumvirat : le cimier de la Connaissance",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
