@@ -273,7 +273,7 @@
 		</Scripts>
 	</Button>
     
-	<Button name="BtWQuestsChainItemButtonTemplate" hidden="true" parentArray="QuestButtons" virtual="true">
+	<Button name="BtWQuestsChainItemButtonTemplate" hidden="true" virtual="true">
 		<Size x="174" y="48"/>
 		<Layers>
 			<Layer level="BACKGROUND">
@@ -579,11 +579,6 @@
 									<Anchor point="TOPLEFT" x="0" y="0"/>
 								</Anchors>
 								<Frames>
-									<Button name="$parentCategory1" inherits="BtWQuestsCategoryButtonTemplate" parentKey="category1">
-										<Anchors>
-											<Anchor point="TOPLEFT" x="12" y="-10"/>
-										</Anchors>
-									</Button>
 								</Frames>
 							</Frame>
 						</ScrollChild>

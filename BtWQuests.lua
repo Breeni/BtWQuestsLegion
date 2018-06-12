@@ -49,7 +49,10 @@ local BTWQUESTS_PROFESSION_MAP = {
 	[794] = BTWQUESTS_PROFESSION_ARCHAEOLOGY,
 };
 
-local BTWQUESTS_NUM_ITEMS_PER_ROW = 4;
+local BTWQUESTS_CATEGORY_ITEM_WIDTH = 174
+local BTWQUESTS_CATEGORY_ITEM_HEIGHT = 96
+local BTWQUESTS_CATEGORY_ITEM_PADDING = 12
+local BTWQUESTS_CATEGORY_NUM_ITEMS_PER_ROW = 4;
 
 local BtWQuests_CharactersMap = {}
 local BtWQuests_Character = nil -- Current Character
@@ -94,7 +97,7 @@ function BtWQuests_SelectExpansion(id)
     NavBar_Reset(BtWQuests.navBar)
     
     BtWQuests:Show()
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory()
 
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -125,7 +128,7 @@ function BtWQuests_SelectCategory(id)
     BtWQuestsNav_AddCategoryButtonParents(id)
     
     BtWQuests:Show()
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory()
 
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -150,7 +153,7 @@ function BtWQuests_SelectChain(id, scrollTo)
     BtWQuestsNav_AddChainButtonParents(id)
     
     BtWQuests:Show()
-    BtWQuests_DisplayChain(scrollTo)
+    BtWQuests_DisplayCurrentChain(scrollTo)
     
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -722,7 +725,7 @@ local function BtWQuests_GetCategoryItem(item)
                 BtWQuestsNav_AddChainButton(self.id, self.userdata.name)
 
                 BtWQuests_SetCurrentChain(self.id)
-                BtWQuests_DisplayChain()
+                BtWQuests_DisplayCurrentChain()
                 
                 BtWQuestsNav_AddCurrentToHistory()
                 
@@ -760,7 +763,7 @@ local function BtWQuests_GetCategoryItem(item)
                 BtWQuestsNav_AddCategoryButton(self.id, self.userdata.name)
                 
                 BtWQuests_SetCurrentCategory(self.id)
-                BtWQuests_ListCategories()
+                BtWQuests_DisplayCurrentCategory()
                 
                 BtWQuestsNav_AddCurrentToHistory()
                 
@@ -1353,6 +1356,14 @@ function BtWQuests_ShowMapWithWaypoint(mapId, level, x, y, name)
     end
 end
 
+local function ChainItemPool_HideAndClearAnchors(framePool, frame)
+    FramePool_HideAndClearAnchors(framePool, frame)
+    
+    if frame.backgroundLinePool then
+        frame.backgroundLinePool:ReleaseAll();
+    end
+end
+
 tinsert(UISpecialFrames, "BtWQuests") 
 function BtWQuests_OnLoad(self)
     self:RegisterEvent("ADDON_LOADED")
@@ -1398,14 +1409,15 @@ function BtWQuests_OnLoad(self)
     
 			BtWQuests_SetCurrentCategory(nil)
             
-            BtWQuests_ListCategories()
+            BtWQuests_DisplayCurrentCategory()
 
             BtWQuestsNav_AddCurrentToHistory()
 		end,
 	}
     NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
     
-    -- BtWQuests_ListCategories()
+    self.categoryItemPool = CreateFramePool("BUTTON", self.QuestSelect.scroll.child, "BtWQuestsCategoryButtonTemplate");
+    self.chainItemPool = CreateFramePool("BUTTON", self.Chain.scroll.child, "BtWQuestsChainItemButtonTemplate", ChainItemPool_HideAndClearAnchors);
     
     self.HistoryIndex = 0
     self.History = {}
@@ -1548,9 +1560,9 @@ function BtWQuests_OnShow(self)
     BtWQuestsNav_UpdateHere()
     
     if BtWQuests.Chain:IsShown() then
-        BtWQuests_UpdateChain()
+        BtWQuests_UpdateCurrentChain()
     else
-        BtWQuests_ListCategories()
+        BtWQuests_DisplayCurrentCategory()
     end
 end
 
@@ -1575,7 +1587,7 @@ function BtWQuestsChainFrame_OnHide(self)
 end
 
 function BtWQuestsChainFrame_OnEvent(self, ...)
-    BtWQuests_UpdateChain()
+    BtWQuests_UpdateCurrentChain()
 end
 
 function BtWQuestsChainFrameScrollFrame_OnUpdate(self)
@@ -1595,25 +1607,11 @@ end
 function BtWQuests_ZoomOut()
     BtWQuestsNav_Back()
     
-    -- if #BtWQuests.navBar.navList == 1 then
-        -- return
-    -- end
-    
-    -- local parent = BtWQuests.navBar.navList[#BtWQuests.navBar.navList-1].data.id
-    -- if parent then
-        -- NavBar_OpenTo(BtWQuests.navBar, parent)
-        -- BtWQuests_SetCurrentCategory(parent)
-    -- else
-        -- NavBar_Reset(BtWQuests.navBar)
-        -- BtWQuests_SetCurrentCategory(nil)
-    -- end
-    
     BtWQuestsTooltip:Hide();
-
-    -- BtWQuests_ListCategories()
 end
 
-function BtWQuests_ListCategories(scrollTo)
+function BtWQuests_DisplayCurrentCategory(scrollTo)
+	BtWQuests.categoryItemPool:ReleaseAll();
 	local questSelect = BtWQuests.QuestSelect;
     
 	BtWQuests.Chain:Hide();
@@ -1622,21 +1620,19 @@ function BtWQuests_ListCategories(scrollTo)
 	local scrollFrame = questSelect.scroll.child;
     local scrollToButton
     
+    local startX = 12
+    local startY = -10
 	local i = 1;
 	local index = 1;
-	local itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
-	while id do
+    local itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
+    while id do
         if not hidden then
-            local categoryButton = scrollFrame["category"..index];
-            if not categoryButton then -- create button
-                categoryButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."category"..index, scrollFrame, "BtWQuestsCategoryButtonTemplate");
-                scrollFrame["category"..index] = categoryButton;
-                if mod(index-1, BTWQUESTS_NUM_ITEMS_PER_ROW) == 0 then
-                    categoryButton:SetPoint("TOP", scrollFrame["category"..(index-BTWQUESTS_NUM_ITEMS_PER_ROW)], "BOTTOM", 0, -15);
-                else
-                    categoryButton:SetPoint("LEFT", scrollFrame["category"..(index-1)], "RIGHT", 15, 0);
-                end
-            end
+            local categoryButton = BtWQuests.categoryItemPool:Acquire();
+
+            local x = startX + mod(index - 1, BTWQUESTS_CATEGORY_NUM_ITEMS_PER_ROW) * (BTWQUESTS_CATEGORY_ITEM_WIDTH + BTWQUESTS_CATEGORY_ITEM_PADDING)
+            local y = startY - floor((index - 1) / BTWQUESTS_CATEGORY_NUM_ITEMS_PER_ROW) * (BTWQUESTS_CATEGORY_ITEM_HEIGHT + BTWQUESTS_CATEGORY_ITEM_PADDING)
+            
+            categoryButton:SetPoint("TOPLEFT", x,  y);
 
             categoryButton.name:SetText(name);
             categoryButton.bgImage:SetTexture(buttonImage);
@@ -1668,14 +1664,6 @@ function BtWQuests_ListCategories(scrollTo)
         i = i + 1;
         itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
     end
-    
-    categoryButton = scrollFrame["category"..index];
-    while categoryButton do
-        categoryButton:Hide()
-        
-        index = index + 1;
-        categoryButton = scrollFrame["category"..index];
-    end
 
     if type(scrollTo) == "table" and scrollTo.type == "coords" then
         questSelect.scroll:UpdateScrollChildRect()
@@ -1689,7 +1677,8 @@ function BtWQuests_ListCategories(scrollTo)
     end
 end
 
-function BtWQuests_DisplayChain(scrollTo)
+function BtWQuests_DisplayCurrentChain(scrollTo)
+	BtWQuests.chainItemPool:ReleaseAll();
 	local chain = BtWQuests.Chain;
     
 	BtWQuests.QuestSelect:Hide();
@@ -1697,18 +1686,17 @@ function BtWQuests_DisplayChain(scrollTo)
     
     local scrollFrame = chain.scroll.child;
     local scrollToButton, scrollToButtonAside
+
+    scrollFrame.ItemButtons = {}
+    local buttons = scrollFrame.ItemButtons
     
     local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
     for index = numItems, 1, -1 do
         local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = BtWQuests_GetChainItemByIndex(index)
         local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
-        local itemButton = scrollFrame["item"..index];
-        if not itemButton then -- create button
-            itemButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."Item"..index, scrollFrame, "BtWQuestsChainItemButtonTemplate");
-
-            scrollFrame["item"..index] = itemButton;
-        end
+        local itemButton = BtWQuests.chainItemPool:Acquire();
+        buttons[index] = itemButton
         
         itemButton.skip = skip
         if skip then
@@ -1757,7 +1745,7 @@ function BtWQuests_DisplayChain(scrollTo)
                 local isCompleted = false
                 for j=1,#connections do
                     local connection = index + connections[j]
-                    local connectionItem = scrollFrame["item"..connection]
+                    local connectionItem = buttons[connection]
                     if connectionItem and connectionItem:IsShown() then
                         if connectionItem.status ~= nil then
                             isCompleted = true
@@ -1789,7 +1777,7 @@ function BtWQuests_DisplayChain(scrollTo)
             if not breadcrumb then
                 for j=1,#connections do
                     local connection = index + connections[j]
-                    local connectionItem = scrollFrame["item"..connection]
+                    local connectionItem = buttons[connection]
                     if connectionItem and connectionItem:IsShown() then
                         
                         if connectionItem.canBeActive then
@@ -1822,14 +1810,14 @@ function BtWQuests_DisplayChain(scrollTo)
             
             
             if not itemButton.backgroundLinePool then
-                itemButton.backgroundLinePool = CreateFramePool("FRAME", scrollFrame, "BtWQuestsLineTemplate", OnRelease);
+                itemButton.backgroundLinePool = CreateFramePool("FRAME", scrollFrame, "BtWQuestsLineTemplate");
             end
             
             itemButton.backgroundLinePool:ReleaseAll();
             
             for j=1,#connections do
                 local connection = index + connections[j]
-                local connectionItem = scrollFrame["item"..connection]
+                local connectionItem = buttons[connection]
                 
                 if connectionItem and not connectionItem.skip then
                     local lineContainer = itemButton.backgroundLinePool:Acquire();
@@ -1872,26 +1860,13 @@ function BtWQuests_DisplayChain(scrollTo)
         end
     end
     
-    local index = numItems + 1
-    itemButton = scrollFrame["item"..index];
-    while itemButton do
-        itemButton:Hide()
-        
-        if itemButton.backgroundLinePool then
-            itemButton.backgroundLinePool:ReleaseAll();
-        end
-        
-		index = index + 1;
-        itemButton = scrollFrame["item"..index];
-    end
-    
     local temp = numItems
-    while temp > 0 and not scrollFrame["item"..temp]:IsShown() do
+    while temp > 0 and not buttons[temp]:IsShown() do
         temp = temp - 1
     end
-    
+
     if temp > 0 then
-        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
+        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, buttons[temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     end
 
     if type(scrollTo) == "table" and scrollTo.type == "coords" then
@@ -1905,11 +1880,11 @@ function BtWQuests_DisplayChain(scrollTo)
         
         if scrollToButton == nil then
             temp = 1
-            while scrollFrame["item"..temp] and not scrollFrame["item"..temp]:IsShown() do
+            while buttons[temp] and not buttons[temp]:IsShown() do
                 temp = temp + 1
             end
             
-            scrollToButton = scrollFrame["item"..temp]
+            scrollToButton = buttons[temp]
         end
         
         if scrollToButton then
@@ -1919,12 +1894,13 @@ function BtWQuests_DisplayChain(scrollTo)
     end
 end
 
-
-function BtWQuests_UpdateChain(scroll)
+function BtWQuests_UpdateCurrentChain(scroll)
     local chain = BtWQuests.Chain
     
     if chain:IsShown() then
         local scrollFrame = chain.scroll.child;
+        local buttons = scrollFrame.ItemButtons
+        
         local scrollToButton, scrollToButtonAside
         
         local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
@@ -1932,7 +1908,7 @@ function BtWQuests_UpdateChain(scroll)
             local skip, _, visible, _, _, _, breadcrumb, aside, _, _, status, _, _, _, _ = BtWQuests_GetChainItemByIndex(index)
             local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
-			local itemButton = scrollFrame["item"..index];
+			local itemButton = buttons[index];
             if not skip then
                 itemButton.newStatus = status
             
@@ -1940,7 +1916,7 @@ function BtWQuests_UpdateChain(scroll)
                     local isCompleted = false
                     for j=1,#connections do
                         local connection = index + connections[j]
-                        local connectionItem = scrollFrame["item"..connection]
+                        local connectionItem = buttons[connection]
                         if connectionItem and connectionItem:IsShown() then
                             if connectionItem.status ~= nil then
                                 isCompleted = true
@@ -1967,7 +1943,7 @@ function BtWQuests_UpdateChain(scroll)
                 if not breadcrumb then
                     for j=1,#connections do
                         local connection = index + connections[j]
-                        local connectionItem = scrollFrame["item"..connection]
+                        local connectionItem = buttons[connection]
                         if connectionItem and connectionItem:IsShown() then
                             
                             if connectionItem.canBeActive then
@@ -2343,20 +2319,20 @@ function BtWQuestsNav_SelectFromHistory()
         NavBar_Reset(BtWQuests.navBar)
         BtWQuestsNav_AddChainButtonParents(item.id)
         
-        BtWQuests_DisplayChain(item.scrollTo)
+        BtWQuests_DisplayCurrentChain(item.scrollTo)
     elseif item.type == "category" then
         BtWQuests_SetCurrentCategory(item.id)
         
         NavBar_Reset(BtWQuests.navBar)
         BtWQuestsNav_AddCategoryButtonParents(item.id)
         
-        BtWQuests_ListCategories(item.scrollTo)
+        BtWQuests_DisplayCurrentCategory(item.scrollTo)
     elseif item.type == "expansion" then
         BtWQuests_SetCurrentExpansion(item.id)
 
         NavBar_Reset(BtWQuests.navBar)
 
-        BtWQuests_ListCategories(item.scrollTo)
+        BtWQuests_DisplayCurrentCategory(item.scrollTo)
     end
 end
 
@@ -2417,7 +2393,7 @@ function BtWQuestsNav_SelectChain(self, ...)
         
     BtWQuests_SetCurrentChain(-self.id)
     
-    BtWQuests_DisplayChain()
+    BtWQuests_DisplayCurrentChain()
     
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -2427,7 +2403,7 @@ function BtWQuestsNav_SelectCategory(self, ...)
         
     BtWQuests_SetCurrentCategory(self.id)
 
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory()
     
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -2607,7 +2583,7 @@ function BtWQuestsExpansionDropDown_Select(_, expansion)
     NavBar_Reset(BtWQuests.navBar)
     
     BtWQuests_SetCurrentCategory()
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory()
 end
 
 
