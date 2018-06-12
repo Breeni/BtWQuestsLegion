@@ -3770,6 +3770,41 @@ BtWQuests_Quests = {
         level = 28,
         requiredLevel = 26,
     },
+    [26920] = {
+        name = "Битва за Андорал",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26921] = {
+        name = "Сначала Плеть... Потом Альянс",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26922] = {
+        name = "Бесконечный поток",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26923] = {
+        name = "Боевые машины",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26924] = {
+        name = "Некроректор",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26925] = {
+        name = "Араж Призыватель",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26926] = {
+        name = "Сиюминутная победа",
+        level = 35,
+        requiredLevel = 34,
+    },
     [26927] = {
         name = "Откуда ни возьмись – мурлоки!",
         level = 14,
@@ -3785,13 +3820,48 @@ BtWQuests_Quests = {
         level = 15,
         requiredLevel = 12,
     },
+    [26930] = {
+        name = "После ордена",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26931] = {
+        name = "Лисы и гончие",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26932] = {
         name = "Конец канюкам",
         level = 15,
         requiredLevel = 13,
     },
+    [26933] = {
+        name = "Мечи и орала",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26934] = {
+        name = "Скрытая болезнь",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26935] = {
         name = "Лесопилка Северного Кряжа",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26936] = {
+        name = "Поехали!",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26937] = {
+        name = "Когда смерть еще не конец",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26938] = {
+        name = "Боевые учения",
         level = 37,
         requiredLevel = 34,
     },
@@ -3839,6 +3909,16 @@ BtWQuests_Quests = {
         name = "Вождь идет!",
         level = 11,
         requiredLevel = 9,
+    },
+    [26978] = {
+        name = "Кому нужны котлы?",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26979] = {
+        name = "Странные новые лица",
+        level = 36,
+        requiredLevel = 34,
     },
     [26980] = {
         name = "Станция Бынструмента",
@@ -4045,10 +4125,45 @@ BtWQuests_Quests = {
         level = 12,
         requiredLevel = 10,
     },
+    [27083] = {
+        name = "Борьба возобновляется!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27084] = {
+        name = "Крестьянское ополчение",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27085] = {
+        name = "Поддержка войск",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27086] = {
+        name = "Прах к праху",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27087] = {
+        name = "Разоблачение Линдси Черное Солнце",
+        level = 40,
+        requiredLevel = 38,
+    },
     [27088] = {
         name = "В пищу не употреблять!",
         level = 12,
         requiredLevel = 10,
+    },
+    [27089] = {
+        name = "Козырь в рукаве",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27090] = {
+        name = "Андорал – раз и навсегда",
+        level = 40,
+        requiredLevel = 38,
     },
     [27093] = {
         name = "Затерянные во тьме",
@@ -4094,6 +4209,16 @@ BtWQuests_Quests = {
         name = "Ветра Лок Модана",
         level = 18,
         requiredLevel = 15,
+    },
+    [27117] = {
+        name = "Грубая сила",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27144] = {
+        name = "Расплата",
+        level = 40,
+        requiredLevel = 38,
     },
     [27151] = {
         name = "Наследство Телана Фордринга",
@@ -4277,6 +4402,11 @@ BtWQuests_Quests = {
     },
     [27205] = {
         name = "Коварство Отрекшихся",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27206] = {
+        name = "Увы тебе, Андорал",
         level = 40,
         requiredLevel = 38,
     },
@@ -5110,6 +5240,11 @@ BtWQuests_Quests = {
         level = 23,
         requiredLevel = 21,
     },
+    [28508] = {
+        name = "Битва за Андорал",
+        level = 35,
+        requiredLevel = 34,
+    },
     [28529] = {
         name = "Рукописи бездны",
         level = 12,
@@ -5179,6 +5314,11 @@ BtWQuests_Quests = {
         name = "Приказ вождя: Внутренние земли!",
         level = 30,
         requiredLevel = 29,
+    },
+    [28575] = {
+        name = "Приказ вождя: Западные Чумные земли!",
+        level = 35,
+        requiredLevel = 34,
     },
     [28576] = {
         name = "Воззвание к героям: Западные Чумные земли!",
@@ -5306,6 +5446,11 @@ BtWQuests_Quests = {
         requiredLevel = 20,
     },
     [28749] = {
+        name = "Битва за Андорал",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28750] = {
         name = "Битва за Андорал",
         level = 35,
         requiredLevel = 34,

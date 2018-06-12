@@ -3770,6 +3770,41 @@ BtWQuests_Quests = {
         level = 28,
         requiredLevel = 26,
     },
+    [26920] = {
+        name = "Die Schlacht um Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26921] = {
+        name = "Erst die Geißel... dann die Allianz",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26922] = {
+        name = "Der unendliche Fluss",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26923] = {
+        name = "Kriegsmaschinen",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26924] = {
+        name = "Scholomancer",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26925] = {
+        name = "Araj der Beschwörer",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26926] = {
+        name = "Sieg, im Moment",
+        level = 35,
+        requiredLevel = 34,
+    },
     [26927] = {
         name = "...und plötzlich Murlocs!",
         level = 14,
@@ -3785,13 +3820,48 @@ BtWQuests_Quests = {
         level = 15,
         requiredLevel = 12,
     },
+    [26930] = {
+        name = "Nach dem Kreuzzug",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26931] = {
+        name = "Füchse und Hunde",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26932] = {
         name = "Ausgeflattert",
         level = 15,
         requiredLevel = 13,
     },
+    [26933] = {
+        name = "Feind oder Bauer?",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26934] = {
+        name = "Verborgene Krankheit",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26935] = {
         name = "Sägewerk des Nordkamms",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26936] = {
+        name = "Weniger Bumm",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26937] = {
+        name = "Wenn der Tod nicht ausreicht",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26938] = {
+        name = "Kampftraining",
         level = 37,
         requiredLevel = 34,
     },
@@ -3839,6 +3909,16 @@ BtWQuests_Quests = {
         name = "Der Kriegshäuptling kommt",
         level = 11,
         requiredLevel = 9,
+    },
+    [26978] = {
+        name = "Wer braucht Kessel?",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26979] = {
+        name = "Merkwürdige neue Gesichter",
+        level = 36,
+        requiredLevel = 34,
     },
     [26980] = {
         name = "Schnellschalts Station",
@@ -4045,10 +4125,45 @@ BtWQuests_Quests = {
         level = 12,
         requiredLevel = 10,
     },
+    [27083] = {
+        name = "Die Schlacht geht weiter!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27084] = {
+        name = "Die Bauernmiliz",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27085] = {
+        name = "Die Truppen unterstützen",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27086] = {
+        name = "Asche zu Asche",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27087] = {
+        name = "Die Entlarvung der Lindsay Rabensonn",
+        level = 40,
+        requiredLevel = 38,
+    },
     [27088] = {
         name = "Es ist nur giftig, wenn man es einnimmt",
         level = 12,
         requiredLevel = 10,
+    },
+    [27089] = {
+        name = "Versteckter Trumpf",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27090] = {
+        name = "Andorhal, für Immer und Ewig",
+        level = 40,
+        requiredLevel = 38,
     },
     [27093] = {
         name = "In der Dunkelheit verlaufen",
@@ -4094,6 +4209,16 @@ BtWQuests_Quests = {
         name = "Die Winde von Loch Modan",
         level = 18,
         requiredLevel = 15,
+    },
+    [27117] = {
+        name = "Rohe Gewalt",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27144] = {
+        name = "Die Abrechnung",
+        level = 40,
+        requiredLevel = 38,
     },
     [27151] = {
         name = "Taelan Fordrings Vermächtnis",
@@ -4277,6 +4402,11 @@ BtWQuests_Quests = {
     },
     [27205] = {
         name = "Die Verderbtheit der Verlassenen",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27206] = {
+        name = "Weh dir, Andorhal",
         level = 40,
         requiredLevel = 38,
     },
@@ -5110,6 +5240,11 @@ BtWQuests_Quests = {
         level = 23,
         requiredLevel = 21,
     },
+    [28508] = {
+        name = "Die Schlacht um Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
     [28529] = {
         name = "Schriftstücke der Leere",
         level = 12,
@@ -5179,6 +5314,11 @@ BtWQuests_Quests = {
         name = "Auf Befehl des Kriegshäuptlings: Das Hinterland!",
         level = 30,
         requiredLevel = 29,
+    },
+    [28575] = {
+        name = "Auf Befehl des Kriegshäuptlings: Westliche Pestländer!",
+        level = 35,
+        requiredLevel = 34,
     },
     [28576] = {
         name = "Heldenaufruf: Westliche Pestländer!",
@@ -5306,6 +5446,11 @@ BtWQuests_Quests = {
         requiredLevel = 20,
     },
     [28749] = {
+        name = "Die Schlacht um Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28750] = {
         name = "Die Schlacht um Andorhal",
         level = 35,
         requiredLevel = 34,

@@ -3770,6 +3770,41 @@ BtWQuests_Quests = {
         level = 28,
         requiredLevel = 26,
     },
+    [26920] = {
+        name = "安多哈爾之戰",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26921] = {
+        name = "先天譴...後聯盟",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26922] = {
+        name = "無限之流",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26923] = {
+        name = "戰爭機器",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26924] = {
+        name = "通靈學者",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26925] = {
+        name = "『召喚者』阿拉基",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26926] = {
+        name = "暫時的勝利",
+        level = 35,
+        requiredLevel = 34,
+    },
     [26927] = {
         name = "突然間，魚人!",
         level = 14,
@@ -3785,13 +3820,48 @@ BtWQuests_Quests = {
         level = 15,
         requiredLevel = 12,
     },
+    [26930] = {
+        name = "十字軍之後",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26931] = {
+        name = "狐狸與獵狗",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26932] = {
         name = "滾到一邊去",
         level = 15,
         requiredLevel = 13,
     },
+    [26933] = {
+        name = "敵人比種田重要",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26934] = {
+        name = "潛伏的疾病",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26935] = {
         name = "北山伐木場",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26936] = {
+        name = "準備引爆",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26937] = {
+        name = "連死亡都不夠時",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26938] = {
+        name = "戰鬥訓練",
         level = 37,
         requiredLevel = 34,
     },
@@ -3839,6 +3909,16 @@ BtWQuests_Quests = {
         name = "大酋長駕到",
         level = 11,
         requiredLevel = 9,
+    },
+    [26978] = {
+        name = "誰需要大鍋？",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26979] = {
+        name = "奇異的新面孔",
+        level = 36,
+        requiredLevel = 34,
     },
     [26980] = {
         name = "迅輪崗哨",
@@ -4045,10 +4125,45 @@ BtWQuests_Quests = {
         level = 12,
         requiredLevel = 10,
     },
+    [27083] = {
+        name = "戰火重新點燃",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27084] = {
+        name = "農夫民兵",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27085] = {
+        name = "支援部隊",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27086] = {
+        name = "塵歸塵",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27087] = {
+        name = "林塞·掠日，暴露行蹤",
+        level = 40,
+        requiredLevel = 38,
+    },
     [27088] = {
         name = "只有吞下才有毒",
         level = 12,
         requiredLevel = 10,
+    },
+    [27089] = {
+        name = "秘密王牌",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27090] = {
+        name = "安多哈爾，一勞永逸",
+        level = 40,
+        requiredLevel = 38,
     },
     [27093] = {
         name = "迷失在黑暗中",
@@ -4094,6 +4209,16 @@ BtWQuests_Quests = {
         name = "洛克莫丹之風",
         level = 18,
         requiredLevel = 15,
+    },
+    [27117] = {
+        name = "蠻力",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27144] = {
+        name = "清算",
+        level = 40,
+        requiredLevel = 38,
     },
     [27151] = {
         name = "泰蘭·弗丁的遺產",
@@ -4277,6 +4402,11 @@ BtWQuests_Quests = {
     },
     [27205] = {
         name = "被遺忘者的墮落",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27206] = {
+        name = "啊，安多哈爾!",
         level = 40,
         requiredLevel = 38,
     },
@@ -5110,6 +5240,11 @@ BtWQuests_Quests = {
         level = 23,
         requiredLevel = 21,
     },
+    [28508] = {
+        name = "安多哈爾之戰",
+        level = 35,
+        requiredLevel = 34,
+    },
     [28529] = {
         name = "虛無的文字",
         level = 12,
@@ -5179,6 +5314,11 @@ BtWQuests_Quests = {
         name = "大酋長的命令：辛特蘭！",
         level = 30,
         requiredLevel = 29,
+    },
+    [28575] = {
+        name = "大酋長的命令：西瘟疫之地！",
+        level = 35,
+        requiredLevel = 34,
     },
     [28576] = {
         name = "英雄的召喚：西瘟疫之地！",
@@ -5306,6 +5446,11 @@ BtWQuests_Quests = {
         requiredLevel = 20,
     },
     [28749] = {
+        name = "安多哈爾之戰",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28750] = {
         name = "安多哈爾之戰",
         level = 35,
         requiredLevel = 34,

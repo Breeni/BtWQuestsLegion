@@ -3770,6 +3770,41 @@ BtWQuests_Quests = {
         level = 28,
         requiredLevel = 26,
     },
+    [26920] = {
+        name = "La batalla por Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26921] = {
+        name = "La Plaga primero... La Alianza después",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26922] = {
+        name = "El flujo incesante",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26923] = {
+        name = "Máquinas de guerra",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26924] = {
+        name = "El habitante de Scholomance",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26925] = {
+        name = "Araj el Invocador",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26926] = {
+        name = "Victoria, por ahora",
+        level = 35,
+        requiredLevel = 34,
+    },
     [26927] = {
         name = "¡De pronto, múrlocs!",
         level = 14,
@@ -3785,13 +3820,48 @@ BtWQuests_Quests = {
         level = 15,
         requiredLevel = 12,
     },
+    [26930] = {
+        name = "Después de la Cruzada",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26931] = {
+        name = "Zorros y perros de caza",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26932] = {
         name = "Águilas fuera",
         level = 15,
         requiredLevel = 13,
     },
+    [26933] = {
+        name = "Enemigos con azadas",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26934] = {
+        name = "Enfermedad latente",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26935] = {
         name = "El Aserradero Crestanorte",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26936] = {
+        name = "Bombas fuera",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26937] = {
+        name = "Cuando la muerte no es suficiente",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26938] = {
+        name = "Instrucción de combate",
         level = 37,
         requiredLevel = 34,
     },
@@ -3839,6 +3909,16 @@ BtWQuests_Quests = {
         name = "La llegada del Jefe de Guerra",
         level = 11,
         requiredLevel = 9,
+    },
+    [26978] = {
+        name = "¿Quién necesita calderas?",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26979] = {
+        name = "Caras nuevas... y raras",
+        level = 36,
+        requiredLevel = 34,
     },
     [26980] = {
         name = "Estación Cambioveloz",
@@ -4045,10 +4125,45 @@ BtWQuests_Quests = {
         level = 12,
         requiredLevel = 10,
     },
+    [27083] = {
+        name = "¡Se reanuda la batalla!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27084] = {
+        name = "La milicia de granjeros",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27085] = {
+        name = "Apoyar a las tropas",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27086] = {
+        name = "Cenizas a las cenizas",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27087] = {
+        name = "Lindsay Negrosol se sincera",
+        level = 40,
+        requiredLevel = 38,
+    },
     [27088] = {
         name = "Solo es venenoso si te lo comes",
         level = 12,
         requiredLevel = 10,
+    },
+    [27089] = {
+        name = "Un as en la manga",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27090] = {
+        name = "Andorhal, de una vez por todas",
+        level = 40,
+        requiredLevel = 38,
     },
     [27093] = {
         name = "Perdidos en la oscuridad",
@@ -4094,6 +4209,16 @@ BtWQuests_Quests = {
         name = "Las alas de Loch Modan",
         level = 18,
         requiredLevel = 15,
+    },
+    [27117] = {
+        name = "Fuerza bruta",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27144] = {
+        name = "La venganza",
+        level = 40,
+        requiredLevel = 38,
     },
     [27151] = {
         name = "El legado de Taelan Vadín",
@@ -4277,6 +4402,11 @@ BtWQuests_Quests = {
     },
     [27205] = {
         name = "La depravación de los Renegados",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27206] = {
+        name = "Ah, Andorhal",
         level = 40,
         requiredLevel = 38,
     },
@@ -5110,6 +5240,11 @@ BtWQuests_Quests = {
         level = 23,
         requiredLevel = 21,
     },
+    [28508] = {
+        name = "La batalla por Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
     [28529] = {
         name = "Escrituras del Vacío",
         level = 12,
@@ -5179,6 +5314,11 @@ BtWQuests_Quests = {
         name = "¡La orden del Jefe de Guerra: Tierras del Interior!",
         level = 30,
         requiredLevel = 29,
+    },
+    [28575] = {
+        name = "¡La orden del Jefe de Guerra: Tierras de la Peste del Oeste!",
+        level = 35,
+        requiredLevel = 34,
     },
     [28576] = {
         name = "Se busca héroe: ¡Tierras de la Peste del Oeste!",
@@ -5306,6 +5446,11 @@ BtWQuests_Quests = {
         requiredLevel = 20,
     },
     [28749] = {
+        name = "La batalla por Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28750] = {
         name = "La batalla por Andorhal",
         level = 35,
         requiredLevel = 34,

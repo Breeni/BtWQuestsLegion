@@ -3770,6 +3770,41 @@ BtWQuests_Quests = {
         level = 28,
         requiredLevel = 26,
     },
+    [26920] = {
+        name = "La bataille pour Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26921] = {
+        name = "Le Fléau d’abord… l’Alliance ensuite",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26922] = {
+        name = "Squelettes à la chaîne",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26923] = {
+        name = "Machines de guerre",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26924] = {
+        name = "Le scholomancien",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26925] = {
+        name = "Araj l’invocateur",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26926] = {
+        name = "La victoire pour un temps",
+        level = 35,
+        requiredLevel = 34,
+    },
     [26927] = {
         name = "Soudain… Des murlocs !!",
         level = 14,
@@ -3785,13 +3820,48 @@ BtWQuests_Quests = {
         level = 15,
         requiredLevel = 12,
     },
+    [26930] = {
+        name = "Après la Croisade",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26931] = {
+        name = "Le renard et les poules",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26932] = {
         name = "Au revoir, les busards",
         level = 15,
         requiredLevel = 13,
     },
+    [26933] = {
+        name = "Troquer l’épée pour la houe",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26934] = {
+        name = "Rémanence pathologique",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26935] = {
         name = "La scierie de la Crête du nord",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26936] = {
+        name = "Bouchez-vous les oreilles !",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26937] = {
+        name = "Quand la mort ne suffit pas",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26938] = {
+        name = "L’entraînement au combat",
         level = 37,
         requiredLevel = 34,
     },
@@ -3839,6 +3909,16 @@ BtWQuests_Quests = {
         name = "Garde-à-vous !",
         level = 11,
         requiredLevel = 9,
+    },
+    [26978] = {
+        name = "Ils sont beaux, mes chaudrons",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26979] = {
+        name = "De nouveaux visages",
+        level = 36,
+        requiredLevel = 34,
     },
     [26980] = {
         name = "Le poste de Vifembraye",
@@ -4045,10 +4125,45 @@ BtWQuests_Quests = {
         level = 12,
         requiredLevel = 10,
     },
+    [27083] = {
+        name = "La bataille reprend !",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27084] = {
+        name = "Soldats et paysans",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27085] = {
+        name = "À la rescousse des nécrogardes",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27086] = {
+        name = "Éliminer le haut commandement",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27087] = {
+        name = "Lindsay Astrejais démasquée",
+        level = 40,
+        requiredLevel = 38,
+    },
     [27088] = {
         name = "Le poulet indigeste",
         level = 12,
         requiredLevel = 10,
+    },
+    [27089] = {
+        name = "Un as dans la manche",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27090] = {
+        name = "Andorhal, une fois pour toutes",
+        level = 40,
+        requiredLevel = 38,
     },
     [27093] = {
         name = "Embrouilles au Grouillement",
@@ -4094,6 +4209,16 @@ BtWQuests_Quests = {
         name = "Les vents du loch Modan",
         level = 18,
         requiredLevel = 15,
+    },
+    [27117] = {
+        name = "Force brute",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27144] = {
+        name = "L’évaluation finale",
+        level = 40,
+        requiredLevel = 38,
     },
     [27151] = {
         name = "La chair et le sang de Taelan Fordring",
@@ -4277,6 +4402,11 @@ BtWQuests_Quests = {
     },
     [27205] = {
         name = "La vilenie des Réprouvés",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27206] = {
+        name = "Adieu, Andorhal",
         level = 40,
         requiredLevel = 38,
     },
@@ -5110,6 +5240,11 @@ BtWQuests_Quests = {
         level = 23,
         requiredLevel = 21,
     },
+    [28508] = {
+        name = "La bataille pour Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
     [28529] = {
         name = "Les écrits du vide",
         level = 12,
@@ -5179,6 +5314,11 @@ BtWQuests_Quests = {
         name = "Ordre du chef de guerre : les Hinterlands !",
         level = 30,
         requiredLevel = 29,
+    },
+    [28575] = {
+        name = "Ordre du chef de guerre : les Maleterres de l’Ouest !",
+        level = 35,
+        requiredLevel = 34,
     },
     [28576] = {
         name = "L’appel du héros : les Maleterres de l’Ouest !",
@@ -5306,6 +5446,11 @@ BtWQuests_Quests = {
         requiredLevel = 20,
     },
     [28749] = {
+        name = "La bataille pour Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28750] = {
         name = "La bataille pour Andorhal",
         level = 35,
         requiredLevel = 34,

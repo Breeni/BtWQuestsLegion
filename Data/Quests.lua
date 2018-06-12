@@ -3764,6 +3764,41 @@ BtWQuests_Quests = {
         level = 28,
         requiredLevel = 26,
     },
+    [26920] = {
+        name = "The Battle for Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26921] = {
+        name = "Scourge First... Alliance Later",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26922] = {
+        name = "The Endless Flow",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26923] = {
+        name = "War Machines",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26924] = {
+        name = "Scholomancer",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26925] = {
+        name = "Araj the Summoner",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26926] = {
+        name = "Victory, For Now",
+        level = 35,
+        requiredLevel = 34,
+    },
     [26927] = {
         name = "Suddenly, Murlocs!",
         level = 14,
@@ -3779,13 +3814,48 @@ BtWQuests_Quests = {
         level = 15,
         requiredLevel = 12,
     },
+    [26930] = {
+        name = "After the Crusade",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26931] = {
+        name = "Foxes and Hounds",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26932] = {
         name = "Buzz Off",
         level = 15,
         requiredLevel = 13,
     },
+    [26933] = {
+        name = "Foes Before Hoes",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26934] = {
+        name = "Latent Disease",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26935] = {
         name = "Northridge Lumber Mill",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26936] = {
+        name = "Lower the Boom",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26937] = {
+        name = "When Death is Not Enough",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26938] = {
+        name = "Combat Training",
         level = 37,
         requiredLevel = 34,
     },
@@ -3833,6 +3903,16 @@ BtWQuests_Quests = {
         name = "The Warchief Cometh",
         level = 11,
         requiredLevel = 9,
+    },
+    [26978] = {
+        name = "Who Needs Cauldrons?",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26979] = {
+        name = "Strange New Faces",
+        level = 36,
+        requiredLevel = 34,
     },
     [26980] = {
         name = "Swiftgear Station",
@@ -4039,10 +4119,45 @@ BtWQuests_Quests = {
         level = 12,
         requiredLevel = 10,
     },
+    [27083] = {
+        name = "The Battle Resumes!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27084] = {
+        name = "The Farmers' Militia",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27085] = {
+        name = "Supporting the Troops",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27086] = {
+        name = "Ashes to Ashes",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27087] = {
+        name = "Lindsay Ravensun, Revealed",
+        level = 40,
+        requiredLevel = 38,
+    },
     [27088] = {
         name = "It's Only Poisonous if You Ingest It",
         level = 12,
         requiredLevel = 10,
+    },
+    [27089] = {
+        name = "Ace in the Hole",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27090] = {
+        name = "Andorhal, Once and For All",
+        level = 40,
+        requiredLevel = 38,
     },
     [27093] = {
         name = "Lost in the Darkness",
@@ -4088,6 +4203,16 @@ BtWQuests_Quests = {
         name = "The Winds of Loch Modan",
         level = 18,
         requiredLevel = 15,
+    },
+    [27117] = {
+        name = "Brute Strength",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27144] = {
+        name = "The Reckoning",
+        level = 40,
+        requiredLevel = 38,
     },
     [27151] = {
         name = "Taelan Fordring's Legacy",
@@ -4271,6 +4396,11 @@ BtWQuests_Quests = {
     },
     [27205] = {
         name = "The Depravity of the Forsaken",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27206] = {
+        name = "Alas, Andorhal",
         level = 40,
         requiredLevel = 38,
     },
@@ -5104,6 +5234,11 @@ BtWQuests_Quests = {
         level = 23,
         requiredLevel = 21,
     },
+    [28508] = {
+        name = "The Battle for Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
     [28529] = {
         name = "Writings of the Void",
         level = 12,
@@ -5173,6 +5308,11 @@ BtWQuests_Quests = {
         name = "Warchief's Command: The Hinterlands!",
         level = 30,
         requiredLevel = 29,
+    },
+    [28575] = {
+        name = "Warchief's Command: Western Plaguelands!",
+        level = 35,
+        requiredLevel = 34,
     },
     [28576] = {
         name = "Hero's Call: Western Plaguelands!",
@@ -5300,6 +5440,11 @@ BtWQuests_Quests = {
         requiredLevel = 20,
     },
     [28749] = {
+        name = "The Battle for Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28750] = {
         name = "The Battle for Andorhal",
         level = 35,
         requiredLevel = 34,
@@ -16804,149 +16949,4 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
-	[27206] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Alas, Andorhal",
-	},
-	[26922] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Endless Flow",
-	},
-	[28750] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Battle for Andorhal",
-	},
-	[26923] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "War Machines",
-	},
-	[28508] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Battle for Andorhal",
-	},
-	[26920] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Battle for Andorhal",
-	},
-	[26921] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Scourge First... Alliance Later",
-	},
-	[28575] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Warchief's Command: Western Plaguelands!",
-	},
-	[26924] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Scholomancer",
-	},
-	[26925] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Araj the Summoner",
-	},
-	[27117] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Brute Strength",
-	},
-	[26930] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "After the Crusade",
-	},
-	[26934] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Latent Disease",
-	},
-	[26926] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Victory, For Now",
-	},
-	[26931] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Foxes and Hounds",
-	},
-	[26978] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Who Needs Cauldrons?",
-	},
-	[26933] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Foes Before Hoes",
-	},
-	[27086] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Ashes to Ashes",
-	},
-	[27090] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Andorhal, Once and For All",
-	},
-	[27083] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Battle Resumes!",
-	},
-	[26937] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "When Death is Not Enough",
-	},
-	[26979] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Strange New Faces",
-	},
-	[26938] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Combat Training",
-	},
-	[27144] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Reckoning",
-	},
-	[27085] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Supporting the Troops",
-	},
-	[27089] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Ace in the Hole",
-	},
-	[27087] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Lindsay Ravensun, Revealed",
-	},
-	[26936] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Lower the Boom",
-	},
-	[27084] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Farmers' Militia",
-	},
 }

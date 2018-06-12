@@ -3770,6 +3770,41 @@ BtWQuests_Quests = {
         level = 28,
         requiredLevel = 26,
     },
+    [26920] = {
+        name = "La battaglia per Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26921] = {
+        name = "Prima il Flagello, poi l'Alleanza",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26922] = {
+        name = "Il flusso infinito",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26923] = {
+        name = "Macchine da guerra",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26924] = {
+        name = "Il Signore di Scholomance",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26925] = {
+        name = "Araj l'Evocatore",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26926] = {
+        name = "Vittoria, almeno per ora",
+        level = 35,
+        requiredLevel = 34,
+    },
     [26927] = {
         name = "E all'improvviso giunsero i Murloc!",
         level = 14,
@@ -3785,13 +3820,48 @@ BtWQuests_Quests = {
         level = 15,
         requiredLevel = 12,
     },
+    [26930] = {
+        name = "Dopo la crociata",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26931] = {
+        name = "Volpi e Segugi",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26932] = {
         name = "Mangiatori di morte",
         level = 15,
         requiredLevel = 13,
     },
+    [26933] = {
+        name = "Prima il sangue, poi il piacere",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26934] = {
+        name = "Malattia latente",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26935] = {
         name = "La Segheria della Cresta Nord",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26936] = {
+        name = "Fare il botto",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26937] = {
+        name = "Quando la morte non basta",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26938] = {
+        name = "Addestramento al combattimento",
         level = 37,
         requiredLevel = 34,
     },
@@ -3839,6 +3909,16 @@ BtWQuests_Quests = {
         name = "L'avvento del Capoguerra",
         level = 11,
         requiredLevel = 9,
+    },
+    [26978] = {
+        name = "Chi ha bisogno di calderoni?",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26979] = {
+        name = "Facce nuove sospette",
+        level = 36,
+        requiredLevel = 34,
     },
     [26980] = {
         name = "Stazione di Ruotalesta",
@@ -4045,10 +4125,45 @@ BtWQuests_Quests = {
         level = 12,
         requiredLevel = 10,
     },
+    [27083] = {
+        name = "La battaglia continua!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27084] = {
+        name = "L'armata dei contadini",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27085] = {
+        name = "Aiutare le truppe",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27086] = {
+        name = "Cenere alla cenere",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27087] = {
+        name = "Lindsay Corvosole smascherata!",
+        level = 40,
+        requiredLevel = 38,
+    },
     [27088] = {
         name = "È velenoso solo se lo mangi",
         level = 12,
         requiredLevel = 10,
+    },
+    [27089] = {
+        name = "Un asso nella manica",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27090] = {
+        name = "Andorhal, una volta per tutte",
+        level = 40,
+        requiredLevel = 38,
     },
     [27093] = {
         name = "Persi nell'oscurità",
@@ -4094,6 +4209,16 @@ BtWQuests_Quests = {
         name = "I venti di Loch Modan",
         level = 18,
         requiredLevel = 15,
+    },
+    [27117] = {
+        name = "Forza bruta",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27144] = {
+        name = "La resa dei conti",
+        level = 40,
+        requiredLevel = 38,
     },
     [27151] = {
         name = "Il retaggio di Taelan Fordring",
@@ -4277,6 +4402,11 @@ BtWQuests_Quests = {
     },
     [27205] = {
         name = "La depravazione dei Reietti",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27206] = {
+        name = "Addio, Andorhal",
         level = 40,
         requiredLevel = 38,
     },
@@ -5110,6 +5240,11 @@ BtWQuests_Quests = {
         level = 23,
         requiredLevel = 21,
     },
+    [28508] = {
+        name = "La battaglia per Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
     [28529] = {
         name = "Scritti del Vuoto",
         level = 12,
@@ -5179,6 +5314,11 @@ BtWQuests_Quests = {
         name = "Ordine del Capoguerra: Entroterre!",
         level = 30,
         requiredLevel = 29,
+    },
+    [28575] = {
+        name = "Ordine del Capoguerra: Terre Infette Occidentali!",
+        level = 35,
+        requiredLevel = 34,
     },
     [28576] = {
         name = "Chiamata alle armi: Terre Infette Occidentali!",
@@ -5306,6 +5446,11 @@ BtWQuests_Quests = {
         requiredLevel = 20,
     },
     [28749] = {
+        name = "La battaglia per Andorhal",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28750] = {
         name = "La battaglia per Andorhal",
         level = 35,
         requiredLevel = 34,

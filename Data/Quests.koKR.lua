@@ -3770,6 +3770,41 @@ BtWQuests_Quests = {
         level = 28,
         requiredLevel = 26,
     },
+    [26920] = {
+        name = "안돌할 전투",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26921] = {
+        name = "얼라이언스보다는 스컬지를",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26922] = {
+        name = "끝없는 흐름",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26923] = {
+        name = "전쟁 기계",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26924] = {
+        name = "스칼로맨스의 지도자",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26925] = {
+        name = "소환사 아라즈",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [26926] = {
+        name = "짧은 승리감",
+        level = 35,
+        requiredLevel = 34,
+    },
     [26927] = {
         name = "갑자기 나타난 멀록들",
         level = 14,
@@ -3785,13 +3820,48 @@ BtWQuests_Quests = {
         level = 15,
         requiredLevel = 12,
     },
+    [26930] = {
+        name = "성스러운 전투 후에",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26931] = {
+        name = "여우와 사냥개",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26932] = {
         name = "대머리수리 처치",
         level = 15,
         requiredLevel = 13,
     },
+    [26933] = {
+        name = "농부이기 전에 적",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26934] = {
+        name = "잠복성 질병",
+        level = 36,
+        requiredLevel = 34,
+    },
     [26935] = {
         name = "북마루 벌목지",
+        level = 37,
+        requiredLevel = 34,
+    },
+    [26936] = {
+        name = "강력한 한 방",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26937] = {
+        name = "죽음만으로는 부족할 때",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26938] = {
+        name = "전투 훈련",
         level = 37,
         requiredLevel = 34,
     },
@@ -3839,6 +3909,16 @@ BtWQuests_Quests = {
         name = "대족장의 등장",
         level = 11,
         requiredLevel = 9,
+    },
+    [26978] = {
+        name = "가마솥 필요한 사람?",
+        level = 36,
+        requiredLevel = 34,
+    },
+    [26979] = {
+        name = "이상한 새 얼굴",
+        level = 36,
+        requiredLevel = 34,
     },
     [26980] = {
         name = "날쌘톱니 기지",
@@ -4045,10 +4125,45 @@ BtWQuests_Quests = {
         level = 12,
         requiredLevel = 10,
     },
+    [27083] = {
+        name = "전투 재개!",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27084] = {
+        name = "농부들의 민병대",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27085] = {
+        name = "아군 지원",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27086] = {
+        name = "재에서 재로",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27087] = {
+        name = "린제이 레이븐선의 정체",
+        level = 40,
+        requiredLevel = 38,
+    },
     [27088] = {
         name = "삼키면 독약",
         level = 12,
         requiredLevel = 10,
+    },
+    [27089] = {
+        name = "비장의 카드",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27090] = {
+        name = "안돌할이여, 영원히",
+        level = 40,
+        requiredLevel = 38,
     },
     [27093] = {
         name = "어둠 속에 길을 잃다",
@@ -4094,6 +4209,16 @@ BtWQuests_Quests = {
         name = "모단 호수의 바람",
         level = 18,
         requiredLevel = 15,
+    },
+    [27117] = {
+        name = "강대한 라베니안",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [27144] = {
+        name = "심판",
+        level = 40,
+        requiredLevel = 38,
     },
     [27151] = {
         name = "탤런 폴드링의 유물",
@@ -4277,6 +4402,11 @@ BtWQuests_Quests = {
     },
     [27205] = {
         name = "포세이큰의 타락",
+        level = 40,
+        requiredLevel = 38,
+    },
+    [27206] = {
+        name = "아, 안돌할이여",
         level = 40,
         requiredLevel = 38,
     },
@@ -5110,6 +5240,11 @@ BtWQuests_Quests = {
         level = 23,
         requiredLevel = 21,
     },
+    [28508] = {
+        name = "안돌할 전투",
+        level = 35,
+        requiredLevel = 34,
+    },
     [28529] = {
         name = "공허의 기록",
         level = 12,
@@ -5179,6 +5314,11 @@ BtWQuests_Quests = {
         name = "대족장의 명령: 동부 내륙지!",
         level = 30,
         requiredLevel = 29,
+    },
+    [28575] = {
+        name = "대족장의 명령: 서부 역병지대!",
+        level = 35,
+        requiredLevel = 34,
     },
     [28576] = {
         name = "영웅의 부름: 서부 역병지대!",
@@ -5306,6 +5446,11 @@ BtWQuests_Quests = {
         requiredLevel = 20,
     },
     [28749] = {
+        name = "안돌할 전투",
+        level = 35,
+        requiredLevel = 34,
+    },
+    [28750] = {
         name = "안돌할 전투",
         level = 35,
         requiredLevel = 34,
