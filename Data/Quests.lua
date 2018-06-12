@@ -457,6 +457,7 @@ BtWQuests_Quests = {
     [38286] = {
         name = "Eye of Azshara: Wrath of Azshara",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -743,6 +744,7 @@ BtWQuests_Quests = {
     [38532] = {
         name = "Maw of Souls: Hammered By The Storm",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1294,6 +1296,7 @@ BtWQuests_Quests = {
     [38961] = {
         name = "Eye of Azshara: The Depraved Nightfallen",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -1315,6 +1318,7 @@ BtWQuests_Quests = {
     [38965] = {
         name = "Assault on Violet Hold: Into the Hold",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1581,6 +1585,7 @@ BtWQuests_Quests = {
     [39331] = {
         name = "Eye of Azshara: Put a Cork in It",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 102,
         requiredLevel = 102,
     },
@@ -1602,6 +1607,7 @@ BtWQuests_Quests = {
     [39335] = {
         name = "Neltharion's Lair: Potent Powder",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -1633,6 +1639,7 @@ BtWQuests_Quests = {
     [39341] = {
         name = "Vault of the Wardens: Demon's Bile",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1644,6 +1651,7 @@ BtWQuests_Quests = {
     [39343] = {
         name = "Vault of the Wardens: Bendy Glass Tubes",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1670,24 +1678,28 @@ BtWQuests_Quests = {
     [39348] = {
         name = "Halls of Valor: The Prime Ingredient",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39349] = {
         name = "Black Rook Hold: Heavy, But Helpful",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39350] = {
         name = "Maw of Souls: A Hope in Helheim",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39351] = {
         name = "The Emerald Nightmare: Rage Fire",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -2174,6 +2186,7 @@ BtWQuests_Quests = {
     [39781] = {
         name = "Neltharion's Lair",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -2380,6 +2393,7 @@ BtWQuests_Quests = {
     [39882] = {
         name = "Darkheart Thicket: The Glamour Has Faded",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 104,
         requiredLevel = 104,
     },
@@ -2411,6 +2425,7 @@ BtWQuests_Quests = {
     [39904] = {
         name = "Halls of Valor: Revenge of the Enchantress",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -2457,6 +2472,7 @@ BtWQuests_Quests = {
     [39921] = {
         name = "Neltharion's Lair: Rod of Azure",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -2538,6 +2554,7 @@ BtWQuests_Quests = {
     [39953] = {
         name = "Halls of Valor: Vision of Valor",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -2729,6 +2746,7 @@ BtWQuests_Quests = {
     [40072] = {
         name = "Halls of Valor: Securing the Aegis",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -2940,6 +2958,7 @@ BtWQuests_Quests = {
     [40208] = {
         name = "Eye of Azshara: Scales of the Sea",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -3442,18 +3461,21 @@ BtWQuests_Quests = {
     [40559] = {
         name = "Black Rook Hold: The Raven's Wisdom",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40560] = {
         name = "Maw of Souls: Spiriting Away",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40561] = {
         name = "Halls of Valor: Jewel of the Heavens",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -3465,6 +3487,7 @@ BtWQuests_Quests = {
     [40567] = {
         name = "Darkheart Thicket: Enter the Nightmare",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -3541,6 +3564,7 @@ BtWQuests_Quests = {
     [40613] = {
         name = "Maw of Souls: Retrieving the Svalnguard",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3552,6 +3576,7 @@ BtWQuests_Quests = {
     [40615] = {
         name = "Halls of Valor: Odyn's Blessing",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3638,12 +3663,14 @@ BtWQuests_Quests = {
     [40668] = {
         name = "Eye of Azshara: The Heart of Zin-Azshari",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40672] = {
         name = "Neltharion's Lair: Presentation is Key",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3655,11 +3682,13 @@ BtWQuests_Quests = {
     [40675] = {
         name = "The Arcway: Rite of the Captain",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40678] = {
         name = "Twisted Power",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -3995,6 +4024,7 @@ BtWQuests_Quests = {
     [40878] = {
         name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -4016,6 +4046,7 @@ BtWQuests_Quests = {
     [40882] = {
         name = "Court of Stars: Revamping the Recoil",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -5547,6 +5578,7 @@ BtWQuests_Quests = {
     [42098] = {
         name = "Black Rook Hold: An Unclaimed Soul",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -6082,6 +6114,7 @@ BtWQuests_Quests = {
     [42432] = {
         name = "The Emerald Nightmare: The Emerald Nightmare",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -6208,12 +6241,14 @@ BtWQuests_Quests = {
     [42490] = {
         name = "The Arcway: Opening the Arcway",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
     [42491] = {
         name = "The Arcway: Long Buried Knowledge",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -6508,6 +6543,7 @@ BtWQuests_Quests = {
     [42654] = {
         name = "Darkheart Thicket: Nightmare Oak",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -6579,6 +6615,7 @@ BtWQuests_Quests = {
     [42678] = {
         name = "Black Rook Hold: Into Black Rook Hold",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7330,6 +7367,7 @@ BtWQuests_Quests = {
     [43253] = {
         name = "Maw of Souls: Ancient Vrykul Legends",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7416,6 +7454,7 @@ BtWQuests_Quests = {
     [43314] = {
         name = "Court of Stars: Beware the Fury of a Patient Elf",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -7482,6 +7521,7 @@ BtWQuests_Quests = {
     [43362] = {
         name = "The Emerald Nightmare: The Stuff of Dreams",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -7727,6 +7767,7 @@ BtWQuests_Quests = {
     },
     [43479] = {
         name = "The World is Not Enough",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -7743,6 +7784,7 @@ BtWQuests_Quests = {
     [43487] = {
         name = "Assault on Violet Hold: The Fel Lexicon",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -7774,6 +7816,7 @@ BtWQuests_Quests = {
     [43493] = {
         name = "Black Rook Hold: Lord Ravencrest",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7795,6 +7838,7 @@ BtWQuests_Quests = {
     [43506] = {
         name = "Black Rook Hold: Greater Power",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7811,6 +7855,7 @@ BtWQuests_Quests = {
     [43517] = {
         name = "Darkheart Thicket: Fallen Power",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7827,12 +7872,14 @@ BtWQuests_Quests = {
     [43520] = {
         name = "The Emerald Nightmare: In Nightmares",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43521] = {
         name = "Essence of Power",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -7849,12 +7896,14 @@ BtWQuests_Quests = {
     [43524] = {
         name = "Court of Stars: Literary Perfection",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [43525] = {
         name = "Vault of the Wardens: Borrowing Without Asking",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7876,18 +7925,21 @@ BtWQuests_Quests = {
     [43530] = {
         name = "The Nighthold: Delusions of Grandeur",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43531] = {
         name = "Into the Nighthold",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43532] = {
         name = "The Nighthold: Darkness Calls",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -7959,12 +8011,14 @@ BtWQuests_Quests = {
     [43571] = {
         name = "Neltharion's Lair: Braid of the Underking",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [43572] = {
         name = "Darkheart Thicket: The Nightmare Lash",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -8226,24 +8280,28 @@ BtWQuests_Quests = {
     [44074] = {
         name = "Neltharion's Lair: Essence of Tenacity",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44075] = {
         name = "Halls of Valor: Essence of Ferocity",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44076] = {
         name = "Darkheart Thicket: Essence of Regrowth",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44077] = {
         name = "Eye of Azshara: Essence of Balance",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -9044,12 +9102,14 @@ BtWQuests_Quests = {
     [45175] = {
         name = "Soul Prism of the Illidari",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [45176] = {
         name = "Trial of Valor: The Once and Future Lord of Shadows",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -9261,6 +9321,7 @@ BtWQuests_Quests = {
     [45372] = {
         name = "Fate of the Nightborne",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -9322,6 +9383,7 @@ BtWQuests_Quests = {
     [45417] = {
         name = "The Nighthold: Lord of the Shadow Council",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -10823,6 +10885,7 @@ BtWQuests_Quests = {
     [47654] = {
         name = "Seat of the Triumvirate: The Crest of Knowledge",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },

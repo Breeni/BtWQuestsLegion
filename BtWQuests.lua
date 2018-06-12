@@ -1722,9 +1722,9 @@ function BtWQuests_DisplayChain(scrollTo)
             itemButton.name:SetAlpha(1)
             itemButton.ForgottenAnim:Stop()
             
-            if ( tagID ) then
+            if tagID then
                 local tagCoords = QUEST_TAG_TCOORDS[tagID];
-                if( tagCoords ) then
+                if tagCoords then
                     itemButton.TagTexture:SetTexCoord( unpack(tagCoords) );
                     itemButton.TagTexture:Show();
             
