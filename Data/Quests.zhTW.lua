@@ -463,6 +463,7 @@ BtWQuests_Quests = {
     [38286] = {
         name = "艾薩拉之眼：艾薩拉之怒",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -749,6 +750,7 @@ BtWQuests_Quests = {
     [38532] = {
         name = "靈魂之喉：飽受風吹雨打",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1300,6 +1302,7 @@ BtWQuests_Quests = {
     [38961] = {
         name = "艾薩拉之眼：邪惡夜落",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -1321,6 +1324,7 @@ BtWQuests_Quests = {
     [38965] = {
         name = "紫羅蘭堡之襲：進入堡壘",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1587,6 +1591,7 @@ BtWQuests_Quests = {
     [39331] = {
         name = "艾薩拉之眼：塞進木栓",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 102,
         requiredLevel = 102,
     },
@@ -1608,6 +1613,7 @@ BtWQuests_Quests = {
     [39335] = {
         name = "奈薩里奧巢穴：強力粉末",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -1639,6 +1645,7 @@ BtWQuests_Quests = {
     [39341] = {
         name = "看守者鐵獄：惡魔的膽汁",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1650,6 +1657,7 @@ BtWQuests_Quests = {
     [39343] = {
         name = "看守者鐵獄：曲狀玻璃試管",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1676,24 +1684,28 @@ BtWQuests_Quests = {
     [39348] = {
         name = "英靈殿：主原料",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39349] = {
         name = "玄鴉堡：沉重但實用",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39350] = {
         name = "靈魂之喉：黑爾海姆的希望",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39351] = {
         name = "翡翠夢魘：怒火",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -2180,6 +2192,7 @@ BtWQuests_Quests = {
     [39781] = {
         name = "奈薩里奧巢穴",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -2386,6 +2399,7 @@ BtWQuests_Quests = {
     [39882] = {
         name = "暗心灌木林：光芒散盡",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 104,
         requiredLevel = 104,
     },
@@ -2417,6 +2431,7 @@ BtWQuests_Quests = {
     [39904] = {
         name = "英靈殿：女附魔師的復仇",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -2463,6 +2478,7 @@ BtWQuests_Quests = {
     [39921] = {
         name = "奈薩里奧巢穴：青色之杖",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -2544,6 +2560,7 @@ BtWQuests_Quests = {
     [39953] = {
         name = "英靈殿：勇者預言",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -2735,6 +2752,7 @@ BtWQuests_Quests = {
     [40072] = {
         name = "英靈殿：取得神盾",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -2946,6 +2964,7 @@ BtWQuests_Quests = {
     [40208] = {
         name = "艾薩拉之眼：海洋鱗片",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -3448,18 +3467,21 @@ BtWQuests_Quests = {
     [40559] = {
         name = "玄鴉堡：烏鴉的睿智",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40560] = {
         name = "靈魂之喉：靈魂出竅",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40561] = {
         name = "英靈殿：天堂的珠寶",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -3471,6 +3493,7 @@ BtWQuests_Quests = {
     [40567] = {
         name = "暗心灌木林：進入夢魘",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -3547,6 +3570,7 @@ BtWQuests_Quests = {
     [40613] = {
         name = "靈魂之喉：取回斯瓦神盾",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3558,6 +3582,7 @@ BtWQuests_Quests = {
     [40615] = {
         name = "英靈殿：歐丁的祝福",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3644,12 +3669,14 @@ BtWQuests_Quests = {
     [40668] = {
         name = "艾薩拉之眼：辛艾薩拉之心",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40672] = {
         name = "奈薩里奧巢穴：擺盤才是關鍵",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3661,11 +3688,13 @@ BtWQuests_Quests = {
     [40675] = {
         name = "幽暗地道：隊長的儀式",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40678] = {
         name = "扭曲的力量",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -4001,6 +4030,7 @@ BtWQuests_Quests = {
     [40878] = {
         name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -4022,6 +4052,7 @@ BtWQuests_Quests = {
     [40882] = {
         name = "眾星之廷：改善後座力",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -5553,6 +5584,7 @@ BtWQuests_Quests = {
     [42098] = {
         name = "玄鴉堡：無主靈魂",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -6088,6 +6120,7 @@ BtWQuests_Quests = {
     [42432] = {
         name = "翡翠夢魘：翡翠夢魘",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -6214,12 +6247,14 @@ BtWQuests_Quests = {
     [42490] = {
         name = "幽暗地道：開啟幽暗地道",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
     [42491] = {
         name = "幽暗地道：埋藏已久的資訊",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -6514,6 +6549,7 @@ BtWQuests_Quests = {
     [42654] = {
         name = "暗心灌木林：夢魘橡木",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -6585,6 +6621,7 @@ BtWQuests_Quests = {
     [42678] = {
         name = "玄鴉堡：進入玄鴉堡",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7336,6 +7373,7 @@ BtWQuests_Quests = {
     [43253] = {
         name = "靈魂之喉：古老的維酷傳說",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7422,6 +7460,7 @@ BtWQuests_Quests = {
     [43314] = {
         name = "眾星之廷：不是不報，時機未到",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -7488,6 +7527,7 @@ BtWQuests_Quests = {
     [43362] = {
         name = "翡翠夢魘：幻夢沃土",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -7733,6 +7773,7 @@ BtWQuests_Quests = {
     },
     [43479] = {
         name = "縱橫天下",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -7749,6 +7790,7 @@ BtWQuests_Quests = {
     [43487] = {
         name = "紫羅蘭堡之襲：魔化詞典",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -7780,6 +7822,7 @@ BtWQuests_Quests = {
     [43493] = {
         name = "玄鴉堡：黑羽堡主",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7801,6 +7844,7 @@ BtWQuests_Quests = {
     [43506] = {
         name = "玄鴉堡：更強的力量",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7817,6 +7861,7 @@ BtWQuests_Quests = {
     [43517] = {
         name = "暗心灌木林：墮落的力量",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7833,12 +7878,14 @@ BtWQuests_Quests = {
     [43520] = {
         name = "翡翠夢魘：夢魘之中",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43521] = {
         name = "力量精華",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -7855,12 +7902,14 @@ BtWQuests_Quests = {
     [43524] = {
         name = "眾星之廷：文意圓滿",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [43525] = {
         name = "看守者鐵獄：不告而取",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7882,18 +7931,21 @@ BtWQuests_Quests = {
     [43530] = {
         name = "暗夜堡：妄自尊大",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43531] = {
         name = "進入暗夜堡",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43532] = {
         name = "暗夜堡：黑暗呼喚",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -7965,12 +8017,14 @@ BtWQuests_Quests = {
     [43571] = {
         name = "奈薩里奧巢穴：地底之王髮辮",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [43572] = {
         name = "暗心灌木林：夢魘之鞭",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -8232,24 +8286,28 @@ BtWQuests_Quests = {
     [44074] = {
         name = "奈薩里奧巢穴：堅毅精華",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44075] = {
         name = "英靈殿：殘暴精華",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44076] = {
         name = "暗心灌木林：癒合精華",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44077] = {
         name = "艾薩拉之眼：平衡精華",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -9050,12 +9108,14 @@ BtWQuests_Quests = {
     [45175] = {
         name = "伊利達瑞的靈魂稜石",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [45176] = {
         name = "勇氣試煉：過往與來日的暗影之王",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -9267,6 +9327,7 @@ BtWQuests_Quests = {
     [45372] = {
         name = "夜裔的命運",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -9328,6 +9389,7 @@ BtWQuests_Quests = {
     [45417] = {
         name = "暗夜堡：暗影議會領袖",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -10829,6 +10891,7 @@ BtWQuests_Quests = {
     [47654] = {
         name = "三傑議會之座：知識之冠",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },

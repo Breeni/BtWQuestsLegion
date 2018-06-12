@@ -463,6 +463,7 @@ BtWQuests_Quests = {
     [38286] = {
         name = "Ojo de Azshara: Cólera de Azshara",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -749,6 +750,7 @@ BtWQuests_Quests = {
     [38532] = {
         name = "Fauces de almas: El martillo de la tormenta",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1300,6 +1302,7 @@ BtWQuests_Quests = {
     [38961] = {
         name = "Ojo de Azshara: El depravado Caído de la Noche",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -1321,6 +1324,7 @@ BtWQuests_Quests = {
     [38965] = {
         name = "Ataque al Bastión Violeta: Al bastión",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1587,6 +1591,7 @@ BtWQuests_Quests = {
     [39331] = {
         name = "Ojo de Azshara: Ponle un corcho",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 102,
         requiredLevel = 102,
     },
@@ -1608,6 +1613,7 @@ BtWQuests_Quests = {
     [39335] = {
         name = "Guarida de Neltharion: Pólvora potente",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -1639,6 +1645,7 @@ BtWQuests_Quests = {
     [39341] = {
         name = "Bóveda de las Celadoras: Mordedura de demonio",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1650,6 +1657,7 @@ BtWQuests_Quests = {
     [39343] = {
         name = "Bóveda de las Celadoras: Tubos de vidrio flexibles",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -1676,24 +1684,28 @@ BtWQuests_Quests = {
     [39348] = {
         name = "Salones del Valor: El ingrediente principal",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39349] = {
         name = "Fuerte Torre Oscura: Pesado, pero útil",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39350] = {
         name = "Fauces de almas: Una esperanza en Helheim",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39351] = {
         name = "La Pesadilla Esmeralda: Fuego de ira",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -2180,6 +2192,7 @@ BtWQuests_Quests = {
     [39781] = {
         name = "La Guarida de Neltharion",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -2386,6 +2399,7 @@ BtWQuests_Quests = {
     [39882] = {
         name = "Matorral Corazón Oscuro: El encanto se acabó",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 104,
         requiredLevel = 104,
     },
@@ -2417,6 +2431,7 @@ BtWQuests_Quests = {
     [39904] = {
         name = "Salones del Valor: La venganza de la encantadora",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -2463,6 +2478,7 @@ BtWQuests_Quests = {
     [39921] = {
         name = "Guarida de Neltharion: Vara de azur",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -2544,6 +2560,7 @@ BtWQuests_Quests = {
     [39953] = {
         name = "Salones del Valor: Visión de valor",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -2735,6 +2752,7 @@ BtWQuests_Quests = {
     [40072] = {
         name = "Cámaras del Valor: Conseguir la Égida",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -2946,6 +2964,7 @@ BtWQuests_Quests = {
     [40208] = {
         name = "Ojo de Azshara: Escamas del mar",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -3448,18 +3467,21 @@ BtWQuests_Quests = {
     [40559] = {
         name = "Fuerte Torre Oscura: La sabiduría del cuervo",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40560] = {
         name = "Fauces de almas: El secuestro",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40561] = {
         name = "Salones del Valor: Joya de los cielos",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -3471,6 +3493,7 @@ BtWQuests_Quests = {
     [40567] = {
         name = "Arboleda Corazón Oscuro: Entrar en la Pesadilla",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -3547,6 +3570,7 @@ BtWQuests_Quests = {
     [40613] = {
         name = "Fauce de Almas: Recuperar el Guardián de Svaln",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3558,6 +3582,7 @@ BtWQuests_Quests = {
     [40615] = {
         name = "Cámaras del Valor: Bendición de Odyn",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3644,12 +3669,14 @@ BtWQuests_Quests = {
     [40668] = {
         name = "Ojo de Azshara: El corazón de Zin-Azshari",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40672] = {
         name = "Guarida de Neltharion: La clave está en la presentación",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -3661,11 +3688,13 @@ BtWQuests_Quests = {
     [40675] = {
         name = "La Arquería: El rito del capitán",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40678] = {
         name = "Poder alterado",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -4001,6 +4030,7 @@ BtWQuests_Quests = {
     [40878] = {
         name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -4022,6 +4052,7 @@ BtWQuests_Quests = {
     [40882] = {
         name = "Corte de Estrellas: Retroceso renovado",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -5553,6 +5584,7 @@ BtWQuests_Quests = {
     [42098] = {
         name = "Torreón Grajo Negro: Un alma sin reclamar",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -6088,6 +6120,7 @@ BtWQuests_Quests = {
     [42432] = {
         name = "Pesadilla Esmeralda: La Pesadilla Esmeralda",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -6214,12 +6247,14 @@ BtWQuests_Quests = {
     [42490] = {
         name = "La Arquería: Abrir La Arquería",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
     [42491] = {
         name = "La Arquería: Conocimientos sepultados hace mucho",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -6514,6 +6549,7 @@ BtWQuests_Quests = {
     [42654] = {
         name = "Arboleda Corazón Oscuro: Roble de la Pesadilla",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -6585,6 +6621,7 @@ BtWQuests_Quests = {
     [42678] = {
         name = "Torreón Grajo Negro: Hacia el Torreón Grajo Negro",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7336,6 +7373,7 @@ BtWQuests_Quests = {
     [43253] = {
         name = "Fauce de Almas: Antiguas leyendas vrykuls",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7422,6 +7460,7 @@ BtWQuests_Quests = {
     [43314] = {
         name = "Corte de las Estrellas: Cuidado con la furia de los elfos pacientes",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -7488,6 +7527,7 @@ BtWQuests_Quests = {
     [43362] = {
         name = "Pesadilla Esmeralda: Ensoñaciones",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -7733,6 +7773,7 @@ BtWQuests_Quests = {
     },
     [43479] = {
         name = "El mundo no es suficiente",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -7749,6 +7790,7 @@ BtWQuests_Quests = {
     [43487] = {
         name = "Asalto al Bastión Violeta: El Lexicón vil",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -7780,6 +7822,7 @@ BtWQuests_Quests = {
     [43493] = {
         name = "Torreón Grajo Negro: Lord Cresta Cuervo",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7801,6 +7844,7 @@ BtWQuests_Quests = {
     [43506] = {
         name = "Torreón Grajo Negro: Un poder mayor",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7817,6 +7861,7 @@ BtWQuests_Quests = {
     [43517] = {
         name = "Arboleda Corazón Oscuro: Poder caído",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7833,12 +7878,14 @@ BtWQuests_Quests = {
     [43520] = {
         name = "Pesadilla Esmeralda: En pesadillas",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43521] = {
         name = "Esencia de poder",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -7855,12 +7902,14 @@ BtWQuests_Quests = {
     [43524] = {
         name = "Corte de las Estrellas: Perfección literaria",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [43525] = {
         name = "Cámara de las Celadoras: Tomar prestado sin permiso",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -7882,18 +7931,21 @@ BtWQuests_Quests = {
     [43530] = {
         name = "El Bastión Nocturno: Delirios de grandeza",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43531] = {
         name = "Hacia el Bastión Nocturno",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43532] = {
         name = "El Bastión Nocturno: Llamada de la oscuridad",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -7965,12 +8017,14 @@ BtWQuests_Quests = {
     [43571] = {
         name = "Guarida de Neltharion: Trenza del Infrarrey",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [43572] = {
         name = "Arboleda Corazón Oscuro: El látigo de la Pesadilla",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -8232,24 +8286,28 @@ BtWQuests_Quests = {
     [44074] = {
         name = "Guarida de Neltharion: Esencia de tenacidad",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44075] = {
         name = "Cámaras del Valor: Esencia de ferocidad",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44076] = {
         name = "Arboleda Corazón Oscuro: Esencia de recrecimiento",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44077] = {
         name = "Ojo de Azshara: Esencia de equilibrio",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -9050,12 +9108,14 @@ BtWQuests_Quests = {
     [45175] = {
         name = "Prisma de almas de los Illidari",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [45176] = {
         name = "Prueba del Valor: El pasado y futuro Señor de las Sombras",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -9267,6 +9327,7 @@ BtWQuests_Quests = {
     [45372] = {
         name = "El destino de los Nocheterna",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -9328,6 +9389,7 @@ BtWQuests_Quests = {
     [45417] = {
         name = "El Bastión Nocturno: Señor del Consejo de la Sombra",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -10829,6 +10891,7 @@ BtWQuests_Quests = {
     [47654] = {
         name = "Trono del Triunvirato: La Cimera del Conocimiento",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
