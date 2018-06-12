@@ -1356,6 +1356,14 @@ function BtWQuests_ShowMapWithWaypoint(mapId, level, x, y, name)
     end
 end
 
+local function ChainItemPool_HideAndClearAnchors(framePool, frame)
+    FramePool_HideAndClearAnchors(framePool, frame)
+    
+    if frame.backgroundLinePool then
+        frame.backgroundLinePool:ReleaseAll();
+    end
+end
+
 tinsert(UISpecialFrames, "BtWQuests") 
 function BtWQuests_OnLoad(self)
     self:RegisterEvent("ADDON_LOADED")
@@ -1409,7 +1417,7 @@ function BtWQuests_OnLoad(self)
     NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
     
     self.categoryItemPool = CreateFramePool("BUTTON", self.QuestSelect.scroll.child, "BtWQuestsCategoryButtonTemplate");
-    self.chainItemPool = CreateFramePool("BUTTON", self.Chain.scroll.child, "BtWQuestsChainItemButtonTemplate");
+    self.chainItemPool = CreateFramePool("BUTTON", self.Chain.scroll.child, "BtWQuestsChainItemButtonTemplate", ChainItemPool_HideAndClearAnchors);
     
     self.HistoryIndex = 0
     self.History = {}
@@ -1670,6 +1678,7 @@ function BtWQuests_DisplayCurrentCategory(scrollTo)
 end
 
 function BtWQuests_DisplayCurrentChain(scrollTo)
+	BtWQuests.chainItemPool:ReleaseAll();
 	local chain = BtWQuests.Chain;
     
 	BtWQuests.QuestSelect:Hide();
@@ -1677,18 +1686,23 @@ function BtWQuests_DisplayCurrentChain(scrollTo)
     
     local scrollFrame = chain.scroll.child;
     local scrollToButton, scrollToButtonAside
+
+    scrollFrame.ItemButtons = {}
+    local buttons = scrollFrame.ItemButtons
     
     local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
     for index = numItems, 1, -1 do
         local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = BtWQuests_GetChainItemByIndex(index)
         local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
-        local itemButton = scrollFrame["item"..index];
-        if not itemButton then -- create button
-            itemButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."Item"..index, scrollFrame, "BtWQuestsChainItemButtonTemplate");
+        local itemButton = BtWQuests.chainItemPool:Acquire();
+        buttons[index] = itemButton
+        -- local itemButton = scrollFrame["item"..index];
+        -- if not itemButton then -- create button
+        --     itemButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."Item"..index, scrollFrame, "BtWQuestsChainItemButtonTemplate");
 
-            scrollFrame["item"..index] = itemButton;
-        end
+        --     scrollFrame["item"..index] = itemButton;
+        -- end
         
         itemButton.skip = skip
         if skip then
@@ -1737,7 +1751,7 @@ function BtWQuests_DisplayCurrentChain(scrollTo)
                 local isCompleted = false
                 for j=1,#connections do
                     local connection = index + connections[j]
-                    local connectionItem = scrollFrame["item"..connection]
+                    local connectionItem = buttons[connection]
                     if connectionItem and connectionItem:IsShown() then
                         if connectionItem.status ~= nil then
                             isCompleted = true
@@ -1769,7 +1783,7 @@ function BtWQuests_DisplayCurrentChain(scrollTo)
             if not breadcrumb then
                 for j=1,#connections do
                     local connection = index + connections[j]
-                    local connectionItem = scrollFrame["item"..connection]
+                    local connectionItem = buttons[connection]
                     if connectionItem and connectionItem:IsShown() then
                         
                         if connectionItem.canBeActive then
@@ -1802,14 +1816,14 @@ function BtWQuests_DisplayCurrentChain(scrollTo)
             
             
             if not itemButton.backgroundLinePool then
-                itemButton.backgroundLinePool = CreateFramePool("FRAME", scrollFrame, "BtWQuestsLineTemplate", OnRelease);
+                itemButton.backgroundLinePool = CreateFramePool("FRAME", scrollFrame, "BtWQuestsLineTemplate");
             end
             
             itemButton.backgroundLinePool:ReleaseAll();
             
             for j=1,#connections do
                 local connection = index + connections[j]
-                local connectionItem = scrollFrame["item"..connection]
+                local connectionItem = buttons[connection]
                 
                 if connectionItem and not connectionItem.skip then
                     local lineContainer = itemButton.backgroundLinePool:Acquire();
@@ -1852,26 +1866,26 @@ function BtWQuests_DisplayCurrentChain(scrollTo)
         end
     end
     
-    local index = numItems + 1
-    itemButton = scrollFrame["item"..index];
-    while itemButton do
-        itemButton:Hide()
+    -- local index = numItems + 1
+    -- itemButton = scrollFrame["item"..index];
+    -- while itemButton do
+    --     itemButton:Hide()
         
-        if itemButton.backgroundLinePool then
-            itemButton.backgroundLinePool:ReleaseAll();
-        end
+    --     if itemButton.backgroundLinePool then
+    --         itemButton.backgroundLinePool:ReleaseAll();
+    --     end
         
-		index = index + 1;
-        itemButton = scrollFrame["item"..index];
-    end
+	-- 	index = index + 1;
+    --     itemButton = scrollFrame["item"..index];
+    -- end
     
     local temp = numItems
-    while temp > 0 and not scrollFrame["item"..temp]:IsShown() do
+    while temp > 0 and not buttons[temp]:IsShown() do
         temp = temp - 1
     end
-    
+
     if temp > 0 then
-        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
+        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, buttons[temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     end
 
     if type(scrollTo) == "table" and scrollTo.type == "coords" then
@@ -1885,11 +1899,11 @@ function BtWQuests_DisplayCurrentChain(scrollTo)
         
         if scrollToButton == nil then
             temp = 1
-            while scrollFrame["item"..temp] and not scrollFrame["item"..temp]:IsShown() do
+            while buttons[temp] and not buttons[temp]:IsShown() do
                 temp = temp + 1
             end
             
-            scrollToButton = scrollFrame["item"..temp]
+            scrollToButton = buttons[temp]
         end
         
         if scrollToButton then
@@ -1904,6 +1918,8 @@ function BtWQuests_UpdateCurrentChain(scroll)
     
     if chain:IsShown() then
         local scrollFrame = chain.scroll.child;
+        local buttons = scrollFrame.ItemButtons
+        
         local scrollToButton, scrollToButtonAside
         
         local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
@@ -1911,7 +1927,7 @@ function BtWQuests_UpdateCurrentChain(scroll)
             local skip, _, visible, _, _, _, breadcrumb, aside, _, _, status, _, _, _, _ = BtWQuests_GetChainItemByIndex(index)
             local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
-			local itemButton = scrollFrame["item"..index];
+			local itemButton = buttons[index];
             if not skip then
                 itemButton.newStatus = status
             
@@ -1919,7 +1935,7 @@ function BtWQuests_UpdateCurrentChain(scroll)
                     local isCompleted = false
                     for j=1,#connections do
                         local connection = index + connections[j]
-                        local connectionItem = scrollFrame["item"..connection]
+                        local connectionItem = buttons[connection]
                         if connectionItem and connectionItem:IsShown() then
                             if connectionItem.status ~= nil then
                                 isCompleted = true
@@ -1946,7 +1962,7 @@ function BtWQuests_UpdateCurrentChain(scroll)
                 if not breadcrumb then
                     for j=1,#connections do
                         local connection = index + connections[j]
-                        local connectionItem = scrollFrame["item"..connection]
+                        local connectionItem = buttons[connection]
                         if connectionItem and connectionItem:IsShown() then
                             
                             if connectionItem.canBeActive then

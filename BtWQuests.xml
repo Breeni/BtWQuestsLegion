@@ -273,7 +273,7 @@
 		</Scripts>
 	</Button>
     
-	<Button name="BtWQuestsChainItemButtonTemplate" hidden="true" parentArray="QuestButtons" virtual="true">
+	<Button name="BtWQuestsChainItemButtonTemplate" hidden="true" virtual="true">
 		<Size x="174" y="48"/>
 		<Layers>
 			<Layer level="BACKGROUND">
