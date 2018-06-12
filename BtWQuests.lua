@@ -550,7 +550,7 @@ BtWQuests_GetItemName = function (item)
 
         return item.id
     else
-        assert(item.type ~= nil, "Invalid item type: " .. item.type)
+        assert(item.type == nil, "Invalid item type: " .. tostring(item.type))
         return "Unnamed"
     end
 end
@@ -2219,7 +2219,7 @@ function BtWQuestsTooltip_SetChain(chainID)
     local actualNumPrerequisites = numPrerequisites
     local i = 1
 	for index = 1, numPrerequisites do
-		local name, visible, skip, completed = BtWQuests_GetChainPrerequisiteByID(chainID, index);
+        local name, visible, skip, completed = BtWQuests_GetChainPrerequisiteByID(chainID, index);
         if not visible or skip then
             actualNumPrerequisites = actualNumPrerequisites - 1
         else
