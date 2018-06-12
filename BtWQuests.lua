@@ -49,7 +49,10 @@ local BTWQUESTS_PROFESSION_MAP = {
 	[794] = BTWQUESTS_PROFESSION_ARCHAEOLOGY,
 };
 
-local BTWQUESTS_NUM_ITEMS_PER_ROW = 4;
+local BTWQUESTS_CATEGORY_ITEM_WIDTH = 174
+local BTWQUESTS_CATEGORY_ITEM_HEIGHT = 96
+local BTWQUESTS_CATEGORY_ITEM_PADDING = 12
+local BTWQUESTS_CATEGORY_NUM_ITEMS_PER_ROW = 4;
 
 local BtWQuests_CharactersMap = {}
 local BtWQuests_Character = nil -- Current Character
@@ -84,7 +87,7 @@ function BtWQuests_SetCurrentExpansion(value)
     BtWQuests_CurrentChain = nil
 end
 
-function BtWQuests_SelectExpansion(id)
+function BtWQuests_SelectExpansion(id, scrollTo)
     BtWQuestsNav_UpdateCurrentHistory()
     
     local id = tonumber(id)
@@ -98,8 +101,7 @@ function BtWQuests_SelectExpansion(id)
 	questSelect.bg:SetTexture(tierData.backgroundTexture);
 	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
 
-    BtWQuests:Show()
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory(scrollTo)
 
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -119,7 +121,7 @@ function BtWQuests_SetCurrentCategory(categoryID)
     end
 end
 
-function BtWQuests_SelectCategory(id)
+function BtWQuests_SelectCategory(id, scrollTo)
     BtWQuestsNav_UpdateCurrentHistory()
     
     local id = tonumber(id)
@@ -134,8 +136,7 @@ function BtWQuests_SelectCategory(id)
 	questSelect.bg:SetTexture(tierData.backgroundTexture);
 	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
 
-    BtWQuests:Show()
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory(scrollTo)
 
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -164,8 +165,7 @@ function BtWQuests_SelectChain(id, scrollTo)
 	questSelect.bg:SetTexture(tierData.backgroundTexture);
 	UIDropDownMenu_SetText(questSelect.ExpansionDropDown, BtWQuests_GetExpansionInfo(BtWQuests_GetCurrentExpansion()));
 
-    BtWQuests:Show()
-    BtWQuests_DisplayChain(scrollTo)
+    BtWQuests_DisplayCurrentChain(scrollTo)
     
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -738,7 +738,7 @@ local function BtWQuests_GetCategoryItem(item)
                 BtWQuestsNav_AddChainButton(self.id, self.userdata.name)
 
                 BtWQuests_SetCurrentChain(self.id)
-                BtWQuests_DisplayChain()
+                BtWQuests_DisplayCurrentChain()
                 
                 BtWQuestsNav_AddCurrentToHistory()
                 
@@ -746,8 +746,9 @@ local function BtWQuests_GetCategoryItem(item)
             end
         end
         onEnter = onEnter or function (self)
-            BtWQuestsTooltip_AnchorTo(self)
-            BtWQuestsTooltip_SetChain(self.id)
+            BtWQuestsTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT")
+            BtWQuestsTooltip:SetOwner(self, "ANCHOR_PRESERVE");
+            BtWQuestsTooltip:SetChain(self.id)
         end
         onLeave = onLeave or function (self)
             BtWQuestsTooltip:Hide();
@@ -776,7 +777,7 @@ local function BtWQuests_GetCategoryItem(item)
                 BtWQuestsNav_AddCategoryButton(self.id, self.userdata.name)
                 
                 BtWQuests_SetCurrentCategory(self.id)
-                BtWQuests_ListCategories()
+                BtWQuests_DisplayCurrentCategory()
                 
                 BtWQuestsNav_AddCurrentToHistory()
                 
@@ -1075,12 +1076,12 @@ function BtWQuests_EvalChainItem(item)
                 BtWQuestsTooltip:Hide();
             end
             onEnter = onEnter or function (self)
-                BtWQuestsTooltip_AnchorTo(self)
-                BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
+                BtWQuestsTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT")
+                BtWQuestsTooltip:SetOwner(self, "ANCHOR_PRESERVE");
+                BtWQuestsTooltip:SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
             end
             onLeave = onLeave or function (self)
-                BtWQuestsTooltip:Hide();
-                GameTooltip:Hide()
+                BtWQuestsTooltip:Hide()
             end
         end
         
@@ -1145,12 +1146,12 @@ function BtWQuests_EvalChainItem(item)
             end
         end
         onEnter = onEnter or function (self)
-            BtWQuestsTooltip_AnchorTo(self)
-            BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
+            BtWQuestsTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT")
+            BtWQuestsTooltip:SetOwner(self, "ANCHOR_PRESERVE");
+            BtWQuestsTooltip:SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
         end
         onLeave = onLeave or function (self)
             BtWQuestsTooltip:Hide();
-            GameTooltip:Hide()
         end
         
         userdata.link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(chain.name, chain))
@@ -1186,12 +1187,12 @@ function BtWQuests_EvalChainItem(item)
             end
         end
         onEnter = onEnter or function (self)
-            BtWQuestsTooltip_AnchorTo(self)
-            BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
+            BtWQuestsTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT")
+            BtWQuestsTooltip:SetOwner(self, "ANCHOR_PRESERVE");
+            BtWQuestsTooltip:SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
         end
         onLeave = onLeave or function (self)
             BtWQuestsTooltip:Hide();
-            GameTooltip:Hide()
         end
         
         userdata.link = format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(category.name, category))
@@ -1369,6 +1370,14 @@ function BtWQuests_ShowMapWithWaypoint(mapId, level, x, y, name)
     end
 end
 
+local function ChainItemPool_HideAndClearAnchors(framePool, frame)
+    FramePool_HideAndClearAnchors(framePool, frame)
+    
+    if frame.backgroundLinePool then
+        frame.backgroundLinePool:ReleaseAll();
+    end
+end
+
 tinsert(UISpecialFrames, "BtWQuests") 
 function BtWQuests_OnLoad(self)
     self:RegisterEvent("ADDON_LOADED")
@@ -1414,14 +1423,15 @@ function BtWQuests_OnLoad(self)
     
 			BtWQuests_SetCurrentCategory(nil)
             
-            BtWQuests_ListCategories()
+            BtWQuests_DisplayCurrentCategory()
 
             BtWQuestsNav_AddCurrentToHistory()
 		end,
 	}
     NavBar_Initialize(self.navBar, "NavButtonTemplate", homeData, self.navBar.home, self.navBar.overflow);
     
-    -- BtWQuests_ListCategories()
+    self.categoryItemPool = CreateFramePool("BUTTON", self.QuestSelect.scroll.child, "BtWQuestsCategoryButtonTemplate");
+    self.chainItemPool = CreateFramePool("BUTTON", self.Chain.scroll.child, "BtWQuestsChainItemButtonTemplate", ChainItemPool_HideAndClearAnchors);
     
     self.HistoryIndex = 0
     self.History = {}
@@ -1564,9 +1574,9 @@ function BtWQuests_OnShow(self)
     BtWQuestsNav_UpdateHere()
     
     if BtWQuests.Chain:IsShown() then
-        BtWQuests_UpdateChain()
+        BtWQuests_UpdateCurrentChain()
     else
-        BtWQuests_ListCategories()
+        BtWQuests_DisplayCurrentCategory()
     end
 end
 
@@ -1591,7 +1601,7 @@ function BtWQuestsChainFrame_OnHide(self)
 end
 
 function BtWQuestsChainFrame_OnEvent(self, ...)
-    BtWQuests_UpdateChain()
+    BtWQuests_UpdateCurrentChain()
 end
 
 function BtWQuestsChainFrameScrollFrame_OnUpdate(self)
@@ -1611,25 +1621,11 @@ end
 function BtWQuests_ZoomOut()
     BtWQuestsNav_Back()
     
-    -- if #BtWQuests.navBar.navList == 1 then
-        -- return
-    -- end
-    
-    -- local parent = BtWQuests.navBar.navList[#BtWQuests.navBar.navList-1].data.id
-    -- if parent then
-        -- NavBar_OpenTo(BtWQuests.navBar, parent)
-        -- BtWQuests_SetCurrentCategory(parent)
-    -- else
-        -- NavBar_Reset(BtWQuests.navBar)
-        -- BtWQuests_SetCurrentCategory(nil)
-    -- end
-    
     BtWQuestsTooltip:Hide();
-
-    -- BtWQuests_ListCategories()
 end
 
-function BtWQuests_ListCategories(scrollTo)
+function BtWQuests_DisplayCurrentCategory(scrollTo)
+	BtWQuests.categoryItemPool:ReleaseAll();
 	local questSelect = BtWQuests.QuestSelect;
     
 	BtWQuests.Chain:Hide();
@@ -1638,21 +1634,19 @@ function BtWQuests_ListCategories(scrollTo)
 	local scrollFrame = questSelect.scroll.child;
     local scrollToButton
     
+    local startX = 12
+    local startY = -10
 	local i = 1;
 	local index = 1;
-	local itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
-	while id do
+    local itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
+    while id do
         if not hidden then
-            local categoryButton = scrollFrame["category"..index];
-            if not categoryButton then -- create button
-                categoryButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."category"..index, scrollFrame, "BtWQuestsCategoryButtonTemplate");
-                scrollFrame["category"..index] = categoryButton;
-                if mod(index-1, BTWQUESTS_NUM_ITEMS_PER_ROW) == 0 then
-                    categoryButton:SetPoint("TOP", scrollFrame["category"..(index-BTWQUESTS_NUM_ITEMS_PER_ROW)], "BOTTOM", 0, -15);
-                else
-                    categoryButton:SetPoint("LEFT", scrollFrame["category"..(index-1)], "RIGHT", 15, 0);
-                end
-            end
+            local categoryButton = BtWQuests.categoryItemPool:Acquire();
+
+            local x = startX + mod(index - 1, BTWQUESTS_CATEGORY_NUM_ITEMS_PER_ROW) * (BTWQUESTS_CATEGORY_ITEM_WIDTH + BTWQUESTS_CATEGORY_ITEM_PADDING)
+            local y = startY - floor((index - 1) / BTWQUESTS_CATEGORY_NUM_ITEMS_PER_ROW) * (BTWQUESTS_CATEGORY_ITEM_HEIGHT + BTWQUESTS_CATEGORY_ITEM_PADDING)
+            
+            categoryButton:SetPoint("TOPLEFT", x,  y);
 
             categoryButton.name:SetText(name);
             categoryButton.bgImage:SetTexture(buttonImage);
@@ -1684,14 +1678,6 @@ function BtWQuests_ListCategories(scrollTo)
         i = i + 1;
         itemType, id, name, hidden, category, expansion, buttonImage, onClick, onEnter, onLeave, userdata = BtWQuests_GetCategoryItemByIndex(i, true);
     end
-    
-    categoryButton = scrollFrame["category"..index];
-    while categoryButton do
-        categoryButton:Hide()
-        
-        index = index + 1;
-        categoryButton = scrollFrame["category"..index];
-    end
 
     if type(scrollTo) == "table" and scrollTo.type == "coords" then
         questSelect.scroll:UpdateScrollChildRect()
@@ -1703,9 +1689,12 @@ function BtWQuests_ListCategories(scrollTo)
             questSelect.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
         end
     end
+    
+    ShowUIPanel(BtWQuests)
 end
 
-function BtWQuests_DisplayChain(scrollTo)
+function BtWQuests_DisplayCurrentChain(scrollTo)
+	BtWQuests.chainItemPool:ReleaseAll();
 	local chain = BtWQuests.Chain;
     
 	BtWQuests.QuestSelect:Hide();
@@ -1713,18 +1702,17 @@ function BtWQuests_DisplayChain(scrollTo)
     
     local scrollFrame = chain.scroll.child;
     local scrollToButton, scrollToButtonAside
+
+    scrollFrame.ItemButtons = {}
+    local buttons = scrollFrame.ItemButtons
     
     local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
     for index = numItems, 1, -1 do
         local skip, name, visible, x, y, atlas, breadcrumb, aside, difficulty, tagID, status, onClick, onEnter, onLeave, userdata = BtWQuests_GetChainItemByIndex(index)
         local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
-        local itemButton = scrollFrame["item"..index];
-        if not itemButton then -- create button
-            itemButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."Item"..index, scrollFrame, "BtWQuestsChainItemButtonTemplate");
-
-            scrollFrame["item"..index] = itemButton;
-        end
+        local itemButton = BtWQuests.chainItemPool:Acquire();
+        buttons[index] = itemButton
         
         itemButton.skip = skip
         if skip then
@@ -1773,7 +1761,7 @@ function BtWQuests_DisplayChain(scrollTo)
                 local isCompleted = false
                 for j=1,#connections do
                     local connection = index + connections[j]
-                    local connectionItem = scrollFrame["item"..connection]
+                    local connectionItem = buttons[connection]
                     if connectionItem and connectionItem:IsShown() then
                         if connectionItem.status ~= nil then
                             isCompleted = true
@@ -1805,7 +1793,7 @@ function BtWQuests_DisplayChain(scrollTo)
             if not breadcrumb then
                 for j=1,#connections do
                     local connection = index + connections[j]
-                    local connectionItem = scrollFrame["item"..connection]
+                    local connectionItem = buttons[connection]
                     if connectionItem and connectionItem:IsShown() then
                         
                         if connectionItem.canBeActive then
@@ -1838,14 +1826,14 @@ function BtWQuests_DisplayChain(scrollTo)
             
             
             if not itemButton.backgroundLinePool then
-                itemButton.backgroundLinePool = CreateFramePool("FRAME", scrollFrame, "BtWQuestsLineTemplate", OnRelease);
+                itemButton.backgroundLinePool = CreateFramePool("FRAME", scrollFrame, "BtWQuestsLineTemplate");
             end
             
             itemButton.backgroundLinePool:ReleaseAll();
             
             for j=1,#connections do
                 local connection = index + connections[j]
-                local connectionItem = scrollFrame["item"..connection]
+                local connectionItem = buttons[connection]
                 
                 if connectionItem and not connectionItem.skip then
                     local lineContainer = itemButton.backgroundLinePool:Acquire();
@@ -1888,26 +1876,13 @@ function BtWQuests_DisplayChain(scrollTo)
         end
     end
     
-    local index = numItems + 1
-    itemButton = scrollFrame["item"..index];
-    while itemButton do
-        itemButton:Hide()
-        
-        if itemButton.backgroundLinePool then
-            itemButton.backgroundLinePool:ReleaseAll();
-        end
-        
-		index = index + 1;
-        itemButton = scrollFrame["item"..index];
-    end
-    
     local temp = numItems
-    while temp > 0 and not scrollFrame["item"..temp]:IsShown() do
+    while temp > 0 and not buttons[temp]:IsShown() do
         temp = temp - 1
     end
-    
+
     if temp > 0 then
-        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, scrollFrame["item"..temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
+        scrollFrame.Bottom:SetPoint("TOP", 0, select(5, buttons[temp]:GetPoint("TOP")) - 23 - (chain.scroll:GetHeight()/2))
     end
 
     if type(scrollTo) == "table" and scrollTo.type == "coords" then
@@ -1921,11 +1896,11 @@ function BtWQuests_DisplayChain(scrollTo)
         
         if scrollToButton == nil then
             temp = 1
-            while scrollFrame["item"..temp] and not scrollFrame["item"..temp]:IsShown() do
+            while buttons[temp] and not buttons[temp]:IsShown() do
                 temp = temp + 1
             end
             
-            scrollToButton = scrollFrame["item"..temp]
+            scrollToButton = buttons[temp]
         end
         
         if scrollToButton then
@@ -1933,14 +1908,17 @@ function BtWQuests_DisplayChain(scrollTo)
             chain.scroll:SetVerticalScroll(-select(5, scrollToButton:GetPoint("TOP")) - (chain.scroll:GetHeight()/2) + 24)
         end
     end
+
+    ShowUIPanel(BtWQuests)
 end
 
-
-function BtWQuests_UpdateChain(scroll)
+function BtWQuests_UpdateCurrentChain(scroll)
     local chain = BtWQuests.Chain
     
     if chain:IsShown() then
         local scrollFrame = chain.scroll.child;
+        local buttons = scrollFrame.ItemButtons
+        
         local scrollToButton, scrollToButtonAside
         
         local _, _, _, _, _, _, _, numItems = BtWQuests_GetChainByID(BtWQuests_GetCurrentChain())
@@ -1948,7 +1926,7 @@ function BtWQuests_UpdateChain(scroll)
             local skip, _, visible, _, _, _, breadcrumb, aside, _, _, status, _, _, _, _ = BtWQuests_GetChainItemByIndex(index)
             local connections = {BtWQuests_GetChainItemConnectorsByIndex(index)}
         
-			local itemButton = scrollFrame["item"..index];
+			local itemButton = buttons[index];
             if not skip then
                 itemButton.newStatus = status
             
@@ -1956,7 +1934,7 @@ function BtWQuests_UpdateChain(scroll)
                     local isCompleted = false
                     for j=1,#connections do
                         local connection = index + connections[j]
-                        local connectionItem = scrollFrame["item"..connection]
+                        local connectionItem = buttons[connection]
                         if connectionItem and connectionItem:IsShown() then
                             if connectionItem.status ~= nil then
                                 isCompleted = true
@@ -1983,7 +1961,7 @@ function BtWQuests_UpdateChain(scroll)
                 if not breadcrumb then
                     for j=1,#connections do
                         local connection = index + connections[j]
-                        local connectionItem = scrollFrame["item"..connection]
+                        local connectionItem = buttons[connection]
                         if connectionItem and connectionItem:IsShown() then
                             
                             if connectionItem.canBeActive then
@@ -2048,243 +2026,102 @@ function BtWQuests_UpdateChain(scroll)
 end
 
 -- [[ Tooltip ]]
-function BtWQuestsTooltip_SetHyperlink(link)
-    local self = BtWQuestsTooltip
+BtWQuestsTooltipMixin = {}
+function BtWQuestsTooltipMixin:SetChain(chainID)
+    local chainID = tonumber(chainID)
     
+    local _, name, _, _, _, _, numPrerequisites = BtWQuests_GetChainByID(chainID)
+    
+    self:ClearLines()
+    self:AddDoubleLine(name)
+    
+    if BtWQuests_IsChainActive(chainID) then
+        self:AddLine(BTWQUESTS_QUEST_CHAIN_ACTIVE)
+    end
+    
+    local addedPrerequisite
+    local i = 1
+	for index = 1, numPrerequisites do
+        local name, visible, skip, completed = BtWQuests_GetChainPrerequisiteByID(chainID, index);
+        if visible and not skip then
+            if not addedPrerequisite then
+                self:AddLine(" ")
+                self:AddLine(BTWQUESTS_TOOLTIP_PREREQUISITES)
+                addedPrerequisite = true
+            end
+
+            if completed then
+                self:AddLine(" - " .. name, 0.5, 0.5, 0.5)
+            else
+                self:AddLine(" - " .. name, 1, 1, 1)
+            end
+        end
+	end
+    
+    self:Show();
+end
+
+-- Custom function for displaying an active quest showing completed requirements
+function BtWQuestsTooltipMixin:SetActiveQuest(questID)
+    local questID = tonumber(questID)
+    
+    local _, name = BtWQuests_GetQuestByID(questID)
+    local questLogIndex = GetQuestLogIndexByID(questID)
+    local _, objectiveText = GetQuestLogQuestText(questLogIndex);
+    
+    self:ClearLines()
+    self:AddDoubleLine(name)
+    
+    self:AddLine(GREEN_FONT_COLOR_CODE..QUEST_TOOLTIP_ACTIVE..FONT_COLOR_CODE_CLOSE)
+
+    if objectiveText then
+        self:AddLine(" ")
+        self:AddLine(objectiveText, 1, 1, 1)
+    end
+    
+    local requiredMoney = GetQuestLogRequiredMoney(questLogIndex);
+    local numRequirements = GetNumQuestLeaderBoards(questLogIndex);
+
+    local addedTitle
+	for index = 1,numRequirements do
+        local name, _, completed = GetQuestLogLeaderBoard(index, questLogIndex);
+        if name then
+            if not addedTitle then
+                self:AddLine(" ")
+                self:AddLine(QUEST_TOOLTIP_REQUIREMENTS)
+                addedTitle = true
+            end
+
+            if completed then
+                self:AddLine(" - " .. name, 0.5, 0.5, 0.5)
+            else
+                self:AddLine(" - " .. name, 1, 1, 1)
+            end
+        end
+    end
+    
+    self:Show();
+end
+
+function BtWQuestsTooltipMixin:SetHyperlink(link)
     local _, _, color, type, text, name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]+):([^|]+)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
     
-    -- assert(type == "quest" or type == "btwquests")
-    
-    if type == "quest" then
-        local _, _, id = string.find(text, "^(%d+):")
-        
-       BtWQuestsTooltip_SetQuest(id)
+    if type == "quest" and BtWQuests_CharacterIsPlayer then
+        local _, _, id = string.find(text, "^(%d+)")
+        if GetQuestLogIndexByID(id) > 0 then
+            self:SetActiveQuest(id)
+        else
+            GameTooltip.SetHyperlink(self, link)
+        end
     elseif type == "btwquests" then
         local _, _, subtype, id = string.find(text, "^([^:]*):(%d+)")
         
         assert(subtype == "chain")
         
-        BtWQuestsTooltip_SetChain(id) 
+        self:SetChain(id)
     else
-        GameTooltip:ClearAllPoints();
-        
-        local point, relativeTo, relativePoint, x, y = BtWQuestsTooltip:GetPoint()
-        GameTooltip:SetPoint(point, relativeTo, relativePoint, x, y);
-        
-        GameTooltip:SetOwner(relativeTo, "ANCHOR_PRESERVE");
-        GameTooltip:SetHyperlink(link)
+        GameTooltip.SetHyperlink(self, link)
     end
-end
-
-function BtWQuestsTooltip_AnchorTo(anchorTo)
-    local self = BtWQuestsTooltip
-    
-	self:ClearAllPoints();
-	local tooltipWidth = self:GetWidth();
-	if ( tooltipWidth > UIParent:GetRight() - anchorTo:GetRight() ) then
-		self:SetPoint("TOPRIGHT", anchorTo, "TOPLEFT", -5, 0);
-	else
-		self:SetPoint("TOPLEFT", anchorTo, "TOPRIGHT", 0, 0);
-	end
-end
-
-function BtWQuestsTooltip_SetQuest(questID)
-    local questID = tonumber(questID)
-    
-    local tooltip = BtWQuestsTooltip
-    
-    local _, name, link = BtWQuests_GetQuestByID(questID)
-    local questLogIndex = GetQuestLogIndexByID(questID)
-    if questLogIndex > 0 then
-        local name, level = GetQuestLogTitle(questLogIndex);
-        
-        local maxWidth = 0;
-        local totalHeight = 0;
-        
-        tooltip.Title:SetText(name);
-        totalHeight = totalHeight + tooltip.Title:GetHeight();
-        maxWidth = tooltip.Title:GetWidth();
-        
-        -- Clear out old criteria
-        for i = 1, #tooltip.Lines do
-            tooltip.Lines[i]:Hide();
-        end
-        for _, checkMark in pairs(tooltip.CheckMarks) do
-            checkMark:Hide();
-        end
-        
-        local _, objectiveText = GetQuestLogQuestText(questLogIndex);
-
-        tooltip.CompletedLabel:Hide();
-        
-		tooltip.ProgressLabel:SetPoint("TOPLEFT", tooltip.Description, "BOTTOMLEFT", 0, -11)
-        
-		local requiredMoney = GetQuestLogRequiredMoney(questLogIndex);
-		local numRequirements = GetNumQuestLeaderBoards(questLogIndex);
-        local actualNumRequirements = numRequirements
-		for i = 1, numRequirements do
-			local name, _, completed = GetQuestLogLeaderBoard(i, questLogIndex);
-			if ( name ) then
-                if ( not tooltip.Lines[i] ) then
-                    local fontString = tooltip:CreateFontString(nil, "ARTWORK", "GameFontHighlight");
-                    fontString:SetPoint("TOP", tooltip.Lines[i-1], "BOTTOM", 0, -6);
-                    tooltip.Lines[i] = fontString;
-                end
-                if ( completed ) then
-                    tooltip.Lines[i]:SetText(GREEN_FONT_COLOR_CODE..name..FONT_COLOR_CODE_CLOSE);
-                    tooltip.Lines[i]:SetPoint("LEFT", 30, 0);
-                    if ( not tooltip.CheckMarks[i] ) then
-                        local texture = tooltip:CreateTexture(nil, "ARTWORK", "GreenCheckMarkTemplate");
-                        texture:ClearAllPoints();
-                        texture:SetPoint("RIGHT", tooltip.Lines[i], "LEFT", -4, -1);
-                        tooltip.CheckMarks[i] = texture;
-                    end
-                    tooltip.CheckMarks[i]:Show();
-                    maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth() + 20);
-                else
-                    tooltip.Lines[i]:SetText(name);
-                    tooltip.Lines[i]:SetPoint("LEFT", 10, 0);
-                    if ( tooltip.CheckMarks[i] ) then
-                        tooltip.CheckMarks[i]:Hide();
-                    end
-                    maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth());
-                end
-                tooltip.Lines[i]:Show();
-                totalHeight = totalHeight + tooltip.Lines[i]:GetHeight() + 6;
-			end
-		end
-		-- if ( requiredMoney > 0 ) then
-            -- actualNumRequirements = actualNumRequirements + 1
-            
-			-- local playerMoney = GetMoney();
-			-- local color = HIGHLIGHT_FONT_COLOR;
-			-- if ( requiredMoney <= playerMoney ) then
-				-- playerMoney = requiredMoney;
-				-- color = GRAY_FONT_COLOR;
-			-- end
-			-- GameTooltip:AddLine(QUEST_DASH..GetMoneyString(playerMoney).." / "..GetMoneyString(requiredMoney), color.r, color.g, color.b);
-			-- needsSeparator = true;
-		-- end
-    
-        if actualNumRequirements > 0 then
-            tooltip.ProgressLabel:Show()
-            maxWidth = max(maxWidth, tooltip.ProgressLabel:GetWidth());
-            totalHeight = totalHeight + tooltip.ProgressLabel:GetHeight() + 10;
-        else
-            tooltip.ProgressLabel:Hide()
-        end
-    
-        local tooltipWidth = max(240, maxWidth + 20);
-        
-        
-		tooltip.Description:SetPoint("TOPLEFT", tooltip.Title, "BOTTOMLEFT", 0, -11)
-		tooltip.Description:SetWidth(tooltipWidth - 20)
-        tooltip.Description:SetText(objectiveText)
-        tooltip.Description:Show();
-        totalHeight = totalHeight + tooltip.Description:GetHeight() + 11;
-        
-        tooltip:SetSize(tooltipWidth, totalHeight + 20);
-        tooltip:Show();
-    
-    else
-        GameTooltip:ClearAllPoints();
-        
-        local point, relativeTo, relativePoint, x, y = tooltip:GetPoint()
-        GameTooltip:SetPoint(point, relativeTo, relativePoint, x, y);
-        
-        GameTooltip:SetOwner(relativeTo, "ANCHOR_PRESERVE");
-        
-        GameTooltip:SetHyperlink(link)
-    end
-end
-
-function BtWQuestsTooltip_SetChain(chainID)
-    local chainID = tonumber(chainID)
-    
-    local tooltip = BtWQuestsTooltip
-    local _, name, _, _, _, _, numPrerequisites = BtWQuests_GetChainByID(chainID)
-    local completed = BtWQuests_IsChainCompleted(chainID)
-    
-	local maxWidth = 0;
-	local totalHeight = 0;
-    
-	tooltip.Title:SetText(name);
-	totalHeight = totalHeight + tooltip.Title:GetHeight();
-	maxWidth = tooltip.Title:GetWidth();
-    
-	-- Clear out old criteria
-	for i = 1, #tooltip.Lines do
-		tooltip.Lines[i]:Hide();
-	end
-	for _, checkMark in pairs(tooltip.CheckMarks) do
-		checkMark:Hide();
-	end
-    
-    if completed then
-        tooltip.ProgressLabel:SetPoint("TOPLEFT", tooltip.CompletedLabel, "BOTTOMLEFT", 0, -11)
-        tooltip.CompletedLabel:Show();
-        totalHeight = totalHeight + tooltip.CompletedLabel:GetHeight() + 11;
-        maxWidth = max(maxWidth, tooltip.CompletedLabel:GetWidth() + 20);
-    else
-		tooltip.ProgressLabel:SetPoint("TOPLEFT", tooltip.Title, "BOTTOMLEFT", 0, -11)
-        tooltip.CompletedLabel:Hide();
-    end
-        
-    tooltip.Description:Hide();
-    
-    local actualNumPrerequisites = numPrerequisites
-    local i = 1
-	for index = 1, numPrerequisites do
-        local name, visible, skip, completed = BtWQuests_GetChainPrerequisiteByID(chainID, index);
-        if not visible or skip then
-            actualNumPrerequisites = actualNumPrerequisites - 1
-        else
-            if ( not tooltip.Lines[i] ) then
-                local fontString = tooltip:CreateFontString(nil, "ARTWORK", "GameFontHighlight");
-                fontString:SetPoint("TOP", tooltip.Lines[i-1], "BOTTOM", 0, -6);
-                tooltip.Lines[i] = fontString;
-            end
-            if ( completed ) then
-                tooltip.Lines[i]:SetText(GREEN_FONT_COLOR_CODE..name..FONT_COLOR_CODE_CLOSE);
-                tooltip.Lines[i]:SetPoint("LEFT", 30, 0);
-                if ( not tooltip.CheckMarks[i] ) then
-                    local texture = tooltip:CreateTexture(nil, "ARTWORK", "GreenCheckMarkTemplate");
-                    texture:ClearAllPoints();
-                    texture:SetPoint("RIGHT", tooltip.Lines[i], "LEFT", -4, -1);
-                    tooltip.CheckMarks[i] = texture;
-                end
-                tooltip.CheckMarks[i]:Show();
-                maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth() + 20);
-            else
-                tooltip.Lines[i]:SetText(name);
-                tooltip.Lines[i]:SetPoint("LEFT", 10, 0);
-                if ( tooltip.CheckMarks[i] ) then
-                    tooltip.CheckMarks[i]:Hide();
-                end
-                maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth());
-            end
-            tooltip.Lines[i]:Show();
-            totalHeight = totalHeight + tooltip.Lines[i]:GetHeight() + 6;
-
-            i = i + 1
-        end
-	end
-    
-    if actualNumPrerequisites > 0 then
-        tooltip.ProgressLabel:Show()
-        maxWidth = max(maxWidth, tooltip.ProgressLabel:GetWidth());
-        totalHeight = totalHeight + tooltip.ProgressLabel:GetHeight() + 10;
-    else
-        tooltip.ProgressLabel:Hide()
-    end
-    
-	-- tooltip.ProgressCount:SetFormattedText(BTWQUESTS_REQUIREMENTS, completedRequirements, actualNumRequirements);
-	-- maxWidth = max(maxWidth, tooltip.ProgressLabel:GetWidth(), tooltip.ProgressCount:GetWidth());
-	-- totalHeight = totalHeight + tooltip.ProgressLabel:GetHeight() + tooltip.ProgressCount:GetHeight();
-    
-	local tooltipWidth = max(240, maxWidth + 20);
-	tooltip:SetSize(tooltipWidth, totalHeight + 20);
-    tooltip:Show();
 end
 
 
@@ -2359,20 +2196,20 @@ function BtWQuestsNav_SelectFromHistory()
         NavBar_Reset(BtWQuests.navBar)
         BtWQuestsNav_AddChainButtonParents(item.id)
         
-        BtWQuests_DisplayChain(item.scrollTo)
+        BtWQuests_DisplayCurrentChain(item.scrollTo)
     elseif item.type == "category" then
         BtWQuests_SetCurrentCategory(item.id)
         
         NavBar_Reset(BtWQuests.navBar)
         BtWQuestsNav_AddCategoryButtonParents(item.id)
         
-        BtWQuests_ListCategories(item.scrollTo)
+        BtWQuests_DisplayCurrentCategory(item.scrollTo)
     elseif item.type == "expansion" then
         BtWQuests_SetCurrentExpansion(item.id)
 
         NavBar_Reset(BtWQuests.navBar)
 
-        BtWQuests_ListCategories(item.scrollTo)
+        BtWQuests_DisplayCurrentCategory(item.scrollTo)
     end
 end
 
@@ -2433,7 +2270,7 @@ function BtWQuestsNav_SelectChain(self, ...)
         
     BtWQuests_SetCurrentChain(-self.id)
     
-    BtWQuests_DisplayChain()
+    BtWQuests_DisplayCurrentChain()
     
     BtWQuestsNav_AddCurrentToHistory()
 end
@@ -2443,7 +2280,7 @@ function BtWQuestsNav_SelectCategory(self, ...)
         
     BtWQuests_SetCurrentCategory(self.id)
 
-    BtWQuests_ListCategories()
+    BtWQuests_DisplayCurrentCategory()
     
     BtWQuestsNav_AddCurrentToHistory()
 end
