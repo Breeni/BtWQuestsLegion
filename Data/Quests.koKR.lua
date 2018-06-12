@@ -5853,6 +5853,7 @@ BtWQuests_Quests = {
     [38286] = {
         name = "아즈샤라의 눈: 아즈샤라의 분노",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -6139,6 +6140,7 @@ BtWQuests_Quests = {
     [38532] = {
         name = "영혼의 아귀: 천둥으로 제련한 망치",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -6690,6 +6692,7 @@ BtWQuests_Quests = {
     [38961] = {
         name = "아즈샤라의 눈: 타락한 나이트폴른",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -6711,6 +6714,7 @@ BtWQuests_Quests = {
     [38965] = {
         name = "보랏빛 요새 침공: 보랏빛 요새로",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -6977,6 +6981,7 @@ BtWQuests_Quests = {
     [39331] = {
         name = "아즈샤라의 눈: 코르크 마개의 용도",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 102,
         requiredLevel = 102,
     },
@@ -6998,6 +7003,7 @@ BtWQuests_Quests = {
     [39335] = {
         name = "넬타리온의 둥지: 있어 보이는 가루",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -7029,6 +7035,7 @@ BtWQuests_Quests = {
     [39341] = {
         name = "감시관의 금고: 악마의 담즙",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7040,6 +7047,7 @@ BtWQuests_Quests = {
     [39343] = {
         name = "감시관의 금고: 구부러진 유리관",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7066,24 +7074,28 @@ BtWQuests_Quests = {
     [39348] = {
         name = "용맹의 전당: 최고급 재료",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39349] = {
         name = "검은 떼까마귀 요새: 무겁지만 유익한",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39350] = {
         name = "영혼의 아귀: 헬하임의 희망",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39351] = {
         name = "에메랄드의 악몽: 격노의 불길",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -7570,6 +7582,7 @@ BtWQuests_Quests = {
     [39781] = {
         name = "넬타리온의 둥지",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -7776,6 +7789,7 @@ BtWQuests_Quests = {
     [39882] = {
         name = "어둠심장 숲: 빛 바랜 애정",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 104,
         requiredLevel = 104,
     },
@@ -7807,6 +7821,7 @@ BtWQuests_Quests = {
     [39904] = {
         name = "용맹의 전당: 티그리드의 복수",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -7853,6 +7868,7 @@ BtWQuests_Quests = {
     [39921] = {
         name = "넬타리온의 둥지: 하늘빛 지팡이",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7934,6 +7950,7 @@ BtWQuests_Quests = {
     [39953] = {
         name = "용맹의 전당: 용맹의 인장",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -8125,6 +8142,7 @@ BtWQuests_Quests = {
     [40072] = {
         name = "용맹의 전당: 아이기스 확보",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -8336,6 +8354,7 @@ BtWQuests_Quests = {
     [40208] = {
         name = "아즈샤라의 눈: 바다의 비늘",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -8838,18 +8857,21 @@ BtWQuests_Quests = {
     [40559] = {
         name = "검은 떼까마귀 요새: 까마귀의 지혜",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40560] = {
         name = "영혼의 아귀: 목숨을 건 반지",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40561] = {
         name = "용맹의 전당: 천상의 보석",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -8861,6 +8883,7 @@ BtWQuests_Quests = {
     [40567] = {
         name = "어둠심장 숲: 악몽으로 들어가다",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -8937,6 +8960,7 @@ BtWQuests_Quests = {
     [40613] = {
         name = "영혼의 아귀: 원래 주인에게로",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -8948,6 +8972,7 @@ BtWQuests_Quests = {
     [40615] = {
         name = "용맹의 전당: 오딘의 축복",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -9034,12 +9059,14 @@ BtWQuests_Quests = {
     [40668] = {
         name = "아즈샤라의 눈: 진아즈샤리의 심장",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40672] = {
         name = "넬타리온의 둥지: 보기 좋은 떡이 먹기도 좋은 법",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -9051,11 +9078,13 @@ BtWQuests_Quests = {
     [40675] = {
         name = "비전로: 대장의 의식",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40678] = {
         name = "뒤틀린 힘",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -9391,6 +9420,7 @@ BtWQuests_Quests = {
     [40878] = {
         name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -9412,6 +9442,7 @@ BtWQuests_Quests = {
     [40882] = {
         name = "별의 궁정: 반동 반감",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -10943,6 +10974,7 @@ BtWQuests_Quests = {
     [42098] = {
         name = "검은 떼까마귀 요새: 주인 없는 영혼",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -11478,6 +11510,7 @@ BtWQuests_Quests = {
     [42432] = {
         name = "에메랄드의 악몽: 에메랄드의 악몽",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -11604,12 +11637,14 @@ BtWQuests_Quests = {
     [42490] = {
         name = "비전로: 비전로를 열어라",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
     [42491] = {
         name = "비전로: 오랫동안 묻혀 있던 지식",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -11904,6 +11939,7 @@ BtWQuests_Quests = {
     [42654] = {
         name = "어둠심장 숲: 악몽의 떡갈나무",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -11975,6 +12011,7 @@ BtWQuests_Quests = {
     [42678] = {
         name = "검은 떼까마귀 요새: 검은 떼까마귀 요새로",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -12726,6 +12763,7 @@ BtWQuests_Quests = {
     [43253] = {
         name = "영혼의 아귀: 고대 브리쿨 전설",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -12812,6 +12850,7 @@ BtWQuests_Quests = {
     [43314] = {
         name = "별의 궁정: 참을성 있는 엘프의 분노를 조심하라",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -12878,6 +12917,7 @@ BtWQuests_Quests = {
     [43362] = {
         name = "에메랄드의 악몽: 꿈의 물건",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -13123,6 +13163,7 @@ BtWQuests_Quests = {
     },
     [43479] = {
         name = "세상은 좁다",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -13139,6 +13180,7 @@ BtWQuests_Quests = {
     [43487] = {
         name = "보랏빛 요새 침공: 지옥 사전",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -13170,6 +13212,7 @@ BtWQuests_Quests = {
     [43493] = {
         name = "검은 떼까마귀 요새: 군주 레이븐크레스트",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13191,6 +13234,7 @@ BtWQuests_Quests = {
     [43506] = {
         name = "검은 떼까마귀 요새: 더욱 강력한 힘",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13207,6 +13251,7 @@ BtWQuests_Quests = {
     [43517] = {
         name = "어둠심장 숲: 타락한 힘",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13223,12 +13268,14 @@ BtWQuests_Quests = {
     [43520] = {
         name = "에메랄드의 악몽: 악몽 속에서",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43521] = {
         name = "힘의 정수",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -13245,12 +13292,14 @@ BtWQuests_Quests = {
     [43524] = {
         name = "별의 궁정: 문학계의 걸작",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [43525] = {
         name = "감시관의 금고: 묻지도 따지지도 않고 빌리기",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13272,18 +13321,21 @@ BtWQuests_Quests = {
     [43530] = {
         name = "밤의 요새: 과대망상",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43531] = {
         name = "밤의 요새로",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43532] = {
         name = "밤의 요새: 어둠이 부른다",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -13355,12 +13407,14 @@ BtWQuests_Quests = {
     [43571] = {
         name = "넬타리온의 둥지: 지저왕의 댕기머리",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [43572] = {
         name = "어둠심장 숲: 악몽의 채찍",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -13622,24 +13676,28 @@ BtWQuests_Quests = {
     [44074] = {
         name = "넬타리온의 둥지: 끈기의 정수",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44075] = {
         name = "용맹의 전당: 흉포의 정수",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44076] = {
         name = "어둠심장 숲: 재생의 정수",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44077] = {
         name = "아즈샤라의 눈: 균형의 정수",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -14440,12 +14498,14 @@ BtWQuests_Quests = {
     [45175] = {
         name = "일리다리 영혼 프리즘",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [45176] = {
         name = "용맹의 시험: 영원한 어둠의 군주",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -14657,6 +14717,7 @@ BtWQuests_Quests = {
     [45372] = {
         name = "나이트본의 운명",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -14718,6 +14779,7 @@ BtWQuests_Quests = {
     [45417] = {
         name = "밤의 요새: 어둠의 의회 지도자",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -16219,6 +16281,7 @@ BtWQuests_Quests = {
     [47654] = {
         name = "삼두정의 권좌: 지식의 인장",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },

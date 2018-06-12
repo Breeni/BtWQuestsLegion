@@ -5853,6 +5853,7 @@ BtWQuests_Quests = {
     [38286] = {
         name = "Das Auge Azsharas: Azsharas Zorn",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -6139,6 +6140,7 @@ BtWQuests_Quests = {
     [38532] = {
         name = "Der Seelenschlund: Vom Sturm gehämmert",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -6690,6 +6692,7 @@ BtWQuests_Quests = {
     [38961] = {
         name = "Das Auge Azsharas: Der verkommene Nachtsüchtige",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -6711,6 +6714,7 @@ BtWQuests_Quests = {
     [38965] = {
         name = "Sturm auf die Violette Festung: In die Festung",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -6977,6 +6981,7 @@ BtWQuests_Quests = {
     [39331] = {
         name = "Das Auge Azsharas: Korken drauf",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 102,
         requiredLevel = 102,
     },
@@ -6998,6 +7003,7 @@ BtWQuests_Quests = {
     [39335] = {
         name = "Neltharions Hort: Potentes Pulver",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -7029,6 +7035,7 @@ BtWQuests_Quests = {
     [39341] = {
         name = "Das Verlies der Wächterinnen: Dämonengalle",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7040,6 +7047,7 @@ BtWQuests_Quests = {
     [39343] = {
         name = "Das Verlies der Wächterinnen: Biegsame Glasröhren",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7066,24 +7074,28 @@ BtWQuests_Quests = {
     [39348] = {
         name = "Hallen der Tapferkeit: Die Hauptzutat",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39349] = {
         name = "Rabenwehr: Schwer, aber hilfreich",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39350] = {
         name = "Der Seelenschlund: Hoffnung in Helheim",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39351] = {
         name = "Der Smaragdgrüne Alptraum: Tobendes Feuer",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -7570,6 +7582,7 @@ BtWQuests_Quests = {
     [39781] = {
         name = "Neltharions Hort",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -7776,6 +7789,7 @@ BtWQuests_Quests = {
     [39882] = {
         name = "Das Finsterherzdickicht: Freundschaft gekündigt",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 104,
         requiredLevel = 104,
     },
@@ -7807,6 +7821,7 @@ BtWQuests_Quests = {
     [39904] = {
         name = "Hallen der Tapferkeit: Die Rache der Verzauberin",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -7853,6 +7868,7 @@ BtWQuests_Quests = {
     [39921] = {
         name = "Neltharions Hort: Azurblaue Rute",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7934,6 +7950,7 @@ BtWQuests_Quests = {
     [39953] = {
         name = "Hallen der Tapferkeit: Visionen von Tapferkeit",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -8125,6 +8142,7 @@ BtWQuests_Quests = {
     [40072] = {
         name = "Hallen der Tapferkeit: Die Aegis sichern",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -8336,6 +8354,7 @@ BtWQuests_Quests = {
     [40208] = {
         name = "Das Auge Azsharas: Schuppen des Meeres",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -8838,18 +8857,21 @@ BtWQuests_Quests = {
     [40559] = {
         name = "Rabenwehr: Die Weisheit des Raben",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40560] = {
         name = "Der Seelenschlund: Einmal Tod und zurück",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40561] = {
         name = "Hallen der Tapferkeit: Himmlische Klunker",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -8861,6 +8883,7 @@ BtWQuests_Quests = {
     [40567] = {
         name = "Das Finsterherzdickicht: Den Alptraum betreten",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -8937,6 +8960,7 @@ BtWQuests_Quests = {
     [40613] = {
         name = "Der Seelenschlund: Die Rettung des Svalngards",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -8948,6 +8972,7 @@ BtWQuests_Quests = {
     [40615] = {
         name = "Hallen der Tapferkeit: Odyns Segen",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -9034,12 +9059,14 @@ BtWQuests_Quests = {
     [40668] = {
         name = "Das Auge Azsharas: Das Herz von Zin-Azshari",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40672] = {
         name = "Neltharions Hort: Das Auge isst mit",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -9051,11 +9078,13 @@ BtWQuests_Quests = {
     [40675] = {
         name = "Der Arkus: Das Ritual des Hauptmanns",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40678] = {
         name = "Verdrehte Macht",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -9391,6 +9420,7 @@ BtWQuests_Quests = {
     [40878] = {
         name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -9412,6 +9442,7 @@ BtWQuests_Quests = {
     [40882] = {
         name = "Der Hof der Sterne: Rückschlagdämpfung",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -10943,6 +10974,7 @@ BtWQuests_Quests = {
     [42098] = {
         name = "Rabenwehr: Eine herrenlose Seele",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -11478,6 +11510,7 @@ BtWQuests_Quests = {
     [42432] = {
         name = "Der Smaragdgrüne Alptraum: Der Smaragdgrüne Alptraum",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -11604,12 +11637,14 @@ BtWQuests_Quests = {
     [42490] = {
         name = "Der Arkus: Den Arkus öffnen",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
     [42491] = {
         name = "Der Arkus: Lang begrabenes Wissen",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -11904,6 +11939,7 @@ BtWQuests_Quests = {
     [42654] = {
         name = "Das Finsterherzdickicht: Alptraumeichenholz",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -11975,6 +12011,7 @@ BtWQuests_Quests = {
     [42678] = {
         name = "Rabenwehr: Zur Rabenwehr",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -12726,6 +12763,7 @@ BtWQuests_Quests = {
     [43253] = {
         name = "Der Seelenschlund: Uralte Vrykullegenden",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -12812,6 +12850,7 @@ BtWQuests_Quests = {
     [43314] = {
         name = "Der Hof der Sterne: Fürchtet den Zorn eines geduldigen Elfen",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -12878,6 +12917,7 @@ BtWQuests_Quests = {
     [43362] = {
         name = "Der Smaragdgrüne Alptraum: Der Stoff der Träume",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -13123,6 +13163,7 @@ BtWQuests_Quests = {
     },
     [43479] = {
         name = "Die Welt ist nicht genug",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -13139,6 +13180,7 @@ BtWQuests_Quests = {
     [43487] = {
         name = "Sturm auf die Violette Festung: Das Teufelslexikon",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -13170,6 +13212,7 @@ BtWQuests_Quests = {
     [43493] = {
         name = "Rabenwehr: Lord Rabenkrone",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13191,6 +13234,7 @@ BtWQuests_Quests = {
     [43506] = {
         name = "Rabenwehr: Größere Macht",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13207,6 +13251,7 @@ BtWQuests_Quests = {
     [43517] = {
         name = "Das Finsterherzdickicht: Die Macht des Gefallenen",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13223,12 +13268,14 @@ BtWQuests_Quests = {
     [43520] = {
         name = "Der Smaragdgrüne Alptraum: In den Alpträumen",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43521] = {
         name = "Die Essenz der Macht",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -13245,12 +13292,14 @@ BtWQuests_Quests = {
     [43524] = {
         name = "Der Hof der Sterne: Herausragende Literatur",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [43525] = {
         name = "Das Verlies der Wächterinnen: Ausborgen, ohne zu fragen",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13272,18 +13321,21 @@ BtWQuests_Quests = {
     [43530] = {
         name = "Die Nachtfestung: Größenwahn",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43531] = {
         name = "In die Nachtfestung",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43532] = {
         name = "Die Nachtfestung: Die Dunkelheit ruft",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -13355,12 +13407,14 @@ BtWQuests_Quests = {
     [43571] = {
         name = "Neltharions Hort: Zopf des Unterkönigs",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [43572] = {
         name = "Das Finsterherzdickicht: Die Alptraumpeitsche",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -13622,24 +13676,28 @@ BtWQuests_Quests = {
     [44074] = {
         name = "Neltharions Hort: Essenz der Hartnäckigkeit",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44075] = {
         name = "Hallen der Tapferkeit: Essenz der Wildheit",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44076] = {
         name = "Das Finsterherzdickicht: Essenz des Nachwachsens",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44077] = {
         name = "Das Auge Azsharas: Essenz des Gleichgewichts",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -14440,12 +14498,14 @@ BtWQuests_Quests = {
     [45175] = {
         name = "Seelenprisma der Illidari",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [45176] = {
         name = "Prüfung der Tapferkeit: Der einstige und zukünftige Herr der Schatten",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -14657,6 +14717,7 @@ BtWQuests_Quests = {
     [45372] = {
         name = "Das Schicksal der Nachtgeborenen",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -14718,6 +14779,7 @@ BtWQuests_Quests = {
     [45417] = {
         name = "Die Nachtfestung: Herr des Schattenrats",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -16219,6 +16281,7 @@ BtWQuests_Quests = {
     [47654] = {
         name = "Sitz des Triumvirats: Das Wappen des Wissens",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },

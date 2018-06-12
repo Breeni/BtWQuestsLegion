@@ -5853,6 +5853,7 @@ BtWQuests_Quests = {
     [38286] = {
         name = "Око Азшары: Гнев Азшары",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -6139,6 +6140,7 @@ BtWQuests_Quests = {
     [38532] = {
         name = "Утроба душ: выкованный бурей",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -6690,6 +6692,7 @@ BtWQuests_Quests = {
     [38961] = {
         name = "Око Азшары: порочные помраченные",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -6711,6 +6714,7 @@ BtWQuests_Quests = {
     [38965] = {
         name = "Штурм Аметистовой крепости: начало",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -6977,6 +6981,7 @@ BtWQuests_Quests = {
     [39331] = {
         name = "Око Азшары: если б не эти ужасные пробки",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 102,
         requiredLevel = 102,
     },
@@ -6998,6 +7003,7 @@ BtWQuests_Quests = {
     [39335] = {
         name = "Логово Нелтариона: мощный порошок",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -7029,6 +7035,7 @@ BtWQuests_Quests = {
     [39341] = {
         name = "Казематы Стражей: желчь демона",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7040,6 +7047,7 @@ BtWQuests_Quests = {
     [39343] = {
         name = "Казематы Стражей: изогнутые стеклянные трубки",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7066,24 +7074,28 @@ BtWQuests_Quests = {
     [39348] = {
         name = "Чертоги Доблести: основной ингредиент",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39349] = {
         name = "Крепость Черной Ладьи: тяжелый, но нужный",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39350] = {
         name = "Утроба душ: надежда в Хельхейме",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39351] = {
         name = "Изумрудный Кошмар: огонь ярости",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -7570,6 +7582,7 @@ BtWQuests_Quests = {
     [39781] = {
         name = "Логово Нелтариона",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -7776,6 +7789,7 @@ BtWQuests_Quests = {
     [39882] = {
         name = "Чаща Темного Сердца: потускневший блеск",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 104,
         requiredLevel = 104,
     },
@@ -7807,6 +7821,7 @@ BtWQuests_Quests = {
     [39904] = {
         name = "Чертоги Доблести: месть чародейки",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -7853,6 +7868,7 @@ BtWQuests_Quests = {
     [39921] = {
         name = "Логово Нелтариона: лазурный жезл",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7934,6 +7950,7 @@ BtWQuests_Quests = {
     [39953] = {
         name = "Чертоги Доблести: видение Доблести",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -8125,6 +8142,7 @@ BtWQuests_Quests = {
     [40072] = {
         name = "Чертоги Доблести: эгида Агграмара",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -8336,6 +8354,7 @@ BtWQuests_Quests = {
     [40208] = {
         name = "Око Азшары: морская чешуя",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -8838,18 +8857,21 @@ BtWQuests_Quests = {
     [40559] = {
         name = "Крепость Черной Ладьи: мудрость Ворона",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40560] = {
         name = "Утроба душ: в мир духов и обратно",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40561] = {
         name = "Чертоги Доблести: небесный самоцвет",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -8861,6 +8883,7 @@ BtWQuests_Quests = {
     [40567] = {
         name = "Чаща Темного Сердца: в мир Кошмара",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -8937,6 +8960,7 @@ BtWQuests_Quests = {
     [40613] = {
         name = "Утроба душ: поход за Свальнгардом",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -8948,6 +8972,7 @@ BtWQuests_Quests = {
     [40615] = {
         name = "Чертоги Доблести: благословение Одина",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -9034,12 +9059,14 @@ BtWQuests_Quests = {
     [40668] = {
         name = "Око Азшары: сердце Зин-Азшари",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40672] = {
         name = "Логово Нелтариона: главное – правильно подать...",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -9051,11 +9078,13 @@ BtWQuests_Quests = {
     [40675] = {
         name = "Катакомбы Сурамара: посвящение в капитаны",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40678] = {
         name = "Искаженная сила",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -9391,6 +9420,7 @@ BtWQuests_Quests = {
     [40878] = {
         name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -9412,6 +9442,7 @@ BtWQuests_Quests = {
     [40882] = {
         name = "Квартал Звезд: работа с полной отдачей",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -10943,6 +10974,7 @@ BtWQuests_Quests = {
     [42098] = {
         name = "Крепость Черной Ладьи: неприкаянная душа",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -11478,6 +11510,7 @@ BtWQuests_Quests = {
     [42432] = {
         name = "Изумрудный Кошмар: Изумрудный Кошмар",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -11604,12 +11637,14 @@ BtWQuests_Quests = {
     [42490] = {
         name = "Катакомбы Сурамара: открывая катакомбы",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
     [42491] = {
         name = "Катакомбы Сурамара: давно утраченное знание",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -11904,6 +11939,7 @@ BtWQuests_Quests = {
     [42654] = {
         name = "Чаща Темного Сердца: кошмарный дуб",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -11975,6 +12011,7 @@ BtWQuests_Quests = {
     [42678] = {
         name = "Крепость Черной Ладьи: в крепости Черной Ладьи",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -12726,6 +12763,7 @@ BtWQuests_Quests = {
     [43253] = {
         name = "Утроба душ: древние легенды врайкулов",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -12812,6 +12850,7 @@ BtWQuests_Quests = {
     [43314] = {
         name = "Квартал Звезд: бойся гнева терпеливого эльфа",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -12878,6 +12917,7 @@ BtWQuests_Quests = {
     [43362] = {
         name = "Изумрудный Кошмар: сущность Сна",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -13123,6 +13163,7 @@ BtWQuests_Quests = {
     },
     [43479] = {
         name = "Целого мира мало",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -13139,6 +13180,7 @@ BtWQuests_Quests = {
     [43487] = {
         name = "Штурм Аметистовой крепости: словарь Скверны",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -13170,6 +13212,7 @@ BtWQuests_Quests = {
     [43493] = {
         name = "Крепость Черной Ладьи: лорд Гребень Ворона",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13191,6 +13234,7 @@ BtWQuests_Quests = {
     [43506] = {
         name = "Крепость Черной Ладьи: больше энергии",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13207,6 +13251,7 @@ BtWQuests_Quests = {
     [43517] = {
         name = "Чаща Темного Сердца: сила Кошмара",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13223,12 +13268,14 @@ BtWQuests_Quests = {
     [43520] = {
         name = "Изумрудный Кошмар: в Кошмаре",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43521] = {
         name = "Сущность Силы",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -13245,12 +13292,14 @@ BtWQuests_Quests = {
     [43524] = {
         name = "Квартал Звезд: само совершенство",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [43525] = {
         name = "Каземат Стражей: одолжить, не спрашивая",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13272,18 +13321,21 @@ BtWQuests_Quests = {
     [43530] = {
         name = "Цитадель Ночи: мания величия",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43531] = {
         name = "В Цитадель Ночи",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43532] = {
         name = "Цитадель Ночи: зов тьмы",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -13355,12 +13407,14 @@ BtWQuests_Quests = {
     [43571] = {
         name = "Логово Нелтариона: ожерелье Короля подземелий",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [43572] = {
         name = "Чаща Темного Сердца: кошмарная плеть",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -13622,24 +13676,28 @@ BtWQuests_Quests = {
     [44074] = {
         name = "Логово Нелтариона: сущность упорства",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44075] = {
         name = "Чертоги Доблести: сущность свирепости",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44076] = {
         name = "Чаща Темного Сердца: сущность восстановления",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44077] = {
         name = "Око Азшары: сущность баланса",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -14440,12 +14498,14 @@ BtWQuests_Quests = {
     [45175] = {
         name = "Призма душ иллидари",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [45176] = {
         name = "Испытание доблести: бывший и будущий владыка теней",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -14657,6 +14717,7 @@ BtWQuests_Quests = {
     [45372] = {
         name = "Судьба ночнорожденных",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -14718,6 +14779,7 @@ BtWQuests_Quests = {
     [45417] = {
         name = "Цитадель Ночи: глава Совета Теней",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -16219,6 +16281,7 @@ BtWQuests_Quests = {
     [47654] = {
         name = "Престол Триумвирата: Венец Познания",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },

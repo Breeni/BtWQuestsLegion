@@ -5853,6 +5853,7 @@ BtWQuests_Quests = {
     [38286] = {
         name = "Occhio di Azshara: Ira di Azshara",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -6139,6 +6140,7 @@ BtWQuests_Quests = {
     [38532] = {
         name = "Fauci delle Anime: A colpi di tempesta",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -6690,6 +6692,7 @@ BtWQuests_Quests = {
     [38961] = {
         name = "Occhio di Azshara: I depravati Esuli Oscuri",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -6711,6 +6714,7 @@ BtWQuests_Quests = {
     [38965] = {
         name = "Assalto alla Fortezza Violacea: Nella fortezza",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -6977,6 +6981,7 @@ BtWQuests_Quests = {
     [39331] = {
         name = "Occhio di Azshara: Tappi per tutte le occasioni",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 102,
         requiredLevel = 102,
     },
@@ -6998,6 +7003,7 @@ BtWQuests_Quests = {
     [39335] = {
         name = "Antro di Neltharion: Polvere potente",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -7029,6 +7035,7 @@ BtWQuests_Quests = {
     [39341] = {
         name = "Segrete delle Custodi: Bile demoniaca",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7040,6 +7047,7 @@ BtWQuests_Quests = {
     [39343] = {
         name = "Segrete delle Custodi: Tubi di Vetro Flessibili",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7066,24 +7074,28 @@ BtWQuests_Quests = {
     [39348] = {
         name = "Sale del Valore: Il primo ingrediente",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39349] = {
         name = "Forte Corvonero: Pesante, ma utile",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39350] = {
         name = "Fauci delle Anime: Una speranza a Helheim",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [39351] = {
         name = "Incubo di Smeraldo: Fuoco furioso",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -7570,6 +7582,7 @@ BtWQuests_Quests = {
     [39781] = {
         name = "Antro di Neltharion",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -7776,6 +7789,7 @@ BtWQuests_Quests = {
     [39882] = {
         name = "Boschetto Cuortetro: L'illusione dissolta",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 104,
         requiredLevel = 104,
     },
@@ -7807,6 +7821,7 @@ BtWQuests_Quests = {
     [39904] = {
         name = "Sale del Valore: La vendetta dell'incantatrice",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -7853,6 +7868,7 @@ BtWQuests_Quests = {
     [39921] = {
         name = "Antro di Neltharion: La Verga di Pietraceleste",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -7934,6 +7950,7 @@ BtWQuests_Quests = {
     [39953] = {
         name = "Sale del Valore: Visioni di valore",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 106,
         requiredLevel = 106,
     },
@@ -8125,6 +8142,7 @@ BtWQuests_Quests = {
     [40072] = {
         name = "Sale del Valore: Mettere al sicuro l'Egida",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -8336,6 +8354,7 @@ BtWQuests_Quests = {
     [40208] = {
         name = "Occhio di Azshara: Scaglie del mare",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -8838,18 +8857,21 @@ BtWQuests_Quests = {
     [40559] = {
         name = "Forte Corvonero: La saggezza del corvo",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40560] = {
         name = "Fauci delle Anime: Alla larga dagli spiriti",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [40561] = {
         name = "Sale del Valore: Gioiello dei cieli",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -8861,6 +8883,7 @@ BtWQuests_Quests = {
     [40567] = {
         name = "Boschetto Cuortetro: All'interno dell'Incubo",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 98,
     },
@@ -8937,6 +8960,7 @@ BtWQuests_Quests = {
     [40613] = {
         name = "Fauci delle Anime: Recuperare lo Scudo di Svaln",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -8948,6 +8972,7 @@ BtWQuests_Quests = {
     [40615] = {
         name = "Sale del Valore: Benedizione di Odyn",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -9034,12 +9059,14 @@ BtWQuests_Quests = {
     [40668] = {
         name = "Occhio di Azshara: Il Cuore di Zin-Azshari",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40672] = {
         name = "Antro di Neltharion: La presentazione è la chiave",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -9051,11 +9078,13 @@ BtWQuests_Quests = {
     [40675] = {
         name = "Arcavia: Il rito del capitano",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [40678] = {
         name = "Potere contorto",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -9391,6 +9420,7 @@ BtWQuests_Quests = {
     [40878] = {
         name = "Assault on Violet Hold: Cheating Death",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 108,
         requiredLevel = 108,
     },
@@ -9412,6 +9442,7 @@ BtWQuests_Quests = {
     [40882] = {
         name = "Corte delle Stelle: Ricalibrare il rinculo",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
@@ -10943,6 +10974,7 @@ BtWQuests_Quests = {
     [42098] = {
         name = "Forte Corvonero: Un'Anima non reclamata",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -11478,6 +11510,7 @@ BtWQuests_Quests = {
     [42432] = {
         name = "Incubo di Smeraldo: L'Incubo di Smeraldo",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -11604,12 +11637,14 @@ BtWQuests_Quests = {
     [42490] = {
         name = "Arcavia: Aprire l'Arcavia",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
     [42491] = {
         name = "Arcavia: Conoscenza perduta",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -11904,6 +11939,7 @@ BtWQuests_Quests = {
     [42654] = {
         name = "Boschetto Cuortetro: Quercia dell'Incubo",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -11975,6 +12011,7 @@ BtWQuests_Quests = {
     [42678] = {
         name = "Forte Corvonero: Nel Forte Corvonero",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -12726,6 +12763,7 @@ BtWQuests_Quests = {
     [43253] = {
         name = "Fauci delle Anime: Antiche leggende dei Vrykul",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -12812,6 +12850,7 @@ BtWQuests_Quests = {
     [43314] = {
         name = "Corte delle Stelle: Guardati dalla furia di un Elfo tranquillo",
         difficulty = "heroic",
+        tagID = QUEST_TAG_DUNGEON,
         level = 113,
         requiredLevel = 110,
     },
@@ -12878,6 +12917,7 @@ BtWQuests_Quests = {
     [43362] = {
         name = "Incubo di Smeraldo: Il contenuto dei sogni",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -13123,6 +13163,7 @@ BtWQuests_Quests = {
     },
     [43479] = {
         name = "Il mondo non basta",
+        tagID = QUEST_TAG_GROUP,
         level = -1,
         requiredLevel = 110,
     },
@@ -13139,6 +13180,7 @@ BtWQuests_Quests = {
     [43487] = {
         name = "Assalto alla Fortezza Violacea: Il Vildizionario",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -13170,6 +13212,7 @@ BtWQuests_Quests = {
     [43493] = {
         name = "Forte Corvonero: Ser Crinocorvo",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13191,6 +13234,7 @@ BtWQuests_Quests = {
     [43506] = {
         name = "Forte Corvonero: Sete di Potere",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13207,6 +13251,7 @@ BtWQuests_Quests = {
     [43517] = {
         name = "Boschetto Cuortetro: Potere corrotto",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13223,12 +13268,14 @@ BtWQuests_Quests = {
     [43520] = {
         name = "Incubo di Smeraldo: Nell'Incubo",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43521] = {
         name = "L'essenza del potere",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -13245,12 +13292,14 @@ BtWQuests_Quests = {
     [43524] = {
         name = "Corte delle Stelle: Perfezione letteraria",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
     [43525] = {
         name = "Segrete delle Custodi: Prendere in prestito senza chiedere",
         difficulty = "mythic",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 110,
     },
@@ -13272,18 +13321,21 @@ BtWQuests_Quests = {
     [43530] = {
         name = "Rocca della Notte: Manie di Grandezza",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43531] = {
         name = "Nella Rocca della Notte",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
     [43532] = {
         name = "Rocca della Notte: Richiamo dell'Oscurità",
         difficulty = "normal",
+        tagID = QUEST_TAG_RAID,
         level = -1,
         requiredLevel = 110,
     },
@@ -13355,12 +13407,14 @@ BtWQuests_Quests = {
     [43571] = {
         name = "Antro di Neltharion: Treccia del Re delle Profondità",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [43572] = {
         name = "Boschetto Cuortetro: La Frusta dell'Incubo",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -13622,24 +13676,28 @@ BtWQuests_Quests = {
     [44074] = {
         name = "Antro di Neltharion: Essenza della Tenacia",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44075] = {
         name = "Sale del Valore: Essenza della Ferocia",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44076] = {
         name = "Boschetto Cuorcupo: Essenza della Ricrescita",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
     [44077] = {
         name = "Occhio di Azshara: Essenza dell'Equilibrio",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = -1,
         requiredLevel = 103,
     },
@@ -14440,12 +14498,14 @@ BtWQuests_Quests = {
     [45175] = {
         name = "Prisma dell'Anima degli Illidari",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
     [45176] = {
         name = "Prova del Valore: Il vecchio e futuro Signore delle Ombre",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -14657,6 +14717,7 @@ BtWQuests_Quests = {
     [45372] = {
         name = "Il destino dei Nobili Oscuri",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -14718,6 +14779,7 @@ BtWQuests_Quests = {
     [45417] = {
         name = "Rocca della Notte: Il Signore del Concilio dell'Ombra",
         difficulty = "lfr",
+        tagID = QUEST_TAG_RAID,
         level = 110,
         requiredLevel = 110,
     },
@@ -16219,6 +16281,7 @@ BtWQuests_Quests = {
     [47654] = {
         name = "Seggio del Triumvirato: l'Emblema della Conoscenza",
         difficulty = "normal",
+        tagID = QUEST_TAG_DUNGEON,
         level = 110,
         requiredLevel = 110,
     },
