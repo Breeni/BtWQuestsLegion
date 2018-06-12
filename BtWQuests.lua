@@ -791,7 +791,7 @@ local function BtWQuests_GetCategoryItem(item)
         end
         
         -- userdata.name = userdata.name or name
-        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(category.name, category))
+        userdata.link = userdata.link or format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(category.name, category))
     else
         assert(false, "Invalid item type: " .. item.type)
     end
@@ -1738,9 +1738,9 @@ function BtWQuests_DisplayChain(scrollTo)
             itemButton.name:SetAlpha(1)
             itemButton.ForgottenAnim:Stop()
             
-            if ( tagID ) then
+            if tagID then
                 local tagCoords = QUEST_TAG_TCOORDS[tagID];
-                if( tagCoords ) then
+                if tagCoords then
                     itemButton.TagTexture:SetTexCoord( unpack(tagCoords) );
                     itemButton.TagTexture:Show();
             
@@ -2235,7 +2235,7 @@ function BtWQuestsTooltip_SetChain(chainID)
     local actualNumPrerequisites = numPrerequisites
     local i = 1
 	for index = 1, numPrerequisites do
-		local name, visible, skip, completed = BtWQuests_GetChainPrerequisiteByID(chainID, index);
+        local name, visible, skip, completed = BtWQuests_GetChainPrerequisiteByID(chainID, index);
         if not visible or skip then
             actualNumPrerequisites = actualNumPrerequisites - 1
         else
