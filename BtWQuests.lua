@@ -733,8 +733,9 @@ local function BtWQuests_GetCategoryItem(item)
             end
         end
         onEnter = onEnter or function (self)
-            BtWQuestsTooltip_AnchorTo(self)
-            BtWQuestsTooltip_SetChain(self.id)
+            BtWQuestsTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT")
+            BtWQuestsTooltip:SetOwner(self, "ANCHOR_PRESERVE");
+            BtWQuestsTooltip:SetChain(self.id)
         end
         onLeave = onLeave or function (self)
             BtWQuestsTooltip:Hide();
@@ -1062,12 +1063,12 @@ function BtWQuests_EvalChainItem(item)
                 BtWQuestsTooltip:Hide();
             end
             onEnter = onEnter or function (self)
-                BtWQuestsTooltip_AnchorTo(self)
-                BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
+                BtWQuestsTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT")
+                BtWQuestsTooltip:SetOwner(self, "ANCHOR_PRESERVE");
+                BtWQuestsTooltip:SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
             end
             onLeave = onLeave or function (self)
-                BtWQuestsTooltip:Hide();
-                GameTooltip:Hide()
+                BtWQuestsTooltip:Hide()
             end
         end
         
@@ -1132,12 +1133,12 @@ function BtWQuests_EvalChainItem(item)
             end
         end
         onEnter = onEnter or function (self)
-            BtWQuestsTooltip_AnchorTo(self)
-            BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
+            BtWQuestsTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT")
+            BtWQuestsTooltip:SetOwner(self, "ANCHOR_PRESERVE");
+            BtWQuestsTooltip:SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
         end
         onLeave = onLeave or function (self)
             BtWQuestsTooltip:Hide();
-            GameTooltip:Hide()
         end
         
         userdata.link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(chain.name, chain))
@@ -1173,12 +1174,12 @@ function BtWQuests_EvalChainItem(item)
             end
         end
         onEnter = onEnter or function (self)
-            BtWQuestsTooltip_AnchorTo(self)
-            BtWQuestsTooltip_SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
+            BtWQuestsTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT")
+            BtWQuestsTooltip:SetOwner(self, "ANCHOR_PRESERVE");
+            BtWQuestsTooltip:SetHyperlink(self.userdata.tooltipLink or self.userdata.link)
         end
         onLeave = onLeave or function (self)
             BtWQuestsTooltip:Hide();
-            GameTooltip:Hide()
         end
         
         userdata.link = format("\124cffffff00\124Hbtwquests:category:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(category.name, category))
@@ -2008,243 +2009,102 @@ function BtWQuests_UpdateCurrentChain(scroll)
 end
 
 -- [[ Tooltip ]]
-function BtWQuestsTooltip_SetHyperlink(link)
-    local self = BtWQuestsTooltip
+BtWQuestsTooltipMixin = {}
+function BtWQuestsTooltipMixin:SetChain(chainID)
+    local chainID = tonumber(chainID)
     
+    local _, name, _, _, _, _, numPrerequisites = BtWQuests_GetChainByID(chainID)
+    
+    self:ClearLines()
+    self:AddDoubleLine(name)
+    
+    if BtWQuests_IsChainActive(chainID) then
+        self:AddLine(BTWQUESTS_QUEST_CHAIN_ACTIVE)
+    end
+    
+    local addedPrerequisite
+    local i = 1
+	for index = 1, numPrerequisites do
+        local name, visible, skip, completed = BtWQuests_GetChainPrerequisiteByID(chainID, index);
+        if visible and not skip then
+            if not addedPrerequisite then
+                self:AddLine(" ")
+                self:AddLine(BTWQUESTS_TOOLTIP_PREREQUISITES)
+                addedPrerequisite = true
+            end
+
+            if completed then
+                self:AddLine(" - " .. name, 0.5, 0.5, 0.5)
+            else
+                self:AddLine(" - " .. name, 1, 1, 1)
+            end
+        end
+	end
+    
+    self:Show();
+end
+
+-- Custom function for displaying an active quest showing completed requirements
+function BtWQuestsTooltipMixin:SetActiveQuest(questID)
+    local questID = tonumber(questID)
+    
+    local _, name = BtWQuests_GetQuestByID(questID)
+    local questLogIndex = GetQuestLogIndexByID(questID)
+    local _, objectiveText = GetQuestLogQuestText(questLogIndex);
+    
+    self:ClearLines()
+    self:AddDoubleLine(name)
+    
+    self:AddLine(GREEN_FONT_COLOR_CODE..QUEST_TOOLTIP_ACTIVE..FONT_COLOR_CODE_CLOSE)
+
+    if objectiveText then
+        self:AddLine(" ")
+        self:AddLine(objectiveText, 1, 1, 1)
+    end
+    
+    local requiredMoney = GetQuestLogRequiredMoney(questLogIndex);
+    local numRequirements = GetNumQuestLeaderBoards(questLogIndex);
+
+    local addedTitle
+	for index = 1,numRequirements do
+        local name, _, completed = GetQuestLogLeaderBoard(index, questLogIndex);
+        if name then
+            if not addedTitle then
+                self:AddLine(" ")
+                self:AddLine(QUEST_TOOLTIP_REQUIREMENTS)
+                addedTitle = true
+            end
+
+            if completed then
+                self:AddLine(" - " .. name, 0.5, 0.5, 0.5)
+            else
+                self:AddLine(" - " .. name, 1, 1, 1)
+            end
+        end
+    end
+    
+    self:Show();
+end
+
+function BtWQuestsTooltipMixin:SetHyperlink(link)
     local _, _, color, type, text, name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]+):([^|]+)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
     
-    -- assert(type == "quest" or type == "btwquests")
-    
-    if type == "quest" then
-        local _, _, id = string.find(text, "^(%d+):")
-        
-       BtWQuestsTooltip_SetQuest(id)
+    if type == "quest" and BtWQuests_CharacterIsPlayer then
+        local _, _, id = string.find(text, "^(%d+)")
+        if GetQuestLogIndexByID(id) > 0 then
+            self:SetActiveQuest(id)
+        else
+            GameTooltip.SetHyperlink(self, link)
+        end
     elseif type == "btwquests" then
         local _, _, subtype, id = string.find(text, "^([^:]*):(%d+)")
         
         assert(subtype == "chain")
         
-        BtWQuestsTooltip_SetChain(id) 
+        self:SetChain(id)
     else
-        GameTooltip:ClearAllPoints();
-        
-        local point, relativeTo, relativePoint, x, y = BtWQuestsTooltip:GetPoint()
-        GameTooltip:SetPoint(point, relativeTo, relativePoint, x, y);
-        
-        GameTooltip:SetOwner(relativeTo, "ANCHOR_PRESERVE");
-        GameTooltip:SetHyperlink(link)
+        GameTooltip.SetHyperlink(self, link)
     end
-end
-
-function BtWQuestsTooltip_AnchorTo(anchorTo)
-    local self = BtWQuestsTooltip
-    
-	self:ClearAllPoints();
-	local tooltipWidth = self:GetWidth();
-	if ( tooltipWidth > UIParent:GetRight() - anchorTo:GetRight() ) then
-		self:SetPoint("TOPRIGHT", anchorTo, "TOPLEFT", -5, 0);
-	else
-		self:SetPoint("TOPLEFT", anchorTo, "TOPRIGHT", 0, 0);
-	end
-end
-
-function BtWQuestsTooltip_SetQuest(questID)
-    local questID = tonumber(questID)
-    
-    local tooltip = BtWQuestsTooltip
-    
-    local _, name, link = BtWQuests_GetQuestByID(questID)
-    local questLogIndex = GetQuestLogIndexByID(questID)
-    if questLogIndex > 0 then
-        local name, level = GetQuestLogTitle(questLogIndex);
-        
-        local maxWidth = 0;
-        local totalHeight = 0;
-        
-        tooltip.Title:SetText(name);
-        totalHeight = totalHeight + tooltip.Title:GetHeight();
-        maxWidth = tooltip.Title:GetWidth();
-        
-        -- Clear out old criteria
-        for i = 1, #tooltip.Lines do
-            tooltip.Lines[i]:Hide();
-        end
-        for _, checkMark in pairs(tooltip.CheckMarks) do
-            checkMark:Hide();
-        end
-        
-        local _, objectiveText = GetQuestLogQuestText(questLogIndex);
-
-        tooltip.CompletedLabel:Hide();
-        
-		tooltip.ProgressLabel:SetPoint("TOPLEFT", tooltip.Description, "BOTTOMLEFT", 0, -11)
-        
-		local requiredMoney = GetQuestLogRequiredMoney(questLogIndex);
-		local numRequirements = GetNumQuestLeaderBoards(questLogIndex);
-        local actualNumRequirements = numRequirements
-		for i = 1, numRequirements do
-			local name, _, completed = GetQuestLogLeaderBoard(i, questLogIndex);
-			if ( name ) then
-                if ( not tooltip.Lines[i] ) then
-                    local fontString = tooltip:CreateFontString(nil, "ARTWORK", "GameFontHighlight");
-                    fontString:SetPoint("TOP", tooltip.Lines[i-1], "BOTTOM", 0, -6);
-                    tooltip.Lines[i] = fontString;
-                end
-                if ( completed ) then
-                    tooltip.Lines[i]:SetText(GREEN_FONT_COLOR_CODE..name..FONT_COLOR_CODE_CLOSE);
-                    tooltip.Lines[i]:SetPoint("LEFT", 30, 0);
-                    if ( not tooltip.CheckMarks[i] ) then
-                        local texture = tooltip:CreateTexture(nil, "ARTWORK", "GreenCheckMarkTemplate");
-                        texture:ClearAllPoints();
-                        texture:SetPoint("RIGHT", tooltip.Lines[i], "LEFT", -4, -1);
-                        tooltip.CheckMarks[i] = texture;
-                    end
-                    tooltip.CheckMarks[i]:Show();
-                    maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth() + 20);
-                else
-                    tooltip.Lines[i]:SetText(name);
-                    tooltip.Lines[i]:SetPoint("LEFT", 10, 0);
-                    if ( tooltip.CheckMarks[i] ) then
-                        tooltip.CheckMarks[i]:Hide();
-                    end
-                    maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth());
-                end
-                tooltip.Lines[i]:Show();
-                totalHeight = totalHeight + tooltip.Lines[i]:GetHeight() + 6;
-			end
-		end
-		-- if ( requiredMoney > 0 ) then
-            -- actualNumRequirements = actualNumRequirements + 1
-            
-			-- local playerMoney = GetMoney();
-			-- local color = HIGHLIGHT_FONT_COLOR;
-			-- if ( requiredMoney <= playerMoney ) then
-				-- playerMoney = requiredMoney;
-				-- color = GRAY_FONT_COLOR;
-			-- end
-			-- GameTooltip:AddLine(QUEST_DASH..GetMoneyString(playerMoney).." / "..GetMoneyString(requiredMoney), color.r, color.g, color.b);
-			-- needsSeparator = true;
-		-- end
-    
-        if actualNumRequirements > 0 then
-            tooltip.ProgressLabel:Show()
-            maxWidth = max(maxWidth, tooltip.ProgressLabel:GetWidth());
-            totalHeight = totalHeight + tooltip.ProgressLabel:GetHeight() + 10;
-        else
-            tooltip.ProgressLabel:Hide()
-        end
-    
-        local tooltipWidth = max(240, maxWidth + 20);
-        
-        
-		tooltip.Description:SetPoint("TOPLEFT", tooltip.Title, "BOTTOMLEFT", 0, -11)
-		tooltip.Description:SetWidth(tooltipWidth - 20)
-        tooltip.Description:SetText(objectiveText)
-        tooltip.Description:Show();
-        totalHeight = totalHeight + tooltip.Description:GetHeight() + 11;
-        
-        tooltip:SetSize(tooltipWidth, totalHeight + 20);
-        tooltip:Show();
-    
-    else
-        GameTooltip:ClearAllPoints();
-        
-        local point, relativeTo, relativePoint, x, y = tooltip:GetPoint()
-        GameTooltip:SetPoint(point, relativeTo, relativePoint, x, y);
-        
-        GameTooltip:SetOwner(relativeTo, "ANCHOR_PRESERVE");
-        
-        GameTooltip:SetHyperlink(link)
-    end
-end
-
-function BtWQuestsTooltip_SetChain(chainID)
-    local chainID = tonumber(chainID)
-    
-    local tooltip = BtWQuestsTooltip
-    local _, name, _, _, _, _, numPrerequisites = BtWQuests_GetChainByID(chainID)
-    local completed = BtWQuests_IsChainCompleted(chainID)
-    
-	local maxWidth = 0;
-	local totalHeight = 0;
-    
-	tooltip.Title:SetText(name);
-	totalHeight = totalHeight + tooltip.Title:GetHeight();
-	maxWidth = tooltip.Title:GetWidth();
-    
-	-- Clear out old criteria
-	for i = 1, #tooltip.Lines do
-		tooltip.Lines[i]:Hide();
-	end
-	for _, checkMark in pairs(tooltip.CheckMarks) do
-		checkMark:Hide();
-	end
-    
-    if completed then
-        tooltip.ProgressLabel:SetPoint("TOPLEFT", tooltip.CompletedLabel, "BOTTOMLEFT", 0, -11)
-        tooltip.CompletedLabel:Show();
-        totalHeight = totalHeight + tooltip.CompletedLabel:GetHeight() + 11;
-        maxWidth = max(maxWidth, tooltip.CompletedLabel:GetWidth() + 20);
-    else
-		tooltip.ProgressLabel:SetPoint("TOPLEFT", tooltip.Title, "BOTTOMLEFT", 0, -11)
-        tooltip.CompletedLabel:Hide();
-    end
-        
-    tooltip.Description:Hide();
-    
-    local actualNumPrerequisites = numPrerequisites
-    local i = 1
-	for index = 1, numPrerequisites do
-        local name, visible, skip, completed = BtWQuests_GetChainPrerequisiteByID(chainID, index);
-        if not visible or skip then
-            actualNumPrerequisites = actualNumPrerequisites - 1
-        else
-            if ( not tooltip.Lines[i] ) then
-                local fontString = tooltip:CreateFontString(nil, "ARTWORK", "GameFontHighlight");
-                fontString:SetPoint("TOP", tooltip.Lines[i-1], "BOTTOM", 0, -6);
-                tooltip.Lines[i] = fontString;
-            end
-            if ( completed ) then
-                tooltip.Lines[i]:SetText(GREEN_FONT_COLOR_CODE..name..FONT_COLOR_CODE_CLOSE);
-                tooltip.Lines[i]:SetPoint("LEFT", 30, 0);
-                if ( not tooltip.CheckMarks[i] ) then
-                    local texture = tooltip:CreateTexture(nil, "ARTWORK", "GreenCheckMarkTemplate");
-                    texture:ClearAllPoints();
-                    texture:SetPoint("RIGHT", tooltip.Lines[i], "LEFT", -4, -1);
-                    tooltip.CheckMarks[i] = texture;
-                end
-                tooltip.CheckMarks[i]:Show();
-                maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth() + 20);
-            else
-                tooltip.Lines[i]:SetText(name);
-                tooltip.Lines[i]:SetPoint("LEFT", 10, 0);
-                if ( tooltip.CheckMarks[i] ) then
-                    tooltip.CheckMarks[i]:Hide();
-                end
-                maxWidth = max(maxWidth, tooltip.Lines[i]:GetWidth());
-            end
-            tooltip.Lines[i]:Show();
-            totalHeight = totalHeight + tooltip.Lines[i]:GetHeight() + 6;
-
-            i = i + 1
-        end
-	end
-    
-    if actualNumPrerequisites > 0 then
-        tooltip.ProgressLabel:Show()
-        maxWidth = max(maxWidth, tooltip.ProgressLabel:GetWidth());
-        totalHeight = totalHeight + tooltip.ProgressLabel:GetHeight() + 10;
-    else
-        tooltip.ProgressLabel:Hide()
-    end
-    
-	-- tooltip.ProgressCount:SetFormattedText(BTWQUESTS_REQUIREMENTS, completedRequirements, actualNumRequirements);
-	-- maxWidth = max(maxWidth, tooltip.ProgressLabel:GetWidth(), tooltip.ProgressCount:GetWidth());
-	-- totalHeight = totalHeight + tooltip.ProgressLabel:GetHeight() + tooltip.ProgressCount:GetHeight();
-    
-	local tooltipWidth = max(240, maxWidth + 20);
-	tooltip:SetSize(tooltipWidth, totalHeight + 20);
-    tooltip:Show();
 end
 
 
