@@ -1697,12 +1697,6 @@ function BtWQuests_DisplayCurrentChain(scrollTo)
         
         local itemButton = BtWQuests.chainItemPool:Acquire();
         buttons[index] = itemButton
-        -- local itemButton = scrollFrame["item"..index];
-        -- if not itemButton then -- create button
-        --     itemButton = CreateFrame("BUTTON", scrollFrame:GetParent():GetName().."Item"..index, scrollFrame, "BtWQuestsChainItemButtonTemplate");
-
-        --     scrollFrame["item"..index] = itemButton;
-        -- end
         
         itemButton.skip = skip
         if skip then
@@ -1865,19 +1859,6 @@ function BtWQuests_DisplayCurrentChain(scrollTo)
             itemButton:SetShown(visible);
         end
     end
-    
-    -- local index = numItems + 1
-    -- itemButton = scrollFrame["item"..index];
-    -- while itemButton do
-    --     itemButton:Hide()
-        
-    --     if itemButton.backgroundLinePool then
-    --         itemButton.backgroundLinePool:ReleaseAll();
-    --     end
-        
-	-- 	index = index + 1;
-    --     itemButton = scrollFrame["item"..index];
-    -- end
     
     local temp = numItems
     while temp > 0 and not buttons[temp]:IsShown() do
