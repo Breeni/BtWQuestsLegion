@@ -4,12 +4,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PALADIN_PALS] = {
     name = GetAchievementCriteriaInfo(4892, 1),
     category = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        {
-            type = "faction",
-            id = BTWQUESTS_FACTION_ID_ALLIANCE,
-        },
-    },
     prerequisites = {
         {
             type = "level",
@@ -23,17 +17,67 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PALADIN_PALS] = {
     range = {40,60},
     items = {
         {
-            {
-                name = "Go to Fiona",
-                breadcrumb = true,
-                onClick = function ()
-                    BtWQuests_ShowMapWithWaypoint(23, 0, 0.0902, 0.6652, "Fiona")
-                end,
-                x = 3,
-                y = 0,
-                connections = {
-                    1, 2,
+            variations = {
+                {
+                    type = "quest",
+                    id = 27683,
+                    restrictions = {
+                        type = "quest",
+                        id = 27683,
+                        status = {'active', 'completed'}
+                    },
                 },
+                {
+                    type = "quest",
+                    id = 27684,
+                    restrictions = {
+                        type = "quest",
+                        id = 27684,
+                        status = {'active', 'completed'}
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 28577,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 28577,
+                            status = {'active', 'completed'}
+                        },
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        }
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 28578,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 28578,
+                            status = {'active', 'completed'}
+                        },
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        }
+                    },
+                },
+                {
+                    name = "Go to Fiona",
+                    breadcrumb = true,
+                    onClick = function ()
+                        BtWQuests_ShowMapWithWaypoint(23, 0, 0.0902, 0.6652, "Fiona")
+                    end,
+                }
+            },
+            x = 3,
+            y = 0,
+            connections = {
+                1, 2,
             },
         },
         {
@@ -95,11 +139,22 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PALADIN_PALS] = {
             id = 27373,
             x = 3,
             y = 4,
+            connections = {
+                1,
+            }
         },
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH,
             aside = true,
+            active = {
+                type = "quest",
+                id = 27373,
+            },
+            completed = {
+                type = "quest",
+                id = 27448,
+            },
             x = 3,
             y = 5,
         },
@@ -109,12 +164,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH] = {
     name = GetAchievementCriteriaInfo(4892, 2),
     category = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        {
-            type = "faction",
-            id = BTWQUESTS_FACTION_ID_ALLIANCE,
-        },
-    },
     prerequisites = {
         {
             type = "level",
@@ -130,6 +179,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH] = {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PALADIN_PALS,
+            aside = true,
             x = 1,
             y = 0,
             connections = {
@@ -163,6 +213,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH] = {
         {
             type = "quest",
             id = 27381,
+            aside = true,
             x = 0,
             y = 1,
             connections = {
@@ -172,6 +223,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH] = {
         {
             type = "quest",
             id = 27382,
+            aside = true,
             x = 2,
             y = 1,
             connections = {
@@ -197,8 +249,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH] = {
         {
             type = "quest",
             id = 27448,
+            aside = true,
             x = 1,
             y = 2,
+            connections = {
+                3,
+            },
         },
         {
             type = "quest",
@@ -206,7 +262,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH] = {
             x = 3,
             y = 2,
             connections = {
-                2,
+                3,
             },
         },
         {
@@ -215,8 +271,19 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH] = {
             x = 5,
             y = 2,
             connections = {
-                1,
+                2,
             },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_LIGHTS_SHIELD_TOWER,
+            aside = true,
+            active = {
+                type = "quest",
+                id = 27448,
+            },
+            x = 1,
+            y = 3,
         },
         {
             type = "quest",
@@ -309,12 +376,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_LIGHTS_SHIELD_TOWER
     name = "Light's Shield Tower",
     category = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        {
-            type = "faction",
-            id = BTWQUESTS_FACTION_ID_ALLIANCE,
-        },
-    },
     prerequisites = {
         {
             type = "level",
@@ -328,8 +389,16 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_LIGHTS_SHIELD_TOWER
     range = {40,60},
     items = {
         {
-            type = "quest",
-            id = 27448,
+            type = "chain",
+            id = BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_REDPATH,
+            active = {
+                type = "quest",
+                id = 27373,
+            },
+            completed = {
+                type = "quest",
+                id = 27448,
+            },
             x = 0,
             y = 0,
             connections = {
@@ -426,12 +495,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_LIGHTS_HOPE_CHAPEL]
     name = "Light's Hope Chapel",
     category = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        {
-            type = "faction",
-            id = BTWQUESTS_FACTION_ID_ALLIANCE,
-        },
-    },
     prerequisites = {
         {
             type = "level",
@@ -578,12 +641,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_TYRS_HAND] = {
     name = GetAchievementCriteriaInfo(4892, 3),
     category = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        {
-            type = "faction",
-            id = BTWQUESTS_FACTION_ID_ALLIANCE,
-        },
-    },
     prerequisites = {
         {
             type = "level",
@@ -733,12 +790,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_CRUSADE] = {
     name = GetAchievementCriteriaInfo(4892, 4),
     category = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        {
-            type = "faction",
-            id = BTWQUESTS_FACTION_ID_ALLIANCE,
-        },
-    },
     prerequisites = {
         {
             type = "level",
@@ -854,12 +905,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_JOURNEYS_END] = {
     name = GetAchievementCriteriaInfo(4892, 5),
     category = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        {
-            type = "faction",
-            id = BTWQUESTS_FACTION_ID_ALLIANCE,
-        },
-    },
     prerequisites = {
         {
             type = "level",
@@ -1036,22 +1081,26 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PLAGUEWOOD] = {
     name = "Plaguewood Tower",
     category = BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS,
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        {
-            type = "faction",
-            id = BTWQUESTS_FACTION_ID_ALLIANCE,
-        },
-    },
     prerequisites = {
         {
             type = "level",
             level = 40,
         },
     },
-    -- completed = {
-    --     type = "quest",
-    --     id = 27489,
-    -- },
+    completed = {
+        {
+            type = "quest",
+            id = 27531,
+        },
+        {
+            type = "quest",
+            id = 27533,
+        },
+        {
+            type = "quest",
+            id = 27534,
+        },
+    },
     range = {40,60},
     items = {
         {
@@ -1137,10 +1186,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_CLASSIC_EASTERN_PLAGUELANDS_PLAGUEWOOD] = {
 BtWQuests_Categories[BTWQUESTS_CATEGORY_CLASSIC_EASTERN_PLAGUELANDS] = {
     name = GetMapNameByID(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_CLASSIC,
-    restrictions = {
-        type = "faction",
-        id = BTWQUESTS_FACTION_ID_ALLIANCE,
-    },
     items = {
         {
             type = "chain",

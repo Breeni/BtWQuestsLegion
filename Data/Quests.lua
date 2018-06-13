@@ -16949,4 +16949,24 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+	[27683] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Into the Woods",
+	},
+	[27684] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Visitors",
+	},
+	[28577] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Warchief's Command: Eastern Plaguelands!",
+	},
+	[28578] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Hero's Call: Eastern Plaguelands!",
+	},
 }
