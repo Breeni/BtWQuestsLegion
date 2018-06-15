@@ -522,7 +522,7 @@ BtWQuests_GetItemName = function (item)
     elseif item.type == "chain" then
         return BtWQuests_GetItemName(BtWQuests_Chains[item.id])
     elseif item.type == "category" then
-        return BtWQuests_GetItemName(BtWQuests_Category[item.id])
+        return BtWQuests_GetItemName(BtWQuests_Categories[item.id])
     elseif item.type == "mission" then
         return BtWQuests_GetItemName(BtWQuests_Missions[item.id])
     elseif item.type == "level" then
@@ -651,7 +651,7 @@ function BtWQuests_GetCategoryName(categoryID)
         return nil
     end
     
-    local category = BtWQuests_Category[categoryID]
+    local category = BtWQuests_Categories[categoryID]
     if not category then
         return nil
     end
@@ -1142,7 +1142,7 @@ function BtWQuests_EvalChainItem(item)
         
         userdata.link = format("\124cffffff00\124Hbtwquests:chain:%s\124h[%s]\124h\124r", item.id, BtWQuests_EvalText(chain.name, chain))
     elseif item.type == "category" then
-        local category = BtWQuests_Category[item.id] or {}
+        local category = BtWQuests_Categories[item.id] or {}
         
         if skip == nil and category.restrictions then
             skip = not BtWQuests_EvalRequirement(category.restrictions, chain)
