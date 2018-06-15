@@ -180,6 +180,8 @@ function BtWQuests_SelectFromLink(link, scrollTo)
     
     if type == "quest" then
         local _, _, id = string.find(text, "^(%d+):")
+
+        id = tonumber(id)
         
         local questLogIndex = GetQuestLogIndexByID(id);
         if questLogIndex > 0 then
