@@ -51,7 +51,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER] = {
                 },
                 {
                     type = "quest",
-                    ids = {43501, 43503},
+                    ids = {43501, 43505},
                 },
             },
             x = 2.75,
