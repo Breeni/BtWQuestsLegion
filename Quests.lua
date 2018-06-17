@@ -11414,4 +11414,29 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+	[43501] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Power Within",
+	},
+	[43503] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Power Within",
+	},
+	[42966] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Highlord's Command",
+	},
+	[38675] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Heart of the Nightmare",
+	},
+	[43505] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Power Within",
+	},
 }
