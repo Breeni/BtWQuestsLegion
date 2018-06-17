@@ -428,10 +428,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN] = {
                 1
             },
         },
-        {
+        { -- @TODO have different tooltips, not sure where it decides which to do
             type = "quest",
-            id = 42885,
-            alternatives = {42966, 42967, 42968},
+            ids = {42885, 42966, 42967, 42968},
             x = 3,
             y = 15,
             connections = {

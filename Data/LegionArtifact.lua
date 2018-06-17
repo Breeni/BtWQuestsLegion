@@ -31,8 +31,29 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER] = {
     buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-BalanceofPower",
     items = {
         {
-            type = "quest",
-            id = 43496,
+            variations = {
+                {
+                    type = "quest",
+                    ids = {43496, 43503},
+                    restrictions = {
+                        type = "chain",
+                        id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE,
+                    },
+                },
+                {
+                    type = "quest",
+                    ids = {43496, 43503},
+                    restrictions = {
+                        type = "quest",
+                        ids = {43496, 43503},
+                        status = {'active'}
+                    },
+                },
+                {
+                    type = "quest",
+                    ids = {43501, 43503},
+                },
+            },
             x = 2.75,
             y = 0,
             connections = {
