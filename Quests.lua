@@ -11439,4 +11439,49 @@ BtWQuests_Quests = {
 		["level"] = 110,
 		["name"] = "The Power Within",
 	},
+	[50055] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Speaker's Perspective",
+	},
+	[50364] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Blood of Azeroth",
+	},
+	[50230] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Source of Power",
+	},
+	[50358] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Desert Research",
+	},
+	[50231] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Larvae By The Dozen",
+	},
+	[50232] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "The Twilight Survivor",
+	},
+	[50360] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Khadgar's Request",
+	},
+	[50053] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "Lazy Prospectors!",
+	},
+	[50052] = {
+		["requiredLevel"] = 110,
+		["level"] = 110,
+		["name"] = "No Spies Allowed",
+	},
 }
