@@ -6444,6 +6444,11 @@ BtWQuests_Quests = {
         level = 100,
         requiredLevel = 98,
     },
+    [38675] = {
+        name = "악몽의 심장부",
+        level = -1,
+        requiredLevel = 98,
+    },
     [38684] = {
         name = "꽃잎 읽기",
         level = -1,
@@ -12750,6 +12755,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [42966] = {
+        name = "대영주의 명령",
+        level = -1,
+        requiredLevel = 101,
+    },
     [42967] = {
         name = "대영주의 명령",
         level = -1,
@@ -13371,9 +13381,24 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [43501] = {
+        name = "잠재된 힘",
+        level = -1,
+        requiredLevel = 110,
+    },
     [43502] = {
         name = "계절의 변화",
         level = 110,
+        requiredLevel = 110,
+    },
+    [43503] = {
+        name = "잠재된 힘",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43505] = {
+        name = "잠재된 힘",
+        level = -1,
         requiredLevel = 110,
     },
     [43506] = {
@@ -16900,6 +16925,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50052] = {
+        name = "첩자는 용납할 수 없다",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50053] = {
+        name = "게으른 발굴조사단원!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50055] = {
+        name = "대변자의 관점",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "빛을 위하여!",
         level = 110,
@@ -16925,6 +16965,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50230] = {
+        name = "힘의 근원",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50231] = {
+        name = "애벌레 한가득",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50232] = {
+        name = "황혼 생존자",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50247] = {
         name = "우편은 계속 배달되어야 한다",
         level = 110,
@@ -16932,6 +16987,21 @@ BtWQuests_Quests = {
     },
     [50341] = {
         name = "최근의 발견",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50358] = {
+        name = "사막 연구",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50360] = {
+        name = "카드가의 부탁",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50364] = {
+        name = "아제로스의 피",
         level = 110,
         requiredLevel = 110,
     },

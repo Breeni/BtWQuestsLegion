@@ -598,9 +598,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG] = {
                 1
             },
         },
-        {
+        { -- One is horde and other alliance but same tooltip so who cares
             type = "quest",
-            id = 41724,
+            ids = {38675, 41724},
             x = 3,
             y = 4,
             connections = {
@@ -716,7 +716,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK] = {
                 3
             },
         },
-        {
+        { -- @TODO Alternative? 39149
             type = "quest",
             id = 38643,
             x = 3,

@@ -6444,6 +6444,11 @@ BtWQuests_Quests = {
         level = 100,
         requiredLevel = 98,
     },
+    [38675] = {
+        name = "夢魘之心",
+        level = -1,
+        requiredLevel = 98,
+    },
     [38684] = {
         name = "解讀葉片",
         level = -1,
@@ -12750,6 +12755,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [42966] = {
+        name = "大領主的命令",
+        level = -1,
+        requiredLevel = 101,
+    },
     [42967] = {
         name = "大領主的命令",
         level = -1,
@@ -13371,9 +13381,24 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [43501] = {
+        name = "隱藏的力量",
+        level = -1,
+        requiredLevel = 110,
+    },
     [43502] = {
         name = "季節更迭",
         level = 110,
+        requiredLevel = 110,
+    },
+    [43503] = {
+        name = "隱藏的力量",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43505] = {
+        name = "隱藏的力量",
+        level = -1,
         requiredLevel = 110,
     },
     [43506] = {
@@ -16900,6 +16925,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50052] = {
+        name = "間諜殺無赦",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50053] = {
+        name = "怠惰的勘查員！",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50055] = {
+        name = "代言者的看法",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "為了聖光！",
         level = 110,
@@ -16925,6 +16965,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50230] = {
+        name = "力量之源",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50231] = {
+        name = "幼蟲一籮筐",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50232] = {
+        name = "暮光倖存者",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50247] = {
         name = "克服萬難，郵件必達",
         level = 110,
@@ -16932,6 +16987,21 @@ BtWQuests_Quests = {
     },
     [50341] = {
         name = "最新的發現",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50358] = {
+        name = "沙漠研究",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50360] = {
+        name = "卡德加的請求",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50364] = {
+        name = "艾澤拉斯之血",
         level = 110,
         requiredLevel = 110,
     },

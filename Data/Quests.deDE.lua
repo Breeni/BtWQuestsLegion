@@ -6444,6 +6444,11 @@ BtWQuests_Quests = {
         level = 100,
         requiredLevel = 98,
     },
+    [38675] = {
+        name = "Das Herz des Alptraums",
+        level = -1,
+        requiredLevel = 98,
+    },
     [38684] = {
         name = "Die Weisheit der Blätter",
         level = -1,
@@ -12750,6 +12755,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [42966] = {
+        name = "Der Befehl des Hochlords",
+        level = -1,
+        requiredLevel = 101,
+    },
     [42967] = {
         name = "Der Befehl des Hochlords",
         level = -1,
@@ -13371,9 +13381,24 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [43501] = {
+        name = "Die innere Macht",
+        level = -1,
+        requiredLevel = 110,
+    },
     [43502] = {
         name = "Zeit der Veränderung",
         level = 110,
+        requiredLevel = 110,
+    },
+    [43503] = {
+        name = "Die innere Macht",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43505] = {
+        name = "Die innere Macht",
+        level = -1,
         requiredLevel = 110,
     },
     [43506] = {
@@ -16900,6 +16925,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50052] = {
+        name = "Es hat sich ausspioniert",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50053] = {
+        name = "Auf der faulen Haut",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50055] = {
+        name = "Die Perspektive des Sprechers",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "Für das Licht!",
         level = 110,
@@ -16925,6 +16965,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50230] = {
+        name = "Die Machtquelle",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50231] = {
+        name = "Larven im Dutzend",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50232] = {
+        name = "Der Zwielichtüberlebende",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50247] = {
         name = "Die Post muss fließen",
         level = 110,
@@ -16932,6 +16987,21 @@ BtWQuests_Quests = {
     },
     [50341] = {
         name = "Eine neue Entdeckung",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50358] = {
+        name = "Wüstenforschung",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50360] = {
+        name = "Khadgars Bitte",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50364] = {
+        name = "Das Blut von Azeroth",
         level = 110,
         requiredLevel = 110,
     },

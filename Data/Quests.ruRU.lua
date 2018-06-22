@@ -6444,6 +6444,11 @@ BtWQuests_Quests = {
         level = 100,
         requiredLevel = 98,
     },
+    [38675] = {
+        name = "Сердце Кошмара",
+        level = -1,
+        requiredLevel = 98,
+    },
     [38684] = {
         name = "Гадание по листьям",
         level = -1,
@@ -12750,6 +12755,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [42966] = {
+        name = "Приказ Верховного лорда",
+        level = -1,
+        requiredLevel = 101,
+    },
     [42967] = {
         name = "Приказ Верховного лорда",
         level = -1,
@@ -13371,9 +13381,24 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [43501] = {
+        name = "Скрытая мощь",
+        level = -1,
+        requiredLevel = 110,
+    },
     [43502] = {
         name = "Смена времен года",
         level = 110,
+        requiredLevel = 110,
+    },
+    [43503] = {
+        name = "Скрытая мощь",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43505] = {
+        name = "Скрытая мощь",
+        level = -1,
         requiredLevel = 110,
     },
     [43506] = {
@@ -16900,6 +16925,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50052] = {
+        name = "Шпионам вход воспрещен",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50053] = {
+        name = "Ленивые геологи!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50055] = {
+        name = "Слово Вестнику",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "Во имя Света!",
         level = 110,
@@ -16925,6 +16965,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50230] = {
+        name = "Источник силы",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50231] = {
+        name = "За пригоршню личинок",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50232] = {
+        name = "Выживший в сумерках",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50247] = {
         name = "Письма должны поступать!",
         level = 110,
@@ -16932,6 +16987,21 @@ BtWQuests_Quests = {
     },
     [50341] = {
         name = "Недавнее открытие",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50358] = {
+        name = "Исследования в пустыне",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50360] = {
+        name = "Просьба Кадгара",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50364] = {
+        name = "Кровь Азерот",
         level = 110,
         requiredLevel = 110,
     },
