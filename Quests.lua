@@ -903,6 +903,11 @@ BtWQuests_Quests = {
         level = 100,
         requiredLevel = 98,
     },
+    [38675] = {
+        name = "Heart of the Nightmare",
+        level = -1,
+        requiredLevel = 98,
+    },
     [38684] = {
         name = "Reading the Leaves",
         level = -1,
@@ -7209,6 +7214,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [42966] = {
+        name = "The Highlord's Command",
+        level = -1,
+        requiredLevel = 101,
+    },
     [42967] = {
         name = "The Highlord's Command",
         level = -1,
@@ -7830,9 +7840,24 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [43501] = {
+        name = "The Power Within",
+        level = -1,
+        requiredLevel = 110,
+    },
     [43502] = {
         name = "A Change of Seasons",
         level = 110,
+        requiredLevel = 110,
+    },
+    [43503] = {
+        name = "The Power Within",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43505] = {
+        name = "The Power Within",
+        level = -1,
         requiredLevel = 110,
     },
     [43506] = {
@@ -11359,6 +11384,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50052] = {
+        name = "No Spies Allowed",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50053] = {
+        name = "Lazy Prospectors!",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50055] = {
+        name = "The Speaker's Perspective",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "For the Light!",
         level = 110,
@@ -11384,6 +11424,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50230] = {
+        name = "The Source of Power",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50231] = {
+        name = "Larvae By The Dozen",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50232] = {
+        name = "The Twilight Survivor",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50247] = {
         name = "The Mail Must Flow",
         level = 110,
@@ -11391,6 +11446,21 @@ BtWQuests_Quests = {
     },
     [50341] = {
         name = "A Recent Discovery",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50358] = {
+        name = "Desert Research",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50360] = {
+        name = "Khadgar's Request",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50364] = {
+        name = "The Blood of Azeroth",
         level = 110,
         requiredLevel = 110,
     },
@@ -11414,74 +11484,4 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
-	[43501] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Power Within",
-	},
-	[43503] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Power Within",
-	},
-	[42966] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Highlord's Command",
-	},
-	[38675] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Heart of the Nightmare",
-	},
-	[43505] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Power Within",
-	},
-	[50055] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Speaker's Perspective",
-	},
-	[50364] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Blood of Azeroth",
-	},
-	[50230] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Source of Power",
-	},
-	[50358] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Desert Research",
-	},
-	[50231] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Larvae By The Dozen",
-	},
-	[50232] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "The Twilight Survivor",
-	},
-	[50360] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Khadgar's Request",
-	},
-	[50053] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "Lazy Prospectors!",
-	},
-	[50052] = {
-		["requiredLevel"] = 110,
-		["level"] = 110,
-		["name"] = "No Spies Allowed",
-	},
 }

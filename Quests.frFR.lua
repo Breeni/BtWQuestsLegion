@@ -909,6 +909,11 @@ BtWQuests_Quests = {
         level = 100,
         requiredLevel = 98,
     },
+    [38675] = {
+        name = "Au cœur du Cauchemar",
+        level = -1,
+        requiredLevel = 98,
+    },
     [38684] = {
         name = "Pétalomancie",
         level = -1,
@@ -7215,6 +7220,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [42966] = {
+        name = "Ordre du généralissime",
+        level = -1,
+        requiredLevel = 101,
+    },
     [42967] = {
         name = "Ordre du généralissime",
         level = -1,
@@ -7836,9 +7846,24 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [43501] = {
+        name = "La puissance intérieure",
+        level = -1,
+        requiredLevel = 110,
+    },
     [43502] = {
         name = "Changement de saison",
         level = 110,
+        requiredLevel = 110,
+    },
+    [43503] = {
+        name = "La puissance intérieure",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43505] = {
+        name = "La puissance intérieure",
+        level = -1,
         requiredLevel = 110,
     },
     [43506] = {
@@ -11365,6 +11390,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50052] = {
+        name = "Espions interdits",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50053] = {
+        name = "Bons à rien de prospecteurs !",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50055] = {
+        name = "La perspective de l’orateur",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "Pour la Lumière !",
         level = 110,
@@ -11390,6 +11430,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50230] = {
+        name = "La source de puissance",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50231] = {
+        name = "Des larves par dizaines",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50232] = {
+        name = "Le survivant du Crépuscule",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50247] = {
         name = "Les chiens aboient, le courrier passe !",
         level = 110,
@@ -11397,6 +11452,21 @@ BtWQuests_Quests = {
     },
     [50341] = {
         name = "Une découverte récente",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50358] = {
+        name = "Recherche dans le désert",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50360] = {
+        name = "La requête de Khadgar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50364] = {
+        name = "Le sang d’Azeroth",
         level = 110,
         requiredLevel = 110,
     },

@@ -909,6 +909,11 @@ BtWQuests_Quests = {
         level = 100,
         requiredLevel = 98,
     },
+    [38675] = {
+        name = "Il cuore dell'Incubo",
+        level = -1,
+        requiredLevel = 98,
+    },
     [38684] = {
         name = "Leggere le foglie",
         level = -1,
@@ -7215,6 +7220,11 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [42966] = {
+        name = "Gran comando",
+        level = -1,
+        requiredLevel = 101,
+    },
     [42967] = {
         name = "Gran comando",
         level = -1,
@@ -7836,9 +7846,24 @@ BtWQuests_Quests = {
         level = -1,
         requiredLevel = 110,
     },
+    [43501] = {
+        name = "Il potere interiore",
+        level = -1,
+        requiredLevel = 110,
+    },
     [43502] = {
         name = "Cambio di stagione",
         level = 110,
+        requiredLevel = 110,
+    },
+    [43503] = {
+        name = "Il potere interiore",
+        level = -1,
+        requiredLevel = 110,
+    },
+    [43505] = {
+        name = "Il potere interiore",
+        level = -1,
         requiredLevel = 110,
     },
     [43506] = {
@@ -11365,6 +11390,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50052] = {
+        name = "Divieto di spionaggio",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50053] = {
+        name = "Prospettori pigri",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50055] = {
+        name = "La prospettiva dell'oratore",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "Per la Luce!",
         level = 110,
@@ -11390,6 +11430,21 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50230] = {
+        name = "La fonte del potere",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50231] = {
+        name = "Dozzine di larve",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50232] = {
+        name = "Il sopravvissuto del Crepuscolo",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50247] = {
         name = "La posta non può fermarsi!",
         level = 110,
@@ -11397,6 +11452,21 @@ BtWQuests_Quests = {
     },
     [50341] = {
         name = "Una scoperta recente",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50358] = {
+        name = "Ricerca nel deserto",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50360] = {
+        name = "La richiesta di Khadgar",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50364] = {
+        name = "Il sangue di Azeroth",
         level = 110,
         requiredLevel = 110,
     },
