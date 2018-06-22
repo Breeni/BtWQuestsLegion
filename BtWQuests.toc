@@ -1,6 +1,6 @@
 ## Interface: 70300
 ## Title: BtWQuests
-## Version: 0.12.11
+## Version: 0.12.12
 ## Notes: 
 ## Author: Breen
 ## SavedVariables: BtWQuests_Characters
@@ -29,7 +29,6 @@ Data/Quests.itIT.lua
 Data/Quests.koKR.lua
 Data/Quests.ptBR.lua
 Data/Quests.ruRU.lua
-Data/Quests.zhCN.lua
 Data/Quests.zhTW.lua
 
 Data/LegionDeathKnight.lua
