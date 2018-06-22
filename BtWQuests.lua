@@ -2047,6 +2047,9 @@ function BtWQuestsTooltipMixin:SetActiveQuest(questID)
     self:Show();
 end
 
+-- Doing this because TSM and Auctioneer tainted GameTooltip.SetHyperlink without checking if their variables exist
+local dummpGameTooltip = CreateFrame("GameTooltip", "BtWQuestsDummyTooltip", UIParent, "GameTooltipTemplate")
+dummpGameTooltip:Hide()
 function BtWQuestsTooltipMixin:SetHyperlink(link)
     local _, _, color, type, text, name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]+):([^|]+)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
     
@@ -2055,7 +2058,7 @@ function BtWQuestsTooltipMixin:SetHyperlink(link)
         if GetQuestLogIndexByID(id) > 0 then
             self:SetActiveQuest(id)
         else
-            GameTooltip.SetHyperlink(self, link)
+            dummpGameTooltip.SetHyperlink(self, link)
         end
     elseif type == "btwquests" then
         local _, _, subtype, id = string.find(text, "^([^:]*):(%d+)")
@@ -2064,7 +2067,7 @@ function BtWQuestsTooltipMixin:SetHyperlink(link)
         
         self:SetChain(id)
     else
-        GameTooltip.SetHyperlink(self, link)
+        dummpGameTooltip.SetHyperlink(self, link)
     end
 end
 
