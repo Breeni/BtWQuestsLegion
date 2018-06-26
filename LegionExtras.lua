@@ -4,8 +4,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
         {
-            type = "achievement",
-            id = 11991,
+            type = "level",
+            level = 110,
         },
     },
     completed = {
