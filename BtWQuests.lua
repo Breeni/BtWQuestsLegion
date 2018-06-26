@@ -371,66 +371,98 @@ BtWQuests_CheckItemRequirement = function (item)
                         return true
                     end
                 end
+            elseif item.active == true then
+                if BtWQuests_IsQuestActive(id) then
+                    return true
+                end
+            elseif item.active == false then
+                if BtWQuests_IsQuestActive(id) then
+                    return true
+                end
+            elseif item.completed == false then
+                if BtWQuests_IsQuestCompleted(id) then
+                    return true
+                end
+            else
+                if BtWQuests_IsQuestCompleted(id) then
+                    return true
+                end
+            end
+        end
+
+        return false
+    elseif item.type == "chain" then
+        local ids = item.ids or {item.id}
+        for _,id in ipairs(ids) do
+            if item.status ~= nil then
+                for _,status in ipairs(item.status) do
+                    if status == "active" and BtWQuests_IsChainActive(id) then
+                        return true
+                    elseif status == "completed" and BtWQuests_IsChainCompleted(id) then
+                        return true
+                    elseif status == "notactive" and not BtWQuests_IsChainActive(id) then
+                        return true
+                    elseif status == "notcompleted" and not BtWQuests_IsChainCompleted(id) then
+                        return true
+                    end
+                end
+            elseif item.active == true then
+                if BtWQuests_IsChainActive(id) then
+                    return true
+                end
+            elseif item.active == false then
+                if not BtWQuests_IsChainActive(id) then
+                    return true
+                end
+            elseif item.completed == false then
+                if not BtWQuests_IsChainCompleted(id) then
+                    return true
+                end
+            else
+                if BtWQuests_IsChainCompleted(id) then
+                    return true
+                end
+            end
+        end
+
+        return false
+    elseif item.type == "category" then
+        local ids = item.ids or {item.id}
+        for _,id in ipairs(ids) do
+            if item.status ~= nil then
+                for _,status in ipairs(item.status) do
+                    if status == "active" and BtWQuests_IsCategoryActive(id) then
+                        return true
+                    elseif status == "completed" and BtWQuests_IsCategoryCompleted(id) then
+                        return true
+                    elseif status == "notactive" and not BtWQuests_IsCategoryActive(id) then
+                        return true
+                    elseif status == "notcompleted" and not BtWQuests_IsCategoryCompleted(id) then
+                        return true
+                    end
+                end
 
                 return false
             elseif item.active == true then
-                return BtWQuests_IsQuestActive(id)
+                if BtWQuests_IsCategoryActive(id) then
+                    return true
+                end
             elseif item.active == false then
-                return not BtWQuests_IsQuestActive(id)
+                if not BtWQuests_IsCategoryActive(id) then
+                    return true
+                end
             elseif item.completed == false then
-                return not BtWQuests_IsQuestCompleted(id)
+                if not BtWQuests_IsCategoryCompleted(id) then
+                    return true
+                end
             else
-                return BtWQuests_IsQuestCompleted(id)
-            end
-        end
-    elseif item.type == "chain" then
-        if item.status ~= nil then
-            for _,status in ipairs(item.status) do
-                if status == "active" and BtWQuests_IsChainActive(item.id) then
-                    return true
-                elseif status == "completed" and BtWQuests_IsChainCompleted(item.id) then
-                    return true
-                elseif status == "notactive" and not BtWQuests_IsChainActive(item.id) then
-                    return true
-                elseif status == "notcompleted" and not BtWQuests_IsChainCompleted(item.id) then
+                if BtWQuests_IsCategoryCompleted(id) then
                     return true
                 end
             end
-
-            return false
-        elseif item.active == true then
-            return BtWQuests_IsChainActive(item.id)
-        elseif item.active == false then
-            return not BtWQuests_IsChainActive(item.id)
-        elseif item.completed == false then
-            return not BtWQuests_IsChainCompleted(item.id)
-        else
-            return BtWQuests_IsChainCompleted(item.id)
         end
-    elseif item.type == "category" then
-        if item.status ~= nil then
-            for _,status in ipairs(item.status) do
-                if status == "active" and BtWQuests_IsCategoryActive(item.id) then
-                    return true
-                elseif status == "completed" and BtWQuests_IsCategoryCompleted(item.id) then
-                    return true
-                elseif status == "notactive" and not BtWQuests_IsCategoryActive(item.id) then
-                    return true
-                elseif status == "notcompleted" and not BtWQuests_IsCategoryCompleted(item.id) then
-                    return true
-                end
-            end
 
-            return false
-        elseif item.active == true then
-            return BtWQuests_IsCategoryActive(item.id)
-        elseif item.active == false then
-            return not BtWQuests_IsCategoryActive(item.id)
-        elseif item.completed == false then
-            return not BtWQuests_IsCategoryCompleted(item.id)
-        else
-            return BtWQuests_IsCategoryCompleted(item.id)
-        end
+        return false
     elseif item.type == "faction" then
         return BtWQuests_IsFaction(item.id)
     elseif item.type == "race" then
