@@ -11405,6 +11405,16 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50056] = {
+        name = "代言者的呼喚",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50057] = {
+        name = "手中的力量",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "為了聖光！",
         level = 110,
@@ -11449,6 +11459,11 @@ BtWQuests_Quests = {
         name = "克服萬難，郵件必達",
         level = 110,
         requiredLevel = 98,
+    },
+    [50300] = {
+        name = "代言者的呼喚",
+        level = 110,
+        requiredLevel = 110,
     },
     [50341] = {
         name = "最新的發現",

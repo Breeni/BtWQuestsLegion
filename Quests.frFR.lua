@@ -11405,6 +11405,16 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50056] = {
+        name = "L’appel de l’orateur",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50057] = {
+        name = "Tout ce qui est en notre pouvoir",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "Pour la Lumière !",
         level = 110,
@@ -11449,6 +11459,11 @@ BtWQuests_Quests = {
         name = "Les chiens aboient, le courrier passe !",
         level = 110,
         requiredLevel = 98,
+    },
+    [50300] = {
+        name = "L’appel de l’orateur",
+        level = 110,
+        requiredLevel = 110,
     },
     [50341] = {
         name = "Une découverte récente",
