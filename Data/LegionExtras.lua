@@ -142,7 +142,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
             x = 2,
             y = 3,
             connections = {
-                2, 3
+                2,
             },
         },
         {
@@ -384,17 +384,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 1
             },
         },
-        
-        {
-            name = "Relog",
-            breadcrumb = true,
-            x = 3,
-            y = 8,
-            connections = {
-                1
-            },
-        },
-        
         {
             variations = {
                 {
@@ -420,7 +409,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
             },
             breadcrumb = true,
             x = 3,
-            y = 9,
+            y = 8,
             connections = {
                 1
             },
@@ -428,12 +417,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
         {
             type = "quest",
             id = 50057,
-            completed = {
-                type = "quest",
-                id = 50312,
-            },
             x = 3,
-            y = 10,
+            y = 9,
         },
     },
 }
