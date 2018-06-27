@@ -130,7 +130,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 },
                 {
                     type = "quest",
-                    id = 50053,
+                    id = 50052,
                     restrictions = {
                         {
                             type = "faction",
@@ -141,9 +141,6 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
             },
             x = 2,
             y = 3,
-            connections = {
-                2,
-            },
         },
         {
             variations = {
@@ -159,7 +156,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                 },
                 {
                     type = "quest",
-                    id = 50052,
+                    id = 50053,
                     restrictions = {
                         {
                             type = "faction",
