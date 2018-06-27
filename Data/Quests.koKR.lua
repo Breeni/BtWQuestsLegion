@@ -16940,6 +16940,16 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50056] = {
+        name = "대변자의 부름",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50057] = {
+        name = "우리 손안의 힘",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "빛을 위하여!",
         level = 110,
@@ -16984,6 +16994,11 @@ BtWQuests_Quests = {
         name = "우편은 계속 배달되어야 한다",
         level = 110,
         requiredLevel = 98,
+    },
+    [50300] = {
+        name = "대변자의 부름",
+        level = 110,
+        requiredLevel = 110,
     },
     [50341] = {
         name = "최근의 발견",

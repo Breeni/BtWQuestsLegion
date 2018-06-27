@@ -16940,6 +16940,16 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50056] = {
+        name = "Зов Вестника",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50057] = {
+        name = "Сила в наших руках",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "Во имя Света!",
         level = 110,
@@ -16984,6 +16994,11 @@ BtWQuests_Quests = {
         name = "Письма должны поступать!",
         level = 110,
         requiredLevel = 98,
+    },
+    [50300] = {
+        name = "Зов Вестника",
+        level = 110,
+        requiredLevel = 110,
     },
     [50341] = {
         name = "Недавнее открытие",

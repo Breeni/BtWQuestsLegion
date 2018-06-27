@@ -16940,6 +16940,16 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50056] = {
+        name = "O chamado do mensageiro",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50057] = {
+        name = "O poder em nossas mãos",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "Pela Luz!",
         level = 110,
@@ -16984,6 +16994,11 @@ BtWQuests_Quests = {
         name = "O correio não pode parar",
         level = 110,
         requiredLevel = 98,
+    },
+    [50300] = {
+        name = "O chamado do mensageiro",
+        level = 110,
+        requiredLevel = 110,
     },
     [50341] = {
         name = "Uma recente descoberta",

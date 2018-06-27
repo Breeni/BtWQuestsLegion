@@ -4,31 +4,13 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
         {
-            type = "achievement",
-            id = 11991,
+            type = "level",
+            level = 110,
         },
     },
     completed = {
-        {
-            type = "quest",
-            id = 50374,
-            restrictions = {
-                {
-                    type = "faction",
-                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
-                },
-            },
-        },
-        {
-            type = "quest",
-            id = 50364,
-            restrictions = {
-                {
-                    type = "faction",
-                    id = BTWQUESTS_FACTION_ID_HORDE,
-                },
-            },
-        }
+        type = "quest",
+        id = 50312,
     },
     range = {110},
     items = {
@@ -42,6 +24,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                         id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -57,6 +40,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                         id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
+                breadcrumb = true,
                 x = 3,
                 y = 0,
                 connections = {
@@ -74,6 +58,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                         id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
+                breadcrumb = true,
                 x = 3,
                 y = 1,
                 connections = {
@@ -89,6 +74,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                         id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
+                breadcrumb = true,
                 x = 3,
                 y = 1,
                 connections = {
@@ -106,6 +92,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                         id = BTWQUESTS_FACTION_ID_ALLIANCE,
                     },
                 },
+                breadcrumb = true,
                 x = 3,
                 y = 2,
                 connections = {
@@ -121,6 +108,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
                         id = BTWQUESTS_FACTION_ID_HORDE,
                     },
                 },
+                breadcrumb = true,
                 x = 3,
                 y = 2,
                 connections = {
@@ -392,6 +380,60 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
             },
             x = 3,
             y = 7,
+            connections = {
+                1
+            },
+        },
+        
+        {
+            name = "Relog",
+            breadcrumb = true,
+            x = 3,
+            y = 8,
+            connections = {
+                1
+            },
+        },
+        
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 50056,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 50300,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
+                }
+            },
+            breadcrumb = true,
+            x = 3,
+            y = 9,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 50057,
+            completed = {
+                type = "quest",
+                id = 50312,
+            },
+            x = 3,
+            y = 10,
         },
     },
 }

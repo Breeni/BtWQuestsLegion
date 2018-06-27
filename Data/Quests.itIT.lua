@@ -16940,6 +16940,16 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50056] = {
+        name = "L'Oratore chiama",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50057] = {
+        name = "Il potere nelle nostre mani",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "Per la Luce!",
         level = 110,
@@ -16984,6 +16994,11 @@ BtWQuests_Quests = {
         name = "La posta non può fermarsi!",
         level = 110,
         requiredLevel = 98,
+    },
+    [50300] = {
+        name = "L'Oratore chiama",
+        level = 110,
+        requiredLevel = 110,
     },
     [50341] = {
         name = "Una scoperta recente",
