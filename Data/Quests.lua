@@ -11399,6 +11399,16 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50056] = {
+        name = "The Speaker's Call",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50057] = {
+        name = "The Power in Our Hands",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "For the Light!",
         level = 110,
@@ -11443,6 +11453,11 @@ BtWQuests_Quests = {
         name = "The Mail Must Flow",
         level = 110,
         requiredLevel = 98,
+    },
+    [50300] = {
+        name = "The Speaker's Call",
+        level = 110,
+        requiredLevel = 110,
     },
     [50341] = {
         name = "A Recent Discovery",

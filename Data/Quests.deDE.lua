@@ -11405,6 +11405,16 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50056] = {
+        name = "Der Ruf des Sprechers",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50057] = {
+        name = "Die Macht in unseren Händen",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "Für das Licht!",
         level = 110,
@@ -11449,6 +11459,11 @@ BtWQuests_Quests = {
         name = "Die Post muss fließen",
         level = 110,
         requiredLevel = 98,
+    },
+    [50300] = {
+        name = "Der Ruf des Sprechers",
+        level = 110,
+        requiredLevel = 110,
     },
     [50341] = {
         name = "Eine neue Entdeckung",

@@ -11405,6 +11405,16 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
+    [50056] = {
+        name = "El llamamiento del Portavoz",
+        level = 110,
+        requiredLevel = 110,
+    },
+    [50057] = {
+        name = "El poder en nuestras manos",
+        level = 110,
+        requiredLevel = 110,
+    },
     [50071] = {
         name = "¡Por la Luz!",
         level = 110,
@@ -11449,6 +11459,11 @@ BtWQuests_Quests = {
         name = "El correo no debe parar",
         level = 110,
         requiredLevel = 98,
+    },
+    [50300] = {
+        name = "El llamamiento del Portavoz",
+        level = 110,
+        requiredLevel = 110,
     },
     [50341] = {
         name = "Un descubrimiento reciente",
