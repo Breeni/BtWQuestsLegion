@@ -1,0 +1,45 @@
+## Interface: 70300
+## Title: BtWQuests: 
+## Version: 1.0
+## Notes:  quest data for BtWQuests
+## Author: Breen
+## Dependencies: BtWQuests
+
+Defines.lua
+
+Quests.lua
+Quests.deDE.lua
+Quests.esES.lua
+Quests.esMX.lua
+Quests.frFR.lua
+Quests.itIT.lua
+Quests.koKR.lua
+Quests.ptBR.lua
+Quests.ruRU.lua
+Quests.zhTW.lua
+
+DeathKnight.lua
+DemonHunter.lua
+Druid.lua
+Hunter.lua
+Mage.lua
+Monk.lua
+Paladin.lua
+Priest.lua
+Rogue.lua
+Shaman.lua
+Warlock.lua
+Warror.lua
+Artifact.lua
+Orderhall.lua
+Azsuna.lua
+ValSharah.lua
+HighMountain.lua
+Stormheim.lua
+Suramar.lua
+BrokenShore.lua
+Argus.lua
+Professions.lua
+Hidden.lua
+AlliedRaces.lua
+Extras.lua
