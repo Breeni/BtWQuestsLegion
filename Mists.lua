@@ -1,2 +1,0 @@
-
--- BtWQuests_Expansions[BTWQUESTS_EXPANSION_MISTS_OF_PANDARIA] = {}
