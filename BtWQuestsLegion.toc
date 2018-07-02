@@ -1,7 +1,7 @@
 ## Interface: 70300
-## Title: BtWQuests: 
+## Title: BtWQuests: Legion
 ## Version: 1.0
-## Notes:  quest data for BtWQuests
+## Notes: Legion quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
 
