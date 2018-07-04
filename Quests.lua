@@ -1,4 +1,4 @@
-BtWQuests_Quests = {
+BtWQuests_AddQuestsTable({
     [11997] = {
         name = "The Frozen Flame",
         level = -1,
@@ -11499,4 +11499,4 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
-}
+})
