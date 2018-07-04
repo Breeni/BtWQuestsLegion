@@ -4,7 +4,7 @@ if GetLocale() ~= "zhTW" then
     return
 end
 
-BtWQuests_Quests = {
+BtWQuests_AddQuestsTable({
     [11997] = {
         name = "霜凍之炎",
         level = -1,
@@ -3145,17 +3145,17 @@ BtWQuests_Quests = {
         restrictions = {
             type = "class",
             ids = {
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
+                BTWQUESTS_CLASS_ID_WARRIOR,
+                BTWQUESTS_CLASS_ID_PALADIN,
+                BTWQUESTS_CLASS_ID_HUNTER,
+                BTWQUESTS_CLASS_ID_ROGUE,
+                BTWQUESTS_CLASS_ID_PRIEST,
+                BTWQUESTS_CLASS_ID_DEATHKNIGHT,
+                BTWQUESTS_CLASS_ID_SHAMAN,
+                BTWQUESTS_CLASS_ID_MAGE,
+                BTWQUESTS_CLASS_ID_WARLOCK,
+                BTWQUESTS_CLASS_ID_MONK,
+                BTWQUESTS_CLASS_ID_DRUID,
             },
         },
     },
@@ -3829,7 +3829,7 @@ BtWQuests_Quests = {
         requiredLevel = 98,
         restrictions = {
             type = "faction",
-            id = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     [40795] = {
@@ -5879,7 +5879,7 @@ BtWQuests_Quests = {
         requiredLevel = 98,
         restrictions = {
             type = "faction",
-            id = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
     [42268] = {
@@ -6294,7 +6294,7 @@ BtWQuests_Quests = {
         requiredLevel = 98,
         restrictions = {
             type = "faction",
-            id = "Alliance",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
         },
     },
     [42508] = {
@@ -6508,7 +6508,7 @@ BtWQuests_Quests = {
         requiredLevel = 98,
         restrictions = {
             type = "faction",
-            id = "Horde",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
     [42634] = {
@@ -8567,7 +8567,7 @@ BtWQuests_Quests = {
         requiredLevel = 110,
         restrictions = {
             type = "class",
-            id = 12,
+            id = BTWQUESTS_CLASS_ID_DEMONHUNTER,
         },
     },
     [44490] = {
@@ -11505,4 +11505,4 @@ BtWQuests_Quests = {
         level = 110,
         requiredLevel = 110,
     },
-}
+})
