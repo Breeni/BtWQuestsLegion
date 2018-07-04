@@ -1,4 +1,4 @@
-local MAP_ID = 1018
+local MAP_ID = 641
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION] = {
     name = BTWQUESTS_INTRODUCTION,
@@ -74,7 +74,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1018), BTWQUESTS_INTRODUCTION),
+            name = string.format("%s: %s", BtWQuests_GetMapName(641), BTWQUESTS_INTRODUCTION),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
         },
     },
@@ -151,7 +151,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1018), BTWQUESTS_INTRODUCTION),
+            name = string.format("%s: %s", BtWQuests_GetMapName(641), BTWQUESTS_INTRODUCTION),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
         },
     },
@@ -275,7 +275,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1018), BTWQUESTS_INTRODUCTION),
+            name = string.format("%s: %s", BtWQuests_GetMapName(641), BTWQUESTS_INTRODUCTION),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
         },
     },
@@ -342,17 +342,17 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 1)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 1)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE,
         },
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 2)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 2)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW,
         },
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 3)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 3)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE,
         },
     },
@@ -539,7 +539,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 4)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 4)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
         },
     },
@@ -688,7 +688,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 4)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 4)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
         },
     },
@@ -819,7 +819,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1018), GetAchievementCriteriaInfo(10698, 6)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 6)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK,
         },
     },
@@ -918,7 +918,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN] = {
             name = "Go to Guviena Bladesong",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.594, 0.84, "Guviena Bladesong")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.594, 0.84, "Guviena Bladesong")
             end,
             x = 1,
             y = 0,
@@ -930,7 +930,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN] = {
             name = "Go to Leirana",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.594, 0.82, "Leirana")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.594, 0.82, "Leirana")
             end,
             x = 4,
             y = 0,
@@ -1008,7 +1008,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD] = {
             name = "Go to Old Grizzleback",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.6668, 0.7727, "Old Grizzleback")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.6668, 0.7727, "Old Grizzleback")
             end,
             x = 2,
             y = 0,
@@ -1020,7 +1020,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD] = {
             name = "Go to the Moist Grizzlecomb",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.6682, 0.7566, "Moist Grizzlecomb")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.6682, 0.7566, "Moist Grizzlecomb")
             end,
             x = 6,
             y = 0,
@@ -1068,7 +1068,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING] = {
             name = "Go to Saylanna Riverbreeze",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1018, 0, 0.5375, 0.7983, "Saylanna Riverbreeze")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5375, 0.7983, "Saylanna Riverbreeze")
             end,
             x = 3,
             y = 0,
@@ -1113,7 +1113,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_VALSHARAH] = {
-    name = GetMapNameByID(1018),
+    name = BtWQuests_GetMapName(641),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1452687,
     items = {

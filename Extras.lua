@@ -442,7 +442,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_LOST_MAIL] = {
             name = "Head to the Dalaran Mailroom",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1014, 10, 0.3342, 0.3164, "Dalaran Mailroom Entrance")
+                BtWQuests_ShowMapWithWaypoint(627, 0.3342, 0.3164, "Dalaran Mailroom Entrance")
             end,
             x = 3,
             y = 1,
@@ -499,7 +499,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_LOST_MAIL] = {
             name = "Return to the Dalaran Mailroom",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1014, 10, 0.3342, 0.3164, "Dalaran Mailroom Entrance")
+                BtWQuests_ShowMapWithWaypoint(627, 0.3342, 0.3164, "Dalaran Mailroom Entrance")
             end,
             x = 3,
             y = 7,

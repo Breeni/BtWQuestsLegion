@@ -239,8 +239,14 @@ BTWQUESTS_CHAIN_LEGION_LOST_MAIL = 7002
 
 BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION] = {}
 
+-- Broken Shore
+BtWQuests_MapIDToItem[619] = {
+    type = "expansion",
+    id = BTWQUESTS_EXPANSION_LEGION,
+}
+
 -- Dalaran
-BtWQuests_MapIDToItem[1014] = {
+BtWQuests_MapIDToItem[627] = {
     type = "expansion",
     id = BTWQUESTS_EXPANSION_LEGION,
 }

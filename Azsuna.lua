@@ -1,4 +1,4 @@
-local MAP_ID = 1015
+local MAP_ID = 630
 local ACHIEVEMENT_ID = 10763
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES] = {
@@ -106,7 +106,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1015), GetAchievementCriteriaInfo(10763, 1)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(630), GetAchievementCriteriaInfo(10763, 1)),
             id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
         },
     },
@@ -959,7 +959,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
-    name = GetMapNameByID(MAP_ID),
+    name = BtWQuests_GetMapName(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1498157,
     items = {

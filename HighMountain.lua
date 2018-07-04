@@ -1,4 +1,4 @@
-local MAP_ID = 1024
+local MAP_ID = 650
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE] = {
     name = GetAchievementCriteriaInfo(10059, 1),
@@ -905,7 +905,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
                     name = "Go to Razik Gazbolt",
                     breadcrumb = true,
                     onClick = function ()
-                        BtWQuests_ShowMapWithWaypoint(1024, 0, 0.5763, 0.5661, "Razik Gazbolt")
+                        BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5763, 0.5661, "Razik Gazbolt")
                     end,
                 }
             },
@@ -919,7 +919,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK] = {
             name = "Go to Lorna Stoutfoot",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1024, 0, 0.5759, 0.5641, "Lorna Stoutfoot")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5759, 0.5641, "Lorna Stoutfoot")
             end,
             x = 5,
             y = 0,
@@ -1064,7 +1064,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
                 name = "Go to Hemet Nesingwary",
                 breadcrumb = true,
                 onClick = function ()
-                    BtWQuests_ShowMapWithWaypoint(1024, 0, 0.4004, 0.5225, "Hemet Nesingwary")
+                    BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.4004, 0.5225, "Hemet Nesingwary")
                 end,
                 x = 2,
                 y = 0,
@@ -1077,7 +1077,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET] = {
             name = "Go to Addie Fizzlebog",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1024, 0, 0.3993, 0.5224, "Addie Fizzlebog")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.3993, 0.5224, "Addie Fizzlebog")
             end,
             x = 6,
             y = 0,
@@ -1350,7 +1350,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY] = {
                 name = "Go to King Mrgl-Mrgl",
                 breadcrumb = true,
                 onClick = function ()
-                    BtWQuests_ShowMapWithWaypoint(1024, 0, 0.4273, 0.1094, "King Mrgl-Mrgl")
+                    BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.4273, 0.1094, "King Mrgl-Mrgl")
                 end,
                 x = 3,
                 y = 0,
@@ -1405,7 +1405,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN] = {
-    name = GetMapNameByID(MAP_ID),
+    name = BtWQuests_GetMapName(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1411854,
     items = {

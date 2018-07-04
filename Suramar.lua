@@ -1,4 +1,4 @@
-local MAP_ID = 1033
+local MAP_ID = 680
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING] = {
     name = BtWQuests_GetQuestName(43943),
@@ -191,7 +191,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 1)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 1)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
         },
     },
@@ -276,7 +276,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 1)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 1)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
         },
     },
@@ -364,7 +364,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 3)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 3)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
         },
     },
@@ -449,7 +449,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 2)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 2)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH,
         },
     },
@@ -544,12 +544,12 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW] = {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 4)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 4)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
         },
         {
             type = "chain",
-            name = string.format("%s: %s", GetMapNameByID(1033), GetAchievementCriteriaInfo(10617, 5)),
+            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 5)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
         },
     },
@@ -3229,7 +3229,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_SURAMAR] = {
-    name = GetMapNameByID(MAP_ID),
+    name = BtWQuests_GetMapName(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
     items = {

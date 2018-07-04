@@ -1,4 +1,4 @@
-local MAP_ID = 1017
+local MAP_ID = 634
 
 BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_ALLIANCE] = {
     name = GetAchievementCriteriaInfo(10790, 1),
@@ -1589,7 +1589,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_A_MURKY_FATE] = {
             name = "Go to Morheim Ancestor",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.7824, 0.5867, "Morheim Ancestor")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.7824, 0.5867, "Morheim Ancestor")
             end,
             x = 3,
             y = 0,
@@ -1619,7 +1619,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT] = {
             name = "Go to Sir Finley Mrrgglton",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.7492, 0.5558, "Sir Finley Mrrgglton")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.7492, 0.5558, "Sir Finley Mrrgglton")
             end,
             x = 2,
             y = 0,
@@ -1631,7 +1631,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT] = {
             name = "Go to the Crate of Ancient Relics",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.7553, 0.5080, "Crate of Ancient Relics")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.7553, 0.5080, "Crate of Ancient Relics")
             end,
             x = 5,
             y = 0,
@@ -1693,7 +1693,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR] = {
             name = "Go to Frightened Ravenbear",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.5032, 0.3403, "Frightened Ravenbear")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5032, 0.3403, "Frightened Ravenbear")
             end,
             x = 3,
             y = 0,
@@ -1751,7 +1751,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS] = {
             name = "Go to Ootasa Galehoof",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1017, 0, 0.5147, 0.5695, "Ootasa Galehoof")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5147, 0.5695, "Ootasa Galehoof")
             end,
             x = 3,
             y = 0,
@@ -1820,7 +1820,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS] = {
             name = "Go to Gazrix Gearlock",
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(1014, 10, 0.5016, 0.2262, "Gazrix Gearlock")
+                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5016, 0.2262, "Gazrix Gearlock")
             end,
             x = 3,
             y = 5,
@@ -1838,7 +1838,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS] = {
 }
 
 BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_STORMHEIM] = {
-    name = GetMapNameByID(MAP_ID),
+    name = BtWQuests_GetMapName(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1537284,
     items = {

@@ -319,7 +319,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
         -- {
             -- type = "chain",
             -- id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
-            -- name = GetMapNameByID(1015),
+            -- name = BtWQuests_GetMapName(1015),
             -- aside = true,
             -- x = 1,
             -- y = 5.5,
@@ -327,7 +327,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
         -- {
             -- type = "chain",
             -- id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
-            -- name = GetMapNameByID(1018),
+            -- name = BtWQuests_GetMapName(1018),
             -- aside = true,
             -- x = 1,
             -- y = 6.5
@@ -335,7 +335,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
         -- {
             -- type = "chain",
             -- id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE,
-            -- name = GetMapNameByID(1024),
+            -- name = BtWQuests_GetMapName(1024),
             -- aside = true,
             -- x = 5,
             -- y = 5.5,
@@ -343,7 +343,7 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN] = {
         -- {
             -- type = "chain",
             -- id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT,
-            -- name = GetMapNameByID(1017),
+            -- name = BtWQuests_GetMapName(1017),
             -- aside = true,
             -- x = 5,
             -- y = 6.5,
