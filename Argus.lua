@@ -1290,15 +1290,3 @@ BtWQuests_AddMapRecursive(MAP_ID, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
 })
-
-BtWQuests_MapIDToItem[MACAREE_MAP_ID] = BtWQuests_MapIDToItem[MAP_ID]
-BtWQuests_MapIDToItem[MACAREE_MAP_ID + 1] = BtWQuests_MapIDToItem[MAP_ID]
-BtWQuests_MapIDToItem[MACAREE_MAP_ID + 2] = BtWQuests_MapIDToItem[MAP_ID]
-
-BtWQuests_MapIDToItem[ANTORAN_MAP_ID] = BtWQuests_MapIDToItem[MAP_ID]
-BtWQuests_MapIDToItem[ANTORAN_MAP_ID + 1] = BtWQuests_MapIDToItem[MAP_ID]
-BtWQuests_MapIDToItem[ANTORAN_MAP_ID + 2] = BtWQuests_MapIDToItem[MAP_ID]
-
-BtWQuests_MapIDToItem[KROKUUN_MAP_ID] = BtWQuests_MapIDToItem[MAP_ID]
-BtWQuests_MapIDToItem[KROKUUN_MAP_ID + 1] = BtWQuests_MapIDToItem[MAP_ID]
-BtWQuests_MapIDToItem[KROKUUN_MAP_ID + 2] = BtWQuests_MapIDToItem[MAP_ID]
