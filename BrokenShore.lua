@@ -1,6 +1,6 @@
 local MAP_ID = 646
 
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB, {
     name = select(2, GetAchievementInfo(11546)),
     category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -349,8 +349,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB] = {
             y = 11,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED, {
     name = BtWQuests_GetQuestName(45379),
     category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -435,8 +435,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IKSREEGED] =
             y = 7,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_A_FOUND_MEMENTO] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_A_FOUND_MEMENTO, {
     name = BtWQuests_GetQuestName(46268),
     category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -514,9 +514,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_BROKENSHORE_A_FOUND_MEMENTO] = {
             y = 6,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_BROKENSHORE] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_BROKENSHORE, {
     name = BtWQuests_GetMapName(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1616106,
@@ -534,14 +534,14 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_BROKENSHORE] = {
             id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_A_FOUND_MEMENTO,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
 })
 
-BtWQuests_MapIDToItem[MAP_ID] = {
+BtWQuests_AddMapRecursive(MAP_ID, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
-}
+})

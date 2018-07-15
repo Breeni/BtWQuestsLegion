@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(62)), "Aluneth"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -76,8 +76,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE] = {
             y = 6,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(63)), "Felo'melorn"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -119,8 +119,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE] = {
             y = 2,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(64)), "Ebonchill"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -180,8 +180,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST] = {
             y = 4,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
     name = BTWQUESTS_MAGE_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -744,8 +744,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN] = {
             y = 34,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER, {
     name = BtWQuests_GetQuestName(46043),
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -932,8 +932,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER] = {
             y = 15,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ANNOYING_FOLLOWER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ANNOYING_FOLLOWER, {
     name = BtWQuests_GetQuestName(46724),
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1002,8 +1002,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ANNOYING_FOLLOWER] = {
             y = 5,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT, {
     name = BTWQUESTS_MAGE_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1079,9 +1079,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT] = {
             y = 3,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE, {
     name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -1109,9 +1109,9 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE] = {
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
 })

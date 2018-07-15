@@ -1,7 +1,7 @@
 local MAP_ID = 630
 local ACHIEVEMENT_ID = 10763
 
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES, {
     name = GetAchievementCriteriaInfo(10763, 1),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -97,8 +97,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES] = {
             y = 6,
         },
     }
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE, {
     name = GetAchievementCriteriaInfo(10763, 2),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -315,8 +315,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE] = {
             y = 14.25,
         },
     }
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA, {
     name = GetAchievementCriteriaInfo(10763, 3),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -607,8 +607,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA] = {
             y = 19,
         },
     }
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS, {
     name = GetAchievementCriteriaInfo(10763, 4),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -740,8 +740,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS] = {
             y = 9,
         },
     }
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA, {
     name = GetAchievementCriteriaInfo(10763, 5),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -821,8 +821,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA] = {
             y = 2
         },
     }
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP, {
     name = BtWQuests_GetQuestName(42238),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -874,8 +874,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP] = {
         --     y = 3,
         -- }
     }
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD, {
     name = BtWQuests_GetQuestName(38203),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -905,8 +905,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD] = {
         --     y = 0,
         -- },
     }
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE, {
     name = BtWQuests_GetQuestName(42372),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -956,9 +956,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE] = {
             y = 2,
         },
     }
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_AZSUNA, {
     name = BtWQuests_GetMapName(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1498157,
@@ -996,14 +996,14 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_AZSUNA] = {
             id = BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
 })
 
-BtWQuests_MapIDToItem[MAP_ID] = {
+BtWQuests_AddMapRecursive(MAP_ID, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
-}
+})

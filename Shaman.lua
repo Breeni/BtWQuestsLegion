@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(262)), "The Fist of Ra-den"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -40,8 +40,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL] = {
             y = 2,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(263)), "Doomhammer"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -119,8 +119,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT] = {
             y = 6,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(264)), "Sharas'dal, Scepter of Tides"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -162,8 +162,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION] = {
             y = 2,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
     name = BTWQUESTS_SHAMAN_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -755,8 +755,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN] = {
             y = 40,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER, {
     name = BtWQuests_GetQuestName(46057),
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -927,8 +927,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER] = {
             y = 11,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT, {
     name = BTWQUESTS_SHAMAN_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -960,9 +960,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT] = {
             y = 1,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN, {
     name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -986,9 +986,9 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN] = {
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
 })

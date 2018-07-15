@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART, {
     name = BTWQUESTS_LIGHTS_HEART,
     category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -334,8 +334,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART] = {
             y = 15,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL, {
     name = C_Garrison.GetFollowerInfo(986).name,
     category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -478,9 +478,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL] = {
             y = 10,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ORDERHALL] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_ORDERHALL, {
     name = BTWQUESTS_ORDERHALL,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1041999,
@@ -494,29 +494,29 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ORDERHALL] = {
             id = BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
 })
 
-BtWQuests_Missions[1502] = {
+BtWQuests_AddMission(1502, {
     name = "There is no Brawlers Guild",
-}
+})
 
-BtWQuests_Missions[1503] = {
+BtWQuests_AddMission(1503, {
     name = "Council of War",
-}
+})
 
-BtWQuests_Missions[1504] = {
+BtWQuests_AddMission(1504, {
     name = "Its Clean Up Time",
-}
+})
 
-BtWQuests_Missions[1512] = {
+BtWQuests_AddMission(1512, {
     name = "Master of Shadows",
-}
+})
 
-BtWQuests_Missions[1513] = {
+BtWQuests_AddMission(1513, {
     name = "I've Got A Strange Feeling About This",
-}
+})

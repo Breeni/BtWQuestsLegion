@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI, {
     name = "Lightforged Draenei",
     category = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -61,8 +61,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI] = {
             y = 2,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_VOID_ELF] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_VOID_ELF, {
     name = "Void Elf",
     category = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -116,8 +116,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_VOID_ELF] = {
             y = 1,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_NIGHTBORNE] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_NIGHTBORNE, {
     name = "Nightborne",
     category = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -189,8 +189,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_NIGHTBORNE] = {
             y = 3,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN, {
     name = "Highmountain Tauren",
     category = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -370,9 +370,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN] = {
             y = 15,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES, {
     name = "Allied Races",
     expansion = BTWQUESTS_EXPANSION_LEGION,
     items = {
@@ -393,9 +393,9 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES] = {
             id = BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
 })

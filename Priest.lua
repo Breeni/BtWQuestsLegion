@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(256)), "Light's Wrath"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -85,8 +85,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE] = {
             y = 7,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(257)), "T'uure, Beacon of the Naaru"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -146,8 +146,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY] = {
             y = 4,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(258)), "Xal'atath, Blade of the Black Empire"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -171,8 +171,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW] = {
             y = 0,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN, {
     name = BTWQUESTS_PRIEST_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -794,8 +794,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN] = {
             y = 42,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER, {
     name = BtWQuests_GetQuestName(46034),
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -931,8 +931,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER] = {
             y = 9,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT, {
     name = BTWQUESTS_PRIEST_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -979,9 +979,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT] = {
             y = 2,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST, {
     name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -1005,9 +1005,9 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST] = {
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
 })

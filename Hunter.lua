@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(253)), "Titanstrike"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -40,8 +40,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY] = {
             y = 2,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(254)), "Thas'dorah, Legacy of the Windrunners"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -92,8 +92,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP] = {
             y = 3,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(255)), "Talonclaw"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -135,8 +135,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL] = {
             y = 2,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN, {
     name = BTWQUESTS_HUNTER_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -946,8 +946,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN] = {
             y = 53,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER, {
     name = BtWQuests_GetQuestName(46048),
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1071,8 +1071,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER] = {
             y = 10,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT, {
     name = BTWQUESTS_HUNTER_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1119,9 +1119,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT] = {
             y = 2,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER, {
     name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -1145,9 +1145,9 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER] = {
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
 })

@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(265)), "Ulthalesh, the Deadwind Harvester"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -67,8 +67,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION] = {
             y = 5,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(266)), "Skull of the Man'ari"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -110,8 +110,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY] = {
             y = 2,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(267)), "Scepter of Sargeras"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -153,8 +153,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION] = {
             y = 2,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
     name = BTWQUESTS_WARLOCK_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -718,8 +718,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN] = {
             y = 39,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER, {
     name = BtWQuests_GetQuestName(46047),
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -837,8 +837,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER] = {
             y = 9,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT, {
     name = BTWQUESTS_WARLOCK_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -932,9 +932,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT] = {
             y = 5,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK, {
     name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -958,9 +958,9 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK] = {
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
 })

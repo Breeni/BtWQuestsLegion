@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
     name = BTWQUESTS_EPILOGUE,
     category = nil,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -418,8 +418,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_EPILOGUE] = {
             y = 9,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_LOST_MAIL] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_LOST_MAIL, {
     name = "Lost Mail",
     category = nil,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -517,14 +517,14 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_LOST_MAIL] = {
             },
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "chain",
     id = BTWQUESTS_CHAIN_LEGION_EPILOGUE,
 })
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "chain",
     id = BTWQUESTS_CHAIN_LEGION_LOST_MAIL,
 })

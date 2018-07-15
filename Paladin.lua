@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(65)), "The Silver Hand"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -31,8 +31,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY] = {
             y = 1,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(66)), "Truthguard"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -83,8 +83,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION] = {
             y = 3,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(70)), "Ashbringer"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -153,8 +153,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION] = {
             y = 5,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN, {
     name = BTWQUESTS_PALADIN_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -736,8 +736,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN] = {
             y = 34,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER, {
     name = BtWQuests_GetQuestName(46045),
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -862,8 +862,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER] = {
             y = 10,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER, {
     name = "Champion: Maximillian of Northshire",
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -997,8 +997,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER] = {
             y = 7,
         }
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT, {
     name = BTWQUESTS_PALADIN_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1090,9 +1090,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT] = {
             y = 6,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN, {
     name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -1120,9 +1120,9 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN] = {
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
 })

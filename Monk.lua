@@ -1,4 +1,4 @@
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER] = {
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(268)), "Fu Zan, the Wanderer's Companion"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -67,8 +67,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER] = {
             y = 5,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(269)), "Fists of the Heavens"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -119,8 +119,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER] = {
             y = 3,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(270)), "Sheilun, Staff of the Mists"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -144,8 +144,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER] = {
             y = 0,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN, {
     name = BTWQUESTS_MONK_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -682,8 +682,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN] = {
             y = 31,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER, {
     name = BtWQuests_GetQuestName(45790),
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -810,8 +810,8 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER] = {
             y = 9,
         },
     },
-}
-BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT] = {
+})
+BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT, {
     name = BTWQUESTS_MONK_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -930,9 +930,9 @@ BtWQuests_Chains[BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT] = {
             y = 10,
         },
     },
-}
+})
 
-BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK] = {
+BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK, {
     name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -956,9 +956,9 @@ BtWQuests_Categories[BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK] = {
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT,
         },
     },
-}
+})
 
-table.insert(BtWQuests_Expansions[BTWQUESTS_EXPANSION_LEGION], {
+BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
 })
