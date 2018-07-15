@@ -239,7 +239,7 @@ BTWQUESTS_CHAIN_LEGION_LOST_MAIL = 7002
 
 BtWQuests_AddExpansion(BTWQUESTS_EXPANSION_LEGION, {
     background = {
-        texture = "Interface\\EncounterJournal\\UI-EJ-BattleforAzeroth",
+        texture = "Interface\\EncounterJournal\\UI-EJ-Legion",
         r = 1.0, g = 0.8, b = 0.0
     }
 })
