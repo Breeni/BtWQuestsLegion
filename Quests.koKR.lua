@@ -503,7 +503,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 98,
     },
     [38331] = {
-        name = "Havi's Test",
+        name = "하비의 시험",
         level = -1,
         requiredLevel = 98,
     },
@@ -3963,7 +3963,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 102,
     },
     [40864] = {
-        name = "Modular Modifications",
+        name = "절단기 꾸미기",
         level = 102,
         requiredLevel = 102,
     },
@@ -4033,7 +4033,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 108,
     },
     [40878] = {
-        name = "Assault on Violet Hold: Cheating Death",
+        name = "보랏빛 요새 침공: 죽음 속이기",
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = 108,
@@ -8661,12 +8661,12 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 110,
     },
     [44700] = {
-        name = "Stormheim",
+        name = "스톰하임",
         level = -1,
         requiredLevel = 98,
     },
     [44701] = {
-        name = "Stormheim",
+        name = "스톰하임",
         level = -1,
         requiredLevel = 98,
     },
@@ -9644,7 +9644,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 110,
     },
     [45630] = {
-        name = "Servant to No One",
+        name = "누구의 명령도 듣지 않는다",
         level = 110,
         requiredLevel = 110,
     },
@@ -10744,7 +10744,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 110,
     },
     [47055] = {
-        name = "Fire: The Folly of Levia Laurence",
+        name = "화염: 레비아 로렌스의 실수",
         level = 110,
         requiredLevel = 110,
     },

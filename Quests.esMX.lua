@@ -503,7 +503,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 98,
     },
     [38331] = {
-        name = "Havi's Test",
+        name = "La prueba de Havi",
         level = -1,
         requiredLevel = 98,
     },
@@ -3963,7 +3963,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 102,
     },
     [40864] = {
-        name = "Modular Modifications",
+        name = "Modificaciones modulares",
         level = 102,
         requiredLevel = 102,
     },
@@ -4033,7 +4033,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 108,
     },
     [40878] = {
-        name = "Assault on Violet Hold: Cheating Death",
+        name = "Asalto al Bastión Violeta: Burlando a la muerte",
         difficulty = "normal",
         tagID = QUEST_TAG_DUNGEON,
         level = 108,
@@ -8661,12 +8661,12 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 110,
     },
     [44700] = {
-        name = "Stormheim",
+        name = "Tormenheim",
         level = -1,
         requiredLevel = 98,
     },
     [44701] = {
-        name = "Stormheim",
+        name = "Tormenheim",
         level = -1,
         requiredLevel = 98,
     },
@@ -9644,7 +9644,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 110,
     },
     [45630] = {
-        name = "Servant to No One",
+        name = "Siervo de nadie",
         level = 110,
         requiredLevel = 110,
     },
@@ -10744,7 +10744,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 110,
     },
     [47055] = {
-        name = "Fire: The Folly of Levia Laurence",
+        name = "Fuego: La insensatez de Levia Laurence",
         level = 110,
         requiredLevel = 110,
     },
@@ -11406,12 +11406,12 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 110,
     },
     [50056] = {
-        name = "El llamamiento del Portavoz",
+        name = "The Speaker's Call",
         level = 110,
         requiredLevel = 110,
     },
     [50057] = {
-        name = "El poder en nuestras manos",
+        name = "The Power in Our Hands",
         level = 110,
         requiredLevel = 110,
     },
@@ -11461,7 +11461,7 @@ BtWQuests_AddQuestsTable({
         requiredLevel = 98,
     },
     [50300] = {
-        name = "El llamamiento del Portavoz",
+        name = "The Speaker's Call",
         level = 110,
         requiredLevel = 110,
     },
