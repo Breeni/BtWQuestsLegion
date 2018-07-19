@@ -440,6 +440,10 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_A_FOUND_MEMENTO, {
     name = BtWQuests_GetQuestName(46268),
     category = BTWQUESTS_CATEGORY_LEGION_BROKENSHORE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    restrictions = {
+        type = "faction",
+        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+    },
     prerequisites = {
         {
             type = "quest",
