@@ -63,6 +63,14 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
         {
             type = "quest",
             id = 40668,
+            userdata = {
+                source = {
+                    type = "map",
+                    mapID = 630,
+                    x = 0.48,
+                    y = 0.26,
+                },
+            },
             x = 3.25,
             y = 1,
             connections = {
@@ -3320,4 +3328,9 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
 BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
+})
+
+BtWQuestsDatabase:AddContinentItem(619, {
+    type = "chain",
+    id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER,
 })
