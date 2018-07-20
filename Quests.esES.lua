@@ -4,7 +4,7 @@ if GetLocale() ~= "esES" then
     return
 end
 
-BtWQuests_AddQuestsTable({
+BtWQuestsDatabase:AddQuestsTable({
     [11997] = {
         name = "La llama helada",
         level = -1,

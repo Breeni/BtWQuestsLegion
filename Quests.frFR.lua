@@ -4,7 +4,7 @@ if GetLocale() ~= "frFR" then
     return
 end
 
-BtWQuests_AddQuestsTable({
+BtWQuestsDatabase:AddQuestsTable({
     [11997] = {
         name = "La flamme gelée",
         level = -1,

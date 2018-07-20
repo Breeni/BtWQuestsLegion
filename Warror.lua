@@ -1,4 +1,4 @@
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(71)), "Strom'kar, the Warbreaker"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -23,7 +23,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(72)), "Warswords of the Valarjar"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -48,7 +48,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(73)), "Scale of the Earth-Warder"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -73,7 +73,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN, {
     name = BTWQUESTS_WARRIOR_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -587,7 +587,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER, {
     name = function (self)
         if UnitFactionGroup("player") == "Alliance" then
             return BtWQuests_GetQuestName(45876)
@@ -829,7 +829,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT, {
     name = BTWQUESTS_WARRIOR_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -878,7 +878,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_MOUNT, {
     },
 })
 
-BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR, {
+BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR, {
     name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -904,7 +904,7 @@ BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR, {
     },
 })
 
-BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
+BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
 })

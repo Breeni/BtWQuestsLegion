@@ -4,7 +4,7 @@ if GetLocale() ~= "deDE" then
     return
 end
 
-BtWQuests_AddQuestsTable({
+BtWQuestsDatabase:AddQuestsTable({
     [11997] = {
         name = "Die gefrorene Flamme",
         level = -1,

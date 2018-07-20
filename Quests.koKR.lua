@@ -4,7 +4,7 @@ if GetLocale() ~= "koKR" then
     return
 end
 
-BtWQuests_AddQuestsTable({
+BtWQuestsDatabase:AddQuestsTable({
     [11997] = {
         name = "얼음에 갇힌 검",
         level = -1,

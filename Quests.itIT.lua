@@ -4,7 +4,7 @@ if GetLocale() ~= "itIT" then
     return
 end
 
-BtWQuests_AddQuestsTable({
+BtWQuestsDatabase:AddQuestsTable({
     [11997] = {
         name = "La fiamma gelida",
         level = -1,

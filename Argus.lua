@@ -3,7 +3,7 @@ local MACAREE_MAP_ID = 882
 local ANTORAN_MAP_ID = 885
 local KROKUUN_MAP_ID = 830
 
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS, {
     name = GetAchievementCriteriaInfo(12066, 1),
     category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -437,7 +437,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS, {
     name = GetAchievementCriteriaInfo(12066, 2),
     category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -755,7 +755,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW, {
     name = GetAchievementCriteriaInfo(12066, 3),
     category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1000,7 +1000,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS, {
     name = BtWQuests_GetQuestName(48460),
     category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1257,7 +1257,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS, {
     },
 })
 
-BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_ARGUS, {
+BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARGUS, {
     name = BtWQuests_GetMapName(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1718211,
@@ -1281,12 +1281,12 @@ BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_ARGUS, {
     },
 })
 
-BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
+BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
 })
 
-BtWQuests_AddMapRecursive(MAP_ID, {
+BtWQuestsDatabase:AddMapRecursive(MAP_ID, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
 })

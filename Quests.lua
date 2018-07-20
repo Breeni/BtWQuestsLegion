@@ -1,4 +1,4 @@
-BtWQuests_AddQuestsTable({
+BtWQuestsDatabase:AddQuestsTable({
     [11997] = {
         name = "The Frozen Flame",
         level = -1,

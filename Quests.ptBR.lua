@@ -4,7 +4,7 @@ if GetLocale() ~= "ptBR" then
     return
 end
 
-BtWQuests_AddQuestsTable({
+BtWQuestsDatabase:AddQuestsTable({
     [11997] = {
         name = "A chama congelada",
         level = -1,

@@ -1,4 +1,4 @@
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(259)), "The Kingslayers"), -- select(1, GetItemInfo(128870))
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -74,7 +74,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(260)), "The Dreadblades"), -- select(1, GetItemInfo(134552))
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -108,7 +108,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(261)), "Fangs of the Devourer"), -- select(1, GetItemInfo(128476))
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -169,7 +169,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
     name = BTWQUESTS_ROGUE_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -807,7 +807,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER, {
     name = function (self)
         if UnitFactionGroup("player") == "Alliance" then
             return BtWQuests_GetQuestName(46059)
@@ -1156,7 +1156,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT, {
     name = BTWQUESTS_ROGUE_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1224,7 +1224,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT, {
     },
 })
 
-BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE, {
+BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE, {
     name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -1250,7 +1250,7 @@ BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE, {
     },
 })
 
-BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
+BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
 })

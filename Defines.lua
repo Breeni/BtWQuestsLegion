@@ -237,20 +237,20 @@ BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUREN = 72704
 BTWQUESTS_CHAIN_LEGION_EPILOGUE = 7001
 BTWQUESTS_CHAIN_LEGION_LOST_MAIL = 7002
 
-BtWQuests_AddExpansion(BTWQUESTS_EXPANSION_LEGION, {
+BtWQuestsDatabase:AddExpansion(BTWQUESTS_EXPANSION_LEGION, {
     background = {
         texture = "Interface\\EncounterJournal\\UI-EJ-Legion"
     }
 })
 
 -- Broken Shore
-BtWQuests_AddMapRecursive(619, {
+BtWQuestsDatabase:AddMapRecursive(619, {
     type = "expansion",
     id = BTWQUESTS_EXPANSION_LEGION,
 })
 
 -- Dalaran
-BtWQuests_AddMapRecursive(627, {
+BtWQuestsDatabase:AddMapRecursive(627, {
     type = "expansion",
     id = BTWQUESTS_EXPANSION_LEGION,
 })

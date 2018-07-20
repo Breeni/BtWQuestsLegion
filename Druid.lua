@@ -1,4 +1,4 @@
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(102)), "Scythe of Elune"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -77,7 +77,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(103)), "Fangs of Ashamane"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -138,7 +138,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(104)), "Claws of Ursoc"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -217,7 +217,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(105)), "G'Hanir, the Mother Tree"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -287,7 +287,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
     name = BTWQUESTS_DRUID_CAMPAIGN,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -914,7 +914,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER, {
     name = BtWQuests_GetQuestName(46044),
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1087,7 +1087,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER, {
         },
     },
 })
-BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT, {
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT, {
     name = BTWQUESTS_DRUID_MOUNT,
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
     expansion = BTWQUESTS_EXPANSION_LEGION,
@@ -1145,7 +1145,7 @@ BtWQuests_AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT, {
     },
 })
 
-BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID, {
+BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID, {
     name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -1171,7 +1171,7 @@ BtWQuests_AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID, {
     },
 })
 
-BtWQuests_AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
+BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
 })
