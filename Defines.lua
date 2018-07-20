@@ -243,8 +243,8 @@ BtWQuestsDatabase:AddExpansion(BTWQUESTS_EXPANSION_LEGION, {
     }
 })
 
--- Broken Shore
-BtWQuestsDatabase:AddMapRecursive(619, {
+-- Broken Isles
+BtWQuestsDatabase:AddMap(619, {
     type = "expansion",
     id = BTWQUESTS_EXPANSION_LEGION,
 })
