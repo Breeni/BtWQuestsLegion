@@ -3329,8 +3329,3 @@ BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
 })
-
-BtWQuestsDatabase:AddContinentItem(619, {
-    type = "chain",
-    id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER,
-})
