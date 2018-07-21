@@ -1,4 +1,5 @@
 local MAP_ID = 634
+local CONTINENT_ID = 619
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_ALLIANCE, {
     name = GetAchievementCriteriaInfo(10790, 1),
@@ -1585,12 +1586,21 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_A_MURKY_FATE, {
     },
     range = {98, 110},
     items = {
+        -- {
+        --     name = "Go to Morheim Ancestor",
+        --     breadcrumb = true,
+        --     onClick = function ()
+        --         BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.7824, 0.5867, "Morheim Ancestor")
+        --     end,
+        --     x = 3,
+        --     y = 0,
+        --     connections = {
+        --         1
+        --     },
+        -- },
         {
-            name = "Go to Morheim Ancestor",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.7824, 0.5867, "Morheim Ancestor")
-            end,
+            type = "npc",
+            id = 98587,
             x = 3,
             y = 0,
             connections = {
@@ -1600,6 +1610,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_A_MURKY_FATE, {
         {
             type = "quest",
             id = 40120,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 98587,
+                },
+            },
             x = 3,
             y = 1,
         },
@@ -1616,11 +1632,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT, {
     range = {98, 110},
     items = {
         {
-            name = "Go to Sir Finley Mrrgglton",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.7492, 0.5558, "Sir Finley Mrrgglton")
-            end,
+            type = "npc",
+            id = 108072,
             x = 2,
             y = 0,
             connections = {
@@ -1628,11 +1641,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT, {
             },
         },
         {
-            name = "Go to the Crate of Ancient Relics",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.7553, 0.5080, "Crate of Ancient Relics")
-            end,
+            type = "npc",
+            id = 250990,
             x = 5,
             y = 0,
             connections = {
@@ -1690,11 +1700,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR, {
     range = {98, 110},
     items = {
         {
-            name = "Go to Frightened Ravenbear",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5032, 0.3403, "Frightened Ravenbear")
-            end,
+            type = "npc",
+            id = 107499,
             x = 3,
             y = 0,
             connections = {
@@ -1748,11 +1755,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS, {
     range = {98, 110},
     items = {
         {
-            name = "Go to Ootasa Galehoof",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5147, 0.5695, "Ootasa Galehoof")
-            end,
+            type = "npc",
+            id = 97258,
             x = 3,
             y = 0,
             connections = {
@@ -1817,11 +1821,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS, {
             },
         },
         {
-            name = "Go to Gazrix Gearlock",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5016, 0.2262, "Gazrix Gearlock")
-            end,
+            type = "npc",
+            id = 110018,
             x = 3,
             y = 5,
             connections = {
@@ -1901,6 +1902,63 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_STORMHEIM, {
     }
 })
 
+BtWQuestsDatabase:AddNPCsTable({
+    [98587] = {
+        name = "Morheim Ancestor",
+        locations = {
+            [MAP_ID] = {
+                x = 0.7824,
+                y = 0.5867,
+            }
+        },
+    },
+    [108072] = {
+        name = "Sir Finley Mrrgglton",
+        locations = {
+            [MAP_ID] = {
+                x = 0.7492,
+                y = 0.5558,
+            }
+        },
+    },
+    [250990] = {
+        name = "Crate of Ancient Relics",
+        locations = {
+            [MAP_ID] = {
+                x = 0.7553,
+                y = 0.5080,
+            }
+        },
+    },
+    [107499] = {
+        name = "Frightened Ravenbear",
+        locations = {
+            [MAP_ID] = {
+                x = 0.5032,
+                y = 0.3403,
+            }
+        },
+    },
+    [97258] = {
+        name = "Ootasa Galehoof",
+        locations = {
+            [MAP_ID] = {
+                x = 0.5147,
+                y = 0.5695,
+            }
+        },
+    },
+    [110018] = {
+        name = "Gazrix Gearlock",
+        locations = {
+            [MAP_ID] = {
+                x = 0.5016,
+                y = 0.2262,
+            }
+        },
+    },
+})
+
 BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
@@ -1909,4 +1967,23 @@ BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
 BtWQuestsDatabase:AddMapRecursive(MAP_ID, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
+})
+
+BtWQuestsDatabase:AddContinentItems(CONTINENT_ID, {
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_A_MURKY_FATE,
+    },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT,
+    },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR,
+    },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS,
+    },
 })
