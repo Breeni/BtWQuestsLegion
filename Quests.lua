@@ -1,4 +1,4 @@
-BtWQuestsDatabase:AddQuestsTable({
+local quests = {
     [11997] = {
         name = "The Frozen Flame",
         level = -1,
@@ -11499,4 +11499,10 @@ BtWQuestsDatabase:AddQuestsTable({
         level = 110,
         requiredLevel = 110,
     },
-})
+}
+for _,quest in pairs(quests) do
+    if quest.level == -1 and quest.maxLevel == nil then
+        quest.maxLevel = 110
+    end
+end
+BtWQuestsDatabase:AddQuestsTable(quests)
