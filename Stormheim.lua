@@ -1652,6 +1652,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT, {
         {
             type = "quest",
             id = 42635,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 108072,
+                },
+            },
             x = 1,
             y = 1,
             connections = {
@@ -1662,6 +1668,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT, {
         {
             type = "quest",
             id = 42639,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 108072,
+                },
+            },
             x = 3,
             y = 1,
             connections = {
@@ -1672,18 +1684,36 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT, {
         {
             type = "quest",
             id = 42640,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 250990,
+                },
+            },
             x = 5,
             y = 1,
         },
         {
             type = "quest",
             id = 42641,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 108072,
+                },
+            },
             x = 1,
             y = 2,
         },
         {
             type = "quest",
             id = 42645,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 108072,
+                },
+            },
             x = 3,
             y = 2,
         },
@@ -1711,6 +1741,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR, {
         {
             type = "quest",
             id = 42444,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 107499,
+                },
+            },
             x = 3,
             y = 1,
             connections = {
@@ -1721,6 +1757,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR, {
         {
             type = "quest",
             id = 42445,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 107499,
+                },
+            },
             x = 2,
             y = 2,
             connections = {
@@ -1730,6 +1772,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR, {
         {
             type = "quest",
             id = 42446,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 107499,
+                },
+            },
             x = 4,
             y = 2,
             connections = {
@@ -1739,6 +1787,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR, {
         {
             type = "quest",
             id = 42447,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 107499,
+                },
+            },
             x = 3,
             y = 3,
         },
@@ -1766,6 +1820,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS, {
         {
             type = "quest",
             id = 39789,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 97258,
+                },
+            },
             x = 3,
             y = 1,
             connections = {
@@ -1776,6 +1836,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS, {
         {
             type = "quest",
             id = 39793,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 107675,
+                },
+            },
             x = 2,
             y = 2,
             connections = {
@@ -1786,6 +1852,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS, {
         {
             type = "quest",
             id = 39787,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 107674,
+                },
+            },
             x = 4,
             y = 2,
             connections = {
@@ -1796,6 +1868,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS, {
         {
             type = "quest",
             id = 39792,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 107675,
+                },
+            },
             x = 2,
             y = 3,
             connections = {
@@ -1805,6 +1883,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS, {
         {
             type = "quest",
             id = 39786,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 107674,
+                },
+            },
             x = 4,
             y = 3,
             connections = {
@@ -1814,6 +1898,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS, {
         {
             type = "quest",
             id = 42483,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 97258,
+                },
+            },
             x = 3,
             y = 4,
             connections = {
@@ -1832,6 +1922,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS, {
         {
             type = "quest",
             id = 43331,
+            userdata = {
+                source = {
+                    type = "npc",
+                    id = 110018,
+                },
+            },
             x = 3,
             y = 6,
         },
@@ -1954,6 +2050,24 @@ BtWQuestsDatabase:AddNPCsTable({
             [MAP_ID] = {
                 x = 0.5016,
                 y = 0.2262,
+            }
+        },
+    },
+    [107674] = {
+        name = "Snaggle Sixtrigger",
+        locations = {
+            [MAP_ID] = {
+                x = 0.512,
+                y = 0.570,
+            }
+        },
+    },
+    [107675] = {
+        name = "Rax Sixtrigger",
+        locations = {
+            [MAP_ID] = {
+                x = 0.512,
+                y = 0.570,
             }
         },
     },
