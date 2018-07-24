@@ -2083,6 +2083,12 @@ BtWQuestsDatabase:AddMapRecursive(MAP_ID, {
     id = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
 })
 
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS)
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_A_MURKY_FATE)
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT)
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_RAVENBEAR)
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GOBLINS)
+
 BtWQuestsDatabase:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
