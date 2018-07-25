@@ -1262,7 +1262,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK, {
             type = "quest",
             id = 40229,
             onClick = function()
-                BtWQuests_SelectChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE, {
+                BtWQuestsFrame:SelectChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE, {
                     type = "quest",
                     id = 40229
                 })

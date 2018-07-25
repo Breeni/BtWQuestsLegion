@@ -177,7 +177,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
             id = 43527,
             breadcrumb = 1,
             onClick = function (self)
-                BtWQuests_SelectChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD)
+                BtWQuestsFrame:SelectChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD)
             end,
             x = 2.9,
             y = 7,
@@ -205,7 +205,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
             x = 5.25,
             y = 8.5,
             onClick = function (self)
-                BtWQuests_SelectCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR)
+                BtWQuestsFrame:SelectCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR)
             end,
             connections = {
                 1

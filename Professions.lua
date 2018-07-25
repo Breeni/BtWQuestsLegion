@@ -2467,7 +2467,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_PROFESSIONS_TAILORING, {
             type = "quest",
             id = 42079,
             onClick = function (self)
-                BtWQuests_SelectChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE)
+                BtWQuestsFrame:SelectChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE)
             end,
             x = 5,
             y = 21.5,
