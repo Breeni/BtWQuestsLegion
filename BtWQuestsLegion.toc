@@ -30,6 +30,7 @@ Rogue.lua
 Shaman.lua
 Warlock.lua
 Warror.lua
+Class.lua
 Artifact.lua
 Orderhall.lua
 Azsuna.lua

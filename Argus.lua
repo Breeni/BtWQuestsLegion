@@ -1290,3 +1290,8 @@ BtWQuestsDatabase:AddMapRecursive(MAP_ID, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_ARGUS,
 })
+
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS)
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS)
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW)
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS)

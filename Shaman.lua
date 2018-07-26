@@ -987,8 +987,3 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN, {
         },
     },
 })
-
-BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
-    type = "category",
-    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
-})

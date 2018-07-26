@@ -912,6 +912,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER
             name = "Wait for a mail from Maximillian",
             type = "quest",
             id = 45773,
+            breadcrumb = true,
             x = 3,
             y = 1,
             connections = {
@@ -1120,9 +1121,4 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN, {
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT,
         },
     },
-})
-
-BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
-    type = "category",
-    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
 })

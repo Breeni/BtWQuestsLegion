@@ -520,3 +520,6 @@ BtWQuestsDatabase:AddMission(1512, {
 BtWQuestsDatabase:AddMission(1513, {
     name = "I've Got A Strange Feeling About This",
 })
+
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART)
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL)

@@ -1966,8 +1966,3 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER, {
         },
     },
 })
-
-BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
-    type = "category",
-    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
-})

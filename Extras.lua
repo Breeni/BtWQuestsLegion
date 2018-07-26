@@ -528,3 +528,7 @@ BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
     type = "chain",
     id = BTWQUESTS_CHAIN_LEGION_LOST_MAIL,
 })
+
+
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE)
+BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_LOST_MAIL)

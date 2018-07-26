@@ -959,8 +959,3 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK, {
         },
     },
 })
-
-BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
-    type = "category",
-    id = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
-})
