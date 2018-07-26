@@ -29,7 +29,7 @@ Priest.lua
 Rogue.lua
 Shaman.lua
 Warlock.lua
-Warror.lua
+Warrior.lua
 Class.lua
 Artifact.lua
 Orderhall.lua
