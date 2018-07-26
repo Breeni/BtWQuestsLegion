@@ -1,6 +1,6 @@
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_STARTING_ZONE, {
     name = "Demon Hunter Starting Zone",
-    category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEMONHUNTER,
+    category = BTWQUESTS_CATEGORY_LEGION_CLASS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
         {
