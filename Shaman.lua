@@ -321,6 +321,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
         {
             type = "quest",
             id = 44544,
+            breadcrumb = true,
             x = 3,
             y = 6,
             connections = {

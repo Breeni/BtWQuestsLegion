@@ -376,7 +376,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
         },
         {
             type = "quest",
-            id = 42663,
+            id = 42175,
+            breadcrumb = true,
             x = 3,
             y = 10,
             connections = {
@@ -385,7 +386,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
         },
         {
             type = "quest",
-            id = 42703,
+            id = 42663,
             x = 3,
             y = 11,
             connections = {
@@ -394,7 +395,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
         },
         {
             type = "quest",
-            id = 42126,
+            id = 42703,
             x = 3,
             y = 12,
             connections = {
@@ -403,7 +404,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
         },
         {
             type = "quest",
-            id = 42127,
+            id = 42126,
             x = 3,
             y = 13,
             connections = {
@@ -412,7 +413,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
         },
         {
             type = "quest",
-            id = 42696,
+            id = 42127,
             x = 3,
             y = 14,
             connections = {
@@ -421,9 +422,18 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
         },
         {
             type = "quest",
-            id = 42433,
+            id = 42696,
             x = 3,
             y = 15,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 42433,
+            x = 3,
+            y = 16,
             connections = {
                 2
             },
@@ -434,7 +444,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "level",
             level = 103,
             x = 5,
-            y = 15.5,
+            y = 16.5,
             connections = {
                 1
             },
@@ -443,7 +453,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42418,
             x = 3,
-            y = 16,
+            y = 17,
             connections = {
                 1
             },
@@ -452,7 +462,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42434,
             x = 3,
-            y = 17,
+            y = 18,
             connections = {
                 1
             },
@@ -461,7 +471,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42435,
             x = 3,
-            y = 18,
+            y = 19,
             connections = {
                 1
             },
@@ -470,7 +480,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42166,
             x = 3,
-            y = 19,
+            y = 20,
             connections = {
                 1, 2
             },
@@ -481,7 +491,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42206,
             x = 2,
-            y = 20,
+            y = 21,
             connections = {
                 2
             },
@@ -490,7 +500,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42149,
             x = 4,
-            y = 20,
+            y = 21,
             connections = {
                 1
             },
@@ -501,7 +511,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42171,
             x = 3,
-            y = 21,
+            y = 22,
             connections = {
                 1
             },
@@ -510,7 +520,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42222,
             x = 3,
-            y = 22,
+            y = 23,
             connections = {
                 1, 2, 3, 4
             },
@@ -521,19 +531,19 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42706,
             x = 0,
-            y = 23,
+            y = 24,
         },
         {
             type = "quest",
             id = 44098,
             x = 2,
-            y = 23,
+            y = 24,
         },
         {
             type = "quest",
             id = 42416,
             x = 4,
-            y = 23,
+            y = 24,
             connections = {
                 2
             },
@@ -542,14 +552,14 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42705,
             x = 6,
-            y = 23,
+            y = 24,
         },
         
         {
             type = "quest",
             id = 42423,
             x = 3,
-            y = 24,
+            y = 25,
             connections = {
                 1
             },
@@ -558,7 +568,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42424,
             x = 3,
-            y = 25,
+            y = 26,
             connections = {
                 2
             },
@@ -569,7 +579,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "level",
             level = 110,
             x = 5,
-            y = 25.5,
+            y = 26.5,
             connections = {
                 1, 2
             },
@@ -578,7 +588,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42451,
             x = 3,
-            y = 26,
+            y = 27,
             connections = {
                 6
             },
@@ -590,7 +600,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             id = 42954,
             aside = true,
             x = 5,
-            y = 27,
+            y = 28,
             connections = {
                 1
             },
@@ -600,7 +610,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             id = 42955,
             aside = true,
             x = 5,
-            y = 28,
+            y = 29,
             connections = {
                 1
             },
@@ -610,7 +620,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             id = 42956,
             aside = true,
             x = 5,
-            y = 29,
+            y = 30,
             connections = {
                 1
             },
@@ -620,7 +630,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             id = 42959,
             aside = true,
             x = 5,
-            y = 30,
+            y = 31,
             connections = {
                 1
             },
@@ -630,7 +640,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             id = 42704,
             aside = true,
             x = 5,
-            y = 31,
+            y = 32,
         },
         
         
@@ -639,7 +649,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42508,
             x = 3,
-            y = 27,
+            y = 28,
             connections = {
                 1, 2
             },
@@ -649,13 +659,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             id = 42494,
             aside = true,
             x = 1,
-            y = 28,
+            y = 29,
         },
         {
             type = "quest",
             id = 42521,
             x = 3,
-            y = 28,
+            y = 29,
             connections = {
                 1
             },
@@ -664,7 +674,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42493,
             x = 3,
-            y = 29,
+            y = 30,
             connections = {
                 1
             },
@@ -675,7 +685,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42520,
             x = 3,
-            y = 30,
+            y = 31,
             connections = {
                 1, 2, 3
             },
@@ -685,13 +695,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             id = 42702,
             aside = true,
             x = 1,
-            y = 30,
+            y = 31,
         },
         {
             type = "quest",
             id = 42707,
             x = 1,
-            y = 31,
+            y = 32,
             connections = {
                 2
             },
@@ -700,7 +710,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42940,
             x = 3,
-            y = 31,
+            y = 32,
             connections = {
                 1
             },
@@ -709,7 +719,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 44689,
             x = 3,
-            y = 32,
+            y = 33,
             connections = {
                 1
             },
@@ -718,7 +728,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             type = "quest",
             id = 42734,
             x = 3,
-            y = 33,
+            y = 34,
             connections = {
                 1, 2, 3
             },
@@ -728,20 +738,20 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             id = 42917,
             aside = true,
             x = 1,
-            y = 34,
+            y = 35,
         },
         {
             type = "quest",
             id = 42914,
             x = 5,
-            y = 34,
+            y = 35,
         },
         {
             type = "quest",
             id = 43415,
             aside = true,
             x = 3,
-            y = 34,
+            y = 35,
         },
     },
 })

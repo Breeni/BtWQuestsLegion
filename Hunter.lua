@@ -433,6 +433,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN, {
         {
             type = "quest",
             id = 44090,
+            breadcrumb = true,
             x = 3,
             y = 12,
             connections = {

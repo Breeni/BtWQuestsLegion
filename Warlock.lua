@@ -342,6 +342,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
         {
             type = "quest",
             id = 44099,
+            breadcrumb = true,
             x = 3,
             y = 9,
             connections = {

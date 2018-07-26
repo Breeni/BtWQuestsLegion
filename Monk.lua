@@ -311,6 +311,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN, {
         {
             type = "quest",
             id = 42186,
+            breadcrumb = true,
             x = 3,
             y = 7,
             connections = {

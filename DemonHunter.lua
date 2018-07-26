@@ -1200,6 +1200,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN, 
             {
                 type = "quest",
                 id = 44087,
+                breadcrumb = true,
                 restrictions = {
                     {
                         type = "quest",
@@ -1215,6 +1216,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN, 
             {
                 type = "quest",
                 id = 42666,
+                breadcrumb = true,
                 restrictions = {
                     {
                         type = "quest",

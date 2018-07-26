@@ -343,6 +343,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN, {
         {
             type = "quest",
             id = 44100,
+            breadcrumb = true,
             x = 3,
             y = 7,
             connections = {

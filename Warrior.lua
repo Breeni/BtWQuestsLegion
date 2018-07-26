@@ -300,6 +300,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN, {
         {
             type = "quest",
             id = 42597,
+            breadcrumb = true,
             x = 3,
             y = 9,
             connections = {
