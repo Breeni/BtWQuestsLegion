@@ -230,10 +230,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
+            active = {
+                type = "quest",
+                id = 41085,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(41079) or BtWQuests_IsQuestCompleted(41080) or BtWQuests_IsQuestCompleted(41081))
             end,
-            breadcrumb = true,
             x = 1,
             y = 3,
             connections = {
@@ -243,10 +246,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FIRE,
+            active = {
+                type = "quest",
+                id = 41085,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(41079) or BtWQuests_IsQuestCompleted(41080) or BtWQuests_IsQuestCompleted(41081))
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -256,10 +262,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
+            active = {
+                type = "quest",
+                id = 41085,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(41079) or BtWQuests_IsQuestCompleted(41080) or BtWQuests_IsQuestCompleted(41081))
             end,
-            breadcrumb = true,
             x = 5,
             y = 3,
             connections = {
@@ -274,7 +283,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(41079)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -287,7 +295,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(41080)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -300,7 +307,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(41081)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {

@@ -193,10 +193,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
+            active = {
+                type = "quest",
+                id = 40636,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40640) or BtWQuests_IsQuestCompleted(40639) or BtWQuests_IsQuestCompleted(40638))
             end,
-            breadcrumb = true,
             x = 1,
             y = 3,
             connections = {
@@ -206,10 +209,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
+            active = {
+                type = "quest",
+                id = 40636,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40640) or BtWQuests_IsQuestCompleted(40639) or BtWQuests_IsQuestCompleted(40638))
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -219,10 +225,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER,
+            active = {
+                type = "quest",
+                id = 40636,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40640) or BtWQuests_IsQuestCompleted(40639) or BtWQuests_IsQuestCompleted(40638))
             end,
-            breadcrumb = true,
             x = 5,
             y = 3,
             connections = {
@@ -236,7 +245,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40640)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -249,7 +257,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40639)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -262,7 +269,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40638)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {

@@ -185,7 +185,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN, {
             x = 3,
             y = 1,
             connections = {
-                1, 2, 3, 4, 5, 6
+                1, 2, 3,
+                4, 5, 6
             },
         },
         
@@ -194,10 +195,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
+            active = {
+                type = "quest",
+                id = 40408,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40410) or BtWQuests_IsQuestCompleted(40411) or BtWQuests_IsQuestCompleted(40409))
             end,
-            breadcrumb = true,
             x = 1,
             y = 2,
             connections = {
@@ -207,10 +211,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_PROTECTION,
+            active = {
+                type = "quest",
+                id = 40408,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40410) or BtWQuests_IsQuestCompleted(40411) or BtWQuests_IsQuestCompleted(40409))
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -220,10 +227,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
+            active = {
+                type = "quest",
+                id = 40408,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40410) or BtWQuests_IsQuestCompleted(40411) or BtWQuests_IsQuestCompleted(40409))
             end,
-            breadcrumb = true,
             x = 5,
             y = 2,
             connections = {
@@ -239,7 +249,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40410)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -252,7 +261,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40411)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -265,7 +273,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40409)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {

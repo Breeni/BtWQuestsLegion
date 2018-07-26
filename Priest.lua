@@ -212,10 +212,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
+            active = {
+                type = "quest",
+                id = 40706,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40709) or BtWQuests_IsQuestCompleted(40708) or BtWQuests_IsQuestCompleted(40707))
             end,
-            breadcrumb = true,
             x = 1,
             y = 2,
             connections = {
@@ -225,10 +228,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY,
+            active = {
+                type = "quest",
+                id = 40706,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40709) or BtWQuests_IsQuestCompleted(40708) or BtWQuests_IsQuestCompleted(40707))
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -238,10 +244,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
+            active = {
+                type = "quest",
+                id = 40706,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40709) or BtWQuests_IsQuestCompleted(40708) or BtWQuests_IsQuestCompleted(40707))
             end,
-            breadcrumb = true,
             x = 5,
             y = 2,
             connections = {
@@ -256,7 +265,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40709)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -269,7 +277,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40708)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -282,7 +289,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40707)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {

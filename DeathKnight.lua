@@ -178,13 +178,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-            restrictions = {
-                {
-                    onEval = function (self)
-                        return not(BtWQuests_IsQuestCompleted(40722) or BtWQuests_IsQuestCompleted(40723) or BtWQuests_IsQuestCompleted(40724))
-                    end
-                }
+            active = {
+                type = "quest",
+                id = 40715,
             },
+            visible = function (_, character)
+                return not(character:IsQuestCompleted(40722) or character:IsQuestCompleted(40723) or character:IsQuestCompleted(40724))
+            end,
             x = 1,
             y = 2,
             connections = {
@@ -194,13 +194,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-            restrictions = {
-                {
-                    onEval = function (self)
-                        return not(BtWQuests_IsQuestCompleted(40722) or BtWQuests_IsQuestCompleted(40723) or BtWQuests_IsQuestCompleted(40724))
-                    end
-                }
+            active = {
+                type = "quest",
+                id = 40715,
             },
+            visible = function (_, character)
+                return not(character:IsQuestCompleted(40722) or character:IsQuestCompleted(40723) or character:IsQuestCompleted(40724))
+            end,
             x = 3,
             y = 2,
             connections = {
@@ -210,13 +210,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-            restrictions = {
-                {
-                    onEval = function (self)
-                        return not(BtWQuests_IsQuestCompleted(40722) or BtWQuests_IsQuestCompleted(40723) or BtWQuests_IsQuestCompleted(40724))
-                    end
-                }
+            active = {
+                type = "quest",
+                id = 40715,
             },
+            visible = function (_, character)
+                return not(character:IsQuestCompleted(40722) or character:IsQuestCompleted(40723) or character:IsQuestCompleted(40724))
+            end,
             x = 5,
             y = 2,
             connections = {
@@ -229,13 +229,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-            restrictions = {
-                {
-                    onEval = function (self)
-                        return BtWQuests_IsQuestCompleted(40722)
-                    end
-                }
-            },
+            visible = function (_, character)
+                return character:IsQuestCompleted(40722)
+            end,
             x = 3,
             y = 2,
             connections = {
@@ -245,13 +241,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-            restrictions = {
-                {
-                    onEval = function (self)
-                        return BtWQuests_IsQuestCompleted(40723)
-                    end
-                }
-            },
+            visible = function (_, character)
+                return character:IsQuestCompleted(40723)
+            end,
             x = 3,
             y = 2,
             connections = {
@@ -261,13 +253,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-            restrictions = {
-                {
-                    onEval = function (self)
-                        return BtWQuests_IsQuestCompleted(40724)
-                    end
-                }
-            },
+            visible = function (_, character)
+                return character:IsQuestCompleted(40724)
+            end,
             x = 3,
             y = 2,
             connections = {

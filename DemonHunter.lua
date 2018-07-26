@@ -938,10 +938,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN, 
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
+            active = {
+                type = "quest",
+                id = 40814,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40817) or BtWQuests_IsQuestCompleted(40818))
             end,
-            breadcrumb = true,
             x = 2,
             y = 2,
             connections = {
@@ -951,10 +954,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN, 
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
+            active = {
+                type = "quest",
+                id = 40814,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40817) or BtWQuests_IsQuestCompleted(40818))
             end,
-            breadcrumb = true,
             x = 4,
             y = 2,
             connections = {
@@ -969,7 +975,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN, 
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40817)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -982,7 +987,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_CAMPAIGN, 
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40818)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {

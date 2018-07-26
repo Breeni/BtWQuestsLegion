@@ -194,17 +194,21 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
             x = 3,
             y = 2,
             connections = {
-                1, 2, 3, 4, 5, 6
+                1, 2, 3,
+                4, 5, 6
             },
         },
         
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+            active = {
+                type = "quest",
+                id = 40684,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40686) or BtWQuests_IsQuestCompleted(40687) or BtWQuests_IsQuestCompleted(40688))
             end,
-            breadcrumb = true,
             x = 1,
             y = 3,
             connections = {
@@ -214,10 +218,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+            active = {
+                type = "quest",
+                id = 40684,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40686) or BtWQuests_IsQuestCompleted(40687) or BtWQuests_IsQuestCompleted(40688))
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -227,10 +234,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+            active = {
+                type = "quest",
+                id = 40684,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40686) or BtWQuests_IsQuestCompleted(40687) or BtWQuests_IsQuestCompleted(40688))
             end,
-            breadcrumb = true,
             x = 5,
             y = 3,
             connections = {
@@ -245,7 +255,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40686)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -258,7 +267,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40687)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -271,7 +279,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40688)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {

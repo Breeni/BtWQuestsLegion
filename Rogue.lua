@@ -209,7 +209,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
             x = 3,
             y = 2,
             connections = {
-                1, 2, 3, 4, 5, 6
+                1, 2, 3,
+                4, 5, 6
             },
         },
         
@@ -218,10 +219,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
+            active = {
+                type = "quest",
+                id = 40840,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40842) or BtWQuests_IsQuestCompleted(40843) or BtWQuests_IsQuestCompleted(40844))
             end,
-            breadcrumb = true,
             x = 1,
             y = 3,
             connections = {
@@ -231,10 +235,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
+            active = {
+                type = "quest",
+                id = 40840,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40842) or BtWQuests_IsQuestCompleted(40843) or BtWQuests_IsQuestCompleted(40844))
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -244,10 +251,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+            active = {
+                type = "quest",
+                id = 40840,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40842) or BtWQuests_IsQuestCompleted(40843) or BtWQuests_IsQuestCompleted(40844))
             end,
-            breadcrumb = true,
             x = 5,
             y = 3,
             connections = {

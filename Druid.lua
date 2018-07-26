@@ -354,10 +354,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
+            active = {
+                type = "quest",
+                id = 40646,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40781) or BtWQuests_IsQuestCompleted(40701) or BtWQuests_IsQuestCompleted(40702) or BtWQuests_IsQuestCompleted(40703))
             end,
-            breadcrumb = true,
             x = 0,
             y = 5,
             connections = {
@@ -367,10 +370,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL,
+            active = {
+                type = "quest",
+                id = 40646,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40781) or BtWQuests_IsQuestCompleted(40701) or BtWQuests_IsQuestCompleted(40702) or BtWQuests_IsQuestCompleted(40703))
             end,
-            breadcrumb = true,
             x = 2,
             y = 5,
             connections = {
@@ -380,10 +386,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN,
+            active = {
+                type = "quest",
+                id = 40646,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40781) or BtWQuests_IsQuestCompleted(40701) or BtWQuests_IsQuestCompleted(40702) or BtWQuests_IsQuestCompleted(40703))
             end,
-            breadcrumb = true,
             x = 4,
             y = 5,
             connections = {
@@ -393,10 +402,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
+            active = {
+                type = "quest",
+                id = 40646,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40781) or BtWQuests_IsQuestCompleted(40701) or BtWQuests_IsQuestCompleted(40702) or BtWQuests_IsQuestCompleted(40703))
             end,
-            breadcrumb = true,
             x = 6,
             y = 5,
             connections = {
@@ -411,7 +423,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40781)
             end,
-            breadcrumb = true,
             x = 3,
             y = 5,
             connections = {
@@ -424,7 +435,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40701)
             end,
-            breadcrumb = true,
             x = 3,
             y = 5,
             connections = {
@@ -437,7 +447,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40702)
             end,
-            breadcrumb = true,
             x = 3,
             y = 5,
             connections = {
@@ -450,7 +459,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40703)
             end,
-            breadcrumb = true,
             x = 3,
             y = 5,
             connections = {

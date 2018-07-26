@@ -189,10 +189,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
+            active = {
+                type = "quest",
+                id = 40618,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40621) or BtWQuests_IsQuestCompleted(40620) or BtWQuests_IsQuestCompleted(40619))
             end,
-            breadcrumb = true,
             x = 1,
             y = 3,
             connections = {
@@ -202,10 +205,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP,
+            active = {
+                type = "quest",
+                id = 40618,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40621) or BtWQuests_IsQuestCompleted(40620) or BtWQuests_IsQuestCompleted(40619))
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -215,10 +221,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
+            active = {
+                type = "quest",
+                id = 40618,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(40621) or BtWQuests_IsQuestCompleted(40620) or BtWQuests_IsQuestCompleted(40619))
             end,
-            breadcrumb = true,
             x = 5,
             y = 3,
             connections = {
@@ -274,7 +283,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40621)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -287,7 +295,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40620)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {
@@ -300,7 +307,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40619)
             end,
-            breadcrumb = true,
             x = 3,
             y = 3,
             connections = {

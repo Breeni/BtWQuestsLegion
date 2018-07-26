@@ -202,10 +202,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+            active = {
+                type = "quest",
+                id = 41335,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(41329) or BtWQuests_IsQuestCompleted(41328) or BtWQuests_IsQuestCompleted(41330))
             end,
-            breadcrumb = true,
             x = 1,
             y = 2,
             connections = {
@@ -215,10 +218,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+            active = {
+                type = "quest",
+                id = 41335,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(41329) or BtWQuests_IsQuestCompleted(41328) or BtWQuests_IsQuestCompleted(41330))
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -228,10 +234,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+            active = {
+                type = "quest",
+                id = 41335,
+            },
             visible = function (self)
                 return not (BtWQuests_IsQuestCompleted(41329) or BtWQuests_IsQuestCompleted(41328) or BtWQuests_IsQuestCompleted(41330))
             end,
-            breadcrumb = true,
             x = 5,
             y = 2,
             connections = {
@@ -245,7 +254,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(41329)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -258,7 +266,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(41328)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
@@ -271,7 +278,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(41330)
             end,
-            breadcrumb = true,
             x = 3,
             y = 2,
             connections = {
