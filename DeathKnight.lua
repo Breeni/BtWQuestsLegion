@@ -380,6 +380,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
         {
             type = "quest",
             id = 44550,
+            breadcrumb = true,
             x = 3,
             y = 9,
             connections = {
@@ -390,18 +391,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
         
         {
             type = "quest",
-            id = 44550,
-            x = 3,
-            y = 10,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "quest",
             id = 43264,
             x = 3,
-            y = 11,
+            y = 10,
             connections = {
                 1, 2, 3
             },
@@ -410,19 +402,19 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 39818,
             x = 1,
-            y = 12,
+            y = 11,
         },
         {
             type = "quest",
             id = 39816,
             x = 5,
-            y = 12,
+            y = 11,
         },
         {
             type = "quest",
             id = 43265,
             x = 3,
-            y = 12,
+            y = 11,
             connections = {
                 1
             },
@@ -431,7 +423,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43266,
             x = 3,
-            y = 13,
+            y = 12,
             connections = {
                 1
             },
@@ -440,7 +432,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43267,
             x = 3,
-            y = 14,
+            y = 13,
             connections = {
                 1
             },
@@ -449,7 +441,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43539,
             x = 3,
-            y = 15,
+            y = 14,
             connections = {
                 1
             },
@@ -458,7 +450,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43268,
             x = 3,
-            y = 16,
+            y = 15,
             connections = {
                 2
             },
@@ -467,7 +459,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "level",
             level = 103,
             x = 5,
-            y = 16.5,
+            y = 15.5,
             connections = {
                 1
             },
@@ -476,7 +468,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42533,
             x = 3,
-            y = 17,
+            y = 16,
             connections = {
                 1
             },
@@ -487,7 +479,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42534,
             x = 3,
-            y = 18,
+            y = 17,
             connections = {
                 1
             },
@@ -496,7 +488,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42535,
             x = 3,
-            y = 19,
+            y = 18,
             connections = {
                 1
             },
@@ -505,7 +497,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42536,
             x = 3,
-            y = 20,
+            y = 19,
             connections = {
                 1
             },
@@ -514,7 +506,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42537,
             x = 3,
-            y = 21,
+            y = 20,
             connections = {
                 1, 2
             },
@@ -523,13 +515,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 44243,
             x = 5,
-            y = 21,
+            y = 20,
         },
         {
             type = "quest",
             id = 42708,
             x = 3,
-            y = 22,
+            y = 21,
             connections = {
                 1, 2, 3, 4
             },
@@ -538,19 +530,19 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 44244,
             x = 1,
-            y = 22,
+            y = 21,
         },
         {
             type = "quest",
             id = 44082,
             x = 5,
-            y = 22,
+            y = 21,
         },
         {
             type = "quest",
             id = 43899,
             x = 2,
-            y = 23,
+            y = 22,
             connections = {
                 5
             },
@@ -559,7 +551,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43571,
             x = 4,
-            y = 23,
+            y = 22,
             connections = {
                 1
             },
@@ -568,7 +560,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43572,
             x = 4,
-            y = 24,
+            y = 23,
             connections = {
                 3
             },
@@ -579,7 +571,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "level",
             level = 110,
             x = 6,
-            y = 24.5,
+            y = 23.5,
             connections = {
                 1, 2
             },
@@ -590,7 +582,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             id = 44217,
             aside = true,
             x = 6,
-            y = 25.5,
+            y = 24.5,
         },
         
         
@@ -598,7 +590,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42818,
             x = 3,
-            y = 25,
+            y = 24,
             connections = {
                 1, 2
             },
@@ -607,7 +599,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42882,
             x = 2,
-            y = 26,
+            y = 25,
             connections = {
                 2
             },
@@ -616,7 +608,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42821,
             x = 4,
-            y = 26,
+            y = 25,
             connections = {
                 1
             },
@@ -625,7 +617,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42823,
             x = 3,
-            y = 27,
+            y = 26,
             connections = {
                 1
             },
@@ -634,7 +626,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 42824,
             x = 3,
-            y = 28,
+            y = 27,
             connections = {
                 1, 2, 3, 4
             },
@@ -643,7 +635,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 44245,
             x = 5,
-            y = 28,
+            y = 27,
         },
         
         
@@ -651,7 +643,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43573,
             x = 2,
-            y = 29,
+            y = 28,
             connections = {
                 6
             },
@@ -660,7 +652,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43928,
             x = 4,
-            y = 29,
+            y = 28,
             connections = {
                 3, 5
             },
@@ -671,7 +663,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 44286,
             x = 1,
-            y = 28,
+            y = 27,
             connections = {
                 1
             },
@@ -680,7 +672,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 44246,
             x = 0,
-            y = 29,
+            y = 28,
         },
         
         
@@ -688,7 +680,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 44282,
             x = 6,
-            y = 29,
+            y = 28,
             connections = {
                 1
             },
@@ -697,14 +689,14 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 44247,
             x = 6,
-            y = 30,
+            y = 29,
         },
         
         {
             type = "quest",
             id = 44690,
             x = 3,
-            y = 30,
+            y = 29,
             connections = {
                 1
             },
@@ -713,7 +705,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43574,
             x = 3,
-            y = 31,
+            y = 30,
             connections = {
                 1
             },
@@ -722,7 +714,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 43686,
             x = 3,
-            y = 32,
+            y = 31,
             connections = {
                 1, 2
             },
@@ -731,13 +723,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             type = "quest",
             id = 44248,
             x = 2,
-            y = 33,
+            y = 32,
         },
         {
             type = "quest",
             id = 43407,
             x = 4,
-            y = 33,
+            y = 32,
         },
     },
 })
