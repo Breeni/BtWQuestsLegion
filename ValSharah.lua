@@ -1171,5 +1171,5 @@ BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
 
 BtWQuestsDatabase:AddMapRecursive(MAP_ID, {
     type = "category",
-    id = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
+    id = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
 })
