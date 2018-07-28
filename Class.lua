@@ -354,11 +354,11 @@ BtWQuestsDatabase:AddMapRecursive(739, {
 BtWQuestsDatabase:AddMapRecursive(734, {
     type = "chain",
     id = BTWQUESTS_CHAIN_LEGION_CLASS_CAMPAIGN,
-})
+}, false, true)
 BtWQuestsDatabase:AddMapRecursive(735, {
     type = "chain",
     id = BTWQUESTS_CHAIN_LEGION_CLASS_CAMPAIGN,
-})
+}, false, true)
 -- Monk
 BtWQuestsDatabase:AddMapRecursive(709, {
     type = "chain",
