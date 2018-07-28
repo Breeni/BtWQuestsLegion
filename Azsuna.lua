@@ -1023,4 +1023,12 @@ BtWQuestsDatabase:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP,
     },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD,
+    },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE,
+    },
 })
