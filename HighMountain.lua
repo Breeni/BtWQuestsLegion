@@ -1,4 +1,5 @@
 local MAP_ID = 650
+local CONTINENT_ID = 619
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE, {
     name = GetAchievementCriteriaInfo(10059, 1),
@@ -1478,3 +1479,22 @@ BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZI
 BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET)
 BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK)
 BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY)
+
+BtWQuestsDatabase:AddContinentItems(CONTINENT_ID, {
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK,
+    },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET,
+    },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY,
+    },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK,
+    },
+})

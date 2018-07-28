@@ -1,4 +1,5 @@
 local MAP_ID = 630
+local CONTINENT_ID = 619
 local ACHIEVEMENT_ID = 10763
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES, {
@@ -718,7 +719,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS, {
         {
             type = "quest",
             id = 38857,
-            name = BtWQuests_GetQuestName(38857),
             aside = true,
             x = 5,
             y = 8,
@@ -1017,3 +1017,10 @@ BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA)
 BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP)
 BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_VINEYARD)
 BtWQuestsDatabase:AddQuestItemsForChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_FELBLAZE)
+
+BtWQuestsDatabase:AddContinentItems(CONTINENT_ID, {
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP,
+    },
+})

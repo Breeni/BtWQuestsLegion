@@ -1,4 +1,5 @@
 local MAP_ID = 641
+local CONTINENT_ID = 619
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION, {
     name = BTWQUESTS_INTRODUCTION,
@@ -669,12 +670,14 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG, 
         {
             type = "quest",
             id = 40567,
+            aside = true,
             x = 2,
             y = 9,
         },
         {
             type = "quest",
             id = 40890,
+            aside = true,
             x = 4,
             y = 9,
         },
@@ -1172,4 +1175,19 @@ BtWQuestsDatabase:AddExpansionItem(BTWQUESTS_EXPANSION_LEGION, {
 BtWQuestsDatabase:AddMapRecursive(MAP_ID, {
     type = "category",
     id = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
+})
+
+BtWQuestsDatabase:AddContinentItems(CONTINENT_ID, {
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN,
+    },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD,
+    },
+    {
+        type = "chain",
+        id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING,
+    },
 })
