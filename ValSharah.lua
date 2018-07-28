@@ -1091,6 +1091,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING, {
         {
             type = "quest",
             id = 38842,
+            aside = true,
             x = 0,
             y = 1,
         },

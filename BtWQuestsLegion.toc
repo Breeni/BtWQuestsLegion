@@ -18,6 +18,17 @@ Quests.ptBR.lua
 Quests.ruRU.lua
 Quests.zhTW.lua
 
+NPCs.lua
+NPCs.deDE.lua
+NPCs.esES.lua
+NPCs.esMX.lua
+NPCs.frFR.lua
+NPCs.itIT.lua
+NPCs.koKR.lua
+NPCs.ptBR.lua
+NPCs.ruRU.lua
+NPCs.zhTW.lua
+
 DeathKnight.lua
 DemonHunter.lua
 Druid.lua

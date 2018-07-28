@@ -1314,6 +1314,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS, {
         {
             type = "quest",
             id = 40125,
+            aside = true,
             x = 2,
             y = 4, 
         },
@@ -1521,6 +1522,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREA
         {
             type = "quest",
             id = 41575,
+            aside = true,
             x = 0,
             y = 4,
         },
@@ -1545,6 +1547,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREA
         {
             type = "quest",
             id = 43594,
+            aside = true,
             x = 6,
             y = 4,
         },
