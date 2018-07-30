@@ -15,6 +15,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_ALL
         type = "quest",
         id = 39800,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -105,6 +106,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_ALLIAN
         type = "quest",
         id = 38060,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -209,6 +211,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_HOR
         type = "quest",
         id = 39801,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -298,6 +301,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE,
         type = "quest",
         id = 38362,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -397,6 +401,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT, 
         type = "quest",
         id = 39597,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -552,6 +557,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL, {
         type = "quest",
         id = 38624,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -888,6 +894,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_VALOR, 
         type = "quest",
         id = 38818,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -1054,6 +1061,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_TO_HELHEIM_AND_BACK,
         type = "quest",
         id = 39855,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -1216,6 +1224,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIEL
             },
         },
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -1500,6 +1509,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_CHAMPION_OF_STOR
         type = "quest",
         id = 40005,
     },
+    major = true,
     range = {98, 110},
     items = {
         {

@@ -14,6 +14,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB
         type = "quest",
         id = 46246,
     },
+    major = true,
     range = {110},
     items = {
         {

@@ -9,6 +9,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE, 
         type = "quest",
         id = 39487,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -160,6 +161,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND, {
         type = "quest",
         id = 38909,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -271,6 +273,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE, {
         type = "quest",
         id = 39387,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -379,6 +382,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
         type = "quest",
         id = 39426,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -557,6 +561,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR, {
         type = "quest",
         id = 39992,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -672,6 +677,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMO
         type = "quest",
         id = 39579,
     },
+    major = true,
     range = {98, 110},
     items = {
         {
@@ -798,6 +804,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA, {
         type = "quest",
         id = 39780,
     },
+    major = true,
     range = {98, 110},
     items = {
         {

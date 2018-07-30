@@ -17,6 +17,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS, {
         type = "quest",
         id = 48929,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -451,6 +452,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS, {
         type = "quest",
         id = 48107,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -773,6 +775,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW,
         type = "quest",
         id = 47220,
     },
+    major = true,
     range = {110},
     items = {
         {

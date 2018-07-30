@@ -9,6 +9,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASS_CAMPAIGN, {
         },
     },
     completed = BtWQuestsItem_GetItems,
+    major = true,
     range = {98, 110},
     items = {
         {

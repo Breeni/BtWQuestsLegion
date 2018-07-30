@@ -27,6 +27,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
         type = "quest",
         id = 43533,
     },
+    major = true,
     range = {110},
     buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-BalanceofPower",
     items = {

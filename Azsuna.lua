@@ -6,6 +6,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES, {
     name = GetAchievementCriteriaInfo(10763, 1),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     completed = {
         type = "quest",
@@ -103,6 +104,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOS
     name = GetAchievementCriteriaInfo(10763, 2),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     prerequisites = {
         {
@@ -321,6 +323,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA, {
     name = GetAchievementCriteriaInfo(10763, 3),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     prerequisites = {
         {
@@ -613,6 +616,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS, {
     name = GetAchievementCriteriaInfo(10763, 4),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     completed = {
         type = "quest",
@@ -745,6 +749,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA, {
     name = GetAchievementCriteriaInfo(10763, 5),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     completed = {
         type = "quest",

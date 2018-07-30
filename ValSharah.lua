@@ -5,6 +5,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION, {
     name = BTWQUESTS_INTRODUCTION,
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     completed = {
         type = "quest",
@@ -71,6 +72,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VAL
     name = GetAchievementCriteriaInfo(10698, 1),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     prerequisites = {
         {
@@ -148,6 +150,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLA
     name = GetAchievementCriteriaInfo(10698, 2),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     prerequisites = {
         {
@@ -272,6 +275,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE, {
     name = GetAchievementCriteriaInfo(10698, 3),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     prerequisites = {
         {
@@ -339,6 +343,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE, 
     name = GetAchievementCriteriaInfo(10698, 4),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     prerequisites = {
         {
@@ -536,6 +541,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG, 
     name = GetAchievementCriteriaInfo(10698, 5),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     prerequisites = {
         {
@@ -687,6 +693,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK, {
     name = GetAchievementCriteriaInfo(10698, 6),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     prerequisites = {
         {
@@ -818,6 +825,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD, {
     name = GetAchievementCriteriaInfo(10698, 7),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    major = true,
     range = {98, 110},
     prerequisites = {
         {

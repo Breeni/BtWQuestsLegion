@@ -99,6 +99,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL, {
         type = "quest",
         id = 42229,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -199,6 +200,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH, {
         type = "quest",
         id = 41760,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -284,6 +286,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULE
         type = "quest",
         id = 40956,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -372,6 +375,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN, {
         type = "quest",
         id = 41138,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -457,6 +461,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE, {
         type = "quest",
         id = 42147,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -557,6 +562,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW, {
         type = "quest",
         id = 42230,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -683,6 +689,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ANCIENT_GIFT, {
         type = "chain",
         id = BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -773,6 +780,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_WANING_CRESCENT, {
         type = "quest",
         id = 42488
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -924,6 +932,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BLOOD_AND_WINE, {
         type = "quest",
         id = 44052,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -1110,6 +1119,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_STATECRAFT, {
         type = "quest",
         id = 43318,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -1264,6 +1274,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS, {
         type = "quest",
         id = 43362,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -1349,6 +1360,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS, {
         type = "quest",
         id = 43568,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -1454,6 +1466,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREA
         type = "quest",
         id = 40412,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -1573,6 +1586,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
         type = "quest",
         id = 40972
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -1772,6 +1786,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR, {
         type = "quest",
         id = 40321
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -1898,6 +1913,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN, {
         type = "quest",
         id = 41494
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -2154,6 +2170,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL, {
         type = "quest",
         id = 40336
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -2346,6 +2363,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_LOCKDOWN, {
         type = "quest",
         id = 44955,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -2460,6 +2478,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MISSING_PERSONS, {
         type = "quest",
         id = 44814,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -2565,6 +2584,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_WAXING_CRESCENT, {
         type = "quest",
         id = 44756,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -2652,6 +2672,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ELVEN_PROBLEM, {
         type = "quest",
         id = 44845,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -2773,6 +2794,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_CRAFTING_WAR, {
         type = "quest",
         id = 44790,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -2894,6 +2916,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MARCH_ON_SURAMAR, {
         type = "quest",
         id = 44740,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -2963,6 +2986,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
         type = "quest",
         id = 44833,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -3059,6 +3083,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL,
         type = "quest",
         id = 45064,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -3173,6 +3198,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD
         type = "quest",
         id = 44719,
     },
+    major = true,
     range = {110},
     items = {
         {
@@ -3235,6 +3261,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR, {
     name = BtWQuests_GetMapName(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
+    major = true,
     items = {
         {
             type = "category",
@@ -3259,6 +3286,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN, {
     parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
+    major = true,
     items = {
         {
             type = "chain",
@@ -3291,6 +3319,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN
     parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
+    major = true,
     items = {
         {
             type = "chain",
