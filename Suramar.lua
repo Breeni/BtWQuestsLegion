@@ -3261,7 +3261,6 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR, {
     name = BtWQuests_GetMapName(MAP_ID),
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
-    major = true,
     items = {
         {
             type = "category",
@@ -3372,6 +3371,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION, {
     parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
+    major = true,
     items = {
         {
             type = "chain",
