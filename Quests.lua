@@ -6650,6 +6650,12 @@ BtWQuestsDatabase:AddQuestsTable({
         requiredLevel = 103,
         maxLevel = 110,
     },
+    [42175] = {
+        name = "Growing Power",
+        level = -1,
+        requiredLevel = 101,
+        maxLevel = 110,
+    },
     [42184] = {
         name = "Mission: Elemental Diplomacy",
         level = -1,

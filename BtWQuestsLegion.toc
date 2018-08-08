@@ -1,6 +1,6 @@
 ## Interface: 80000
 ## Title: BtWQuests: Legion
-## Version: 11
+## Version: 12
 ## Notes: Legion quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
