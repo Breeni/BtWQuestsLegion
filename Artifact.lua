@@ -29,7 +29,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
     },
     major = true,
     range = {110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-BalanceofPower",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Artifact-BalanceofPower",
     items = {
         {
             variations = {

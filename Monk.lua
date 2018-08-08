@@ -13,7 +13,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER, {
         id = 42765,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Monk-Brewmaster",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Monk-Brewmaster",
     items = {
         {
             type = "quest",
@@ -83,7 +83,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_WINDWALKER, {
         id = 40570,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Monk-Windwalker",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Monk-Windwalker",
     items = {
         {
             type = "quest",
@@ -135,7 +135,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER, {
         id = 41003,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Monk-Mistweaver",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Monk-Mistweaver",
     items = {
         {
             type = "quest",

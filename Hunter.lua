@@ -13,7 +13,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY, {
         id = 42158,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Hunter-BeastMastery",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Hunter-BeastMastery",
     items = {
         {
             type = "quest",
@@ -56,7 +56,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MARKSMANSHIP, {
         id = 40419,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Hunter-Marksmanship",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Hunter-Marksmanship",
     items = {
         {
             type = "quest",
@@ -108,7 +108,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL, {
         id = 40385,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Hunter-Survival",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Hunter-Survival",
     items = {
         {
             type = "quest",

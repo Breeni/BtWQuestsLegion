@@ -13,7 +13,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS, {
         id = 41105,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Warrior-Arms",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Warrior-Arms",
     items = {
         {
             type = "quest",
@@ -38,7 +38,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY, {
         id = 40043,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Warrior-Fury",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Warrior-Fury",
     items = {
         {
             type = "quest",
@@ -63,7 +63,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION, {
         id = 39191,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Warrior-Protection",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Warrior-Protection",
     items = {
         {
             type = "quest",

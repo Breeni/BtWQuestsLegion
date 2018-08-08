@@ -647,7 +647,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC, {
         id = 41119,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DemonHunter-Havoc",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-DemonHunter-Havoc",
     items = {
         {
             {
@@ -756,7 +756,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
         id = 40249,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DemonHunter-Vengeance",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-DemonHunter-Vengeance",
     items = {
         {
             {

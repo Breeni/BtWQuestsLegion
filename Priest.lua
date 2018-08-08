@@ -13,7 +13,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE, {
         id = 41632,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Priest-Discipline",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Priest-Discipline",
     items = {
         {
             type = "quest",
@@ -101,7 +101,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_HOLY, {
         id = 42074,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Priest-Holy",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Priest-Holy",
     items = {
         {
             type = "quest",
@@ -162,7 +162,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW, {
         id = 40710,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Priest-Shadow",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Priest-Shadow",
     items = {
         {
             type = "quest",

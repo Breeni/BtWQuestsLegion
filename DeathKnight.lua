@@ -27,7 +27,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD, {
         id = 40740,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DeathKnight-Blood",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-DeathKnight-Blood",
     items = {
         {
             type = "quest",
@@ -52,7 +52,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST, {
         id = 38990,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DeathKnight-Frost",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-DeathKnight-Frost",
     items = {
         {
             type = "quest",
@@ -77,7 +77,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY, {
         id = 40935,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-DeathKnight-Unholy",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-DeathKnight-Unholy",
     items = {
         {
             type = "quest",

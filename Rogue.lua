@@ -13,7 +13,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
         id = 42504,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Rogue-Assassination",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Rogue-Assassination",
     items = {
         {
             type = "quest",
@@ -89,7 +89,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW, {
         id = 40849,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Rogue-Outlaw",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Rogue-Outlaw",
     items = {
         {
             type = "quest",
@@ -123,7 +123,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY, {
         id = 41924,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Rogue-Subtlety",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Rogue-Subtlety",
     items = {
         {
             type = "quest",
@@ -1188,7 +1188,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT, {
         id = 46089,
     },
     range = {110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Rogue-Mount",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Rogue-Mount",
     items = {
         {
             type = "chain",

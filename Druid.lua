@@ -13,7 +13,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE, {
         id = 40838,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Druid-Balance",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Druid-Balance",
     items = {
         {
             type = "quest",
@@ -92,7 +92,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FERAL, {
         id = 42430,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Druid-Feral",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Druid-Feral",
     items = {
         {
             type = "quest",
@@ -153,7 +153,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_GUARDIAN, {
         id = 40647,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Druid-Guardian",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Druid-Guardian",
     items = {
         {
             type = "quest",
@@ -232,7 +232,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION, {
         id = 41689,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuests\\UI-BtWQuests-Druid-Restoration",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Druid-Restoration",
     items = {
         {
             type = "quest",
