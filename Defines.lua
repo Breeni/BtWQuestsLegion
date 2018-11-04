@@ -246,6 +246,10 @@ BTWQUESTS_CHAIN_LEGION_LOST_MAIL = 7002
 BtWQuestsDatabase:AddExpansion(BTWQUESTS_EXPANSION_LEGION, {
     background = {
         texture = "Interface\\EncounterJournal\\UI-EJ-Legion"
+    },
+    image = {
+        texture = "Interface\\AddOns\\BtWQuestsLegion\\UI-Expansion",
+        texCoords = {0, 0.90625, 0, 0.8125}
     }
 })
 
