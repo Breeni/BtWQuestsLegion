@@ -86,7 +86,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL, {
-    name = GetAchievementCriteriaInfo(10617, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10617, 1),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -186,7 +186,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH, {
-    name = GetAchievementCriteriaInfo(10617, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10617, 2),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -272,7 +272,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH, {
-    name = GetAchievementCriteriaInfo(10617, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10617, 3),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -361,7 +361,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULE
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN, {
-    name = GetAchievementCriteriaInfo(10617, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10617, 4),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -447,7 +447,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE, {
-    name = GetAchievementCriteriaInfo(10617, 5),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10617, 5),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -543,7 +543,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW, {
-    name = GetAchievementCriteriaInfo(10617, 6),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10617, 6),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -676,7 +676,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ANCIENT_GIFT, {
-    name = GetAchievementCriteriaInfo(11124, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 1),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -767,7 +767,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ANCIENT_GIFT, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_WANING_CRESCENT, {
-    name = GetAchievementCriteriaInfo(11124, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 2),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -919,7 +919,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_WANING_CRESCENT, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BLOOD_AND_WINE, {
-    name = GetAchievementCriteriaInfo(11124, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 3),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1106,7 +1106,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BLOOD_AND_WINE, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_STATECRAFT, {
-    name = GetAchievementCriteriaInfo(11124, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 4),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1261,7 +1261,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_STATECRAFT, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS, {
-    name = GetAchievementCriteriaInfo(11124, 5),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 5),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1347,7 +1347,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_A_GROWING_CRISIS, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS, {
-    name = GetAchievementCriteriaInfo(11124, 6),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 6),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1453,7 +1453,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_A_CHANGE_OF_SEASONS, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREAKER, {
-    name = GetAchievementCriteriaInfo(11124, 7),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 7),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1573,7 +1573,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_LIGHTBREA
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD, {
-    name = GetAchievementCriteriaInfo(11124, 8),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 8),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1773,7 +1773,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR, {
-    name = GetAchievementCriteriaInfo(11124, 9),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 9),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1900,7 +1900,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN, {
-    name = GetAchievementCriteriaInfo(11124, 10),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 10),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -2157,7 +2157,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL, {
-    name = GetAchievementCriteriaInfo(11124, 11),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11124, 11),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -2346,7 +2346,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_JANDVIKS_JARL, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_LOCKDOWN, {
-    name = GetAchievementCriteriaInfo(11340, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11340, 1),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -2465,7 +2465,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_LOCKDOWN, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MISSING_PERSONS, {
-    name = GetAchievementCriteriaInfo(11340, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11340, 2),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -2571,7 +2571,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MISSING_PERSONS, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_WAXING_CRESCENT, {
-    name = GetAchievementCriteriaInfo(11340, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11340, 3),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -2659,7 +2659,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_WAXING_CRESCENT, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ELVEN_PROBLEM, {
-    name = GetAchievementCriteriaInfo(11340, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11340, 4),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -2781,7 +2781,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_AN_ELVEN_PROBLEM, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_CRAFTING_WAR, {
-    name = GetAchievementCriteriaInfo(11340, 5),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11340, 5),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -2903,7 +2903,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_CRAFTING_WAR, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MARCH_ON_SURAMAR, {
-    name = GetAchievementCriteriaInfo(11340, 6),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11340, 6),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -2973,7 +2973,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MARCH_ON_SURAMAR, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
-    name = GetAchievementCriteriaInfo(11340, 7),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11340, 7),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -3070,7 +3070,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL, {
-    name = GetAchievementCriteriaInfo(11340, 8),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11340, 8),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -3185,7 +3185,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL,
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_BREAKING_THE_NIGHTHOLD, {
-    name = GetAchievementCriteriaInfo(11340, 9),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(11340, 9),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {

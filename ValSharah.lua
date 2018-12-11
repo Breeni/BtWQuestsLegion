@@ -69,7 +69,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE, {
-    name = GetAchievementCriteriaInfo(10698, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10698, 1),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -147,7 +147,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VAL
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW, {
-    name = GetAchievementCriteriaInfo(10698, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10698, 2),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -272,7 +272,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLA
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE, {
-    name = GetAchievementCriteriaInfo(10698, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10698, 3),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -340,7 +340,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE, {
-    name = GetAchievementCriteriaInfo(10698, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10698, 4),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -538,7 +538,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE, 
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG, {
-    name = GetAchievementCriteriaInfo(10698, 5),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10698, 5),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -690,7 +690,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG, 
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK, {
-    name = GetAchievementCriteriaInfo(10698, 6),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10698, 6),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -822,7 +822,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD, {
-    name = GetAchievementCriteriaInfo(10698, 7),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10698, 7),
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
