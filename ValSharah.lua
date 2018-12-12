@@ -348,17 +348,14 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE, 
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 1)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VALE,
         },
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 2)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLAW,
         },
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 3)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE,
         },
     },
@@ -546,7 +543,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ALL_NIGHTMARE_LONG, 
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 4)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
         },
     },
@@ -698,7 +694,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK, {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 4)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
         },
     },
@@ -830,7 +825,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD, {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(641), GetAchievementCriteriaInfo(10698, 6)),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK,
         },
     },

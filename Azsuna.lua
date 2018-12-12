@@ -109,7 +109,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOS
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(630), GetAchievementCriteriaInfo(10763, 1)),
             id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
         },
     },

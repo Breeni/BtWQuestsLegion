@@ -192,7 +192,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH, {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 1)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
         },
     },
@@ -278,7 +277,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULE
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 1)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_NIGHTFALL,
         },
     },
@@ -367,7 +365,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN, {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 3)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_CHIEF_TELEMANCER_OCULETH,
         },
     },
@@ -453,7 +450,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE, {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 2)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_ARCANIST_KELDANATH,
         },
     },
@@ -549,12 +545,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_THE_LIGHT_BELOW, {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 4)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_FEEDING_SHALARAN,
         },
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(680), GetAchievementCriteriaInfo(10617, 5)),
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MASQUERADE,
         },
     },
