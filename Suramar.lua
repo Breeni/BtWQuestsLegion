@@ -7,7 +7,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING
     prerequisites = {
         {
             type = "achievement",
-            name = select(2, GetAchievementInfo(10617)),
             id = 10617,
         },
     },
@@ -3275,7 +3274,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR, {
     },
 })
 BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN, {
-    name = select(2, GetAchievementInfo(10617)),
+    name = BtWQuests_GetAchievementNameDelayed(10617),
     parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
@@ -3308,7 +3307,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR_NIGHTFALLEN, {
     }
 })
 BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN, {
-    name = select(2, GetAchievementInfo(11124)),
+    name = BtWQuests_GetAchievementNameDelayed(11124),
     parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
@@ -3361,7 +3360,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR_GOOD_SURAMARITAN
     }
 })
 BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR_INSURRECTION, {
-    name = select(2, GetAchievementInfo(11340)),
+    name = BtWQuests_GetAchievementNameDelayed(11340),
     parent = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1450575,
