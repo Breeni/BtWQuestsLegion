@@ -77,7 +77,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_VAL
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(641), BTWQUESTS_INTRODUCTION),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
         },
     },
@@ -155,7 +154,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_THE_CLA
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(641), BTWQUESTS_INTRODUCTION),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
         },
     },
@@ -280,7 +278,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_ARCHDRUID_OF_LORE, {
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(641), BTWQUESTS_INTRODUCTION),
             id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION,
         },
     },
