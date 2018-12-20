@@ -2,7 +2,7 @@ local MAP_ID = 634
 local CONTINENT_ID = 619
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_ALLIANCE, {
-    name = GetAchievementCriteriaInfo(10790, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 1),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -87,7 +87,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_ALL
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_ALLIANCE, {
-    name = GetAchievementCriteriaInfo(10790, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 2),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -198,7 +198,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_ALLIAN
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_HORDE, {
-    name = GetAchievementCriteriaInfo(10790, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 1),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -282,7 +282,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_GREYMANES_GAMBIT_HOR
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE, {
-    name = GetAchievementCriteriaInfo(10790, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 2),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     restrictions = {
@@ -372,7 +372,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_AFTERMATH_HORDE,
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT, {
-    name = GetAchievementCriteriaInfo(10790, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 3),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -544,7 +544,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT, 
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL, {
-    name = GetAchievementCriteriaInfo(10790, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 4),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -881,7 +881,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_VALOR, {
-    name = GetAchievementCriteriaInfo(10790, 5),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 5),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1048,7 +1048,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_VALOR, 
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_TO_HELHEIM_AND_BACK, {
-    name = GetAchievementCriteriaInfo(10790, 6),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 6),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1193,7 +1193,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_TO_HELHEIM_AND_BACK,
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIELDMAIDENS, {
-    name = GetAchievementCriteriaInfo(10790, 7),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 7),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1496,7 +1496,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIEL
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_CHAMPION_OF_STORMHEIM, {
-    name = GetAchievementCriteriaInfo(10790, 8),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10790, 8),
     category = BTWQUESTS_CATEGORY_LEGION_STORMHEIM,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {

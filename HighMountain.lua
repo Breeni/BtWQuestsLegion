@@ -2,7 +2,7 @@ local MAP_ID = 650
 local CONTINENT_ID = 619
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE, {
-    name = GetAchievementCriteriaInfo(10059, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10059, 1),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
@@ -148,7 +148,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERMANE_TRIBE, 
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND, {
-    name = GetAchievementCriteriaInfo(10059, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10059, 2),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -260,7 +260,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RIVERBEND, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE, {
-    name = GetAchievementCriteriaInfo(10059, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10059, 3),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -369,7 +369,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SKYHORN_TRIBE, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE, {
-    name = GetAchievementCriteriaInfo(10059, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10059, 4),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -548,7 +548,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR, {
-    name = GetAchievementCriteriaInfo(10059, 5),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10059, 5),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -664,7 +664,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HULNS_WAR, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMOUNTAIN, {
-    name = GetAchievementCriteriaInfo(10059, 6),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10059, 6),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -783,7 +783,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SECRETS_OF_HIGHMO
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA, {
-    name = GetAchievementCriteriaInfo(10059, 7),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10059, 7),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {

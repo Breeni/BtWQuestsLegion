@@ -4,7 +4,7 @@ local ANTORAN_MAP_ID = 885
 local KROKUUN_MAP_ID = 830
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS, {
-    name = GetAchievementCriteriaInfo(12066, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(12066, 1),
     category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -439,7 +439,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_THE_ASSAULT_BEGINS, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS, {
-    name = GetAchievementCriteriaInfo(12066, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(12066, 2),
     category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -758,7 +758,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_DARK_AWAKENINGS, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WAR_OF_LIGHT_AND_SHADOW, {
-    name = GetAchievementCriteriaInfo(12066, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(12066, 3),
     category = BTWQUESTS_CATEGORY_LEGION_ARGUS,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {

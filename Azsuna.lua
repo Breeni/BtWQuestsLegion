@@ -3,7 +3,7 @@ local CONTINENT_ID = 619
 local ACHIEVEMENT_ID = 10763
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES, {
-    name = GetAchievementCriteriaInfo(10763, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10763, 1),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -101,7 +101,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOSE, {
-    name = GetAchievementCriteriaInfo(10763, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10763, 2),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -109,7 +109,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOS
     prerequisites = {
         {
             type = "chain",
-            name = string.format("%s: %s", BtWQuests_GetMapName(630), GetAchievementCriteriaInfo(10763, 1)),
             id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
         },
     },
@@ -320,7 +319,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_DEFENDINGAZUREWINGREPOS
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA, {
-    name = GetAchievementCriteriaInfo(10763, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10763, 3),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -613,7 +612,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AZSUNAVERSUSAZSHARA, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS, {
-    name = GetAchievementCriteriaInfo(10763, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10763, 4),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -746,7 +745,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_MAKRANA, {
-    name = GetAchievementCriteriaInfo(10763, 5),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(10763, 5),
     category = BTWQUESTS_CATEGORY_LEGION_AZSUNA,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
