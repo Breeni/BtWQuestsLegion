@@ -29,6 +29,8 @@ NPCs.ptBR.lua
 NPCs.ruRU.lua
 NPCs.zhTW.lua
 
+Localization.lua
+
 DeathKnight.lua
 DemonHunter.lua
 Druid.lua
