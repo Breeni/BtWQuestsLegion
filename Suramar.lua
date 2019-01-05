@@ -2991,20 +2991,18 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
                 1
             },
         },
-        {
-            type = "quest",
-            id = 45317,
-            x = 3,
-            y = 1,
-            connections = {
-                1
-            },
-        },
+        -- {
+        --     type = "quest",
+        --     id = 45317,
+        --     x = 3,
+        --     connections = {
+        --         1
+        --     },
+        -- },
         {
             type = "quest",
             id = 45267,
             x = 3,
-            y = 2,
             connections = {
                 1
             },
@@ -3013,7 +3011,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
             type = "quest",
             id = 44736,
             x = 3,
-            y = 3,
             connections = {
                 1
             },
@@ -3022,7 +3019,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
             type = "quest",
             id = 44822,
             x = 3,
-            y = 4,
             connections = {
                 1
             },
@@ -3031,7 +3027,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
             type = "quest",
             id = 45209,
             x = 3,
-            y = 5,
             connections = {
                 1
             },
@@ -3040,7 +3035,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
             type = "quest",
             id = 44832,
             x = 3,
-            y = 6,
             connections = {
                 1
             },
@@ -3049,7 +3043,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
             type = "quest",
             id = 44833,
             x = 3,
-            y = 7,
             connections = {
                 1
             },
@@ -3058,7 +3051,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_ELISANDES_RETORT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_SURAMAR_AS_STRONG_AS_OUR_WILL,
             x = 3,
-            y = 8,
         },
     }
 })
