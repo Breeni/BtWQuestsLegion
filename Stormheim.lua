@@ -1633,7 +1633,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_DREYRGROT, {
             },
         },
         {
-            type = "npc",
+            type = "object",
             id = 250990,
             x = 5,
             y = 0,

@@ -7204,7 +7204,7 @@ BtWQuestsDatabase:AddQuestsTable({
         requiredLevel = 98,
         maxLevel = 110,
         source = {
-            type = "npc",
+            type = "object",
             id = 250536,
         },
     },
@@ -7654,7 +7654,7 @@ BtWQuestsDatabase:AddQuestsTable({
         requiredLevel = 98,
         maxLevel = 110,
         source = {
-            type = "npc",
+            type = "object",
             id = 250990,
         },
     },
@@ -8309,7 +8309,7 @@ BtWQuestsDatabase:AddQuestsTable({
         requiredLevel = 98,
         maxLevel = 110,
         source = {
-            type = "npc",
+            type = "object",
             id = 251425,
         },
     },
