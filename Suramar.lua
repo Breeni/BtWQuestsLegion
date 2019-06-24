@@ -1,5 +1,6 @@
 local MAP_ID = 680
 
+BtWQuestsCharacters:AddAchievement(10617);
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_WITHERED_ARMY_TRAINING, {
     name = BtWQuests_GetQuestName(43943),
     category = BTWQUESTS_CATEGORY_LEGION_SURAMAR,

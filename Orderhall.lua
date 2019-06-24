@@ -1,3 +1,4 @@
+BtWQuestsCharacters:AddAchievement(697);
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART, {
     name = BTWQUESTS_LIGHTS_HEART,
     category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,

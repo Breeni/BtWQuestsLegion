@@ -1,3 +1,4 @@
+BtWQuestsCharacters:AddAchievement(10746);
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
     name = BtWQuests_GetQuestName(43533),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
