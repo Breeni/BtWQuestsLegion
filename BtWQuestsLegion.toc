@@ -7,6 +7,18 @@
 
 Defines.lua
 
+Localization.lua
+Localization.deDE.lua
+Localization.esES.lua
+Localization.esMX.lua
+Localization.frFR.lua
+Localization.itIT.lua
+Localization.koKR.lua
+Localization.ptBR.lua
+Localization.ruRU.lua
+Localization.zhCN.lua
+Localization.zhTW.lua
+
 Quests.lua
 Quests.deDE.lua
 Quests.esES.lua
@@ -28,8 +40,6 @@ NPCs.koKR.lua
 NPCs.ptBR.lua
 NPCs.ruRU.lua
 NPCs.zhTW.lua
-
-Localization.lua
 
 DeathKnight.lua
 DemonHunter.lua
