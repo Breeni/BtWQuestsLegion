@@ -1006,79 +1006,61 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET, {
     range = {98, 110},
     items = {
         {
-            {
-                type = "quest",
-                id = 39417,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 39417,
-                        active = true,
-                    }
+            variations = {
+                {
+                    type = "quest",
+                    id = 39417,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 39417,
+                            active = true,
+                        },
+                    },
                 },
-                x = 2,
-                y = 0,
-                connections = {
-                    2,
+                {
+                    type = "quest",
+                    id = 40217,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40217,
+                            active = true,
+                        },
+                    },
                 },
-            },
-            {
-                type = "quest",
-                id = 40217,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40217,
-                        active = true,
-                    }
+                {
+                    type = "quest",
+                    id = 39417,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 39417,
+                        },
+                    },
                 },
-                x = 2,
-                y = 0,
-                connections = {
-                    2,
+                {
+                    type = "quest",
+                    id = 40217,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40217,
+                        },
+                    },
                 },
-            },
-            {
-                type = "quest",
-                id = 39417,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 39417,
-                    }
-                },
-                x = 2,
-                y = 0,
-                connections = {
-                    2,
-                },
-            },
-            {
-                type = "quest",
-                id = 40217,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40217,
-                    }
-                },
-                x = 2,
-                y = 0,
-                connections = {
-                    2,
+                {
+                    name = "Go to Hemet Nesingwary",
+                    breadcrumb = true,
+                    onClick = function ()
+                        BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.4004, 0.5225, "Hemet Nesingwary")
+                    end,
                 },
             },
-            {
-                name = "Go to Hemet Nesingwary",
-                breadcrumb = true,
-                onClick = function ()
-                    BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.4004, 0.5225, "Hemet Nesingwary")
-                end,
-                x = 2,
-                y = 0,
-                connections = {
-                    2,
-                },
+            x = 2,
+            y = 0,
+            connections = {
+                2, 
             },
         },
         {
@@ -1323,48 +1305,40 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY, {
     range = {98, 110},
     items = {
         {
-            {
-                type = "quest",
-                id = 40244,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40244,
-                    }
+            variations = {
+                {
+                    type = "quest",
+                    id = 40244,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40244,
+                        }
+                    },
                 },
-                x = 3,
-                y = 0,
-                connections = {
-                    1, 2, 3,
+                {
+                    type = "quest",
+                    id = 40244,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40244,
+                            active = true,
+                        }
+                    },
+                },
+                {
+                    name = "Go to King Mrgl-Mrgl",
+                    breadcrumb = true,
+                    onClick = function ()
+                        BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.4273, 0.1094, "King Mrgl-Mrgl")
+                    end,
                 },
             },
-            {
-                type = "quest",
-                id = 40244,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40244,
-                        active = true,
-                    }
-                },
-                x = 3,
-                y = 0,
-                connections = {
-                    1, 2, 3,
-                },
-            },
-            {
-                name = "Go to King Mrgl-Mrgl",
-                breadcrumb = true,
-                onClick = function ()
-                    BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.4273, 0.1094, "King Mrgl-Mrgl")
-                end,
-                x = 3,
-                y = 0,
-                connections = {
-                    1, 2, 3,
-                },
+            x = 3,
+            y = 0,
+            connections = {
+                1, 2, 3,
             },
         },
         {

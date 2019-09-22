@@ -1056,30 +1056,27 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS, {
             },
         },
         {
-            {
-                type = "quest",
-                id = 48453,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 48453,
-                        active = true,
+            variations = {
+                {
+                    type = "quest",
+                    id = 48453,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 48453,
+                            active = true,
+                        },
                     },
                 },
-                x = 1,
-                y = 2,
-                connections = {
-                    3,
+                {
+                    type = "quest",
+                    id = 48542,
                 },
             },
-            {
-                type = "quest",
-                id = 48542,
-                x = 1,
-                y = 2,
-                connections = {
-                    3,
-                },
+            x = 1,
+            y = 2,
+            connections = {
+                3, 
             },
         },
         {

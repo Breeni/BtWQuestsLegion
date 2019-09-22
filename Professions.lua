@@ -235,35 +235,32 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_PROFESSIONS_ALCHEMY, {
             },
         },
         {
-            {
-                type = "quest",
-                id = 39645,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 39645,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 3,
-                y = 22,
-                connections = {
-                    1,
+                {
+                    type = "quest",
+                    id = 39345,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 39345,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 22,
-                connections = {
-                    1,
-                },
+            x = 3,
+            y = 22,
+            connections = {
+                1, 
             },
         },
         {
@@ -1574,89 +1571,73 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_PROFESSIONS_JEWELCRAFTING, {
             },
         },
         {
-            {
-                type = "quest",
-                id = 40526,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40526,
-                        active = true,
+            variations = {
+                {
+                    type = "quest",
+                    id = 40526,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40526,
+                            active = true,
+                        },
                     },
                 },
-                x = 4,
-                y = 3,
-                connections = {
-                    2,
-                },
-            },
-            {
-                type = "quest",
-                id = 40527,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40527,
-                        active = true,
+                {
+                    type = "quest",
+                    id = 40527,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40527,
+                            active = true,
+                        },
                     },
                 },
-                x = 4,
-                y = 3,
-                connections = {
-                    2,
+                {
+                    type = "quest",
+                    id = 40528,
                 },
             },
-            {
-                type = "quest",
-                id = 40528,
-                x = 4,
-                y = 3,
-                connections = {
-                    2,
-                },
+            x = 4,
+            y = 3,
+            connections = {
+                2, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 40532,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40532,
-                        active = true,
+            variations = {
+                {
+                    type = "quest",
+                    id = 40532,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40532,
+                            active = true,
+                        },
                     },
                 },
-                x = 2,
-                y = 4,
-                connections = {
-                    1,
-                },
-            },
-            {
-                type = "quest",
-                id = 40533,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40533,
-                        active = true,
+                {
+                    type = "quest",
+                    id = 40533,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40533,
+                            active = true,
+                        },
                     },
                 },
-                x = 2,
-                y = 4,
-                connections = {
-                    1,
+                {
+                    type = "quest",
+                    id = 40534,
                 },
             },
-            {
-                type = "quest",
-                id = 40534,
-                x = 2,
-                y = 4,
-                connections = {
-                    1,
-                },
+            x = 2,
+            y = 4,
+            connections = {
+                1, 
             },
         },
         {
@@ -1722,46 +1703,38 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_PROFESSIONS_JEWELCRAFTING, {
             },
         },
         {
-            {
-                type = "quest",
-                id = 40542,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40542,
-                        active = true,
+            variations = {
+                {
+                    type = "quest",
+                    id = 40542,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40542,
+                            active = true,
+                        },
                     },
                 },
-                x = 3,
-                y = 10,
-                connections = {
-                    1,
-                },
-            },
-            {
-                type = "quest",
-                id = 40543,
-                restrictions = {
-                    {
-                        type = "quest",
-                        id = 40543,
-                        active = true,
+                {
+                    type = "quest",
+                    id = 40543,
+                    restrictions = {
+                        {
+                            type = "quest",
+                            id = 40543,
+                            active = true,
+                        },
                     },
                 },
-                x = 3,
-                y = 10,
-                connections = {
-                    1,
+                {
+                    type = "quest",
+                    id = 40544,
                 },
             },
-            {
-                type = "quest",
-                id = 40544,
-                x = 3,
-                y = 10,
-                connections = {
-                    1,
-                },
+            x = 3,
+            y = 10,
+            connections = {
+                1, 
             },
         },
         {

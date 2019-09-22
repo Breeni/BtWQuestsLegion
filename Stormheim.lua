@@ -570,67 +570,61 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL, {
             },
         },
         {
-            {
-                type = "quest",
-                id = 38473,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 38473,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 3,
-                y = 1,
-                connections = {
-                    1
+                {
+                    type = "quest",
+                    id = 38611,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 38611,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 1,
-                connections = {
-                    1
-                },
+            x = 3,
+            y = 1,
+            connections = {
+                1, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 38312,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 38312,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 3,
-                y = 2,
-                connections = {
-                    2, 3
+                {
+                    type = "quest",
+                    id = 38612,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 38612,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 2,
-                connections = {
-                    2, 3
-                },
+            x = 3,
+            y = 2,
+            connections = {
+                2, 3, 
             },
         },
         {
@@ -644,187 +638,173 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL, {
             },
         },
         {
-            {
-                type = "quest",
-                id = 38405,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 38405,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 3,
-                y = 3,
-                connections = {
-                    3
+                {
+                    type = "quest",
+                    id = 38614,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 38614,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 3,
-                connections = {
-                    3
-                },
+            x = 3,
+            y = 3,
+            connections = {
+                3, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 38318,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 38318,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                aside = true,
-                x = 5,
-                y = 3,
+                {
+                    type = "quest",
+                    id = 38613,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
+                },
             },
-            {
-                type = "quest",
-                id = 38613,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
+            aside = true,
+            x = 5,
+            y = 3,
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 38337,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                aside = true,
-                x = 5,
-                y = 3,
+                {
+                    type = "quest",
+                    id = 38616,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
+                },
+            },
+            aside = true,
+            x = 1,
+            y = 4,
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 38410,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 38615,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
+                },
+            },
+            x = 3,
+            y = 4,
+            connections = {
+                1, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 38337,
-                aside = true,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 38342,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 1,
-                y = 4,
-            },
-            {
-                type = "quest",
-                id = 38616,
-                aside = true,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
+                {
+                    type = "quest",
+                    id = 38617,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
                     },
-                },
-                x = 1,
-                y = 4,
-            },
-        },
-        {
-            {
-                type = "quest",
-                id = 38410,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
-                    },
-                },
-                x = 3,
-                y = 4,
-                connections = {
-                    1
                 },
             },
-            {
-                type = "quest",
-                id = 38615,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 4,
-                connections = {
-                    1
-                },
+            x = 3,
+            y = 5,
+            connections = {
+                1, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 38342,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 38412,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 3,
-                y = 5,
-                connections = {
-                    1
+                {
+                    type = "quest",
+                    id = 38618,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 38617,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 5,
-                connections = {
-                    1
-                },
-            },
-        },
-        {
-            {
-                type = "quest",
-                id = 38412,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
-                    },
-                },
-                x = 3,
-                y = 6,
-                connections = {
-                    1, 2, 3
-                },
-            },
-            {
-                type = "quest",
-                id = 38618,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 6,
-                connections = {
-                    1, 2, 3
-                },
+            x = 3,
+            y = 6,
+            connections = {
+                1, 2, 3, 
             },
         },
         {
@@ -1237,161 +1217,149 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIEL
             },
         },
         {
-            {
-                type = "quest",
-                id = 39059,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 39059,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 3,
-                y = 1,
-                connections = {
-                    1, 2
+                {
+                    type = "quest",
+                    id = 38872,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 38872,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 1,
-                connections = {
-                    1, 2
-                },
+            x = 3,
+            y = 1,
+            connections = {
+                1, 2, 
             },
         },
 
         
         {
-            {
-                type = "quest",
-                id = 39060,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 39060,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 2,
-                y = 2,
-                connections = {
-                    3
+                {
+                    type = "quest",
+                    id = 38873,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 38873,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 2,
-                y = 2,
-                connections = {
-                    3
-                },
+            x = 2,
+            y = 2,
+            connections = {
+                3, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 39061,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 39061,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 4,
-                y = 2,
-                connections = {
-                    2
+                {
+                    type = "quest",
+                    id = 39153,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 39153,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 4,
-                y = 2,
-                connections = {
-                    2
-                },
+            x = 4,
+            y = 2,
+            connections = {
+                2, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 39472,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 39472,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 6,
-                y = 2,
-            },
-            {
-                type = "quest",
-                id = 39385,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
+                {
+                    type = "quest",
+                    id = 39385,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
                     },
                 },
-                x = 6,
-                y = 2,
             },
+            x = 6,
+            y = 2,
         },
 
         
         {
-            {
-                type = "quest",
-                id = 39062,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 39062,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 3,
-                y = 3,
-                connections = {
-                    1, 2
+                {
+                    type = "quest",
+                    id = 39154,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 39154,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 3,
-                connections = {
-                    1, 2
-                },
+            x = 3,
+            y = 3,
+            connections = {
+                1, 2, 
             },
         },
         {
@@ -1402,96 +1370,90 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_SECRETS_OF_THE_SHIEL
             y = 4,
         },
         {
-            {
-                type = "quest",
-                id = 39063,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 39063,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 4,
-                y = 4,
-                connections = {
-                    1
+                {
+                    type = "quest",
+                    id = 38878,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 38878,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 4,
-                y = 4,
-                connections = {
-                    1
-                },
+            x = 4,
+            y = 4,
+            connections = {
+                1, 
             },
         },
 
         
         {
-            {
-                type = "quest",
-                id = 39092,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 39092,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 3,
-                y = 5,
-                connections = {
-                    1
+                {
+                    type = "quest",
+                    id = 39155,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 39155,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                x = 3,
-                y = 5,
-                connections = {
-                    1
-                },
+            x = 3,
+            y = 5,
+            connections = {
+                1, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 39122,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 39122,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                x = 3,
-                y = 6,
-            },
-            {
-                type = "quest",
-                id = 38882,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
+                {
+                    type = "quest",
+                    id = 38882,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
                     },
                 },
-                x = 3,
-                y = 6,
             },
+            x = 3,
+            y = 6,
         },
     }
 })

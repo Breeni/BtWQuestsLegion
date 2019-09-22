@@ -15,105 +15,93 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
     range = {110},
     items = {
         {
-            {
-                type = "quest",
-                id = 50371,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 50371,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                breadcrumb = true,
-                x = 3,
-                y = 0,
-                connections = {
-                    1
+                {
+                    type = "quest",
+                    id = 49977,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 49977,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                breadcrumb = true,
-                x = 3,
-                y = 0,
-                connections = {
-                    1
-                },
+            breadcrumb = true,
+            x = 3,
+            y = 0,
+            connections = {
+                1, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 49976,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 49976,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                breadcrumb = true,
-                x = 3,
-                y = 1,
-                connections = {
-                    1
+                {
+                    type = "quest",
+                    id = 50341,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 50341,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                breadcrumb = true,
-                x = 3,
-                y = 1,
-                connections = {
-                    1
-                },
+            breadcrumb = true,
+            x = 3,
+            y = 1,
+            connections = {
+                1, 
             },
         },
         {
-            {
-                type = "quest",
-                id = 49981,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_ALLIANCE,
+            variations = {
+                {
+                    type = "quest",
+                    id = 49981,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
                     },
                 },
-                breadcrumb = true,
-                x = 3,
-                y = 2,
-                connections = {
-                    1, 2
+                {
+                    type = "quest",
+                    id = 49982,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
                 },
             },
-            {
-                type = "quest",
-                id = 49982,
-                restrictions = {
-                    {
-                        type = "faction",
-                        id = BTWQUESTS_FACTION_ID_HORDE,
-                    },
-                },
-                breadcrumb = true,
-                x = 3,
-                y = 2,
-                connections = {
-                    1, 2
-                },
+            breadcrumb = true,
+            x = 3,
+            y = 2,
+            connections = {
+                1, 2, 
             },
         },
         {
