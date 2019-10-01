@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(265)), "Ulthalesh, the Deadwind Harvester"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -194,7 +195,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
-    name = BTWQUESTS_WARLOCK_CAMPAIGN,
+    name = L["BTWQUESTS_WARLOCK_CAMPAIGN"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -763,7 +764,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
             },
         },
         {
-            name = BTWQUESTS_GO_TO_THE_FELBLOOD_ALTER,
+            name = L["BTWQUESTS_GO_TO_THE_FELBLOOD_ALTER"],
             breadcrumb = true,
             x = 3,
             y = 38,
@@ -912,7 +913,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT, {
-    name = BTWQUESTS_WARLOCK_MOUNT,
+    name = L["BTWQUESTS_WARLOCK_MOUNT"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARLOCK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {

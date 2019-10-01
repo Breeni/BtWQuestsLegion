@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 local MAP_ID = 650
 local CONTINENT_ID = 619
 
@@ -910,11 +911,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK, {
                     },
                 },
                 {
-                    name = "Go to Razik Gazbolt",
-                    breadcrumb = true,
-                    onClick = function ()
-                        BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5763, 0.5661, "Razik Gazbolt")
-                    end,
+                    type = "npc",
+                    id = 96513,
+                    -- name = "Go to Razik Gazbolt",
+                    -- breadcrumb = true,
+                    -- onClick = function ()
+                    --     BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5763, 0.5661, "Razik Gazbolt")
+                    -- end,
                 }
             },
             x = 3,
@@ -924,11 +927,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK, {
             },
         },
         {
-            name = "Go to Lorna Stoutfoot",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5759, 0.5641, "Lorna Stoutfoot")
-            end,
+            type = "npc",
+            id = 97974,
+            -- name = "Go to Lorna Stoutfoot",
+            -- breadcrumb = true,
+            -- onClick = function ()
+            --     BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5759, 0.5641, "Lorna Stoutfoot")
+            -- end,
             x = 5,
             y = 0,
             connections = {
@@ -996,7 +1001,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET, {
-    name = "Nesingwary's Retreat",
+    -- name = "Nesingwary's Retreat",
+    name = BtWQuests_GetAreaName(7733),
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {

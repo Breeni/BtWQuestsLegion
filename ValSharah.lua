@@ -1,8 +1,9 @@
+local L = BtWQuests.L;
 local MAP_ID = 641
 local CONTINENT_ID = 619
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTRODUCTION, {
-    name = BTWQUESTS_INTRODUCTION,
+    name = L["BTWQUESTS_INTRODUCTION"],
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     major = true,
@@ -451,8 +452,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE, 
             },
         },
         {
-            name = "Kill Gravax the Desecrator",
-            breadcrumb = true,
+            type = "kill",
+            id = 92802,
+            -- name = "Kill Gravax the Desecrator",
+            -- breadcrumb = true,
             x = 0,
             y = 4,
             connections = {
@@ -728,8 +731,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK, {
             },
         },
         {
-            name = "Kill Lelyn Swiftshadow, near Hearthrow Manor",
-            breadcrumb = true,
+            type = "kill",
+            id = 94366,
+            -- name = "Kill Lelyn Swiftshadow, near Hearthrow Manor",
+            -- breadcrumb = true,
             aside = true,
             x = 6,
             y = 1,
@@ -917,11 +922,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN, {
     },
     items = {
         {
-            name = "Go to Guviena Bladesong",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.594, 0.84, "Guviena Bladesong")
-            end,
+            type = "npc",
+            id = 108304,
+            -- name = "Go to Guviena Bladesong",
+            -- breadcrumb = true,
+            -- onClick = function ()
+            --     BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.594, 0.84, "Guviena Bladesong")
+            -- end,
             x = 1,
             y = 0,
             connections = {
@@ -929,11 +936,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN, {
             },
         },
         {
-            name = "Go to Leirana",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.594, 0.82, "Leirana")
-            end,
+            type = "npc",
+            id = 108358,
+            -- name = "Go to Leirana",
+            -- breadcrumb = true,
+            -- onClick = function ()
+            --     BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.594, 0.82, "Leirana")
+            -- end,
             x = 4,
             y = 0,
             connections = {
@@ -941,8 +950,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN, {
             },
         },
         {
-            name = "Kill Undulating Boneslime",
-            breadcrumb = true,
+            type = "kill",
+            id = 108327,
+            -- name = "Kill Undulating Boneslime",
+            -- breadcrumb = true,
             x = 6,
             y = 0,
             connections = {
@@ -1007,11 +1018,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD, {
     },
     items = {
         {
-            name = "Go to Old Grizzleback",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.6668, 0.7727, "Old Grizzleback")
-            end,
+            type = "npc",
+            id = 109631,
+            -- name = "Go to Old Grizzleback",
+            -- breadcrumb = true,
+            -- onClick = function ()
+            --     BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.6668, 0.7727, "Old Grizzleback")
+            -- end,
             x = 2,
             y = 0,
             connections = {
@@ -1067,11 +1080,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING, {
     },
     items = {
         {
-            name = "Go to Saylanna Riverbreeze",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5375, 0.7983, "Saylanna Riverbreeze")
-            end,
+            type = "npc",
+            id = 93600,
+            -- name = "Go to Saylanna Riverbreeze",
+            -- breadcrumb = true,
+            -- onClick = function ()
+            --     BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5375, 0.7983, "Saylanna Riverbreeze")
+            -- end,
             x = 3,
             y = 0,
             connections = {

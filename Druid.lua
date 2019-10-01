@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(102)), "Scythe of Elune"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -340,7 +341,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_CAMPAIGN, {
-    name = BTWQUESTS_DRUID_CAMPAIGN,
+    name = L["BTWQUESTS_DRUID_CAMPAIGN"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -1174,7 +1175,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_MOUNT, {
-    name = BTWQUESTS_DRUID_MOUNT,
+    name = L["BTWQUESTS_DRUID_MOUNT"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DRUID,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {

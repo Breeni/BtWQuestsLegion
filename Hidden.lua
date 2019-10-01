@@ -1,5 +1,6 @@
+local L = BtWQuests.L;
 -- BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIDDEN_KOSUMOTH, {
---     name = BTWQUESTS_RARE_KOSUMOTH,
+--     name = L["BTWQUESTS_RARE_KOSUMOTH"],
 --     category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
 --     expansion = BTWQUESTS_EXPANSION_LEGION,
 --     completed = {
@@ -21,7 +22,7 @@
 -- }
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM, {
-    name = BTWQUESTS_MOUNT_RIDDLERS,
+    name = L["BTWQUESTS_MOUNT_RIDDLERS"],
     category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
@@ -163,7 +164,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM, {
 })
 
 -- BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIDDEN_SUNDARTER, {
---     name = BTWQUESTS_PET_SUNDARTER,
+--     name = L["BTWQUESTS_PET_SUNDARTER"],
 --     category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
 --     expansion = BTWQUESTS_EXPANSION_LEGION,
 --     completed = {
@@ -185,7 +186,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIDDEN_MINDWORM, {
 -- }
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIDDEN_LUCIDNIGHTMARE, {
-    name = BTWQUESTS_MOUNT_LUCID_NIGHTMARE,
+    name = L["BTWQUESTS_MOUNT_LUCID_NIGHTMARE"],
     category = BTWQUESTS_CATEGORY_LEGION_HIDDEN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
@@ -539,7 +540,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIDDEN_UUNA, {
 })
 
 BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_HIDDEN, {
-    name = BTWQUESTS_SECRET,
+    name = L["BTWQUESTS_SECRET"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     items = {
         -- {

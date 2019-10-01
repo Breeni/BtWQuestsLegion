@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 local MAP_ID = 905
 local MACAREE_MAP_ID = 882
 local ANTORAN_MAP_ID = 885
@@ -1030,7 +1031,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARGUS_WRANGLERS, {
             },
         },
         {
-            name = "Kill Eredar",
+            name = L["KILL_EREDAR"],
             breadcrumb = true,
             visible = {
                 {

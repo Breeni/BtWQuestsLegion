@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(62)), "Aluneth"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -221,7 +222,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_CAMPAIGN, {
-    name = BTWQUESTS_MAGE_CAMPAIGN,
+    name = L["BTWQUESTS_MAGE_CAMPAIGN"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -1098,7 +1099,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ANNOYING_FOLLOWER
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_MOUNT, {
-    name = BTWQUESTS_MAGE_MOUNT,
+    name = L["BTWQUESTS_MAGE_MOUNT"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MAGE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {

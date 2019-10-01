@@ -1,6 +1,7 @@
+local L = BtWQuests.L;
 BtWQuestsCharacters:AddAchievement(697);
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART, {
-    name = BTWQUESTS_LIGHTS_HEART,
+    name = L["BTWQUESTS_LIGHTS_HEART"],
     category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -168,7 +169,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART, {
             }
         },
         {
-            name = BTWQUESTS_RETURN_TO_ORDER_HALL,
+            name = L["BTWQUESTS_RETURN_TO_ORDER_HALL"],
             breadcrumb = true,
             x = 3,
             y = 6,
@@ -482,7 +483,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL, {
 })
 
 BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ORDERHALL, {
-    name = BTWQUESTS_ORDERHALL,
+    name = L["BTWQUESTS_ORDERHALL"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     buttonImage = 1041999,
     items = {

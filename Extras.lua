@@ -1,5 +1,7 @@
+local L = BtWQuests.L;
+
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
-    name = BTWQUESTS_EPILOGUE,
+    name = L["BTWQUESTS_EPILOGUE"],
     category = nil,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -408,7 +410,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_LOST_MAIL, {
-    name = "Lost Mail",
+    name = L["LOST_MAIL"],
     category = nil,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
@@ -427,10 +429,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_LOST_MAIL, {
             },
         },
         {
-            name = "Head to the Dalaran Mailroom",
+            name = L["HEAD_TO_THE_DALARAN_MAILROOM"],
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(627, 0.3342, 0.3164, "Dalaran Mailroom Entrance")
+                BtWQuests_ShowMapWithWaypoint(627, 0.3342, 0.3164, L["DALARAN_MAILROOM_ENTRANCE"])
             end,
             x = 3,
             y = 1,
@@ -484,10 +486,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_LOST_MAIL, {
             },
         },
         {
-            name = "Return to the Dalaran Mailroom",
+            name = L["RETURN_TO_THE_DALARAN_MAILROOM"],
             breadcrumb = true,
             onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(627, 0.3342, 0.3164, "Dalaran Mailroom Entrance")
+                BtWQuests_ShowMapWithWaypoint(627, 0.3342, 0.3164, L["DALARAN_MAILROOM_ENTRANCE"])
             end,
             x = 3,
             y = 7,

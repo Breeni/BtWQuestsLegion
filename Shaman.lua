@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(262)), "The Fist of Ra-den"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -203,7 +204,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
-    name = BTWQUESTS_SHAMAN_CAMPAIGN,
+    name = L["BTWQUESTS_SHAMAN_CAMPAIGN"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -1001,7 +1002,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_MOUNT, {
-    name = BTWQUESTS_SHAMAN_MOUNT,
+    name = L["BTWQUESTS_SHAMAN_MOUNT"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_SHAMAN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {

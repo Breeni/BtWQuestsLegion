@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 local MAP_ID = 680
 
 BtWQuestsCharacters:AddAchievement(10617);
@@ -1584,7 +1585,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
     range = {110},
     items = {
         {
-            name = BTWQUESTS_KILL_NIGHTBORNE,
+            name = L["BTWQUESTS_KILL_NIGHTBORNE"],
             breadcrumb = true,
             aside = true,
             x = 1,
@@ -1601,7 +1602,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
             y = 1,
         },
         {
-            name = BTWQUESTS_GO_TO_LYREA_WINDFEATHER,
+            name = L["BTWQUESTS_GO_TO_LYREA_WINDFEATHER"],
             breadcrumb = true,
             x = 3,
             y = 0,
@@ -1619,7 +1620,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
             },
         },
         {
-            name = BTWQUESTS_GO_TO_IVANEL_MEADOWSONG,
+            name = L["BTWQUESTS_GO_TO_IVANEL_MEADOWSONG"],
             breadcrumb = true,
             x = 5,
             y = 0,
@@ -1784,7 +1785,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR, {
     range = {110},
     items = {
         {
-            name = BTWQUESTS_GO_TO_THAEDRIS_FEATHERSONG,
+            name = L["BTWQUESTS_GO_TO_THAEDRIS_FEATHERSONG"],
             breadcrumb = true,
             onClick = function ()
                 if TomTom and TomTom.AddMFWaypoint then
@@ -1920,7 +1921,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN, {
             },
         },
         {
-            name = BTWQUESTS_KILL_THE_STARVING_ETTIN,
+            name = L["BTWQUESTS_KILL_THE_STARVING_ETTIN"],
             breadcrumb = true,
             aside = true,
             x = 1,
@@ -1955,7 +1956,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN, {
             },
         },
         {
-            name = BTWQUESTS_RETURN_TO_IRONGROVE_RETRAT,
+            name = L["BTWQUESTS_RETURN_TO_IRONGROVE_RETRAT"],
             breadcrumb = true,
             x = 3,
             y = 3,
@@ -2109,7 +2110,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN, {
             },
         },
         {
-            name = BTWQUESTS_GO_TO_NIGHTEYES,
+            name = L["BTWQUESTS_GO_TO_NIGHTEYES"],
             breadcrumb = true,
             onClick = function ()
                 if TomTom and TomTom.AddMFWaypoint then

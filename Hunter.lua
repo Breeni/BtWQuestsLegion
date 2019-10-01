@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(253)), "Titanstrike"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -176,7 +177,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_CAMPAIGN, {
-    name = BTWQUESTS_HUNTER_CAMPAIGN,
+    name = L["BTWQUESTS_HUNTER_CAMPAIGN"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -1145,7 +1146,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_MOUNT, {
-    name = BTWQUESTS_HUNTER_MOUNT,
+    name = L["BTWQUESTS_HUNTER_MOUNT"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_HUNTER,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {

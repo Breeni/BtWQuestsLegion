@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 local MAP_ID = 630
 local CONTINENT_ID = 619
 local ACHIEVEMENT_ID = 10763
@@ -623,7 +624,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_AGAINSTTHEGIANTS, {
     },
     items = {
         {
-            name = "Kill Murlocs around El'dranil Shallows",
+            name = L["KILL_MURLOCS_AROUND_ELDRANIL_SHALLOWS"],
             breadcrumb = true,
             x = 3,
             y = 0,
@@ -872,7 +873,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_AZSUNA_DAGLOP, {
         },
         -- {
         --     type = "quest",
-        --     name = BTWQUESTS_TREASURE,
+        --     name = L["BTWQUESTS_TREASURE"],
         --     id = 42278,
         --     x = 5,
         --     y = 3,

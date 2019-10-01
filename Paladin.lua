@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(65)), "The Silver Hand"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -194,7 +195,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_CAMPAIGN, {
-    name = BTWQUESTS_PALADIN_CAMPAIGN,
+    name = L["BTWQUESTS_PALADIN_CAMPAIGN"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -936,7 +937,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER, {
-    name = "Champion: Maximillian of Northshire",
+    name = L["CHAMPION_MAXIMILLIAN_OF_NORTHSHIRE"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -994,7 +995,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER
             },
         },
         {
-            name = "Wait for a mail from Maximillian",
+            name = L["WAIT_FOR_A_MAIL_FROM_MAXIMILLIAN"],
             type = "quest",
             id = 45773,
             breadcrumb = true,
@@ -1085,7 +1086,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_OTHER_FOLLOWER
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_MOUNT, {
-    name = BTWQUESTS_PALADIN_MOUNT,
+    name = L["BTWQUESTS_PALADIN_MOUNT"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PALADIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {

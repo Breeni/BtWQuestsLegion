@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(268)), "Fu Zan, the Wanderer's Companion"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -185,7 +186,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_CAMPAIGN, {
-    name = BTWQUESTS_MONK_CAMPAIGN,
+    name = L["BTWQUESTS_MONK_CAMPAIGN"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -884,7 +885,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MOUNT, {
-    name = BTWQUESTS_MONK_MOUNT,
+    name = L["BTWQUESTS_MONK_MOUNT"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_MONK,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {

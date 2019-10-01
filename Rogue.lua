@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(259)), "The Kingslayers"), -- select(1, GetItemInfo(128870))
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -209,7 +210,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
-    name = BTWQUESTS_ROGUE_CAMPAIGN,
+    name = L["BTWQUESTS_ROGUE_CAMPAIGN"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -1233,7 +1234,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_MOUNT, {
-    name = BTWQUESTS_ROGUE_MOUNT,
+    name = L["BTWQUESTS_ROGUE_MOUNT"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_ROGUE,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {

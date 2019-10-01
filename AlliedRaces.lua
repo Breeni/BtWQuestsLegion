@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAENEI, {
     name = "Lightforged Draenei",
     category = BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES,
@@ -11,7 +12,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_LIGHTFORGED_DRAEN
     prerequisites = {
         {
             type = "expansion",
-            expansion = BTWQUESTS_EXPANSION_BATTLE_FOR_AZEROTH,
+            id = BTWQUESTS_EXPANSION_BATTLE_FOR_AZEROTH,
         },
         {
             type = "achievement",
@@ -75,7 +76,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_VOID_ELF, {
     prerequisites = {
         {
             type = "expansion",
-            expansion = BTWQUESTS_EXPANSION_BATTLE_FOR_AZEROTH,
+            id = BTWQUESTS_EXPANSION_BATTLE_FOR_AZEROTH,
         },
         {
             type = "achievement",
@@ -130,7 +131,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_NIGHTBORNE, {
     prerequisites = {
         {
             type = "expansion",
-            expansion = BTWQUESTS_EXPANSION_BATTLE_FOR_AZEROTH,
+            id = BTWQUESTS_EXPANSION_BATTLE_FOR_AZEROTH,
         },
         {
             type = "achievement",
@@ -203,7 +204,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUR
     prerequisites = {
         {
             type = "expansion",
-            expansion = BTWQUESTS_EXPANSION_BATTLE_FOR_AZEROTH,
+            id = BTWQUESTS_EXPANSION_BATTLE_FOR_AZEROTH,
         },
         {
             type = "achievement",
@@ -373,7 +374,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ALLIED_RACES_HIGHMOUNTAIN_TAUR
 })
 
 BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ALLIED_RACES, {
-    name = "Allied Races",
+    name = L["BTWQUESTS_ALLIED_RACES"],
     expansion = BTWQUESTS_EXPANSION_LEGION,
     items = {
         {

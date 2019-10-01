@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 local MAP_ID = 634
 local CONTINENT_ID = 619
 
@@ -471,7 +472,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_MIGHT, 
             },
         },
         {
-            name = BTWQUESTS_KILL_CHAMPIONS,
+            name = L["BTWQUESTS_KILL_CHAMPIONS"],
             breadcrumb = true,
             aside = true,
             x = 1,
@@ -628,7 +629,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_STORMHEIM_THE_TRIAL_OF_WILL, {
             },
         },
         {
-            name = BTWQUESTS_KILL_DRAGONS,
+            name = L["BTWQUESTS_KILL_DRAGONS"],
             breadcrumb = true,
             aside = true,
             x = 1,

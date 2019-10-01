@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 local MAP_ID = 646
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB, {

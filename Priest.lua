@@ -1,3 +1,4 @@
+local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE, {
     name = string.format("%s: %s", select(2, GetSpecializationInfoByID(256)), "Light's Wrath"),
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
@@ -212,7 +213,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_CAMPAIGN, {
-    name = BTWQUESTS_PRIEST_CAMPAIGN,
+    name = L["BTWQUESTS_PRIEST_CAMPAIGN"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -1005,7 +1006,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_MOUNT, {
-    name = BTWQUESTS_PRIEST_MOUNT,
+    name = L["BTWQUESTS_PRIEST_MOUNT"],
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_PRIEST,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
