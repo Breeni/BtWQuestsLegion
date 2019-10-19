@@ -1,6 +1,6 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
-local L = BtWQuests.L;
+local L = BtWQuests.L
 L["BTWQUESTS_AID_OF_THE_ILLIDARI"] = "Aid of the Illidari"
 L["BTWQUESTS_ARTIFACT"] = "Artifact"
 L["BTWQUESTS_COMPLETE_ORDER_HALL_CAMPAIGN"] = "Complete your Order Campaign"
@@ -56,7 +56,6 @@ L["BTWQUESTS_WARLOCK_CAMPAIGN"] = "Netherlord Campaign"
 L["BTWQUESTS_WARLOCK_MOUNT"] = "Mount: Netherlord's Chaotic Wrathsteed"
 L["BTWQUESTS_WARRIOR_CAMPAIGN"] = "Battelord Campaign"
 L["BTWQUESTS_WARRIOR_MOUNT"] = "Mount: Battlelord's Bloodthirsty War Wyrm"
-
 L["CHAMPION_MAXIMILLIAN_OF_NORTHSHIRE"] = "Champion: Maximillian of Northshire"
 L["DALARAN_MAILROOM_ENTRANCE"] = "Dalaran Mailroom Entrance"
 L["DEMON_HUNTER_STARTING_ZONE"] = "Demon Hunter Starting Zone"
