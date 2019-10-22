@@ -1,6 +1,6 @@
 local L = BtWQuests.L;
-BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION, {
-    name = L["AFFLICATION_ULTHALESH_THE_DEADWIND_HARVESTER"],
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICTION, {
+    name = L["AFFLICTION_ULTHALESH_THE_DEADWIND_HARVESTER"],
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -27,7 +27,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION, {
         id = 40623,
     },
     range = {98, 110},
-    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Warlock-Afflication",
+    buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Warlock-Affliction",
     items = {
         {
             type = "quest",
@@ -254,7 +254,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
         
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICTION,
             active = {
                 type = "quest",
                 id = 40684,
@@ -304,7 +304,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
         
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICATION,
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICTION,
             visible = function (self)
                 return BtWQuests_IsQuestCompleted(40686)
             end,

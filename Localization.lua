@@ -1,4 +1,4 @@
------ AUTO GENERATED - DO NOT EDIT
+----- return AUTO GENERATED - DO NOT EDIT
 
 local L = BtWQuests.L
 L["BTWQUESTS_AID_OF_THE_ILLIDARI"] = "Aid of the Illidari"
@@ -72,86 +72,86 @@ L["VOID_ELF"] = "Void Elf"
 L["NIGHTBORNE"] = "Nightborne"
 L["HIGHMOUNTAIN TAUREN"] = "Highmountain Tauren"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(250)), GetItemInfo(128402))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(250)), GetItemInfo(128402))
 L["BLOOD_MAW_OF_THE_DAMNED"] = "Blood: Maw of the Damned"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(251)), GetItemInfo(128292))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(251)), GetItemInfo(128292))
 L["FROST_BLADES_OF_THE_FALLEN_PRINCE"] = "Frost: Blades of the Fallen Prince"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(252)), GetItemInfo(128403))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(252)), GetItemInfo(128403))
 L["UNHOLY_APOCALYPSE"] = "Unholy: Apocalypse"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(577)), GetItemInfo(127829))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(577)), GetItemInfo(127829))
 L["HAVOC_TWINBLADES_OF_THE_DECEIVER"] = "Havoc: Twinblades of the Deceiver"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(581)), GetItemInfo(128832))
-L["VENGENCE_ALDRACHI_WARBLADES"] = "Vengence: Aldrachi Warblades"
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(581)), GetItemInfo(128832))
+L["VENGEANCE_ALDRACHI_WARBLADES"] = "Vengeance: Aldrachi Warblades"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(102)), GetItemInfo(128858))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(102)), GetItemInfo(128858))
 L["BALANCE_SCYTHE_OF_ELUNE"] = "Balance: Scythe of Elune"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(103)), GetItemInfo(128860))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(103)), GetItemInfo(128860))
 L["FERAL_FANGS_OF_ASHAMANE"] = "Feral: Fangs of Ashamane"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(104)), GetItemInfo(128821))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(104)), GetItemInfo(128821))
 L["GUARDIAN_CLAWS_OF_URSOC"] = "Guardian: Claws of Ursoc"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(105)), GetItemInfo(128306))
-L["RESTORATION_G'HANIR_THE_MOTHER_TREE"] = "Restoration: G'Hanir, the Mother Tree"
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(105)), GetItemInfo(128306))
+L["RESTORATION_GHANIR_THE_MOTHER_TREE"] = "Restoration: G'Hanir, the Mother Tree"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(253)), GetItemInfo(128861))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(253)), GetItemInfo(128861))
 L["BEAST_MASTERY_TITANSTRIKE"] = "Beast Mastery: Titanstrike"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(254)), GetItemInfo(128826))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(254)), GetItemInfo(128826))
 L["MARKSMANSHIP_THASDORAH_LEGACY_OF_THE_WINDRUNNERS"] = "Marksmanship: Thas'dorah, Legacy of the Windrunners"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(255)), GetItemInfo(128808))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(255)), GetItemInfo(128808))
 L["SURVIVAL_TALONCLAW"] = "Survival: Talonclaw"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(62)), GetItemInfo(127857))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(62)), GetItemInfo(127857))
 L["ARCANE_ALUNETH"] = "Arcane: Aluneth"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(63)), GetItemInfo(128820))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(63)), GetItemInfo(128820))
 L["FIRE_FELOMELORN"] = "Fire: Felo'melorn"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(64)), GetItemInfo(128862))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(64)), GetItemInfo(128862))
 L["FROST_EBONCHILL"] = "Frost: Ebonchill"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(268)), GetItemInfo(128938))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(268)), GetItemInfo(128938))
 L["BREWMASTER_FU_ZAN_THE_WANDERERS_COMPANION"] = "Brewmaster: Fu Zan, the Wanderer's Companion"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(269)), GetItemInfo(128940))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(269)), GetItemInfo(128940))
 L["WINDWALKER_FISTS_OF_THE_HEAVENS"] = "Windwalker: Fists of the Heavens"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(270)), GetItemInfo(128937))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(270)), GetItemInfo(128937))
 L["MISTWEAVER_SHEILUN_STAFF_OF_THE_MISTS"] = "Mistweaver: Sheilun, Staff of the Mists"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(65)), GetItemInfo(128823))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(65)), GetItemInfo(128823))
 L["HOLY_THE_SILVER_HAND"] = "Holy: The Silver Hand"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(66)), GetItemInfo(128866))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(66)), GetItemInfo(128866))
 L["PROTECTION_TRUTHGUARD"] = "Protection: Truthguard"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(70)), GetItemInfo(120978))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(70)), GetItemInfo(120978))
 L["RETRIBUTION_ASHBRINGER"] = "Retribution: Ashbringer"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(256)), GetItemInfo(128868))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(256)), GetItemInfo(128868))
 L["DISCIPLINE_LIGHTS_WRATH"] = "Discipline: Light's Wrath"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(257)), GetItemInfo(128825))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(257)), GetItemInfo(128825))
 L["HOLY_TUURE_BEACON_OF_THE_NAARU"] = "Holy: T'uure, Beacon of the Naaru"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(258)), GetItemInfo(128827))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(258)), GetItemInfo(128827))
 L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "Shadow: Xal'atath, Blade of the Black Empire"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(259)), GetItemInfo(128870))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(259)), GetItemInfo(128870))
 L["ASSASSINATION_THE_KINGSLAYERS"] = "Assassination: The Kingslayers"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(260)), GetItemInfo(134552))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(260)), GetItemInfo(134552))
 L["OUTLAW_THE_DREADBLADES"] = "Outlaw: The Dreadblades"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(261)), GetItemInfo(128476))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(261)), GetItemInfo(128476))
 L["SUBTLETY_FANGS_OF_THE_DEVOURER"] = "Subtlety: Fangs of the Devourer"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(262)), GetItemInfo(128935))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(262)), GetItemInfo(128935))
 L["ELEMENTAL_THE_FIST_OF_RADEN"] = "Elemental: The Fist of Ra-den"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(263)), GetItemInfo(128819))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(263)), GetItemInfo(128819))
 L["ENHANCEMENT_DOOMHAMMER"] = "Enhancement: Doomhammer"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(264)), GetItemInfo(128911))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(264)), GetItemInfo(128911))
 L["RESTORATION_SHARASDAL_SCEPTER_OF_TIDES"] = "Restoration: Sharas'dal, Scepter of Tides"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(265)), GetItemInfo(128942))
-L["AFFLICATION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "Afflication: Ulthalesh, the Deadwind Harvester"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(266)), GetItemInfo(128943))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(265)), GetItemInfo(128942))
+L["AFFLICTION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "Affliction: Ulthalesh, the Deadwind Harvester"
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(266)), GetItemInfo(128943))
 L["DEMONOLOGY_SKULL_OF_THE_MANARI"] = "Demonology: Skull of the Man'ari"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(267)), GetItemInfo(128941))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(267)), GetItemInfo(128941))
 L["DESTRUCTION_SCEPTER_OF_SARGERAS"] = "Destruction: Scepter of Sargeras"
 
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(71)), GetItemInfo(128910))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(71)), GetItemInfo(128910))
 L["ARMS_STROMKAR_THE_WARBREAKER"] = "Arms: Strom'kar, the Warbreaker"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(72)), GetItemInfo(128908))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(72)), GetItemInfo(128908))
 L["FURY_WARSWORDS_OF_THE_VALARJAR"] = "Fury: Warswords of the Valarjar"
--- string.format("%s: %s", select(2, GetSpecializationInfoByID(73)), GetItemInfo(128289))
+-- return string.format("%s: %s", select(2, GetSpecializationInfoByID(73)), GetItemInfo(128289))
 L["PROTECTION_SCALE_OF_THE_EARTH_WARDER"] = "Protection: Scale of the Earth-Warder"
