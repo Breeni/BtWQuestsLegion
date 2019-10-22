@@ -1,7 +1,10 @@
 local L = BtWQuests.L;
 BtWQuestsCharacters:AddAchievement(10746);
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
-    name = BtWQuests_GetQuestName(43533),
+    name = { -- Balance of Power
+        type = "quest",
+        id = 43533
+    },
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {

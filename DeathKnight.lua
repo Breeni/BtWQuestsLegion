@@ -1,6 +1,6 @@
 local L = BtWQuests.L;
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD, {
-    name = string.format("%s: %s", select(2, GetSpecializationInfoByID(250)), "Maw of the Damned"),
+    name = L["BLOOD_MAW_OF_THE_DAMNED"],
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -22,20 +22,20 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD, {
             id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
-    prerequisites = {
-        {
-            visible = false,
-            onEval = function (self)
-                if BtWQuests_IsQuestCompleted(40715) and BtWQuests_IsQuestCompleted(40722) then -- First Artifact
-                    return true
-                elseif BtWQuests_IsQuestCompleted(43962) and BtWQuests_IsQuestCompleted(40723) then -- Second Artifact
-                    return true
-                elseif BtWQuests_IsQuestCompleted(44401) and BtWQuests_IsQuestCompleted(40724) then -- Third Artifact
-                    return true
-                end
-            end
-        }
-    },
+    -- prerequisites = {
+    --     {
+    --         visible = false,
+    --         onEval = function (self)
+    --             if BtWQuests_IsQuestCompleted(40715) and BtWQuests_IsQuestCompleted(40722) then -- First Artifact
+    --                 return true
+    --             elseif BtWQuests_IsQuestCompleted(43962) and BtWQuests_IsQuestCompleted(40723) then -- Second Artifact
+    --                 return true
+    --             elseif BtWQuests_IsQuestCompleted(44401) and BtWQuests_IsQuestCompleted(40724) then -- Third Artifact
+    --                 return true
+    --             end
+    --         end
+    --     }
+    -- },
     completed = {
         type = "quest",
         id = 40740,
@@ -52,7 +52,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST, {
-    name = string.format("%s: %s", select(2, GetSpecializationInfoByID(251)), "Blades of the Fallen Prince"),
+    name = L["FROST_BLADES_OF_THE_FALLEN_PRINCE"],
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -90,7 +90,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY, {
-    name = string.format("%s: %s", select(2, GetSpecializationInfoByID(252)), "Apocalypse"),
+    name = L["UNHOLY_APOCALYPSE"],
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -775,7 +775,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER, {
-    name = BtWQuests_GetQuestName(46050),
+    name = { -- Champion: Minerva Ravensorrow
+		type = "quest",
+		id = 46050,
+	},
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_DEATHKNIGHT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -786,10 +789,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER, 
         BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
         BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
         BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
-        BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANCE,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE,
         BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
         BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
-        BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER_ALLIANCE,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER_HORDE,
     },
     restrictions = {
         {

@@ -890,7 +890,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_SNOWBLIND_MESA, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK, {
-    name = BtWQuests_GetQuestName(39670),
+    name = { -- Critter Scatter Shot
+		type = "quest",
+		id = 39670,
+	},
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
@@ -1001,8 +1004,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_RAZIK, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET, {
-    -- name = "Nesingwary's Retreat",
-    name = BtWQuests_GetAreaName(7733),
+    name = BtWQuests_GetAreaName(7733), -- Nesingwary's Retreat
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {
@@ -1239,7 +1241,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK, {
-    name = BtWQuests_GetQuestName(39440),
+    name = { -- You Lift, Brul?
+		type = "quest",
+		id = 39440,
+	},
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
@@ -1301,7 +1306,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_MURKY, {
-    name = BtWQuests_GetQuestName(40102),
+    name = { -- Murlocs: The Next Generation
+		type = "quest",
+		id = 40102,
+	},
     category = BTWQUESTS_CATEGORY_LEGION_HIGHMOUNTAIN,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     completed = {

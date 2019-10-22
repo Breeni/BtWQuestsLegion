@@ -1,7 +1,7 @@
 local L = BtWQuests.L;
 
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS, {
-    name = string.format("%s: %s", select(2, GetSpecializationInfoByID(71)), "Strom'kar, the Warbreaker"),
+    name = L["ARMS_STROMKAR_THE_WARBREAKER"],
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -39,7 +39,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY, {
-    name = string.format("%s: %s", select(2, GetSpecializationInfoByID(72)), "Warswords of the Valarjar"),
+    name = L["FURY_WARSWORDS_OF_THE_VALARJAR"],
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -77,7 +77,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FURY, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION, {
-    name = string.format("%s: %s", select(2, GetSpecializationInfoByID(73)), "Scale of the Earth-Warder"),
+    name = L["PROTECTION_SCALE_OF_THE_EARTH_WARDER"],
     category = BTWQUESTS_CATEGORY_LEGION_ARTIFACT,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
@@ -648,17 +648,15 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_CAMPAIGN, {
         },
     },
 })
-BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER, {
-    name = function (self)
-        if UnitFactionGroup("player") == "Alliance" then
-            return BtWQuests_GetQuestName(45876)
-        elseif UnitFactionGroup("player") == "Horde" then
-            return BtWQuests_GetQuestName(45873)
-        end
-    end,
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER_ALLIANCE, {
+    name = { -- Champion: Lord Darius Crowley
+		type = "quest",
+		id = 45876,
+	},
     category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     alternatives = {
+        BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER_HORDE,
         BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER,
         BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
         BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
@@ -667,7 +665,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER, {
         BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
         BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
         BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
-        BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANCE,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE,
         BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
         BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
     },
@@ -675,6 +674,268 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER, {
         {
             type = "class",
             id = BTWQUESTS_CLASS_ID_WARRIOR,
+        },
+        {
+            type = "faction",
+            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 45876,
+    },
+    range = {110},
+    items = {
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            breadcrumb = true,
+            x = 3,
+            y = 0,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 46173,
+            x = 3,
+            y = 1,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 44849,
+            x = 3,
+            y = 2,
+            connections = {
+                1, 2, 3
+            },
+        },
+        {
+            type = "quest",
+            id = 44850,
+            x = 1,
+            y = 3,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 45118,
+            x = 3,
+            y = 3,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 45834,
+            x = 5,
+            y = 3,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 45128,
+            x = 3,
+            y = 4,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 44889,
+            x = 3,
+            y = 5,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 45634,
+            x = 3,
+            y = 6,
+            connections = {
+                1, 2
+            },
+        },
+        {
+            type = "quest",
+            id = 45648,
+            restrictions = {
+                {
+                    type = "faction",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                },
+            },
+            x = 3,
+            y = 7,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 45632,
+            restrictions = {
+                {
+                    type = "faction",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
+                },
+            },
+            x = 3,
+            y = 7,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 45649,
+            restrictions = {
+                {
+                    type = "faction",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                },
+            },
+            x = 3,
+            y = 8,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 45647,
+            restrictions = {
+                {
+                    type = "faction",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
+                },
+            },
+            x = 3,
+            y = 8,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 45650,
+            restrictions = {
+                {
+                    type = "faction",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                },
+            },
+            x = 3,
+            y = 9,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 45633,
+            restrictions = {
+                {
+                    type = "faction",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
+                },
+            },
+            x = 3,
+            y = 9,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "quest",
+            id = 46267,
+            x = 3,
+            y = 10,
+            connections = {
+                1, 2
+            },
+        },
+        {
+            type = "quest",
+            id = 45876,
+            restrictions = {
+                {
+                    type = "faction",
+                    id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                },
+            },
+            x = 3,
+            y = 11,
+            connections = {
+                2
+            },
+        },
+        {
+            type = "quest",
+            id = 45873,
+            restrictions = {
+                {
+                    type = "faction",
+                    id = BTWQUESTS_FACTION_ID_HORDE,
+                },
+            },
+            x = 3,
+            y = 11,
+            connections = {
+                1
+            },
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
+            aside = true,
+            x = 3,
+            y = 12,
+        },
+    },
+})
+BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER_HORDE, {
+    name = { -- Champion: Eitrigg
+		type = "quest",
+		id = 45873,
+	},
+    category = BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR,
+    expansion = BTWQUESTS_EXPANSION_LEGION,
+    alternatives = {
+        BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER_ALLIANCE,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANCE,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER,
+        BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER,
+    },
+    restrictions = {
+        {
+            type = "class",
+            id = BTWQUESTS_CLASS_ID_WARRIOR,
+        },
+        {
+            type = "faction",
+            id = BTWQUESTS_FACTION_ID_HORDE,
         },
     },
     completed = {
@@ -995,7 +1256,11 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_CLASSES_WARRIOR, {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER,
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER_ALLIANCE,
+        },
+        {
+            type = "chain",
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_FOLLOWER_HORDE,
         },
         {
             type = "chain",

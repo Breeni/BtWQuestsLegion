@@ -912,7 +912,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BLACK_ROOK_HOLD, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN, {
-    name = BtWQuests_GetQuestName(42747),
+    name = { -- Where the Wildkin Are
+		type = "quest",
+		id = 42747,
+	},
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     range = {98, 110},
@@ -1008,7 +1011,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD, {
-    name = BtWQuests_GetQuestName(42865),
+    name = { -- Grell to Pay
+		type = "quest",
+		id = 42865,
+	},
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     range = {98, 110},
@@ -1070,7 +1076,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD, {
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING, {
-    name = BtWQuests_GetQuestName(40221),
+    name = { -- Spread Your Lunarwings and Fly
+		type = "quest",
+		id = 40221,
+	},
     category = BTWQUESTS_CATEGORY_LEGION_VALSHARAH,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     range = {98, 110},
