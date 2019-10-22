@@ -4,5 +4,5 @@ if GetLocale() ~= "zhTW" then
     return
 end
 
-BtWQuestsDatabase:UpdateNPCsTable({
+BtWQuestsDatabase:UpdateObjectsTable({
 })

@@ -1,6 +1,6 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
-if GetLocale() ~= "zhTW" then
+if GetLocale() ~= "zhCN" then
     return
 end
 

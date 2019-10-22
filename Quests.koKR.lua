@@ -1305,7 +1305,7 @@ BtWQuestsDatabase:UpdateQuestsTable({
         name = "지저왕",
     },
     [39781] = {
-        name = "넬타리온의 둥지",
+        name = "넬타리온의 둥지: 지저왕에게 죽음을",
     },
     [39786] = {
         name = "돌처럼 굳은 약속",
@@ -2867,9 +2867,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [41709] = {
         name = "거물과 맞서는 방법",
     },
-    [41724] = {
-        name = "악몽의 심장부",
-    },
     [41728] = {
         name = "티엔 수도원 방어",
     },
@@ -4274,15 +4271,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42959] = {
         name = "행운의 숫자 3",
     },
-    [42966] = {
-        name = "대영주의 명령",
-    },
-    [42967] = {
-        name = "대영주의 명령",
-    },
-    [42968] = {
-        name = "대영주의 명령",
-    },
     [42974] = {
         name = "호디르의 운명",
     },
@@ -4461,7 +4449,7 @@ BtWQuestsDatabase:UpdateQuestsTable({
         name = "재앙의 파편",
     },
     [43362] = {
-        name = "에메랄드의 악몽: 꿈의 물건",
+        name = "꿈의 물건",
     },
     [43371] = {
         name = "최전선 지원",
@@ -4649,12 +4637,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [43502] = {
         name = "계절의 변화",
     },
-    [43503] = {
-        name = "잠재된 힘",
-    },
-    [43505] = {
-        name = "잠재된 힘",
-    },
     [43506] = {
         name = "검은 떼까마귀 요새: 더욱 강력한 힘",
     },
@@ -4677,7 +4659,7 @@ BtWQuestsDatabase:UpdateQuestsTable({
         name = "에메랄드의 악몽: 악몽 속에서",
     },
     [43521] = {
-        name = "힘의 정수",
+        name = "에메랄드의 악몽: 힘의 정수",
     },
     [43522] = {
         name = "정수의 힘",
@@ -4704,7 +4686,7 @@ BtWQuestsDatabase:UpdateQuestsTable({
         name = "밤의 요새: 과대망상",
     },
     [43531] = {
-        name = "밤의 요새로",
+        name = "밤의 요새: 밤의 요새로",
     },
     [43532] = {
         name = "밤의 요새: 어둠이 부른다",
@@ -5476,9 +5458,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [45316] = {
         name = "수라마르 안정화",
-    },
-    [45317] = {
-        name = "모든 전선에서 계속되는 전투",
     },
     [45329] = {
         name = "작전: 차원문",

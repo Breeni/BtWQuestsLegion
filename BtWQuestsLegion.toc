@@ -28,6 +28,7 @@ Quests.itIT.lua
 Quests.koKR.lua
 Quests.ptBR.lua
 Quests.ruRU.lua
+Quests.zhCN.lua
 Quests.zhTW.lua
 
 NPCs.lua
@@ -39,7 +40,20 @@ NPCs.itIT.lua
 NPCs.koKR.lua
 NPCs.ptBR.lua
 NPCs.ruRU.lua
+NPCs.zhCN.lua
 NPCs.zhTW.lua
+
+Objects.lua
+Objects.deDE.lua
+Objects.esES.lua
+Objects.esMX.lua
+Objects.frFR.lua
+Objects.itIT.lua
+Objects.koKR.lua
+Objects.ptBR.lua
+Objects.ruRU.lua
+Objects.zhCN.lua
+Objects.zhTW.lua
 
 DeathKnight.lua
 DemonHunter.lua
