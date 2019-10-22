@@ -1788,15 +1788,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_TIDYING_TELANOR, {
     range = {110},
     items = {
         {
-            name = L["BTWQUESTS_GO_TO_THAEDRIS_FEATHERSONG"],
-            breadcrumb = true,
-            onClick = function ()
-                if TomTom and TomTom.AddMFWaypoint then
-                    TomTom:AddMFWaypoint(1033, 0, 0.456, 0.408, {
-                        title = BTWQUESTS_THAEDRIS_FEATHERSONG,
-                    })
-                end
-            end,
+            type = "npc",
+            id = 99065,
             x = 3,
             y = 0,
             connections = {
@@ -2113,15 +2106,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN, {
             },
         },
         {
-            name = L["BTWQUESTS_GO_TO_NIGHTEYES"],
-            breadcrumb = true,
-            onClick = function ()
-                if TomTom and TomTom.AddMFWaypoint then
-                    TomTom:AddMFWaypoint(1033, 0, 0.506, 0.565, {
-                        title = BTWQUESTS_NIGHTEYES,
-                    })
-                end
-            end,
+            type = "npc",
+            id = 110987,
             x = 3,
             y = 13,
             connections = {

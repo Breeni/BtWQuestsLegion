@@ -368,7 +368,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE, 
             x = 1,
             y = 0,
             connections = {
-                3, 4, 5
+                3,
             },
         },
         {
@@ -377,7 +377,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE, 
             x = 3,
             y = 0,
             connections = {
-                2, 3, 4
+                2,
             },
         },
         {
@@ -386,51 +386,16 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE, 
             x = 5,
             y = 0,
             connections = {
-                1, 2, 3
+                1,
             },
         },
         {
             type = "quest",
-            id = 38148,
-            visible = function ()
-                return not (BtWQuests_IsQuestActive(38322) or BtWQuests_IsQuestActive(38323))
-            end,
+            ids = {38148, 38322, 38323},
             x = 3,
             y = 1,
             connections = {
                 3
-            },
-        },
-        {
-            type = "quest",
-            id = 38322,
-            visible = {
-                {
-                    type = "quest",
-                    id = 38322,
-                    active = true,
-                },
-            },
-            x = 3,
-            y = 1,
-            connections = {
-                2
-            },
-        },
-        {
-            type = "quest",
-            id = 38323,
-            visible = {
-                {
-                    type = "quest",
-                    id = 38323,
-                    active = true,
-                },
-            },
-            x = 3,
-            y = 1,
-            connections = {
-                1
             },
         },
         {
@@ -1038,11 +1003,13 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD, {
             },
         },
         {
-            name = "Go to the Moist Grizzlecomb",
-            breadcrumb = true,
-            onClick = function ()
-                BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.6682, 0.7566, "Moist Grizzlecomb")
-            end,
+            type = "object",
+            id = 251425,
+            -- name = "Go to the Moist Grizzlecomb",
+            -- breadcrumb = true,
+            -- onClick = function ()
+            --     BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.6682, 0.7566, "Moist Grizzlecomb")
+            -- end,
             x = 6,
             y = 0,
             connections = {
