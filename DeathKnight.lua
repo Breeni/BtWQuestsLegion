@@ -22,20 +22,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD, {
             id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
-    -- prerequisites = {
-    --     {
-    --         visible = false,
-    --         onEval = function (self)
-    --             if BtWQuests_IsQuestCompleted(40715) and BtWQuests_IsQuestCompleted(40722) then -- First Artifact
-    --                 return true
-    --             elseif BtWQuests_IsQuestCompleted(43962) and BtWQuests_IsQuestCompleted(40723) then -- Second Artifact
-    --                 return true
-    --             elseif BtWQuests_IsQuestCompleted(44401) and BtWQuests_IsQuestCompleted(40724) then -- Third Artifact
-    --                 return true
-    --             end
-    --         end
-    --     }
-    -- },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("DEATHKNIGHT", 1),
+    active = BtWQuests.LegionArtifactActive("DEATHKNIGHT", 1),
     completed = {
         type = "quest",
         id = 40740,
@@ -74,6 +62,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST, {
             id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("DEATHKNIGHT", 2),
+    active = BtWQuests.LegionArtifactActive("DEATHKNIGHT", 2),
     completed = {
         type = "quest",
         id = 38990,
@@ -112,6 +102,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY, {
             id = BTWQUESTS_CLASS_ID_DEATHKNIGHT,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("DEATHKNIGHT", 3),
+    active = BtWQuests.LegionArtifactActive("DEATHKNIGHT", 3),
     completed = {
         type = "quest",
         id = 40935,
@@ -222,12 +214,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             x = 3,
             y = 1,
             connections = {
-                1, 2, 3, 4, 5, 6
+                1, 2, 3, 4,
             },
         },
-        
-        
-        
+
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
@@ -235,13 +227,11 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
                 type = "quest",
                 id = 40715,
             },
-            visible = function (_, character)
-                return not(character:IsQuestCompleted(40722) or character:IsQuestCompleted(40723) or character:IsQuestCompleted(40724))
-            end,
+            visible = BtWQuests.LegionArtifactNonSelected("DEATHKNIGHT"),
             x = 1,
             y = 2,
             connections = {
-                6
+                4
             },
         },
         {
@@ -251,40 +241,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
                 type = "quest",
                 id = 40715,
             },
-            visible = function (_, character)
-                return not(character:IsQuestCompleted(40722) or character:IsQuestCompleted(40723) or character:IsQuestCompleted(40724))
-            end,
-            x = 3,
-            y = 2,
-            connections = {
-                5
-            },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-            active = {
-                type = "quest",
-                id = 40715,
-            },
-            visible = function (_, character)
-                return not(character:IsQuestCompleted(40722) or character:IsQuestCompleted(40723) or character:IsQuestCompleted(40724))
-            end,
-            x = 5,
-            y = 2,
-            connections = {
-                4
-            },
-        },
-        
-        
-        
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
-            visible = function (_, character)
-                return character:IsQuestCompleted(40722)
-            end,
+            visible = BtWQuests.LegionArtifactNonSelected("DEATHKNIGHT"),
             x = 3,
             y = 2,
             connections = {
@@ -293,32 +250,60 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
-            visible = function (_, character)
-                return character:IsQuestCompleted(40723)
-            end,
-            x = 3,
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+            active = {
+                type = "quest",
+                id = 40715,
+            },
+            visible = BtWQuests.LegionArtifactNonSelected("DEATHKNIGHT"),
+            x = 5,
             y = 2,
             connections = {
                 2
             },
         },
+
+
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
-            visible = function (_, character)
-                return character:IsQuestCompleted(40724)
-            end,
+            variations = {
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_BLOOD,
+                    restrictions = {
+                        type = "quest",
+                        id = 40722,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FROST,
+                    restrictions = {
+                        type = "quest",
+                        id = 40723,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
+                    restrictions = {
+                        type = "quest",
+                        id = 40724,
+                    },
+                },
+                {
+                    visible = false,
+                },
+            },
             x = 3,
             y = 2,
             connections = {
                 1
             },
         },
-        
-        
-        
-        
+
+
+
+
         {
             type = "quest",
             id = 39757,
@@ -328,8 +313,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 39761,
@@ -407,8 +392,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
                 2
             },
         },
-        
-        
+
+
         {
             type = "level",
             level = 101,
@@ -428,8 +413,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43264,
@@ -606,8 +591,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
                 3
             },
         },
-        
-        
+
+
         {
             type = "level",
             level = 110,
@@ -617,7 +602,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
                 1, 2
             },
         },
-        
+
         {
             type = "quest",
             id = 44217,
@@ -625,8 +610,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             x = 6,
             y = 24.5,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 42818,
@@ -678,8 +663,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             x = 5,
             y = 27,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43573,
@@ -698,8 +683,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
                 3, 5
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 44286,
@@ -715,8 +700,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             x = 0,
             y = 28,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 44282,
@@ -732,7 +717,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_CAMPAIGN, 
             x = 6,
             y = 29,
         },
-        
+
         {
             type = "quest",
             id = 44690,
@@ -827,8 +812,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER, 
                 1, 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45399,
@@ -892,8 +877,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER, 
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45243,
@@ -903,8 +888,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER, 
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45103,
@@ -914,8 +899,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER, 
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 46050,
@@ -925,9 +910,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_FOLLOWER, 
                 1
             },
         },
-        
-        
-        
+
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,

@@ -22,6 +22,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
             id = BTWQUESTS_CLASS_ID_ROGUE,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("ROGUE", 1),
+    active = BtWQuests.LegionArtifactActive("ROGUE", 1),
     completed = {
         type = "quest",
         id = 42504,
@@ -111,6 +113,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW, {
             id = BTWQUESTS_CLASS_ID_ROGUE,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("ROGUE", 2),
+    active = BtWQuests.LegionArtifactActive("ROGUE", 2),
     completed = {
         type = "quest",
         id = 40849,
@@ -158,6 +162,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY, {
             id = BTWQUESTS_CLASS_ID_ROGUE,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("ROGUE", 3),
+    active = BtWQuests.LegionArtifactActive("ROGUE", 3),
     completed = {
         type = "quest",
         id = 41924,
@@ -262,13 +268,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
             x = 3,
             y = 2,
             connections = {
-                1, 2, 3,
-                4, 5, 6
+                1, 2, 3, 4,
             },
         },
-        
-        
-        
+
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
@@ -276,13 +281,11 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
                 type = "quest",
                 id = 40840,
             },
-            visible = function (self)
-                return not (BtWQuests_IsQuestCompleted(40842) or BtWQuests_IsQuestCompleted(40843) or BtWQuests_IsQuestCompleted(40844))
-            end,
+            visible = BtWQuests.LegionArtifactNonSelected("ROGUE"),
             x = 1,
             y = 3,
             connections = {
-                6
+                4
             },
         },
         {
@@ -292,43 +295,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
                 type = "quest",
                 id = 40840,
             },
-            visible = function (self)
-                return not (BtWQuests_IsQuestCompleted(40842) or BtWQuests_IsQuestCompleted(40843) or BtWQuests_IsQuestCompleted(40844))
-            end,
-            x = 3,
-            y = 3,
-            connections = {
-                5
-            },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
-            active = {
-                type = "quest",
-                id = 40840,
-            },
-            visible = function (self)
-                return not (BtWQuests_IsQuestCompleted(40842) or BtWQuests_IsQuestCompleted(40843) or BtWQuests_IsQuestCompleted(40844))
-            end,
-            x = 5,
-            y = 3,
-            connections = {
-                4
-            },
-        },
-        
-        
-        
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
-            visible = {
-                {
-                    type = "quest",
-                    id = 40842
-                }
-            },
+            visible = BtWQuests.LegionArtifactNonSelected("ROGUE"),
             x = 3,
             y = 3,
             connections = {
@@ -337,27 +304,56 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
-            visible = {
-                {
-                    type = "quest",
-                    id = 40843
-                }
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+            active = {
+                type = "quest",
+                id = 40840,
             },
-            x = 3,
+            visible = BtWQuests.LegionArtifactNonSelected("ROGUE"),
+            x = 5,
             y = 3,
             connections = {
                 2
             },
         },
+
+
+
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
-            visible = {
+            variations = {
                 {
-                    type = "quest",
-                    id = 40844
-                }
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
+                    visible = {
+                        {
+                            type = "quest",
+                            id = 40842
+                        }
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
+                    visible = {
+                        {
+                            type = "quest",
+                            id = 40843
+                        }
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
+                    visible = {
+                        {
+                            type = "quest",
+                            id = 40844
+                        }
+                    },
+                },
+                {
+                    visible = false,
+                },
             },
             x = 3,
             y = 3,
@@ -365,9 +361,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
                 1
             },
         },
-        
-        
-        
+
+
+
         {
             type = "quest",
             id = 40950,
@@ -414,9 +410,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
                 2
             },
         },
-        
-        
-        
+
+
+
         -- {
             -- type = "chain",
             -- id = BTWQUESTS_CHAIN_LEGION_AZSUNA_BEHINDENEMYLINES,
@@ -449,11 +445,11 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
             -- x = 5,
             -- y = 8.5,
         -- },
-        
-        
-        
-        
-        
+
+
+
+
+
         {
             type = "level",
             level = 101,
@@ -536,8 +532,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
                 2
             },
         },
-        
-        
+
+
         {
             type = "level",
             level = 103,
@@ -622,8 +618,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
             x = 1,
             y = 23,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 42730,
@@ -648,8 +644,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
             x = 0,
             y = 26,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43468,
@@ -668,9 +664,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
                 2
             },
         },
-        
-        
-        
+
+
+
         {
             type = "level",
             level = 110,
@@ -934,8 +930,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 1, 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45833,
@@ -966,9 +962,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 2, 4, 5
             },
         },
-        
-        
-        
+
+
+
         {
             type = "quest",
             id = 45835,
@@ -999,7 +995,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 4
             },
         },
-        
+
         {
             type = "quest",
             id = 44758,
@@ -1030,7 +1026,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 2
             },
         },
-        
+
         {
             type = "quest",
             id = 45073,
@@ -1040,9 +1036,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 1
             },
         },
-        
-        
-        
+
+
+
         {
             type = "quest",
             id = 45848,
@@ -1052,7 +1048,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 1, 2
             },
         },
-        
+
         {
             type = "quest",
             id = 45836,
@@ -1083,7 +1079,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 1
             },
         },
-        
+
         {
             type = "quest",
             id = 45571,
@@ -1093,11 +1089,11 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 1, 2
             },
         },
-        
-        
-        
-        
-        
+
+
+
+
+
         {
             type = "quest",
             id = 45573,
@@ -1128,7 +1124,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 2
             },
         },
-        
+
         {
             type = "quest",
             id = 45628,
@@ -1159,7 +1155,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 2
             },
         },
-        
+
         {
             type = "quest",
             id = 46260,
@@ -1190,7 +1186,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_ALLIANC
                 2
             },
         },
-        
+
         {
             type = "quest",
             id = 46059,
@@ -1299,8 +1295,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 1, 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45833,
@@ -1331,9 +1327,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 2, 4, 5
             },
         },
-        
-        
-        
+
+
+
         {
             type = "quest",
             id = 45835,
@@ -1364,7 +1360,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 4
             },
         },
-        
+
         {
             type = "quest",
             id = 44758,
@@ -1395,7 +1391,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 2
             },
         },
-        
+
         {
             type = "quest",
             id = 45073,
@@ -1405,9 +1401,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 1
             },
         },
-        
-        
-        
+
+
+
         {
             type = "quest",
             id = 45848,
@@ -1417,7 +1413,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 1, 2
             },
         },
-        
+
         {
             type = "quest",
             id = 45836,
@@ -1448,7 +1444,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 1
             },
         },
-        
+
         {
             type = "quest",
             id = 45571,
@@ -1458,11 +1454,11 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 1, 2
             },
         },
-        
-        
-        
-        
-        
+
+
+
+
+
         {
             type = "quest",
             id = 45573,
@@ -1493,7 +1489,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 2
             },
         },
-        
+
         {
             type = "quest",
             id = 45628,
@@ -1524,7 +1520,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 2
             },
         },
-        
+
         {
             type = "quest",
             id = 46260,
@@ -1555,7 +1551,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_FOLLOWER_HORDE, 
                 2
             },
         },
-        
+
         {
             type = "quest",
             id = 46059,

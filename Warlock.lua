@@ -22,6 +22,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICTION, {
             id = BTWQUESTS_CLASS_ID_WARLOCK,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("WARLOCK", 1),
+    active = BtWQuests.LegionArtifactActive("WARLOCK", 1),
     completed = {
         type = "quest",
         id = 40623,
@@ -105,6 +107,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY, {
             id = BTWQUESTS_CLASS_ID_WARLOCK,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("WARLOCK", 2),
+    active = BtWQuests.LegionArtifactActive("WARLOCK", 2),
     completed = {
         type = "quest",
         id = 42125,
@@ -161,6 +165,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION, {
             id = BTWQUESTS_CLASS_ID_WARLOCK,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("WARLOCK", 3),
+    active = BtWQuests.LegionArtifactActive("WARLOCK", 3),
     completed = {
         type = "quest",
         id = 43254,
@@ -247,11 +253,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
             x = 3,
             y = 2,
             connections = {
-                1, 2, 3,
-                4, 5, 6
+                1, 2, 3, 4,
             },
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICTION,
@@ -259,13 +264,11 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 type = "quest",
                 id = 40684,
             },
-            visible = function (self)
-                return not (BtWQuests_IsQuestCompleted(40686) or BtWQuests_IsQuestCompleted(40687) or BtWQuests_IsQuestCompleted(40688))
-            end,
+            visible = BtWQuests.LegionArtifactNonSelected("WARLOCK"),
             x = 1,
             y = 3,
             connections = {
-                6
+                4
             },
         },
         {
@@ -275,39 +278,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 type = "quest",
                 id = 40684,
             },
-            visible = function (self)
-                return not (BtWQuests_IsQuestCompleted(40686) or BtWQuests_IsQuestCompleted(40687) or BtWQuests_IsQuestCompleted(40688))
-            end,
-            x = 3,
-            y = 3,
-            connections = {
-                5
-            },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
-            active = {
-                type = "quest",
-                id = 40684,
-            },
-            visible = function (self)
-                return not (BtWQuests_IsQuestCompleted(40686) or BtWQuests_IsQuestCompleted(40687) or BtWQuests_IsQuestCompleted(40688))
-            end,
-            x = 5,
-            y = 3,
-            connections = {
-                4
-            },
-        },
-        
-        
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICTION,
-            visible = function (self)
-                return BtWQuests_IsQuestCompleted(40686)
-            end,
+            visible = BtWQuests.LegionArtifactNonSelected("WARLOCK"),
             x = 3,
             y = 3,
             connections = {
@@ -316,30 +287,58 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
-            visible = function (self)
-                return BtWQuests_IsQuestCompleted(40687)
-            end,
-            x = 3,
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+            active = {
+                type = "quest",
+                id = 40684,
+            },
+            visible = BtWQuests.LegionArtifactNonSelected("WARLOCK"),
+            x = 5,
             y = 3,
             connections = {
                 2
             },
         },
+
+
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
-            visible = function (self)
-                return BtWQuests_IsQuestCompleted(40688)
-            end,
+            variations = {
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICTION,
+                    restrictions = {
+                        type = "quest",
+                        id = 40686,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DEMONOLOGY,
+                    restrictions = {
+                        type = "quest",
+                        id = 40687,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
+                    restrictions = {
+                        type = "quest",
+                        id = 40688,
+                    },
+                },
+                {
+                    visible = false,
+                },
+            },
             x = 3,
             y = 3,
             connections = {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 40712,
@@ -385,9 +384,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 2
             },
         },
-        
-        
-        
+
+
+
         {
             type = "level",
             level = 101,
@@ -397,8 +396,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 44099,
@@ -463,8 +462,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 2
             },
         },
-        
-        
+
+
         {
             type = "level",
             level = 103,
@@ -474,8 +473,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 41759,
@@ -564,9 +563,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
             x = 1,
             y = 23,
         },
-        
-        
-        
+
+
+
         {
             type = "level",
             level = 110,
@@ -576,7 +575,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 1
             },
         },
-        
+
         {
             type = "quest",
             id = 42098,
@@ -631,9 +630,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 1, 2
             },
         },
-        
-        
-        
+
+
+
         {
             type = "quest",
             id = 41754,
@@ -652,9 +651,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 1, 2, 3, 4
             },
         },
-        
-        
-        
+
+
+
         {
             type = "quest",
             id = 44682,
@@ -691,8 +690,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_CAMPAIGN, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 41785,
@@ -905,9 +904,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_FOLLOWER, {
                 1
             },
         },
-        
-        
-        
+
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
@@ -970,7 +969,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT, {
                 1, 2, 3
             },
         },
-        
+
         {
             type = "quest",
             id = 46238,
@@ -998,7 +997,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_MOUNT, {
                 1
             },
         },
-        
+
         {
             type = "quest",
             id = 46241,

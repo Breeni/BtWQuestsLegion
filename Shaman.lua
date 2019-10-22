@@ -22,6 +22,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL, {
             id = BTWQUESTS_CLASS_ID_SHAMAN,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("SHAMAN", 1),
+    active = BtWQuests.LegionArtifactActive("SHAMAN", 1),
     completed = {
         type = "quest",
         id = 39771,
@@ -78,6 +80,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT, {
             id = BTWQUESTS_CLASS_ID_SHAMAN,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("SHAMAN", 2),
+    active = BtWQuests.LegionArtifactActive("SHAMAN", 2),
     completed = {
         type = "quest",
         id = 40224,
@@ -170,6 +174,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION, {
             id = BTWQUESTS_CLASS_ID_SHAMAN,
         },
     },
+    prerequisites = BtWQuests.LegionArtifactPrerequisites("SHAMAN", 3),
+    active = BtWQuests.LegionArtifactActive("SHAMAN", 3),
     completed = {
         type = "quest",
         id = 40341,
@@ -247,11 +253,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
             x = 3,
             y = 1,
             connections = {
-                1, 2, 3,
-                4, 5, 6
+                1, 2, 3, 4,
             },
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
@@ -259,13 +264,11 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 type = "quest",
                 id = 41335,
             },
-            visible = function (self)
-                return not (BtWQuests_IsQuestCompleted(41329) or BtWQuests_IsQuestCompleted(41328) or BtWQuests_IsQuestCompleted(41330))
-            end,
+            visible = BtWQuests.LegionArtifactNonSelected("SHAMAN"),
             x = 1,
             y = 2,
             connections = {
-                6
+                4
             },
         },
         {
@@ -275,38 +278,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 type = "quest",
                 id = 41335,
             },
-            visible = function (self)
-                return not (BtWQuests_IsQuestCompleted(41329) or BtWQuests_IsQuestCompleted(41328) or BtWQuests_IsQuestCompleted(41330))
-            end,
-            x = 3,
-            y = 2,
-            connections = {
-                5
-            },
-        },
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
-            active = {
-                type = "quest",
-                id = 41335,
-            },
-            visible = function (self)
-                return not (BtWQuests_IsQuestCompleted(41329) or BtWQuests_IsQuestCompleted(41328) or BtWQuests_IsQuestCompleted(41330))
-            end,
-            x = 5,
-            y = 2,
-            connections = {
-                4
-            },
-        },
-        
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
-            visible = function (self)
-                return BtWQuests_IsQuestCompleted(41329)
-            end,
+            visible = BtWQuests.LegionArtifactNonSelected("SHAMAN"),
             x = 3,
             y = 2,
             connections = {
@@ -315,30 +287,57 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
         },
         {
             type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
-            visible = function (self)
-                return BtWQuests_IsQuestCompleted(41328)
-            end,
-            x = 3,
+            id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+            active = {
+                type = "quest",
+                id = 41335,
+            },
+            visible = BtWQuests.LegionArtifactNonSelected("SHAMAN"),
+            x = 5,
             y = 2,
             connections = {
                 2
             },
         },
+
         {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
-            visible = function (self)
-                return BtWQuests_IsQuestCompleted(41330)
-            end,
+            variations = {
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
+                    restrictions = {
+                        type = "quest",
+                        id = 41329,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ENHANCEMENT,
+                    restrictions = {
+                        type = "quest",
+                        id = 41328,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
+                    restrictions = {
+                        type = "quest",
+                        id = 41330,
+                    },
+                },
+                {
+                    visible = false,
+                },
+            },
             x = 3,
             y = 2,
             connections = {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 40225,
@@ -366,8 +365,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 2
             },
         },
-        
-        
+
+
         {
             type = "level",
             level = 101,
@@ -459,8 +458,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 2
             },
         },
-        
-        
+
+
         {
             type = "level",
             level = 103,
@@ -524,8 +523,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 1, 2, 3, 4, 5
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 41742,
@@ -538,8 +537,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
             x = 5,
             y = 20,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 44465,
@@ -561,8 +560,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 42983,
@@ -590,9 +589,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 2
             },
         },
-        
-        
-        
+
+
+
         {
             type = "level",
             level = 110,
@@ -620,8 +619,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 1, 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 41777,
@@ -640,8 +639,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 1, 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 41898,
@@ -660,8 +659,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 42065,
@@ -680,8 +679,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 1, 2, 3, 4, 5
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 41746,
@@ -694,8 +693,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
             x = 5,
             y = 30,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 42988,
@@ -753,8 +752,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 41772,
@@ -791,8 +790,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_CAMPAIGN, {
                 1, 2, 3
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 41744,
@@ -878,8 +877,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER, {
                 1, 2, 3
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45723,
@@ -907,8 +906,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 44800,
@@ -927,8 +926,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER, {
                 1, 2, 3
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45971,
@@ -956,8 +955,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45883,
@@ -994,9 +993,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_FOLLOWER, {
                 1
             },
         },
-        
-        
-        
+
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
