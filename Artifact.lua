@@ -62,7 +62,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
             y = 0,
             connections = {
                 1
-            }, 
+            },
         },
         {
             type = "quest",
@@ -79,10 +79,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
             y = 1,
             connections = {
                 2, 3, 4
-            }, 
+            },
         },
-        
-        
+
+
         {
             type = "reputation",
             id = 1900,
@@ -100,7 +100,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
             y = 2,
             connections = {
                 3
-            }, 
+            },
         },
         {
             type = "quest",
@@ -120,8 +120,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43519,
@@ -141,8 +141,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1, 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43520,
@@ -163,8 +163,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43522,
@@ -174,25 +174,26 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43527,
             breadcrumb = 1,
-            onClick = function (self)
-                BtWQuestsFrame:SelectChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD)
-            end,
+            onClick = {
+                type = "chain",
+                id = BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
+            },
             x = 2.9,
             y = 7,
             connections = {
                 1
             },
         },
-        
-        
-        
-        
+
+
+
+
         {
             type = "quest",
             id = 43523,
@@ -208,9 +209,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
             standing = 7,
             x = 5.25,
             y = 8.5,
-            onClick = function (self)
-                BtWQuestsFrame:SelectCategory(BTWQUESTS_CATEGORY_LEGION_SURAMAR)
-            end,
+            onClick = {
+                type = "category",
+                id = BTWQUESTS_CATEGORY_LEGION_SURAMAR,
+            },
             connections = {
                 1
             },
@@ -224,9 +226,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1, 2, 3
             },
         },
-        
-        
-        
+
+
+
         {
             type = "quest",
             id = 43525,
@@ -254,8 +256,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 40678,
@@ -265,8 +267,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43526,
@@ -276,8 +278,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 40603,
@@ -287,8 +289,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 2
             },
         },
-        
-        
+
+
         {
             type = "reputation",
             id = 1948,
@@ -308,8 +310,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 40613,
@@ -319,8 +321,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1, 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 40614,
@@ -330,8 +332,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 40672,
@@ -341,8 +343,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 40615,
@@ -352,8 +354,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43528,
@@ -363,8 +365,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1, 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43531,
@@ -374,8 +376,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 2
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43530,
@@ -385,8 +387,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43532,
@@ -396,8 +398,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER, {
                 1
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 43533,
@@ -487,8 +489,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM, {
                 10, 11, 12, 13, 14
             }
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
@@ -519,8 +521,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
@@ -536,8 +538,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM, {
             x = 4,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
@@ -568,8 +570,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
@@ -600,8 +602,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
@@ -632,8 +634,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 47046,
@@ -709,8 +711,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM, {
                 1
             }
         },
-        
-        
+
+
         {
             type = "quest",
             id = 44915,
@@ -845,8 +847,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN, {
                 11, 12, 13, 14, 15
             }
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
@@ -877,8 +879,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
@@ -909,8 +911,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
@@ -941,8 +943,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
@@ -973,8 +975,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
@@ -1005,8 +1007,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 47052,
@@ -1082,8 +1084,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN, {
                 1
             }
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45486,
@@ -1238,8 +1240,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS, {
                 13, 14, 15, 16, 17, 18
             }
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
@@ -1270,8 +1272,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
@@ -1287,8 +1289,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS, {
             x = 2,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
@@ -1334,8 +1336,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS, {
             x = 6,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
@@ -1366,8 +1368,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
@@ -1398,8 +1400,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
@@ -1430,8 +1432,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 47025,
@@ -1522,8 +1524,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS, {
                 1
             }
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45413,
@@ -1658,8 +1660,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS, {
                 12, 13, 14, 15, 16
             }
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
@@ -1705,8 +1707,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS, {
             x = 4,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
@@ -1737,8 +1739,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
@@ -1769,8 +1771,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
@@ -1801,8 +1803,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
@@ -1833,8 +1835,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 47004,
@@ -1910,8 +1912,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS, {
                 1
             }
         },
-        
-        
+
+
         {
             type = "quest",
             id = 46079,
@@ -2062,8 +2064,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM, {
                 9, 10, 11, 12
             }
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
@@ -2094,8 +2096,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_HEALERS,
@@ -2126,8 +2128,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
@@ -2158,8 +2160,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
@@ -2190,8 +2192,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 47018,
@@ -2252,8 +2254,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM, {
                 1
             }
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45564,
@@ -2408,8 +2410,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER, {
                 14, 15, 16, 17, 18, 19
             }
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TANKS,
@@ -2440,8 +2442,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
@@ -2487,8 +2489,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER, {
             x = 6,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
@@ -2519,8 +2521,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
@@ -2551,8 +2553,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
@@ -2583,8 +2585,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
@@ -2615,8 +2617,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 45123,
@@ -2707,8 +2709,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER, {
                 1
             }
         },
-        
-        
+
+
         {
             type = "quest",
             id = 46327,
@@ -2861,8 +2863,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS, {
                 12, 13, 14, 15, 16
             }
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_IMPMOTHER,
@@ -2908,8 +2910,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS, {
             x = 6,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
@@ -2940,8 +2942,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_FELTOTEM,
@@ -2972,8 +2974,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
@@ -3004,8 +3006,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS, {
             x = 3,
             y = 5,
         },
-        
-        
+
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TIDESKORN,
@@ -3036,8 +3038,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS, {
             x = 5,
             y = 5,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 47041,
@@ -3113,9 +3115,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS, {
                 1
             }
         },
-        
-        
-        
+
+
+
         {
             type = "quest",
             id = 45185,
@@ -3205,7 +3207,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEATHKNIGHT_UNHOLY,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_HAVOC,
@@ -3214,7 +3216,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DEMONHUNTER_VENGEANCE,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_BALANCE,
@@ -3231,7 +3233,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_DRUID_RESTORATION,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_BEASTMASTERY,
@@ -3244,7 +3246,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_HUNTER_SURVIVAL,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_ARCANE,
@@ -3257,7 +3259,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MAGE_FROST,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_BREWMASTER,
@@ -3270,7 +3272,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_MONK_MISTWEAVER,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_HOLY,
@@ -3283,7 +3285,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PALADIN_RETRIBUTION,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_DISCIPLINE,
@@ -3296,7 +3298,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_PRIEST_SHADOW,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
@@ -3309,7 +3311,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_ELEMENTAL,
@@ -3322,7 +3324,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_SHAMAN_RESTORATION,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_AFFLICTION,
@@ -3335,7 +3337,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARLOCK_DESTRUCTION,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_ARMS,
@@ -3348,7 +3350,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_CLASSES_WARRIOR_PROTECTION,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_XYLEM,
@@ -3377,7 +3379,7 @@ BtWQuestsDatabase:AddCategory(BTWQUESTS_CATEGORY_LEGION_ARTIFACT, {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_TWINS,
         },
-        
+
         {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_ARTIFACT_BALANCEOFPOWER,
