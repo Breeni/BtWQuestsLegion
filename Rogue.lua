@@ -324,31 +324,25 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_CAMPAIGN, {
                 {
                     type = "chain",
                     id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION,
-                    visible = {
-                        {
-                            type = "quest",
-                            id = 40842
-                        }
+                    restrictions = {
+                        type = "quest",
+                        id = 40842
                     },
                 },
                 {
                     type = "chain",
                     id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW,
-                    visible = {
-                        {
-                            type = "quest",
-                            id = 40843
-                        }
+                    restrictions = {
+                        type = "quest",
+                        id = 40843
                     },
                 },
                 {
                     type = "chain",
                     id = BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_SUBTLETY,
-                    visible = {
-                        {
-                            type = "quest",
-                            id = 40844
-                        }
+                    restrictions = {
+                        type = "quest",
+                        id = 40844
                     },
                 },
                 {
