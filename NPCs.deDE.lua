@@ -14,6 +14,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [93600] = {
         name = "Saylanna Flussbrise",
     },
+    [94366] = {
+        name = "Lelyn Flinkschatten",
+    },
+    [94409] = {
+        name = "Hemet Nesingwary",
+    },
+    [94434] = {
+        name = "Addie Zischmoor",
+    },
     [96513] = {
         name = "Razik Gazbolz",
     },
@@ -23,8 +32,17 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [97974] = {
         name = "Lorna Starkfuß",
     },
+    [98067] = {
+        name = "König Mrgl-Mrgl",
+    },
     [98587] = {
         name = "Morheimvorfahre",
+    },
+    [99065] = {
+        name = "Thaedris Federsang",
+    },
+    [106299] = {
+        name = "Thisalee Krähe",
     },
     [107499] = {
         name = "Verängstigter Rabenbär",
@@ -35,6 +53,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [108304] = {
         name = "Guviena Klingenlied",
     },
+    [108327] = {
+        name = "Wogender Knochenschleim",
+    },
     [108358] = {
         name = "Leirana",
     },
@@ -43,5 +64,11 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [110018] = {
         name = "Gazrix Kolbenfresser",
+    },
+    [110987] = {
+        name = "Nachtauge",
+    },
+    [121754] = {
+        name = "Vereesa Windläufer",
     },
 })

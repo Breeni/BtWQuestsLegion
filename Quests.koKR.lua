@@ -293,12 +293,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [38318] = {
         name = "공중 곡예",
     },
-    [38322] = {
-        name = "다시 숲으로",
-    },
-    [38323] = {
-        name = "다시 숲으로",
-    },
     [38324] = {
         name = "저주받은 이의 장신구",
     },

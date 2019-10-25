@@ -5,8 +5,23 @@ if GetLocale() ~= "ptBR" then
 end
 
 BtWQuestsDatabase:UpdateNPCsTable({
+    [38237] = {
+        name = "Maximiliano de Vila Norte",
+    },
+    [92802] = {
+        name = "Gravax, o Profanador",
+    },
     [93600] = {
         name = "Saylanna Brisa do Rio",
+    },
+    [94366] = {
+        name = "Lelyn Sombra Ligeira",
+    },
+    [94409] = {
+        name = "Rosarães Guima",
+    },
+    [94434] = {
+        name = "Addie Chiabrejo",
     },
     [96513] = {
         name = "Razil Raiogás",
@@ -17,8 +32,17 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [97974] = {
         name = "Lorna Pés Robustos",
     },
+    [98067] = {
+        name = "Rei Mrgl-Mrgl",
+    },
     [98587] = {
         name = "Ancestral Morheim",
+    },
+    [99065] = {
+        name = "Thaedris Penacanto",
+    },
+    [106299] = {
+        name = "Tessália Corvina",
     },
     [107499] = {
         name = "Corvurso Assustado",
@@ -29,6 +53,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [108304] = {
         name = "Guviena Cantolâmina",
     },
+    [108327] = {
+        name = "Visgosso Ondulante",
+    },
     [108358] = {
         name = "Leirana",
     },
@@ -37,5 +64,11 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [110018] = {
         name = "Gazrix Travaporca",
+    },
+    [110987] = {
+        name = "Noctívolho",
+    },
+    [121754] = {
+        name = "Vereesa Correventos",
     },
 })

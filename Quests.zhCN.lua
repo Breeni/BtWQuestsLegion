@@ -287,12 +287,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [38318] = {
         name = "飞檐走壁",
     },
-    [38322] = {
-        name = "回到林地",
-    },
-    [38323] = {
-        name = "回到林地",
-    },
     [38324] = {
         name = "诅咒饰物",
     },
@@ -328,6 +322,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [38362] = {
         name = "残忍的战利品",
+    },
+    [38372] = {
+        name = "卑鄙的姐妹",
     },
     [38376] = {
         name = "搜寻大领主",
@@ -460,6 +457,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [38566] = {
         name = "团结的力量",
+    },
+    [38576] = {
+        name = "圣光之愿会师",
     },
     [38582] = {
         name = "致老友",
@@ -779,6 +779,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [38965] = {
         name = "突袭紫罗兰监狱：探监",
     },
+    [38966] = {
+        name = "隐藏的丝纹缝纫法",
+    },
+    [38967] = {
+        name = "夜之子的关系",
+    },
     [38969] = {
         name = "丝纹大师",
     },
@@ -799,6 +805,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [39027] = {
         name = "达古尔与圣锤",
+    },
+    [39029] = {
+        name = "守卫神殿",
     },
     [39043] = {
         name = "啮岩孤地",
@@ -844,6 +853,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [39124] = {
         name = "猎杀大角鹿",
+    },
+    [39142] = {
+        name = "理论测试",
     },
     [39153] = {
         name = "惊魂港危机",
@@ -937,6 +949,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [39341] = {
         name = "守望者地窟：恶魔胆汁",
+    },
+    [39342] = {
+        name = "黑市价格",
     },
     [39346] = {
         name = "检测精确度",
@@ -1370,6 +1385,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [39921] = {
         name = "奈萨里奥的巢穴：蔚蓝之杖",
     },
+    [39923] = {
+        name = "能量核心",
+    },
     [39931] = {
         name = "研磨草药",
     },
@@ -1631,6 +1649,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40212] = {
         name = "惹错了对象",
     },
+    [40213] = {
+        name = "泛滥的恶魔犬",
+    },
     [40216] = {
         name = "猎人之心",
     },
@@ -1742,6 +1763,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40326] = {
         name = "散落的记忆",
     },
+    [40327] = {
+        name = "对护甲的考验",
+    },
     [40328] = {
         name = "比死亡更惨的命运",
     },
@@ -1852,6 +1876,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [40535] = {
         name = "壮大卓格巴尔",
+    },
+    [40536] = {
+        name = "珠宝匠兄弟",
     },
     [40539] = {
         name = "秘密企图",
@@ -2252,6 +2279,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40957] = {
         name = "强力助手",
     },
+    [40958] = {
+        name = "战术考量",
+    },
     [40959] = {
         name = "反击开始",
     },
@@ -2348,6 +2378,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [41038] = {
         name = "蜜酒大师",
     },
+    [41039] = {
+        name = "盗来的秘方",
+    },
     [41040] = {
         name = "英灵殿：酿酒大师",
     },
@@ -2356,6 +2389,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [41056] = {
         name = "失落的爱人",
+    },
+    [41059] = {
+        name = "英灵殿：奥丁的大锅",
     },
     [41060] = {
         name = "无限力量",
@@ -2636,6 +2672,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [41769] = {
         name = "炼金师“疯子”欧尼",
     },
+    [41770] = {
+        name = "天空国度",
+    },
     [41775] = {
         name = "伟大的石母",
     },
@@ -2726,6 +2765,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [41916] = {
         name = "光明的前途",
     },
+    [41918] = {
+        name = "沉睡者的回归",
+    },
     [41919] = {
         name = "暗影现形",
     },
@@ -2740,6 +2782,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [41924] = {
         name = "吞噬者之牙",
+    },
+    [41945] = {
+        name = "玄牛派田吉",
     },
     [41946] = {
         name = "组建部队",
@@ -2798,6 +2843,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42034] = {
         name = "梦魇之握",
     },
+    [42036] = {
+        name = "荒野神像",
+    },
     [42037] = {
         name = "集合织梦者",
     },
@@ -2848,6 +2896,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42100] = {
         name = "强化灵魂",
+    },
+    [42102] = {
+        name = "实力派",
+    },
+    [42103] = {
+        name = "喂食血石",
     },
     [42104] = {
         name = "地底之王来了",
@@ -2938,6 +2992,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42194] = {
         name = "失落的荣誉",
+    },
+    [42204] = {
+        name = "尤胡塔姆",
     },
     [42206] = {
         name = "打击升级",
@@ -3086,6 +3143,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42404] = {
         name = "协助大法师",
     },
+    [42405] = {
+        name = "汇报情况",
+    },
     [42406] = {
         name = "诱捕野兽",
     },
@@ -3136,6 +3196,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42439] = {
         name = "援助灰烬德鲁伊",
+    },
+    [42440] = {
+        name = "祭坛的危机",
     },
     [42444] = {
         name = "黑羽的困境",
@@ -3271,6 +3334,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42586] = {
         name = "防守林地",
+    },
+    [42588] = {
+        name = "横生枝节",
     },
     [42593] = {
         name = "奥术之道",
@@ -3587,6 +3653,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42867] = {
         name = "白银之手聚会",
     },
+    [42868] = {
+        name = "美猴王的挑战",
+    },
     [42869] = {
         name = "不懈警戒",
     },
@@ -3644,8 +3713,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42955] = {
         name = "解决方法",
     },
+    [42957] = {
+        name = "东游记",
+    },
     [42959] = {
         name = "好事成三",
+    },
+    [42974] = {
+        name = "霍迪尔的命运",
     },
     [42977] = {
         name = "逐风者的仆从",
@@ -3773,11 +3848,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [43318] = {
         name = "莉莉丝的勇士",
     },
+    [43324] = {
+        name = "枭兽的狂怒",
+    },
     [43331] = {
         name = "收获时间到",
     },
     [43334] = {
         name = "风雨欲来",
+    },
+    [43338] = {
+        name = "莱登秘典",
     },
     [43352] = {
         name = "财产安全",
@@ -4628,11 +4709,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [45346] = {
         name = "蹒跚的样本",
     },
+    [45349] = {
+        name = "前往破碎海滩",
+    },
     [45372] = {
         name = "堕夜精灵的命运",
     },
     [45379] = {
         name = "宝藏大师伊克里格德",
+    },
+    [45404] = {
+        name = "酒厂之乱",
     },
     [45412] = {
         name = "防护战士：伊利达雷的援手",
@@ -4709,6 +4796,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [45576] = {
         name = "崛起",
     },
+    [45587] = {
+        name = "邪能图腾的威胁",
+    },
     [45615] = {
         name = "谁找到就归谁",
     },
@@ -4727,14 +4817,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [45645] = {
         name = "白费心机",
     },
+    [45652] = {
+        name = "“卑微的”请求",
+    },
     [45706] = {
         name = "万千之力",
+    },
+    [45726] = {
+        name = "被污染的沼泽",
     },
     [45763] = {
         name = "恶魔干扰",
     },
     [45770] = {
         name = "阴影中的骚动",
+    },
+    [45789] = {
+        name = "水下宝库",
     },
     [45796] = {
         name = "摧毁巢穴",
@@ -4850,6 +4949,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [46239] = {
         name = "邪能核心",
     },
+    [46240] = {
+        name = "火上浇油",
+    },
     [46245] = {
         name = "开始修建",
     },
@@ -4903,6 +5005,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [46314] = {
         name = "复仇恶魔猎手：寻找考瓦斯",
+    },
+    [46318] = {
+        name = "保卫艾维娜",
+    },
+    [46319] = {
+        name = "别想夺走我的天空",
     },
     [46322] = {
         name = "海盗湾",

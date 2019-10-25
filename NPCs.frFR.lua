@@ -5,8 +5,23 @@ if GetLocale() ~= "frFR" then
 end
 
 BtWQuestsDatabase:UpdateNPCsTable({
+    [38237] = {
+        name = "Maximillian de Comté-du-Nord",
+    },
+    [92802] = {
+        name = "Gravax le Déprédateur",
+    },
     [93600] = {
         name = "Saylanna Rivebrise",
+    },
+    [94366] = {
+        name = "Lelyn Vivombre",
+    },
+    [94409] = {
+        name = "Hemet Nesingwary",
+    },
+    [94434] = {
+        name = "Addie Pétibourbe",
     },
     [96513] = {
         name = "Razik Gazboulon",
@@ -17,8 +32,17 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [97974] = {
         name = "Lorna Grand-Pied",
     },
+    [98067] = {
+        name = "Roi Mrgl-Mrgl",
+    },
     [98587] = {
         name = "Ancêtre de Morheim",
+    },
+    [99065] = {
+        name = "Thaedris Chanteplume",
+    },
+    [106299] = {
+        name = "Thisalee Corbeau",
     },
     [107499] = {
         name = "Corvursidé effrayé",
@@ -29,6 +53,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [108304] = {
         name = "Guviena Lamechant",
     },
+    [108327] = {
+        name = "Visquos ondulant",
+    },
     [108358] = {
         name = "Leirana",
     },
@@ -37,5 +64,11 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [110018] = {
         name = "Gazrik Verrouage",
+    },
+    [110987] = {
+        name = "Oeil-de-nuit",
+    },
+    [121754] = {
+        name = "Vereesa Coursevent",
     },
 })

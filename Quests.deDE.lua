@@ -293,12 +293,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [38318] = {
         name = "Wer braucht schon Flügel?",
     },
-    [38322] = {
-        name = "Rückkehr zum Hain",
-    },
-    [38323] = {
-        name = "Rückkehr zum Hain",
-    },
     [38324] = {
         name = "Accessoires der Verfluchten",
     },

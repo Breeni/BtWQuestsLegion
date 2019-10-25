@@ -5,4 +5,10 @@ if GetLocale() ~= "itIT" then
 end
 
 BtWQuestsDatabase:UpdateObjectsTable({
+    [250990] = {
+        name = "Cassa di Reliquie Antiche",
+    },
+    [251425] = {
+        name = "Crestabrada Umida",
+    },
 })

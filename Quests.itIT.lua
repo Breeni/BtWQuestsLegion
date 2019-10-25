@@ -293,12 +293,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [38318] = {
         name = "Chi ha bisogno di ali?",
     },
-    [38322] = {
-        name = "Ritorno al Boschetto",
-    },
-    [38323] = {
-        name = "Ritorno al Boschetto",
-    },
     [38324] = {
         name = "Gli accessori dei maledetti",
     },

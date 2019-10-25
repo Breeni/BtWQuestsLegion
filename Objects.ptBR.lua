@@ -5,4 +5,10 @@ if GetLocale() ~= "ptBR" then
 end
 
 BtWQuestsDatabase:UpdateObjectsTable({
+    [250990] = {
+        name = "Caixote de Relíquias Ancestrais",
+    },
+    [251425] = {
+        name = "Cinzilo Suculento",
+    },
 })

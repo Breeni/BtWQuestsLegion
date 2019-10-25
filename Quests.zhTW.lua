@@ -293,12 +293,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [38318] = {
         name = "無翼而飛",
     },
-    [38322] = {
-        name = "回到林地",
-    },
-    [38323] = {
-        name = "回到林地",
-    },
     [38324] = {
         name = "被詛咒的配件",
     },

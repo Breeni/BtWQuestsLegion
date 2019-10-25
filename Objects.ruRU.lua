@@ -5,4 +5,10 @@ if GetLocale() ~= "ruRU" then
 end
 
 BtWQuestsDatabase:UpdateObjectsTable({
+    [250990] = {
+        name = "Ящик с древними реликвиями",
+    },
+    [251425] = {
+        name = "Сочный кактус",
+    },
 })

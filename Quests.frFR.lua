@@ -293,12 +293,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [38318] = {
         name = "Sans les ailes !",
     },
-    [38322] = {
-        name = "Retour au bosquet",
-    },
-    [38323] = {
-        name = "Retour au bosquet",
-    },
     [38324] = {
         name = "Les accessoires maudits",
     },

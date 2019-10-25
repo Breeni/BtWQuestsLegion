@@ -293,12 +293,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [38318] = {
         name = "No se necesitan alas",
     },
-    [38322] = {
-        name = "Regreso a la Arboleda",
-    },
-    [38323] = {
-        name = "Regreso a la Arboleda",
-    },
     [38324] = {
         name = "Accesorios de los malditos",
     },

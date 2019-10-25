@@ -5,4 +5,10 @@ if GetLocale() ~= "deDE" then
 end
 
 BtWQuestsDatabase:UpdateObjectsTable({
+    [250990] = {
+        name = "Kiste mit uralten Relikten",
+    },
+    [251425] = {
+        name = "Feuchter Graukamm",
+    },
 })

@@ -5,4 +5,10 @@ if GetLocale() ~= "esMX" then
 end
 
 BtWQuestsDatabase:UpdateObjectsTable({
+    [250990] = {
+        name = "Cajón de reliquias antiguas",
+    },
+    [251425] = {
+        name = "Peinegrisez húmedo",
+    },
 })

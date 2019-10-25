@@ -293,12 +293,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [38318] = {
         name = "Olha, mãe, sem asas!",
     },
-    [38322] = {
-        name = "O Retorno ao Bosque",
-    },
-    [38323] = {
-        name = "O Retorno ao Bosque",
-    },
     [38324] = {
         name = "Algo além de alga",
     },
