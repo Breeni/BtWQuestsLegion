@@ -73,18 +73,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
             x = 3,
             y = 4,
             connections = {
-                1, 2
+                1,
             },
         },
         {
             type = "quest",
-            id = 42504,
-            x = 3,
-            y = 5,
-        },
-        {
-            type = "quest",
-            id = 42627,
+            ids = {42504, 42627},
             x = 3,
             y = 5,
         },

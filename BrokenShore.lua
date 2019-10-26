@@ -36,8 +36,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB
                 1, 4, 7
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 46832,
@@ -63,8 +63,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB
             x = 1,
             y = 4,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 46286,
@@ -86,8 +86,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB
             x = 5,
             y = 1,
         },
-        
-        
+
+
         {
             type = "quest",
             id = 47137,
@@ -97,8 +97,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB
                 1,
             },
         },
-        
-        
+
+
         {
             variations = {
                 {
@@ -164,8 +164,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB
                 1,
             },
         },
-        
-        
+
+
         {
             type = "quest",
             id = 46251,
