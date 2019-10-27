@@ -50,5 +50,6 @@ L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "암흑: 잘아타스 - 검은 
 L["SUBTLETY_FANGS_OF_THE_DEVOURER"] = "잠행: 포식자의 송곳니"
 L["SURVIVAL_TALONCLAW"] = "생존: 칼날갈퀴"
 L["UNHOLY_APOCALYPSE"] = "부정: 대재앙"
+L["VENGEANCE_ALDRACHI_WARBLADES"] = "복수: 알드라치 전투검"
 L["VOID_ELF"] = "공허 엘프"
 L["WINDWALKER_FISTS_OF_THE_HEAVENS"] = "풍운: 하늘의 주먹"

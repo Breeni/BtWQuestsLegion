@@ -50,5 +50,6 @@ L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "Sombra: Xal'atath, Daga del Im
 L["SUBTLETY_FANGS_OF_THE_DEVOURER"] = "Sutileza: Colmillos del Devorador"
 L["SURVIVAL_TALONCLAW"] = "Supervivencia: Garfa Corva"
 L["UNHOLY_APOCALYPSE"] = "Profano: Apocalipsis"
+L["VENGEANCE_ALDRACHI_WARBLADES"] = "Venganza: Hojas de guerra Aldrachi"
 L["VOID_ELF"] = "Elfo del Vacío"
 L["WINDWALKER_FISTS_OF_THE_HEAVENS"] = "Viajero del viento: Puños de los Cielos"

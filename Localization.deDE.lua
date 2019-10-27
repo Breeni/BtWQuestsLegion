@@ -49,6 +49,5 @@ L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "Schatten: Xal'atath, Klinge de
 L["SUBTLETY_FANGS_OF_THE_DEVOURER"] = "Täuschung: Reißzähne des Verschlingers"
 L["SURVIVAL_TALONCLAW"] = "Überleben: Fangklaue"
 L["UNHOLY_APOCALYPSE"] = "Unheilig: Apokalypse"
-L["VENGENCE_ALDRACHI_WARBLADES"] = "Rachsucht: Kriegsklingen der Aldrachi"
 L["VOID_ELF"] = "Leerenelf"
 L["WINDWALKER_FISTS_OF_THE_HEAVENS"] = "Windläufer: Fäuste der Himmel"

@@ -50,5 +50,6 @@ L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "Ombra: Xal'atath, Lama dell'Im
 L["SUBTLETY_FANGS_OF_THE_DEVOURER"] = "Scaltrezza: Zanne del Divoratore"
 L["SURVIVAL_TALONCLAW"] = "Sopravvivenza: Grinfiartiglio"
 L["UNHOLY_APOCALYPSE"] = "Empietà: Apocalisse"
+L["VENGEANCE_ALDRACHI_WARBLADES"] = "Vendetta: Lame da Guerra degli Aldrachi"
 L["VOID_ELF"] = "Elfo del Vuoto"
 L["WINDWALKER_FISTS_OF_THE_HEAVENS"] = "Impeto: Pugni del Cielo"
