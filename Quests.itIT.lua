@@ -3839,9 +3839,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42619] = {
         name = "Campione: Hodir",
     },
-    [42627] = {
-        name = "La lama invisibile",
-    },
     [42634] = {
         name = "Confronto al Tempio Nero",
     },

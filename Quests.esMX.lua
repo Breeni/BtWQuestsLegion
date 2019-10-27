@@ -3839,9 +3839,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42619] = {
         name = "Campeón: Hodir",
     },
-    [42627] = {
-        name = "La espada oculta",
-    },
     [42634] = {
         name = "Confrontación en el Templo Oscuro",
     },

@@ -5,6 +5,7 @@ if GetLocale() ~= "itIT" then
 end
 
 local L = BtWQuests.L
+L["AFFLICTION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "Afflizione: Ulthalesh, Mietitrice di Ventomorto"
 L["ARCANE_ALUNETH"] = "Arcano: Aluneth"
 L["ARMS_STROMKAR_THE_WARBREAKER"] = "Armi: Strom'kar, la Spezzaguerra"
 L["ASSASSINATION_THE_KINGSLAYERS"] = "Assassinio: Lame Sterminatrici di Re"
@@ -42,6 +43,7 @@ L["NIGHTBORNE"] = "Nobile Oscuro"
 L["OUTLAW_THE_DREADBLADES"] = "Fuorilegge: Lame dell'Oscurità"
 L["PROTECTION_SCALE_OF_THE_EARTH_WARDER"] = "Protezione: Scaglia del Custode della Terra"
 L["PROTECTION_TRUTHGUARD"] = "Protezione: Scudo della Verità"
+L["RESTORATION_GHANIR_THE_MOTHER_TREE"] = "Rigenerazione: G'hanir, l'Albero Madre"
 L["RESTORATION_SHARASDAL_SCEPTER_OF_TIDES"] = "Rigenerazione: Sharas'dal, Scettro delle Maree"
 L["RETRIBUTION_ASHBRINGER"] = "Castigo: Brandicenere"
 L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "Ombra: Xal'atath, Lama dell'Impero Nero"

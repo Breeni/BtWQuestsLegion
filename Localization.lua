@@ -1,7 +1,7 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 local L = BtWQuests.L
-L["AFFLICATION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "Afflication: Ulthalesh, the Deadwind Harvester"
+L["AFFLICTION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "Affliction: Ulthalesh, the Deadwind Harvester"
 L["ARCANE_ALUNETH"] = "Arcane: Aluneth"
 L["ARMS_STROMKAR_THE_WARBREAKER"] = "Arms: Strom'kar, the Warbreaker"
 L["ASSASSINATION_THE_KINGSLAYERS"] = "Assassination: The Kingslayers"
@@ -93,7 +93,7 @@ L["NIGHTBORNE"] = "Nightborne"
 L["OUTLAW_THE_DREADBLADES"] = "Outlaw: The Dreadblades"
 L["PROTECTION_SCALE_OF_THE_EARTH_WARDER"] = "Protection: Scale of the Earth-Warder"
 L["PROTECTION_TRUTHGUARD"] = "Protection: Truthguard"
-L["RESTORATION_G'HANIR_THE_MOTHER_TREE"] = "Restoration: G'Hanir, the Mother Tree"
+L["RESTORATION_GHANIR_THE_MOTHER_TREE"] = "Restoration: G'Hanir, the Mother Tree"
 L["RESTORATION_SHARASDAL_SCEPTER_OF_TIDES"] = "Restoration: Sharas'dal, Scepter of Tides"
 L["RETRIBUTION_ASHBRINGER"] = "Retribution: Ashbringer"
 L["RETURN_TO_THE_DALARAN_MAILROOM"] = "Return to the Dalaran Mailroom"

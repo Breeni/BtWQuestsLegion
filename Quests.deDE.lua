@@ -3839,9 +3839,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42619] = {
         name = "Champion: Hodir",
     },
-    [42627] = {
-        name = "Die ungesehene Klinge",
-    },
     [42634] = {
         name = "Konfrontation am Schwarzen Tempel",
     },

@@ -3839,9 +3839,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42619] = {
         name = "용사: 호디르",
     },
-    [42627] = {
-        name = "보이지 않는 검",
-    },
     [42634] = {
         name = "검은 사원에서의 대면",
     },

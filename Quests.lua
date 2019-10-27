@@ -1103,6 +1103,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 582000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
+            },
         },
     },
     [37690] = {
@@ -2857,6 +2862,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 98,
                 maxLevel = 114,
                 outdated = 540,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 200,
             },
         },
     },
@@ -19084,6 +19094,25 @@ BtWQuestsDatabase:AddQuestsTable({
         name = "Infused with Power",
         requiredLevel = 98,
         maxLevel = 110,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1500, 1500, 1500, 1500, 1550, 1550, 1550, 1600, 1600, 1600, 1600, 1650, 1650, 150, 110, 75, 35, 
+                },
+                minLevel = 98,
+                maxLevel = 114,
+                outdated = 20,
+            },
+            {
+                type = "money",
+                amounts = {
+                    14600, 15000, 15400, 15800, 16200, 16600, 17000, 17400, 17800, 18200, 18600, 19000, 19400, 
+                },
+                minLevel = 98,
+                maxLevel = 110,
+            },
+        },
     },
     [41052] = {
         name = "A Desperate Plea",
@@ -23577,6 +23606,13 @@ BtWQuestsDatabase:AddQuestsTable({
         name = "Idol of the Wilds",
         requiredLevel = 103,
         maxLevel = 110,
+        rewards = {
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1000,
+            },
+        },
     },
     [42037] = {
         name = "Gathering the Dreamweavers",
@@ -24496,6 +24532,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 101,
                 maxLevel = 110,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 100,
+            },
         },
     },
     [42141] = {
@@ -24976,6 +25017,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 103,
                 maxLevel = 110,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1000,
             },
         },
     },
@@ -27839,6 +27885,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 101,
                 maxLevel = 110,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 500,
+            },
         },
     },
     [42593] = {
@@ -28148,30 +28199,6 @@ BtWQuestsDatabase:AddQuestsTable({
         name = "Champion: Hodir",
         requiredLevel = 98,
         maxLevel = 110,
-    },
-    [42627] = {
-        name = "The Unseen Blade",
-        requiredLevel = 98,
-        maxLevel = 110,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    14800, 14950, 15050, 15200, 15350, 15500, 15600, 15750, 15900, 16050, 16150, 16300, 16450, 1450, 1100, 725, 370, 
-                },
-                minLevel = 98,
-                maxLevel = 114,
-                outdated = 180,
-            },
-            {
-                type = "money",
-                amounts = {
-                    146000, 150000, 154000, 158000, 162000, 166000, 170000, 174000, 178000, 182000, 186000, 190000, 194000, 
-                },
-                minLevel = 98,
-                maxLevel = 110,
-            },
-        },
     },
     [42634] = {
         name = "Confrontation at the Black Temple",
@@ -29106,6 +29133,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 103,
                 maxLevel = 110,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1000,
             },
         },
     },
@@ -31415,6 +31447,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 582000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
             },
         },
     },
@@ -38860,11 +38897,25 @@ BtWQuestsDatabase:AddQuestsTable({
         name = "We Brought the Hammer",
         requiredLevel = 110,
         maxLevel = 110,
+        rewards = {
+            {
+                type = "currency",
+                id = 1299,
+                amount = 20,
+            },
+        },
     },
     [45163] = {
         name = "Cleaning Up",
         requiredLevel = 110,
         maxLevel = 110,
+        rewards = {
+            {
+                type = "currency",
+                id = 1299,
+                amount = 10,
+            },
+        },
     },
     [45174] = {
         name = "The Hunt for Illidan Stormrage",
@@ -39846,6 +39897,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 388000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
             },
         },
     },
@@ -42373,6 +42429,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 388000,
             },
             {
+                type = "currency",
+                id = 1226,
+                amount = 5000,
+            },
+            {
                 type = "reputation",
                 id = 2045,
                 amount = 1500,
@@ -42451,6 +42512,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 388000,
+            },
+            {
+                type = "currency",
+                id = 1226,
+                amount = 2499,
             },
             {
                 type = "reputation",
@@ -43782,6 +43848,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 97000,
             },
             {
+                type = "currency",
+                id = 1226,
+                amount = 100,
+            },
+            {
                 type = "reputation",
                 id = 2045,
                 amount = 75,
@@ -43896,6 +43967,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 97000,
+            },
+            {
+                type = "currency",
+                id = 1226,
+                amount = 100,
             },
             {
                 type = "reputation",

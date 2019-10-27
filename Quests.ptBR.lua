@@ -3839,9 +3839,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42619] = {
         name = "Campeão: Hodir",
     },
-    [42627] = {
-        name = "A lâmina oculta",
-    },
     [42634] = {
         name = "Confronto no Templo Negro",
     },

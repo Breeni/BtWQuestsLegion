@@ -3839,9 +3839,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42619] = {
         name = "勇士：霍迪爾",
     },
-    [42627] = {
-        name = "無形之刃",
-    },
     [42634] = {
         name = "黑暗神廟對峙",
     },

@@ -5,6 +5,7 @@ if GetLocale() ~= "koKR" then
 end
 
 local L = BtWQuests.L
+L["AFFLICTION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "고통: 울타레쉬 - 저승바람 수확기"
 L["ARCANE_ALUNETH"] = "비전: 알루네스"
 L["ARMS_STROMKAR_THE_WARBREAKER"] = "무기: 스트롬카르 - 전쟁파괴자"
 L["ASSASSINATION_THE_KINGSLAYERS"] = "암살: 국왕 시해자"
@@ -42,6 +43,7 @@ L["NIGHTBORNE"] = "나이트본"
 L["OUTLAW_THE_DREADBLADES"] = "무법: 공포의 검"
 L["PROTECTION_SCALE_OF_THE_EARTH_WARDER"] = "방어: 대지의 수호자의 비늘"
 L["PROTECTION_TRUTHGUARD"] = "보호: 진실의 수호자"
+L["RESTORATION_GHANIR_THE_MOTHER_TREE"] = "회복: 그하니르 - 어머니 나무"
 L["RESTORATION_SHARASDAL_SCEPTER_OF_TIDES"] = "복원: 샤라스달 - 해일의 홀"
 L["RETRIBUTION_ASHBRINGER"] = "징벌: 파멸의 인도자"
 L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "암흑: 잘아타스 - 검은 제국의 비수"

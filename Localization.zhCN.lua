@@ -5,6 +5,7 @@ if GetLocale() ~= "zhCN" then
 end
 
 local L = BtWQuests.L
+L["AFFLICTION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "痛苦: 乌萨勒斯，逆风收割者"
 L["ARCANE_ALUNETH"] = "奥术: 艾露尼斯"
 L["ARMS_STROMKAR_THE_WARBREAKER"] = "武器: 斯多姆卡，灭战者"
 L["ASSASSINATION_THE_KINGSLAYERS"] = "奇袭: 弑君者"
@@ -42,6 +43,7 @@ L["NIGHTBORNE"] = "夜之子"
 L["OUTLAW_THE_DREADBLADES"] = "狂徒: 恐惧之刃"
 L["PROTECTION_SCALE_OF_THE_EARTH_WARDER"] = "防护: 大地守护者之鳞"
 L["PROTECTION_TRUTHGUARD"] = "防护: 真理守护者"
+L["RESTORATION_GHANIR_THE_MOTHER_TREE"] = "恢复: 加尼尔，母亲之树"
 L["RESTORATION_SHARASDAL_SCEPTER_OF_TIDES"] = "恢复: 莎拉达尔，潮汐权杖"
 L["RETRIBUTION_ASHBRINGER"] = "惩戒: 灰烬使者"
 L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "暗影: 萨拉塔斯，黑暗帝国之刃"

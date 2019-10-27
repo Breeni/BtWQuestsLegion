@@ -3374,9 +3374,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42611] = {
         name = "符文法师艾纳尔",
     },
-    [42627] = {
-        name = "无形之刃",
-    },
     [42634] = {
         name = "黑暗神殿之战",
     },

@@ -5,6 +5,7 @@ if GetLocale() ~= "ruRU" then
 end
 
 local L = BtWQuests.L
+L["AFFLICTION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "Колдовство: Ултхалеш, Жнец Мертвого Ветра"
 L["ARCANE_ALUNETH"] = "Тайная магия: Алунет"
 L["ARMS_STROMKAR_THE_WARBREAKER"] = "Оружие: Стром'кар, Миротворец"
 L["ASSASSINATION_THE_KINGSLAYERS"] = "Ликвидация: Убийцы Королей"
@@ -89,6 +90,7 @@ L["NIGHTBORNE"] = "Ночнорожденный"
 L["OUTLAW_THE_DREADBLADES"] = "Головорез: Клинки Ужаса"
 L["PROTECTION_SCALE_OF_THE_EARTH_WARDER"] = "Защита: Панцирь Хранителя Земли"
 L["PROTECTION_TRUTHGUARD"] = "Защита: Страж Истины"
+L["RESTORATION_GHANIR_THE_MOTHER_TREE"] = "Исцеление: Г'ханир, Изначальное Древо"
 L["RESTORATION_SHARASDAL_SCEPTER_OF_TIDES"] = "Исцеление: Шарас'дал, Скипетр Приливов"
 L["RETRIBUTION_ASHBRINGER"] = "Воздаяние: Испепелитель"
 L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "Тьма: Ксал'атат, клинок Темной Империи"
