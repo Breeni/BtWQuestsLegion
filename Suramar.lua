@@ -1588,57 +1588,48 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_MOON_GUARD_STRONGHOLD,
     range = {110},
     items = {
         {
-            name = L["BTWQUESTS_KILL_NIGHTBORNE"],
-            breadcrumb = true,
-            aside = true,
+            type = "npc",
+            id = 106095,
             x = 1,
             y = 0,
             connections = {
-                1
+                3
+            },
+        },
+        {
+            type = "npc",
+            id = 101766,
+            connections = {
+                3
+            },
+        },
+        {
+            name = L["BTWQUESTS_KILL_NIGHTBORNE"],
+            breadcrumb = true,
+            aside = true,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 40949,
+            x = 1,
+            connections = {
+                3
+            },
+        },
+        {
+            type = "quest",
+            id = 40883,
+            connections = {
+                2
             },
         },
         {
             type = "quest",
             id = 41030,
             aside = true,
-            x = 1,
-            y = 1,
-        },
-        {
-            name = L["BTWQUESTS_GO_TO_LYREA_WINDFEATHER"],
-            breadcrumb = true,
-            x = 3,
-            y = 0,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "quest",
-            id = 40883,
-            x = 3,
-            y = 1,
-            connections = {
-                3
-            },
-        },
-        {
-            name = L["BTWQUESTS_GO_TO_IVANEL_MEADOWSONG"],
-            breadcrumb = true,
-            x = 5,
-            y = 0,
-            connections = {
-                1
-            },
-        },
-        {
-            type = "quest",
-            id = 40949,
-            x = 5,
-            y = 1,
-            connections = {
-                1
-            },
         },
         {
             type = "quest",
