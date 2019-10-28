@@ -1908,8 +1908,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_SURAMAR_EMINENT_GROWMAIN, {
             },
         },
         {
-            name = L["BTWQUESTS_KILL_THE_STARVING_ETTIN"],
-            breadcrumb = true,
+            type = "kill",
+            id = 104220,
             aside = true,
             x = 1,
             y = 1,
