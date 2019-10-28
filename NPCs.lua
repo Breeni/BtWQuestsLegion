@@ -203,6 +203,50 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [101766] = {
+        name = "Thalrenus Rivertree",
+        locations = {
+            [680] = {
+                {
+                    x = 0.278246,
+                    y = 0.211835,
+                },
+            },
+        },
+    },
+    [103568] = {
+        name = "Mayruna Moonwing",
+        locations = {
+            [680] = {
+                {
+                    x = 0.256725,
+                    y = 0.308796,
+                },
+            },
+        },
+    },
+    [104220] = {
+        name = "Starving Ettin",
+        locations = {
+            [680] = {
+                {
+                    x = 0.225543,
+                    y = 0.27422,
+                },
+            },
+        },
+    },
+    [106095] = {
+        name = "Ivanel Meadowsong",
+        locations = {
+            [680] = {
+                {
+                    x = 0.296905,
+                    y = 0.186393,
+                },
+            },
+        },
+    },
     [106299] = {
         name = "Thisalee Crow",
         locations = {

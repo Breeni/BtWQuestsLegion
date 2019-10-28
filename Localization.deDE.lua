@@ -5,6 +5,7 @@ if GetLocale() ~= "deDE" then
 end
 
 local L = BtWQuests.L
+L["AFFLICTION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "Gebrechen: Ulthalesh, Sense der Totenwinde"
 L["ARCANE_ALUNETH"] = "Arkan: Aluneth"
 L["ARMS_STROMKAR_THE_WARBREAKER"] = "Waffen: Strom'kar der Kriegsbrecher"
 L["ASSASSINATION_THE_KINGSLAYERS"] = "Meucheln: Die Königsmörder"
@@ -49,5 +50,6 @@ L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "Schatten: Xal'atath, Klinge de
 L["SUBTLETY_FANGS_OF_THE_DEVOURER"] = "Täuschung: Reißzähne des Verschlingers"
 L["SURVIVAL_TALONCLAW"] = "Überleben: Fangklaue"
 L["UNHOLY_APOCALYPSE"] = "Unheilig: Apokalypse"
+L["VENGEANCE_ALDRACHI_WARBLADES"] = "Rachsucht: Kriegsklingen der Aldrachi"
 L["VOID_ELF"] = "Leerenelf"
 L["WINDWALKER_FISTS_OF_THE_HEAVENS"] = "Windläufer: Fäuste der Himmel"

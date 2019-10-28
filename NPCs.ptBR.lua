@@ -41,6 +41,18 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [99065] = {
         name = "Thaedris Penacanto",
     },
+    [101766] = {
+        name = "Thalrenus Arvorrio",
+    },
+    [103568] = {
+        name = "Mayruna Lunala",
+    },
+    [104220] = {
+        name = "Gorjala Faminto",
+    },
+    [106095] = {
+        name = "Ivanel Pradocanto",
+    },
     [106299] = {
         name = "Tessália Corvina",
     },

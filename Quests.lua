@@ -17904,6 +17904,10 @@ BtWQuestsDatabase:AddQuestsTable({
         name = "Fate of the Guard",
         level = 110,
         requiredLevel = 110,
+        source = {
+            type = "npc",
+            id = 101766,
+        },
     },
     [40890] = {
         name = "The Tears of Elune",
@@ -18219,6 +18223,10 @@ BtWQuestsDatabase:AddQuestsTable({
         name = "Not Their Last Stand",
         level = 110,
         requiredLevel = 110,
+        source = {
+            type = "npc",
+            id = 106095,
+        },
         rewards = {
             {
                 type = "experience",
@@ -19441,6 +19449,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 582000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
+            },
         },
     },
     [41096] = {
@@ -20379,6 +20392,10 @@ BtWQuestsDatabase:AddQuestsTable({
         name = "Feline Frantic",
         level = 110,
         requiredLevel = 110,
+        source = {
+            type = "npc",
+            id = 103568,
+        },
         rewards = {
             {
                 type = "experience",
@@ -21341,6 +21358,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 103,
                 maxLevel = 110,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1000,
+            },
         },
     },
     [41736] = {
@@ -21895,6 +21917,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 194000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1500,
+            },
         },
     },
     [41785] = {
@@ -22086,6 +22113,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 388000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
             },
         },
     },
@@ -22516,6 +22548,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 97000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1500,
+            },
         },
     },
     [41863] = {
@@ -22611,6 +22648,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 582000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
             },
         },
     },
@@ -22741,6 +22783,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 388000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1500,
+            },
         },
     },
     [41901] = {
@@ -22764,6 +22811,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 103,
                 maxLevel = 110,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1000,
             },
         },
     },
@@ -23915,6 +23967,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 582000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
             },
         },
     },
@@ -26272,6 +26329,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 19400,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1500,
+            },
         },
     },
     [42408] = {
@@ -27428,6 +27490,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 19400,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1500,
+            },
         },
     },
     [42521] = {
@@ -28557,6 +28624,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 582000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
+            },
         },
     },
     [42660] = {
@@ -29271,6 +29343,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 582000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
             },
         },
     },
@@ -30171,6 +30248,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 388000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1500,
+            },
         },
     },
     [42828] = {
@@ -30635,6 +30717,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 101,
                 maxLevel = 110,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 500,
+            },
         },
     },
     [42851] = {
@@ -31061,6 +31148,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 103,
                 maxLevel = 110,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1000,
             },
         },
     },
@@ -31830,6 +31922,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 388000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1500,
+            },
         },
     },
     [43100] = {
@@ -31937,6 +32034,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 582000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
             },
         },
     },
@@ -32911,6 +33013,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 103,
                 maxLevel = 110,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1000,
             },
         },
     },
@@ -34489,6 +34596,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 194000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1500,
+            },
         },
     },
     [43562] = {
@@ -34937,6 +35049,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 582000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 5000,
+            },
         },
     },
     [43698] = {
@@ -35113,6 +35230,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 582000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 1500,
             },
         },
     },
@@ -37573,6 +37695,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 194000,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
+            },
         },
     },
     [44814] = {
@@ -38771,6 +38898,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 19400,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
+            },
         },
     },
     [45143] = {
@@ -39576,6 +39708,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 19400,
             },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
+            },
         },
     },
     [45339] = {
@@ -39595,6 +39732,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 388000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
             },
         },
     },
@@ -39735,6 +39877,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 194000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
             },
         },
     },
@@ -40051,6 +40198,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 19400,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
             },
         },
     },
@@ -40471,6 +40623,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 194000,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
             },
         },
     },
@@ -41322,6 +41479,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 19400,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
             },
         },
     },
@@ -43230,6 +43392,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 19400,
+            },
+            {
+                type = "currency",
+                id = 1220,
+                amount = 2000,
             },
         },
     },

@@ -41,6 +41,18 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [99065] = {
         name = "Thaedris Federsang",
     },
+    [101766] = {
+        name = "Thalrenus Flussbaum",
+    },
+    [103568] = {
+        name = "Mayruna Mondschwinge",
+    },
+    [104220] = {
+        name = "Ausgehungerter Ettin",
+    },
+    [106095] = {
+        name = "Ivanel Wiesenlied",
+    },
     [106299] = {
         name = "Thisalee Krähe",
     },

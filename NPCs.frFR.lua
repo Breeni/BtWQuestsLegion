@@ -41,6 +41,18 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [99065] = {
         name = "Thaedris Chanteplume",
     },
+    [101766] = {
+        name = "Thalrenus Rivebois",
+    },
+    [103568] = {
+        name = "Mayruna Aile-de-lune",
+    },
+    [104220] = {
+        name = "Ettin affamé",
+    },
+    [106095] = {
+        name = "Ivanel Chantrepré",
+    },
     [106299] = {
         name = "Thisalee Corbeau",
     },

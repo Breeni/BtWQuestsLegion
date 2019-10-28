@@ -41,6 +41,18 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [99065] = {
         name = "Thaedris Cantapluma",
     },
+    [101766] = {
+        name = "Thalrenus Riberárbol",
+    },
+    [103568] = {
+        name = "Mayruna Alaluna",
+    },
+    [104220] = {
+        name = "Ettin famélico",
+    },
+    [106095] = {
+        name = "Ivanel Cantaprado",
+    },
     [106299] = {
         name = "Thisalee Cuervo",
     },
