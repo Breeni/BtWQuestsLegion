@@ -1,5 +1,9 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
+if GetLocale() ~= "ruRU" then
+    return
+end
+
 local L = BtWQuests.L
 L["AFFLICTION_ULTHALESH_THE_DEADWIND_HARVESTER"] = "Колдовство: Ултхалеш, Жнец Мертвого Ветра"
 L["ARCANE_ALUNETH"] = "Тайная магия: Алунет"
@@ -57,10 +61,7 @@ L["BTWQUESTS_WARLOCK_CAMPAIGN"] = "Компания Повелителя Пус�
 L["BTWQUESTS_WARLOCK_MOUNT"] = "Маунт: Хаотический скакун гнева повелителя Пустоты"
 L["BTWQUESTS_WARRIOR_CAMPAIGN"] = "Компания Воеводы"
 L["BTWQUESTS_WARRIOR_MOUNT"] = "Маунт: Кровожадный боевой змей воеводы"
-L["CHAMPION_MAXIMILLIAN_OF_NORTHSHIRE"] = "Champion: Maximillian of Northshire"
-L["DALARAN_MAILROOM_ENTRANCE"] = "Dalaran Mailroom Entrance"
 L["DEMONOLOGY_SKULL_OF_THE_MANARI"] = "Демонология: Череп Ман'ари"
-L["DEMON_HUNTER_STARTING_ZONE"] = "Demon Hunter Starting Zone"
 L["DESTRUCTION_SCEPTER_OF_SARGERAS"] = "Разрушение: Скипетр Саргераса"
 L["DISCIPLINE_LIGHTS_WRATH"] = "Послушание: Ярость Света"
 L["ELEMENTAL_THE_FIST_OF_RADEN"] = "Стихии: Кулак Ра-дена"
@@ -72,14 +73,10 @@ L["FROST_EBONCHILL"] = "Лед: Полярная Ночь"
 L["FURY_WARSWORDS_OF_THE_VALARJAR"] = "Неистовство: Боевые мечи валарьяров"
 L["GUARDIAN_CLAWS_OF_URSOC"] = "Страж: Когти Урсока"
 L["HAVOC_TWINBLADES_OF_THE_DECEIVER"] = "Истребление: Парные клинки Искусителя"
-L["HEAD_TO_THE_DALARAN_MAILROOM"] = "Head to the Dalaran Mailroom"
 L["HIGHMOUNTAIN TAUREN"] = "Таурен Крутогорья"
 L["HOLY_THE_SILVER_HAND"] = "Свет: Серебряная Длань"
 L["HOLY_TUURE_BEACON_OF_THE_NAARU"] = "Свет: Т'ууре, Светоч наару"
-L["KILL_EREDAR"] = "Kill Eredar"
-L["KILL_MURLOCS_AROUND_ELDRANIL_SHALLOWS"] = "Kill Murlocs around El'dranil Shallows"
 L["LIGHTFORGED_DRAENEI"] = "Озаренный дреней"
-L["LOST_MAIL"] = "Lost Mail"
 L["MARKSMANSHIP_THASDORAH_LEGACY_OF_THE_WINDRUNNERS"] = "Стрельба: Тас'дора, наследие Ветрокрылых"
 L["MISTWEAVER_SHEILUN_STAFF_OF_THE_MISTS"] = "Ткач туманов: Шей-лун, Посох Туманов"
 L["NIGHTBORNE"] = "Ночнорожденный"
@@ -89,12 +86,10 @@ L["PROTECTION_TRUTHGUARD"] = "Защита: Страж Истины"
 L["RESTORATION_GHANIR_THE_MOTHER_TREE"] = "Исцеление: Г'ханир, Изначальное Древо"
 L["RESTORATION_SHARASDAL_SCEPTER_OF_TIDES"] = "Исцеление: Шарас'дал, Скипетр Приливов"
 L["RETRIBUTION_ASHBRINGER"] = "Воздаяние: Испепелитель"
-L["RETURN_TO_THE_DALARAN_MAILROOM"] = "Return to the Dalaran Mailroom"
 L["SHADOW_XALATATH_BLADE_OF_THE_BLACK_EMPIRE"] = "Тьма: Ксал'атат, клинок Темной Империи"
 L["SUBTLETY_FANGS_OF_THE_DEVOURER"] = "Скрытность: Клыки Пожирателя"
 L["SURVIVAL_TALONCLAW"] = "Выживание: Хищный Коготь"
 L["UNHOLY_APOCALYPSE"] = "Нечестивость: Апокалипсис"
 L["VENGEANCE_ALDRACHI_WARBLADES"] = "Месть: Альдрахийские боевые клинки"
 L["VOID_ELF"] = "Эльф Бездны"
-L["WAIT_FOR_A_MAIL_FROM_MAXIMILLIAN"] = "Wait for a mail from Maximillian"
 L["WINDWALKER_FISTS_OF_THE_HEAVENS"] = "Танцующий с ветром: Кулаки Небес"

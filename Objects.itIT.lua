@@ -1,37 +1,14 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
+if GetLocale() ~= "itIT" then
+    return
+end
+
 BtWQuestsDatabase:UpdateObjectsTable({
-    [250536] = {
-        name = "Intact Greatstag Antler",
-        locations = {
-            [634] = {
-                {
-                    x = 0.499,
-                    y = 0.326,
-                },
-            },
-        },
-    },
     [250990] = {
         name = "Cassa di Reliquie Antiche",
-        locations = {
-            [634] = {
-                {
-                    x = 0.755,
-                    y = 0.508,
-                },
-            },
-        },
     },
     [251425] = {
         name = "Crestabrada Umida",
-        locations = {
-            [641] = {
-                {
-                    x = 0.668,
-                    y = 0.757,
-                },
-            },
-        },
     },
 })
