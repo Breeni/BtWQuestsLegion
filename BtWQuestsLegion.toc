@@ -4,6 +4,11 @@
 ## Notes: Legion quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
+## LoadOnDemand: 1
+## X-BtWQuests: Legion
+## X-BtWQuests-Expansion: 6
+## X-BtWQuests-Expansion-Image: UI-Expansion 0 0.90625 0 0.8125
+## X-Part-Of: BtWQuests
 
 Defines.lua
 
