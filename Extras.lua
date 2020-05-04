@@ -16,6 +16,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
     },
     range = {110},
     items = {
+        --[[
         {
             variations = {
                 {
@@ -106,6 +107,67 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                 1, 2, 
             },
         },
+        ]]
+
+
+
+        {
+            type = "npc",
+            variations = {
+                {
+                    id = 130030,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
+                    },
+                },
+                {
+                    id = 132045,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
+                },
+            },
+            connections = {
+                2,
+            },
+            x = 1,
+            y = 0,
+        },
+        {
+            variations = {
+                {
+                    id = 131963,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_ALLIANCE,
+                        },
+                    },
+                },
+                {
+                    id = 132147,
+                    restrictions = {
+                        {
+                            type = "faction",
+                            id = BTWQUESTS_FACTION_ID_HORDE,
+                        },
+                    },
+                },
+            },
+            connections = {
+                2,
+            },
+        },
+
+
+
+
         {
             variations = {
                 {
@@ -129,8 +191,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                     },
                 },
             },
-            x = 2,
-            y = 3,
+            x = 1,
         },
         {
             variations = {
@@ -155,12 +216,19 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                     },
                 },
             },
-            x = 4,
-            y = 3,
             connections = {
-                1, 2,
+                2, 3,
             },
         },
+        {
+            type = "object",
+            id = 280948,
+            connections = {
+                3,
+            },
+        },
+        
+
 
         
         {
@@ -187,7 +255,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                 }
             },
             x = 2,
-            y = 4,
             connections = {
                 3, 4
             },
@@ -215,8 +282,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                     },
                 }
             },
-            x = 4,
-            y = 4,
             connections = {
                 4
             },
@@ -224,8 +289,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
         {
             type = "quest",
             id = 50229,
-            x = 6,
-            y = 4,
         },
 
         
@@ -253,7 +316,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                 }
             },
             x = 1,
-            y = 5,
         },
         {
             variations = {
@@ -278,8 +340,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                     },
                 }
             },
-            x = 3,
-            y = 5,
         },
         
         {
@@ -305,8 +365,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                     },
                 }
             },
-            x = 5,
-            y = 5,
             connections = {
                 1
             },
@@ -336,7 +394,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                 }
             },
             x = 3,
-            y = 6,
             connections = {
                 1
             },
@@ -366,11 +423,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                 }
             },
             x = 3,
-            y = 7,
-            connections = {
-                1
-            },
         },
+        --[[
         {
             variations = {
                 {
@@ -396,7 +450,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
             },
             breadcrumb = true,
             x = 3,
-            y = 8,
             connections = {
                 1
             },
@@ -405,8 +458,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
             type = "quest",
             id = 50057,
             x = 3,
-            y = 9,
         },
+        ]]
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_LOST_MAIL, {
