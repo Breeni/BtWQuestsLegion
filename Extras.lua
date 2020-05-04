@@ -112,9 +112,9 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
 
 
         {
-            type = "npc",
             variations = {
                 {
+                    type = "npc",
                     id = 130030,
                     restrictions = {
                         {
@@ -124,6 +124,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                     },
                 },
                 {
+                    type = "npc",
                     id = 132045,
                     restrictions = {
                         {
@@ -142,6 +143,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
         {
             variations = {
                 {
+                    type = "npc",
                     id = 131963,
                     restrictions = {
                         {
@@ -151,6 +153,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
                     },
                 },
                 {
+                    type = "npc",
                     id = 132147,
                     restrictions = {
                         {
