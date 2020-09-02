@@ -1,6 +1,6 @@
 ## Interface: 80300
 ## Title: BtWQuests: Legion
-## Version: 27
+## Version: 28
 ## Notes: Legion quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
