@@ -12,7 +12,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
     },
     completed = {
         type = "quest",
-        id = 50312,
+        ids = {50374, 50364},
+        count = 1,
     },
     range = {110},
     items = {
