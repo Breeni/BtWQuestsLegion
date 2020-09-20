@@ -338,7 +338,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_LIGHTSHEART, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_ORDERHALL_MEATBALL, {
-    name = C_Garrison.GetFollowerInfo(986).name,
+    name = { -- Meatball
+        type = "follower",
+        id = 986,
+    },
     category = BTWQUESTS_CATEGORY_LEGION_ORDERHALL,
     expansion = BTWQUESTS_EXPANSION_LEGION,
     prerequisites = {
