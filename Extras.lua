@@ -7,7 +7,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
     prerequisites = {
         {
             type = "level",
-            level = 110,
+            level = 45,
         },
     },
     completed = {

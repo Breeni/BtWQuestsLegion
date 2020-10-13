@@ -8,7 +8,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB
     prerequisites = {
         {
             type = "level",
-            level = 110,
+            level = 45,
         },
     },
     completed = {
