@@ -1,6 +1,6 @@
 ## Interface: 90001
 ## Title: BtWQuests: Legion
-## Version: 29
+## Version: 29.1
 ## Notes: Legion quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
