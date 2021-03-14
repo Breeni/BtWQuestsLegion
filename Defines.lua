@@ -378,7 +378,7 @@ function BtWQuests.LegionArtifactPrerequisites(class, specIndex)
                 variations = {
                     { -- Havent done any yet
                         type = "level",
-                        level = 98,
+                        level = 10,
                         restrictions = {
                             type = "quest",
                             ids = {
@@ -391,7 +391,7 @@ function BtWQuests.LegionArtifactPrerequisites(class, specIndex)
                     },
                     { -- Didnt select specIndex first
                         type = "level",
-                        level = 102,
+                        level = 10,
                         restrictions = {
                             type = "quest",
                             id = classArtifactQuests[specIndex][1],
@@ -401,7 +401,7 @@ function BtWQuests.LegionArtifactPrerequisites(class, specIndex)
                     },
                     {
                         type = "level",
-                        level = 98,
+                        level = 10,
                     },
                 },
             },
@@ -428,7 +428,7 @@ function BtWQuests.LegionArtifactPrerequisites(class, specIndex)
                 variations = {
                     { -- Havent done any yet
                         type = "level",
-                        level = 98,
+                        level = 10,
                         restrictions = {
                             type = "quest",
                             ids = {
@@ -442,7 +442,7 @@ function BtWQuests.LegionArtifactPrerequisites(class, specIndex)
                     },
                     { -- Didnt select specIndex first
                         type = "level",
-                        level = 102,
+                        level = 10,
                         restrictions = {
                             type = "quest",
                             id = classArtifactQuests[specIndex][1],
@@ -452,7 +452,7 @@ function BtWQuests.LegionArtifactPrerequisites(class, specIndex)
                     },
                     {
                         type = "level",
-                        level = 98,
+                        level = 10,
                     },
                 },
             },
@@ -505,7 +505,7 @@ function BtWQuests.LegionArtifactPrerequisites(class, specIndex)
                 variations = {
                     { -- Havent done any yet
                         type = "level",
-                        level = 98,
+                        level = 10,
                         restrictions = {
                             type = "quest",
                             ids = {
@@ -520,7 +520,7 @@ function BtWQuests.LegionArtifactPrerequisites(class, specIndex)
                     },
                     { -- Didnt select specIndex first
                         type = "level",
-                        level = 102,
+                        level = 10,
                         restrictions = {
                             type = "quest",
                             id = classArtifactQuests[specIndex][1],
@@ -530,7 +530,7 @@ function BtWQuests.LegionArtifactPrerequisites(class, specIndex)
                     },
                     {
                         type = "level",
-                        level = 98,
+                        level = 10,
                     },
                 },
             },
