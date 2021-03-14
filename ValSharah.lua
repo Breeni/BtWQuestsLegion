@@ -657,25 +657,12 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK, {
     major = true,
     range = {98,45},
     prerequisites = {
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
-        },
     },
     completed = {
         type = "quest",
         id = 38691,
     },
     items = {
-        {
-            type = "chain",
-            id = BTWQUESTS_CHAIN_LEGION_VALSHARAH_INTO_THE_NIGHTMARE,
-            x = 3,
-            y = 0,
-            connections = {
-                2
-            },
-        },
         {
             name = "Head to the top floor of Hearthrow Manor",
             breadcrumb = true,
@@ -686,7 +673,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_BRADENSBROOK, {
                 3
             },
         },
-        { -- @TODO Alternative? 39149
+        { -- @TODO Alternative 39149, different source npc
             type = "quest",
             id = 38643,
             x = 3,
