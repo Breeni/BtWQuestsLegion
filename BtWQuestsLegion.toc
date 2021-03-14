@@ -75,6 +75,7 @@ Index.ruRU.lua
 Index.zhCN.lua
 Index.zhTW.lua
 
+Introduction.lua
 DeathKnight.lua
 DemonHunter.lua
 Druid.lua
