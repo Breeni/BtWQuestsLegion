@@ -467,9 +467,22 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_EPILOGUE, {
     },
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_LOST_MAIL, {
-    name = L["LOST_MAIL"],
+    name = { -- Lost Mail
+        type = "quest",
+        id = 41368,
+    },
     category = nil,
     expansion = BTWQUESTS_EXPANSION_LEGION,
+    prerequisites = {
+        {
+            type = "level",
+            level = 10,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 41368,
+    },
     completed = {
         type = "quest",
         id = 50247,
