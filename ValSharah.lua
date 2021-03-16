@@ -1156,12 +1156,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_WILDKIN, {
             x = 2,
             y = 2,
         },
-        {
-            type = "quest",
-            id = 43324,
-            x = 6,
-            y = 2,
-        },
     }
 })
 BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_GRIZZLEWEALD, {
@@ -1269,15 +1263,26 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING, {
     },
     items = {
         {
+            type = "area",
+            id = 7680,
+            x = 0,
+            y = 0,
+            locations = {
+                [641] = {
+                    {
+                        x = 0.5460,
+                        y = 0.8354,
+                    },
+                },
+            },
+            connections = {
+                3
+            },
+        },
+        {
             type = "npc",
             id = 93600,
-            -- name = "Go to Saylanna Riverbreeze",
-            -- breadcrumb = true,
-            -- onClick = function ()
-            --     BtWQuests_ShowMapWithWaypoint(MAP_ID, 0.5375, 0.7983, "Saylanna Riverbreeze")
-            -- end,
             x = 3,
-            y = 0,
             connections = {
                 3, 4,
             },
@@ -1286,7 +1291,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING, {
             name = "Kill Thistleleaf",
             breadcrumb = true,
             x = 6,
-            y = 0,
             connections = {
                 4,
             },
@@ -1296,25 +1300,18 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_VALSHARAH_LUNARWING, {
             id = 38842,
             aside = true,
             x = 0,
-            y = 1,
         },
         {
             type = "quest",
             id = 40220,
-            x = 2,
-            y = 1,
         },
         {
             type = "quest",
             id = 40221,
-            x = 4,
-            y = 1,
         },
         {
             type = "quest",
             id = 38862,
-            x = 6,
-            y = 1,
         },
     }
 })
