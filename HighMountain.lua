@@ -1177,7 +1177,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET, {
     },
     completed = {
         type = "quest",
-        id = 40228,
+        ids = {40228, 39867, 39178},
+        count = 3,
     },
     items = {
         {
@@ -1305,24 +1306,17 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET, {
             id = 39867,
             x = 0,
             y = 3,
-            connections = {
-                2,
-            },
         },
         {
             type = "quest",
             id = 39178,
             x = 2,
             y = 3,
-            connections = {
-                1,
-            },
         },
         {
             type = "quest",
             id = 40228,
-            x = 3,
-            y = 4,
+            x = 5,
             connections = {
                 1, 2,
             },
@@ -1358,8 +1352,7 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET, {
                 id = 39386,
                 status = {'active', 'completed'}
             },
-            x = 2,
-            y = 5,
+            x = 4,
         },
         {
             type = "chain",
@@ -1396,8 +1389,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_HEMET, {
                 id = 40244,
                 status = {'active', 'completed'}
             },
-            x = 4,
-            y = 5,
         },
     }
 })
@@ -1441,16 +1432,8 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_STONEDARK, {
     },
     items = {
         {
-            type = "quest",
-            id = 40229,
-            onClick = {
-                type = "chain",
-                id = BTWQUESTS_CHAIN_LEGION_HIGHMOUNTAIN_BLOODTOTEM_TRIBE,
-                scrollTo = {
-                    type = "quest",
-                    id = 40229
-                },
-            },
+            type = "npc",
+            id = 95799,
             x = 3,
             y = 0,
             connections = {
