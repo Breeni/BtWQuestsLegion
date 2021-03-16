@@ -12,6 +12,10 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB
             type = "level",
             level = 45,
         },
+        {
+            type = "quest",
+            ids = {43341, 45727}
+        },
     },
     active = {
         type = "quest",
@@ -265,6 +269,11 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_TREASURE_MASTER_IK
             level = 45,
         },
         {
+            type = "quest",
+            ids = {43341, 45727},
+            lowPriority = true,
+        },
+        {
             type = "chain",
             id = BTWQUESTS_CHAIN_LEGION_BROKENSHORE_BREACHING_THE_TOMB,
             upto = 46845,
@@ -358,6 +367,11 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_BROKENSHORE_A_FOUND_MEMENTO, {
         {
             type = "level",
             level = 45,
+        },
+        {
+            type = "quest",
+            ids = {43341, 45727},
+            lowPriority = true,
         },
         {
             type = "chain",
