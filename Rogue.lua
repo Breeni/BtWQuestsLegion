@@ -32,10 +32,18 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
     buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Rogue-Assassination",
     items = {
         {
+            type = "npc",
+            id = 94138,
+            x = 3,
+            y = 0,
+            connections = {
+                1, 2
+            },
+        },
+        {
             type = "quest",
             id = 42501,
             x = 2,
-            y = 0,
             connections = {
                 2
             },
@@ -51,7 +59,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
             type = "quest",
             id = 42503,
             x = 3,
-            y = 2,
             connections = {
                 1
             },
@@ -60,7 +67,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
             type = "quest",
             id = 42539,
             x = 3,
-            y = 3,
             connections = {
                 1
             },
@@ -69,7 +75,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
             type = "quest",
             id = 42568,
             x = 3,
-            y = 4,
             connections = {
                 1,
             },
@@ -78,7 +83,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_ASSASSINATION, {
             type = "quest",
             ids = {42504, 42627},
             x = 3,
-            y = 5,
         },
     },
 })
@@ -115,10 +119,18 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW, {
     buttonImage = "Interface\\AddOns\\BtWQuestsLegion\\UI-Chain-Rogue-Outlaw",
     items = {
         {
+            type = "npc",
+            id = 94159,
+            x = 3,
+            y = 0,
+            connections = {
+                1,
+            },
+        },
+        {
             type = "quest",
             id = 40847,
             x = 3,
-            y = 0,
             connections = {
                 1
             },
@@ -127,7 +139,6 @@ BtWQuestsDatabase:AddChain(BTWQUESTS_CHAIN_LEGION_CLASSES_ROGUE_OUTLAW, {
             type = "quest",
             id = 40849,
             x = 3,
-            y = 1,
         },
     },
 })
