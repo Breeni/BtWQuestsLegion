@@ -1623,6 +1623,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40120] = {
         name = "Un destino turbio",
     },
+    [40122] = {
+        name = "Cenarius, vigilante de la arboleda",
+    },
     [40123] = {
         name = "El pacto Nocheterna",
     },
@@ -3983,6 +3986,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42776] = {
         name = "Dos dignos",
+    },
+    [42782] = {
+        name = "Prepararse",
     },
     [42786] = {
         name = "Restos grotescos",

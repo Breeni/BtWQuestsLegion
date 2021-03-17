@@ -1617,6 +1617,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40120] = {
         name = "Un destino turbio",
     },
+    [40122] = {
+        name = "Cenarius, protector de la arboleda",
+    },
     [40123] = {
         name = "El pacto de los Nato Nocturno",
     },
@@ -3977,6 +3980,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42776] = {
         name = "Dos personas dignas",
+    },
+    [42782] = {
+        name = "A prepararse",
     },
     [42786] = {
         name = "Restos grotescos",

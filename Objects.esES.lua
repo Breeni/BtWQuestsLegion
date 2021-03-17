@@ -6,6 +6,12 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateObjectsTable({
+    [247694] = {
+        name = "Morral de Kel'danath",
+    },
+    [250383] = {
+        name = "Reliquia Sombra Lunar",
+    },
     [250990] = {
         name = "Cajón de reliquias antiguas",
     },

@@ -9,14 +9,44 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [38237] = {
         name = "Maximillian de Comté-du-Nord",
     },
+    [89975] = {
+        name = "Sénégos",
+    },
+    [89978] = {
+        name = "Projection de Sénégos",
+    },
+    [90749] = {
+        name = "Amiral du ciel Rogers",
+    },
+    [90866] = {
+        name = "Maître-bricoleur Suprétincelle",
+    },
     [91065] = {
         name = "Maître de chai Voodani",
+    },
+    [91109] = {
+        name = "Malfurion Hurlorage",
+    },
+    [91131] = {
+        name = "Runas le Gueux",
+    },
+    [91462] = {
+        name = "Malfurion Hurlorage",
+    },
+    [92680] = {
+        name = "Lyanis Tombelune",
+    },
+    [92697] = {
+        name = "Isoraen Astrenuit",
     },
     [92802] = {
         name = "Gravax le Déprédateur",
     },
     [93600] = {
         name = "Saylanna Rivebrise",
+    },
+    [93779] = {
+        name = "Commandant Lorna Crowley",
     },
     [94101] = {
         name = "Laeni Tirargent",
@@ -36,6 +66,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [97258] = {
         name = "Ootasa Sabot-du-Vent",
     },
+    [97662] = {
+        name = "Jale Crin-de-Rive",
+    },
+    [97666] = {
+        name = "Brave-guerrier Oro",
+    },
     [97974] = {
         name = "Lorna Grand-Pied",
     },
@@ -45,8 +81,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [98587] = {
         name = "Ancêtre de Morheim",
     },
+    [98825] = {
+        name = "Marcheur des esprits Corne-d'Ebène",
+    },
     [99065] = {
         name = "Thaedris Chanteplume",
+    },
+    [99788] = {
+        name = "Morhun Brassauvage",
     },
     [99905] = {
         name = "Glaise Plume-Grise",
@@ -54,11 +96,32 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [101766] = {
         name = "Thalrenus Rivebois",
     },
+    [102938] = {
+        name = "Tyrande Murmevent",
+    },
+    [102988] = {
+        name = "Archimage Khadgar",
+    },
+    [103022] = {
+        name = "Tyrande Murmevent",
+    },
     [103568] = {
         name = "Mayruna Aile-de-lune",
     },
     [104220] = {
         name = "Ettin affamé",
+    },
+    [104728] = {
+        name = "Tyrande Murmevent",
+    },
+    [104799] = {
+        name = "Tyrande Murmevent",
+    },
+    [104885] = {
+        name = "Tyrande Murmevent",
+    },
+    [104921] = {
+        name = "Tyrande Murmevent",
     },
     [106095] = {
         name = "Ivanel Chantrepré",
@@ -68,6 +131,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [106915] = {
         name = "Marius Gangreplaie",
+    },
+    [107126] = {
+        name = "Marchevallon Farodin",
     },
     [107245] = {
         name = "Marius Gangreplaie",
@@ -99,8 +165,20 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [110987] = {
         name = "Oeil-de-nuit",
     },
+    [112130] = {
+        name = "Archimage Khadgar",
+    },
+    [112959] = {
+        name = "Amiral de la flotte Téthys",
+    },
+    [113686] = {
+        name = "Archimage Khadgar",
+    },
     [121754] = {
         name = "Vereesa Coursevent",
+    },
+    [124312] = {
+        name = "Grand exarque Turalyon",
     },
     [130030] = {
         name = "Kelsey Etinçacier",

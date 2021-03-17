@@ -1623,6 +1623,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40120] = {
         name = "Un torbido destino",
     },
+    [40122] = {
+        name = "Cenarius, Custode della Selva",
+    },
     [40123] = {
         name = "Il patto dei Nobili Oscuri",
     },
@@ -3989,6 +3992,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42776] = {
         name = "Due campioni degni",
+    },
+    [42782] = {
+        name = "Essere pronti",
     },
     [42786] = {
         name = "Resti grotteschi",

@@ -1632,6 +1632,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40120] = {
         name = "이젠 편히 쉬세요",
     },
+    [40122] = {
+        name = "숲의 수호자 세나리우스",
+    },
     [40123] = {
         name = "나이트본의 맹세",
     },
@@ -4004,6 +4007,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42776] = {
         name = "두 명의 용사",
+    },
+    [42782] = {
+        name = "전투 준비",
     },
     [42786] = {
         name = "잔혹한 잔해",

@@ -1617,6 +1617,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40120] = {
         name = "Ein unwürdiges Schicksal",
     },
+    [40122] = {
+        name = "Cenarius, Hüter des Hains",
+    },
     [40123] = {
         name = "Der Pakt der Nachtgeborenen",
     },
@@ -3933,6 +3936,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [42776] = {
         name = "Zwei Würdige",
     },
+    [42782] = {
+        name = "Allzeit bereit",
+    },
     [42786] = {
         name = "Groteske Überreste",
     },
@@ -4689,6 +4695,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [43899] = {
         name = "Rösser der Verdammten",
     },
+    [43926] = {
+        name = "Die Rückkehr der Legion",
+    },
     [43928] = {
         name = "Anhäufungen der Qual",
     },
@@ -4829,6 +4838,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [44257] = {
         name = "Eine Sternschnuppe",
+    },
+    [44281] = {
+        name = "Allzeit bereit",
     },
     [44282] = {
         name = "Das Auge Azsharas: Die gefrorene Seele",

@@ -1623,6 +1623,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40120] = {
         name = "Un sombre destin",
     },
+    [40122] = {
+        name = "Cénarius, gardien du Bosquet",
+    },
     [40123] = {
         name = "Le pacte des Sacrenuit",
     },
@@ -3980,6 +3983,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42776] = {
         name = "Deux nouveaux champions",
+    },
+    [42782] = {
+        name = "Fin prêts",
     },
     [42786] = {
         name = "Dépouille grotesque",

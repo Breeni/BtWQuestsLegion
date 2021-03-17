@@ -12,5 +12,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [251425] = {
         name = "Grisitchi tendre",
     },
+    [251571] = {
+        name = "Ashilvara, verset 1",
+    },
 })
 ]])()

@@ -6,6 +6,12 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateObjectsTable({
+    [243700] = {
+        name = "被遗忘者作战计划",
+    },
+    [250383] = {
+        name = "月影圣物",
+    },
     [250536] = {
         name = "完整的雄鹿鹿角",
     },

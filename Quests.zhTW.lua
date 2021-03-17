@@ -1632,6 +1632,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40120] = {
         name = "前途黯淡",
     },
+    [40122] = {
+        name = "森林守護者，塞納留斯",
+    },
     [40123] = {
         name = "夜裔契印",
     },
@@ -4004,6 +4007,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42776] = {
         name = "強者成雙",
+    },
+    [42782] = {
+        name = "準備萬全",
     },
     [42786] = {
         name = "古怪的遺體",

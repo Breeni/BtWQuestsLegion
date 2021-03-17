@@ -6,6 +6,12 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateObjectsTable({
+    [245328] = {
+        name = "Pergaminho Encantado",
+    },
+    [250383] = {
+        name = "Relíquia de Sombraluna",
+    },
     [250990] = {
         name = "Caixote de Relíquias Ancestrais",
     },

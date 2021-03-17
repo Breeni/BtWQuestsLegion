@@ -1620,6 +1620,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40120] = {
         name = "Um destino obscuro",
     },
+    [40122] = {
+        name = "Cenarius, o Guardião do Bosque",
+    },
     [40123] = {
         name = "O pacto dos Filhos da Noite",
     },
@@ -3980,6 +3983,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42776] = {
         name = "Dois valorosos",
+    },
+    [42782] = {
+        name = "Preparação",
     },
     [42786] = {
         name = "Restos grotescos",

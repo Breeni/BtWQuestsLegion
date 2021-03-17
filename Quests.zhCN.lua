@@ -1632,6 +1632,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [40120] = {
         name = "凄惨命运",
     },
+    [40122] = {
+        name = "森林守护者，塞纳留斯",
+    },
     [40123] = {
         name = "夜之子",
     },
@@ -4004,6 +4007,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [42776] = {
         name = "两位助手",
+    },
+    [42782] = {
+        name = "整装待发",
     },
     [42786] = {
         name = "怪异的残渣",

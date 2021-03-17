@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateObjectsTable({
+    [245328] = {
+        name = "Pergamena Incantata",
+    },
     [250990] = {
         name = "Cassa di Reliquie Antiche",
     },
