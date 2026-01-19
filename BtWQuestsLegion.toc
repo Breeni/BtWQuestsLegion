@@ -1,4 +1,4 @@
-## Interface: 110205, 110207
+## Interface: 110205, 110207, 120000
 ## Title: BtWQuests: Legion
 ## Version: @project-version@
 ## Notes: Legion quest data for BtWQuests
